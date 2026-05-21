@@ -1,4 +1,4 @@
-**ai-text-classifier**  
+**llm-text-detector**  
 Computational Linguistics 2 Project  
    
 Obiettivo del progetto
