@@ -1,4 +1,4 @@
-**lc2**  
+**ai-text-classifier**  
 Computational Linguistics 2 Project  
    
 Obiettivo del progetto
