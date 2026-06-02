@@ -1,0 +1,436 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E' una battuta o è la verità?
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	battuta	battuta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	o	o	CCONJ	CC	_	7	cc	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verità	verità	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il tono è scherzoso, il Cremlino precisa che non di audio si tratta ma di resoconto stenografico, tuttavia il succo del discorso del leader di Mosca non è affatto ironico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tono	tono	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	scherzoso	scherzoso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Cremlino	Cremlino	PROPN	SP	_	8	nsubj	_	_
+8	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	audio	audio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	resoconto	resoconto	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18	stenografico	stenografico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	34	punct	_	_
+20	tuttavia	tuttavia	ADV	B	_	34	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	succo	succo	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	leader	leader	NOUN	S	_	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Mosca	Mosca	PROPN	SP	_	28	nmod	_	_
+31	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	affatto	affatto	ADV	B	_	34	advmod	_	_
+34	ironico	ironico	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Durante la conferenza stampa con il premier Paolo Gentiloni in visita a Sochi, sul Mar Nero, la Russia rilancia una guerra dei tape scatenata, ormai da settimane, grazie all'esposizione mediatica della Casa Bianca guidata da Trump e ai suoi continui riferimenti a registrazioni di ogni tipo.
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+4	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	3	compound	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	premier	premier	NOUN	S	_	3	nmod	_	_
+8	Paolo	Paolo	PROPN	SP	_	7	nmod	_	_
+9	Gentiloni	Gentiloni	PROPN	SP	_	8	flat:name	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	visita	visita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Sochi	Soco	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Mar	Mar	PROPN	SP	_	22	obl	_	_
+18	Nero	Nero	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Russia	Russia	PROPN	SP	_	22	nsubj	_	_
+22	rilancia	rilanciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	tape	tape	NOUN	S	Number=Sing	24	nmod	_	_
+28	scatenata	scatenato	ADJ	A	_	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	22	punct	_	_
+30	ormai	ormai	ADV	B	_	32	advmod	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	22	punct	_	_
+34	grazie	grazie	NOUN	S	_	37	case	_	_
+35-36	all'	_	_	_	_	_	_	_	SpaceAfter=No
+35	a	a	ADP	E	_	34	fixed	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+38	mediatica	mediatico	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+42	Bianca	Bianca	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	_
+43	guidata	guidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	41	acl	_	_
+44	da	da	ADP	E	_	45	case	_	_
+45	Trump	Trump	PROPN	SP	_	43	obl:agent	_	_
+46	e	e	CCONJ	CC	_	51	cc	_	_
+47-48	ai	_	_	_	_	_	_	_	_
+47	a	a	ADP	E	_	51	case	_	_
+48	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+49	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	51	det:poss	_	_
+50	continui	continuo	ADJ	A	Gender=Masc|Number=Plur	51	amod	_	_
+51	riferimenti	riferimento	NOUN	S	Gender=Masc|Number=Plur	45	conj	_	_
+52	a	a	ADP	E	_	53	case	_	_
+53	registrazioni	registrazione	NOUN	S	Gender=Fem|Number=Plur	51	nmod	_	_
+54	di	di	ADP	E	_	56	case	_	_
+55	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	56	det	_	_
+56	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 4
+# text = Putin, più seriamente, dice che gli Stati uniti sono vittime di "una schizofrenia politica.
+1	Putin	Putin	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	seriamente	seriamente	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Stati	Stato	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+10	uniti	unito	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	6	ccomp	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	schizofrenia	schizofrenia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	politica	politico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Non si spiega altrimenti il caso creato intorno al colloquio con Lavrov durante il quale non è stato rivelato alcun segreto".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	altrimenti	altrimenti	ADV	B	_	3	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caso	caso	NOUN	S	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+7	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	intorno	intorno	ADV	B	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	Lavrov	Lavrov	PROPN	SP	_	11	nmod	_	_
+14	durante	durante	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	quale	quale	PRON	PR	Number=Sing|PronType=Rel	20	obl	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+21	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+22	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il capo del Cremlino sostiene che l'affaire lo ha fatto "ridere", ma che sulla Russia, in America, si dicono "un sacco di stupidaggini", che tutto questo "serve a creare un diffuso sentimento anti-russo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	capo	capo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Cremlino	Cremlino	PROPN	SP	_	2	nmod	_	_
+6	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	affaire	affaire	VERB	V	VerbForm=Inf	12	csubj	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	ridere	ridere	VERB	V	VerbForm=Inf	12	ccomp	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	27	punct	_	_
+17	ma	ma	CCONJ	CC	_	27	cc	_	_
+18	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Russia	Russia	PROPN	SP	_	27	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	America	America	PROPN	SP	_	27	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+28	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	stupidaggini	stupidaggine	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	30	punct	_	_
+35	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+36	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	39	obl	_	_
+37	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	36	obj	_	_
+38	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+40	a	a	ADP	E	_	41	mark	_	_
+41	creare	creare	VERB	V	VerbForm=Inf	39	xcomp	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	diffuso	diffuso	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	_
+44	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+45	anti	anti	ADJ	A	_	44	amod	_	SpaceAfter=No
+46	-	-	PUNCT	FF	_	45	punct	_	SpaceAfter=No
+47	russo	russo	ADJ	A	Gender=Masc|Number=Sing	45	conj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Se gli americani non lo capiscono sono stupidi, se invece capiscono e insistono sono pericolosi".
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	americani	americano	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	capiscono	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	stupidi	stupido	ADJ	A	Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	se	se	SCONJ	CS	_	12	mark	_	_
+11	invece	invece	ADV	B	_	12	advmod	_	_
+12	capiscono	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	insistono	insistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	pericolosi	pericoloso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = Parole naturalmente rivolte anche a Trump.
+1	Parole	parola	PROPN	SP	_	0	root	_	_
+2	naturalmente	naturalmente	ADV	B	_	3	advmod	_	_
+3	rivolte	rivolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Trump	Trump	PROPN	SP	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = "Non dò giudizi sulla sua presidenza, le valutazione spettano ai suoi cittadini, non è affar nostro.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	dò	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	giudizi	giudizio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	spettano	spettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	affar	affare	VERB	V	VerbForm=Inf	3	conj	_	_
+21	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Valuteremo più avanti questa presidenza".
+1	Valuteremo	Valutere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	avanti	avanti	ADV	B	_	1	advmod	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = In prima fila durante la conferenza stampa, sorride anche il protagonista del caso, Lavrov, e scappa una risata anche a Gentiloni, che sulle sanzioni alla Russia dice:
+1	In	in	ADP	E	_	3	case	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	fila	fila	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4	durante	durante	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	6	compound	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	protagonista	protagonista	NOUN	S	Number=Sing	9	nsubj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	caso	caso	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	Lavrov	Lavrov	PROPN	SP	_	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	scappa	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	risata	risata	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	anche	anche	ADV	B	_	25	advmod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Gentiloni	Gentiloni	PROPN	SP	_	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+28-29	sulle	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	_
+31-32	alla	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Russia	Russia	PROPN	SP	_	30	nmod	_	_
+34	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 12
+# text = "Nessuno pensi che l'Italia romperà in solitaria con i suoi alleati" dell'Unione Europea su questo tema, ma allo stesso tempo nessuno creda che decisioni sul rinnovo delle sanzioni dopo la crisi Ucraina "possano essere prese con il pilota automatico senza essere precedute da discussioni".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	pensi	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Italia	Italia	PROPN	SP	_	7	nsubj	_	_
+7	romperà	rompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	solitaria	solitaria	ADJ	A	Gender=Fem|Number=Sing	7	obl	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	alleati	alleato	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	17	punct	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Unione	Unione	PROPN	SP	_	13	nmod	_	_
+18	Europea	europea	PROPN	SP	_	17	flat:name	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	tema	tema	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	29	punct	_	_
+23	ma	ma	CCONJ	CC	_	29	cc	_	_
+24-25	allo	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	27	case	_	_
+25	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+28	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	29	nsubj	_	_
+29	creda	credere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+30	che	che	SCONJ	CS	_	45	mark	_	_
+31	decisioni	decisione	NOUN	S	Gender=Fem|Number=Plur	45	nsubj:pass	_	_
+32-33	sul	_	_	_	_	_	_	_	_
+32	su	su	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	rinnovo	rinnovo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+38	dopo	dopo	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	crisi	crisi	NOUN	S	Gender=Fem	37	nmod	_	_
+41	Ucraina	Ucraina	PROPN	SP	_	40	nmod	_	_
+42	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+43	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+44	essere	essere	AUX	VA	VerbForm=Inf	45	aux:pass	_	_
+45	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	29	ccomp	_	_
+46	con	con	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+49	automatico	automatico	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	_
+50	senza	senza	ADP	E	_	52	mark	_	_
+51	essere	essere	AUX	VA	VerbForm=Inf	52	aux:pass	_	_
+52	precedute	precedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	45	advcl	_	_
+53	da	da	ADP	E	_	54	case	_	_
+54	discussioni	discussione	NOUN	S	Gender=Fem|Number=Plur	52	obl:agent	_	SpaceAfter=No
+55	"	"	PUNCT	FB	_	54	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Alla fine della conferenza stampa una domanda rimane però una domanda:
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	stampa	stampare	NOUN	S	Gender=Fem|Number=Sing	6	compound	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	però	però	ADV	B	_	10	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 14
+# text = l'intelligence russa può arrivare davvero fin dentro il cuore del potere americano, nello Studio Ovale?
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	intelligence	intelligence	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	russa	russo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+6	davvero	davvero	ADV	B	_	5	advmod	_	_
+7	fin	fino	ADP	E	_	8	case	_	_
+8	dentro	dentro	ADV	B	_	5	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	potere	potere	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	americano	americano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16-17	nello	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Studio	studio	PROPN	SP	_	5	obl	_	_
+19	Ovale	Ovale	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

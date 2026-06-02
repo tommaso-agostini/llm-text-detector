@@ -1,0 +1,398 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’Italia non supera il girone eliminatorio, prima e seconda sono Germania e Repubblica Ceca che poi si contenderanno la finale.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	girone	girone	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	eliminatorio	eliminatorio	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	prima	prima	ADV	B	_	13	advmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	seconda	seconda	ADV	B	_	9	conj	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	Germania	Germania	PROPN	SP	_	4	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Repubblica	Repubblica	PROPN	SP	_	13	nsubj	_	_
+16	Ceca	cecare	PROPN	SP	_	15	flat:name	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	_
+18	poi	poi	ADV	B	_	20	advmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:pass	_	_
+20	contenderanno	contendare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	finale	finale	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = A Londra, il 30 giugno 1996, la Germania vince 2-1 ai supplementari con il Golden Gol novità introdotta quell’anno, realizzato da Oliver Bierhoff.
+1	A	a	ADP	E	_	2	case	_	_
+2	Londra	Londra	PROPN	SP	_	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	30	30	NUM	N	NumType=Card	2	nmod	_	_
+6	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	1996	1996	NUM	N	NumType=Card	5	flat	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Germania	Germania	PROPN	SP	_	11	nsubj	_	_
+11	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	2	2	NUM	N	NumType=Card	11	obj	_	SpaceAfter=No
+13	-1	-1	NUM	N	NumType=Card	12	flat	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	supplementari	supplementare	NOUN	S	Number=Plur	22	obl	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Golden	Golden	PROPN	SP	_	22	obl	_	_
+20	Gol	gol	PROPN	SP	_	19	flat:name	_	_
+21	novità	novità	NOUN	S	Gender=Fem	22	nsubj	_	_
+22	introdotta	introdurre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+23-24	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+23	qui	qui	ADV	B	_	25	advmod	_	_
+24	l’	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	anno	anno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	realizzato	realizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	Oliver	Oliver	PROPN	SP	_	27	obl:agent	_	_
+30	Bierhoff	Bierhoff	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Su Il Giornale Riccardo Signori racconta la finale con un taglio tutto italiano.
+1	Su	su	ADP	E	_	3	case	_	_
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	Riccardo	Riccardo	PROPN	SP	_	3	nmod	_	_
+5	Signori	Signori	PROPN	SP	_	4	flat:name	_	_
+6	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	finale	finale	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	taglio	taglio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	_
+13	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Titolo:
+1	Titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 5
+# text = Due italiani danno il titolo alla Germania.
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Germania	Germania	PROPN	SP	_	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = «Deutschland uber alles, questa volta davvero.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Deutschland	Deutschland	X	SW	Foreign=Yes	0	root	_	_
+3	uber	ubere	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	alles	alles	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+8	davvero	davvero	ADV	B	_	2	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Conquista il suo terzo campionato d’Europa affidandosi all’Italian style.
+1	Conquista	conquedere	NOUN	S	Number=Sing	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+6	d’	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	Europa	Europa	PROPN	SP	_	5	nmod	_	_
+8-9	affidandosi	_	_	_	_	_	_	_	_
+8	affidando	affidare	VERB	V	VerbForm=Ger	1	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10-11	all’	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Italian	Italian	PROPN	SP	_	8	obl	_	_
+13	style	style	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Oliviero Bierhoff passa dai gol di Udine alla doppietta che decide la finale e Pierluigi Pairetto, veterinario di Torino, lascia l’Inghilterra facendo il cieco contro i ceki:
+1	Oliviero	Oliviero	PROPN	SP	_	3	nsubj	_	_
+2	Bierhoff	Bierhoff	PROPN	SP	_	1	flat:name	_	_
+3	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dai	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	gol	gol	NOUN	S	Gender=Masc	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Udine	Udine	PROPN	SP	_	6	nmod	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	doppietta	doppietta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	finale	finale	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Pierluigi	Pierluigi	PROPN	SP	_	15	conj	_	_
+18	Pairetto	Pairetto	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	veterinario	veterinario	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Torino	Torino	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	Inghilterra	Inghilterra	PROPN	SP	_	24	obj	_	_
+27	facendo	fare	VERB	V	VerbForm=Ger	24	advcl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cieco	cieco	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	contro	contro	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	ceki	ceko	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 9
+# text = non vede il fuorigioco finale di Kuntz e concede il golden gol tedesco in tutti i sensi.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fuorigioco	fuorigioco	NOUN	S	Gender=Masc	2	obj	_	_
+5	finale	finale	ADJ	A	Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Kuntz	Kuntz	PROPN	SP	_	4	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	concede	concedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	golden	golden	NOUN	S	Gender=Masc	9	obj	_	_
+12	gol	goal	NOUN	S	Gender=Masc	11	nmod	_	_
+13	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Onore alla Repubblica Ceka che si è ben battuta.
+1	Onore	onore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Repubblica	Repubblica	PROPN	SP	_	1	nmod	_	_
+5	Ceka	Ceka	PROPN	SP	_	4	flat:name	_	_
+6	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	ben	bene	ADV	B	_	10	advmod	_	_
+10	battuta	battere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Inchino alla Germania: una delle peggiori di sempre, come il Brasile del mondiale 1994.
+1	Inchino	Incare	ADV	B	_	4	advmod	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Germania	Germania	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	peggiori	peggiore	ADJ	A	Degree=Cmp|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sempre	sempre	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Brasile	Brasile	PROPN	SP	_	9	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondiale	mondiale	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	1994	1994	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = La storia si ripete, il calcio ci pensi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	pensi	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Dopo l’inno alla gioia, spartito e musica ad accompagnare la presenza della regina Elisabetta e il bel tifare del pubblico di Wembley (...) giraffone Bierhoff alla prima palla capitata sul testone, ha spaccato il mondo, la rete, forse la Cekia.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	inno	inno	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	spartito	spartito	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	musica	musica	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	ad	a	ADP	E	_	12	mark	_	_
+12	accompagnare	accompagnare	VERB	V	VerbForm=Inf	3	acl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	regina	regina	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	Elisabetta	Elisabetta	PROPN	SP	_	17	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	bel	bello	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	tifare	tifare	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Wembley	Wembley	PROPN	SP	_	25	nmod	_	_
+28	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+29	...	...	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	3	punct	_	_
+31	giraffone	girafforre	SYM	SYM	_	43	nsubj	_	_
+32	Bierhoff	Bierhoff	PROPN	SP	_	31	flat:name	_	_
+33-34	alla	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	36	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	36	amod	_	_
+36	palla	palla	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+37	capitata	capitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+38-39	sul	_	_	_	_	_	_	_	_
+38	su	su	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	testone	testone	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	31	punct	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	spaccato	spaccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	48	punct	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	rete	rete	NOUN	S	Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	52	punct	_	_
+50	forse	forse	ADV	B	_	52	advmod	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	Cekia	Cekia	PROPN	SP	_	43	conj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	43	punct	_	_
+
+# sent_id = 14
+# text = Eppoi ha completato l’opera con quel tiro che ha rovinato la reputazione a Kouba e regalato a questi campionati d’Europa l’emozione del primo Golden Gol e la sensazione che l’Italia ne sia uscita male:
+1	Eppoi	Eppo	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	completato	completare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	opera	opera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rovinato	rovinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	reputazione	reputazione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Kouba	Kouba	PROPN	SP	_	11	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+20	campionati	campionato	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	d’	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	Europa	Europa	PROPN	SP	_	20	nmod	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	28	amod	_	_
+28	Golden	Golden	PROPN	SP	_	24	nmod	_	_
+29	Gol	gol	PROPN	SP	_	28	flat:name	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+33	che	che	SCONJ	CS	_	38	mark	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	Italia	Italia	PROPN	SP	_	38	nsubj	_	_
+36	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	38	iobj	_	_
+37	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	advcl	_	_
+39	male	male	ADV	B	_	38	advmod	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = prima con gli azzurri, poi con Pairetto.
+1	prima	prima	ADV	B	_	4	case	_	_
+2	con	con	ADP	E	_	1	fixed	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	azzurri	azzurro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	poi	poi	ADV	B	_	8	advmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Pairetto	Pairetto	PROPN	SP	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Era destino».
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	destino	destare	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Sopra, il tedesco Oliver Bierhoff festeggia il suo Golden Gol. Sotto: la pagina del Giornale che celebra la vittoria della Germania
+1	Sopra	sopra	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Oliver	Oliver	PROPN	SP	_	7	nsubj	_	_
+6	Bierhoff	Bierhoff	PROPN	SP	_	5	flat:name	_	_
+7	festeggia	festeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Golden	Golden	PROPN	SP	_	7	obj	_	_
+11	Gol	gol	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+13	Sotto	sotto	PROPN	SP	_	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	celebra	celebrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Germania	Germania	PROPN	SP	_	23	nmod	_	SpacesAfter=\n
+

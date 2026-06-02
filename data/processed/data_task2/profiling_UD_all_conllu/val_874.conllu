@@ -1,0 +1,350 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E ora, perfino il nostro tavolo, la nostra casa, vengono a minacciarli.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	ora	ora	ADV	B	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	perfino	perfino	ADV	B	_	7	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15-16	minacciarli	_	_	_	_	_	_	_	SpaceAfter=No
+15	minacciar	minacciare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Sì, perché il professor Hannibal Lecter, l'intelletto che annienta, l'uomo che guarda con occhi diversi, è stato invitato a un’ora di cena.
+1	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	perché	perché	SCONJ	CS	_	24	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	professor	professore	NOUN	S	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+6	Hannibal	Hannibal	PROPN	SP	_	5	nmod	_	_
+7	Lecter	Lecter	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	intelletto	intelletto	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	annienta	annientare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+20	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	ora	ora	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	cena	cena	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Un'ora di cena, per essere precisi, teoricamente uno spazio di confronto, di “comprensione”.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ora	ora	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cena	cena	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	per	per	ADP	E	_	8	mark	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+8	precisi	precisare	ADJ	A	Gender=Masc|Number=Plur	2	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	teoricamente	teorico	ADV	B	_	12	advmod	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ma cosa intendono veramente?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+3	intendono	intendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	veramente	veramente	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non ci illudiamo.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+3	illudiamo	illudare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Non è un’iniziativa spontanea di appassionati di psicologia.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	spontanea	spontaneo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	appassionati	appassionato	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	psicologia	psicologia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Questo evento, patrocinato da qualche ente umanitario che si vanta di promuovere la “diversità” – un termine che tradotto significa perdita di valori – è una mossa calcolata, un’operazione di propaganda deliberata per normalizzare l’anomalo, per sdoganare l’estremismo.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	evento	evento	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	patrocinato	patrocinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	ente	ente	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	umanitario	umanitario	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	vanta	vantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	promuovere	promuovere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	“	“	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	diversità	diversità	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	2	punct	_	_
+18	–	–	PUNCT	FF	_	2	punct	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	termine	termine	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	tradotto	tradurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+23	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	valori	valore	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	–	–	PUNCT	FB	_	2	punct	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+31	calcolata	calcolato	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	34	punct	_	_
+33	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	30	appos	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37	deliberata	deliberare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	34	acl	_	_
+38	per	per	ADP	E	_	39	mark	_	_
+39	normalizzare	normalizzare	VERB	V	VerbForm=Inf	37	advcl	_	_
+40	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	anomalo	anomalo	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	39	punct	_	_
+43	per	per	ADP	E	_	44	mark	_	_
+44	sdoganare	sdoganare	VERB	V	VerbForm=Inf	39	advcl	_	_
+45	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	estremismo	estremismo	NOUN	S	Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 8
+# text = Il dottor Lecter, con la sua fredda analisi, la sua disumanità apparentemente inappellabile, viene presentato come un “personaggio complesso”, un “individuo dalla visione unica”.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+3	Lecter	Lecter	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	con	con	ADP	E	_	9	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	analisi	analisi	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	disumanità	disumanità	NOUN	S	Gender=Fem	9	conj	_	_
+14	apparentemente	apparentemente	ADV	B	_	15	advmod	_	_
+15	inappellabile	inappellabile	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	come	come	ADP	E	_	22	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+23	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	“	“	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+29-30	dalla	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	visione	visione	NOUN	S	Gender=Fem|Number=Sing	28	obl:agent	_	_
+32	unica	unica	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	”	”	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 9
+# text = La verità è ben diversa:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verità	verità	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 10
+# text = è un simbolo del degrado morale che la sinistra ha costruito con le sue politiche di permissivismo e di sdogmatizzazione dei comportamenti devianti.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	degrado	degrado	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	morale	morale	ADJ	A	Number=Sing	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	permissivismo	permissivismo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	sdogmatizzazione	sdogmatizzazione	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	devianti	deviante	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ricordiamoci delle sue azioni, dei suoi crimini.
+1	Ricordiamoci	Ricordiamoci	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	delle	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	crimini	crimine	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Non servono lunghi monologhi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lunghi	lungo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	monologhi	monologo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Un uomo che si nutre degli altri, che abusa, che disumanizza, non è un “intellettuale” da invitarci a una cena.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	nutre	nutrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	abusa	abudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	disumanizza	disumanizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	“	“	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	intellettuale	intellettuale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	20	punct	_	_
+22	da	da	ADP	E	_	23	mark	_	_
+23-24	invitarci	_	_	_	_	_	_	_	_
+23	invitar	invitare	VERB	V	VerbForm=Inf	20	advcl	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	obj	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cena	cena	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 14
+# text = È un mostro, e pericolosamente, lo presentano come un esempio da studiare, da comprendere.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mostro	mostro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	pericolosamente	pericoloso	ADV	B	_	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	presentano	presentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	da	da	ADP	E	_	14	mark	_	_
+14	studiare	studiare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	comprendere	comprendere	VERB	V	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Questa “ora di cena” è un subdolo tentativo di insinuare che l'irrazionale, il brutale, il disprezzo per la vita umana, possano essere considerati elementi di un’inedita “
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	ora	ora	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cena	cena	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	9	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	subdolo	subdolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	tentativo	tentativo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	insinuare	insinuare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	che	che	SCONJ	CS	_	29	mark	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	irrazionale	irrazionale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	brutale	brutale	NOUN	S	Gender=Masc|Number=Sing	29	nsubj:pass	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	disprezzo	disprezzo	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	vita	vita	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	umana	umano	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	18	punct	_	_
+27	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	essere	essere	AUX	VA	VerbForm=Inf	29	aux:pass	_	_
+29	considerati	considerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	ccomp	_	_
+30	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	29	nsubj:pass	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	inedita	inedito	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34	“	“	PUNCT	FB	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,816 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma la ricerca di oggi porta un messaggio che va oltre l’efficacia clinica:
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	oggi	oggi	ADV	B	_	3	advmod	_	_
+6	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	oltre	oltre	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	clinica	clinico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = un “membrana biologica” che promette di restituire a chi sopravvive non solo la vita, ma anche quelle parti di sé che vengono spesso ridotte all’ombra dell’oncologia.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	membrana	membrana	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	promette	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	restituire	restituire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	chi	chi	PRON	PR	Number=Sing|PronType=Rel	9	obl	_	_
+12	sopravvive	sopravvivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	solo	solo	ADV	B	_	16	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	ma	ma	CCONJ	CC	_	21	cc	_	_
+19	anche	anche	ADV	B	_	21	advmod	_	_
+20	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	21	det	_	_
+21	parti	parte	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	sé	sé	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	21	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj:pass	_	_
+25	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+26	spesso	spesso	ADV	B	_	27	advmod	_	_
+27	ridotte	ridurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+28-29	all’	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31-32	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+31	di	di	ADP	E	_	33	case	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	oncologia	oncologia	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Regione Emilia‑Romagna, 15 novembre 2025.
+1	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Emilia	Emilia	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+3	‑	‑	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	Romagna	Romagna	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	15	15	NUM	N	NumType=Card	1	nmod	_	_
+7	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	2025	2025	NUM	N	NumType=Card	6	flat	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Nel laboratorio di bioingegneria dell’Istituto di Genetica Molecolare di Bologna, un team di ricercatori guidato dalla dott.ssa Anna Rossi ha presentato la prima prova clinica di una membrana biologica, un impianto biodegradabile che si insedia attorno al seno dopo l’operazione mastectomica.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	bioingegneria	bioingegneria	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Genetica	genetica	PROPN	SP	_	8	nmod	_	_
+11	Molecolare	molecolare	PROPN	SP	_	10	flat:name	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Bologna	Bologna	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	team	team	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	dott.ssa	dott.ssa	NOUN	S	Gender=Fem|Number=Sing	19	obl:agent	_	_
+23	Anna	Anna	PROPN	SP	_	22	nmod	_	_
+24	Rossi	Rossi	PROPN	SP	_	23	flat:name	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	_
+29	prova	prova	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+30	clinica	clinico	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	membrana	membrana	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+34	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	26	punct	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+38	biodegradabile	biodegradabile	ADJ	A	Number=Sing	37	amod	_	_
+39	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	41	expl	_	_
+41	insedia	insedia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+42	attorno	attorno	ADV	B	_	45	case	_	_
+43-44	al	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	42	fixed	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	seno	seno	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+46	dopo	dopo	ADP	E	_	48	case	_	_
+47	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
+48	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+49	mastectomica	mastectomico	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 5
+# text = La sostanza, prodotta con cellule staminali specializzate, si integra con i tessuti circostanti e inverte un processo di “depressione estetica”:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	cellule	cellula	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	staminali	staminale	ADJ	A	Number=Plur	6	amod	_	_
+8	specializzate	specializzato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	integra	integra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	tessuti	tessuto	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	circostanti	circostante	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	inverte	invrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	processo	processo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	estetica	estetico	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 6
+# text = in pochi mesi la zona trattata restituisce tonalità, consistenza e sono trattamenti estetici già ritenuti “normali” dal punto di vista circolare.
+1	in	in	ADP	E	_	3	case	_	_
+2	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	zona	zona	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	trattata	trattato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	restituisce	restituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	tonalità	tonalità	NOUN	S	Gender=Fem	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	consistenza	consistenza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	trattamenti	trattamento	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+14	estetici	estetico	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	già	già	ADV	B	_	16	advmod	_	_
+16	ritenuti	ritenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+17	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	normali	normale	ADJ	A	Number=Plur	16	xcomp	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	18	punct	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	punto	punto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	vista	vista	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	circolare	circolare	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Tutto ciò non è un semplice stunt.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	semplice	semplice	ADJ	A	Number=Sing	7	amod	_	_
+7	stunt	stunt	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = È la frangia di una lunga tradizione di ricerca che ha sempre cercato di ridurre al minimo il dolore intrinseco al trattamento oncologico.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	frangia	frangia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	sempre	sempre	ADV	B	_	13	advmod	_	_
+13	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	ridurre	ridurre	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	minimo	minimo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+21	intrinseco	intrinseco	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+25	oncologico	oncologico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Nel 2022 la società Oncologica Europea ha iniziato a richiedere che le linee guida includano gli aspetti psicosociali delle cure.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2022	2022	NUM	N	NumType=Card	9	nummod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	società	società	NOUN	S	Gender=Fem	9	nsubj	_	_
+6	Oncologica	Oncologica	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	Europea	Europea	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	richiedere	richiedere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	che	che	SCONJ	CS	_	16	mark	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	linee	linea	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+15	guida	guida	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	includano	includere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	aspetti	aspetto	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	psicosociali	psicosociale	ADJ	A	Number=Plur	18	amod	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	cure	cura	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Ora, quando una donna ha la scelta tra rimuovere l’organo così come la radicalità, può considerare l’opzione della membrana che, de facto, riduce l’impatto estetico e le ripercussioni sull’autostima.
+1	Ora	ora	ADV	B	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quando	quando	SCONJ	CS	_	6	mark	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	tra	tra	ADP	E	_	10	mark	_	_
+10	rimuovere	rimuovere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	organo	organo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	così	così	ADV	B	_	16	advmod	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	radicalità	radicalità	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	6	punct	_	_
+18	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	considerare	considerare	VERB	V	VerbForm=Inf	0	root	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	membrana	membrana	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	30	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	de	di	ADP	E	_	28	case	_	_
+28	facto	facto	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	riduce	ridurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	estetico	estetico	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	ripercussioni	ripercussione	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+37-38	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+37	su	su	ADP	E	_	39	case	_	_
+38	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	autostima	autostima	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 11
+# text = Il valore della membrana biologica è ancorato alla narrativa culturale italiana che continua a privilegiare la perfezione dell’appendicella.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	valore	valore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	membrana	membrana	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	ancorato	ancorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	narrativa	narrativa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	culturale	culturale	ADJ	A	Number=Sing	11	amod	_	_
+13	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	privilegiare	privilegiare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	perfezione	perfezione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	appendicella	appendicella	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Le donne, soprattutto di età media, subiscono la perdita di sicurezza avendo intrappolate in un ciclo di sollevamento del braccio, fotorappresentazione e giudizio sociale.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	soprattutto	soprattutto	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	età	età	NOUN	S	Gender=Fem	2	nmod	_	_
+7	media	medio	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	subiscono	subire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	avendo	avere	AUX	VA	VerbForm=Ger	15	aux	_	_
+15	intrappolate	intrappolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	sollevamento	sollevamento	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	fotorappresentazione	fotorappresentazione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+28	sociale	sociale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Come ha spiegato la paziente Mara, 53 anni, che ha deciso di sottoporsi al trattamento:
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	paziente	paziente	NOUN	S	Number=Sing	3	nsubj	_	_
+6	Mara	Mara	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	53	53	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	sottoporsi	_	_	_	_	_	_	_	_
+15	sottopor	sottoporre	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = “Dopo la tua mastectomia ti senti sempre… come se avessi perso un pezzo di me.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Dopo	dopo	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	mastectomia	mastectomia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+7	senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	sempre…	sempre…	PUNCT	FF	_	7	punct	_	_
+9	come	come	ADV	B	_	12	mark	_	_
+10	se	se	SCONJ	CS	_	9	fixed	_	_
+11	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = La membrana mi ha dato un nuovo senso di identità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	membrana	membrana	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	senso	senso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	identità	identità	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Non è solo ritorno a un aspetto.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	solo	solo	ADV	B	_	4	advmod	_	_
+4	ritorno	ritorno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = È la riconferma della mia femminilità, del mio diritto a essere vista prima della condizione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	riconferma	riconferma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	femminilità	femminilità	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+13	a	a	ADP	E	_	15	mark	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+16	prima	prima	ADV	B	_	19	case	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	16	fixed	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 19
+# text = Al contempo, la ricerca non è priva di controversie.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contempo	contempo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	priva	privo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	controversie	controversia	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = Il costo dell’intervento è ancora superiore a quello della chirurgia standard.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	costo	costo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	ancora	ancora	ADV	B	_	8	advmod	_	_
+8	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	chirurgia	chirurgia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	standard	standard	ADJ	A	_	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = In un contesto di crescente disuguaglianza sanitaria, la vita di "cure integrative" può derivare in una pandemia di elitismo.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	crescente	crescente	ADJ	A	Number=Sing	6	amod	_	_
+6	disuguaglianza	disuguaglianza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	sanitaria	sanitario	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	cure	cura	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	integrative	integrativo	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	13	punct	_	_
+16	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	derivare	derivare	VERB	V	VerbForm=Inf	0	root	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pandemia	pandemia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	elitismo	elitismo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 22
+# text = Però le autorità sanitarie regionali, in contraddizione con la logica del mercato, hanno già allietato tre progetti pilota per l’accesso gratuito per le donne con fattoriosociali vizi.
+1	Però	però	ADV	B	_	18	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	autorità	autorità	NOUN	S	Gender=Fem	18	nsubj	_	_
+4	sanitarie	sanitario	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	regionali	regionale	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	contraddizione	contraddizione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	logica	logica	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	già	già	ADV	B	_	18	advmod	_	_
+18	allietato	allietare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	tre	tre	NUM	N	NumType=Card	20	nummod	_	_
+20	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	pilota	pilotare	NOUN	S	Gender=Masc|Number=Sing	20	compound	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	donne	donna	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	fattoriosociali	fattoriosociale	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+31	vizi	vizio	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 23
+# text = Un passo importante verso l’intervento “inclusivo”.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	importante	importante	ADJ	A	Number=Sing	2	amod	_	_
+4	verso	verso	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	inclusivo	inclusivo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Al cerchio di sanità pubblica, la ministra di Salute, Maria Bianchi, ha annunciato un investimento di 100 milioni di euro nell’ambito dell’UE “Strategia di Salute Pubblica 2025”.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sanità	sanità	NOUN	S	Gender=Fem	3	nmod	_	_
+6	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ministra	ministra	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Salute	salute	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	Maria	Maria	PROPN	SP	_	9	appos	_	_
+14	Bianchi	Bianchi	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	100	100	NUM	N	NumType=Card	22	nummod	_	_
+22	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	euro	euro	NOUN	S	Gender=Masc	22	nmod	_	_
+25-26	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+25	in	in	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+28-29	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	UE	UE	PROPN	SP	_	27	nmod	_	_
+31	“	“	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	Strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Salute	salute	PROPN	SP	_	32	nmod	_	_
+35	Pubblica	pubblica	PROPN	SP	_	34	flat:name	_	_
+36	2025	2025	NUM	N	NumType=Card	34	nummod	_	SpaceAfter=No
+37	”	”	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 25
+# text = Questa spesa, che include l’implementazione della membrana in centri di oncologia pediatrica, economica e sociale, è stata giudicata “il passo consistemente verso un'Europa in cui tante donne non guadagnano più la certezza di un dipartimento di cura compresivo”.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	23	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	include	includere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	implementazione	implementazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	membrana	membrana	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	centri	centro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	oncologia	oncologia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	pediatrica	pediatrico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	economica	economico	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	sociale	sociale	ADJ	A	Number=Sing	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	giudicata	giudicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	“	“	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	passo	passo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+27	consistemente	consistemente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+28	verso	verso	ADP	E	_	30	case	_	_
+29	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	Europa	Europa	PROPN	SP	_	27	obl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	cui	cui	PRON	PR	PronType=Rel	36	obl	_	_
+33	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	34	det	_	_
+34	donne	donna	NOUN	S	Gender=Fem|Number=Plur	36	nsubj	_	_
+35	non	non	ADV	BN	PronType=Neg	36	advmod	_	_
+36	guadagnano	guadagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+37	più	più	ADV	B	_	36	advmod	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	cura	cura	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+45	compresivo	compresivo	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+46	”	”	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 26
+# text = È l’ultima scoperta di, quante volte, la medicina è modulata dal contesto socio‑economico.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	8	case	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	8	det	_	_
+8	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	modulata	modulare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	13	obl:agent	_	_
+17	socio	socio	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	‑economico	‑economico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Una membrana biologica può essere vista come uno strumento di “cura di stoffa”, chiave di volta del movimento progressista.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	membrana	membrana	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	biologica	biologico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	cura	cura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	12	appos	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	volta	volta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+23	progressista	progressista	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 28
+# text = Necessariamente richiede un approccio “woman‑first”:
+1	Necessariamente	necessariamente	ADV	B	_	2	advmod	_	_
+2	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	woman	woman	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+7	‑	‑	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	first	first	NOUN	S	_	6	compound	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 29
+# text = pubblicità, programmi di sensibilizzazione e apertamente l’intervento di educazione alla propria dignità.
+1	pubblicità	pubblicità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sensibilizzazione	sensibilizzazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	apertamente	aperto	ADV	B	_	9	advmod	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	dignità	dignità	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = Se il risultato è quello dell’auto fiducia trasformata in roaster della società, perché non fare la sua crescita un cammino di la Repubblica:
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+6-7	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	9	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	auto	auto	ADJ	A	_	9	amod	_	_
+9	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	roaster	roaster	NOUN	S	Gender=Masc	10	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	società	società	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	perché	perché	SCONJ	CS	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	5	advcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cammino	cammino	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Repubblica	Repubblica	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 31
+# text = la resilienza, l’uguaglianza e il potere di respirare, al di là dei brufoli che possono o non possono essere.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	resilienza	resilienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	uguaglianza	uguaglianza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	potere	potere	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	respirare	respirare	VERB	V	VerbForm=Inf	8	acl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	là	là	ADV	B	_	18	advmod	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	brufoli	brufolo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	o	o	CCONJ	CC	_	24	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	essere	essere	VERB	V	VerbForm=Inf	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

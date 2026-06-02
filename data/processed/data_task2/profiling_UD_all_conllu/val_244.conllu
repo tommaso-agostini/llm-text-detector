@@ -1,0 +1,365 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma adesso, come riporta Quarto Grado di questo terribile delitto emergono alcuni dettagli inquietanti.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	adesso	adesso	ADV	B	_	12	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	Quarto	Quarto	PROPN	SP	_	5	nsubj	_	_
+7	Grado	grado	PROPN	SP	_	6	flat:name	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	terribile	terribile	ADJ	A	Number=Sing	11	amod	_	_
+11	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	emergono	emergere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+15	inquietanti	inquietante	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Come ad esempio la telefonata dello stesso killer al 118.
+1	Come	come	ADV	B	_	5	advmod	_	_
+2	ad	a	ADP	E	_	3	case	_	_
+3	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	killer	killere	NOUN	S	_	5	nmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	118	118	NUM	N	NumType=Card	5	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Il tramviere chiama:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tramviere	tramviere	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = "Sono Alessandro Garalaschi, sono in via Fracesco Brioschi, 93.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Alessandro	Alessandro	PROPN	SP	_	0	root	_	_
+4	Garalaschi	Garalaschi	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	via	via	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9	Fracesco	Fracesco	PROPN	SP	_	8	nmod	_	_
+10	Brioschi	Brioschi	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	93	93	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ho bisogno di ambulazna, automedica e polizia...".
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	ambulazna	ambulazna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	automedica	automedica	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	polizia...	polizia...	NOUN	S	_	4	conj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Poi il suo racconto si fa sempre più confuso.
+1	Poi	poi	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sempre	sempre	ADV	B	_	8	advmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	confuso	confuso	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = L'operatore del 118 chiede di descrivere i fatti:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	operatore	operatore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	118	118	NUM	N	NumType=Card	2	nmod	_	_
+6	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	descrivere	descrivere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 8
+# text = "Allora...
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Allora...	Allora...	PROPN	SP	_	0	root	_	_
+
+# sent_id = 9
+# text = c'è stata una lite, eh, tra di noi, mi ha colpito con un coltello le mani...".
+1	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lite	lite	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	eh	eh	INTJ	I	_	15	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	tra	tra	ADP	E	_	11	case	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	coltello	coltello	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	mani...	mani...	NOUN	S	_	18	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 10
+# text = A questo punto Garlaschi ammette di aver colpito Jessica:
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	Garlaschi	Garlaschi	PROPN	SP	_	5	nsubj	_	_
+5	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+9	Jessica	Jessica	PROPN	SP	_	8	obj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 11
+# text = "Io sono riuscito a prendergli il coltello, l'hop girato e l'ho colpita allo stomaco".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	prendergli	_	_	_	_	_	_	_	_
+6	prender	prendere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	coltello	coltello	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	hop	hop	NOUN	S	Gender=Masc	4	conj	_	_
+13	girato	girato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+16	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	colpita	colpire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+18-19	allo	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = L'operatore del 118 è stupito e ribatte:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	operatore	operatore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	118	118	NUM	N	NumType=Card	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	stupito	stupire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	ribatte	ribattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 13
+# text = "L'ha colpita allo stomaco?".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	colpita	colpire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	allo	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Garlaschi in stato ormai confusionale afferma:
+1	Garlaschi	Garlasco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	stato	stato	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	ormai	ormai	ADV	B	_	5	advmod	_	_
+5	confusionale	confusionale	ADJ	A	Number=Sing	3	amod	_	_
+6	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 15
+# text = "Sì infatti è uscita una parte di organo".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	_
+3	infatti	infatti	ADV	B	_	5	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	organo	organo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Dal 118 arriva una domanda secca:
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	118	118	NUM	N	NumType=Card	4	obl	_	_
+4	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	secca	secco	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 17
+# text = "Ho capito.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	capito.	capito.	NOUN	S	Gender=Masc	2	obj	_	SpaceAfter=No
+
+# sent_id = 18
+# text = ..e adesso la ragazza è stesa a terra?".
+1	..e	..e	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	adesso	adesso	ADV	B	_	1	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	stesa	steso	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	terra	terra	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Il killer ribatte:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	killer	killer	NOUN	S	_	0	root	_	_
+3	ribatte	ribatto	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 20
+# text = "No allora, sì ho cercato anche già di pulire...di.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	I	Polarity=Neg	7	discourse	_	_
+3	allora	allora	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sì	sì	ADV	B	_	7	advmod	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	già	già	ADV	B	_	11	advmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	pulire...di.	pulire...di.	NOUN	S	_	7	obl	_	SpaceAfter=No
+
+# sent_id = 21
+# text = ..perché ho cercato di metterla diciamo coperta, dentro alle borse, dentro a dei teli per non vederela perché...".
+1	..perché	..perché	SCONJ	CS	_	3	mark	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	metterla	_	_	_	_	_	_	_	_
+5	metter	mettere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+8	coperta	coperto	ADJ	A	Gender=Fem|Number=Sing	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	dentro	dentro	ADV	B	_	13	case	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	borse	borsa	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	dentro	dentro	ADV	B	_	19	case	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	teli	telo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	vederela	vederelare	NUM	N	NumType=Card	23	nummod	_	_
+23	perché...	perché.	NOUN	S	_	3	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Poi all'improvviso racconta gli ultimi istanti di vita di Jessica:
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	_
+5	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Jessica	Jessica	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 23
+# text = "Non, non subito è andata.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	subito	subito	ADV	B	_	7	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 24
+# text = Cioè nel senso mi ha guardato e mi ha detto 'Non riesco più a respirare più e subito dopo niente...".
+1	Cioè	cioè	ADV	B	_	7	advmod	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	senso	senso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	guardato	guardare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	parataxis	_	_
+12	'	'	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	Non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	respirare	respirare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+18	più	più	ADV	B	_	17	obj	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	subito	subito	ADV	B	_	22	advmod	_	_
+21	dopo	dopo	ADP	E	_	22	case	_	_
+22	niente...	niente...	NOUN	S	_	18	conj	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

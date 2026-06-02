@@ -1,0 +1,357 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I fatti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Le carte di credito di alcuni clienti dei 2 negozi di Eataly di New York, uno a Soho e l’altro a Flatiron, sono state clonate e il 21 dicembre hanno ricevuto un SMS di avviso di pagamento insolito.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	carte	carte	NOUN	S	Gender=Fem|Number=Plur	29	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	credito	credito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	clienti	cliente	NOUN	S	Number=Plur	2	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	2	2	NUM	N	NumType=Card	11	nummod	_	_
+11	negozi	negozio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Eataly	Eataly	PROPN	SP	_	15	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	New	New	PROPN	SP	_	7	nmod	_	_
+16	York	York	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	appos	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Soho	Soho	PROPN	SP	_	18	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	conj	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Flatiron	Flatiron	PROPN	SP	_	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	2	punct	_	_
+27	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	clonate	clonare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+30	e	e	CCONJ	CC	_	35	cc	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	21	21	NUM	N	NumType=Card	35	obl	_	_
+33	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	32	flat	_	_
+34	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	conj	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	SMS	SMS	NOUN	S	Gender=Masc	35	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+42	insolito	insolito	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 3
+# text = Non un normale SMS della banca, ma una missiva informale del manager di una banca italiana che girava per l’Europa per conto di Santander ai clienti di Eataly.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	normale	normale	ADJ	A	Number=Sing	4	amod	_	_
+4	SMS	SMS	NOUN	S	Gender=Masc	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	banca	banca	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	missiva	missiva	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+12	informale	informale	ADJ	A	Number=Sing	11	amod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	manager	manager	NOUN	S	_	11	nmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	banca	banca	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	girava	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	Europa	Europa	PROPN	SP	_	21	obl	_	_
+25	per	per	ADP	E	_	26	case	_	_
+26	conto	conto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Santander	Santander	PROPN	SP	_	26	nmod	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	clienti	cliente	NOUN	S	Number=Plur	28	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Eataly	Eataly	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = In particolare, dai cc gestiti dal direttore di Eataly New York non sarebbe stato pagato un contributo di 300 euro consegnato invece a Eusapia Iannini, amministratice del Carso storico di Trieste, che doveva avere un incontro con Eataly a fine anno.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	dai	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cc	cc	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+7	gestiti	gestire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Eataly	Eataly	PROPN	SP	_	10	nmod	_	_
+13	New	New	PROPN	SP	_	12	flat:name	_	_
+14	York	York	PROPN	SP	_	12	flat:name	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	300	300	NUM	N	NumType=Card	23	nummod	_	_
+23	euro	euro	NOUN	S	Gender=Masc	20	nmod	_	_
+24	consegnato	consegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+25	invece	invece	ADV	B	_	24	advmod	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Eusapia	Eusapio	PROPN	SP	_	24	obl	_	_
+28	Iannini	Iannini	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	amministratice	amministratice	NOUN	S	Number=Sing	27	appos	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Carso	Carso	PROPN	SP	_	30	nmod	_	_
+34	storico	storico	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	Trieste	Trieste	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	33	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+39	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	aux	_	_
+40	avere	avere	VERB	V	VerbForm=Inf	30	acl:relcl	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	40	obj	_	_
+43	con	con	ADP	E	_	44	case	_	_
+44	Eataly	Eataly	PROPN	SP	_	42	nmod	_	_
+45	a	a	ADP	E	_	46	case	_	_
+46	fine	fine	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+47	anno	anno	NOUN	S	Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 5
+# text = Eusapia, inoltre, era già stata protagonista di una truffa via mail sotto il falso nome di Maria Riggio.
+1	Eusapia	Eusapia	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	inoltre	inoltre	ADV	B	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6	già	già	ADV	B	_	8	advmod	_	_
+7	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	protagonista	protagonista	NOUN	S	Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	truffa	truffa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	via	via	NOUN	S	_	11	compound	_	_
+13	mail	mail	NOUN	S	_	11	nmod	_	_
+14	sotto	sotto	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	falso	falso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	nome	nome	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Maria	Maria	PROPN	SP	_	17	nmod	_	_
+20	Riggio	Riggio	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = A quanto pare si tratta di una truffa a più mani coltivate per ottenere entrate illecite in modo più o meno diretto.
+1	A	a	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	truffa	truffa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	più	più	DET	DI	PronType=Ind	11	det	_	_
+11	mani	mano	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	coltivate	coltivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	ottenere	ottenere	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	entrate	entrata	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+16	illecite	illecito	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	modo	modo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	più	più	ADV	B	_	18	advmod	_	_
+20	o	o	CCONJ	CC	_	22	cc	_	_
+21	meno	meno	ADV	B	_	22	advmod	_	_
+22	diretto	diretto	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Gli inquirenti dei due paesi, Sos New York e Eataly, stanno approfondendo la questione, ma se il Carso storico di Trieste non ha subito danni, non c’è lo stesso per quelli diritti invece.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	inquirenti	inquirente	NOUN	S	Number=Plur	15	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Sos	Sos	PROPN	SP	_	2	nmod	_	_
+9	New	New	PROPN	SP	_	8	flat:name	_	_
+10	York	York	PROPN	SP	_	8	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Eataly	Eataly	PROPN	SP	_	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	approfondendo	approfondire	VERB	V	VerbForm=Ger	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	questione	questione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	27	punct	_	_
+19	ma	ma	CCONJ	CC	_	27	cc	_	_
+20	se	se	SCONJ	CS	_	27	mark	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Carso	Carso	PROPN	SP	_	27	nsubj	_	_
+23	storico	storico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Trieste	Trieste	PROPN	SP	_	22	nmod	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+28	subito	subire	ADV	B	_	27	advmod	_	_
+29	danni	danno	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	SpaceAfter=No
+33	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+34	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	33	nsubj	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	33	obl	_	_
+38	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+39	invece	invece	ADV	B	_	38	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 8
+# text = 20 clienti potrebbero quindi vedere ridotti o azzerati i propri importi.
+1	20	20	NUM	N	NumType=Card	2	nummod	_	_
+2	clienti	cliente	NOUN	S	Number=Plur	5	nsubj	_	_
+3	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	quindi	quindi	ADV	B	_	5	advmod	_	_
+5	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+6	ridotti	ridurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	azzerati	azzerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	importi	importo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Da questo estratto si può evincere che:
+1	Da	da	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	estratto	estratto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	evincere	evincere	VERB	V	VerbForm=Inf	0	root	_	_
+7	che	che	SCONJ	CS	_	6	fixed	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 10
+# text = - Non è stato rubato denaro
+1	-	-	PUNCT	FF	_	5	punct	_	_
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	rubato	rubare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = - Un truffatore ha hackerato le carte e il sistema di pagamento
+1	-	-	PUNCT	FF	_	5	punct	_	_
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	truffatore	truffatore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	hackerato	hackerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	carte	carta	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = - I due negozi di Eataly hanno permesso l'accesso ai clienti
+1	-	-	PUNCT	FF	_	8	punct	_	_
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	negozi	negozio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Eataly	Eataly	PROPN	SP	_	4	nmod	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	clienti	cliente	NOUN	S	Number=Plur	10	nmod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 13
+# text = - Ci sono contatti tra i clienti con traghettatori illeciti di denaro
+1	-	-	PUNCT	FF	_	3	punct	_	_
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	contatti	contatto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	clienti	cliente	NOUN	S	Number=Plur	4	nmod	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	traghettatori	traghettatore	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	illeciti	illecito	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = - Ci sono denunce e indagini in corso
+1	-	-	PUNCT	FF	_	3	punct	_	_
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 15
+# text = - I bilanci al momento non hanno subito gravi danni
+1	-	-	PUNCT	FF	_	3	punct	_	_
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	bilanci	bilancio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	subito	subire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	gravi	grave	ADJ	A	Number=Plur	11	amod	_	_
+11	danni	danno	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpacesAfter=\n
+

@@ -1,0 +1,471 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La giovane, 19 anni, ha iniziato a stare male da poco e lo racconta per la prima volta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	19	19	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	stare	stare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	male	male	ADV	B	_	10	advmod	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	poco	poco	ADV	B	_	10	advmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Anche il fratello Anwar è stato colpito dalla patologia.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	Anwar	Anwar	PROPN	SP	_	7	nsubj:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Nel un messaggio Bella parla del problema che tocca la sua famiglia e anticipa l'uscita del libro autobiografico della mamma, Yolanda Foster, che uscirà nel febbraio del 2017.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	Bella	bella	PROPN	SP	_	6	nsubj	_	_
+6	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	anticipa	anticipare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	libro	libro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	autobiografico	autobiografico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	Yolanda	Yolanda	PROPN	SP	_	25	nmod	_	_
+28	Foster	Foster	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	25	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	uscirà	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	acl:relcl	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	2017	2017	NUM	N	NumType=Card	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = "Sono così orgogliosa della mia mamma - scrive la modella nella lettera pubbliata dal Mail on lne - .
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	orgogliosa	orgoglioso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	-	-	PUNCT	FB	_	10	punct	_	_
+10	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	modella	modella	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+16	pubbliata	pubbliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Mail	Mail	PROPN	SP	_	16	obl:agent	_	_
+20	on	on	PROPN	SP	_	19	flat:name	_	_
+21	lne	lno	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+22	-	-	PUNCT	FB	_	10	punct	_	_
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ho pianto vedendo quanto abbia sofferto in questo ultimo periodo".
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pianto	pianto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	vedendo	vedere	VERB	V	VerbForm=Ger	2	advcl	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	6	obj	_	_
+5	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+9	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Yolanda, 52 anni, si è ammalata 5 anni fa.
+1	Yolanda	Yolanda	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	52	52	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ammalata	ammalare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	5	5	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	fa	fa	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = In quel periodo era spostata da 4 anni con David Foster, ma la coppia ha annunciato la separazione nel dicembre del 2015.
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	spostata	spostare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	4	4	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl:agent	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	David	David	PROPN	SP	_	8	nmod	_	_
+11	Foster	Foster	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	separazione	separazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	2015	2015	NUM	N	NumType=Card	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = I figli lavorano tutti come modelli.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	modelli	modello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = La sorella di Bella, Gigi Hadid, è fra le indossatrici più conosciute al mondo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Bella	bella	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Gigi	Gigi	PROPN	SP	_	2	appos	_	_
+7	Hadid	Hadid	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	fra	fra	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	indossatrici	indossatore	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	conosciute	conoscere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 10
+# text = Secondo quanto raccontato dalla madre, Bella ha scelto di lavorare nel mondo della moda dopo aver dovuto rinunciare al sogno di diventare una cavallerizza professionista.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	10	obl	_	_
+3	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Bella	bella	PROPN	SP	_	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	lavorare	lavorare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	moda	moda	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	dopo	dopo	SCONJ	CS	_	22	mark	_	_
+20	aver	avere	AUX	VA	VerbForm=Inf	22	aux	_	_
+21	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux	_	_
+22	rinunciare	rinunciare	VERB	V	VerbForm=Inf	10	advcl	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	diventare	diventare	VERB	V	VerbForm=Inf	25	acl	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	cavallerizza	cavallerizza	NOUN	S	Gender=Fem|Number=Sing	27	xcomp	_	_
+30	professionista	professionista	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = La malattia di Lyme si prende quando si viene morsi da una zecca.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Lyme	Lyme	PROPN	SP	_	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quando	quando	SCONJ	CS	_	10	mark	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	morsi	morrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	zecca	zecca	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Può accadere se si è a contatto con cervi o con topi.
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	accadere	accadere	VERB	V	VerbForm=Inf	0	root	_	_
+3	se	se	SCONJ	CS	_	7	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	cervi	cervo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	o	o	CCONJ	CC	_	12	cc	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	topi	topio	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Non si trasmette da persona a persona.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	trasmette	trasmettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	persona	persona	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	persona	persona	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Può avere conseguenze gravi come, ad esempio, dolori articolari diffusi e disturbi neurologici e cardiaci.
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+3	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	gravi	grave	ADJ	A	Number=Plur	3	amod	_	_
+5	come	come	ADP	E	_	10	case	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ad	a	ADP	E	_	8	case	_	_
+8	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+11	articolari	articolare	ADJ	A	Number=Plur	12	amod	_	_
+12	diffusi	diffuso	NOUN	S	Gender=Masc|Number=Plur	10	compound	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	neurologici	neurologico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	cardiaci	cardiaco	ADJ	A	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Il rischio di svilupparla dipende dall’esposizione alle zecche.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	svilupparla	_	_	_	_	_	_	_	_
+4	sviluppar	sviluppare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	dipende	dipenda	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	zecche	zecca	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = I bambini e gli adulti che sono per molto tempo all’aperto, in modo particolare in prossimità di aree boschive, sono molto soggetti a contrarre la malattia di Lyme.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	adulti	adulto	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+11-12	all’	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	aperto	aperto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	modo	modo	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+17	particolare	particolare	ADJ	A	Number=Sing	16	amod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	prossimità	prossimità	NOUN	S	Gender=Fem	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	aree	area	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+22	boschive	boschivo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	16	punct	_	_
+24	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	molto	molto	ADV	B	_	26	advmod	_	_
+26	soggetti	soggetto	ADJ	A	Gender=Masc|Number=Plur	5	acl:relcl	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	contrarre	contrarre	VERB	V	VerbForm=Inf	26	advcl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Lyme	Lyme	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Malattia di Lyme, la battaglia di Bella Hadid e la mamma Yolanda La patologia è diffusa in alcune aree degli Stati Uniti e nell'America del Sud.
+1	Malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Lyme	Lyme	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Bella	bella	PROPN	SP	_	6	nmod	_	_
+9	Hadid	Hadid	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13	Yolanda	Yolanda	PROPN	SP	_	17	nmod	_	_
+14	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	diffusa	diffondere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	aree	area	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21-22	degli	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Stati	Stati	PROPN	SP	_	20	nmod	_	_
+24	Uniti	Uniti	PROPN	SP	_	23	flat:name	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	in	in	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	America	America	PROPN	SP	_	17	conj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Sud	Sud	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Il sintomo più conosciuto è l'eruzione cutanea a forma di bersaglio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sintomo	sintomo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	conosciuto	conosciuto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	eruzione	eruzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	cutanea	cutaneare	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	forma	forma	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	bersaglio	bersaglio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = E' uno sfogo caratteristico e in questo modo la diagnosi è rapida.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sfogo	sfogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	caratteristico	caratteristico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	12	cc	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	diagnosi	diagnosi	NOUN	S	Gender=Fem	12	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Fra i sintomi ci sono anche stanchezza cronica, dolori articolari e febbre.
+1	Fra	fra	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	sintomi	sintomo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	5	advmod	_	_
+7	stanchezza	stanchezza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	cronica	cronica	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	dolori	dolore	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+11	articolari	articolare	ADJ	A	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	febbre	febbre	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Non esiste una cura definitiva per combattere la malattia di Lyme.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cura	cura	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	definitiva	definitivo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	combattere	combattere	VERB	V	VerbForm=Inf	2	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Lyme	Lyme	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

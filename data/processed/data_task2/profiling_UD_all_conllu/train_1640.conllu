@@ -1,0 +1,675 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Solo edifici in rovina tutt'intorno.
+1	Solo	solo	ADV	B	_	2	advmod	_	_
+2	edifici	edifico	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	rovina	rovina	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	tutt'	tutto	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	intorno	intorno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Quasi tutti i locali sono chiusi, ma ancora con scaffali e banconi al loro posto, ricoperti di polvere.
+1	Quasi	quasi	ADV	B	_	4	advmod	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	locali	locale	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	chiusi	chiuso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	ancora	ancora	ADV	B	_	11	advmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	scaffali	scaffale	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	banconi	bancone	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	posto	posto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	ricoperti	ricoperto	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	polvere	polvere	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = In un locale abbandonato si informa che il titolare tornerà alle 16.30.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	locale	locale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	abbandonato	abbandonato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	informa	informare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	titolare	titolare	NOUN	S	Number=Sing	10	nsubj	_	_
+10	tornerà	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	16.30	16.30	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Per strada solo un'auto parcheggiata.
+1	Per	per	ADP	E	_	2	case	_	_
+2	strada	strada	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	auto	auto	NOUN	S	Gender=Fem	0	root	_	_
+6	parcheggiata	parcheggiata	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Elaine, 55 abitanti, sta lentamente morendo, come tanti altri paesi in riva al Mississippi che perdono popolazione a causa della meccanizzazione agricola e della povertà incancrenita in questa zona del sud degli Stati Uniti.
+1	Elaine	Elaina	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	55	55	NUM	N	NumType=Card	4	nummod	_	_
+4	abitanti	abitante	NOUN	S	Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	lentamente	lento	ADV	B	_	8	advmod	_	_
+8	morendo	morire	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	come	come	ADP	E	_	13	case	_	_
+11	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+12	altri	altro	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	riva	riva	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Mississippi	Mississippi	PROPN	SP	_	13	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	causa	causa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	meccanizzazione	meccanizzazione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	agricola	agricolo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	povertà	povertà	NOUN	S	Gender=Fem	26	conj	_	_
+32	incancrenita	incancrenito	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	_
+35	zona	zona	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	sud	sud	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39-40	degli	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	Stati	Stati	PROPN	SP	_	38	nmod	_	_
+42	Uniti	Uniti	PROPN	SP	_	41	flat:name	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Con il paese muore anche il ricordo dell'episodio che distingue Elaine da altri paesi:
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	muore	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	4	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	distingue	distinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	Elaine	Elaine	PROPN	SP	_	12	obj	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = il linciaggio, per controversie di natura agricola, che nel 1919 causò la morte di 237 neri.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	linciaggio	linciaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	controversie	controversia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	natura	natura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	agricola	agricolo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	1919	1919	NUM	N	NumType=Card	14	obl	_	_
+14	causò	causare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	morte	morte	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	237	237	NUM	N	NumType=Card	19	nummod	_	_
+19	neri	nero	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = La peggiore strage razzista dell'Arkansas, e forse anche degli Stati Uniti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	_
+3	strage	strage	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	razzista	razzista	ADJ	A	Number=Sing	3	amod	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Arkansas	Arkansas	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	e	e	CCONJ	CC	_	14	cc	_	_
+10	forse	forse	ADV	B	_	14	advmod	_	_
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Stati	Stati	PROPN	SP	_	3	conj	_	_
+15	Uniti	Uniti	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Si stima che tra il 1877 e il 1950, vale a dire tra la fine della Guerra Civile e la Seconda Guerra Mondiale, morirono circa 4.000 neri in "linciaggi razziali" nel sud degli Stati Uniti, secondo un'informativa del 2015 fornita da Equal Justice Initiative.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	stima	stimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	11	mark	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	1877	1877	NUM	N	NumType=Card	11	nummod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	1950	1950	NUM	N	NumType=Card	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	dire	dire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	tra	tra	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fine	fine	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	Civile	civile	ADJ	A	Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	Seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
+24	Guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+25	Mondiale	mondiale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	2	punct	_	_
+27	morirono	morire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+28	circa	circa	ADV	B	_	29	advmod	_	_
+29	4.000	4.000	NUM	N	NumType=Card	30	nummod	_	_
+30	neri	nero	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	linciaggi	linciaggio	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+34	razziali	razziale	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	33	punct	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	sud	sud	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+39-40	degli	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	Stati	Stati	PROPN	SP	_	38	nmod	_	_
+42	Uniti	Uniti	PROPN	SP	_	41	flat:name	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	27	punct	_	_
+44	secondo	secondo	ADP	E	_	46	case	_	_
+45	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	informativa	informativa	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+47-48	del	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	2015	2015	NUM	N	NumType=Card	46	nmod	_	_
+50	fornita	fornire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	49	acl	_	_
+51	da	da	ADP	E	_	52	case	_	_
+52	Equal	Equal	PROPN	SP	_	50	obl:agent	_	_
+53	Justice	Justice	PROPN	SP	_	52	flat:name	_	_
+54	Initiative	Initiative	PROPN	SP	_	52	flat:name	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = L'obiettivo era blindare il "controllo razziale" dei banchi "rendendo vittime i componenti della comunità afroamericana".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	blindare	blindare	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	razziale	razziale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+13	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+14	rendendo	rendere	VERB	V	VerbForm=Ger	4	advcl	_	_
+15	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	componenti	componente	NOUN	S	Number=Plur	14	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	comunità	comunità	NOUN	S	Gender=Fem	17	nmod	_	_
+21	afroamericana	afroamericano	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Oggi quasi non rimane traccia della strage in questo paese fantasma.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	quasi	quasi	ADV	B	_	4	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	strage	strage	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Nessun cartello commemorativo.
+1	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	cartello	cartello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	commemorativo	commemorativo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = E tra i residenti, se esiste, il ricordo è sbiadito.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	residenti	residente	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	se	se	SCONJ	CS	_	7	mark	_	_
+7	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	sbiadito	sbiadire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 14
+# text = Eddie e Linda Johnston, una coppia bianca, di 68 e 65 anni, sono reticenti a parlare della strage.
+1	Eddie	Eddia	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Linda	Linda	PROPN	SP	_	1	conj	_	_
+4	Johnston	Johnston	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+8	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	di	di	ADP	E	_	14	case	_	_
+11	68	68	NUM	N	NumType=Card	14	nummod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	65	65	NUM	N	NumType=Card	11	conj	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	reticenti	reticente	ADJ	A	Number=Plur	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	parlare	parlare	VERB	V	VerbForm=Inf	17	advcl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	strage	strage	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 15
+# text = Dicono di ricordare qualcosa, non molto.
+1	Dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	ricordare	ricordare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	molto	molto	ADV	B	_	1	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = "Non è familiare alle persone di questa generazione.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	familiare	familiare	ADJ	A	Number=Sing	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Era un paese con pregiudizi", dice Linda a casa sua, dietro alla via principale.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	pregiudizi	pregiudizio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	Linda	Linda	PROPN	SP	_	8	nsubj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	dietro	dietro	ADV	B	_	17	case	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+18	principale	principale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = "Lei è venuto a portare problemi?, risponde quando le si chiede dei rapporti attuali tra bianchi e neri, che rappresentano ciascuno la metà della popolazione.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	portare	portare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	quando	quando	SCONJ	CS	_	14	mark	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	attuali	attuale	ADJ	A	Number=Plur	17	amod	_	_
+19	tra	tra	ADP	E	_	20	case	_	_
+20	bianchi	bianco	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	neri	nero	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	17	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+26	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	xcomp	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	metà	metà	NOUN	S	Gender=Fem	25	obj	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Roy, afroamericano di 48 anni, spiega di aver sempre vissuto a Elaine e che a scuola non gli hanno mai parlato della strage.
+1	Roy	roy	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	afroamericano	afroamericare	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	48	48	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	12	mark	_	_
+10	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Elaine	Elaine	PROPN	SP	_	12	obl	_	_
+15	e	e	CCONJ	CC	_	23	cc	_	_
+16	che	che	SCONJ	CS	_	23	mark	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+19	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+20	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	mai	mai	ADV	B	_	23	advmod	_	_
+23	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	strage	strage	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Al suo fianco, Telma, donna nera di 70 anni, annuisce segnalando il luogo in cui si ritiene che furono sotterrate le vittime:
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Telma	Telma	PROPN	SP	_	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+9	nera	nero	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	70	70	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	annuisce	annuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	segnalando	segnalare	VERB	V	VerbForm=Ger	14	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	che	che	SCONJ	CS	_	24	mark	_	_
+23	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	sotterrate	sotterrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	24	nsubj:pass	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 21
+# text = vicino ad alcune dighe che separano la zona nera del paese dalle distese agricole circostanti.
+1	vicino	vicino	ADV	B	_	4	case	_	_
+2	ad	a	ADP	E	_	1	fixed	_	_
+3	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	dighe	dighe	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	separano	separare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	zona	zona	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	nera	nero	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	distese	distesa	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	agricole	agricolo	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+17	circostanti	circostante	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = La strage avvenne il 1° ottobre 1919.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	strage	strage	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	avvenne	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	1°	1°	ADJ	NO	NumType=Ord	6	amod	_	_
+6	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	1919	1919	NUM	N	NumType=Card	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Al calare della sera, i braccianti neri si riunirono con un sindacato dopo mesi di lamentele per abusi da parte dei padroni agricoli bianchi.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	calare	calare	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	braccianti	bracciante	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+10	neri	nero	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	riunirono	riunire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sindacato	sindacato	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	dopo	dopo	ADP	E	_	17	case	_	_
+17	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	lamentele	lamentela	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	padroni	padrone	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+27	agricoli	agricolo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 24
+# text = Un gruppo di bianchi, intimoriti da una rivolta nera, tentò di interrompere la riunione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	bianchi	bianco	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	intimoriti	intimorire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	_
+10	nera	nero	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	tentò	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	interrompere	interrompere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 25
+# text = Ci furono incidenti nelle periferie e un agente di sicurezza bianco morì per un colpo di arma da fuoco.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	incidenti	incidente	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	periferie	periferia	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	agente	agente	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	arma	arma	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Il giorno seguente, tra 500 e 1000 uomini armati si recarono a Elaine per frenare l'"insurrezione".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+3	seguente	seguente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	tra	tra	ADP	E	_	9	case	_	_
+6	500	500	NUM	N	NumType=Card	9	nummod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	1000	1000	NUM	N	NumType=Card	6	conj	_	_
+9	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+10	armati	armato	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	recarono	recare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Elaine	Elaine	PROPN	SP	_	12	obl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	frenare	frenare	VERB	V	VerbForm=Inf	12	advcl	_	_
+17	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	insurrezione	insurrezione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 27
+# text = Lasciarono una distesa di morti.
+1	Lasciarono	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	distesa	distesa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	morti	morte	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = Nessun uomo bianco, ma solo 12 neri, furono condannati per i fatti accaduti.
+1	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	11	punct	_	_
+5	ma	ma	CCONJ	CC	_	11	cc	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	12	12	NUM	N	NumType=Card	8	nummod	_	_
+8	neri	nero	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	condannati	condannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	accaduti	accaduto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Qualche bianco pensò anche di farsi fotografare, orgoglioso, vicino ai morti.
+1	Qualche	qualche	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	bianco	bianco	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	farsi	_	_	_	_	_	_	_	_
+6	far	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	fotografare	fotografare	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	orgoglioso	orgoglioso	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	vicino	vicino	ADV	B	_	15	case	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	morti	morto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

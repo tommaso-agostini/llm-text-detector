@@ -1,0 +1,525 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Libratus ne è uscito vincitore intascando in fiches l'equivalente di 1,7 milioni di dollari.
+1	Libratus	Libratus	PROPN	SP	_	4	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	vincitore	vincitore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	intascando	intascare	VERB	V	VerbForm=Ger	4	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	fiches	fiches	NOUN	S	Gender=Masc	6	obl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	equivalente	equivalente	ADJ	A	Number=Sing	6	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	1,7	1,7	NUM	N	NumType=Card	13	nummod	_	_
+13	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = E' una intelligenza artificiale della Carnegie Mellon University, fra le prime a riuscire nell'impresa in un gioco così umano come il poker.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	artificiale	artificiale	ADJ	A	Number=Sing	3	amod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Carnegie	Carnegie	PROPN	SP	_	3	nmod	_	_
+8	Mellon	Mellon	PROPN	SP	_	7	flat:name	_	_
+9	University	University	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	fra	fra	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	3	nmod	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	riuscire	riuscire	VERB	V	VerbForm=Inf	13	advcl	_	_
+16-17	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	in	in	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+22	così	così	ADV	B	_	23	advmod	_	_
+23	umano	umano	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+24	come	come	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	poker	poker	NOUN	S	_	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il campionato di Go vinto dalla DeepMind di Google e del loro AlphaGo, che ora si sta dedicando al videogame online Starcraft II , sulla carta è quindi una prova relativamente più facile.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Go	Go	PROPN	SP	_	2	nmod	_	_
+5	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	DeepMind	DeepMind	PROPN	SP	_	5	obl:agent	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Google	Google	PROPN	SP	_	8	nmod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	AlphaGo	AlphaGo	PROPN	SP	_	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+18	ora	ora	ADV	B	_	21	advmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	dedicando	dedicare	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	videogame	videogame	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	online	online	NOUN	S	Gender=Fem|Number=Plur	24	compound	_	_
+26	Starcraft	Starcraft	PROPN	SP	_	25	nmod	_	_
+27	II	secondo	ADJ	NO	Number=Sing|NumType=Ord	26	amod	_	_
+28	,	,	PUNCT	FF	_	21	punct	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	carta	carta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+33	quindi	quindi	ADV	B	_	35	advmod	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	prova	prova	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+36	relativamente	relativamente	ADV	B	_	38	advmod	_	_
+37	più	più	ADV	B	_	38	advmod	_	_
+38	facile	facile	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 4
+# text = "Non ero affatto certo che saremmo riusciti a battere quattro giocatori del genere", ha spiegato Tuomas Sandholm , professore al Carnegie Mellon University nel dipartimento di Computer Science, al The Guardian .
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+4	affatto	affatto	ADV	B	_	5	advmod	_	_
+5	certo	certo	ADV	B	_	8	advmod	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	saremmo	essere	AUX	V	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	battere	battere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	quattro	quattro	NUM	N	NumType=Card	12	nummod	_	_
+12	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	genere	genere	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	_
+20	Tuomas	Tuomas	PROPN	SP	_	19	nsubj	_	_
+21	Sandholm	Sandholm	PROPN	SP	_	20	flat:name	_	_
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	professore	professore	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Carnegie	Carnegie	PROPN	SP	_	23	nmod	_	_
+27	Mellon	Mellon	PROPN	SP	_	26	flat:name	_	_
+28	University	University	PROPN	SP	_	26	flat:name	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Computer	Computer	PROPN	SP	_	31	nmod	_	_
+34	Science	Science	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	19	punct	_	_
+36-37	al	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	The	the	PROPN	SP	_	8	obl	_	_
+39	Guardian	Guardian	PROPN	SP	_	38	flat:name	_	_
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = A poker l'Intelligenza Artificiale batte il cervello umano.
+1	A	a	ADP	E	_	2	case	_	_
+2	poker	poker	NOUN	S	_	6	obl	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Intelligenza	intelligenza	PROPN	SP	_	6	nsubj	_	_
+5	Artificiale	artificiale	PROPN	SP	_	4	flat:name	_	_
+6	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	umano	umano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Libratus, che ha partecipato al torneo alla seconda edizione di The Brains vs Artificial Intelligence , è l'erede di Claudico che aveva partecipato (e perso) a quella precedente.
+1	Libratus	Libratus	PROPN	SP	_	22	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	torneo	torneo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	The	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Brains	Brains	PROPN	SP	_	12	nmod	_	_
+16	vs	vs	PROPN	SW	Foreign=Yes	15	nmod	_	_
+17	Artificial	Artificial	PROPN	SP	_	16	flat:name	_	_
+18	Intelligence	intelligence	PROPN	SP	_	16	flat:name	_	_
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	erede	erede	NOUN	S	Number=Sing	0	root	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Claudico	Claudico	PROPN	SP	_	22	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+28	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	30	punct	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	27	obl	_	_
+34	precedente	precedente	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 7
+# text = Ma è stata l'Alberta Machine Intelligence Institute (Amii) in Canada nel 2015 a produrre il primo campione di poker sintetico.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Alberta	Alberta	PROPN	SP	_	0	root	_	_
+6	Machine	machine	PROPN	SP	_	5	flat:name	_	_
+7	Intelligence	intelligence	PROPN	SP	_	5	flat:name	_	_
+8	Institute	Institute	PROPN	SP	_	5	flat:name	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Amii	Amio	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Canada	Canada	PROPN	SP	_	5	nmod	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	2015	2015	NUM	N	NumType=Card	5	nummod	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	produrre	produrre	VERB	V	VerbForm=Inf	16	acl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	campione	campione	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	poker	poker	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	sintetico	sintetico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = "Perché si sta sperimentando così tanto con i giochi?
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sperimentando	sperimentare	VERB	V	VerbForm=Ger	0	root	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	tanto	tanto	ADV	B	_	5	advmod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Perché anche noi umani sperimentiamo la realtà attraverso di loro, imparando a prendere decisioni e a fare scelte in un ambiente dove non si rischia la propria vita", ha raccontato Cameron Schuler della Amii pochi giorni fa in una conferenza ospitata a16z della Andreessen Horowitz.
+1	Perché	perché	SCONJ	CS	_	5	mark	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	umani	umani	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	sperimentiamo	sperimentare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	attraverso	attraverso	ADP	E	_	10	case	_	_
+9	di	di	ADP	E	_	8	fixed	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	imparando	imparare	VERB	V	VerbForm=Ger	5	advcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	prendere	prendere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	decisioni	decisione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	14	conj	_	_
+19	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	dove	dove	ADV	B	_	26	advmod	_	_
+24	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl:impers	_	_
+26	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	vita	vita	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	5	punct	_	_
+32	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+34	Cameron	Cameron	PROPN	SP	_	33	obj	_	_
+35	Schuler	Schuler	PROPN	SP	_	34	flat:name	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Amii	Amio	PROPN	SP	_	34	nmod	_	_
+39	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	40	det	_	_
+40	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	33	obl	_	_
+41	fa	fare	ADV	B	_	40	advmod	_	_
+42	in	in	ADP	E	_	44	case	_	_
+43	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+45	ospitata	ospitato	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	_
+46	a16z	a16z	NOUN	S	Gender=Masc	44	compound	_	_
+47-48	della	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Andreessen	Andreessen	PROPN	SP	_	44	nmod	_	_
+50	Horowitz	Horowitz	PROPN	SP	_	49	flat:name	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = "Il poker è importante perché quando si gioca a scacchi o a Go, quel che l'avversario sta pensando non è rilevante, è rilevante quel che c'è sulla scacchiera.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	poker	poker	NOUN	S	_	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+6	perché	perché	SCONJ	CS	_	24	mark	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	gioca	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	scacchi	scacco	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+12	o	o	CCONJ	CC	_	14	cc	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Go	Go	PROPN	SP	_	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	nsubj	_	_
+17	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	pensando	pensare	VERB	V	VerbForm=Ger	16	acl:relcl	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	rilevante	rilevante	ADJ	A	Number=Sing	27	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	rilevante	rilevare	ADJ	A	Number=Sing	5	conj	_	_
+28	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	27	nsubj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	SpaceAfter=No
+31	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32-33	sulla	_	_	_	_	_	_	_	_
+32	su	su	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	scacchiera	scacchiero	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = La scacchiera contiene già tutte le possibili variabili del gioco.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scacchiera	scacchiera	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	contiene	contenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	già	già	ADV	B	_	3	advmod	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	possibili	possibile	ADJ	A	Number=Plur	8	amod	_	_
+8	variabili	variabile	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Con il poker le informazioni sul tavolo sono molto meno e il comportamento dei giocatori è una delle variabili fondamentali difficili da prevedere.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	poker	poker	NOUN	S	_	11	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	meno	meno	ADV	B	_	19	advmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	variabili	variabile	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23	fondamentali	fondamentale	ADJ	A	Number=Plur	22	amod	_	_
+24	difficili	difficile	ADJ	A	Number=Plur	22	amod	_	_
+25	da	da	ADP	E	_	26	mark	_	_
+26	prevedere	prevedere	VERB	V	VerbForm=Inf	24	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 13
+# text = Non a caso la nostra Ai per il poker pesa 26 terabits".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6-7	Ai	_	_	_	_	_	_	_	_
+6	A	A	PROPN	SP	_	11	nsubj	_	_
+7	i	europeo	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	poker	poker	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+11	pesa	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	26	26	NUM	N	NumType=Card	13	nummod	_	_
+13	terabits	terabit	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 14
+# text = Schuler e compagni sono gli stessi che hanno insegnato ad una macchina a giocare ai videogame, nel senso che una loro Ai ha appreso da sola come farlo usando una vecchia console (l'Atari 2600).
+1	Schuler	Schuler	NOUN	S	_	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	ad	a	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	giocare	giocare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	videogame	videogame	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	senso	senso	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+22	che	che	SCONJ	CS	_	28	mark	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	loro	loro	DET	AP	Poss=Yes|PronType=Prs	25	det:poss	_	_
+25-26	Ai	_	_	_	_	_	_	_	_
+25	A	a	PROPN	SP	_	28	nsubj	_	_
+26	i	il	ADJ	NO	Number=Sing|NumType=Ord	25	amod	_	_
+27	ha	ha	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	appreso	apprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	sola	solo	ADJ	A	Gender=Fem|Number=Sing	28	obl	_	_
+31	come	come	ADP	E	_	32	mark	_	_
+32-33	farlo	_	_	_	_	_	_	_	_
+32	far	fare	VERB	V	VerbForm=Inf	28	advcl	_	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	usando	usare	VERB	V	VerbForm=Ger	32	advcl	_	_
+35	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+37	console	console	NOUN	S	Gender=Fem	34	obj	_	_
+38	(	(	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+40	Atari	Atario	PROPN	SP	_	37	appos	_	_
+41	2600	2600	NUM	N	NumType=Card	40	nummod	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Grosso modo quel che è successo a Pittsburgh.
+1	Grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	successo	successo	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Pittsburgh	Pittsburgh	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = "Non abbiamo insegnato a Libratus come giocare a poker.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Libratus	Libratus	PROPN	SP	_	4	obl	_	_
+7	come	come	ADP	E	_	8	mark	_	_
+8	giocare	giocare	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	poker	poker	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Gli abbiamo dato le regole e gli abbiamo detto di imparare per suo conto", ha spiegato Noam Brown, collega di Sandholm.
+1	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	regole	regola	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+8	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	imparare	imparare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	conto	conto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+19	Noam	Noam	PROPN	SP	_	18	nsubj	_	_
+20	Brown	Brown	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	collega	collega	NOUN	S	Number=Sing	19	appos	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Sandholm	Sandholm	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = E pensare che Libratus era dato per perdente dagli allibratori.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	Libratus	Libratus	PROPN	SP	_	6	nsubj:pass	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	perdente	perdente	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	dagli	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	allibratori	allibratore	NOUN	S	Gender=Masc|Number=Plur	6	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

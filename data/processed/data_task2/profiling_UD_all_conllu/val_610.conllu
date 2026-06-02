@@ -1,0 +1,375 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una con autista e altre 19, sempre con autista, ma a uso non esclusivo.
+1	Una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	autista	autista	NOUN	S	Number=Sing	1	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	1	conj	_	_
+6	19	19	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	sempre	sempre	ADV	B	_	10	advmod	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	autista	autista	NOUN	S	Number=Sing	1	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	uso	uso	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	esclusivo	esclusivo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Troppe sindaco?
+1	Troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = "Di auto blu noi ne abbiamo una e senza autista.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Di	di	ADP	E	_	3	case	_	_
+3	auto	auto	NOUN	S	Gender=Fem	7	obl	_	_
+4	blu	blu	ADJ	A	_	3	amod	_	_
+5	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	7	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	autista	autista	NOUN	S	Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Quando serve, la guida un dipendente comunale che fa un po' di tutto.
+1	Quando	quando	SCONJ	CS	_	2	advmod	_	_
+2	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	guida	guida	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dipendente	dipendente	NOUN	S	Number=Sing	5	nmod	_	_
+8	comunale	comunale	ADJ	A	Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	po'	poco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La nostra unica e sottolineo, unica auto blu, è un'Alfa Romeo del 2004, che ha già fatto 300mila chilometri.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nostra	nostro	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	unica	unico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	sottolineo	sottolineo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	unica	unico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	auto	auto	NOUN	S	Gender=Fem	2	conj	_	_
+9	blu	blu	ADJ	A	_	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	Alfa	Alfa	PROPN	SP	_	0	root	_	_
+14	Romeo	Romeo	PROPN	SP	_	13	flat:name	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	2004	2004	NUM	N	NumType=Card	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	già	già	ADV	B	_	22	advmod	_	_
+22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+23	300mila	300mila	NUM	N	NumType=Card	24	nummod	_	_
+24	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Se non sbaglio c'è la spending review, non mi sembrano tempi da rinnovo del parco macchine".
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	sbaglio	sbaglio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nsubj	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	spending	spending	NOUN	S	Gender=Fem	5	nsubj	_	_
+8	review	review	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	rinnovo	rinnovo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	parco	parco	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	18	compound	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = E le altre 19 censite dal ministero della Funzione pubblica lei come le spiega?
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+3	altre	altro	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+4	19	19	NUM	N	NumType=Card	5	nummod	_	_
+5	censite	censire	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Funzione	funzione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	spiega	spiega	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = "Guardi non so.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Guardi	guardi	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = C'è uno sbaglio.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sbaglio	sbaglio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Possibile che lo abbia fatto la Funzione Pubblica.
+1	Possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Funzione	funzione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	Pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Escludo sia stato il Comune.
+1	Escludo	Escludo	SCONJ	CS	_	5	mark	_	_
+2	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Comune	Comune	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Non so e non intendo accusare nessuno.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	intendo	intendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	accusare	accusare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Certo quando l'abbiamo letto siamo rimasti sorpresi, noi dell'amministrazione, ma anche i cittadini".
+1	Certo	certo	ADV	B	_	7	advmod	_	_
+2	quando	quando	SCONJ	CS	_	5	mark	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	sorpresi	sorpreso	ADJ	A	Gender=Masc|Number=Plur	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	anche	anche	ADV	B	_	18	advmod	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Non sarà che quelle 19 siano in realtà auto del Comune ma adibite a altri servizi?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	9	nsubj	_	_
+5	19	19	NUM	N	NumType=Card	4	nummod	_	_
+6	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+9	auto	auto	ADJ	A	_	2	ccomp	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Comune	comune	PROPN	SP	_	9	obl	_	_
+13	ma	ma	CCONJ	CC	_	14	cc	_	_
+14	adibite	adibire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	altri	altro	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = "Guardi tutto è possibile, ma certo non è la prima volta che sulle auto blu escono numeri a caso.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Guardi	guardi	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	possibile	possibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	13	punct	_	_
+7	ma	ma	CCONJ	CC	_	13	cc	_	_
+8	certo	certo	ADV	B	_	13	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14	che	che	SCONJ	CS	_	19	mark	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	auto	auto	NOUN	S	Gender=Fem	19	obl	_	_
+18	blu	blu	ADJ	A	_	17	amod	_	_
+19	escono	uscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+20	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	caso	caso	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Anche Sassari credo abbia contestato questi numeri".
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	Sassari	Sassari	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	credo	credere	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	contestato	contestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Quante sono le auto "non blu" intestate al Comune?
+1	Quante	quanto	PRON	PQ	Gender=Fem|Number=Plur|PronType=Int	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	auto	auto	NOUN	S	Gender=Fem	1	nsubj	_	_
+5	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	blu	blu	ADJ	A	_	4	amod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	4	punct	_	_
+9	intestate	intestare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Comune	comune	PROPN	SP	_	9	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = "Sono 27, due per gli affari generali, le altre vengono usate per necessità comunali, protezione civile, servizi alla persona, viabilità, opere tecniche".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	27	27	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	due	due	NUM	N	NumType=Card	8	nummod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	affari	affare	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+9	generali	generale	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	14	nsubj:pass	_	_
+13	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	usate	usare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	necessità	necessità	NOUN	S	Gender=Fem	14	obl	_	_
+17	comunali	comunale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+20	civile	civile	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	persona	persona	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	viabilità	viabilità	NOUN	S	Gender=Fem	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	opere	opera	NOUN	S	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+30	tecniche	tecnico	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 19
+# text = Lei sindaco quanto usa l'auto blu?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+3	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	nmod	_	_
+4	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	auto	auto	NOUN	S	Gender=Fem	4	obj	_	_
+7	blu	blu	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = "Io preferisco girare con la mia, una Renault Captur.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	preferisco	preferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	girare	girare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Renault	Renault	PROPN	SP	_	4	obj	_	_
+11	Captur	Captur	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = E c'è anche chi mi rimprovera perché se avessi un incidente non sarei "assicurato" in qualità di sindaco".
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	chi	chi	PRON	PR	PronType=Rel	3	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	rimprovera	rimproverare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	perché	perché	ADV	B	_	14	advmod	_	_
+9	se	se	SCONJ	CS	_	14	mark	_	_
+10	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	sarei	essere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	assicurato	assicurato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	qualità	qualità	NOUN	S	Gender=Fem	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

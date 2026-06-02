@@ -1,0 +1,592 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il ko mette fine all'avventura che, a sentire i giocatori, avrebbe potuto proseguire fino al trionfo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ko	ko	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fine	fine	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	17	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	sentire	sentire	VERB	V	VerbForm=Inf	17	advcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux	_	_
+17	proseguire	proseguire	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+18	fino	fino	ADV	B	_	21	case	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	18	fixed	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	trionfo	trionfo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = "Tutti pensavamo che avremmo anche potuto diventare campioni del mondo.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+3	pensavamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+8	diventare	diventare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+9	campioni	campione	NOUN	S	Gender=Masc|Number=Plur	8	xcomp	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Lo sognavamo", dice il capitano Bryan Ruiz, uno dei due giocatori a fallire dal dischetto.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	sognavamo	sognare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	capitano	capitano	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	Bryan	Bryan	PROPN	SP	_	7	nmod	_	_
+9	Ruiz	Ruiz	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	appos	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	fallire	fallire	VERB	V	VerbForm=Inf	11	acl	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dischetto	dischetto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = "Il nostro Mondiale è comunque da applausi", aggiunge.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Mondiale	Mondiale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	comunque	comunque	ADV	B	_	8	advmod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	applausi	applauso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Contro l'Olanda, in realtà, il Costarica si è limitata a fare muro per 120 minuti.
+1	Contro	contro	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Olanda	Olanda	PROPN	SP	_	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Costarica	Costarica	PROPN	SP	_	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	limitata	limitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	muro	muro	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	120	120	NUM	N	NumType=Card	18	nummod	_	_
+18	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = Gli arancioni hanno prodotto una quantità industriale di occasioni e hanno centrato 3 pali.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	arancioni	arancione	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	prodotto	produrre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quantità	quantità	NOUN	S	Gender=Fem	4	obj	_	_
+7	industriale	industriale	ADJ	A	Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	centrato	centrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+13	3	3	NUM	N	NumType=Card	14	nummod	_	_
+14	pali	palo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = "Forse l'Olanda ha fatto qualcosa in più -afferma Ruiz- ma anche noi potevamo vincere".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Forse	forse	ADV	B	_	6	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Olanda	Olanda	PROPN	SP	_	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	6	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	più	più	ADV	B	_	6	advmod	_	_
+10	-	-	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+12	Ruiz	Ruiz	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	11	punct	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+17	potevamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	vincere	vincere	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Il pensiero va al 117' e alla chance che Marco Urena ha sprecato, facendosi respingere il tiro che avrebbe proiettato i Ticos in semifinale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	117'	117'	NUM	N	NumType=Card	3	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	chance	chance	NOUN	S	Gender=Fem	3	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+12	Marco	Marco	PROPN	SP	_	15	nsubj	_	_
+13	Urena	Urena	PROPN	SP	_	12	flat:name	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	sprecato	sprecare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17-18	facendosi	_	_	_	_	_	_	_	_
+17	facendo	fare	VERB	V	VerbForm=Ger	15	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19	respingere	respingere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	proiettato	proiettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	Ticos	Ticos	PROPN	SP	_	24	obj	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	semifinale	semifinale	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = "Siamo orgogliosi, ce ne andiamo a testa alta.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	orgogliosi	orgoglioso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	testa	testa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	alta	alto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Quello che ha fatto questo gruppo rimarrà nella storia", fa eco il centrocampista Christian Bolaños.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	rimarrà	rimarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+14	eco	eco	NOUN	S	Number=Sing	13	obj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	centrocampista	centrocampista	NOUN	S	Number=Sing	13	nsubj	_	_
+17	Christian	Christian	PROPN	SP	_	16	nmod	_	_
+18	Bolaños	Bolaños	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Brasile 2014, il film di Olanda-Costarica Il portiere Keylor Navas, decisivo nel successo ai rigori contro la Grecia negli ottavi, stavolta ha alzato bandiera bianca dopo aver fermato l'Olanda nei tempi regolamentari e all'overtime.
+1	Brasile	Brasile	PROPN	SP	_	0	root	_	_
+2	2014	2014	NUM	N	NumType=Card	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	film	film	NOUN	S	Gender=Masc	1	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Olanda-Costarica	Olanda-Costarica	PROPN	SP	_	5	nmod	_	_
+8	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	portiere	portiere	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+10	Keylor	Keylor	PROPN	SP	_	9	nmod	_	_
+11	Navas	Navas	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	decisivo	decisivo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	successo	successo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	rigori	rigore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	contro	contro	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Grecia	Grecia	PROPN	SP	_	19	nmod	_	_
+23-24	negli	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	ottavi	ottavo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	9	punct	_	_
+27	stavolta	stavolta	ADV	B	_	29	advmod	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+30	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+31	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	dopo	dopo	ADP	E	_	34	mark	_	_
+33	aver	avere	AUX	VA	VerbForm=Inf	34	aux	_	_
+34	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	Olanda	Olanda	PROPN	SP	_	34	obj	_	_
+37-38	nei	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+40	regolamentari	regolamentare	ADJ	A	Number=Plur	39	amod	_	_
+41	e	e	CCONJ	CC	_	44	cc	_	_
+42-43	all'	_	_	_	_	_	_	_	SpaceAfter=No
+42	a	a	ADP	E	_	44	case	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+44	overtime	overtima	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Abbiamo fatto il massimo", dice.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Sensazioni contrastanti, invece, per Michael Umana.
+1	Sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	contrastanti	contrastante	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	invece	invece	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	Michael	Michael	PROPN	SP	_	1	nmod	_	_
+8	Umana	umana	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = E' stato lui a fallire il rigore decisivo:
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fallire	fallire	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rigore	rigore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	decisivo	decisivo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = "Ci sono cose molto positive, questo gruppo di guerrieri merita appalausi e sono orgoglioso di far parte di questa squadra.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	positive	positivo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	guerrieri	guerriere	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	merita	meritare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	appalausi	appalauso	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	orgoglioso	orgoglioso	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	far	fare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Però, alla fine, avremmo potuto andare anche oltre.
+1	Però	però	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	oltre	oltre	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = Potevamo fare ancora un pò di strada, fa male uscire così".
+1	Potevamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pò	pò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	male	male	ADV	B	_	9	advmod	_	_
+11	uscire	uscire	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	così	così	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = A chiudere la porta, idealmente, è il ct Jorge Luis Pinto.
+1	A	a	ADP	E	_	2	mark	_	_
+2	chiudere	chiudere	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	porta	porta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	idealmente	idealmente	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ct	ct	NOUN	S	Gender=Masc	0	root	_	_
+11	Jorge	Jorge	PROPN	SP	_	10	nmod	_	_
+12	Luis	Luis	PROPN	SP	_	11	flat:name	_	_
+13	Pinto	Pinto	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 19
+# text = "Ringrazio i giocatori, i dirigenti e la gente:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	dirigenti	dirigente	NOUN	S	Number=Plur	2	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gente	gente	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 20
+# text = ho potuto vivere un sogno.
+1	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	vivere	vivere	VERB	V	VerbForm=Inf	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Abbiamo avuto un pò di fortuna durante il match, quando si arriva ai rigori conta anche la casualità.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pò	pò	PROPN	SP	_	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	durante	durante	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	match	match	NOUN	S	Gender=Masc	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	rigori	rigore	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17	conta	contare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+18	anche	anche	ADV	B	_	20	advmod	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	casualità	casualità	NOUN	S	Gender=Fem	17	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Usciamo di scena dopo aver regalato un'immagine positiva del nostro calcio.
+1	Usciamo	uscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	scena	scena	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	dopo	dopo	SCONJ	CS	_	6	mark	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	positiva	positivo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Quando abbiamo potuto, abbiamo giocato bene.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	potuto	potere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	bene	bene	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = Quando non siamo stati in grado di farlo, ci siamo difesi con qualità", aggiunge.
+1	Quando	quando	SCONJ	CS	_	6	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	cop	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	grado	grado	NOUN	S	Gender=Masc|Number=Sing	13	advcl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+8	far	fare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	difesi	difendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	qualità	qualità	NOUN	S	Gender=Fem	13	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 25
+# text = Il Costarica, evidenzia il ct, se ne va imbattuto e con 2 soli gol al passivo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Costarica	Costarica	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	evidenzia	evidenziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ct	ct	NOUN	S	Gender=Masc	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+10	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	imbattuto	imbattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	2	2	NUM	N	NumType=Card	16	nummod	_	_
+15	soli	solo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	gol	gol	NOUN	S	Gender=Masc	11	obl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	passivo	passivo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = "Uno dei quali - evidenzia - è stato segnato su rigore.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj:pass	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	quali	quale	PRON	PR	Number=Plur|PronType=Rel	2	nmod	_	_
+6	-	-	PUNCT	FF	_	2	punct	_	_
+7	evidenzia	evidenziare	NOUN	S	Number=Sing	2	appos	_	_
+8	-	-	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	segnato	segnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	rigore	rigore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 27
+# text = Nel girone abbiamo affrontato rivali blasonate, abbiamo giocato a viso aperto.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	girone	girone	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	affrontato	affrontato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	rivali	rivale	ADJ	A	Number=Plur	7	amod	_	_
+7	blasonate	blasonato	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	viso	viso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Anche l'Olanda, contro di noi, ha sofferto:
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Olanda	Olanda	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	contro	contro	ADP	E	_	7	case	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 29
+# text = per 70 minuti non è riuscita ad attaccare perché abbiamo sempre pressato alto.
+1	per	per	ADP	E	_	3	case	_	_
+2	70	70	NUM	N	NumType=Card	3	nummod	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8	attaccare	attaccare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	perché	perché	SCONJ	CS	_	12	mark	_	_
+10	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	pressato	pressare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+13	alto	alto	ADJ	A	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 30
+# text = Non siamo venuti in Brasile per difenderci".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Brasile	Brasile	PROPN	SP	_	3	obl	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	difenderci	_	_	_	_	_	_	_	SpaceAfter=No
+7	difender	difendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	_
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

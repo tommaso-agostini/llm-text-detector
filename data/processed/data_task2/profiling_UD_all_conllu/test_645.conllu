@@ -1,0 +1,354 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cerco persone che vogliono partecipare al mio film di Natale...
+1	Cerco	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	partecipare	partecipare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	film	film	NOUN	S	Gender=Masc	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Natale...	Natale...	PROPN	SP	_	9	nmod	_	_
+
+# sent_id = 2
+# text = se sei un attore/attrice...
+1	se	se	SCONJ	CS	_	4	mark	_	_
+2	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	attore	attore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	attrice..	attrice..	NOUN	S	_	4	compound	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = scrivimi oggi ", dice post pubblicato sulla bacheca di Corona, che aggiunge anche un contatto per chi fosse pronto a lanciarsi in questa avventura.
+1	scrivimi	scrivimo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	oggi	oggi	ADV	B	_	1	advmod	_	_
+3	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	post	post	ADV	B	_	7	advmod	_	_
+7	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bacheca	bacheca	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Corona	corona	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	anche	anche	ADV	B	_	18	advmod	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	chi	chi	PRON	PR	Number=Sing|PronType=Rel	18	nmod	_	_
+21	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+22	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	20	acl:relcl	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24-25	lanciarsi	_	_	_	_	_	_	_	_
+24	lanciar	lanciare	VERB	V	VerbForm=Inf	22	advcl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Chi fosse interessato, può tentare la sorte per un provino, magari proprio al cospetto di Fabrizio Corona in persona: " Scrivi una mail con oggetto FILM DI NATALE info@sipuede.com ".
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	interessato	interessato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	tentare	tentare	VERB	V	VerbForm=Inf	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sorte	sorte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	provino	provino	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	magari	magari	ADV	B	_	17	advmod	_	_
+14	proprio	proprio	ADV	B	_	17	advmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cospetto	cospetto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Fabrizio	Fabrizio	PROPN	SP	_	17	nmod	_	_
+20	Corona	corona	PROPN	SP	_	19	flat:name	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	persona	persona	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	6	punct	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	_
+25	Scrivi	Scrivare	PROPN	SP	_	6	obj	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	mail	mail	NOUN	S	Number=Sing	25	nmod	_	_
+28	con	con	ADP	E	_	29	case	_	_
+29	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	FILM	Film	PROPN	SP	_	29	nmod	_	_
+31	DI	Di	ADP	E	_	32	case	_	_
+32	NATALE	Natale	PROPN	SP	_	33	obl	_	_
+33	info@sipuede.com	info@sipuede.com	X	X	_	30	nmod	_	_
+34	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Non ci sono ancora dettagli riguardo a questo progetto cinematografico, né è dato sapere in quale veste l'ex fotografo dei vip vi parteciperà.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	dettagli	detre	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	riguardo	riguardo	ADV	B	_	9	case	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	cinematografico	cinematografico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	né	né	CCONJ	CC	_	14	cc	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+15	sapere	sapere	VERB	V	VerbForm=Inf	14	ccomp	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	quale	quale	DET	DQ	Number=Sing|PronType=Int	18	det	_	_
+18	veste	vedere	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+20	ex	ex	ADJ	A	_	21	amod	_	_
+21	fotografo	fotografo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	vip	vip	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	26	iobj	_	_
+26	parteciperà	partecipare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Sarà regista, attore anche lui o solo produttore?
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	regista	regista	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	attore	attore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Per questo dovremo aspettare ulteriori comunicazioni.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	dovremo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	aspettare	aspettare	VERB	V	VerbForm=Inf	0	root	_	_
+5	ulteriori	ulteriore	ADJ	A	Number=Plur	6	amod	_	_
+6	comunicazioni	comunicazione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Intanto, basti ricorda che Fabrizio Corona non sarebbe nuovo nelle vesti di attore.
+1	Intanto	intanto	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	basti	bastare	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	Fabrizio	Fabrizio	PROPN	SP	_	10	nsubj	_	_
+7	Corona	corona	PROPN	SP	_	6	flat:name	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	4	ccomp	_	_
+11-12	nelle	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	vesti	veste	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	attore	attore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Solo poche settimane fa, è comparso su YouTube un video dove è protagonista dello spot di uno studio dentistico milanese .
+1	Solo	solo	ADV	B	_	3	advmod	_	_
+2	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+4	fa	fa	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	comparso	comparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	YouTube	YouTube	PROPN	SP	_	7	obl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	video	video	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	dove	dove	ADV	B	_	14	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	protagonista	protagonista	NOUN	S	Number=Sing	11	acl:relcl	_	_
+15-16	dello	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	spot	spot	NOUN	S	Gender=Masc	14	nmod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	studio	studio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	dentistico	dentistico	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	milanese	milanese	ADJ	A	Number=Sing	20	amod	_	_
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Nella pubblicità accompagnata da una musica suadente, Corona passeggia verso lo studio, in cui il Dott.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pubblicità	pubblicità	NOUN	S	Gender=Fem	11	obl	_	_
+4	accompagnata	accompagnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	musica	musica	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	suadente	suadente	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	Corona	corona	PROPN	SP	_	11	nsubj	_	_
+11	passeggia	passeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	verso	verso	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	studio	studio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	19	nmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Dott	Dott	PROPN	SP	_	14	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 11
+# text = Cannizzo e i suoi assistenti si dividono i compiti e studiano una strategia non solo per risistemargli la bocca, ma anche per accogliere un paziente "particolarmente odontofobico".
+1	Cannizzo	Cannizzo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	assistenti	assistente	NOUN	S	Number=Plur	1	conj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	dividono	dividere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	studiano	studiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	solo	solo	ADV	B	_	17	advmod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17-18	risistemargli	_	_	_	_	_	_	_	_
+17	risistemar	risistemare	VERB	V	VerbForm=Inf	13	acl	_	_
+18	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	ma	ma	CCONJ	CC	_	25	cc	_	_
+23	anche	anche	ADV	B	_	25	advmod	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	accogliere	accogliere	VERB	V	VerbForm=Inf	17	conj	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	paziente	paziente	NOUN	S	Number=Sing	25	obj	_	_
+28	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	particolarmente	particolarmente	ADV	B	_	30	advmod	_	_
+30	odontofobico	odontofobico	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Poi la telecamera riprende un Corona spaventato sulla poltrona del dentista.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	telecamera	telecamera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	riprende	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Corona	corona	PROPN	SP	_	4	obj	_	_
+7	spaventato	spaventare	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	dentista	dentista	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Segue un siparietto in cui prima l'ex detenuto spiega le meraviglie dello studio, poi chiede al medico se l'intervento sarà doloroso.
+1	Segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	siparietto	siparietto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+6	prima	prima	ADV	B	_	10	advmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	ex	ex	ADJ	A	_	9	amod	_	_
+9	detenuto	detenuto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	meraviglie	meraviglia	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13-14	dello	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	studio	studio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	poi	poi	ADV	B	_	18	advmod	_	_
+18	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	medico	medico	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	se	se	SCONJ	CS	_	26	mark	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	cop	_	_
+26	doloroso	doloroso	ADJ	A	Gender=Masc|Number=Sing	18	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Infine una serie di immagini di Corona che, sensuale, si toglie la camicia e poi - a petto nudo e con tatuaggi in vista - mostra i muscoli e il nuovo sorriso allo specchio.
+1	Infine	infine	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serie	serie	NOUN	S	Gender=Fem	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Corona	corona	PROPN	SP	_	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	13	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	sensuale	sensuale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+13	toglie	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+16	e	e	CCONJ	CC	_	28	cc	_	_
+17	poi	poi	ADV	B	_	28	advmod	_	_
+18	-	-	PUNCT	FB	_	20	punct	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	petto	petto	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+21	nudo	nudo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	con	con	ADP	E	_	24	case	_	_
+24	tatuaggi	tatuaggio	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	vista	vista	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	-	-	PUNCT	FF	_	20	punct	_	_
+28	mostra	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	muscoli	muscolo	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+35-36	allo	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

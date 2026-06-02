@@ -1,0 +1,933 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = David Avino, Managing Director e fondatore di Argotec, ci ha spiegato che il loro compito "è fare piatti buoni, che seguano gli standard che vengono imposti dalla Nasa e soprattutto che abbiano poco sale all'interno.
+1	David	David	PROPN	SP	_	13	nsubj	_	_
+2	Avino	Avino	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Managing	Managing	PROPN	SP	_	1	conj	_	_
+5	Director	Director	PROPN	SP	_	4	flat:name	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Argotec	Argotec	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	che	che	SCONJ	CS	_	20	mark	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	compito	compito	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	fare	fare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+21	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	seguano	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	standard	standard	NOUN	S	Gender=Masc	25	obj	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj:pass	_	_
+29	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+30	imposti	imporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+31-32	dalla	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Nasa	nasa	PROPN	SP	_	37	obl	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35	soprattutto	soprattutto	ADV	B	_	37	advmod	_	_
+36	che	che	SCONJ	CS	_	37	mark	_	_
+37	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
+38	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	39	det	_	_
+39	sale	salire	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+40-41	all'	_	_	_	_	_	_	_	SpaceAfter=No
+40	a	a	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	interno	interno	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Questo ingrediente infatti crea ritenzione idrica, che è uno dei problemi principali per gli astronauti che sono sulla Stazione Spaziale Internazionale".
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	ingrediente	ingrediente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	infatti	infatti	ADV	B	_	4	advmod	_	_
+4	crea	creo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	ritenzione	ritenzione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	idrica	idrico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	acl:relcl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	principali	principale	ADJ	A	Number=Plur	13	amod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	astronauti	astronauta	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20-21	sulla	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Stazione	stazione	PROPN	SP	_	19	obl	_	_
+23	Spaziale	spaziale	PROPN	SP	_	22	flat:name	_	_
+24	Internazionale	Internazionale	ADJ	A	Number=Sing	22	flat:name	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = LE FOTO Nella cucina spaziale le linee guida sono severe.
+1	LE	il	PROPN	SP	_	11	nsubj	_	_
+2	FOTO	foto	PROPN	SP	_	1	flat:name	_	_
+3-4	Nella	_	_	_	_	_	_	_	_
+3	In	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	spaziale	spaziale	ADJ	A	Number=Sing	5	amod	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	linee	linea	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+9	guida	guida	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	severe	severe	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = "Per mandare un alimento sulla Stazione questo deve avere una durata minima di 18 mesi", spiega Avino, "preferibilmente di 24 mesi, ed è tassativamente vietato usare conservanti.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	mark	_	_
+3	mandare	mandare	VERB	V	VerbForm=Inf	11	advcl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	alimento	alimento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Stazione	stazione	PROPN	SP	_	5	nmod	_	_
+9	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	durata	durata	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	18	18	NUM	N	NumType=Card	17	nummod	_	_
+17	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	11	punct	_	_
+20	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+21	Avino	Avino	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	preferibilmente	preferibilmente	ADV	B	_	21	advmod	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	24	24	NUM	N	NumType=Card	27	nummod	_	_
+27	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	32	punct	_	_
+29	ed	e	CCONJ	CC	_	32	cc	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	tassativamente	tassativo	ADV	B	_	32	advmod	_	_
+32	vietato	vietare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+33	usare	usare	VERB	V	VerbForm=Inf	32	xcomp	_	_
+34	conservanti	conservante	ADV	B	_	33	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Per ottenere questo gli chef prendono la ricetta base e la realizzano, dopodiché il piatto deve essere sottoposto a termostabilizzazione o disidratazione.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	ottenere	ottenere	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	chef	chef	NOUN	S	Gender=Masc	6	nsubj	_	_
+6	prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	ricetta	ricetta	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	base	base	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	realizzano	realizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	dopodiché	dopodiché	SCONJ	CS	_	19	mark	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+17	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	essere	essere	AUX	VA	VerbForm=Inf	19	aux:pass	_	_
+19	sottoposto	sottoporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	termostabilizzazione	termostabilizzazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	o	o	CCONJ	CC	_	23	cc	_	_
+23	disidratazione	disidratazione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Seguendo uno di questi due procedimenti bisogna togliere o bloccare tutta la carica batterica che c'è all'interno per renderlo conservabile per il tempo richiesto.
+1	Seguendo	seguire	VERB	V	VerbForm=Ger	7	advcl	_	_
+2	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	procedimenti	procedimento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	togliere	togliere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	bloccare	bloccare	VERB	V	VerbForm=Inf	8	conj	_	_
+11	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	13	det:predet	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	carica	carico	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	batterica	batterica	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	SpaceAfter=No
+17	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	interno	interno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22-23	renderlo	_	_	_	_	_	_	_	_
+22	render	rendere	VERB	V	VerbForm=Inf	17	advcl	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	conservabile	conservabile	ADJ	A	Number=Sing	22	xcomp	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+28	richiesto	richiesto	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = La termostabilizzazione è un sistema che prevede di mettere questi prodotti secondo ricetta più o meno già cotta all'interno di un'autoclave, che raggiunge temperature di circa 121 gradi per circa 20 minuti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	termostabilizzazione	termostabilizzazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	mettere	mettere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	secondo	secondo	ADP	E	_	13	case	_	_
+13	ricetta	ricetta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	più	più	ADV	B	_	18	advmod	_	_
+15	o	o	CCONJ	CC	_	16	cc	_	_
+16	meno	meno	ADV	B	_	14	conj	_	_
+17	già	già	ADV	B	_	18	advmod	_	_
+18	cotta	cottare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+19-20	all'	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	interno	interno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	autoclave	autoclave	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	raggiunge	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	circa	circa	ADV	B	_	31	advmod	_	_
+31	121	121	NUM	N	NumType=Card	32	nummod	_	_
+32	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+33	per	per	ADP	E	_	36	case	_	_
+34	circa	circa	ADV	B	_	35	advmod	_	_
+35	20	20	NUM	N	NumType=Card	36	nummod	_	_
+36	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Il problema è che se mettiamo un piatto di pasta o una lasagna in queste condizioni ammazziamo l'ingrediente, il gusto, il colore e tutto quello che ha di buono.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	17	mark	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	mettiamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	pasta	pasta	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	lasagna	lasagna	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	ammazziamo	ammazzare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	ingrediente	ingrediente	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	colore	colore	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	28	det	_	_
+28	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	buono	buono	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Per questo sono necessarie tutta una serie di ricerche, che richiedono anche anni, che portino a perfezionare le tecniche e che alla fine garantiscano un prodotto vicino a quello preparato a casa".
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	7	det:predet	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	serie	serie	NOUN	S	Gender=Fem	4	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	richiedono	richiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	anche	anche	ADV	B	_	14	advmod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	portino	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	perfezionare	perfezionare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	tecniche	tecnica	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	_
+23	che	che	SCONJ	CS	_	27	mark	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	fine	fine	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+27	garantiscano	garantire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	vicino	vicino	ADV	B	_	32	case	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	29	nmod	_	_
+33	preparato	preparato	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	casa	casa	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = C'è poi la disidratazione o liofilizzazione , ossia la rimozione dell'acqua.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	poi	poi	ADV	B	_	2	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	disidratazione	disidratazione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	liofilizzazione	liofilizzazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ossia	ossia	CCONJ	CC	_	11	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rimozione	rimozione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = "Il procedimento prevede di mettere la pietanza all'interno di alcuni macchinari che vengono chiamati liostati o liofilizzatori e che rimuovo tutto il liquido.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	procedimento	procedimento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pietanza	pietanza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	interno	interno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	macchinari	macchinario	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj:pass	_	_
+16	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+18	liostati	liostato	NOUN	S	Gender=Masc|Number=Plur	17	xcomp	_	_
+19	o	o	CCONJ	CC	_	20	cc	_	_
+20	liofilizzatori	liofilizzatore	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	che	che	SCONJ	CS	_	23	mark	_	_
+23	rimuovo	rimuovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	conj	_	_
+24	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	26	det:predet	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	liquido	liquido	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Questa tecnica piace di più alla NASA perché il risultato è molto più leggero da trasportare.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	tecnica	tecnica	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	più	più	ADV	B	_	3	advmod	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	NASA	NASA	PROPN	SP	_	3	obl	_	_
+9	perché	perché	SCONJ	CS	_	15	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	leggero	leggero	ADJ	A	Gender=Masc|Number=Sing	3	advcl	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	trasportare	trasportare	VERB	V	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Il preparato viene fatto con un sistema che permette agli astronauti di farlo riprendere inserendo acqua calda nelle bustine con valvoline che vengono spedite a bordo".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	preparato	preparato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10-11	agli	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	astronauti	astronauta	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	farlo	_	_	_	_	_	_	_	_
+14	far	fare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	riprendere	riprendere	VERB	V	VerbForm=Inf	14	ccomp	_	_
+17	inserendo	inserire	VERB	V	VerbForm=Ger	16	advcl	_	_
+18	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+19	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	nelle	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	bustine	bustina	NOUN	S	Gender=Fem	17	obl	_	_
+23	con	con	ADP	E	_	24	case	_	_
+24	valvoline	valvolina	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj:pass	_	_
+26	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	spedite	spedire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Non tutti gli alimenti rispondono bene alla disidratazione o alla termostabilizzazione.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	rispondono	rispondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	disidratazione	disidratazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	o	o	CCONJ	CC	_	13	cc	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	termostabilizzazione	termostabilizzazione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Per esempio, il risotto in alcuni casi viene bene stabilizzato (ai funghi) in altri liofilizzato (al pesto).
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	risotto	risotto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	casi	caso	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	bene	bene	ADV	B	_	11	advmod	_	_
+11	stabilizzato	stabilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	funghi	fungo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	obl	_	_
+19	liofilizzato	liofilizzato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+20	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	pesto	pesto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 16
+# text = Bisogna quindi fare tutta una serie di test per capire qual è la procedura migliore da seguire per il piatto che si intende preparare e poi agire di conseguenza.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quindi	quindi	ADV	B	_	1	advmod	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	6	det:predet	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	serie	serie	NOUN	S	Gender=Fem	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	test	test	NOUN	S	Gender=Masc	6	nmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	capire	capire	VERB	V	VerbForm=Inf	3	advcl	_	_
+11	qual	quale	PRON	PQ	Number=Sing|PronType=Int	10	xcomp	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	procedura	procedura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+15	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	14	amod	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	seguire	seguire	VERB	V	VerbForm=Inf	10	acl	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	preparare	preparare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	poi	poi	ADV	B	_	27	advmod	_	_
+27	agire	agire	VERB	V	VerbForm=Inf	24	conj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Questo richiede tantissimo tempo e aggiustamenti continui.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tantissimo	tanto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	aggiustamenti	aggiustamento	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+7	continui	continuo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Piatti consentiti e proibiti .
+1	Piatti	piatti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	consentiti	consentire	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	proibiti	proibire	ADJ	A	Gender=Masc|Number=Plur	2	conj	_	_
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Purtroppo non è possibile fare tutto.
+1	Purtroppo	purtroppo	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = I piatti più difficili da preparare sono le paste, perché devono essere termostabilizzate e non è facile.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	difficili	difficile	ADJ	A	Number=Plur	2	amod	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	preparare	preparare	VERB	V	VerbForm=Inf	2	acl	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	paste	pasta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	perché	perché	SCONJ	CS	_	14	mark	_	_
+12	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	14	aux:pass	_	_
+14	termostabilizzate	termostabilizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	facile	facile	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 21
+# text = Quelli che non sono adatti per lo Spazio sono tutti quelli che fanno delle briciole, che hanno una consistenza tale che si creano pezzettini che vanno in giro.
+1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	11	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	adatti	adatto	ADJ	A	Gender=Masc|Number=Plur	1	acl:relcl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Spazio	spazio	PROPN	SP	_	5	obl	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nmod	_	_
+11	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	briciole	briciola	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	consistenza	consistenza	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	tale	tale	ADJ	A	Number=Sing	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	creano	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	pezzettini	pezzettino	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	giro	giro	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 22
+# text = Quindi assolutamente no alla sbrisolona e ai cracker, "a meno che non siano a tocchettini talmente piccoli da fare un boccone singolo ciascuno.
+1	Quindi	quindi	CCONJ	CC	_	6	cc	_	_
+2	assolutamente	assolutamente	ADV	B	_	6	advmod	_	_
+3	no	no	ADV	BN	PronType=Neg	6	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sbrisolona	sbrisolona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cracker	cracker	NOUN	S	Gender=Masc	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+13	a	a	ADP	E	_	14	case	_	_
+14	meno	meno	ADV	B	_	6	advmod	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	tocchettini	tocchettino	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+20	talmente	talmente	ADV	B	_	21	advmod	_	_
+21	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+22	da	da	ADP	E	_	23	mark	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	boccone	boccone	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = Un altro dei requisiti principali quando facciamo il cibo è che deve rimanere sul cucchiaio o sulla forchetta, senza formare un agglomerato colloso e senza che le particelle vadano in giro per la Stazione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	requisiti	requisito	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	principali	principale	ADJ	A	Number=Plur	5	amod	_	_
+7	quando	quando	SCONJ	CS	_	8	mark	_	_
+8	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	rimanere	rimanere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cucchiaio	cucchiaio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	o	o	CCONJ	CC	_	21	cc	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	forchetta	forchetta	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	senza	senza	ADP	E	_	24	mark	_	_
+24	formare	formare	VERB	V	VerbForm=Inf	14	advcl	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	agglomerato	agglomerato	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	colloso	colloso	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	e	e	CCONJ	CC	_	33	cc	_	_
+29	senza	senza	ADP	E	_	33	mark	_	_
+30	che	che	SCONJ	CS	_	29	fixed	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	particelle	particella	NOUN	S	Gender=Fem|Number=Plur	33	nsubj	_	_
+33	vadano	andare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	giro	giro	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+36	per	per	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Stazione	stazione	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 24
+# text = In questo l'addensante è fondamentale.
+1	In	in	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	addensante	addensante	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	fondamentale	fondamentale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 25
+# text = Sono consentite poi minestre e zuppe, che si fruiscono con la cannuccia o con il cucchiaio.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	consentite	consentire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	poi	poi	ADV	B	_	4	advmod	_	_
+4	minestre	minestra	ADJ	A	Gender=Fem|Number=Plur	2	xcomp	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	zuppe	zuppa	ADJ	A	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	fruiscono	fruire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cannuccia	cannuccia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	o	o	CCONJ	CC	_	17	cc	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cucchiaio	cucchiaio	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Fra le linee guida infine è imposto il bilanciamento fra apporto proteico e di potassio per minimizzare il problema dell'osteoporosi a cui sono soggetti gli astronauti con lunga permanenza a bordo della ISS".
+1	Fra	fra	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	linee	linea	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+4	guida	guida	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	infine	infine	ADV	B	_	7	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	imposto	imporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bilanciamento	bilanciamento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	fra	fra	ADP	E	_	11	case	_	_
+11	apporto	apporto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	proteico	proteico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	potassio	potassio	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	minimizzare	minimizzare	VERB	V	VerbForm=Inf	7	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	problema	problema	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	osteoporosi	osteoporoso	NOUN	S	Gender=Fem	19	nmod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	26	obl	_	_
+25	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	soggetti	soggetto	ADJ	A	Gender=Masc|Number=Plur	22	acl:relcl	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	astronauti	astronauta	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	permanenza	permanenza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	ISS	ISS	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 27
+# text = Lo Space food aiuterà a combattere la fame nel mondo .
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Space	Space	NOUN	S	_	4	nsubj	_	_
+3	food	food	NOUN	S	_	2	compound	_	_
+4	aiuterà	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	combattere	combattere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fame	fame	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = La tecnologia di Argotec per lo space food potrà essere usata portare cibo alle popolazioni del terzo mondo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Argotec	Argotec	PROPN	SP	_	2	nmod	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	space	space	ADJ	A	Number=Sing	8	amod	_	_
+8	food	food	NOUN	S	_	2	nmod	_	_
+9	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	usata	usare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	portare	portare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+13	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	popolazioni	popolazione	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 29
+# text = David Avino spiega che "nella nuova sede appena inaugurata disponiamo di una nuova area adibita proprio ai laboratori per lo space food e presto lavoreremo anche ad applicazioni 'terrestri'.
+1	David	David	PROPN	SP	_	3	nsubj	_	_
+2	Avino	Avino	PROPN	SP	_	1	flat:name	_	_
+3	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	12	mark	_	_
+5	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	sede	sede	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+10	appena	appena	ADV	B	_	11	advmod	_	_
+11	inaugurata	inaugurato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+12	disponiamo	disponare	VERB	V	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	area	area	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17	adibita	adibire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	proprio	proprio	ADV	B	_	21	advmod	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	laboratori	laboratorio	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+22	per	per	ADP	E	_	25	case	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	space	space	ADJ	A	Number=Sing	25	amod	_	_
+25	food	food	NOUN	S	_	21	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	presto	presto	ADV	B	_	28	advmod	_	_
+28	lavoreremo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	17	conj	_	_
+29	anche	anche	ADV	B	_	31	advmod	_	_
+30	ad	a	ADP	E	_	31	case	_	_
+31	applicazioni	applicazione	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+32	'	'	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	terrestri	terrestro	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 30
+# text = Fino a poco tempo fa ci appoggiavamo alle aziende alimentari per la preparazione dei cibi e facevamo internamente solo la parte di ricerca, però questo comportava costi elevati.
+1	Fino	fino	ADV	B	_	4	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	fa	fa	ADV	B	_	4	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+7	appoggiavamo	appoggiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	alimentari	alimentare	ADJ	A	Number=Plur	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	facevamo	facere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	7	conj	_	_
+20	internamente	interno	ADV	B	_	19	advmod	_	_
+21	solo	solo	ADV	B	_	23	advmod	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	29	punct	_	_
+27	però	però	ADV	B	_	29	advmod	_	_
+28	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	29	nsubj	_	_
+29	comportava	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+30	costi	costo	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+31	elevati	elevato	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 31
+# text = Grazie al nuovo centro produttivo secondo le nostre stime interne i prezzi saranno allineati a quelli commerciali.
+1	Grazie	grazie	NOUN	S	_	5	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	centro	centro	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+6	produttivo	produttivo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	secondo	secondo	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	stime	stima	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+11	interne	interno	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+14	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+15	allineati	allineare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	15	obl	_	_
+18	commerciali	commerciale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 32
+# text = A parità di prezzo però si potranno avere cibi sani e mirati sull'apporto calorico necessario a una popolazione di una determinata età e con carenze ben specifiche".
+1	A	a	ADP	E	_	2	case	_	_
+2	parità	parità	NOUN	S	Gender=Fem	8	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	però	però	ADV	B	_	8	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	potranno	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
+8	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+9	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	sani	sano	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	mirati	mirato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+13-14	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+13	su	su	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	apporto	apporto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	calorico	calorico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	determinata	determinato	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	età	età	NOUN	S	Gender=Fem	20	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	carenze	carenza	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+28	ben	bene	ADV	B	_	29	advmod	_	_
+29	specifiche	specifico	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 33
+# text = * della redazione di Tom's Hardware
+1	*	*	PUNCT	FF	_	4	punct	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	redazione	redazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Tom	Tom	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	's	's	PART	PART	_	6	case	_	_
+8	Hardware	hardware	PROPN	SP	_	4	nmod	_	SpacesAfter=\n
+

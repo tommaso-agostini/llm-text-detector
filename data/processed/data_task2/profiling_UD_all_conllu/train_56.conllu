@@ -1,0 +1,335 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Almeno 21 persone sono morte e molte altre sono rimaste ferite nell'attacco, che ha visto l'utilizzo di donne kamikaze.
+1	Almeno	almeno	ADV	B	_	3	advmod	_	_
+2	21	21	NUM	N	NumType=Card	3	nummod	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	morte	morire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	molte	molto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	10	obj	_	_
+8	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	10	nsubj	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+11	ferite	ferito	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	xcomp	_	_
+12-13	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	donne	donna	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	kamikaze	kamikaze	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = mégisk podido verificare che l'attacco è stato rivendicato dal gruppo terroristico Boko Haram, responsabile di decenni di violenza e atrocità nella regione.
+1	mégisk	mégisk	NOUN	S	Gender=Masc	0	root	_	_
+2	podido	podido	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	verificare	verificare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	rivendicato	rivendicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	9	obl:agent	_	_
+13	terroristico	terroristico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	Boko	Boko	PROPN	SP	_	12	nmod	_	_
+15	Haram	Haram	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	responsabile	responsabile	NOUN	S	Number=Sing	9	appos	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	atrocità	atrocità	NOUN	S	Gender=Fem	21	conj	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	regione	regione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Il gruppo, che si è definito una branca dell'organizzazione terroristica internazionale Stato Islamico, ha dichiarato che l'attacco è stato un "messaggio" per il governo nigeriano e le forze di sicurezza, che hanno recentemente intensificato la loro lotta contro i terroristisi nella zona.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	definito	definire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	branca	branca	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	terroristica	terroristico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	internazionale	internazionale	ADJ	A	Number=Sing	12	amod	_	_
+15	Stato	Stato	PROPN	SP	_	12	nmod	_	_
+16	Islamico	islamico	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	che	che	SCONJ	CS	_	27	mark	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+24	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	cop	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	19	ccomp	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	31	punct	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	governo	governo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+32	nigeriano	nigeriano	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	forze	forza	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	27	punct	_	_
+39	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+40	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+41	recentemente	recentemente	ADV	B	_	42	advmod	_	_
+42	intensificato	intensificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	loro	loro	DET	AP	Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+46	contro	contro	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48-49	terroristisi	_	_	_	_	_	_	_	_
+48	terroristi	terrorista	NOUN	S	Gender=Masc|Number=Plur	45	nmod	_	_
+49	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+50-51	nella	_	_	_	_	_	_	_	_
+50	in	in	ADP	E	_	52	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	zona	zona	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 4
+# text = L'utilizzo di donne kamikaze è diventato una triste caratteristica delle operazioni di Boko Haram negli ultimi anni.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	donne	donna	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	kamikaze	kamikazo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	triste	triste	ADJ	A	Number=Sing	10	amod	_	_
+10	caratteristica	caratteristica	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Boko	Boko	PROPN	SP	_	13	nmod	_	_
+16	Haram	Haram	PROPN	SP	_	15	flat:name	_	_
+17-18	negli	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Le donne, spesso costrette con la forza o manipolate psicologicamente, vengono utilizzate per compiere attacchi detonando degli ordigni esplosivi.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	14	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	spesso	spesso	ADV	B	_	5	advmod	_	_
+5	costrette	costringere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	forza	forza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	manipolate	manipolare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+11	psicologicamente	psicologicamente	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	utilizzate	utilizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	compiere	compiere	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	detonando	detonare	VERB	V	VerbForm=Ger	16	advcl	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	ordigni	ordigno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	esplosivi	esplosivo	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = Questo rende ancora più difficile per le forze di sicurezza prevenire gli attacchi e proteggere le persone.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	difficile	difficile	ADJ	A	Number=Sing	2	xcomp	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	forze	forza	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	prevenire	prevenire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	proteggere	proteggere	VERB	V	VerbForm=Inf	11	conj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = L'attacco di Bauchi è solo uno degli ultimi in una lunga serie di attacchi terroristici che hanno colpito la Nigeria e la regione del Sahel nel corso degli ultimi anni.ерт!
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Bauchi	Bauchi	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	serie	serie	NOUN	S	Gender=Fem	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	terroristici	terroristico	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Nigeria	Nigeria	PROPN	SP	_	20	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	regione	regione	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Sahel	Sahel	PROPN	SP	_	25	nmod	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	corso	corso	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32-33	degli	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	35	amod	_	_
+35	anni.ерт	anni.ерт	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+36	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Jos è il 내가 있는 곳(L batalha non accenna a diminuire e il governo nigeriano si trova sotto pressione per trovare una soluzione efficace alla situazione.
+1	Jos	Jos	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	내가	내가	PROPN	SP	_	11	nsubj	_	_
+5	있는	있는	PROPN	SP	_	4	flat:name	_	_
+6	곳	곳	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+7	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	L	l	PROPN	SP	_	11	nsubj	_	_
+9	batalha	batalavere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	accenna	accenna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	diminuire	diminuire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	e	e	CCONJ	CC	_	19	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+17	nigeriano	nigeriano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+20	sotto	sotto	ADP	E	_	21	case	_	_
+21	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	trovare	trovare	VERB	V	VerbForm=Inf	19	advcl	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	efficace	efficace	ADJ	A	Number=Sing	25	amod	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Inoltre, lVillaervice emerge il problema delle conseguenze sociali ed economiche della violenza terroristica, che colpisce in modo particolare le popolazioni più vulnerabili.
+1	Inoltre	inoltre	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lVillaervice	lVillaervice	PROPN	SP	_	4	nsubj	_	_
+4	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	problema	problema	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	sociali	sociale	ADJ	A	Number=Plur	9	amod	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	10	conj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+16	terroristica	terroristico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	colpisce	colpire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	modo	modo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	particolare	particolare	ADJ	A	Number=Sing	21	amod	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	popolazioni	popolazione	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	vulnerabili	vulnerabile	ADJ	A	Number=Plur	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Come progressisti, dobbiamo denunciare con forza questi attacchi barbari e morti ingiustificate, e fare la nostra parte per supportare le iniziative che mirano a prevenire la
+1	Come	come	ADP	E	_	2	case	_	_
+2	progressisti	progressista	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	denunciare	denunciare	VERB	V	VerbForm=Inf	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	forza	forza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+10	barbari	barbario	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	morti	morto	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+13	ingiustificate	ingiustificato	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	fare	fare	VERB	V	VerbForm=Inf	9	conj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	parte	parte	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	supportare	supportare	VERB	V	VerbForm=Inf	16	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	mirano	mirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	prevenire	prevenire	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpacesAfter=\n
+

@@ -1,0 +1,434 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Portato d’urgenza al Pronto Soccorso ha subito una lavanda gastrica per salvarlo dalla quantità di farmaci che aveva ingerito.
+1	Portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	d’	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Pronto	pronto	PROPN	SP	_	1	obl	_	_
+7	Soccorso	Soccorso	PROPN	SP	_	6	flat:name	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	subito	subito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lavanda	lavanda	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	gastrica	gastrico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	salvarlo	_	_	_	_	_	_	_	_
+14	salvar	salvare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quantità	quantità	NOUN	S	Gender=Fem	14	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	ingerito	ingerire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Appena si sarà ripreso scatteranno per lui le manette e le accuse saranno molteplici, da sequestro di persona a minacce, aggressioni e porto d’armi di pistola non dichiarata.
+1	Appena	appena	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	ripreso	riprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	scatteranno	scattare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	manette	manette	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+13	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	_
+14	molteplici	molteplice	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	persona	persona	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	aggressioni	aggressione	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	porto	porto	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+26	d’	di	ADP	E	_	27	case	_	SpaceAfter=No
+27	armi	arma	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	pistola	pistola	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	dichiarata	dichiarare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Gli agenti sono giunti ieri pomeriggio in viale della Libertà, a Pavia, dove l’uomo stava prendendo a calci l’auto della ex moglie, una Fiat Panda.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	agenti	agente	NOUN	S	Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	giunti	giungere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	ieri	ieri	ADV	B	_	4	advmod	_	_
+6	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	viale	viale	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Libertà	Libertà	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Pavia	Pavia	PROPN	SP	_	4	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	dove	dove	ADV	B	_	20	advmod	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	prendendo	prendere	VERB	V	VerbForm=Ger	14	acl:relcl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	calci	calce	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	auto	auto	NOUN	S	Gender=Fem	22	nmod	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	ex	ex	ADJ	A	_	28	amod	_	_
+28	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	20	punct	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Fiat	Fiat	PROPN	SP	_	20	obj	_	_
+32	Panda	panda	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Poco prima aveva aspettato sotto casa la ex compagna, una 49enne che lavora come infermiera all’ospedale.
+1	Poco	poco	ADV	B	_	4	advmod	_	_
+2	prima	prima	ADV	B	_	4	advmod	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	aspettato	aspettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	sotto	sotto	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	ex	ex	ADJ	A	_	9	amod	_	_
+9	compagna	compagna	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	49enne	49enne	NOUN	S	Gender=Fem|Number=Sing	9	appos	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	come	come	ADP	E	_	16	case	_	_
+16	infermiera	infermiera	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17-18	all’	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = I due coniugi sono separati da aprile ma il 62enne non ha mai realmente accettato la separazione.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	coniugi	coniuge	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	separati	separare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	ma	ma	CCONJ	CC	_	12	cc	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	62enne	62enne	NOUN	S	Number=Sing	12	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	mai	mai	ADV	B	_	12	advmod	_	_
+14	realmente	realmente	ADV	B	_	12	advmod	_	_
+15	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	separazione	separazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Più volte l’aveva minacciata e per questo motivo la donna, che aveva nel frattempo iniziato una nuova storia con un 57enne, preferiva restare al telefono con il nuovo compagno durante gli spostamenti in città, in modo da essere aiutata in caso di pericolo .
+1	Più	più	DET	DI	PronType=Ind	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+3	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	minacciata	minacciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	27	cc	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	storia	storia	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	57enne	57enne	NOUN	S	Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	11	punct	_	_
+26	preferiva	preferire	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	restare	restare	VERB	V	VerbForm=Inf	5	conj	_	_
+28-29	al	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	con	con	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+35	durante	durante	ADP	E	_	37	case	_	_
+36	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	spostamenti	spostamento	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	città	città	NOUN	S	Gender=Fem	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	5	punct	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+43	da	da	ADP	E	_	45	mark	_	_
+44	essere	essere	AUX	VA	VerbForm=Inf	45	aux:pass	_	_
+45	aiutata	aiutare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	_
+46	in	in	ADP	E	_	47	case	_	_
+47	caso	caso	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+50	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ieri pomeriggio infatti erano al telefono quando l’ex marito l’ha assalita obbligandola a entrare in casa.
+1	Ieri	ieri	ADV	B	_	4	advmod	_	_
+2	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	infatti	infatti	ADV	B	_	4	advmod	_	_
+4	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	quando	quando	SCONJ	CS	_	14	mark	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	ex	ex	ADJ	A	_	11	amod	_	_
+11	marito	marito	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	assalita	assalire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+15	obbligandola	obbligandola	ADJ	A	Gender=Fem|Number=Sing	14	xcomp	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	entrare	entrare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Essendosi interrotta senza alcun motivo la comunicazione telefonica, il 57enne è corso immediatamente a casa della donna e, fingendosi un poliziotto, è riuscito a entrare nell’appartamento.
+1-2	Essendosi	_	_	_	_	_	_	_	_
+1	Essendo	essere	AUX	V	VerbForm=Ger	14	aux	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	interrotta	interrompere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+4	senza	senza	ADP	E	_	6	case	_	_
+5	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+9	telefonica	telefonico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	57enne	57enne	NOUN	S	Number=Sing	14	nsubj	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	corso	correre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	immediatamente	immediato	ADV	B	_	14	advmod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	donna	donna	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	e	e	CCONJ	CC	_	29	cc	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	29	punct	_	_
+23-24	fingendosi	_	_	_	_	_	_	_	_
+23	fingendo	fingire	VERB	V	VerbForm=Ger	29	advcl	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	poliziotto	poliziotto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	23	punct	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	entrare	entrare	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32-33	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+32	in	in	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 9
+# text = Ad aprire la porta è stata la vittima stessa, presentatasi con il volto tumefatto , le mani legate, e un cerotto che le chiudeva la bocca.
+1	Ad	a	ADP	E	_	2	mark	_	_
+2	aprire	aprire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	porta	porta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11-12	presentatasi	_	_	_	_	_	_	_	_
+11	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	volto	volto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	tumefatto	tumefatto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	mani	mano	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+20	legate	legare	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cerotto	cerotto	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+27	chiudeva	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = L’aggressore si era chiuso nel bagno.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aggressore	aggressore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Si è verificata una rissa tra i due uomini e il 62enne è stato cacciato fuori dall’appartamento.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	verificata	verificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	rissa	rissa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	tra	tra	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	e	e	CCONJ	CC	_	15	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	62enne	62enne	NOUN	S	Number=Sing	15	nsubj:pass	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	cacciato	cacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+16	fuori	fuori	ADV	B	_	15	advmod	_	_
+17-18	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+17	da	da	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	15	obl:agent	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Subito la coppia ha chiamato i carabinieri per denunciare il fatto.
+1	Subito	subito	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	denunciare	denunciare	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Sul posto è giunta anche un’ambulanza che ha trasportato la vittima al Pronto Soccorso.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	giunta	giungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ambulanza	ambulanza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	trasportato	trasportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Pronto	pronto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	Soccorso	Soccorso	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Le è stata diagnosticata una frattura al setto nasale , guaribile in trenta giorni.
+1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	diagnosticata	diagnosticare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	frattura	frattura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	setto	setto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	nasale	nasale	ADJ	A	Number=Sing	9	amod	_	_
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	guaribile	guaribile	ADJ	A	Number=Sing	6	amod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	trenta	trenta	NUM	N	NumType=Card	15	nummod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Ricoverato anche l’ex marito che aveva intanto cercato di uccidersi ingerendo dei farmaci.
+1	Ricoverato	ricoverato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	ex	ex	ADJ	A	_	5	amod	_	_
+5	marito	marito	NOUN	S	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	intanto	intanto	ADV	B	_	9	advmod	_	_
+9	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	uccidersi	_	_	_	_	_	_	_	_
+11	uccider	uccidere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	ingerendo	ingerere	VERB	V	VerbForm=Ger	11	advcl	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Una lavanda gastrica gli ha salvato la vita.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lavanda	lavanda	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	gastrica	gastrico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	salvato	salvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

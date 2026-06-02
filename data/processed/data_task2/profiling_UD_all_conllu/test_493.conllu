@@ -1,0 +1,1204 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Diciotto membri delle forze dell'ordine, 15 poliziotti e tre carabinieri, sono rimasti feriti.
+1	Diciotto	diciotto	NUM	N	NumType=Card	2	nummod	_	_
+2	membri	membro	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	forze	forza	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	15	15	NUM	N	NumType=Card	11	nummod	_	_
+11	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	tre	tre	NUM	N	NumType=Card	14	nummod	_	_
+14	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+18	feriti	ferito	ADJ	A	Gender=Masc|Number=Plur	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = Nessuno grave, la prognosi è di alcuni giorni.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	grave	grave	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prognosi	prognosi	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sono stati aggrediti durante gli scontri anche alcuni cronisti.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	aggrediti	aggredire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	durante	durante	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	scontri	scontro	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	cronisti	cronista	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Cinque manifestanti sono stati arrestati, nove fermati, di cui due ragazze austriache e un tedesco.
+1	Cinque	cinque	NUM	N	NumType=Card	2	nummod	_	_
+2	manifestanti	manifestante	NOUN	S	Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	arrestati	arrestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	nove	nove	NUM	N	NumType=Card	8	nummod	_	_
+8	fermati	fermato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	nmod	_	_
+12	due	due	NUM	N	NumType=Card	13	nummod	_	_
+13	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+14	austriache	austriaco	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tedesco	tedesco	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = I reati di cui sono accusati, a vario titolo, sono resistenza a pubblico ufficiale, interruzione di pubblico servizio, uso e porto di armi improprie.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	reati	reato	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	accusati	accusare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	vario	vario	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	ufficiale	ufficiale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	interruzione	interruzione	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	uso	uso	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	porto	porto	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	armi	arma	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+28	improprie	improprio	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Sequestrate numerose armi improprie: fionde, sassi, bastoni e persino il manico di un'ascia.
+1	Sequestrate	sequestrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	numerose	numeroso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	armi	arma	NOUN	S	Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+4	improprie	improprio	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+6	fionde	fionda	NOUN	S	Gender=Fem|Number=Plur	3	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	sassi	sasso	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	bastoni	bastone	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	persino	persino	ADV	B	_	14	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	manico	manico	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ascia	ascia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Brennero, alla stazione cariche della polizia contro i manifestanti.
+1	Brennero	Brennero	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	cariche	carico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	contro	contro	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	manifestanti	manifestante	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Dopo il primo attacco alle forze di polizia, i manifestanti si sono dispersi nel paesino.
+1	Dopo	dopo	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	forze	forza	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	manifestanti	manifestante	NOUN	S	Number=Plur	15	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dispersi	dispergere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	paesino	paesino	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = Un gruppo ha raggiunto e occupato i binari nei pressi della stazione ferroviaria per bloccare lo snodo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	binari	binario	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	pressi	pressi	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	ferroviaria	ferroviario	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	bloccare	bloccare	VERB	V	VerbForm=Inf	4	advcl	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	snodo	snodo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Incalzati dalle forze dell'ordine i manifestanti hanno poi liberato i binari pe dirigersi verso l'autostrada A22 che corre parallela.
+1	Incalzati	Incalzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+2-3	dalle	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	forze	forza	NOUN	S	Gender=Fem|Number=Plur	1	obl:agent	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	manifestanti	manifestante	NOUN	S	Number=Plur	12	nsubj	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	poi	poi	ADV	B	_	12	advmod	_	_
+12	liberato	liberare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	binari	binare	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	pe	pe	NOUN	S	Gender=Fem|Number=Plur	14	compound	_	_
+16	dirigersi	dirigerso	ADJ	A	Number=Plur	15	amod	_	_
+17	verso	verso	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	autostrada	autostrada	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20	A22	A22	PROPN	SP	_	19	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	parallela	parallela	ADJ	A	Gender=Masc|Number=Sing	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = La pressione delle forze dell'ordine, munite anche di idranti, ha permesso lo sgombero definitivo delle vie di comunicazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	forze	forza	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	munite	munire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	idranti	idrante	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sgombero	sgombero	ADJ	A	Gender=Masc|Number=Sing	16	obj	_	_
+19	definitivo	definitivo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	vie	via	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 12
+# text = Scortati dalla polizia e carabinieri, i giovani sono arretrati lungo la statale, mentre l'area degli incidenti veniva sorvolata da un elicottero.
+1	Scortati	Scortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	1	obl:agent	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	giovani	giovane	NOUN	S	Number=Plur	11	nsubj	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	arretrati	arretrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+12	lungo	lungo	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	statale	statale	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	mentre	mentre	SCONJ	CS	_	23	mark	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	area	area	NOUN	S	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	incidenti	incidente	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	veniva	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:pass	_	_
+23	sorvolata	sorvolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	elicottero	elicottero	NOUN	S	Gender=Masc|Number=Sing	23	obl:agent	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Duro il sindaco del Brennero:
+1	Duro	duro	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Brennero	Brennero	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = "Il Comune aveva chiesto di proibire questa manifestazione.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Comune	Comune	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	proibire	proibire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Ora la situazione è quella che è: la ferrovia, l'autostrada sono state bloccate.
+1	Ora	ora	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ferrovia	ferrovia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	autostrada	autostrada	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	bloccate	bloccare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Il Brennero non è adatto per manifestare, è un paese pacifico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brennero	Brennero	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	adatto	adatto	ADJ	A	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	manifestare	manifestare	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	pacifico	pacifico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = I profughi qui sono sempre stati trattati bene.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	qui	qui	ADV	B	_	7	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	sempre	sempre	ADV	B	_	7	advmod	_	_
+6	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	trattati	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = Non si può distruggere un paese così e non si può manifestare al confine".
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	distruggere	distruggere	VERB	V	VerbForm=Inf	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	così	così	ADV	B	_	12	cc	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	manifestare	manifestare	VERB	V	VerbForm=Inf	6	conj	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	confine	confine	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Brennero, manifestanti fermati alla stazione ferroviaria.
+1	Brennero	Brennero	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	manifestanti	manifestante	NOUN	S	Number=Plur	1	nmod	_	_
+4	fermati	fermare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	ferroviaria	ferroviario	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Il pomeriggio ad alta tensione è iniziato con l'arrivo dei manifestanti, circa 500, che a piedi si sono spostati a piedi verso il confine, sulla strada statale, in uno dei punti dove, secondo i piani annunciati da Vienna, saranno ripristinati i controlli e posizionate le barriere metalliche anti- migranti .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	ad	a	ADP	E	_	5	case	_	_
+4	alta	alto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	manifestanti	manifestante	NOUN	S	Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	circa	circa	ADV	B	_	16	advmod	_	_
+16	500	500	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	spostati	spostare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+26	verso	verso	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	confine	confine	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30-31	sulla	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	strada	strada	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+33	statale	statale	ADJ	A	Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	23	punct	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obl	_	_
+37-38	dei	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	punti	punto	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	_
+40	dove	dove	ADV	B	_	50	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	secondo	secondo	ADP	E	_	44	case	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	piani	piano	NOUN	S	Gender=Masc|Number=Plur	50	obl	_	_
+45	annunciati	annunciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	44	acl	_	_
+46	da	da	ADP	E	_	47	case	_	_
+47	Vienna	Vienna	PROPN	SP	_	45	obl	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	44	punct	_	_
+49	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	50	aux:pass	_	_
+50	ripristinati	ripristinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
+51	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	50	nsubj:pass	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	posizionate	posizionare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	52	conj	_	_
+55	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	56	det	_	_
+56	barriere	barriera	NOUN	S	Gender=Fem|Number=Plur	54	nsubj:pass	_	_
+57	metalliche	metallico	ADJ	A	Gender=Fem|Number=Plur	56	amod	_	_
+58	anti	anti	ADJ	A	_	56	amod	_	SpaceAfter=No
+59	-	-	PUNCT	FF	_	58	punct	_	_
+60	migranti	migrante	ADJ	A	Number=Plur	58	conj	_	_
+61	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = "Distruggiamo le barriere", lo slogan del corteo organizzato dall'ala più dura dei "No Borders", il movimento di protesta contro le barriere anti-migranti.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Distruggiamo	Distruggare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	barriere	barriera	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	slogan	slogan	NOUN	S	Gender=Masc	2	conj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+13	da	da	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ala	ala	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	dura	duro	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	No	no	PROPN	SP	_	15	nmod	_	_
+22	Borders	Borders	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	21	appos	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	contro	contro	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	barriere	barriera	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+32	anti	anti	ADJ	A	_	33	amod	_	SpaceAfter=No
+33	-migranti	-migrante	ADJ	A	Number=Plur	31	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Gli organizzatori della protesta anarchica, alla quale non hanno partecipato partiti politici, hanno rifiutato ogni tipo di contatto e "trattativa" con la questura di Bolzano.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	organizzatori	organizzatore	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	anarchica	anarchico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	quale	quale	PRON	PR	Number=Sing|PronType=Rel	13	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+14	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+15	politici	politico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	rifiutato	rifiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	trattativa	trattativo	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	questura	questura	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Bolzano	Bolzano	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 23
+# text = Silenzio anche con i mass media.
+1	Silenzio	silenzio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	mass	mass	NOUN	S	_	1	obl	_	_
+6	media	medio	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Brennero, la protesta degli anarchici al confine tra Austria e Italia LEGGI Migranti, l'Europa di papa Francesco:
+1	Brennero	Brennero	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	anarchici	anarchico	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	confine	confine	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	tra	tra	ADP	E	_	12	case	_	_
+12	Austria	Austria	PROPN	SP	_	10	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Italia	Italia	PROPN	SP	_	12	conj	_	_
+15	LEGGI	legge	PROPN	SP	_	14	flat:name	_	_
+16	Migranti	Migrante	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	Europa	Europa	PROPN	SP	_	1	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	papa	papa	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	Francesco	Francesco	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 25
+# text = "Sogno che migrare non sia un delitto.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	migrare	migrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	delitto	delitto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Ponti, non muri" A scopo preventivo, erano stati rimossi diversi cartelli stradali per evitare che gli anarchici potessero utilizzarli per fare danni lungo il percorso, 300 metri in linea d'aria dalla stazione alla rotonda.
+1	Ponti	ponti	PROPN	SP	_	12	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	muri	muro	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	1	punct	_	_
+6	A	a	ADP	E	_	7	case	_	_
+7	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+8	preventivo	preventivo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	rimossi	rimuovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	cartelli	cartello	NOUN	S	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+15	stradali	stradale	ADJ	A	Number=Plur	14	amod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	evitare	evitare	VERB	V	VerbForm=Inf	14	acl	_	_
+18	che	che	SCONJ	CS	_	22	mark	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	anarchici	anarchico	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+21	potessero	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22-23	utilizzarli	_	_	_	_	_	_	_	_
+22	utilizzar	utilizzare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+23	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	22	advcl	_	_
+26	danni	danno	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+27	lungo	lungo	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	300	300	NUM	N	NumType=Card	32	nummod	_	_
+32	metri	metro	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	linea	linea	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+35	d'	di	ADP	E	_	36	case	_	SpaceAfter=No
+36	aria	aria	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37-38	dalla	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+40-41	alla	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	rotonda	rotonda	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 27
+# text = Pare che ai manifestanti fosse stato permesso, pur di evitare disordini, di portarsi di qualche metro oltre il confine, come atto simbolico.
+1	Pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	manifestanti	manifestante	NOUN	S	Number=Plur	8	obl	_	_
+6	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	pur	pure	ADV	B	_	12	mark	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12	evitare	evitare	VERB	V	VerbForm=Inf	1	advcl	_	_
+13	disordini	disordine	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16-17	portarsi	_	_	_	_	_	_	_	_
+16	portar	portare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	metro	metro	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21	oltre	oltre	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	confine	confine	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	come	come	ADP	E	_	26	case	_	_
+26	atto	atto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+27	simbolico	simbolico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = Fino alla stazione di rifornimento carburante dove ieri il leader della Lega, Matteo Salvini , in visita al passo, aveva elogiato la determinazione anti-migranti del governo austriaco invitando il premier Matteo Renzi a "svegliarsi".
+1	Fino	fino	ADV	B	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	rifornimento	rifornimento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	carburante	carburante	ADJ	A	Number=Sing	6	amod	_	_
+8	dove	dove	ADV	B	_	26	advmod	_	_
+9	ieri	ieri	ADV	B	_	26	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	leader	leader	NOUN	S	_	26	nsubj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Lega	Lega	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	Matteo	Matteo	PROPN	SP	_	11	appos	_	_
+17	Salvini	Salvini	PROPN	SP	_	16	flat:name	_	_
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	visita	visita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	passo	passo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	11	punct	_	_
+25	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	elogiato	elogiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	anti	anti	ADJ	A	_	28	amod	_	SpaceAfter=No
+30	-migranti	-migrante	ADJ	A	Number=Plur	28	amod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	governo	governo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+34	austriaco	austriaco	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	invitando	invitare	VERB	V	VerbForm=Ger	28	advcl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	premier	premier	NOUN	S	_	35	obj	_	_
+38	Matteo	Matteo	PROPN	SP	_	37	nmod	_	_
+39	Renzi	Renzi	PROPN	SP	_	38	flat:name	_	_
+40	a	a	ADP	E	_	42	mark	_	_
+41	"	"	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+42-43	svegliarsi	_	_	_	_	_	_	_	SpaceAfter=No
+42	svegliar	svegliare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+44	"	"	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = Ma se fossero andati oltre, Vienna aveva avvertito che la reazione sarebbe stata pesante.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+5	oltre	oltre	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	Vienna	Vienna	PROPN	SP	_	9	nsubj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	avvertito	avvertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	che	che	SCONJ	CS	_	15	mark	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+15	pesante	pesante	ADJ	A	Number=Sing	9	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 30
+# text = "Gli anarchici verranno al Brennero per creare problemi, del resto le intenzioni sono state espresse chiaramente nel comunicato che gira in rete da oltre un mese...", aveva spiegato un funzionario di polizia, non nascondendo la preoccupazione.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	anarchici	anarchico	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	verranno	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Brennero	Brennero	PROPN	SP	_	4	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	creare	creare	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	resto	resto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	espresse	esprimere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+20	chiaramente	chiaramente	ADV	B	_	19	advmod	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	gira	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	rete	rete	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	da	da	ADP	E	_	31	case	_	_
+29	oltre	oltre	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	mese...	mese...	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	4	punct	_	_
+34	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	funzionario	funzionario	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	37	punct	_	_
+41	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+42	nascondendo	nascondere	VERB	V	VerbForm=Ger	35	advcl	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 31
+# text = Italia-Austria, come sarà la barriera al Brennero Oggi intanto il nuovo ministro degli Interni austriaco ha dichiarato:
+1	Italia-Austria	Italia-Austria	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	SCONJ	CS	_	6	mark	_	_
+4	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	barriera	barriera	NOUN	S	Gender=Fem|Number=Sing	1	advcl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Brennero	Brennero	PROPN	SP	_	20	obl	_	_
+10	Oggi	Oggi	ADV	B	_	20	advmod	_	_
+11	intanto	intanto	ADV	B	_	10	advmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Interni	Interni	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	austriaco	austriaco	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 32
+# text = "Al Brennero non ci sarà nessun muro e il confine non verrà chiuso".
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2-3	Al	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Brennero	Brennero	PROPN	SP	_	7	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	muro	muro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	e	e	CCONJ	CC	_	15	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	confine	confine	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+15	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 33
+# text = A Merano per il congresso della Svp Wolfgang Sobotka ha aggiunto che "se l'Italia fa i suoi compiti non ci sarà neanche bisogno dei controlli.
+1	A	a	ADP	E	_	2	case	_	_
+2	Merano	Merano	PROPN	SP	_	12	obl	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Svp	Svp	PROPN	SP	_	5	nmod	_	_
+9	Wolfgang	Wolfgang	PROPN	SP	_	8	flat:name	_	_
+10	Sobotka	Sobotka	PROPN	SP	_	8	flat:name	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	che	che	SCONJ	CS	_	24	mark	_	_
+14	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+15	se	se	SCONJ	CS	_	18	mark	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	Italia	Italia	PROPN	SP	_	18	nsubj	_	_
+18	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
+24	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	ccomp	_	_
+25	neanche	neanche	ADV	BN	PronType=Neg	24	advmod	_	_
+26	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+27-28	dei	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 34
+# text = C'è pieno sostegno dell'Austria per il piano Renzi".
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Austria	Austria	PROPN	SP	_	4	nmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	piano	piano	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+11	Renzi	Renzi	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 35
+# text = Poi ha ricordato il grande numero di richiedenti asilo accolti nel 2015 dall'Austria:
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	numero	numero	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	richiedenti	richiedente	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	asilo	asilo	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	_
+10	accolti	accogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2015	2015	NUM	N	NumType=Card	10	obl	_	_
+14-15	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Austria	Austria	PROPN	SP	_	10	obl:agent	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 36
+# text = "Se la Germania può controllare verso l'Austria, non si capisce perché l'Austria non possa fare lo stesso verso l'Italia".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Germania	Germania	PROPN	SP	_	6	nsubj	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	controllare	controllare	VERB	V	VerbForm=Inf	0	root	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	Austria	Austria	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	capisce	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	perché	perché	SCONJ	CS	_	19	mark	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	Austria	Austria	PROPN	SP	_	19	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	13	advcl	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	obj	_	_
+22	verso	verso	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	Italia	Italia	PROPN	SP	_	19	obl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 37
+# text = Sobotka ha anche negato che i lavori al Brennero abbiano scopi elettorali.
+1	Sobotka	Sobotka	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	negato	negare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Brennero	Brennero	PROPN	SP	_	7	nmod	_	_
+11	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+12	scopi	scopo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+13	elettorali	elettorale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 38
+# text = Scontri al Brennero:
+1	Scontri	scontro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Brennero	Brennero	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 39
+# text = polizia austriaca respinge centri sociali con spray urticanti.
+1	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	austriaca	austriaco	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	respinge	respingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	centri	centro	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	sociali	sociale	ADJ	A	Number=Plur	4	amod	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	spray	spray	NOUN	S	Gender=Masc	3	obl	_	_
+8	urticanti	urticante	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 40
+# text = Le dichiarazioni del ministro austriaco sono "il frutto del nostro lavoro" e "la conferma di quello che avevamo già concordato dieci giorni fa" commenta il ministro dell'Interno Angelino Alfano, ricordando l'incontro col collega austriaco.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	austriaco	austriaco	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	10	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	25	aux	_	_
+24	già	già	ADV	B	_	25	advmod	_	_
+25	concordato	concordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	dieci	dieci	NUM	N	NumType=Card	27	nummod	_	_
+27	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+28	fa	fa	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	19	punct	_	_
+30	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+33-34	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+33	di	di	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	Interno	Interno	PROPN	SP	_	32	nmod	_	_
+36	Angelino	Angelino	PROPN	SP	_	32	nmod	_	_
+37	Alfano	Alfano	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	30	punct	_	_
+39	ricordando	ricordare	VERB	V	VerbForm=Ger	30	advcl	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42-43	col	_	_	_	_	_	_	_	_
+42	con	con	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	collega	collega	NOUN	S	Number=Sing	41	nmod	_	_
+45	austriaco	austriaco	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 41
+# text = "Gli ho dato la prova che sprecherebbero i soldi che stanno impiegando per costruire le attività preparatorie di una eventuale barriera.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prova	prova	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	sprecherebbero	sprechare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	impiegando	impiegare	VERB	V	VerbForm=Ger	10	acl:relcl	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	costruire	costruire	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	attività	attività	NOUN	S	Gender=Fem	15	obj	_	_
+18	preparatorie	preparatorio	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	eventuale	eventuale	ADJ	A	Number=Sing	22	amod	_	_
+22	barriera	barriera	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 42
+# text = Saranno soldi sprecati gli ho detto perchè noi nel frattempo lavoreremo così bene alle frontiere che non ce ne sarà più bisogno".
+1	Saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	sprecati	sprecato	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+7	perchè	perché	SCONJ	CS	_	12	mark	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+12	lavoreremo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	6	ccomp	_	_
+13	così	così	ADV	B	_	14	advmod	_	_
+14	bene	bene	ADV	B	_	12	advmod	_	_
+15-16	alle	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	frontiere	frontiera	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+22	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	acl:relcl	_	_
+23	più	più	ADV	B	_	22	advmod	_	_
+24	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 43
+# text = LEGGI Brennero, "No al muro contro i migranti":
+1	LEGGI	legge	PROPN	SP	_	0	root	_	_
+2	Brennero	Brennero	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	No	no	INTJ	I	Polarity=Neg	1	appos	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	muro	muro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	contro	contro	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	migranti	migrante	NOUN	S	Number=Plur	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 44
+# text = fermato e poi rilasciato uno degli organizzatori italiani Il precedente:
+1	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	poi	poi	ADV	B	_	4	advmod	_	_
+4	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	organizzatori	organizzatore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	precedente	precedente	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 45
+# text = l'ultima manifestazione di protesta contro la barriera austriaca è del 24 aprile.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	contro	contro	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	barriera	barriera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	austriaca	austriaco	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	24	24	NUM	N	NumType=Card	0	root	_	_
+14	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 46
+# text = Ci furono scontri - non gravi - tra "No Borders" e forze dell'ordine con lancio di oggetti e cariche di spray urticante:
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	scontri	scontro	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	-	-	PUNCT	FB	_	6	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	gravi	grave	ADJ	A	Number=Plur	3	amod	_	_
+7	-	-	PUNCT	FB	_	3	punct	_	_
+8	tra	tra	ADP	E	_	11	case	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	No	no	INTJ	I	Polarity=Neg	11	discourse	_	_
+11	Borders	Borders	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	forze	forza	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	lancio	lancio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	oggetti	oggetto	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	cariche	carica	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	spray	spray	NOUN	S	Gender=Masc	23	nmod	_	_
+26	urticante	urticante	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 47
+# text = un militante di un centro sociale bolognese (Tpo) fu fermato e poi rilasciato.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	militante	militante	NOUN	S	Number=Sing	12	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	centro	centro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sociale	sociale	ADJ	A	Number=Sing	5	amod	_	_
+7	bolognese	bolognese	ADJ	A	Number=Sing	5	amod	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Tpo	Tpo	PROPN	SP	_	5	appos	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	poi	poi	ADV	B	_	15	advmod	_	_
+15	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 48
+# text = Oggi il livello della tensione potrebbe salire.
+1	Oggi	oggi	ADV	B	_	8	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	livello	livello	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	salire	salire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

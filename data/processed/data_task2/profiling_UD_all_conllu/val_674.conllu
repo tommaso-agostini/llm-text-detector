@@ -1,0 +1,502 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi si è girato ed è tornato indietro.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	girato	girare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	ed	e	CCONJ	CC	_	7	cc	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+8	indietro	indietro	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = In tutto, la sua visita è durata meno di due minuti .
+1	In	in	ADP	E	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	visita	visita	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	meno	meno	ADV	B	_	8	advmod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Trump visita il memoriale di Martin Luther King Ai cronisti, presenti sul posto, il presidente americano si è limitato a dire:
+1	Trump	Trump	NOUN	S	Number=Sing	13	nsubj	_	_
+2	visita	visitare	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	memoriale	memoriale	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Martin	Martin	PROPN	SP	_	4	nmod	_	_
+7	Luther	Luther	PROPN	SP	_	6	flat:name	_	_
+8	King	King	PROPN	SP	_	6	flat:name	_	_
+9-10	Ai	_	_	_	_	_	_	_	_
+9	A	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	cronisti	cronista	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	presenti	presente	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	posto	posto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+20	americano	americano	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	dire	dire	VERB	V	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 4
+# text = "È una bella giornata" . Nessuna parola sul leader degli afroamericani.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	.	.	PUNCT	FS	_	5	punct	_	_
+8	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	parola	parola	NOUN	S	Gender=Fem|Number=Sing	5	parataxis	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	leader	leader	NOUN	S	_	9	nmod	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	afroamericani	afroamericano	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Solo un tweet , sul suo profilo, per ricordare la giornata particolare:
+1	Solo	solo	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tweet	tweet	NOUN	S	Gender=Masc	0	root	_	_
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	ricordare	ricordare	VERB	V	VerbForm=Inf	3	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	particolare	particolare	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = "Oggi celebriamo Martin Luther King per essersi battuto per le verità tanto care agli americani, ossia che non importa quale sia il colore della nostra pelle o il luogo della nostra nascita:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Oggi	oggi	ADV	B	_	3	advmod	_	_
+3	celebriamo	celebrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Martin	Martin	PROPN	SP	_	3	obj	_	_
+5	Luther	Luther	PROPN	SP	_	4	flat:name	_	_
+6	King	King	PROPN	SP	_	4	flat:name	_	_
+7	per	per	ADP	E	_	10	mark	_	_
+8-9	essersi	_	_	_	_	_	_	_	_
+8	esser	essere	AUX	VA	VerbForm=Inf	10	aux	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	verità	verità	NOUN	S	Gender=Fem	10	obl	_	_
+14	tanto	tanto	ADV	B	_	15	advmod	_	_
+15	care	care	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+16-17	agli	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	americani	americano	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	ossia	ossia	CCONJ	CC	_	23	cc	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+24	quale	quale	SCONJ	CS	_	25	mark	_	_
+25	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	colore	colore	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+32	o	o	CCONJ	CC	_	34	cc	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	38	det:poss	_	_
+38	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+39	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = siamo tutti creati uguali da Dio".
+1	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	obl	_	_
+3	creati	creare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	uguali	uguale	ADJ	A	Number=Plur	3	amod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Dio	dio	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Today we celebrate Dr. Martin Luther King, Jr. for standing up for the self-evident truth Americans hold so dear, that no matter what the color of our skin or the place of our birth, we are all created equal by God.
+1	Today	Today	CCONJ	CC	_	3	cc	_	_
+2	we	we	ADV	B	_	3	advmod	_	_
+3	celebrate	celebrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	Dr	Dr	PROPN	SP	_	21	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+6	Martin	Martin	PROPN	SP	_	4	flat:name	_	_
+7	Luther	Luther	PROPN	SP	_	4	flat:name	_	_
+8	King	King	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	Jr	Jr	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+12	for	for	ADP	E	_	13	case	_	_
+13	standing	standing	NOUN	S	Gender=Fem	4	nmod	_	_
+14	up	up	ADJ	A	_	13	amod	_	_
+15	for	for	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	self-evident	self-evident	X	SW	Foreign=Yes	13	nmod	_	_
+18	truth	truth	X	SW	Foreign=Yes	17	flat:foreign	_	_
+19	Americans	Americans	X	SW	Foreign=Yes	17	flat:foreign	_	_
+20	hold	hold	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	dear	deare	VERB	V	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	that	thare	X	SW	Foreign=Yes	22	obj	_	_
+25	no	no	X	SW	Foreign=Yes	24	flat:foreign	_	_
+26	matter	matter	X	SW	Foreign=Yes	24	flat:foreign	_	_
+27	what	whare	X	SW	Foreign=Yes	24	flat:foreign	_	_
+28	the	the	X	SW	Foreign=Yes	24	flat:foreign	_	_
+29	color	colore	X	SW	Foreign=Yes	24	flat:foreign	_	_
+30	of	of	X	SW	Foreign=Yes	24	flat:foreign	_	_
+31	our	our	X	SW	Foreign=Yes	24	flat:foreign	_	_
+32	skin	skino	X	SW	Foreign=Yes	24	flat:foreign	_	_
+33	or	or	X	SW	Foreign=Yes	24	flat:foreign	_	_
+34	the	the	DET	RD	Definite=Def|PronType=Art	35	det	_	_
+35	place	place	NOUN	S	Number=Sing	24	nmod	_	_
+36	of	of	ADP	E	_	37	mark	_	_
+37	our	our	VERB	V	VerbForm=Inf	35	acl	_	_
+38	birth	birth	INTJ	I	_	41	discourse	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	we	we	ADV	B	_	41	advmod	_	_
+41	are	are	VERB	V	VerbForm=Inf	37	conj	_	_
+42	all	all	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	created	create	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+44	equal	eequale	DET	DQ	Number=Sing|PronType=Int	45	det	_	_
+45	by	by	NOUN	S	Gender=Fem	43	nmod	_	_
+46	God	God	PROPN	SP	_	45	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = #MLKDay https://t.co/pEaVpCB8M4 — Donald J. Trump (@realDonaldTrump) 21 gennaio 2019 Trump non ha partecipato a nessun'altra cerimonia in memoria di Martin Luther King.
+1	#MLKDay	#MLKday	PROPN	SP	_	16	nsubj	_	_
+2	https://t.co/pEaVpCB8M4	https://t.co/pEaVpCB8M4	PROPN	SP	_	1	flat:name	_	_
+3	—	—	PUNCT	FF	_	4	punct	_	_
+4	Donald	Donald	PROPN	SP	_	1	nmod	_	_
+5	J.	J.	PROPN	SP	_	4	flat:name	_	_
+6	Trump	Trump	PROPN	SP	_	4	flat:name	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	@realDonaldTrump	@realDonaldTrump	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	21	21	NUM	N	NumType=Card	16	obl	_	_
+11	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	_
+12	2019	2019	NUM	N	NumType=Card	10	flat	_	_
+13	Trump	Trump	PROPN	SP	_	16	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	nessun'	nessuno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+19	altra	altro	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Martin	Martin	PROPN	SP	_	22	nmod	_	_
+25	Luther	Luther	PROPN	SP	_	24	flat:name	_	_
+26	King	King	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 10
+# text = La visita lampo al memoriale e la poca partecipazione agli eventi della giornata non è piaciuta al popolo americano, che ha attribuito il gesto a un insulto:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visita	visita	NOUN	S	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+3	lampo	lampo	ADJ	A	_	2	amod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	memoriale	memoriale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	poca	poco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11-12	agli	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	piaciuta	piacere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	americano	americano	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	attribuito	attribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	insulto	insulto	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 11
+# text = "Arrivare fin sotto il monumento in auto e fermarsi appena 90 secondi è alla stregua di un insulto" , avrebbe detto il reverendo Al Sharpton, secondo quanto riporta Repubblica .
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Arrivare	arrivare	VERB	V	VerbForm=Inf	18	csubj	_	_
+3	fin	fino	ADV	B	_	2	advmod	_	_
+4	sotto	sotto	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	monumento	monumento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	auto	auto	NOUN	S	Gender=Fem	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10-11	fermarsi	_	_	_	_	_	_	_	_
+10	fermar	fermare	VERB	V	VerbForm=Inf	2	conj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	appena	appena	ADV	B	_	13	advmod	_	_
+13	90	90	NUM	N	NumType=Card	14	nummod	_	_
+14	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	stregua	stregua	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	insulto	insulto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	18	punct	_	_
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	parataxis	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	reverendo	reverere	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+28-29	Al	_	_	_	_	_	_	_	_
+28	A	a	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Sharpton	Sharpton	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	25	punct	_	_
+32	secondo	secondo	ADP	E	_	33	case	_	_
+33	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	25	obl	_	_
+34	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+35	Repubblica	Repubblica	PROPN	SP	_	34	xcomp	_	_
+36	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 12
+# text = Anche Martin Luther King III, figlio del celebre attivista, si è scagliato contro gli esponenti della Casa Bianca, in particolare contro Mike Pence, che aveva usato l'immagine del padre per la costruzione del muro al confine col Messico:
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Martin	Martin	PROPN	SP	_	15	nsubj	_	_
+3	Luther	Luther	PROPN	SP	_	2	flat:name	_	_
+4	King	King	PROPN	SP	_	2	flat:name	_	_
+5	III	terzo	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	celebre	celebre	ADJ	A	Number=Sing	11	amod	_	_
+11	attivista	attivista	NOUN	S	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	scagliato	scagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	contro	contro	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	Bianca	Bianca	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	15	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+26	contro	contro	ADP	E	_	27	case	_	_
+27	Mike	Mike	PROPN	SP	_	15	nmod	_	_
+28	Pence	Pence	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	15	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	padre	padre	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	per	per	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	muro	muro	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+44-45	al	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	confine	confine	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+47-48	col	_	_	_	_	_	_	_	_
+47	con	con	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	Messico	Messico	PROPN	SP	_	46	nmod	_	SpaceAfter=No
+50	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 13
+# text = "Ci ha ispirati a portare il cambiamento attraverso il processo legislativo per rendere l'Unione più perfetta.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ispirati	ispirare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	portare	portare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	attraverso	attraverso	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	processo	processo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	legislativo	legislativo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	rendere	rendere	VERB	V	VerbForm=Inf	6	advcl	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	Unione	Unione	PROPN	SP	_	14	obj	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	perfetta	perfetto	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = E' proprio quello che il presidente Trump chiede al Congresso di fare:
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	proprio	proprio	ADV	B	_	3	advmod	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Trump	Trump	PROPN	SP	_	6	nmod	_	_
+8	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = sedersi al tavolo in buona fede.
+1-2	sedersi	_	_	_	_	_	_	_	_
+1	seder	sedere	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	buona	buono	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	fede	fede	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Rendiamo sicura la frontiera, riapriremo il governo" , aveva detto Pence.
+1	Rendiamo	rendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	1	xcomp	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	riapriremo	riaprire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	governo	governo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	1	punct	_	_
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
+13	Pence	Pence	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = E il figlio dell'uomo che combattè per l'uguaglianza, ribatte sostenendo che "Martin Luther King Jr. era un costruttore di ponti non di muri.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	combattè	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	uguaglianza	uguaglianza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	ribatte	ribattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	sostenendo	sostenere	VERB	V	VerbForm=Ger	13	advcl	_	_
+15	che	che	SCONJ	CS	_	24	mark	_	_
+16	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+17	Martin	Martin	PROPN	SP	_	24	nsubj	_	_
+18	Luther	Luther	PROPN	SP	_	17	flat:name	_	_
+19	King	King	PROPN	SP	_	17	flat:name	_	_
+20	Jr	Jr	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	17	punct	_	_
+22	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	costruttore	costruttore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	ponti	ponte	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	muri.	muri.	NOUN	S	Gender=Masc	24	nmod	_	SpaceAfter=No
+
+# sent_id = 18
+# text = .direbbe che l'amore e non l'odio renderebbero l'America di nuovo grande".
+1	.direbbe	.dire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	amore	amore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	odio	odio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+9	renderebbero	rendere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	America	America	PROPN	SP	_	9	obj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	grande	grande	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,364 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Emergono dettagli raccapriccianti della notte di terrore trascorsa da quella piccola anima innocente;
+1	Emergono	emergere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dettagli	dettaglio	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	raccapriccianti	raccapricciante	ADV	B	_	2	advmod	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	trascorsa	trascorrere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	obl	_	_
+12	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	anima	anima	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	innocente	innocente	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = alla fine è stata dilaniata sia fisicamente che psicologicamente.
+1-2	alla	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	dilaniata	dilaniare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	sia	essere	CCONJ	CC	_	8	cc	_	_
+8	fisicamente	fisicamente	ADV	B	_	6	advmod	_	_
+9	che	che	CCONJ	CC	_	10	cc	_	_
+10	psicologicamente	psicologicamente	ADV	B	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Già si sta cercando uno straniero, forse di nazionalità "internazionale", con cui la giovane adolescente abbia intrattenuto un rapporto sessuale consenziente.
+1	Già	già	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	straniero	straniero	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	forse	forse	ADV	B	_	10	advmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	nazionalità	nazionalità	NOUN	S	Gender=Fem	4	obl	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	internazionale	internazionale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	giovane	giovane	ADJ	A	Number=Sing	19	amod	_	_
+19	adolescente	adolescente	NOUN	S	Number=Sing	21	nsubj	_	_
+20	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	intrattenuto	intrattenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	sessuale	sessuale	ADJ	A	Number=Sing	23	amod	_	_
+25	consenziente	consenziente	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ma questo aggravata la situazione:
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	aggravata	aggravare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = i genitori della ragazza chiedono giustizia e di non fare di tutta l'erba un fascio, accusando quindi senza alcuna ombra di dubbi tutti gli uomini di colore che potrebbero essere coinvolti nella vicenda.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	di	di	ADP	E	_	11	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	6	conj	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det:predet	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	erba	erba	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fascio	fascio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	accusando	accusare	VERB	V	VerbForm=Ger	11	advcl	_	_
+20	quindi	quindi	ADV	B	_	19	advmod	_	_
+21	senza	senza	ADP	E	_	23	case	_	_
+22	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
+23	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	28	det:predet	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	colore	colore	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	34	nsubj:pass	_	_
+32	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	essere	essere	AUX	VA	VerbForm=Inf	34	aux:pass	_	_
+34	coinvolti	coinvolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+35-36	nella	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	vicenda.	vicenda.	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+
+# sent_id = 6
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 7
+# text = È il momento della riflessione e della tolleranza - siamo nel ventunesimo secolo con tutti i nostri ammodernamenti da tempo promessi, ma ancora non realizzati - ci sono giunte notizie di classi bambine di 10 anni che siano state sorprese durante atti di prostituzione minorile in giro per le strade delle città italiane.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	riflessione	riflessione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tolleranza	tolleranza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	-	-	PUNCT	FB	_	12	punct	_	_
+12	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	ventunesimo	ventunesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
+16	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	con	con	ADP	E	_	21	case	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	21	det:predet	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	ammodernamenti	ammodernamento	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+24	promessi	promesso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	29	punct	_	_
+26	ma	ma	CCONJ	CC	_	29	cc	_	_
+27	ancora	ancora	ADV	B	_	29	advmod	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	realizzati	realizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	conj	_	_
+30	-	-	PUNCT	FB	_	29	punct	_	_
+31	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	_
+32	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	giunte	giungere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+34	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	33	nsubj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	classi	classe	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+37	bambine	bambino	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	10	10	NUM	N	NumType=Card	40	nummod	_	_
+40	anni	anno	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	_
+41	che	che	SCONJ	CS	_	44	mark	_	_
+42	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+43	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	44	aux:pass	_	_
+44	sorprese	sorprendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	33	ccomp	_	_
+45	durante	durante	ADP	E	_	46	case	_	_
+46	atti	atto	NOUN	S	Gender=Masc|Number=Plur	44	obl	_	_
+47	di	di	ADP	E	_	48	case	_	_
+48	prostituzione	prostituzione	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+49	minorile	minorile	ADJ	A	Number=Sing	48	amod	_	_
+50	in	in	ADP	E	_	51	case	_	_
+51	giro	giro	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	_
+52	per	per	ADP	E	_	54	case	_	_
+53	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	strade	strada	NOUN	S	Gender=Fem|Number=Plur	51	nmod	_	_
+55-56	delle	_	_	_	_	_	_	_	_
+55	di	di	ADP	E	_	57	case	_	_
+56	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+57	città	città	NOUN	S	Gender=Fem	54	nmod	_	_
+58	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	57	amod	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 8
+# text = Molti dei cittadini si domandano:
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	domandano	domandere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 9
+# text = cosa ci aspetta domani ?
+1	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	domani	domani	ADV	B	_	3	advmod	_	_
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Intanto il sentimento sale a numeri in crescita, e sta crescendo ancor di più l'egoismo e l'odio razziale - come se la colpa di questo e d’altri crimini commessi da stranieri, fosse finalizzata troppo facilmente alla ricerca di capri espiatori in una crisi di sicurezza in Italia che c’è e si sente.
+1	Intanto	intanto	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	sale	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	crescendo	crescere	VERB	V	VerbForm=Ger	4	conj	_	_
+13	ancor	ancora	ADV	B	_	15	advmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	più	più	ADV	B	_	12	advmod	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	egoismo	egoismo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	odio	odio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+21	razziale	razziale	ADJ	A	Number=Sing	20	amod	_	_
+22	-	-	PUNCT	FF	_	12	punct	_	_
+23	come	come	ADV	B	_	38	advmod	_	_
+24	se	se	SCONJ	CS	_	38	mark	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	38	nsubj:pass	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	26	nmod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	d’	di	ADP	E	_	32	case	_	SpaceAfter=No
+31	altri	altro	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+32	crimini	crimine	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+33	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+34	da	da	ADP	E	_	35	case	_	_
+35	stranieri	straniero	NOUN	S	Gender=Masc|Number=Plur	33	obl:agent	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	26	punct	_	_
+37	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	aux:pass	_	_
+38	finalizzata	finalizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+39	troppo	troppo	ADV	B	_	40	advmod	_	_
+40	facilmente	facilmente	ADV	B	_	38	advmod	_	_
+41-42	alla	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	capri	caprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	46	det:poss	_	_
+46	espiatori	espiatore	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	crisi	crisi	NOUN	S	Gender=Fem	46	nmod	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+52	in	in	ADP	E	_	53	case	_	_
+53	Italia	Italia	PROPN	SP	_	38	obl	_	_
+54	che	che	PRON	PR	PronType=Rel	56	nsubj	_	_
+55	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	56	expl	_	SpaceAfter=No
+56	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl:relcl	_	_
+57	e	e	CCONJ	CC	_	59	cc	_	_
+58	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	59	expl:impers	_	_
+59	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = L'unica soluzione è che i nostri politici e funzionari del Governo sapevano mal gestire il problema e si aggiungono a loro gli organi giudiziari,le forze dell'ordine.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	unica	unico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	16	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	politici	politico	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	funzionari	funzionario	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	sapevano	sapere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+15	mal	male	ADV	B	_	16	advmod	_	_
+16	gestire	gestire	VERB	V	VerbForm=Inf	4	ccomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	problema	problema	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	aggiungono	aggiungere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	21	obl	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	organi	organo	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+26	giudiziari,le	giudiziari,le	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+27	forze	forza	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 12
+# text = Bisogna avere la volontà di cercare e dare solidarietà alla giovane vittima, dare giustizia al suo stupratore e dare protezione ad altre donne nella medesima situazione.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	avere	avere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	volontà	volontà	NOUN	S	Gender=Fem	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	cercare	cercare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	dare	dare	VERB	V	VerbForm=Inf	6	conj	_	_
+9	solidarietà	solidarietà	NOUN	S	Gender=Fem	8	obj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	giovane	giovane	ADJ	A	Number=Sing	13	amod	_	_
+13	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	dare	dare	VERB	V	VerbForm=Inf	1	conj	_	_
+16	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	stupratore	stupratore	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	dare	dare	VERB	V	VerbForm=Inf	15	conj	_	_
+23	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+24	ad	a	ADP	E	_	26	case	_	_
+25	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	26	det	_	_
+26	donne	donna	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	medesima	medesimo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Ho delle enormi responsabilità, curiamo nostra figlia, impicchiamo qualche immigrato invasivo e qualcuno di
+1	Ho	avere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	delle	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	enormi	enorme	ADJ	A	Number=Plur	5	amod	_	_
+5	responsabilità	responsabilità	NOUN	S	Gender=Fem	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	curiamo	curare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	impicchiamo	impicchare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	immigrato	immigrato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	invasivo	invasivo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	conj	_	_
+17	di	di	ADP	E	_	16	case	_	SpacesAfter=\n
+

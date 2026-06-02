@@ -1,0 +1,431 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo ha comunicato a Mediaset il dottor Claudio Costa, il responsabile della clinica mobile del Motomondiale.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comunicato	comunicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Mediaset	Mediaset	PROPN	SP	_	3	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+8	Claudio	Claudio	PROPN	SP	_	7	nmod	_	_
+9	Costa	Costa	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	responsabile	responsabile	NOUN	S	Number=Sing	7	appos	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	clinica	clinica	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	mobile	mobile	ADJ	A	Number=Sing	15	amod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Motomondiale	Motomondiale	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Rossi: bisognava esporre la bandiera rossa "Quando l’ambulanza va troppo piano non è un bel segno, io credo fosse giusto esporre la bandiera rossa:
+1	Rossi	Rossi	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	esporre	esporre	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+9	Quando	quando	SCONJ	CS	_	12	mark	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	ambulanza	ambulanza	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+13	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+14	piano	piano	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	bel	bello	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	segno	segno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+23	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+24	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	22	ccomp	_	_
+25	esporre	esporre	VERB	V	VerbForm=Inf	24	csubj	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 3
+# text = è per regolamento e andava data".
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	regolamento	regolamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	andava	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Così Valentino Rossi, ai microfoni di Mediaset, si è detto sorpreso del fatto che non fosse stata sospesa la gara delle Moto2 subito dopo il terribile incidente che è costato la vita al giapponese Tomizawa.
+1	Così	così	ADV	B	_	13	advmod	_	_
+2	Valentino	Valentino	PROPN	SP	_	13	nsubj	_	_
+3	Rossi	Rossi	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	microfoni	microfone	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Mediaset	Mediaset	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	sorpreso	sorpreso	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	che	che	SCONJ	CS	_	22	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+21	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	sospesa	sospendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	gara	gara	NOUN	S	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	Moto2	Moto2	PROPN	SP	_	24	nmod	_	_
+28	subito	subito	ADV	B	_	32	advmod	_	_
+29	dopo	dopo	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	terribile	terribile	ADJ	A	Number=Sing	32	amod	_	_
+32	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	costato	costare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl:relcl	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	vita	vita	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	41	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	giapponese	giapponese	ADJ	A	Number=Sing	41	amod	_	_
+41	Tomizawa	Tomizawa	PROPN	SP	_	35	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = "C’era un pilota a terra, anche se lo show deve andare avanti", ha aggiunto Rossi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	terra	terra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	anche	anche	ADV	B	_	14	mark	_	_
+10	se	se	SCONJ	CS	_	9	fixed	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	show	show	NOUN	S	Gender=Masc	14	nsubj	_	_
+13	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	andare	andare	VERB	V	VerbForm=Inf	3	advcl	_	_
+15	avanti	avanti	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+20	Rossi	Rossi	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il 5 settembre è una data nefasta per il mondo delle due ruote e per il circuito di Misano:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	5	5	NUM	N	NumType=Card	7	obl	_	_
+3	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	data	data	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	nefasta	nefasto	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	ruote	ruota	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	circuito	circuito	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Misano	Misano	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 7
+# text = nello stesso giorno nel 1993 un incidente paralizzò Wayne Rainey, il campione americano della classe 500.
+1-2	nello	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	4	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	1993	1993	NUM	N	NumType=Card	10	obl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	paralizzò	paralizze	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Wayne	Wayne	PROPN	SP	_	10	obj	_	_
+12	Rainey	Rainey	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	campione	campione	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+16	americano	americano	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	classe	classe	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20	500	500	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = "Forse bisogna cambiare data", ha concluso Rossi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Forse	forse	ADV	B	_	3	advmod	_	_
+3	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cambiare	cambiare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	data	data	ADJ	A	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	concluso	concludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+10	Rossi	Rossi	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Pedrosa:
+1	Pedrosa	Pedroso	ADV	B	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = "Non ci sono parole" "Non ci sono parole".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	_
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	Non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	parole	parola	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Daniel Pedrosa non riesce ad esultare dopo la vittoria nella classe MotoGp del Gp di San Marino.
+1	Daniel	Daniel	PROPN	SP	_	4	nsubj	_	_
+2	Pedrosa	Pedrosa	PROPN	SP	_	1	flat:name	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ad	a	ADP	E	_	6	mark	_	_
+6	esultare	esultare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	dopo	dopo	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	classe	classe	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	MotoGp	MotoGp	PROPN	SP	_	12	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Gp	Gp	PROPN	SP	_	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	San	San	PROPN	SP	_	16	nmod	_	_
+19	Marino	Marino	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Il pilota spagnolo, dopo la gara, è stato informato del decesso del pilota giapponese Shoya Tomizawa, deceduto dopo un terribile incidente nella prova della Moto2.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	informato	informare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	decesso	decesso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	giapponese	giapponese	ADJ	A	Number=Sing	17	amod	_	_
+19	Shoya	Shoya	PROPN	SP	_	17	nmod	_	_
+20	Tomizawa	Tomizawa	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	11	punct	_	_
+22	deceduto	decedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+23	dopo	dopo	ADP	E	_	26	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	terribile	terribile	ADJ	A	Number=Sing	26	amod	_	_
+26	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	prova	prova	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Moto2	Moto2	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = "La gara è stata perfetta, ma la testa adesso è da un’altra parte...", dice Pedrosa a Mediaset.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gara	gara	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	perfetta	perfetto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	16	punct	_	_
+8	ma	ma	CCONJ	CC	_	16	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	testa	testa	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+11	adesso	adesso	ADV	B	_	16	advmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	altra	altro	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	parte...	parte...	NOUN	S	_	6	conj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+20	Pedrosa	Pedrosa	PROPN	SP	_	19	nsubj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Mediaset	Mediaset	PROPN	SP	_	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Agostini: rischio inevitabile "Non facciamo i farmacisti":
+1	Agostini	Agostino	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	inevitabile	inevitabile	ADJ	A	Number=Sing	3	amod	_	_
+5	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	Non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	farmacisti	farmacista	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = così Giacomo Agostini - intervistato da Canale 5 sulla morte del giapponese Shoya Tomizawa in seguito a un incidente durante il Gp di San Marino di Moto2 - ha posto l’accento sul rischio insito nelle corse in moto.
+1	così	così	ADV	B	_	32	advmod	_	_
+2	Giacomo	Giacomo	PROPN	SP	_	32	nsubj	_	_
+3	Agostini	Agostini	PROPN	SP	_	2	flat:name	_	_
+4	-	-	PUNCT	FB	_	2	punct	_	_
+5	intervistato	intervistato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Canale	Canale	PROPN	SP	_	5	obl:agent	_	_
+8	5	5	NUM	N	NumType=Card	7	nummod	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	morte	morte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	giapponese	giapponese	ADJ	A	Number=Sing	15	amod	_	_
+15	Shoya	Shoya	PROPN	SP	_	11	nmod	_	_
+16	Tomizawa	Tomizawa	PROPN	SP	_	15	flat:name	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	durante	durante	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Gp	Gp	PROPN	SP	_	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	San	San	PROPN	SP	_	24	nmod	_	_
+27	Marino	Marino	PROPN	SP	_	26	flat:name	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Moto2	Moto2	PROPN	SP	_	26	nmod	_	_
+30	-	-	PUNCT	FF	_	2	punct	_	_
+31	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	posto	porre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	accento	accento	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+35-36	sul	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	insito	insire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+39-40	nelle	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	corse	corsa	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	moto	moto	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 16
+# text = "Fortunatamente, oggi succede molto meno di una volta" - ha detto il 15 volte campione mondiale delle due ruote - ma "quando si corre a 300 all’ora" il rischio è inevitabile.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Fortunatamente	fortunatamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	oggi	oggi	ADV	B	_	5	advmod	_	_
+5	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	meno	meno	ADV	B	_	5	advmod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	_
+12	-	-	PUNCT	FF	_	5	punct	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+16	15	15	NUM	N	NumType=Card	17	nummod	_	_
+17	volte	volta	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+18	campione	campione	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+19	mondiale	mondiale	ADJ	A	Number=Sing	18	amod	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	ruote	ruota	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+24	-	-	PUNCT	FF	_	14	punct	_	_
+25	ma	ma	CCONJ	CC	_	39	cc	_	_
+26	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+27	quando	quando	SCONJ	CS	_	29	mark	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:impers	_	_
+29	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	advcl	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	300	300	NUM	N	NumType=Card	29	nummod	_	_
+32-33	all’	_	_	_	_	_	_	_	SpaceAfter=No
+32	a	a	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	ora	ora	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	29	punct	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	39	nsubj	_	_
+38	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+39	inevitabile	inevitabile	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

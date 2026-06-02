@@ -1,0 +1,310 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’incontro, rintocchi di campana, è stato svelato da una comunicazione ufficiale che, in filigrana, si concentra sulle “dilicenze istruttorie” in corso.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	rintocchi	rintocco	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	campana	campana	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	svelato	svelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	ufficiale	ufficiale	ADJ	A	Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	21	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	filigrana	filigrana	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	concentra	concentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+22-23	sulle	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	“	“	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	dilicenze	dilicenza	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+26	istruttorie	istruttorio	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	”	”	PUNCT	FB	_	25	punct	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	corso	corso	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Orlando non soppesa, anche se la sua frase risuona con una cautela che non lascia spazio a interpretazioni.
+1	Orlando	Orlando	VERB	V	VerbForm=Ger	10	advcl	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	soppesa	soppendere	ADJ	A	Gender=Fem|Number=Sing	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	anche	anche	ADV	B	_	10	mark	_	_
+6	se	se	SCONJ	CS	_	5	fixed	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	frase	frase	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	risuona	risuonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cautela	cautela	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	interpretazioni	interpretazione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = “Lunedì vedrò Legnini, poi valuterò”.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lunedì	lunedì	PROPN	SP	_	3	nsubj	_	_
+3	vedrò	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Legnini	Legnini	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	poi	poi	ADV	B	_	7	advmod	_	_
+7	valuterò	valutare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Legnini, ovvero Marco Carrà, l’ex carabiniere romano che ha collaborato con la mafia, è da mesi al centro di un’inchiesta giudiziaria che ha scosso le fondamenta del tessuto sociale e politico di Palermo.
+1	Legnini	Legnini	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	ovvero	ovvero	CCONJ	CC	_	4	cc	_	_
+4	Marco	Marco	PROPN	SP	_	1	conj	_	_
+5	Carrà	carrà	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	ex	ex	ADJ	A	_	9	amod	_	_
+9	carabiniere	carabiniere	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+10	romano	romano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	collaborato	collaborare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mafia	mafia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	centro	centro	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	giudiziaria	giudiziario	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	scosso	scuotere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	fondamenta	fondamento	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	tessuto	tessuto	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	sociale	sociale	ADJ	A	Number=Sing	35	amod	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	politico	politico	ADJ	A	Gender=Masc|Number=Sing	36	conj	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	Palermo	Palermo	PROPN	SP	_	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = Carrà, con la sua testimonianza, ha svelato dettagli sconvolgenti sulla gestione del traffico di droga, l’omicidio di Falcone e Borsellino e, soprattutto, sul ruolo di Ministrozzi, che ha contribuito a ricostruire una mappa inedita del potere mafioso.
+1	Carrà	carrà	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	svelato	svelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	dettagli	dettaglio	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	sconvolgenti	sconvolgente	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	droga	droga	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Falcone	Falcone	PROPN	SP	_	22	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	Borsellino	Borsellino	PROPN	SP	_	24	conj	_	_
+27	e	e	CCONJ	CC	_	33	cc	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	33	punct	_	_
+29	soprattutto	soprattutto	ADV	B	_	33	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31-32	sul	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Ministrozzi	Ministrozzi	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	33	punct	_	_
+37	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+38	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
+40	a	a	ADP	E	_	41	mark	_	_
+41	ricostruire	ricostruire	VERB	V	VerbForm=Inf	39	xcomp	_	_
+42	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	mappa	mappa	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	inedita	inedito	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+45-46	del	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	potere	potere	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+48	mafioso	mafioso	ADJ	A	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Questo incontro, apparentemente di routine, assume un’importanza strategica di rilievo.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	apparentemente	apparentemente	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	routine	routine	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	assume	assumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	strategica	strategico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	rilievo	rilievo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = La prospettiva di una colloquia con il “boss biblico”, in un momento delicato per l’inchiesta, è vista da alcuni come un tentativo da parte del governo di “intercettare” le informazioni che Carrà potrebbe ancora possedere, di orientare la linea dell’indagine e, forse, di attenuare le conseguenze politiche di un caso che rischia di creare ulteriori fratture nel panorama italiano.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prospettiva	prospettiva	NOUN	S	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	colloquia	colloquia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	boss	boss	NOUN	S	Gender=Masc	5	nmod	_	_
+10	biblico	biblico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	momento	momento	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+16	delicato	delicato	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	22	obl:agent	_	_
+25	come	come	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	parte	parte	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	governo	governo	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33	di	di	ADP	E	_	35	mark	_	_
+34	“	“	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	intercettare	intercettare	VERB	V	VerbForm=Inf	32	acl	_	SpaceAfter=No
+36	”	”	PUNCT	FB	_	35	punct	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	35	obj	_	_
+39	che	che	PRON	PR	PronType=Rel	43	obj	_	_
+40	Carrà	Carre	PROPN	SP	_	43	nsubj	_	_
+41	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+42	ancora	ancora	ADV	B	_	43	advmod	_	_
+43	possedere	possedere	VERB	V	VerbForm=Inf	38	acl:relcl	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	46	punct	_	_
+45	di	di	ADP	E	_	46	mark	_	_
+46	orientare	orientare	VERB	V	VerbForm=Inf	43	conj	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	linea	linea	NOUN	S	Gender=Fem|Number=Sing	46	obj	_	_
+49-50	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+49	di	di	ADP	E	_	51	case	_	_
+50	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	48	nmod	_	_
+52	e	e	CCONJ	CC	_	57	cc	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	57	punct	_	_
+54	forse	forse	ADV	B	_	57	advmod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	54	punct	_	_
+56	di	di	ADP	E	_	57	mark	_	_
+57	attenuare	attenuare	VERB	V	VerbForm=Inf	35	conj	_	_
+58	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	59	det	_	_
+59	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	57	obj	_	_
+60	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	59	amod	_	_
+61	di	di	ADP	E	_	63	case	_	_
+62	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	caso	caso	NOUN	S	Gender=Masc|Number=Sing	59	nmod	_	_
+64	che	che	PRON	PR	PronType=Rel	65	nsubj	_	_
+65	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	acl:relcl	_	_
+66	di	di	ADP	E	_	67	mark	_	_
+67	creare	creare	VERB	V	VerbForm=Inf	65	xcomp	_	_
+68	ulteriori	ulteriore	ADJ	A	Number=Plur	69	amod	_	_
+69	fratture	frattura	NOUN	S	Gender=Fem|Number=Plur	67	obj	_	_
+70-71	nel	_	_	_	_	_	_	_	_
+70	in	in	ADP	E	_	72	case	_	_
+71	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	67	obl	_	_
+73	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	72	amod	_	SpaceAfter=No
+74	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 8
+# text = Ma la consapevolezza di una sinistra in fermento è palpabile.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	consapevolezza	consapevolezza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	fermento	fermento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	palpabile	palpabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Le opposizioni, in particolare il Partito Democratico, non tardano a esprimere forti perplessità.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	opposizioni	opposizione	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+8	Democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	tardano	tardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	esprimere	esprimere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	forti	forte	ADJ	A	Number=Plur	15	amod	_	_
+15	perplessità	perplessità	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Il rischio, per
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	2	case	_	SpacesAfter=\n
+

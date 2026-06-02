@@ -1,0 +1,401 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ieri ha incontrato l'amico Matteo Renzi nella sua veste di presidente del Consiglio all'ambasciata italiana a Londra.
+1	Ieri	ieri	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	Matteo	Matteo	PROPN	SP	_	5	nmod	_	_
+7	Renzi	Renzi	PROPN	SP	_	6	flat:name	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	veste	veste	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Consiglio	consiglio	PROPN	SP	_	13	nmod	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ambasciata	ambasciata	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+20	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Londra	Londra	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Con il fondatore e amministratore delegato del fondo d'investimento Algebris, genovese, 43 anni, da 20 nella capitale inglese, c'erano altri 30 manager e imprenditori italiani che fanno business nel Regno unito, Serra è uscito dal meeting entusiasta.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	amministratore	amministratore	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+6	delegato	delegato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	Algebris	Algebris	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	genovese	genovese	NOUN	S	Number=Sing	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	43	43	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	da	da	ADP	E	_	28	case	_	_
+20	20	20	NUM	N	NumType=Card	28	nummod	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+24	inglese	inglese	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	SpaceAfter=No
+27	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+28	altri	altro	ADJ	A	Gender=Masc|Number=Plur	3	nmod	_	_
+29	30	30	NUM	N	NumType=Card	30	nummod	_	_
+30	manager	manager	NOUN	S	_	28	nsubj	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	_
+33	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+36	business	business	NOUN	S	Gender=Masc	35	obj	_	_
+37-38	nel	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Regno	Regno	PROPN	SP	_	35	obl	_	_
+40	unito	unito	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	39	punct	_	_
+42	Serra	serra	PROPN	SP	_	39	flat:name	_	_
+43	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+45-46	dal	_	_	_	_	_	_	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	meeting	meeting	NOUN	S	Gender=Masc	44	obl	_	_
+48	entusiasta	entusiasta	ADJ	A	Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	44	punct	_	_
+
+# sent_id = 3
+# text = "E gli altri lo erano più di me".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	E	e	CCONJ	CC	_	5	cc	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+6	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+7	più	più	ADV	B	_	9	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Perché, cosa è cambiato?
+1	Perché	perché	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = "La differenza con i suoi predecessori è enorme.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	predecessori	predecessore	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	enorme	enorme	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Ho fatto tanti incontri simili con i premier italiani.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	incontri	incontro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	simili	simile	ADJ	A	Number=Plur	4	amod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	premier	premier	NOUN	S	_	4	nmod	_	_
+9	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Siamo sempre usciti con la sensazione che non sarebbe cambiato nulla.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	sempre	sempre	ADV	B	_	3	advmod	_	_
+3	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Matteo è diverso, non è un trombone come quelli che sono passati di qui negli ultimi 20 anni".
+1	Matteo	Matteo	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	trombone	trombone	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	passati	passare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	qui	qui	ADV	B	_	13	advmod	_	_
+16-17	negli	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	20	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+18	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+19	20	20	NUM	N	NumType=Card	20	nummod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Le promesse le fanno tutti.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Cosa ha di più l'ex sindaco?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	più	più	ADV	B	_	2	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	ex	ex	ADJ	A	_	7	amod	_	_
+7	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = "Il progetto di riforme a tutto campo.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	riforme	riforma	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	campo	campo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Una velocità che qui non avevamo mai visto.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	velocità	velocità	NOUN	S	Gender=Fem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+4	qui	qui	ADV	B	_	8	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	mai	mai	ADV	B	_	8	advmod	_	_
+8	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Per investire in Italia gli operatori hanno bisogno della certezza che le cose cambieranno davvero, nella burocrazia, nella digitalizzazione, nel mercato del lavoro.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	investire	investire	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Italia	Italia	PROPN	SP	_	2	obl	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+7	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	che	che	SCONJ	CS	_	15	mark	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+15	cambieranno	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	advcl	_	_
+16	davvero	davvero	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	digitalizzazione	digitalizzazione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	15	punct	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Già oggi i flussi di denaro dimostrano che nell'Italia è riposta una fiducia nuova.
+1	Già	già	ADV	B	_	7	advmod	_	_
+2	oggi	oggi	ADV	B	_	7	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	flussi	flusso	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	dimostrano	dimostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	13	mark	_	_
+9-10	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Italia	Italia	PROPN	SP	_	13	obl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	riposta	riporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+16	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Tre anni fa invece quando proponevi di mettere un po' di soldi nel nostro Paese ti ridevano in faccia.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	_
+4	invece	invece	ADV	B	_	18	advmod	_	_
+5	quando	quando	SCONJ	CS	_	6	mark	_	_
+6	proponevi	proponeve	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	mettere	mettere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	po'	poco	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Paese	paese	PROPN	SP	_	8	obl	_	_
+17	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	18	obj	_	_
+18	ridevano	ridere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 16
+# text = Eravamo i baluba del mondo.
+1	Eravamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	baluba	baluba	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Peggio della Nigeria".
+1	Peggio	peggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Nigeria	Nigeria	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Lei parla da tifoso, è amico del premier.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	tifoso	tifoso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	amico	amico	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	premier	premier	NOUN	S	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = "Infatti ieri al meeting non ho parlato.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Infatti	infatti	ADV	B	_	9	advmod	_	_
+3	ieri	ieri	ADV	B	_	9	advmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meeting	meeting	NOUN	S	Gender=Masc	9	obl	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = Mi sono limitato ad ascoltare osservando un linguaggio nuovo da parte di Renzi e dei suoi interlocutori.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	ascoltare	ascoltare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	osservando	osservare	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Renzi	Renzi	PROPN	SP	_	11	nmod	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	interlocutori	interlocutore	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Se in Italia adesso arrivano soldi freschi, qualcuno dovrebbe solo dire "grazie Matteo"".
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Italia	Italia	PROPN	SP	_	5	obl	_	_
+4	adesso	adesso	ADV	B	_	5	advmod	_	_
+5	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	freschi	fresco	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+10	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	solo	solo	ADV	B	_	12	advmod	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	grazie	grazie	NOUN	S	_	15	case	_	_
+15	Matteo	Matteo	PROPN	SP	_	12	xcomp	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

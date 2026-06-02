@@ -1,0 +1,335 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una qualificazione che, francamente, lascia un po’ di amaro in bocca.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	qualificazione	qualificazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	francamente	francamente	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	lascia	lasciare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po’	poco	ADV	B	_	11	advmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	amaro	amaro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non per la prestazione del Feyenoord, squadra solida e mai doma, ma per quella dei giallorossi.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	prestazione	prestazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Feyenoord	Feyenoord	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+10	solida	solido	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	mai	mai	ADV	B	_	13	advmod	_	_
+13	doma	domare	ADV	B	_	4	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	conj	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	giallorossi	giallorosso	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Si avvertiva la tensione, il peso di un match decisivo, e la Roma, pur giocando tra le mura amiche, ha faticato a imporre il proprio gioco.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	avvertiva	avvertire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	peso	peso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	match	match	NOUN	S	Gender=Masc	7	nmod	_	_
+11	decisivo	decisivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	25	punct	_	_
+13	e	e	CCONJ	CC	_	25	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Roma	Roma	PROPN	SP	_	25	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	pur	pure	ADV	B	_	18	advmod	_	_
+18	giocando	giocare	VERB	V	VerbForm=Ger	25	advcl	_	_
+19	tra	tra	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	mura	muro	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+22	amiche	amico	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	faticato	faticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	imporre	imporre	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Troppo compassati, a tratti rinchiusi nella propria metà campo, i ragazzi di De Rossi hanno concesso fin troppo spazio agli olandesi, rischiando più di quanto vorrebbe la prudenza.
+1	Troppo	troppo	ADV	B	_	2	advmod	_	_
+2	compassati	compassato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	rinchiusi	rinchiudere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	metà	metà	NOUN	S	Gender=Fem	6	obl	_	_
+11	campo	campo	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	De	De	PROPN	SP	_	14	nmod	_	_
+17	Rossi	Rossi	PROPN	SP	_	16	flat:name	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	fin	fino	ADP	E	_	22	case	_	_
+21	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+22	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23-24	agli	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	olandesi	olandese	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	19	punct	_	_
+27	rischiando	rischiare	VERB	V	VerbForm=Ger	19	advcl	_	_
+28	più	più	ADV	B	_	27	advmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	28	obl	_	_
+31	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	prudenza	prudenza	NOUN	S	Gender=Fem|Number=Sing	30	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 5
+# text = Un rigore trasformato da Paulo Dybala, un lampo di genio in una notte grigia, ha fatto la differenza, ma senza quella sterilità offensiva che pure si è vista in più occasioni.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rigore	rigore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+3	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Paulo	Paulo	PROPN	SP	_	3	obl:agent	_	_
+6	Dybala	Dybala	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lampo	lampo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	genio	genio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	notte	notte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+15	grigia	grigio	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	ma	ma	CCONJ	CC	_	25	cc	_	_
+23	senza	senza	ADP	E	_	25	case	_	_
+24	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	sterilità	sterilità	NOUN	S	Gender=Fem	18	conj	_	_
+26	offensiva	offensivo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+28	pure	pure	ADV	B	_	31	advmod	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 6
+# text = Qualcuno parlerà di cinismo, di gestione del vantaggio, di esperienza nel saper soffrire.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	parlerà	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cinismo	cinismo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	saper	saper	VERB	V	VerbForm=Inf	13	acl	_	_
+17	soffrire	soffrire	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma noi crediamo che ci sia altro da sottolineare.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	crediamo	credere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	sottolineare	sottolineare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Questa Roma ha bisogno di maggiore personalità, di un’identità più definita, di un coraggio che vada oltre il risultato.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Roma	Roma	PROPN	SP	_	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	7	amod	_	_
+7	personalità	personalità	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	identità	identità	NOUN	S	Gender=Fem	7	conj	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	definita	definito	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	oltre	oltre	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Si è visto un passo avanti rispetto al passato, certo, l’impronta di De Rossi è innegabile, ma per competere ai massimi livelli europei servono non solo la qualità dei singoli, ma anche una maggiore solidità di gioco e una mentalità vincente che, a volte, è parsa latitante.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	passo	passo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	avanti	avanti	ADV	B	_	5	advmod	_	_
+7	rispetto	rispetto	ADV	B	_	10	case	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	passato	passato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	certo	certo	ADV	B	_	20	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	impronta	impronta	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	De	De	PROPN	SP	_	15	nmod	_	_
+18	Rossi	Rossi	PROPN	SP	_	17	flat:name	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	innegabile	innegabile	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	ma	ma	CCONJ	CC	_	24	cc	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	competere	competere	VERB	V	VerbForm=Inf	20	conj	_	_
+25-26	ai	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	massimi	massimo	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+28	livelli	livello	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+30	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+31	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+32	solo	solo	ADV	B	_	30	advmod	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	qualità	qualità	NOUN	S	Gender=Fem	30	nsubj	_	_
+35-36	dei	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	singoli	singolo	ADJ	A	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	43	punct	_	_
+39	ma	ma	CCONJ	CC	_	43	cc	_	_
+40	anche	anche	ADV	B	_	43	advmod	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+42	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	43	amod	_	_
+43	solidità	solidità	NOUN	S	Gender=Fem	30	conj	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+46	e	e	CCONJ	CC	_	48	cc	_	_
+47	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	mentalità	mentalità	NOUN	S	Gender=Fem	3	conj	_	_
+49	vincente	vincente	ADJ	A	Number=Sing	48	amod	_	_
+50	che	che	PRON	PR	PronType=Rel	56	nsubj	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	50	punct	_	_
+52	a	a	ADP	E	_	53	case	_	_
+53	volte	volte	NOUN	S	Gender=Fem|Number=Plur	56	obl	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	53	punct	_	_
+55	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+56	parsa	parsa	NOUN	S	Gender=Fem|Number=Sing	48	acl:relcl	_	_
+57	latitante	latitante	ADJ	A	Number=Sing	56	amod	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Passare il turno è importante, non lo mettiamo in discussione, e dà morale per il prosieguo della stagione.
+1	Passare	passare	VERB	V	VerbForm=Inf	5	csubj	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	turno	turno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	importante	importante	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	mettiamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	morale	morale	ADJ	A	Number=Sing	14	obj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	prosieguo	prosieguo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Ma servano queste partite, queste difficoltà, per far crescere la consapevolezza dei propri mezzi, per far capire che la
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	servano	serre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	partite	partita	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	difficoltà	difficoltà	NOUN	S	Gender=Fem	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	far	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+11	crescere	crescere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	consapevolezza	consapevolezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	far	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+21	capire	capire	VERB	V	VerbForm=Inf	20	ccomp	_	_
+22	che	che	SCONJ	CS	_	23	mark	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	ccomp	_	SpacesAfter=\n
+

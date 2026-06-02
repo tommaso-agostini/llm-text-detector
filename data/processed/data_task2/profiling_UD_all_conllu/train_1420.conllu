@@ -1,0 +1,325 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Di artisti?
+1	Di	di	ADP	E	_	2	case	_	_
+2	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = O solo di figure di spicco del mondo dello spettacolo, abituati a ricevere trattamenti di favore e a lasciare un’impronta di superficialità su ogni passo?
+1	O	o	CCONJ	CC	_	4	cc	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	figure	figura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	spicco	spicco	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	dello	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	abituati	abituare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	ricevere	ricevere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	trattamenti	trattamento	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	favore	favore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	lasciare	lasciare	VERB	V	VerbForm=Inf	16	conj	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	impronta	impronta	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	superficialità	superficialità	NOUN	S	Gender=Fem	29	nmod	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	29	det	_	_
+29	passo	passo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = L’evento, come prevedibile, ha infiammato i social, non per la qualità della serie, che resta un’ammissione di debito per l’originale, ma per l’incredibile apparato di sicurezza e l’ostentazione di lusso che hanno accompagnato la serata.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	evento	evento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADV	B	_	5	advmod	_	_
+5	prevedibile	prevedibile	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	infiammato	infiammare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	social	social	NOUN	S	Gender=Masc	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	qualità	qualità	NOUN	S	Gender=Fem	8	conj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	serie	serie	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+22	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	ammissione	ammissione	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	debito	debito	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	originale	originale	NOUN	S	Number=Sing	23	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	21	punct	_	_
+30	ma	ma	CCONJ	CC	_	34	cc	_	_
+31	per	per	ADP	E	_	34	case	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+33	incredibile	incredibile	ADJ	A	Number=Sing	34	amod	_	_
+34	apparato	apparato	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	ostentazione	ostentazione	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	lusso	lusso	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+43	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	acl:relcl	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	serata	serata	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Ambienti spaziosi, champagne a fiumi, bodyguard ovunque, autisti privati per ogni personaggio.
+1	Ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	spaziosi	spazioso	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	champagne	champagna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	fiumi	fiume	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	bodyguard	bodyguard	CCONJ	CC	_	11	cc	_	_
+9	ovunque	ovunque	ADV	B	_	11	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	autisti	autista	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+12	privati	privato	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Un piccolo, ma assillante, microcosmo di privilegio che ci ricorda, con amarezza, quanto sia difficile mantenere un senso di proporzione in un’epoca dominata dall’immagine e dalla folle ricerca di attenzione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	piccolo	piccolo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	ma	ma	CCONJ	CC	_	7	cc	_	_
+5	assillante	assillare	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	7	det	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	microcosmo	microcosmo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	privilegio	privilegio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+12	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	quanto	quanto	ADV	B	_	19	advmod	_	_
+18	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+20	mantenere	mantenere	VERB	V	VerbForm=Inf	19	csubj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	senso	senso	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	proporzione	proporzione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	dominata	dominare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+29-30	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+29	da	da	ADP	E	_	31	case	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	28	obl:agent	_	_
+32	e	e	CCONJ	CC	_	36	cc	_	_
+33-34	dalla	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	36	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	folle	folle	ADJ	A	Number=Sing	36	amod	_	_
+36	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 6
+# text = E che attenzione l'hanno ricevuta!
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ricevuta	ricevere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Personaggi come Paddy Considine, Emma D’Arcy, Matt Smith, e Rhys Ifans, indossavano abiti costosi, probabilmente griffati, e pose da pin-up, ignorando perfino il caos che si respirava fuori, il brusio di una folla curiosa e, a tratti, arrabbiata.
+1	Personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	Paddy	Paddy	PROPN	SP	_	1	nmod	_	_
+4	Considine	Considine	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Emma	Emma	PROPN	SP	_	3	conj	_	_
+7	D’	D’	ADP	E	_	8	case	_	SpaceAfter=No
+8	Arcy	Arcy	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	Matt	Matt	PROPN	SP	_	3	conj	_	_
+11	Smith	Smith	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Rhys	Rhys	PROPN	SP	_	3	conj	_	_
+15	Ifans	Ifans	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	indossavano	indossare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+18	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	costosi	costoso	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	probabilmente	probabilmente	ADV	B	_	22	advmod	_	_
+22	griffati	griffato	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	pose	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	pin-up	pin-up	NOUN	S	Gender=Masc	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	ignorando	ignorare	VERB	V	VerbForm=Ger	25	advcl	_	_
+30	perfino	perfino	ADV	B	_	29	advmod	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	caos	caos	NOUN	S	Gender=Masc	29	obj	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	respirava	respirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	_
+36	fuori	fuori	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	17	punct	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	brusio	brusio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	folla	folla	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+43	curiosa	curioso	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+44	e	e	CCONJ	CC	_	49	cc	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	49	punct	_	_
+46	a	a	ADP	E	_	47	case	_	_
+47	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	49	obl	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	47	punct	_	_
+49	arrabbiata	arrabbiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 8
+# text = C'è chi li accusa di distogliere l'attenzione da problemi reali, di alimentare una cultura di lusso eccessivo e di contribuire a un’immagine di decadenza che molti italiani, purtroppo, percepiscono sempre più spesso.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	accusa	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	distogliere	distogliere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+12	reali	reale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	alimentare	alimentare	VERB	V	VerbForm=Inf	7	advcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	lusso	lusso	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	contribuire	contribuire	VERB	V	VerbForm=Inf	15	conj	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	decadenza	decadenza	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	che	che	SCONJ	CS	_	35	mark	_	_
+30	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	31	det	_	_
+31	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	35	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	purtroppo	purtroppo	ADV	B	_	35	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	percepiscono	percepire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+36	sempre	sempre	ADV	B	_	37	advmod	_	_
+37	più	più	ADV	B	_	35	advmod	_	_
+38	spesso	spesso	ADV	B	_	35	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Non si tratta, ovviamente, di censurare l’arte o di demonizzare il successo ottenuto.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ovviamente	ovviamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	censurare	censurare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	arte	arte	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	demonizzare	demonizzare	VERB	V	VerbForm=Inf	8	conj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	successo	successo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	ottenuto	ottenuto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ma è innegabile che il mondo del cinema – e soprattutto della televisione di streaming – si sia allontanato, in questi anni, da un’autentica bussola morale.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	innegabile	innegabile	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	21	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	cinema	cinema	NOUN	S	Gender=Masc	6	nmod	_	_
+10	–	–	PUNCT	FF	_	6	punct	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	soprattutto	soprattutto	ADV	B	_	15	advmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	streaming	streaming	NOUN	S	Gender=Masc	15	nmod	_	_
+18	–	–	PUNCT	FB	_	6	punct	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	allontanato	allontanare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	csubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	25	det	_	_
+25	anni	anno	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	21	punct	_	_
+27	da	da	ADP	E	_	30	case	_	_
+28	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+29	autentica	autentico	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	bussola	bussola	NOUN	S	Gender=Fem|Number=Sing	21	obl:agent	_	_
+31	morale	morale	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Si privilegia l’
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	privilegia	privilegiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	advmod	_	SpacesAfter=\n
+

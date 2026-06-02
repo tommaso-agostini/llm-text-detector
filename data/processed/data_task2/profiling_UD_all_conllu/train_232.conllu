@@ -1,0 +1,348 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pippo, il CEO di una società che produce beni di consumo, è stato visto correremonio preoccupato tra le strade della città.
+1	Pippo	Pippo	PROPN	SP	_	16	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	CEO	CEO	PROPN	SP	_	1	appos	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	società	società	NOUN	S	Gender=Fem	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	beni	bene	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	correremonio	correremonio	NOUN	S	Gender=Masc|Number=Sing	16	xcomp	_	_
+18	preoccupato	preoccupato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	tra	tra	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	strade	strada	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	città	città	NOUN	S	Gender=Fem	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = La sua azienda sta attraversando un momento difficile, e lui sembra essere sotto pressione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	attraversando	attraversare	VERB	V	VerbForm=Ger	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	difficile	difficile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	15	cop	_	_
+14	sotto	sotto	ADP	E	_	15	case	_	_
+15	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	12	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Il prodotto che ha sempre venduto non sta più interessando i consumatori, e i competitor stannoರ್ಶilando terreno.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	venduto	vendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	interessando	interessare	VERB	V	VerbForm=Ger	0	root	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	competitor	competitor	NOUN	S	Gender=Masc	10	conj	_	_
+17	stannoರ್ಶilando	stannoರ್ಶilare	VERB	V	VerbForm=Ger	16	advcl	_	_
+18	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Mancio, d'altra parte, è il CEO di una società concorrente che produce lo stesso tipo di beni di consumo.
+1	Mancio	Mancio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+4	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	CEO	CEO	PROPN	SP	_	0	root	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	società	società	NOUN	S	Gender=Fem	9	nmod	_	_
+13	concorrente	concorrente	ADJ	A	Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	beni	bene	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Sorride alle telecamere, ma si sa che dietro a quel sorriso c'è una mente astuta e ambiziosa.
+1	Sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	telecamere	telecamera	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	che	che	SCONJ	CS	_	15	mark	_	_
+10	dietro	dietro	ADV	B	_	13	case	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mente	mente	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	astuta	astuto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	ambiziosa	ambizioso	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = La sua azienda sta attraversando un momento di crescita, e lui sembra essere molto soddisfatto dei risultati.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	attraversando	attraversare	VERB	V	VerbForm=Ger	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	16	aux:pass	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	soddisfatto	soddisfatto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ma cosa c'è dietro questi due scenari apparentemente diversi?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dietro	dietro	ADV	B	_	4	advmod	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	scenari	scenario	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+9	apparentemente	apparentemente	ADV	B	_	10	advmod	_	_
+10	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = fcCiò che emerge è che, despite le differenze tra le due società, il prodotto che producono remains unchanged.
+1	fcCiò	fcCiò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	despite	despire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+10	tra	tra	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	due	due	NUM	N	NumType=Card	13	nummod	_	_
+13	società	società	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	producono	produrre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	remains	remains	X	SW	Foreign=Yes	18	obj	_	_
+20	unchanged	unchanged	X	SW	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Despite le preoccupazioni di Pippo, la sua azienda continua a produce lo stesso vecchio prodotto, senza apportare alcuna innovazione.
+1	Despite	Despire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	preoccupazioni	preoccupazione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Pippo	Pippo	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+10	continua	continuare	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	produce	produrre	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+15	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	senza	senza	ADP	E	_	19	mark	_	_
+19	apportare	apportare	VERB	V	VerbForm=Inf	1	advcl	_	_
+20	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Despite il successo di Mancio, anche la sua azienda continua a produce lo stesso vecchio prodotto, senza alcuna innovazione.
+1	Despite	Despire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	successo	successo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Mancio	Mancio	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	anche	anche	ADV	B	_	11	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	produce	produrre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+16	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	senza	senza	ADP	E	_	21	case	_	_
+20	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = This raises la question di why neither of these companies seems to be interessata in innovare il proprio prodotto.
+1	This	This	X	SW	Foreign=Yes	0	root	_	_
+2	raises	raises	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	la	il	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	question	question	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	why	why	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	neither	neither	X	SW	Foreign=Yes	6	flat:foreign	_	_
+8	of	of	X	SW	Foreign=Yes	6	flat:foreign	_	_
+9	these	these	ADJ	A	Number=Sing	10	amod	_	_
+10	companies	companies	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	seems	seems	X	SW	Foreign=Yes	1	flat:foreign	_	_
+12	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+13	be	ba	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+14	interessata	interessato	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	in	in	ADP	E	_	16	mark	_	_
+16	innovare	innovare	VERB	V	VerbForm=Inf	13	acl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = È possibile che entrambe le aziende si stannoodeficiency on legacy systems e processi di produzione antiquati?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	6	advmod	_	_
+4	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	2	csubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	stannoodeficiency	stannoodeficiency	X	SW	Foreign=Yes	6	nmod	_	_
+9	on	on	X	SW	Foreign=Yes	8	flat:foreign	_	_
+10	legacy	legacy	X	SW	Foreign=Yes	8	flat:foreign	_	_
+11	systems	systems	X	SW	Foreign=Yes	8	flat:foreign	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	processi	processo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	antiquati	antiquato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = È possibile che entrambe le aziende sono troppo concentrate sui loro bilanci e sui loro profitti per preoccuparsi di migliorare il loro prodotto?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	troppo	troppo	ADV	B	_	9	advmod	_	_
+9	concentrate	concentrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+10-11	sui	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	loro	loro	DET	AP	Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	bilanci	bilancio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15-16	sui	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	profitti	profitto	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	preoccuparsi	_	_	_	_	_	_	_	_
+20	preoccupar	preoccupare	VERB	V	VerbForm=Inf	9	advcl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	migliorare	migliorare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+27	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = In ogni caso, è chiaro che qualcosa deve cambiare se queste aziende vogliono continuare a competere in un mercato in continua evoluzione.
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	10	nsubj	_	_
+9	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cambiare	cambiare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+11	se	se	SCONJ	CS	_	15	mark	_	_
+12	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+13	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+14	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	continuare	continuare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	competere	competere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Bisogna guardare al futuro,
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	guardare	guardare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+

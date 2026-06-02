@@ -1,0 +1,333 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un verdetto che conferma quanto più volte abbiamo ripetuto noi di Il Giornale:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	verdetto	verdetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	quanto	quanto	ADV	B	_	9	advmod	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	volte	volta	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+8	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ripetuto	ripetere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+10	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = la giustizia internazionale, quando si tratta di cittadini italiani, spesso opera in maniera arbitraria e incomprensibile, offuscando i diritti e il giusto processo.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	internazionale	internazionale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+10	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	spesso	spesso	ADV	B	_	13	advmod	_	_
+13	opera	operare	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	arbitraria	arbitrario	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	incomprensibile	incomprensibile	ADJ	A	Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	7	punct	_	_
+20	offuscando	offuscare	VERB	V	VerbForm=Ger	7	advcl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	processo	processo	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La vicenda, fin dall’inizio, è stata sovraccaricata di interpretazioni ed elementi che, a nostro avviso, mancano di solidità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fin	fino	ADP	E	_	7	case	_	_
+5-6	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	4	fixed	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	sovraccaricata	sovraccaricare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	interpretazioni	interpretazione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	ed	e	CCONJ	CC	_	15	cc	_	_
+15	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	22	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	solidità	solidità	NOUN	S	Gender=Fem	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = L’accusa, sostenuta dall’emittente cinese CGTN, si basa su accuse di “connessioni” e “supporto logistico” al presunto mandante dell'omicidio, accusato di aver agito per conto di interessi economici rivali.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sostenuta	sostenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	emittente	emittente	NOUN	S	Number=Sing	4	obl:agent	_	_
+8	cinese	cinese	ADJ	A	Number=Sing	9	amod	_	_
+9	CGTN	CGTN	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	basa	basare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	connessioni	connessione	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	17	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	supporto	supporto	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+22	logistico	logistico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	”	”	PUNCT	FB	_	21	punct	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	presunto	presunto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+27	mandante	mandante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	26	acl	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	26	punct	_	_
+32	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+33	di	di	ADP	E	_	35	mark	_	_
+34	aver	avere	AUX	VA	VerbForm=Inf	35	aux	_	_
+35	agito	agire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	xcomp	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	conto	conto	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+40	economici	economico	ADJ	A	Gender=Masc|Number=Plur	39	amod	_	_
+41	rivali	rivali	ADJ	A	Number=Plur	39	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Ma come?
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	come	come	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Matacena, un uomo d’affari con una solida reputazione e una lunga storia di attività commerciali che hanno portato benefici all'economia italiana, è stato spogliato della sua libertà di movimento sulla base di insolenze di accusa, prive di prove concrete e alimentate, verosimilmente, da motivi politici.
+1	Matacena	Matacena	PROPN	SP	_	29	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+5	d’	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	affari	affare	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	solida	solido	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	reputazione	reputazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	storia	storia	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	attività	attività	NOUN	S	Gender=Fem	14	nmod	_	_
+17	commerciali	commerciale	ADJ	A	Number=Plur	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+21	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	economia	economia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	1	punct	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	spogliato	spogliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	libertà	libertà	NOUN	S	Gender=Fem	29	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36-37	sulla	_	_	_	_	_	_	_	_
+36	su	su	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	base	base	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	insolenze	insolenza	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	29	punct	_	_
+44	prive	privo	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	prove	prova	NOUN	S	Gender=Fem|Number=Plur	44	obl	_	_
+47	concrete	concreto	ADJ	A	Gender=Fem|Number=Plur	46	amod	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	alimentate	alimentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	47	conj	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	44	punct	_	_
+51	verosimilmente	verosimilmente	ADV	B	_	44	advmod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	44	punct	_	_
+53	da	da	ADP	E	_	54	case	_	_
+54	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	44	obl	_	_
+55	politici	politico	ADJ	A	Gender=Masc|Number=Plur	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 7
+# text = Il Ministero degli Affari Esteri, seppur con un linguaggio diplomatico di facciata, ha espresso “preoccupazione” per la vicenda, ma in realtà si trova di fronte a una realtà inconfutabile:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Affari	affare	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	Esteri	estero	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	seppur	seppurre	ADV	B	_	11	advmod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+12	diplomatico	diplomatico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	facciata	facciata	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	19	punct	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	ma	ma	CCONJ	CC	_	29	cc	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	fronte	fronte	NOUN	S	Number=Sing	29	obl	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	realtà	realtà	NOUN	S	Gender=Fem	31	nmod	_	_
+35	inconfutabile	inconfutabile	ADJ	A	Number=Sing	34	amod	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 8
+# text = l'autorità giudiziaria di Dubai, un centro legale sempre più influente e soggetto a pressioni esterne, ha deciso per una misura che lascia l'Italia in una posizione di totale smarrimento.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	autorità	autorità	NOUN	S	Gender=Fem	20	nsubj	_	_
+3	giudiziaria	giudiziario	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Dubai	Dubai	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centro	centro	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+9	legale	legale	ADJ	A	Number=Sing	8	amod	_	_
+10	sempre	sempre	ADV	B	_	11	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	influente	influente	ADJ	A	Number=Sing	8	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	soggetto	soggetto	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	pressioni	pressione	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+17	esterne	esterno	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	misura	misura	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	Italia	Italia	PROPN	SP	_	25	obj	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	totale	totale	ADJ	A	Number=Sing	33	amod	_	_
+33	smarrimento	smarrimento	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 9
+# text = Un’autorità che, a nostro avviso, ha sede in un sistema destinato a essere manovrato da interessi geopolitici ben più ampi di una semplice indagine criminale.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	autorità	autorità	NOUN	S	Gender=Fem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+10	sede	sede	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	a	a	ADP	E	_	17	mark	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	17	aux:pass	_	_
+17	manovrato	manovrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	17	obl:agent	_	_
+20	geopolitici	geopolitico	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	ben	bene	ADV	B	_	23	advmod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	ampi	ampio	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	semplice	semplice	ADJ	A	Number=Sing	27	amod	_	_
+27	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+28	criminale	criminale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Il caso Matacena rappresenta un campanello d'allarme per l’Italia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Matacena	Matacena	PROPN	SP	_	2	nmod	_	_
+4	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	campanello	campanello	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Dimostra, con chiarezza, la difficoltà di far valere i propri
+1	Dimostra	dimostra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	difficoltà	difficoltà	NOUN	S	Gender=Fem	1	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	far	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	valere	valere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	obj	_	SpacesAfter=\n
+

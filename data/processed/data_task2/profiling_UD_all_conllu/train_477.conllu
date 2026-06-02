@@ -1,0 +1,370 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Che intorno a Berlusconi ci sono molti servi".
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	intorno	intorno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Berlusconi	Berlusconi	PROPN	SP	_	2	nmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	servi	servo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Maurizio Bianconi affronta il caos FI.
+1	Maurizio	Maurizio	PROPN	SP	_	3	nsubj	_	_
+2	Bianconi	Bianconi	PROPN	SP	_	1	flat:name	_	_
+3	affronta	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caos	caos	NOUN	S	Gender=Masc	3	obj	_	_
+6	FI	FI	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Con l'accetta.
+1	Con	con	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	accetta	accetta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = È arrivato l'ultimatum dell'ex Cavaliere.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ultimatum	ultimatum	NOUN	S	Gender=Masc	2	nsubj	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	ex	ex	ADJ	A	_	8	amod	_	_
+8	Cavaliere	Cavaliere	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Sorpreso?
+1	Sorpreso	sorpreso	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = "Non ne capisco il senso.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	capisco	capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Forse perché dissi che il governo Monti sarebbe stata la nostra tomba, quello Letta un semisuicidio e il patto del Nazareno la fine del centrodestra?".
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	perché	perché	SCONJ	CS	_	3	mark	_	_
+3	dissi	diggere	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	12	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+7	Monti	Monti	PROPN	SP	_	6	nmod	_	_
+8	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	tomba	tomba	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+15	Letta	leggere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	semisuicidio	semisuicidio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	patto	patto	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Nazareno	Nazareno	PROPN	SP	_	20	nmod	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fine	fine	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	centrodestra	centrodestra	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	25	punct	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sarà, ma vogliono comunque buttarvi fuori.
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	ma	ma	CCONJ	CC	_	6	cc	_	_
+4	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	comunque	comunque	ADV	B	_	6	advmod	_	_
+6-7	buttarvi	_	_	_	_	_	_	_	_
+6	buttar	buttarre	VERB	V	VerbForm=Inf	0	root	_	_
+7	vi	vi	ADV	B	_	6	advmod	_	_
+8	fuori	fuori	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = E voi?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = "Se mi deve buttare fuori per avergli parlato senza timore reverenziale, può farlo.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	5	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+4	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	buttare	buttare	VERB	V	VerbForm=Inf	16	advcl	_	_
+6	fuori	fuori	ADV	B	_	5	advmod	_	_
+7	per	per	ADP	E	_	10	mark	_	_
+8-9	avergli	_	_	_	_	_	_	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+9	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+10	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	senza	senza	ADP	E	_	12	case	_	_
+12	timore	timore	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	reverenziale	reverenziale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16-17	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+16	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = Ammesso che abbia gli strumenti statutari.
+1	Ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	statutari	statutario	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Ma il partito non è casa sua: è la casa di tutti noi".
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	partito	partito	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	parataxis	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nmod	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Un'alzata di mano per ragionare di espulsione.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	alzata	alzata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	ragionare	ragionare	VERB	V	VerbForm=Inf	2	acl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	espulsione	espulsione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = "C'è una caratteristica che vale per molti di loro, anche se non per tutti:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	caratteristica	caratteristica	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	anche	anche	ADV	B	_	17	mark	_	_
+14	se	se	SCONJ	CS	_	13	fixed	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = ci sono molti sono servi, sudditi e qualche sicario ".
+1	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	servi	servare	ADJ	A	Gender=Masc|Number=Plur	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	sudditi	suddere	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	sicario	sicario	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Potevate difendervi, ma avete disertato l'incontro.
+1	Potevate	Potere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2-3	difendervi	_	_	_	_	_	_	_	SpaceAfter=No
+2	difender	difendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	disertato	disertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = "Non ha senso partecipare a quel processo popolare.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	senso	senso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	partecipare	partecipare	VERB	V	VerbForm=Inf	4	acl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	processo	processo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	popolare	popolare	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Vogliamo bene al Presidente, altri lo fanno precipitare nel burrone".
+1	Vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	precipitare	precipitare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	burrone	burrone	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = La provoco: dopo Fini, di nuovo un "che fai, mi cacci?".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	provoco	provoco	NOUN	S	_	12	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	dopo	dopo	ADP	E	_	5	case	_	_
+5	Fini	Fini	PROPN	SP	_	12	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	12	obl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	expl	_	_
+15	cacci	caccio	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 20
+# text = "Fini disse "che fai mi cacci?" e poi andò via.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Fini	Fini	PROPN	SP	_	3	nsubj	_	_
+3	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	cacci	cacco	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	poi	poi	ADV	B	_	13	advmod	_	_
+13	andò	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	via	via	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Noi restiamo".
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	restiamo	restare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Fitto e Verdini nel mirino, per posizioni opposte.
+1	Fitto	fitto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Verdini	Verdini	PROPN	SP	_	1	conj	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mirino	mirino	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+10	opposte	opposto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Strano?
+1	Strano	strano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = "Guardi, Verdini ha il grande torto di scelte politiche sbagliatissime, ma almeno erano scelte politiche.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Guardi	guardi	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Verdini	Verdini	PROPN	SP	_	2	flat:name	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+8	torto	torto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	sbagliatissime	sbagliato	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	almeno	almeno	ADV	B	_	17	advmod	_	_
+16	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+18	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = Questi laudatores , questi alzatori di mano che scelte hanno fatto?
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	laudatores	laudatores	NOUN	S	Gender=Masc	0	root	_	_
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	alzatori	alzatore	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	scelte	scelta	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	11	nsubj	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = ".
+1	"	"	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

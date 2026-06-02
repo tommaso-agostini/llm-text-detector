@@ -1,0 +1,998 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E' solo l'inizio della fine...".
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fine...	fine...	NOUN	S	_	4	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Harry Shindler ha 93 anni, a venti era in Italia con l'esercito britannico a combattere il nazifascismo:
+1	Harry	Harry	PROPN	SP	_	3	nsubj	_	_
+2	Shindler	Shindler	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	93	93	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	venti	venti	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+9	era	era	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Italia	Italia	PROPN	SP	_	3	conj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	britannico	britannico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	combattere	combattere	VERB	V	VerbForm=Inf	11	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	nazifascismo	nazifascismo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = lo sbarco di Anzio, la liberazione di Roma, la battaglia di Rimini, lo sfondamento della Linea Gotica, la liberazione dell'Italia.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sbarco	sbarco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Anzio	Anzio	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Roma	Roma	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Rimini	Rimini	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sfondamento	sfondamento	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Linea	linea	PROPN	SP	_	17	nmod	_	_
+21	Gotica	Gotica	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	Italia	Italia	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Lui c'era.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ma non ci sarà sabato alle celebrazioni di Porta San Paolo e del Campidoglio.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	celebrazioni	celebrazione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Porta	Porta	PROPN	SP	_	8	nmod	_	_
+11	San	San	PROPN	SP	_	10	flat:name	_	_
+12	Paolo	Paolo	PROPN	SP	_	10	flat:name	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Campidoglio	Campidoglio	PROPN	SP	_	10	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Per la prima volta da quando vive nel nostro Paese, dove rappresenta la Italy Star Association (l'associazione dei veterani inglesi), ha declinato l'invito a parlare dal palco, come ha fatto ogni 25 aprile degli ultimi vent'anni.
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	da	da	ADP	E	_	7	mark	_	_
+6	quando	quando	SCONJ	CS	_	5	fixed	_	_
+7	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	dove	dove	ADV	B	_	14	advmod	_	_
+14	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Italy	Italy	PROPN	SP	_	14	obj	_	_
+17	Star	Star	PROPN	SP	_	16	flat:name	_	_
+18	Association	Association	PROPN	SP	_	16	flat:name	_	_
+19	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	16	appos	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	veterani	veterano	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	inglesi	inglese	ADJ	A	Number=Plur	24	amod	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	7	punct	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	declinato	declinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	invito	invito	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	parlare	parlare	VERB	V	VerbForm=Inf	31	acl	_	_
+34-35	dal	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	palco	palco	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	29	punct	_	_
+38	come	come	SCONJ	CS	_	40	mark	_	_
+39	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	_
+41	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	42	det	_	_
+42	25	25	NUM	N	NumType=Card	40	obl	_	_
+43	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	42	flat	_	_
+44-45	degli	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	48	case	_	_
+45	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+46	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	48	amod	_	_
+47	vent'	venti	NUM	N	NumType=Card	48	nummod	_	SpaceAfter=No
+48	anni	anno	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 7
+# text = Ha detto "no" perché non capisce le polemiche nate intorno alla Brigata Ebraica .
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	no	no	ADV	BN	PronType=Neg	2	advmod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	perché	perché	SCONJ	CS	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	capisce	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	nate	nascere	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	intorno	intorno	ADV	B	_	15	case	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Brigata	brigata	PROPN	SP	_	8	obl	_	_
+16	Ebraica	ebraico	PROPN	SP	_	15	flat:name	_	_
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Quelle scaturite dalle tensioni di piazza del 2014, quando si sfiorò la rissa tra gli esponenti della comunità ebraica e i manifestanti schierati dietro una bandiera palestinese.
+1	Quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+2	scaturite	scaturire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	2	obl:agent	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	2014	2014	NUM	N	NumType=Card	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	quando	quando	SCONJ	CS	_	14	mark	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	sfiorò	sfiorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	rissa	rissa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	comunità	comunità	NOUN	S	Gender=Fem	19	nmod	_	_
+23	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	manifestanti	manifestante	NOUN	S	Number=Plur	14	conj	_	_
+27	schierati	schierare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+28	dietro	dietro	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	palestinese	palestinese	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Polemiche che hanno portato quest'anno all'annullamento del tradizionale corteo romano.
+1	Polemiche	polemica	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	quest'	questo	DET	DD	Number=Sing|PronType=Dem	6	det	_	SpaceAfter=No
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	annullamento	annullamento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	tradizionale	tradizionale	ADJ	A	Number=Sing	13	amod	_	_
+13	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	romano	romano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Shindler non vuole entrare nel merito della questione.
+1	Shindler	Shindler	ADP	E	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	entrare	entrare	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	merito	merito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	questione	questione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Ha le sue idee sui drammi del Medioriente, ma non accetta il sovrapporsi di vicende che secondo lui non hanno nulla a che fare con la Festa della Liberazione e che, anzi, rischiano di offuscarne valore e significato:
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	idee	idea	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5-6	sui	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	drammi	dramma	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Medioriente	Medioriente	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	accetta	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16-17	sovrapporsi	_	_	_	_	_	_	_	_
+16	sovrappor	sovrappore	NOUN	S	Gender=Masc	14	obj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	vicende	vicendere	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+21	secondo	secondo	ADP	E	_	22	case	_	_
+22	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+25	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	24	obj	_	_
+26	a	a	ADP	E	_	28	mark	_	_
+27	che	che	SCONJ	CS	_	26	fixed	_	_
+28	fare	fare	VERB	V	VerbForm=Inf	25	acl	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Festa	Festa	PROPN	SP	_	1	nmod	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Liberazione	Liberazione	PROPN	SP	_	31	nmod	_	_
+35	e	e	CCONJ	CC	_	40	cc	_	_
+36	che	che	PRON	PR	PronType=Rel	40	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	anzi	anzi	ADV	B	_	40	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+41	di	di	ADP	E	_	42	mark	_	_
+42-43	offuscarne	_	_	_	_	_	_	_	_
+42	offuscar	offuscare	VERB	V	VerbForm=Inf	40	xcomp	_	_
+43	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	42	iobj	_	_
+44	valore	valore	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	significato	significato	NOUN	S	Gender=Masc|Number=Sing	44	conj	_	SpaceAfter=No
+47	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Hanno annullato il corteo proprio quando si celebrano i settanta anni dalla Liberazione...
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	annullato	annullare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	proprio	proprio	ADV	B	_	3	advmod	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+9	celebrano	celebrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	settanta	settanta	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Liberazione..	Liberazione..	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Una ritirata inaccettabile, davanti a quattro cretini.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ritirata	ritirata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	inaccettabile	inaccettabile	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	davanti	davanti	ADV	B	_	8	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	quattro	quattro	NUM	N	NumType=Card	8	nummod	_	_
+8	cretini	cretino	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Conosco il coraggio dei veri partigiani, abbiamo combattuto fianco a fianco, di sicuro non avrebbero ceduto a certi compromessi".
+1	Conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	veri	vero	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	partigiani	partigiano	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	combattuto	combattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+11	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	19	obl	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	ceduto	cedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	compromessi	compromesso	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Ma non crede che, in fondo, sia legittimo partecipare alle celebrazioni del 25 aprile con qualsivoglia bandiera, compresa quella palestinese?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	legittimo	legittimo	ADJ	A	Gender=Masc|Number=Sing	3	ccomp	_	_
+11	partecipare	partecipare	VERB	V	VerbForm=Inf	10	csubj	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	celebrazioni	celebrazione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	25	25	NUM	N	NumType=Card	14	nmod	_	_
+18	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	qualsivoglia	qualsivoglia	DET	DI	Number=Sing|PronType=Ind	21	det	_	_
+21	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	compresa	compreso	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	11	obj	_	_
+25	palestinese	palestinese	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = "Conosco e per certi versi condivido la causa palestinese.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Conosco	conosco	PROPN	SP	_	0	root	_	_
+3	e	e	CCONJ	CC	_	7	cc	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	versi	verso	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+7	condivido	condividere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	causa	causa	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	palestinese	palestinese	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Ma mi chiedo cosa c'entrino certe liti nazionali e internazionali con la Liberazione dell'Italia dal nazifascismo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	6	nsubj	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	entrino	entrare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	liti	lite	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	nazionali	nazionale	ADJ	A	Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	internazionali	internazionale	ADJ	A	Number=Plur	9	conj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Liberazione	Liberazione	PROPN	SP	_	8	nmod	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Italia	Italia	PROPN	SP	_	14	nmod	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	nazifascismo	nazifascismo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = E' come se il 25 aprile qualcuno sventolasse una bandiera cinese.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+2	come	come	ADV	B	_	8	advmod	_	_
+3	se	se	SCONJ	CS	_	8	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	25	25	NUM	N	NumType=Card	8	obl	_	_
+6	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	sventolasse	sventolare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	cinese	cinese	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = O come se venissero a manifestare i sindacati con le loro bandiere per protesta contro i licenziamenti.
+1	O	o	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADV	B	_	4	advmod	_	_
+3	se	se	SCONJ	CS	_	4	mark	_	_
+4	venissero	venire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	manifestare	manifestare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+15	contro	contro	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	licenziamenti	licenziamento	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Una contestazione sacrosanta anche questa, ma da fare in altre occasioni e in altre piazze.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	contestazione	contestazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	sacrosanta	sacrosanto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	altre	altro	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	altre	altro	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	piazze	piazza	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Sabato si festeggia l'unità del popolo, non ha senso trasformare il 25 aprile in un'occasione di divisione e di scontro.
+1	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:pass	_	_
+3	festeggia	festeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	unità	unità	NOUN	S	Gender=Fem	3	nsubj:pass	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	senso	senso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	trasformare	trasformare	VERB	V	VerbForm=Inf	11	csubj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	25	25	NUM	N	NumType=Card	13	obl	_	_
+16	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	15	flat	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = O, peggio, in una cerimonia dell'establishment, come sarà senza il corteo.
+1	O	o	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	peggio	peggio	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	establishment	establishment	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	come	come	SCONJ	CS	_	13	mark	_	_
+13	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	advcl	_	_
+14	senza	senza	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = Lo ripeto, questo è l'inizio della fine:
+1	Lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ripeto	ripetere	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fine	fine	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 24
+# text = se si va avanti così, tra qualche anno il significato della Festa della Liberazione verrà completamente stravolto".
+1	se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+4	avanti	avanti	ADV	B	_	3	advmod	_	_
+5	così	così	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	significato	significato	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Festa	Festa	PROPN	SP	_	11	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Liberazione	Liberazione	PROPN	SP	_	14	nmod	_	_
+18	verrà	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+19	completamente	completamente	ADV	B	_	20	advmod	_	_
+20	stravolto	stravolto	ADV	B	_	18	advmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 25
+# text = Harry Shindler nei giorni della Liberazione Perché la bandiera della Brigata Ebraica sì e quella palestinese no?
+1	Harry	Harry	PROPN	SP	_	18	nsubj	_	_
+2	Shindler	Shindler	PROPN	SP	_	1	flat:name	_	_
+3-4	nei	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Liberazione	Liberazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	Perché	perché	ADV	B	_	18	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Brigata	brigata	PROPN	SP	_	11	nmod	_	_
+15	Ebraica	ebraico	PROPN	SP	_	14	flat:name	_	_
+16	sì	sì	INTJ	I	Polarity=Pos	18	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+19	palestinese	palestinese	ADJ	A	Number=Sing	18	amod	_	_
+20	no	no	ADV	BN	PronType=Neg	18	advmod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 26
+# text = "Perché i soldati della Brigata hanno combattuto settanta anni fa per liberare l'Italia.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	9	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Brigata	brigata	PROPN	SP	_	4	nmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	combattuto	combattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	settanta	settanta	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+12	fa	fa	ADV	B	_	11	advmod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	liberare	liberare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	Italia	Italia	PROPN	SP	_	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 27
+# text = Eravamo sullo stesso fronte, loro alla sinistra della Linea Gotica, davanti Bologna, noi a Rimini, sulla destra della linea.
+1	Eravamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	sullo	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	5	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	fronte	fronte	NOUN	S	Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Linea	linea	PROPN	SP	_	10	nmod	_	_
+14	Gotica	Gotica	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	davanti	davanti	ADP	E	_	17	case	_	_
+17	Bologna	Bologna	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	obl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Rimini	Rimini	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23-24	sulla	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	destra	destra	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	linea	linea	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = I loro morti sono seppelliti a Piangipane, vicino Ravenna.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	morti	morto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	seppelliti	seppellire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Piangipane	Piangipane	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	vicino	vicino	ADV	B	_	10	case	_	_
+10	Ravenna	Ravenna	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = E comunque i componenti della Brigata Ebraica provenivano da tutto il mondo, non dalla Palestina.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	comunque	comunque	ADV	B	_	9	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	componenti	componente	NOUN	S	Number=Plur	9	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Brigata	brigata	PROPN	SP	_	4	nmod	_	_
+8	Ebraica	ebraico	PROPN	SP	_	7	flat:name	_	_
+9	provenivano	provenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	da	da	ADP	E	_	13	case	_	_
+11	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	13	det:predet	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Palestina	Palestina	PROPN	SP	_	9	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 30
+# text = Insomma, intendo dire che la Festa della Liberazione è aperta a tutti, ma le bandiere che sventolano devono essere quelle di chi combatteva in quel 1945".
+1	Insomma	insomma	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	intendo	intendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Festa	Festa	PROPN	SP	_	12	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Liberazione	Liberazione	PROPN	SP	_	7	nmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	aperta	aperto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	23	punct	_	_
+16	ma	ma	CCONJ	CC	_	23	cc	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	sventolano	sventolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	essere	essere	AUX	V	VerbForm=Inf	23	cop	_	_
+23	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	12	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	chi	chi	PRON	PR	Number=Sing|PronType=Rel	23	nmod	_	_
+26	combatteva	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	1945	1945	NUM	N	NumType=Card	26	obl	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = Cosa pensa delle scritte offensive spuntate sui muri di Roma, dopo la morte del rabbino Toaff ?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	scritte	scritta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	offensive	offensivo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	spuntate	spuntare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	muri	muro	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Roma	Roma	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	dopo	dopo	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	morte	morte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	rabbino	rabbino	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Toaff	Toaff	PROPN	SP	_	19	nmod	_	_
+21	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = "Certe cose ormai succedono solo in Italia.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	ormai	ormai	ADV	B	_	5	advmod	_	_
+5	succedono	succedire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 33
+# text = E questo perché dal dopoguerra in poi nessuno ha mai chiesto scusa per quello che ha fatto il nazifascismo.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	perché	perché	SCONJ	CS	_	12	mark	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dopoguerra	dopoguerra	NOUN	S	Gender=Masc	12	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	poi	poi	ADV	B	_	12	advmod	_	_
+9	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	mai	mai	ADV	B	_	12	advmod	_	_
+12	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+13	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	nazifascismo	nazifascismo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 34
+# text = Il cancelliere tedesco Willy Brandt si inginocchiò davanti al memoriale del Ghetto di Varsavia, il presidente Gauck è salito a Sant'Anna di Stazzema.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cancelliere	cancelliera	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	Willy	Willy	PROPN	SP	_	2	nmod	_	_
+5	Brandt	Brandt	PROPN	SP	_	4	flat:name	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	inginocchiò	inginocchiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	davanti	davanti	ADV	B	_	11	case	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	memoriale	memoriale	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Ghetto	ghetto	PROPN	SP	_	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Varsavia	Varsavia	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+20	Gauck	Gauck	PROPN	SP	_	19	nmod	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	salito	salire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	Sant'	Sant'	PROPN	SP	_	22	obl	_	SpaceAfter=No
+25	Anna	Anna	PROPN	SP	_	24	flat:name	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Stazzema	Stazzema	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 35
+# text = Qui, invece, i conti con il passato non sono mai stati fatti fino in fondo".
+1	Qui	qui	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	14	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	conti	conto	NOUN	S	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	passato	passato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	mai	mai	ADV	B	_	14	advmod	_	_
+13	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15	fino	fino	ADV	B	_	17	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 36
+# text = Lei dov'era esattamente il 25 aprile del 1945?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	dov'	dove	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	esattamente	esattamente	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	25	25	NUM	N	NumType=Card	1	nummod	_	_
+7	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	1945	1945	NUM	N	NumType=Card	6	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 37
+# text = "Sono vecchio, la memoria perde colpi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 38
+# text = Non ricordo nulla di preciso su quel giorno, di sicuro ero tra l'Emilia Romagna e Trieste.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	3	nmod	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	ero	ero	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+13	tra	tra	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	Emilia	Emilia	PROPN	SP	_	12	nmod	_	_
+16	Romagna	Romagna	PROPN	SP	_	15	flat:name	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Trieste	Trieste	PROPN	SP	_	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 39
+# text = A differenza di tanti altri miei compagni, non ho scritto un diario dei giorni della guerra:
+1	A	a	ADP	E	_	2	case	_	_
+2	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	_
+6	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	diario	diario	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 40
+# text = ero convinto che non sarei uscito vivo da quella terribile avventura, me lo ripetevo ogni mattina.
+1	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+10	terribile	terribile	ADJ	A	Number=Sing	11	amod	_	_
+11	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	ripetevo	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	conj	_	_
+16	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 41
+# text = Quindi a che sarebbe servito scrivere?
+1	Quindi	quindi	CCONJ	CC	_	5	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obl	_	_
+4	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	servito	servire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 42
+# text = Comunque non credo di aver festeggiato particolarmente:
+1	Comunque	comunque	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	festeggiato	festeggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	particolarmente	particolarmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 43
+# text = eravamo sfiniti da mesi e mesi di combattimenti e per noi casa era ancora lontana".
+1	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	sfiniti	sfinire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	combattimenti	combattimento	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	CC	_	15	cc	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	15	obl	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+14	ancora	ancora	ADV	B	_	15	advmod	_	_
+15	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

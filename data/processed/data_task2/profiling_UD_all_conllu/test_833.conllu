@@ -1,0 +1,440 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cantante e chitarrista, Ines da tempo soffriva di depressione e disturbi dell'alimentazione:
+1	Cantante	cantante	NOUN	S	Number=Sing	8	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	chitarrista	chitarrista	NOUN	S	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Ines	Ines	PROPN	SP	_	1	conj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	soffriva	soffrivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = un'anoressia che aveva provato a curare in diversi centri psichiatrici, senza molti risultati.
+1	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anoressia	anoressia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	curare	curare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	centri	centro	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	psichiatrici	psichiatrico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	senza	senza	ADP	E	_	15	case	_	_
+14	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La giovane era molto legata alla sorella, salita al trono della Casata d’Orange nel 2002 dopo aver sposato il principe Willem-Alexander.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	5	nsubj:pass	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	salita	salire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	trono	trono	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Casata	casata	PROPN	SP	_	13	nmod	_	_
+17	d’	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	Orange	Orange	PROPN	SP	_	16	nmod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	2002	2002	NUM	N	NumType=Card	10	obl	_	_
+22	dopo	dopo	SCONJ	CS	_	24	mark	_	_
+23	aver	avere	AUX	VA	VerbForm=Inf	24	aux	_	_
+24	sposato	sposare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	principe	principe	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	Willem-Alexander	Willem-Alexander	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Al matrimonio reale Ines era stata la damigella d'onore di Maxima, ed era la madrina della terza figlia di lei, la principessa Ariane.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+4	reale	reale	ADJ	A	Number=Sing	3	amod	_	_
+5	Ines	Ines	PROPN	SP	_	9	nsubj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	damigella	damigella	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	onore	onore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Maxima	Maxima	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ed	e	CCONJ	CC	_	18	cc	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	madrina	madrina	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
+22	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	principessa	principessa	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+28	Ariane	Ariane	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = La ragazza però non era mai riuscita a superare i suoi disturbi psichici:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	però	però	ADV	B	_	2	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	superare	superare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+13	psichici	psichico	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 6
+# text = era ossessionata dal suo peso e dalle diete.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux:pass	_	_
+2	ossessionata	ossessionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	peso	peso	NOUN	S	Gender=Masc|Number=Sing	2	obl:agent	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	dalle	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	diete	dieta	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Una foto della famiglia reale olandese, con la regina Maxima in primo piano e dietro la sorella Ines Le due sorelle erano figlie di uno dei ministri della dittatura Videla, Jorge Horacio Zorreguieta:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	foto	foto	NOUN	S	Gender=Fem	25	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	reale	reale	ADJ	A	Number=Sing	5	amod	_	_
+7	olandese	olandese	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	regina	regina	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+12	Maxima	Maxima	PROPN	SP	_	11	nmod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	piano	piano	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	dietro	dietro	ADV	B	_	19	advmod	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+20	Ines	Ines	PROPN	SP	_	19	nmod	_	SpacesAfter=\s\s
+21	Le	Le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+24	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	figlie	figlio	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	nmod	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	dittatura	dittatura	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34	Videla	Videla	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	27	punct	_	_
+36	Jorge	Jorge	PROPN	SP	_	27	appos	_	_
+37	Horacio	Horacio	PROPN	SP	_	36	flat:name	_	_
+38	Zorreguieta	Zorreguieta	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+39	:	:	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 8
+# text = il ruolo del padre nella terribile dittatura, e il suo probabile coinvolgimento nella vicenda dei desaparecidos argentini, era riemerso alla luce proprio in occasione del matrimonio reale di Maxima.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	padre	padre	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	terribile	terribile	ADJ	A	Number=Sing	9	amod	_	_
+9	dittatura	dittatura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	probabile	probabile	ADJ	A	Number=Sing	15	amod	_	_
+15	coinvolgimento	coinvolgimento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	desaparecidos	desaparecidos	NOUN	S	Gender=Masc	18	nmod	_	_
+22	argentini	argentino	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux:pass	_	_
+25	riemerso	riemergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	luce	luce	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	proprio	proprio	ADV	B	_	31	advmod	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	reale	reale	ADJ	A	Number=Sing	34	amod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Maxima	Maxima	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 9
+# text = Appresa la tragica notizia la regina ha immediatamente annullato tutti gli impegni istituzionali, tra cui un viaggio con il consorte nei Paesi Baltici.
+1	Appresa	Apprendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	tragica	tragico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	regina	regina	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	immediatamente	immediatamente	ADV	B	_	9	advmod	_	_
+9	annullato	annullare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+13	istituzionali	istituzionale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	tra	tra	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	18	nmod	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	12	acl:relcl	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	consorte	consorte	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22-23	nei	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Paesi	Paesi	PROPN	SP	_	21	nmod	_	_
+25	Baltici	Baltici	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Il nome di Ines negli ultimi tempi era balzato al centro delle polemiche della stampa di Buenos Aires.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nome	nome	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Ines	Ines	PROPN	SP	_	2	nmod	_	_
+5-6	negli	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	8	amod	_	_
+8	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:pass	_	_
+10	balzato	balzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	centro	centro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Buenos	Buenos	PROPN	SP	_	19	nmod	_	_
+22	Aires	Aires	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Il presidente dell'Argentina, Mauricio Macrì, nel 2016 le aveva affidato un incarico estremamente rilevante nel ministero dello Sviluppo Sociale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Argentina	Argentina	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Mauricio	Mauricio	PROPN	SP	_	2	appos	_	_
+8	Macrì	Macrì	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	2016	2016	NUM	N	NumType=Card	15	nummod	_	_
+13	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	15	iobj	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	affidato	affidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	estremamente	estremamente	ADV	B	_	19	advmod	_	_
+19	rilevante	rilevante	ADJ	A	Number=Sing	17	amod	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23-24	dello	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Sviluppo	Sviluppo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	Sociale	sociale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 12
+# text = Secondo i critici tuttavia lei non era all’altezza del ruolo, affidatole soltanto in quanto sorella della regina d’Orange, come mossa diplomatica in favore dell’Olanda.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	critici	critico	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	tuttavia	tuttavia	ADV	B	_	10	advmod	_	_
+5	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8-9	all’	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	affidatole	affidatole	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+16	soltanto	soltanto	ADV	B	_	19	advmod	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	quanto	quanto	ADV	B	_	17	fixed	_	_
+19	sorella	sorello	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	regina	regina	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+23	d’	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	Orange	Orange	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	10	punct	_	_
+26	come	come	ADP	E	_	27	case	_	_
+27	mossa	muovere	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+28	diplomatica	diplomatica	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	favore	favore	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31-32	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+31	di	di	ADP	E	_	33	case	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	Olanda	Olanda	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = Ines Zorreguieta nel 2007 al battesimo della principessa Ariane, figlia della sorella Maxima, regina d'Olanda La Casa Reale olandese ha fatto sapere che la regina Maxima è "molto scioccata e molto triste".
+1	Ines	Ines	ADP	E	_	2	case	_	_
+2	Zorreguieta	Zorreguieta	PROPN	SP	_	20	obl	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	2007	2007	NUM	N	NumType=Card	20	obl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	battesimo	battesimo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	principessa	principessa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Ariane	Ariane	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	11	appos	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	Maxima	Maxima	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	8	punct	_	_
+20	regina	regina	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	d'	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	Olanda	Olanda	PROPN	SP	_	28	obl	_	SpacesAfter=\s\s
+23	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Casa	Casa	PROPN	SP	_	28	nsubj	_	_
+25	Reale	reale	PROPN	SP	_	24	flat:name	_	_
+26	olandese	olandese	ADJ	A	Number=Sing	24	amod	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+29	sapere	sapere	VERB	V	VerbForm=Inf	28	ccomp	_	_
+30	che	che	SCONJ	CS	_	37	mark	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	regina	regina	NOUN	S	Gender=Fem|Number=Sing	37	nsubj	_	_
+33	Maxima	Maxima	PROPN	SP	_	32	nmod	_	_
+34	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+35	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+36	molto	molto	ADV	B	_	37	advmod	_	_
+37	scioccata	scioccato	ADJ	A	Gender=Fem|Number=Sing	29	ccomp	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	molto	molto	ADV	B	_	40	advmod	_	_
+40	triste	triste	ADJ	A	Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
+41	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 14
+# text = La coppia reale volerà a Buenos Aires per i funerali, che si terranno sabato o domenica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	reale	reale	ADJ	A	Number=Sing	2	amod	_	_
+4	volerà	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Buenos	Buenos	PROPN	SP	_	4	obl	_	_
+7	Aires	Aires	PROPN	SP	_	6	flat:name	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	funerali	funerale	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	terranno	terrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
+15	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

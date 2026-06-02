@@ -1,0 +1,500 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A guidare i quattro nuotatori ci sarà Walter D'Angelo:
+1	A	a	ADP	E	_	2	mark	_	_
+2	guidare	guidare	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	quattro	quattro	NUM	N	NumType=Card	5	nummod	_	_
+5	nuotatori	nuotatore	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	Walter	Walter	PROPN	SP	_	7	nsubj	_	_
+9	D'	D'	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	Angelo	Angelo	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = classe '62, istruttore di nuoto milanese di Pieve Emanuele, nel suo curriculum sportivo vanta diverse imprese da Guinness dei primati.
+1	classe	classe	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+2	'62	'62	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	istruttore	istruttore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	nuoto	nuoto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	milanese	milanese	ADJ	A	Number=Sing	4	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Pieve	Pieve	PROPN	SP	_	4	nmod	_	_
+10	Emanuele	Emanuele	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	curriculum	curriculum	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+16	sportivo	sportivo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	vanta	vantare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+19	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	Guinness	Guinness	PROPN	SP	_	19	nmod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	primati	primato	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Nel 2011 ha attraversato in staffetta la Manica, con il team degli Italian Dolphins, 12 ore e 39 minuti.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2011	2011	NUM	N	NumType=Card	5	nummod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	attraversato	attraversare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	staffetta	staffetta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Manica	Manica	PROPN	SP	_	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	team	team	NOUN	S	Gender=Masc	5	obl	_	_
+14-15	degli	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Italian	Italian	PROPN	SP	_	13	nmod	_	_
+17	Dolphins	Dolphins	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	12	12	NUM	N	NumType=Card	20	nummod	_	_
+20	ore	ora	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	39	39	NUM	N	NumType=Card	23	nummod	_	_
+23	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Poi nel 2013 la nuotato in solitaria lo Stretto di Messina, percorso per sei volte, fino ad arrivare all'impresa dello scorso anno, dove ha sfidato per 55 chilometri le acque gelide del Naviglio (da Turbigo alla Darsena in meno di 18 ore):
+1	Poi	poi	ADV	B	_	6	advmod	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2013	2013	NUM	N	NumType=Card	6	obl	_	_
+5	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	nuotato	nuotato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	solitaria	solitaria	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Stretto	stretto	PROPN	SP	_	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Messina	Messina	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	percorso	percorrere	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	sei	sei	NUM	N	NumType=Card	17	nummod	_	_
+17	volte	volta	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	fino	fino	ADV	B	_	21	mark	_	_
+20	ad	a	ADP	E	_	19	fixed	_	_
+21	arrivare	arrivare	VERB	V	VerbForm=Inf	6	advcl	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	dello	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	anno	anno	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	6	punct	_	_
+30	dove	dove	ADV	B	_	32	advmod	_	_
+31	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	sfidato	sfidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	55	55	NUM	N	NumType=Card	35	nummod	_	_
+35	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	acque	acqua	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+38	gelide	gelido	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Naviglio	Naviglio	PROPN	SP	_	37	nmod	_	_
+42	(	(	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+43	da	da	ADP	E	_	44	case	_	_
+44	Turbigo	Turbigo	PROPN	SP	_	37	nmod	_	_
+45-46	alla	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	47	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	Darsena	Darsena	PROPN	SP	_	44	nmod	_	_
+48	in	in	ADP	E	_	49	case	_	_
+49	meno	meno	ADV	B	_	47	advmod	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	18	18	NUM	N	NumType=Card	52	nummod	_	_
+52	ore	ora	NOUN	S	Gender=Fem|Number=Plur	49	obl	_	SpaceAfter=No
+53	)	)	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+54	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 5
+# text = «Lo faccio per passione e per sfidare i miei limiti racconta Walter -.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	passione	passione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	sfidare	sfidare	VERB	V	VerbForm=Inf	3	conj	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+12	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13	Walter	Walter	PROPN	SP	_	12	nsubj	_	_
+14	-	-	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ho iniziato nel '94 per caso, facendo la mia prima esperienza sul Lago Maggiore e da lì non ho più smesso.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	'94	'94	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	facendo	fare	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Lago	lago	PROPN	SP	_	13	nmod	_	_
+17	Maggiore	Maggiore	PROPN	SP	_	16	nmod	_	_
+18	e	e	CCONJ	CC	_	24	cc	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	lì	lì	ADV	B	_	24	advmod	_	_
+21	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+22	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	smesso	smesso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Sul Lago di Como io non userò la muta, anche se questa rimane una scelta facoltativa per ognuno di noi».
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Como	Como	PROPN	SP	_	3	nmod	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	userò	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	muta	muta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	anche	anche	ADV	B	_	15	mark	_	_
+13	se	se	SCONJ	CS	_	12	fixed	_	_
+14	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	nsubj	_	_
+15	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	facoltativa	facoltativo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Oltre al delfino milanese, a tentare quest'impresa ci sarà Leardo Callone, 73enne conosciuto anche come il Caimano del Lario, che ha alle spalle 60 anni di nuoto in acque libere dove ha accumulato cento milioni di bracciate e oltre centomila chilometri.
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	delfino	delfino	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+5	milanese	milanese	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	tentare	tentare	VERB	V	VerbForm=Inf	12	advcl	_	_
+9	quest'	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+10	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	Leardo	Leardo	PROPN	SP	_	12	nsubj	_	_
+14	Callone	Callone	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	73enne	73enere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+18	anche	anche	ADV	B	_	21	advmod	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Caimano	Caimano	PROPN	SP	_	17	obl	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Lario	Lario	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+28-29	alle	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+31	60	60	NUM	N	NumType=Card	32	nummod	_	_
+32	anni	anno	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	nuoto	nuoto	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	acque	acqua	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+37	libere	libero	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	dove	dove	ADV	B	_	40	advmod	_	_
+39	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	accumulato	accumulare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl:relcl	_	_
+41	cento	cento	NUM	N	NumType=Card	42	nummod	_	_
+42	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	40	obj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	bracciate	bracciata	NOUN	S	Gender=Fem|Number=Plur	42	nmod	_	_
+45	e	e	CCONJ	CC	_	48	cc	_	_
+46	oltre	oltre	ADV	B	_	47	advmod	_	_
+47	centomila	centomila	NUM	N	NumType=Card	48	nummod	_	_
+48	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	40	conj	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = È nato a Lecco e la sua avventura più famosa è stata nel 1981 la traversata della Manica (Dover-Calais) in 13 ore e 7 minuti dove ha stabilito il record italiano imbattuto per i successivi 25 anni.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Lecco	Lecco	PROPN	SP	_	2	obl	_	_
+5	e	e	CCONJ	CC	_	15	cc	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	1981	1981	NUM	N	NumType=Card	2	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	traversata	traversata	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Manica	Manica	PROPN	SP	_	17	nmod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Dover-Calais	Dover-Calais	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	13	13	NUM	N	NumType=Card	26	nummod	_	_
+26	ore	ora	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	7	7	NUM	N	NumType=Card	29	nummod	_	_
+29	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	_
+30	dove	dove	ADV	B	_	32	advmod	_	_
+31	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	stabilito	stabilire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	record	record	NOUN	S	Gender=Masc	32	nsubj	_	_
+35	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	imbattuto	imbattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
+37	per	per	ADP	E	_	41	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+39	successivi	successivo	ADJ	A	Gender=Masc|Number=Plur	41	amod	_	_
+40	25	25	NUM	N	NumType=Card	41	nummod	_	_
+41	anni	anno	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Oltre a loro due, ci sarà il monzese Diego Innocenti, classe '71, che nel 2017 ha completato la traversata del Lago d'Orta di 27 chilometri e, infine, Jessica Galleani, 39enne di Casalpusterlengo, che 2015 è stata la seconda donna classificata alla 21 chilometri della Gran Fondo dei Navigli:
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	due	due	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	monzese	monzese	NOUN	S	Number=Sing	7	nsubj	_	_
+10	Diego	Diego	PROPN	SP	_	9	nmod	_	_
+11	Innocenti	innocente	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	classe	classe	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	'71	'71	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2017	2017	NUM	N	NumType=Card	21	nummod	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	completato	completare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	traversata	traversata	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	d'	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	Orta	Orta	PROPN	SP	_	26	nmod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	27	27	NUM	N	NumType=Card	31	nummod	_	_
+31	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+32	e	e	CCONJ	CC	_	36	cc	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	infine	infine	ADV	B	_	36	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	Jessica	Jessica	PROPN	SP	_	21	conj	_	_
+37	Galleani	Galleani	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	39enne	39enne	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	Casalpusterlengo	Casalpusterlengo	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	39	punct	_	_
+43	che	che	PRON	PR	PronType=Rel	49	nsubj	_	_
+44	2015	2015	NUM	N	NumType=Card	49	nummod	_	_
+45	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+46	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	49	cop	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	49	amod	_	_
+49	donna	donna	NOUN	S	Gender=Fem|Number=Sing	36	acl:relcl	_	_
+50	classificata	classificata	ADJ	A	Gender=Fem|Number=Sing	49	amod	_	_
+51-52	alla	_	_	_	_	_	_	_	_
+51	a	a	ADP	E	_	54	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+53	21	21	NUM	N	NumType=Card	54	nummod	_	_
+54	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	49	obl	_	_
+55-56	della	_	_	_	_	_	_	_	_
+55	di	di	ADP	E	_	57	case	_	_
+56	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	Gran	Gran	PROPN	SP	_	54	nmod	_	_
+58	Fondo	fondo	PROPN	SP	_	57	flat:name	_	_
+59-60	dei	_	_	_	_	_	_	_	_
+59	di	di	ADP	E	_	61	case	_	_
+60	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	61	det	_	_
+61	Navigli	Navigli	NOUN	S	Gender=Masc|Number=Plur	49	nmod	_	SpaceAfter=No
+62	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 11
+# text = «Nuoteremo per turni di due ore.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Nuoteremo	Nuotere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	turni	turno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Nelle restanti sei ore di pausa avrò tempo per mangiare o riposarmi:
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	restanti	restante	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	0	root	_	_
+4	sei	essere	NUM	N	NumType=Card	5	nummod	_	_
+5	ore	ora	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	pausa	pausa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	avrò	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	advcl	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	mangiare	mangiare	VERB	V	VerbForm=Inf	8	advcl	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	riposarmi	arma|riposarme	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 13
+# text = spero solo che le condizioni del Lago siano buone.
+1	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	10	advmod	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	buone	buono	ADJ	A	Gender=Fem|Number=Plur	1	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Ci saranno quattro imbarcazioni che ci seguiranno per illuminare il nero della notte lacustre:
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+4	imbarcazioni	imbarcazione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	seguiranno	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	illuminare	illuminare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nero	nero	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	notte	notte	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	lacustre	lacustre	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 15
+# text = inoltre avremo delle torce da attaccare agli occhialini e al costume per avere ancora maggiore luce» conclude Walter D'Angelo.
+1	inoltre	inoltre	ADV	B	_	2	advmod	_	_
+2	avremo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	torce	torcia	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	attaccare	attaccare	VERB	V	VerbForm=Inf	2	advcl	_	_
+8-9	agli	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	occhialini	occhialino	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	costume	costume	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	avere	avere	VERB	V	VerbForm=Inf	7	advcl	_	_
+17	ancora	ancora	ADV	B	_	18	advmod	_	_
+18	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	19	amod	_	_
+19	luce	luce	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	2	punct	_	_
+21	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+22	Walter	Walter	PROPN	SP	_	21	nsubj	_	_
+23	D'	D'	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	Angelo	Angelo	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Il conto alla rovescia per il nuovo record del mondo è partito.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	conto	conto	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	rovescia	rovescia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	record	record	NOUN	S	Gender=Masc	5	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

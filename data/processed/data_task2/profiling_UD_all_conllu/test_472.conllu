@@ -1,0 +1,343 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ben lontani da noi i toni bacchettoni di chi predica astinenza.
+1	Ben	bene	ADV	B	_	2	advmod	_	_
+2	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	toni	tone	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+7	bacchettoni	bacchettone	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	chi	chi	PRON	PR	PronType=Rel	6	nmod	_	_
+10	predica	predicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+11	astinenza	astinenza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il problema è ben più profondo e riguarda la visione della donna che viene proposta al pubblico, soprattutto alle giovani generazioni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	ben	bene	ADV	B	_	6	advmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	visione	visione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj:pass	_	_
+15	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	proposta	proporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	8	punct	_	_
+21	soprattutto	soprattutto	ADV	B	_	25	advmod	_	_
+22-23	alle	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	giovani	giovane	ADJ	A	Number=Plur	25	amod	_	_
+25	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Signorine e signorili, un tempo icone di stile e personalità, oggi lasciano il posto a figure costruite ad arte, il cui unico merito è quello di esibire un’immagine patinata, spesso vuota, focalizzata esclusivamente sull'apparenza fisica.
+1	Signorine	Signorina	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	signorili	signorile	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+7	icone	icone	ADJ	A	Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	stile	stile	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	personalità	personalità	NOUN	S	Gender=Fem	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	oggi	oggi	ADV	B	_	14	advmod	_	_
+14	lasciano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	posto	posto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	figure	figura	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	costruite	costruire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20	ad	a	ADP	E	_	21	case	_	_
+21	arte	arte	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+24	cui	cui	DET	DR	PronType=Rel	26	det:poss	_	_
+25	unico	unico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	merito	merito	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	esibire	esibire	VERB	V	VerbForm=Inf	28	acl	_	_
+31	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	patinata	patinato	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	spesso	spesso	ADV	B	_	36	advmod	_	_
+36	vuota	vuoto	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	32	punct	_	_
+38	focalizzata	focalizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+39	esclusivamente	esclusivamente	ADV	B	_	38	advmod	_	_
+40-41	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+40	su	su	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	apparenza	apparenza	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+43	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 4
+# text = E questo non è emancipazione, è l'ennesima forma di oggettificazione, di mercificazione del corpo femminile.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	emancipazione	emancipazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	ennesima	ennesimo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	forma	forma	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	oggettificazione	oggettificazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	mercificazione	mercificazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	femminile	femminile	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ci si interroga, legittimamente, su quale messaggio si voglia veicolare.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	interroga	interrogare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	legittimamente	legittimo	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	quale	quale	DET	DQ	Number=Sing|PronType=Int	9	det	_	_
+9	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	veicolare	veicolare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Si parla di “corpo da riscatto”, di “bellezza senza filtri”, ma la verità è che l’industria dello spettacolo, e i media che la amplificano, operano secondo logiche di profitto che poco hanno a che vedere con la reale emancipazione femminile.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	riscatto	riscatto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+13	senza	senza	ADP	E	_	14	case	_	_
+14	filtri	filtro	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	verità	verità	NOUN	S	Gender=Fem	20	nsubj	_	_
+20	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+21	che	che	SCONJ	CS	_	35	mark	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	industria	industria	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+24-25	dello	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	media	media	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+33	amplificano	amplificare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	23	punct	_	_
+35	operano	operare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+36	secondo	secondo	ADP	E	_	37	case	_	_
+37	logiche	logica	NOUN	S	Gender=Fem|Number=Plur	35	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+41	poco	poco	ADV	B	_	42	advmod	_	_
+42	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+43	a	a	ADP	E	_	45	mark	_	_
+44	che	che	SCONJ	CS	_	43	fixed	_	_
+45	vedere	vedere	VERB	V	VerbForm=Inf	42	advcl	_	_
+46	con	con	ADP	E	_	49	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	reale	reale	ADJ	A	Number=Sing	49	amod	_	_
+49	emancipazione	emancipazione	NOUN	S	Gender=Fem|Number=Sing	45	obl	_	_
+50	femminile	femminile	ADJ	A	Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Un corpo in primo piano, in pose esplicite, vende.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	piano	piano	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	pose	posa	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+9	esplicite	esplicito	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	vende	vendere	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Punto.
+1	Punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = E a poco serve l'aura di “autenticità” costruita a tavolino, il tentativo di nobilitare una scelta che, in fondo, resta puramente commerciale.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	poco	poco	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+4	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	aura	aura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	autenticità	autenticità	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	_
+11	costruita	costruire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	tavolino	tavolino	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	nobilitare	nobilitare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	resta	resta	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+27	puramente	puramente	ADV	B	_	28	advmod	_	_
+28	commerciale	commerciale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = GQ Italia, paladino di uno stile maschile che un tempo si fondava su valori come l’eleganza discreta e il gusto raffinato, sembra aver ceduto alle sirene di un marketing aggressivo e superficiale.
+1	GQ	GQ	PROPN	SP	_	25	nsubj	_	_
+2	Italia	Italia	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	paladino	paladino	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stile	stile	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	maschile	maschile	ADJ	A	Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	fondava	fondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+14	su	su	ADP	E	_	15	case	_	_
+15	valori	valore	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	eleganza	eleganza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+19	discreta	discreto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+23	raffinato	raffinato	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	1	punct	_	_
+25	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	aver	avere	AUX	VA	VerbForm=Inf	27	aux	_	_
+27	ceduto	cedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	xcomp	_	_
+28-29	alle	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	sirene	sirena	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	marketing	marketing	NOUN	S	Gender=Masc	30	nmod	_	_
+34	aggressivo	aggressivo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	superficiale	superficiale	ADJ	A	Number=Sing	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 11
+# text = Un modello che, purtroppo, non fa altro che alimentare stereotipi dannosi e contribuire a una cultura sempre più incline al sensazionalismo e alla banalizzazione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modello	modello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	purtroppo	purtroppo	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	fixed	_	_
+10	che	che	SCONJ	CS	_	11	mark	_	_
+11	alimentare	alimentare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+12	stereotipi	stereotipo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+13	dannosi	dannoso	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	contribuire	contribuire	VERB	V	VerbForm=Inf	11	conj	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	sempre	sempre	ADV	B	_	20	advmod	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	incline	incline	ADJ	A	Number=Sing	18	amod	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	sensazionalismo	sensazionalismo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	banalizzazione	banalizzazione	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Non è un attacco alla libertà di espressione, ma una riflessione sulla responsabilità che i media
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	libertà	libertà	NOUN	S	Gender=Fem	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	riflessione	riflessione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	responsabilità	responsabilità	NOUN	S	Gender=Fem	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	media	media	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,804 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Le Regioni riunite – nel 2007 – nella Conferenza Stato Regioni”.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Regioni	regione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	riunite	riunito	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	–	–	PUNCT	FB	_	3	punct	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2007	2007	NUM	N	NumType=Card	3	nummod	_	_
+9	–	–	PUNCT	FB	_	8	punct	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Conferenza	Conferenza	PROPN	SP	_	3	nmod	_	_
+13	Stato	Stato	PROPN	SP	_	12	nmod	_	_
+14	Regioni	regione	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Perché non è un errore, visto che realizza una stortura:
+1	Perché	perché	ADV	B	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	errore	errore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	realizza	realizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	stortura	stortura	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 3
+# text = un sovrapprezzo ingiusto per il pendolare che viaggia tra due o più regioni?
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sovrapprezzo	sovrapprezzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	ingiusto	ingiusto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pendolare	pendolare	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	viaggia	viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	tra	tra	ADP	E	_	13	case	_	_
+10	due	due	NUM	N	NumType=Card	13	nummod	_	_
+11	o	o	CCONJ	CC	_	12	cc	_	_
+12	più	più	DET	DI	PronType=Ind	10	conj	_	_
+13	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = “Perché l’algoritmo nel 2007 teneva conto di una serie di fattori concreti e giusti”.
+1	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Perché	perché	SCONJ	CS	_	8	mark	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	algoritmo	algoritmo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2007	2007	NUM	N	NumType=Card	8	obl	_	_
+8	teneva	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	conto	conto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	serie	serie	NOUN	S	Gender=Fem	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	concreti	concreto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	giusti	giusto	ADJ	A	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Questi fattori sono validi anche dieci anni dopo?
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	validi	valido	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	dieci	dieci	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	dopo	dopo	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = “Sono stati superati nel tempo”.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	superati	superare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Da che cosa?
+1	Da	da	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = “Dal fatto che, per esempio, le tariffe regionali sono cresciute troppo poco mentre quelle sovraregionali, regolate dall’algoritmo, sono salite di più”.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2-3	Dal	_	_	_	_	_	_	_	_
+2	Da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	14	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	tariffe	tariffe	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+12	regionali	regionale	ADJ	A	Number=Plur	11	amod	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	cresciute	crescere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+15	troppo	troppo	ADV	B	_	16	advmod	_	_
+16	poco	poco	ADV	B	_	27	advmod	_	_
+17	mentre	mentre	SCONJ	CS	_	27	mark	_	_
+18	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	27	nsubj	_	_
+19	sovraregionali	sovraregionale	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	regolate	regolare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+22-23	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+22	da	da	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	algoritmo	algoritmo	NOUN	S	Gender=Masc|Number=Sing	21	obl:agent	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	18	punct	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	salite	salire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	advcl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	più	più	ADV	B	_	27	advmod	_	SpaceAfter=No
+30	”	”	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = E alla fine?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fine	fine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = “Il biglietto Genova-Milano costava, anzi, costa, più di un biglietto che a parità di chilometri fa tutto il viaggio all’interno della Liguria o tutto all’interno della Lombardia.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Genova-Milano	Genova-Milano	PROPN	SP	_	3	nmod	_	_
+5	costava	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	anzi	anzi	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	più	più	ADV	B	_	9	advmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	biglietto	biglietto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	parità	parità	NOUN	S	Gender=Fem	20	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+21	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	23	det:predet	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24-25	all’	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	interno	interno	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Liguria	Liguria	PROPN	SP	_	26	nmod	_	_
+30	o	o	CCONJ	CC	_	31	cc	_	_
+31	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	conj	_	_
+32-33	all’	_	_	_	_	_	_	_	SpaceAfter=No
+32	a	a	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	interno	interno	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Lombardia	Lombardia	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Nascono lì quei 38 euro mensili di differenza per gli abbonati”.
+1	Nascono	nascere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lì	lì	ADV	B	_	1	advmod	_	_
+3	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	38	38	NUM	N	NumType=Card	5	nummod	_	_
+5	euro	euro	NOUN	S	Gender=Masc	1	obj	_	_
+6	mensili	mensile	ADJ	A	Number=Plur	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	abbonati	abbonato	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Quindi, esiste un problema:
+1	Quindi	quindi	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 13
+# text = l’algoritmo non è stato aggiornato.
+1	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	algoritmo	algoritmo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	aggiornato	aggiornato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = “Sì, ma non doveva aggiornarlo Trenitalia, noi possiamo solo applicarlo rigorosamente”.
+1	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	14	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	ma	ma	CCONJ	CC	_	7	cc	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7-8	aggiornarlo	_	_	_	_	_	_	_	_
+7	aggiornar	aggiornarre	VERB	V	VerbForm=Inf	2	conj	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Trenitalia	Trenitalia	PROPN	SP	_	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+12	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	solo	solo	ADV	B	_	14	advmod	_	_
+14-15	applicarlo	_	_	_	_	_	_	_	_
+14	applicar	applicare	VERB	V	VerbForm=Inf	0	root	_	_
+15	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	rigorosamente	rigorosamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 15
+# text = Dovevano aggiornarlo le Regioni.
+1	Dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2-3	aggiornarlo	_	_	_	_	_	_	_	_
+2	aggiornar	aggiornarre	VERB	V	VerbForm=Inf	0	root	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Regioni	regione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = “Certo.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Certo	certo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = I comitati dei pendolari hanno segnalato a Trenitalia la questione dalla seconda metà del 2015, ma nessuno si è mai fatto carico del problema.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	comitati	comitato	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	pendolari	pendolare	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	segnalato	segnalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Trenitalia	Trenitalia	PROPN	SP	_	7	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	questione	questione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+15	metà	metà	NOUN	S	Gender=Fem	11	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	2015	2015	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	25	punct	_	_
+20	ma	ma	CCONJ	CC	_	25	cc	_	_
+21	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	nsubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	mai	mai	ADV	B	_	25	advmod	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+26	carico	carico	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	problema	problema	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = Siamo stati noi a prendere in mano le storture dell'abbonamento sovraregionale e portarla alla commissione Trasporti della Conferenza Stato-Regioni”.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	cop	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	prendere	prendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	storture	stortura	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	abbonamento	abbonamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	sovraregionale	sovraregionale	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15-16	portarla	_	_	_	_	_	_	_	_
+15	portar	portare	VERB	V	VerbForm=Inf	5	conj	_	_
+16	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20	Trasporti	trasporto	PROPN	SP	_	19	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Conferenza	conferenza	PROPN	SP	_	20	nmod	_	_
+24	Stato	Stato	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+26	Regioni	regione	NOUN	S	Gender=Fem|Number=Plur	23	compound	_	SpaceAfter=No
+27	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Con quale risultato?
+1	Con	con	ADP	E	_	3	case	_	_
+2	quale	quale	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+3	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = “E' ripartita la contrattazione sulle tariffe regionali e sovraregionali”.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ripartita	ripartire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	contrattazione	contrattazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+6-7	sulle	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tariffe	tariffa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	regionali	regionale	ADJ	A	Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	sovraregionali	sovraregionale	ADJ	A	Number=Plur	9	conj	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Lei prima diceva che le tariffe regionali sono cresciute poco.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	prima	prima	ADV	B	_	3	advmod	_	_
+3	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	tariffe	tariffa	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	regionali	regionale	ADJ	A	Number=Plur	6	amod	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	cresciute	crescere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	poco	poco	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = State chiedendo di alzarle per abbassare quelle sovraregionali, regolate dall’algoritmo?
+1	State	stare	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	aux	_	_
+2	chiedendo	chiedere	VERB	V	VerbForm=Ger	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	alzarle	_	_	_	_	_	_	_	_
+4	alzar	alzare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	abbassare	abbassare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	7	obj	_	_
+9	sovraregionali	sovraregionale	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	regolate	regolare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+12-13	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	algoritmo	algoritmo	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = “Le tariffe regionali sono basse, tra le più basse d’Europa.
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	tariffe	tariffe	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	regionali	regionale	ADJ	A	Number=Plur	3	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	basse	barre	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	tra	tra	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	basse	basso	ADJ	A	Gender=Fem|Number=Plur	6	obl	_	_
+12	d’	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	Europa	Europa	PROPN	SP	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = Se in molte regioni non saranno alzate non potremo portare treni nuovi, garantire più comfort, migliorare il servizio.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	alzate	alzate	ADJ	A	Gender=Fem|Number=Plur	6	xcomp	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	potremo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10	portare	portare	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	treni	treno	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	garantire	garantire	VERB	V	VerbForm=Inf	10	conj	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	comfort	comfort	ADV	B	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	migliorare	migliorare	VERB	V	VerbForm=Inf	10	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 25
+# text = Ma le tariffe, ribadiamo, le fanno le Regioni”.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	tariffe	tariffe	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ribadiamo	ribadire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	8	iobj	_	_
+8	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Regioni	regione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Voi, però, avete un ruolo importante.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	importante	importante	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 27
+# text = State chiedendo aumenti per i biglietti regionali in tutta Italia?
+1	State	stare	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	aux	_	_
+2	chiedendo	chiedere	VERB	V	VerbForm=Ger	0	root	_	_
+3	aumenti	aumente	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	regionali	regionale	ADJ	A	Number=Plur	6	amod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	10	det	_	_
+10	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = “Alcune regioni virtuose, come la Toscana, hanno già fatto gli aumenti necessari e quindi non ne chiediamo altri.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+4	virtuose	virtuoso	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Toscana	Toscana	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	già	già	ADV	B	_	12	advmod	_	_
+12	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	aumenti	aumente	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	necessari	necessario	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	quindi	quindi	ADV	B	_	20	advmod	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	iobj	_	_
+20	chiediamo	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+21	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 29
+# text = Non a caso, il cinquanta per cento dei treni regionali toscani è nuovo.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cinquanta	cinquanta	NUM	N	NumType=Card	15	nsubj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	cento	cento	NUM	N	NumType=Card	6	nummod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	treni	treno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+12	regionali	regionale	ADJ	A	Number=Plur	11	amod	_	_
+13	toscani	toscano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 30
+# text = Oggi presentiamo un nuovo modello”.
+1	Oggi	oggi	ADV	B	_	2	advmod	_	_
+2	presentiamo	presentare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	modello	modello	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 31
+# text = I due aggiornamenti delle tariffe sovraregionali si fanno a febbraio e ad agosto, riuscirete a rivedere in tempi brevi l’algoritmo superato?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	aggiornamenti	aggiornamento	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	tariffe	tariffe	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	sovraregionali	sovraregionale	ADJ	A	Number=Plur	6	amod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	ad	a	ADP	E	_	14	case	_	_
+14	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	riuscirete	riusciere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	9	conj	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	rivedere	rivedere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+21	brevi	breve	ADJ	A	Number=Plur	20	amod	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	algoritmo	algoritmo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+24	superato	superato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 32
+# text = “Se l’intera contrattazione delle tariffe con la Regione va in porto, si può fare entro agosto.
+1	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	12	mark	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	intera	intero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	contrattazione	contrattazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	tariffe	tariffe	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	porto	porto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:pass	_	_
+17	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+19	entro	entro	ADP	E	_	20	case	_	_
+20	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 33
+# text = L’importante è mantenere l’equilibrio economico, nostro e delle Regioni”.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	importante	importante	ADJ	A	Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	mantenere	mantenere	VERB	V	VerbForm=Inf	0	root	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	economico	economico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	conj	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Regioni	regione	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 34
+# text = Quanti sono coloro che hanno subito l’algoritmo vecchio?
+1	Quanti	quanto	PRON	PQ	Gender=Masc|Number=Plur|PronType=Int	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	subito	subito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	algoritmo	algoritmo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = “Poco meno di 70mila".
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Poco	poco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	meno	meno	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	70mila	70mila	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = E quanti sono gli abbonati?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	quanti	quanto	PRON	PQ	Gender=Masc|Number=Plur|PronType=Int	0	root	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	abbonati	abbonato	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = "Gli abbonati che hanno subito un danno sono 7mila.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	abbonati	abbonato	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	subito	subire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	danno	danno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	7mila	7mila	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 38
+# text = Teniamo conto che gli abbonati pendolari, in Italia, sono 480mila”.
+1	Teniamo	tenere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	conto	conto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	che	che	SCONJ	CS	_	12	mark	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	abbonati	abbonato	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+6	pendolari	pendolare	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	12	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	480mila	480milare	ADJ	A	Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 39
+# text = I ricavi per questi settemila?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ricavi	ricavo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	settemila	settemila	NUM	N	NumType=Card	2	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = “Sono 15 milioni di euro, a fronte di un ricavo generale dal traffico pendolare pari a 860 milioni di euro.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	15	15	NUM	N	NumType=Card	4	nummod	_	_
+4	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	euro	euro	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	fronte	fronte	NOUN	S	Number=Sing	4	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ricavo	ricavo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	generale	generale	ADJ	A	Number=Sing	12	amod	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	pendolare	pendolare	ADJ	A	Number=Sing	16	amod	_	_
+18	pari	pari	ADJ	A	_	16	amod	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	860	860	NUM	N	NumType=Card	21	nummod	_	_
+21	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	euro	euro	NOUN	S	Gender=Masc	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 41
+# text = I cosiddetti beffati, e ribadiamo non da noi, valgono il due per cento di quel mercato.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	cosiddetti	cosiddetto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	beffati	beffato	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	ribadiamo	ribadire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	valgono	valere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	due	due	NUM	N	NumType=Card	11	obj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	cento	cento	NUM	N	NumType=Card	13	nummod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 42
+# text = Come si vede, per Trenitalia non c’è un vantaggio economico nel mantenere l’algoritmo in vita.
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	Trenitalia	Trenitalia	PROPN	SP	_	9	obl	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	economico	economico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mantenere	mantenere	VERB	V	VerbForm=Inf	9	obl	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	algoritmo	algoritmo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	vita	vita	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 43
+# text = Noi stiamo cercando di risolvere il problema e giovedì scorso, per questo, abbiamo siglato un accordo con Assoutenti.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	risolvere	risolvere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	problema	problema	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	giovedì	giovedì	NOUN	S	Gender=Masc	7	conj	_	_
+10	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	siglato	siglare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	Assoutenti	Assoutento	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 44
+# text = Trenitalia punta sul comparto pendolari, a bilancio abbiamo investimenti per 4,5 miliardi”.
+1	Trenitalia	Trenitalia	PROPN	SP	_	2	nsubj	_	_
+2	punta	puntare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	comparto	comparto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	pendolari	pendolare	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	bilancio	bilancio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+10	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	4,5	4,5	NUM	N	NumType=Card	14	nummod	_	_
+14	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

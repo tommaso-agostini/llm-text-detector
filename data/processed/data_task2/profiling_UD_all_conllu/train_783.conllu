@@ -1,0 +1,676 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I tour operator sono seriamente preoccupati.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	tour	tour	NOUN	S	Gender=Masc	6	nsubj	_	_
+3	operator	operatore	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	seriamente	seriamente	ADV	B	_	6	advmod	_	_
+6	preoccupati	preoccupato	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = L’Egitto nel 2010 ha accolto 1,3 milioni di presenze italiane, l’85% a Sharm el Sheikh e Marsa Alam e il 15% nei percorsi classici e archeologici.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Egitto	Egitto	PROPN	SP	_	7	nsubj	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	2010	2010	NUM	N	NumType=Card	7	obl	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	1,3	1,3	NUM	N	NumType=Card	9	nummod	_	_
+9	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	presenze	presenze	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	85	85	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	SYM	_	7	obl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Sharm	Sharm	PROPN	SP	_	16	nmod	_	_
+19	el	el	PROPN	SP	_	18	flat:name	_	_
+20	Sheikh	Sheikh	PROPN	SP	_	18	flat:name	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Marsa	Marsa	PROPN	SP	_	18	conj	_	_
+23	Alam	Alam	PROPN	SP	_	22	flat:name	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	15	15	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+27	%	%	SYM	SYM	_	18	conj	_	_
+28-29	nei	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	percorsi	percorso	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+31	classici	classico	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	archeologici	archeologico	ADJ	A	Gender=Masc|Number=Plur	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Questi ultimi, crociera sul Nilo compresa, sono praticamente scomparsi.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+2	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	crociera	crociera	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Nilo	Nilo	PROPN	SP	_	4	nmod	_	_
+8	compresa	compreso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	praticamente	praticamente	ADV	B	_	12	advmod	_	_
+12-13	scomparsi	_	_	_	_	_	_	_	SpaceAfter=No
+12	scompar	scompare	VERB	V	VerbForm=Inf	0	root	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = E il Mar Rosso fa fatica.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mar	Mar	PROPN	SP	_	5	nsubj	_	_
+4	Rosso	Rosso	PROPN	SP	_	3	flat:name	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = In gioco ci sono i conti dei tour operator più importanti, per i quali l’Egitto vale il 20-30% dei ricavi, e la stessa sopravvivenza di numerosi operatori specializzati.
+1	In	in	ADP	E	_	2	case	_	_
+2	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	conti	conto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	tour	tour	NOUN	S	Gender=Masc	6	nmod	_	_
+10	operator	operatorre	NOUN	S	Gender=Masc	9	compound	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	importanti	importante	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	quali	quale	PRON	PR	Number=Plur|PronType=Rel	19	obl	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	Egitto	Egitto	PROPN	SP	_	19	nsubj	_	_
+19	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+21	20	20	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+23	30	30	NUM	N	NumType=Card	21	compound	_	SpaceAfter=No
+24	%	%	SYM	SYM	_	19	obj	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	ricavi	ricavo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	32	punct	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	sopravvivenza	sopravvivenza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	35	det	_	_
+35	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+36	specializzati	specializzato	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = «Ma le informazioni che arrivano in Italia rischiano di essere fuorvianti - spiega Luca Patanè, vicepresidente dell’associazione del turismo organizzato Federviaggio e presidente di Uvet American Express -.
+1	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	9	cc	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	6	obl	_	_
+9	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+12	fuorvianti	fuorviare	ADV	B	_	9	advmod	_	_
+13	-	-	PUNCT	FB	_	14	punct	_	_
+14	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+15	Luca	Luca	PROPN	SP	_	14	nsubj	_	_
+16	Patanè	Patanè	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	vicepresidente	vicepresidente	NOUN	S	Number=Sing	15	appos	_	_
+19-20	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	organizzato	organizzato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	Federviaggio	Federviaggio	PROPN	SP	_	24	nmod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Uvet	Uvet	PROPN	SP	_	28	nmod	_	_
+31	American	American	PROPN	SP	_	30	flat:name	_	_
+32	Express	Express	PROPN	SP	_	30	flat:name	_	_
+33	-	-	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = È vero che nella capitale e nelle zone urbane si verificano disordini.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	13	mark	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	zone	zona	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+11	urbane	urbano	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	verificano	verificare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+14	disordini	disordine	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ma deve essere anche detto che nelle località turistiche del Mar Rosso non c’è stato il minimo problema durante l’ultimo anno:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	aux:pass	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	18	mark	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	località	località	NOUN	S	Gender=Fem	18	obl	_	_
+10	turistiche	turistico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Mar	Mar	PROPN	SP	_	9	nmod	_	_
+14	Rosso	Rosso	PROPN	SP	_	13	flat:name	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	SpaceAfter=No
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	problema	problema	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+22	durante	durante	ADP	E	_	25	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+24	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	25	amod	_	_
+25	anno	anno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 9
+# text = la sicurezza e la tranquillità sono assolute».
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tranquillità	tranquillità	NOUN	S	Gender=Fem	2	conj	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	assolute	assoluto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Ma lei crede che bastino queste affermazioni per richiamare gli italiani in Egitto?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	bastino	bastare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	affermazioni	affermazione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	richiamare	richiamare	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Egitto	Egitto	PROPN	SP	_	9	obl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = «Capisco che ci possa essere della confusione:
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Capisco	Capisco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	_
+5	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	essere	essere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	confusione	confusione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = ma il dato di fatto è proprio questo.
+1	ma	ma	CCONJ	CC	_	8	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dato	dato	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	proprio	proprio	ADV	B	_	8	advmod	_	_
+8	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Nelle città ci sono i disordini, sulle spiagge i turisti prendono il sole.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	città	città	NOUN	S	Gender=Fem	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	disordini	disordine	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9-10	sulle	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	spiagge	spiaggia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+14	prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sole	sole	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Si tratta di due realtà distanti e totalmente diverse.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	realtà	realtà	NOUN	S	Gender=Fem	2	obl	_	_
+6	distanti	distante	ADJ	A	Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	totalmente	totalmente	ADV	B	_	9	advmod	_	_
+9	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Gli egiziani stessi, qualunque maggioranza governi, hanno interesse a tenere in sicurezza quella che è la loro prima voce di Prodotto interno lordo:
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	egiziani	egiziano	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	governi	governo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	interesse	interere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	tenere	tenere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	12	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
+21	voce	voce	NOUN	S	Gender=Fem|Number=Sing	15	acl:relcl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	interno	interno	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	lordo	lordo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 16
+# text = il turismo.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Faccio un esempio».
+1	Faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Prego.
+1	Prego	prego	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = «Si ricorda le manifestazioni che hanno messo Roma a ferro e fuoco solo poche settimane fa?
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	manifestazioni	manifestazione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	Roma	Roma	PROPN	SP	_	8	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	solo	solo	ADV	B	_	16	advmod	_	_
+15	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+17	fa	fa	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Ebbene, quelle immagini hanno fatto il giro del mondo e sicuramente hanno dissuaso qualche turista dal venire nel nostro Paese.
+1	Ebbene	ebbene	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giro	giro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	sicuramente	sicuramente	ADV	B	_	15	advmod	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dissuaso	dissuadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+16	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	turista	turista	NOUN	S	Number=Sing	15	obj	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	venire	venire	VERB	V	VerbForm=Inf	15	obl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Ma questo, ragionevolmente, non significa che l’Italia sia pericolosa, o che andare in Sardegna esponga al rischio di trovarsi in mezzo a disordini di piazza».
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ragionevolmente	ragionevolmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	12	nsubj	_	_
+11	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	pericolosa	pericoloso	ADJ	A	Gender=Fem|Number=Sing	7	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	o	o	CCONJ	CC	_	16	cc	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	andare	andare	VERB	V	VerbForm=Inf	12	conj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Sardegna	Sardegna	PROPN	SP	_	16	obl	_	_
+19	esponga	esporre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24-25	trovarsi	_	_	_	_	_	_	_	_
+24	trovar	trovare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	disordini	disordine	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	»	»	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 22
+# text = Però i turisti sono prudenti.
+1	Però	però	ADV	B	_	5	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	prudenti	prudente	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Perchè correre dei rischi se si deve andare in vacanza?
+1	Perchè	perché	ADV	B	_	2	advmod	_	_
+2	correre	correre	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	se	se	SCONJ	CS	_	9	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+8	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = «È vero, ma gli italiani sono più sensibili di altri.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	10	punct	_	_
+5	ma	ma	CCONJ	CC	_	10	cc	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	sensibili	sensibile	ADJ	A	Number=Plur	3	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = L’esempio è proprio il Mar Rosso, dove nell’ultimo anno le presenze dei russi, clienti tradizionali, sono addirittura aumentate, mente inglesi e tedeschi, dopo un primo momento di smarrimento, hanno contenuto i cali rispetto agli italiani:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	proprio	proprio	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Mar	Mar	PROPN	SP	_	40	nsubj	_	_
+7	Rosso	Rosso	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	dove	dove	ADV	B	_	25	advmod	_	_
+10-11	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	13	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	presenze	presenza	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	russi	russo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	clienti	cliente	NOUN	S	Number=Plur	18	conj	_	_
+21	tradizionali	tradizionale	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	addirittura	addirittura	ADV	B	_	25	advmod	_	_
+25	aumentate	aumentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	mente	mente	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+28	inglesi	inglese	ADJ	A	Number=Plur	27	amod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	tedeschi	tedesco	ADJ	A	Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	25	punct	_	_
+32	dopo	dopo	ADP	E	_	35	case	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	35	amod	_	_
+35	momento	momento	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	smarrimento	smarrimento	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	6	punct	_	_
+39	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	contenuto	contenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	cali	calo	NOUN	S	Gender=Masc|Number=Plur	40	obj	_	_
+43	rispetto	rispetto	ADV	B	_	46	case	_	_
+44-45	agli	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	43	fixed	_	_
+45	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+47	:	:	PUNCT	FC	_	40	punct	_	_
+
+# sent_id = 26
+# text = se la nostra media è di un calo di circa il 40%, loro sono rispettivamente a meno 22 e meno 28%».
+1	se	se	SCONJ	CS	_	8	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	media	medio	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	calo	calo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	13	case	_	_
+10	circa	circa	ADV	B	_	13	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	40	40	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+17	rispettivamente	rispettivamente	ADV	B	_	20	advmod	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	meno	meno	ADV	B	_	20	advmod	_	_
+20	22	22	NUM	N	NumType=Card	8	nummod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	meno	meno	ADV	B	_	24	advmod	_	_
+23	28	28	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+24	%	%	SYM	SYM	_	20	conj	_	SpaceAfter=No
+25	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 27
+# text = Lei come convincerebbe un turista?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	convincerebbe	convincere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	turista	turista	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 28
+# text = «Gli direi che anche un Paese in tensione ha le sue zone tranquille, e che sulle coste del Mar Rosso non è accaduto nulla che possa preoccupare.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	zone	zona	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+14	tranquille	tranquillo	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	27	punct	_	_
+16	e	e	CCONJ	CC	_	27	cc	_	_
+17	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+18-19	sulle	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	coste	costa	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Mar	Mar	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	Rosso	Rosso	PROPN	SP	_	23	nmod	_	_
+25	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+28	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	27	obj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	preoccupare	preoccuparire	VERB	V	VerbForm=Inf	28	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = E poi, nel rapporto qualità prezzo, l’Egitto non ha pari:
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	poi	poi	ADV	B	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+7	qualità	qualità	NOUN	S	Gender=Fem	6	compound	_	_
+8	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Egitto	Egitto	PROPN	SP	_	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	pari	pari	ADJ	A	_	13	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 30
+# text = si può fare il bagno tutto l’anno a tre ore e mezza dall’Italia.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	tre	tre	NUM	N	NumType=Card	11	nummod	_	_
+11	ore	ora	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	mezza	mezza	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+14-15	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+14	da	da	ADP	E	_	16	case	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Italia	Italia	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = Una settimana costa mediamente 450-600 euro a persona e oggi che c’è meno gente il servizio è ancora più accurato».
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mediamente	medio	ADV	B	_	3	advmod	_	_
+5	450	450	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+6	-600	-600	NUM	N	NumType=Card	7	nummod	_	_
+7	euro	euro	NOUN	S	Gender=Masc	3	obl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	persona	persona	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	oggi	oggi	ADV	B	_	14	advmod	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	meno	meno	ADV	B	_	14	advmod	_	_
+16	gente	gente	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	ancora	ancora	ADV	B	_	22	advmod	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	accurato	accurato	ADJ	A	Gender=Masc|Number=Sing	14	ccomp	_	SpaceAfter=No
+23	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,402 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il Pontefice si è fermato sulla piazza dell'appello e qui è rimasto per diversi minuti, pregando in silenzio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Pontefice	pontefice	PROPN	SP	_	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	appello	appello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	qui	qui	ADV	B	_	15	advmod	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	pregando	pregare	VERB	V	VerbForm=Ger	15	advcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Qui avvenivano le impiccagioni dei prigionieri.
+1	Qui	qui	ADV	B	_	2	advmod	_	_
+2	avvenivano	avvenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	impiccagioni	impiccagione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	prigionieri	prigioniero	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Poco distante il muro della morte, dove si eseguivano le fucilazioni.
+1	Poco	poco	ADV	B	_	2	advmod	_	_
+2	distante	distare	ADJ	A	Number=Sing	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	muro	muro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	morte	morte	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dove	dove	ADV	B	_	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	eseguivano	eseguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	fucilazioni	fucilazione	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Un quarto d'ora di silenzio, mani giunte e occhi semichiusi, poi il bacio a un palo della forca delle impiccagioni.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	mani	mano	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+9	giunte	giunta	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+12	semichiusi	semichiuso	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	poi	poi	ADV	B	_	16	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	palo	palo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	forca	forca	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	impiccagioni	impiccagione	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Il Papa è poi salito su un piccolo kart che lo ha accompagnato al Blocco 11, per visitare le camerate dove i prigionieri erano detenuti e incontrare i sopravvissuti delle vittime.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Papa	Papa	PROPN	SP	_	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	poi	poi	ADV	B	_	5	advmod	_	_
+5	salito	salire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	su	su	ADP	E	_	9	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	kart	kart	NOUN	S	Gender=Masc	5	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Blocco	blocco	PROPN	SP	_	13	obl	_	_
+17	11	11	NUM	N	NumType=Card	16	nummod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	visitare	visitare	VERB	V	VerbForm=Inf	5	advcl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	camerate	camerata	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	dove	dove	ADV	B	_	27	advmod	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	prigionieri	prigioniero	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	_
+26	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	detenuti	detenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	incontrare	incontrare	VERB	V	VerbForm=Inf	27	conj	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	sopravvissuti	sopravvissuto	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+32-33	delle	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Auschwitz, il Papa nella cella di Massimiliano Kolbe Nel Blocco una tappa alla cella della fame, dove padre Massimiliano Kolbe morì da martire, offrendosi come agnello sacrificale in cambio di un padre di famiglia, accusato di cospirazione.
+1	Auschwitz	Auschwitz	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Papa	Papa	PROPN	SP	_	1	appos	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cella	cella	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Massimiliano	Massimiliano	PROPN	SP	_	7	nmod	_	_
+10	Kolbe	Kolbe	PROPN	SP	_	9	flat:name	_	_
+11-12	Nel	_	_	_	_	_	_	_	_
+11	In	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Blocco	blocco	PROPN	SP	_	7	nmod	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tappa	tappa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cella	cella	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fame	fame	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	dove	dove	ADV	B	_	27	advmod	_	_
+24	padre	padre	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+25	Massimiliano	Massimiliano	PROPN	SP	_	24	nmod	_	_
+26	Kolbe	Kolbe	PROPN	SP	_	25	flat:name	_	_
+27	morì	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29	martire	martire	VERB	V	VerbForm=Inf	27	advcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	27	punct	_	_
+31-32	offrendosi	_	_	_	_	_	_	_	_
+31	offrendo	offrire	VERB	V	VerbForm=Ger	27	advcl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33	come	come	ADP	E	_	34	case	_	_
+34	agnello	agnello	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	sacrificale	sacrificale	ADJ	A	Number=Sing	34	amod	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	padre	padre	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	40	punct	_	_
+44	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	cospirazione	cospirazione	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = "Signore abbi pietà del tuo popolo, Signore perdona per tanta crudeltà".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Signore	signore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	abbi	abbo	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det	_	_
+4	pietà	pietà	NOUN	S	Gender=Fem	11	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	Signore	signore	PROPN	SP	_	11	nsubj	_	_
+11	perdona	perdonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+14	crudeltà	crudeltà	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Questo il pensiero che Papa Francesco ha scritto sul libro d'onore del Campo di concentramento di Auschwitz.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+4	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+5	Papa	Papa	PROPN	SP	_	8	nsubj	_	_
+6	Francesco	Francesco	PROPN	SP	_	5	flat:name	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	libro	libro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	onore	onore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Campo	campo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	concentramento	concentramento	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Auschwitz	Auschwitz	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Quindi si è avviato a piedi verso l'ingresso per proseguire la sua visita nell'adiacente canpo di Birkenau dove lo attendono un centinaio di "giusti delle nazioni" che salvarono ebrei, con i loro familiari.
+1	Quindi	quindi	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avviato	avviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	proseguire	proseguire	VERB	V	VerbForm=Inf	9	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	visita	visita	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15-16	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	in	in	ADP	E	_	18	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+17	adiacente	adiacente	ADJ	A	Number=Sing	18	amod	_	_
+18	canpo	canpo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Birkenau	Birkenau	PROPN	SP	_	18	nmod	_	_
+21	dove	dove	ADV	B	_	23	advmod	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	attendono	attendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	centinaio	centinaio	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	giusti	giusto	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	34	punct	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	salvarono	salvare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+35	ebrei	ebreo	ADJ	A	Gender=Masc|Number=Plur	34	xcomp	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	23	punct	_	_
+37	con	con	ADP	E	_	40	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	loro	loro	DET	AP	Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	familiari	familiare	NOUN	S	Number=Plur	23	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Il Papa in visita ad Auschwitz Vorrei poter stare un pò vicino a ogni bambino malato, accanto al suo letto, abbracciarli ad uno ad uno, ascoltare anche solo un momento ciascuno di voi e insieme fare silenzio di fronte alle domande per le quali non ci sono risposte immediate.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Papa	Papa	PROPN	SP	_	9	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	visita	visita	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	Auschwitz	Auschwitz	PROPN	SP	_	4	nmod	_	_
+7	Vorrei	volere	PROPN	SP	_	6	flat:name	_	_
+8	poter	potere	AUX	VM	VerbForm=Inf	9	aux	_	_
+9	stare	stare	VERB	V	VerbForm=Inf	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pò	pò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obj	_	_
+12	vicino	vicino	ADV	B	_	15	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	malato	malato	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	accanto	accanto	ADV	B	_	22	case	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	18	fixed	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	letto	letto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24-25	abbracciarli	_	_	_	_	_	_	_	_
+24	abbracciar	abbracciare	VERB	V	VerbForm=Inf	9	conj	_	_
+25	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	obj	_	_
+26	ad	a	ADP	E	_	27	case	_	_
+27	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	obl	_	_
+28	ad	a	ADP	E	_	29	case	_	_
+29	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	ascoltare	ascoltare	VERB	V	VerbForm=Inf	9	conj	_	_
+32	anche	anche	ADV	B	_	35	advmod	_	_
+33	solo	solo	ADV	B	_	35	advmod	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	momento	momento	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+36	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	nmod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	36	nmod	_	_
+39	e	e	CCONJ	CC	_	41	cc	_	_
+40	insieme	insieme	ADV	B	_	41	advmod	_	_
+41	fare	fare	VERB	V	VerbForm=Inf	36	conj	_	_
+42	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	fronte	fronte	NOUN	S	Number=Sing	42	nmod	_	_
+45-46	alle	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	47	case	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	44	nmod	_	_
+48	per	per	ADP	E	_	50	case	_	_
+49	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+50	quali	quale	PRON	PR	Number=Plur|PronType=Rel	53	obl	_	_
+51	non	non	ADV	BN	PronType=Neg	53	advmod	_	_
+52	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	53	expl	_	_
+53	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	acl:relcl	_	_
+54	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	53	nsubj	_	_
+55	immediate	immediato	ADJ	A	Gender=Fem|Number=Plur	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = E pregare".
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	pregare	pregare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = E' il desiderio confessato da PapaFrancesco, in visita all'ospedale pediatrico di Prokocim a Cracovia, accolto dalla premier polacca Beata Maria Szydlo.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	PapaFrancesco	PapaFrancesco	PROPN	SP	_	4	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	visita	visita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	pediatrico	pediatrico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Prokocim	Prokocim	PROPN	SP	_	12	nmod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Cracovia	Cracovia	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+20-21	dalla	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	premier	premier	NOUN	S	_	19	obl:agent	_	_
+23	polacca	polacco	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	Beata	beato	PROPN	SP	_	22	nmod	_	_
+25	Maria	Maria	PROPN	SP	_	24	flat:name	_	_
+26	Szydlo	Szydlo	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Ad ascoltare il Pontefice, una cinquantina di bambini ricoverati nel nosocomio, con i loro genitori.
+1	Ad	a	ADP	E	_	2	mark	_	_
+2	ascoltare	ascoltare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Pontefice	Pontefice	PROPN	SP	_	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cinquantina	cinquantina	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	ricoverati	ricoverare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	nosocomio	nosocomio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

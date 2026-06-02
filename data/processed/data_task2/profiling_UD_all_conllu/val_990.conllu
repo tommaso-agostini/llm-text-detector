@@ -1,0 +1,552 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un team di ricercatori australiani, per risolvere la questione, ha proposto di seppellirle nell'asfalto:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	team	team	NOUN	S	Gender=Masc	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	australiani	australiano	NOUN	S	Gender=Masc|Number=Plur	4	compound	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	risolvere	risolvere	VERB	V	VerbForm=Inf	2	acl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	questione	questione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	proposto	proporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	seppellirle	_	_	_	_	_	_	_	_
+15	seppellir	seppellire	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17-18	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	in	in	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	asfalto	asfalto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = in questo modo spariscono da vie e marciapiedi e rafforzano il manto stradale.
+1	in	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	spariscono	sparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	vie	via	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	marciapiedi	marciapiede	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	rafforzano	rafforzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	manto	manto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	stradale	stradale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ma le soluzioni al riguardo sembrano proliferare, sempre sotto il segno della creatività.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	proliferare	proliferare	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	sempre	sempre	ADV	B	_	8	advmod	_	_
+11	sotto	sotto	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	segno	segno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	creatività	creatività	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Così la startup olandese Crowbar, tra i finalisti del Dutch Accenture Innovation Awards, ha ideato "una macchina intelligente che addestra i corvi a raccogliere mozziconi di sigaretta dalla strada".
+1	Così	così	ADV	B	_	18	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	startup	startup	NOUN	S	Gender=Fem	18	nsubj	_	_
+4	olandese	olandese	ADJ	A	Number=Sing	3	amod	_	_
+5	Crowbar	Crowbar	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	finalisti	finalista	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Dutch	Dutch	PROPN	SP	_	9	nmod	_	_
+13	Accenture	Accenture	PROPN	SP	_	12	flat:name	_	_
+14	Innovation	Innovation	PROPN	SP	_	12	flat:name	_	_
+15	Awards	Awards	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	ideato	ideare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	intelligente	intelligente	ADJ	A	Number=Sing	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	addestra	addestrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	corvi	corvo	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	raccogliere	raccogliere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+29	mozziconi	mozzicone	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32-33	dalla	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	strada	strada	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 5
+# text = I progettisti industriali Ruben van der Vleuten e Bob Spikman, notando la sconvolgente quantità di mozziconi che insozzavano un parco di Amsterdam, hanno iniziato a pensare a come sbarazzarsi di questi odiosi rifiuti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	progettisti	progettista	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	industriali	industriale	ADJ	A	Number=Plur	2	amod	_	_
+4	Ruben	Ruben	PROPN	SP	_	5	nsubj	_	_
+5	van	re	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	der	der	ADP	E	_	7	case	_	_
+7	Vleuten	Vleuten	PROPN	SP	_	5	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Bob	Bob	PROPN	SP	_	7	conj	_	_
+10	Spikman	Spikman	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	notando	notare	VERB	V	VerbForm=Ger	5	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sconvolgente	sconvolgente	ADJ	A	Number=Sing	15	amod	_	_
+15	quantità	quantità	NOUN	S	Gender=Fem	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	mozziconi	mozzicone	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	insozzavano	insozzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	parco	parco	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Amsterdam	Amsterdam	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	pensare	pensare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	a	a	ADP	E	_	31	mark	_	_
+30	come	come	SCONJ	CS	_	29	fixed	_	_
+31-32	sbarazzarsi	_	_	_	_	_	_	_	_
+31	sbarazzar	sbarazzare	VERB	V	VerbForm=Inf	28	advcl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	36	det	_	_
+35	odiosi	odioso	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+36	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = La risposta più ovvia era quella dei robot, ma era difficile programmarli per scandagliare tutti gli angoli della città.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	ovvia	ovvia	ADV	B	_	6	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	robot	robot	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	6	conj	_	_
+14-15	programmarli	_	_	_	_	_	_	_	_
+14	programmar	programmare	VERB	V	VerbForm=Inf	13	csubj	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	scandagliare	scandagliare	VERB	V	VerbForm=Inf	14	advcl	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	angoli	angolo	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	città	città	NOUN	S	Gender=Fem	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Così hanno optato per gli uccelli.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	optato	optare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	uccelli	uccello	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = "Prima abbiamo pensato ai piccioni - ha raccontato Ruben alla rivista The next web - e sarebbe stato perfetto visto che ce ne sono tanti in città".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Prima	Prima	ADV	B	_	4	advmod	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	piccioni	piccione	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	-	-	PUNCT	FF	_	10	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+11	Ruben	Ruben	PROPN	SP	_	10	nsubj	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	rivista	rivista	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	The	the	DET	RD	Definite=Def|PronType=Art	16	det	_	_
+16	next	next	NOUN	S	_	14	nmod	_	_
+17	web	webbraio	NOUN	S	Gender=Masc	16	compound	_	_
+18	-	-	PUNCT	FB	_	10	punct	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	cop	_	_
+22	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	_
+23	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+24	che	che	SCONJ	CS	_	28	mark	_	_
+25	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	_
+26	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	28	iobj	_	_
+27	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	23	ccomp	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	città	città	NOUN	S	Gender=Fem	28	obl	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Purtroppo, dopo una rapida ricerca si sono accorti che i volatili non sono particolarmente intelligenti e sarebbe stato difficile insegnare loro a compiere un'operazione tanto complessa.
+1	Purtroppo	purtroppo	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dopo	dopo	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	accorti	accortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	volatili	volatile	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	particolarmente	particolarmente	ADV	B	_	16	advmod	_	_
+16	intelligenti	intelligente	ADJ	A	Number=Plur	9	ccomp	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
+20	difficile	difficile	ADJ	A	Number=Sing	16	conj	_	_
+21	insegnare	insegnare	VERB	V	VerbForm=Inf	20	csubj	_	_
+22	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	21	iobj	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	compiere	compiere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+25	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	tanto	tanto	ADV	B	_	28	advmod	_	_
+28	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Quindi, il guizzo di genio.
+1	Quindi	quindi	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	guizzo	guizzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	genio	genio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = C'è un altro uccello che ama vivere vicino agli umani e che sembra più ricettivo:
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	altro	altro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	uccello	uccello	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	vivere	vivere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	vicino	vicino	ADV	B	_	8	advmod	_	_
+10-11	agli	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	umani	umano	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	ricettivo	ricettivo	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = è il corvo, capace di risolvere problemi e di imparare autonomamente se sapientemente addestrato.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corvo	corvo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	capace	capace	ADJ	A	Number=Sing	3	amod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	risolvere	risolvere	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	imparare	imparare	VERB	V	VerbForm=Inf	7	conj	_	_
+12	autonomamente	autonomamente	ADV	B	_	11	advmod	_	_
+13	se	se	SCONJ	CS	_	15	mark	_	_
+14	sapientemente	sapientemente	ADV	B	_	15	advmod	_	_
+15	addestrato	addestrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = "La città si pulisce utilizzando il proprio ecosistema esistente:
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	città	città	NOUN	S	Gender=Fem	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	pulisce	pulire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	utilizzando	utilizzare	VERB	V	VerbForm=Ger	5	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	ecosistema	ecosistema	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	esistente	esistere	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 14
+# text = i corvi".
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	corvi	corvo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Così si presenta il sistema.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:pass	_	_
+3	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Crowbar è una macchina che educa, addestra e ricompensa i corvi che raccolgono i filtri di sigaretta in cambio di cibo.
+1	Crowbar	Crowbar	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	educa	educare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	addestra	addestrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	ricompensa	ricompensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	corvi	corvo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	raccolgono	raccolere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	filtri	filtro	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = La macchina utilizza un processo comprovato, suddiviso in 4 fasi, che consente agli uccelli di associare la raccolta dei mozziconi con l'alimentazione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	utilizza	utilizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	processo	processo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	comprovato	comprovato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	suddiviso	suddiviso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	4	4	NUM	N	NumType=Card	11	nummod	_	_
+11	fasi	fase	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	consente	consentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15-16	agli	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	uccelli	uccello	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	associare	associare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	mozziconi	mozzicone	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Per ogni filtro di sigarette che cade nell'apposita scatola, riceveranno delle arachidi in premio.
+1	Per	per	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	filtro	filtro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sigarette	sigaretta	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	cade	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	apposita	apposito	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	scatola	scatola	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	riceveranno	ricevere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	arachidi	arachidio	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	premio	premio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 19
+# text = L'idea è stata ispirata da Joshua Klein, creatore della Crow Box, un progetto open source che è fondamentalmente un distributore automatico per corvi.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	ispirata	ispirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Joshua	Joshua	PROPN	SP	_	5	obl:agent	_	_
+8	Klein	Klein	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	creatore	creatore	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Crow	Crow	PROPN	SP	_	10	nmod	_	_
+14	Box	box	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	open	open	ADV	B	_	17	advmod	_	_
+19	source	sourcia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	che	che	SCONJ	CS	_	24	mark	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	fondamentalmente	fondamentalmente	ADV	B	_	24	advmod	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	distributore	distributore	NOUN	S	Gender=Masc|Number=Sing	19	ccomp	_	_
+25	automatico	automatico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	corvi	corvo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 20
+# text = La macchina di Klein è stata progettata per allenare i corvi a raccogliere oggetti e riportarli in cambio di una ricompensa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Klein	Klein	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	progettata	progettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	allenare	allenare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	corvi	corvo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	raccogliere	raccogliere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+14	oggetti	oggetto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16-17	riportarli	_	_	_	_	_	_	_	_
+16	riportar	riportare	VERB	V	VerbForm=Inf	7	conj	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	ricompensa	ricompensa	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = I progettisti olandesi hanno pensato di usare lo stesso principio e applicarlo alle cicche.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	progettisti	progettista	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	olandesi	olandese	ADJ	A	Number=Plur	2	amod	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	usare	usare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	principio	principio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	applicarlo	_	_	_	_	_	_	_	_
+12	applicar	applicare	VERB	V	VerbForm=Inf	5	conj	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	cicche	cicca	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = I Crowbar possono essere collocati in tutta la città senza avere un grande impatto sulle infrastrutture esistenti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Crowbar	Crowbar	PROPN	SP	_	5	nsubj:pass	_	_
+3	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	collocati	collocare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	9	det:predet	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	5	obl	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	grande	grande	ADJ	A	Number=Sing	14	amod	_	_
+14	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	esistenti	esistente	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Come dicono gli ideatori, "è una soluzione economica e un modo sorprendentemente facile per rendere le nostre strade più pulite".
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ideatori	ideatore	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	economica	economico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	sorprendentemente	sorprendentemente	ADV	B	_	15	advmod	_	_
+15	facile	facile	ADJ	A	Number=Sing	13	amod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	rendere	rendere	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	strade	strada	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	pulite	pulito	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

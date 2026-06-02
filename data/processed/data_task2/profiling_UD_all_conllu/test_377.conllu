@@ -1,0 +1,437 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È vero:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = in genere da noi il prezzo viene imposto dal produttore, ma è proprio su quest'ultimo che va a pesare la tassa.
+1	in	in	ADP	E	_	2	case	_	_
+2	genere	genere	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+7	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	imposto	imporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	ma	ma	CCONJ	CC	_	18	cc	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	proprio	proprio	ADV	B	_	18	advmod	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	quest'	questo	DET	DD	Number=Sing|PronType=Dem	18	det	_	SpaceAfter=No
+18	ultimo	ultimo	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	pesare	pesare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Solo un ingenuo poteva pensare che nessuna delle aziende che costruiscono smartphone e tablet - soprattutto quelle che incarnano uno status symbol - avrebbe aumentato i prezzi.
+1	Solo	solo	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ingenuo	ingenuo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+6	che	che	SCONJ	CS	_	26	mark	_	_
+7	nessuna	nessuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	26	nsubj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	costruiscono	costruire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	smartphone	smartphone	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	tablet	tablet	NOUN	S	Gender=Masc	13	conj	_	_
+16	-	-	PUNCT	FF	_	15	punct	_	_
+17	soprattutto	soprattutto	ADV	B	_	18	advmod	_	_
+18	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	incarnano	incarnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	status	status	NOUN	S	Gender=Masc	20	obj	_	_
+23	symbol	symbol	ADJ	A	_	22	amod	_	_
+24	-	-	PUNCT	FF	_	15	punct	_	_
+25	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Così è stato:
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = ieri sera Apple Italia ha annunciato di aver aumentato i prezzi di iPhone, iPad e Mac e di tutti gli altri dispositivi per adeguarli alle nuove tariffe per il copyright previste dal decreto.
+1	ieri	ieri	ADV	B	_	6	advmod	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+3	Apple	Apple	PROPN	SP	_	6	nsubj	_	_
+4	Italia	Italia	PROPN	SP	_	3	flat:name	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	iPhone	iPhone	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	iPad	iPad	PROPN	SP	_	13	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Mac	mac	PROPN	SP	_	13	conj	_	_
+18	e	e	CCONJ	CC	_	23	cc	_	_
+19	di	di	ADP	E	_	23	case	_	_
+20	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	23	det:predet	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	altri	altro	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	dispositivi	dispositivo	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25-26	adeguarli	_	_	_	_	_	_	_	_
+25	adeguar	adeguarre	VERB	V	VerbForm=Inf	9	advcl	_	_
+26	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+27-28	alle	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	30	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+29	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+30	tariffe	tariffa	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	copyright	copyright	NOUN	S	Gender=Masc	30	nmod	_	_
+34	previste	prevedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	33	acl	_	_
+35-36	dal	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	34	obl:agent	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Da ieri, insomma, pagheremo circa 4 euro in più (esattamente la tariffa dell'equo compenso) per ogni dispositivo.
+1	Da	da	ADP	E	_	2	case	_	_
+2	ieri	ieri	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	insomma	insomma	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	pagheremo	pagheere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	circa	circa	ADV	B	_	8	advmod	_	_
+8	4	4	NUM	N	NumType=Card	9	nummod	_	_
+9	euro	euro	NOUN	S	Gender=Masc	6	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	6	advmod	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	esattamente	esattamente	ADV	B	_	15	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tariffa	tariffa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	19	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+18	equo	equo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	15	punct	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	dispositivo	dispositivo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = E il primo a lamentarsene è proprio il ministro Franceschini . iPhone5S16GB:
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	nsubj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-7	lamentarsene	_	_	_	_	_	_	_	_
+5	lamentar	lamentarre	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	proprio	proprio	ADV	B	_	8	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+12	Franceschini	Franceschini	PROPN	SP	_	11	nmod	_	_
+13	.	.	PUNCT	FS	_	11	punct	_	_
+14	iPhone5S16GB	iPhone5S16GB	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 8
+# text = Francia 709€ (copia privata 8€) Germania 699 (cp 36€) Italia ora 732 (cp 4€).
+1	Francia	Francia	PROPN	SP	_	4	nmod	_	_
+2	709€	709€	PROPN	SP	_	1	flat:name	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	copia	copia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	privata	privato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	8€	8€	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	Germania	Germania	PROPN	SP	_	6	flat:name	_	_
+9	699	699	NUM	N	NumType=Card	6	nummod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	cp	cp	NOUN	S	Gender=Masc	4	nmod	_	_
+12	36€	36€	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	Italia	Italia	PROPN	SP	_	11	nmod	_	_
+15	ora	ora	ADV	B	_	14	advmod	_	_
+16	732	732	NUM	N	NumType=Card	14	nummod	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	cp	cp	NOUN	S	Gender=Masc	14	nmod	_	_
+19	4€	4€	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Apple fa pagare cp solo ai suoi clienti italiani — Dario Franceschini (@dariofrance) 22 Luglio 2014 A indignarsi sono persino i sindacati Siae , che parlano di "provocatoria iniziativa" e "pura mistificazione della realtà mirata a confondere i consumatori e a mantenere inalterati i propri ingenti profitti, spesso realizzati attraverso l’utilizzo di manodopera a basso costo".
+1	Apple	Apple	PROPN	SP	_	2	nsubj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pagare	pagare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	cp	cp	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	solo	solo	ADV	B	_	9	advmod	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	clienti	cliente	NOUN	S	Number=Plur	3	obl	_	_
+10	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	—	—	PUNCT	FF	_	9	punct	_	_
+12	Dario	Dario	PROPN	SP	_	9	nmod	_	_
+13	Franceschini	Franceschini	PROPN	SP	_	12	flat:name	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	@dariofrance	@dariofrance	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	_
+17	22	22	NUM	N	NumType=Card	9	nmod	_	_
+18	Luglio	luglio	PROPN	SP	_	17	flat	_	_
+19	2014	2014	NUM	N	NumType=Card	17	flat	_	_
+20	A	a	PROPN	SP	_	3	nsubj	_	_
+21-22	indignarsi	_	_	_	_	_	_	_	_
+21	indignar	indignare	VERB	V	VerbForm=Inf	20	acl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	persino	persino	ADV	B	_	26	advmod	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+27	Siae	Siae	PROPN	SP	_	26	nmod	_	_
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+31	di	di	ADP	E	_	34	case	_	_
+32	"	"	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+33	provocatoria	provocatoria	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	34	punct	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+38	pura	puro	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+39	mistificazione	mistificazione	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	realtà	realtà	NOUN	S	Gender=Fem	39	nmod	_	_
+43	mirata	mirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	_
+44	a	a	ADP	E	_	45	mark	_	_
+45	confondere	confondere	VERB	V	VerbForm=Inf	43	xcomp	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	45	obj	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	a	a	ADP	E	_	50	mark	_	_
+50	mantenere	mantenere	VERB	V	VerbForm=Inf	45	conj	_	_
+51	inalterati	inalterato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	55	acl	_	_
+52	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
+53	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	55	det:poss	_	_
+54	ingenti	ingente	ADJ	A	Number=Plur	55	amod	_	_
+55	profitti	profitto	NOUN	S	Gender=Masc|Number=Plur	50	obj	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	50	punct	_	_
+57	spesso	spesso	ADV	B	_	58	advmod	_	_
+58	realizzati	realizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	50	advcl	_	_
+59	attraverso	attraverso	ADP	E	_	61	case	_	_
+60	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	61	det	_	SpaceAfter=No
+61	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	58	obl	_	_
+62	di	di	ADP	E	_	63	case	_	_
+63	manodopera	manodopera	NOUN	S	Gender=Fem|Number=Sing	61	nmod	_	_
+64	a	a	ADP	E	_	66	case	_	_
+65	basso	basso	ADJ	A	Gender=Masc|Number=Sing	66	amod	_	_
+66	costo	costo	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	SpaceAfter=No
+67	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = "Era prevedibile a fronte di un'imposizione del tutto ingiustificata", ha fatto però notare Elio Catania di Confindustria Digitale .
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	prevedibile	prevedibile	ADJ	A	Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	fronte	fronte	NOUN	S	Number=Sing	3	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	imposizione	imposizione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	tutto	tutto	ADV	B	_	12	advmod	_	_
+12	ingiustificata	ingiustificato	ADJ	A	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+17	però	però	ADV	B	_	16	advmod	_	_
+18	notare	notare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	Elio	Elio	PROPN	SP	_	18	obj	_	_
+20	Catania	Catania	PROPN	SP	_	19	flat:name	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Confindustria	Confindustria	PROPN	SP	_	19	nmod	_	_
+23	Digitale	digitale	PROPN	SP	_	22	flat:name	_	_
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = "Non ci voleva un genio per capire come sarebbe andata a finire, ma bastava un briciolo di onestà intellettuale", gli fa eco Daniele Capezzone , " Forse altri produttori decideranno di assorbire l’aumento, nascondendolo dietro altri rincari, ma dal ministro e dalla Siae dobbiamo esigere di riconoscere almeno la realtà:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	voleva	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	parataxis	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	genio	genio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	capire	capire	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	come	come	SCONJ	CS	_	11	mark	_	_
+10	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	finire	finire	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	bastava	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	briciolo	briciolo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	onestà	onestà	NOUN	S	Gender=Fem	18	nmod	_	_
+21	intellettuale	intellettuale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
+25	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+26	eco	eco	NOUN	S	Number=Sing	25	obj	_	_
+27	Daniele	Daniele	PROPN	SP	_	25	nsubj	_	_
+28	Capezzone	Capezzone	PROPN	SP	_	27	flat:name	_	_
+29	,	,	PUNCT	FF	_	4	punct	_	_
+30	"	"	PUNCT	FB	_	34	punct	_	_
+31	Forse	forse	ADV	B	_	34	advmod	_	_
+32	altri	altro	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+33	produttori	produttore	NOUN	S	Gender=Masc|Number=Plur	34	nsubj	_	_
+34	decideranno	decidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	54	advcl	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	assorbire	assorbire	VERB	V	VerbForm=Inf	34	xcomp	_	_
+37	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	40	punct	_	_
+40	nascondendolo	nascondendolo	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	34	nmod	_	_
+41	dietro	dietro	ADP	E	_	43	case	_	_
+42	altri	altro	ADJ	A	Gender=Masc|Number=Plur	43	amod	_	_
+43	rincari	rincaro	NOUN	S	Gender=Masc|Number=Plur	40	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	48	punct	_	_
+45	ma	ma	CCONJ	CC	_	48	cc	_	_
+46-47	dal	_	_	_	_	_	_	_	_
+46	da	da	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	_
+49	e	e	CCONJ	CC	_	52	cc	_	_
+50-51	dalla	_	_	_	_	_	_	_	_
+50	da	da	ADP	E	_	52	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	Siae	Siae	PROPN	SP	_	34	conj	_	_
+53	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	54	aux	_	_
+54	esigere	esigere	VERB	V	VerbForm=Inf	0	root	_	_
+55	di	di	ADP	E	_	56	mark	_	_
+56	riconoscere	riconoscere	VERB	V	VerbForm=Inf	54	xcomp	_	_
+57	almeno	almeno	ADV	B	_	59	advmod	_	_
+58	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	realtà	realtà	NOUN	S	Gender=Fem	56	obj	_	SpaceAfter=No
+60	:	:	PUNCT	FC	_	54	punct	_	_
+
+# sent_id = 12
+# text = hanno aumentato quella che funziona come una vera e propria tassa (per una copia privata che verrà effettuata, è bene ricordarlo, appena sul 5-10% dei dispositivi acquistati) e che come tutte le altre in un modo o nell’altro si scarica sui consumatori, deprimendo l’economia.
+1	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	come	come	ADP	E	_	11	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+8	vera	vero	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+11	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	per	per	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	copia	copia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+16	privata	privato	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+18	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux:pass	_	_
+19	effettuata	effettuare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	bene	bene	ADV	B	_	23	advmod	_	_
+23-24	ricordarlo	_	_	_	_	_	_	_	SpaceAfter=No
+23	ricordar	ricordare	VERB	V	VerbForm=Inf	2	conj	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	appena	appena	ADV	B	_	30	advmod	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	5-10	5-10	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+30	%	%	SYM	SYM	_	23	obl	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	dispositivi	dispositivo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	acquistati	acquistare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	acl	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	23	punct	_	_
+36	e	e	CCONJ	CC	_	50	cc	_	_
+37	che	che	PRON	PR	PronType=Rel	50	nsubj	_	_
+38	come	come	ADP	E	_	41	case	_	_
+39	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	41	det:predet	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	50	obl	_	_
+42	in	in	ADP	E	_	44	case	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	modo	modo	NOUN	S	Gender=Masc|Number=Sing	50	obl	_	_
+45	o	o	CCONJ	CC	_	50	cc	_	_
+46-47	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+46	in	in	ADP	E	_	48	case	_	_
+47	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	50	obl	_	_
+49	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	50	expl	_	_
+50	scarica	scarico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+51-52	sui	_	_	_	_	_	_	_	_
+51	su	su	ADP	E	_	53	case	_	_
+52	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
+53	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	50	obl	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	50	punct	_	_
+55	deprimendo	deprimere	VERB	V	VerbForm=Ger	50	advcl	_	_
+56	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
+57	economia	economia	NOUN	S	Gender=Fem|Number=Sing	55	obj	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Altro che ripresa!
+1	Altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	ripresa	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = ".
+1	"	"	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

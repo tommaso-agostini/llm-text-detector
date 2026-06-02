@@ -1,0 +1,864 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vivo e vegeto.
+1	Vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	vegeto	vegeto	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = La sua uccisione annunciata ieri dalle autorità ucraine era stata una messa in scena pianificata per sventare l'assassinio, hanno sostenuto i servizi segreti ucraini.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	uccisione	uccisione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+4	annunciata	annunciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	ieri	ieri	ADV	B	_	4	advmod	_	_
+6-7	dalle	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	autorità	autorità	NOUN	S	Gender=Fem	4	obl:agent	_	_
+9	ucraine	ucraino	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+11	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	messa	messa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	scena	scena	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	pianificata	pianificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	sventare	sventare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	assassinio	assassinio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	ucraini	ucraino	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = "Sono ancora vivo", ha detto Babchenko presentandosi agli increduli colleghi.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+9	Babchenko	Babchenko	PROPN	SP	_	8	nsubj	_	_
+10-11	presentandosi	_	_	_	_	_	_	_	_
+10	presentando	presentare	VERB	V	VerbForm=Ger	8	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	agli	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	increduli	incredulo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Martedì sera la polizia ucraina aveva diffuso la notizia della sua uccisione, confermata in mattinata dalla stessa - ignara - moglie.
+1	Martedì	martedì	NOUN	S	Gender=Masc	7	obl	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	ucraina	ucraino	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	uccisione	uccisione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	confermata	confermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	mattinata	mattinata	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	nmod	_	_
+21	-	-	PUNCT	FF	_	15	punct	_	_
+22	ignara	ignaro	ADP	E	_	24	case	_	_
+23	-	-	PUNCT	FF	_	24	punct	_	_
+24	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = In conferenza stampa, Arkadij si è scusato con lei "per l'inferno" che le ha fatto passare negli ultimi due giorni e con tutti i colleghi che avevano pianto la sua morte.
+1	In	in	ADP	E	_	2	case	_	_
+2	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	Arkadij	Arkadij	PROPN	SP	_	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	scusato	scusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	per	per	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	inferno	inferno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	iobj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20	passare	passare	VERB	V	VerbForm=Inf	19	ccomp	_	_
+21-22	negli	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	25	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+23	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	25	amod	_	_
+24	due	due	NUM	N	NumType=Card	25	nummod	_	_
+25	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+26	e	e	CCONJ	CC	_	30	cc	_	_
+27	con	con	ADP	E	_	30	case	_	_
+28	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	30	det:predet	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+33	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	morte	morte	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Ucraina, il giornalista russo dato per morto è vivo e appare in conferenza stampa.
+1	Ucraina	Ucraina	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giornalista	giornalista	NOUN	S	Number=Sing	10	nsubj	_	_
+5	russo	russo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	morto	morto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Mosca, Arkady è vivo:
+1	Mosca	Mosca	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Arkady	Arkady	PROPN	SP	_	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 8
+# text = urla e lacrime nella redazione del giornalista russo scomparso.
+1	urla	urlare	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	lacrime	lacrimere	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	redazione	redazione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giornalista	giornalista	NOUN	S	Number=Sing	6	nmod	_	_
+10	russo	russo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	scomparso	scomparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = L'omicidio di Babchenko sarebbe stato commissionato al prezzo di 40mila dollari, ha detto Vassilij Gritsak, capo dei Servizi segreti ucraini (Sbu) che sarebbero venuti a conoscenza del piano due mesi fa.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Babchenko	Babchenko	PROPN	SP	_	2	nmod	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	commissionato	commissionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	40mila	40mila	NUM	N	NumType=Card	13	nummod	_	_
+13	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
+17	Vassilij	Vassilij	PROPN	SP	_	16	nsubj	_	_
+18	Gritsak	Gritsak	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	capo	capo	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+25	ucraini	ucraino	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+26	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	Sbu	Sbu	PROPN	SP	_	20	appos	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	27	punct	_	_
+29	che	che	SCONJ	CS	_	31	mark	_	_
+30	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	ccomp	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	piano	piano	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+37	due	due	NUM	N	NumType=Card	38	nummod	_	_
+38	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	_
+39	fa	fa	ADV	B	_	38	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = L'uomo incaricato di organizzare l'omicidio era di nazionalità ucraina e sarebbe stato arrestato in mattinata.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	incaricato	incaricare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	organizzare	organizzare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	nazionalità	nazionalità	NOUN	S	Gender=Fem	0	root	_	_
+11	ucraina	ucraino	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	mattinata	mattinata	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Babchenko, invece, sarebbe stato coinvolto nell'operazione speciale un mese fa.
+1	Babchenko	Babchenko	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	speciale	speciale	ADJ	A	Number=Sing	10	amod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mese	mese	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+14	fa	fa	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Sui media grande sollievo, ma anche molta indignazione.
+1-2	Sui	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	media	media	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+5	sollievo	sollievo	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	indignazione	indignazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = "Rsf esprime la sua più viva indignazione nello scoprire della manipolazione compiuta dai servizi segreti ucraini per la loro guerra dell'informazione", ha commentato Christophe Deloire, segretario di Reporter senza frontiere.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Rsf	Rsf	PROPN	SP	_	3	nsubj	_	_
+3	esprime	esprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	indignazione	indignazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+9-10	nello	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	scoprire	scoprire	VERB	V	VerbForm=Inf	3	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	manipolazione	manipolazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	compiuta	compiere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	dai	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	15	obl:agent	_	_
+19	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+20	ucraini	ucraino	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	loro	loro	DET	AP	Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	3	punct	_	_
+30	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	commentato	commentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+32	Christophe	Christophe	PROPN	SP	_	31	nsubj	_	_
+33	Deloire	Deloire	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	32	punct	_	_
+35	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	32	appos	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Reporter	reporter	PROPN	SP	_	35	nmod	_	_
+38	senza	senza	ADP	E	_	39	case	_	_
+39	frontiere	frontiera	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = "È sempre profondamente pericoloso che degli Stati giochino con i fatti e per di più sulle spalle dei giornalisti".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	sempre	sempre	ADV	B	_	5	advmod	_	_
+4	profondamente	profondamente	ADV	B	_	5	advmod	_	_
+5	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Stati	Stati	PROPN	SP	_	10	nsubj	_	_
+10	giochino	giocare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	e	e	CCONJ	CC	_	20	cc	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	più	più	ADV	B	_	20	advmod	_	_
+18-19	sulle	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = RSF expresses its deepest indignation after discovering the manipulation of the Ukrainian secret services, this new step of a war of information.
+1	RSF	RSF	X	SW	Foreign=Yes	0	root	_	_
+2	expresses	expresses	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	its	its	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	deepest	deepest	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	indignation	indignation	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	after	aftere	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	discovering	discovering	X	SW	Foreign=Yes	1	flat:foreign	_	_
+8	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	manipulation	manipulation	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	of	of	ADP	E	_	12	case	_	_
+11	the	the	DET	RD	Definite=Def|PronType=Art	12	det	_	_
+12	Ukrainian	Ukrainian	PROPN	SP	_	1	nmod	_	_
+13	secret	secret	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	services	services	X	SW	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	this	this	X	SW	Foreign=Yes	12	appos	_	_
+17	new	new	X	SW	Foreign=Yes	16	flat:foreign	_	_
+18	step	step	X	SW	Foreign=Yes	16	flat:foreign	_	_
+19	of	of	X	SW	Foreign=Yes	16	flat:foreign	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	war	war	VERB	V	VerbForm=Inf	16	acl	_	_
+22	of	of	ADP	E	_	23	case	_	_
+23	information	information	NOUN	S	_	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = It is always very dangerous for a government to play with the facts, especially using journalists for their fake stories.
+1	It	It	X	SW	Foreign=Yes	0	root	_	_
+2	is	is	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	always	always	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	very	very	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	dangerous	dangerous	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	for	for	ADP	E	_	7	case	_	_
+7	a	a	X	X	_	8	nmod	_	_
+8	government	government	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	play	play	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	with	with	X	SW	Foreign=Yes	1	flat:foreign	_	_
+12	the	the	X	SW	Foreign=Yes	1	flat:foreign	_	_
+13	facts	facts	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	especially	especially	X	SW	Foreign=Yes	1	flat:foreign	_	_
+16	using	using	X	SW	Foreign=Yes	15	flat:foreign	_	_
+17	journalists	journalists	X	SW	Foreign=Yes	15	flat:foreign	_	_
+18	for	for	ADP	E	_	19	case	_	_
+19	their	their	X	SW	Foreign=Yes	1	flat:foreign	_	_
+20	fake	fake	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	stories	stories	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = https://t.co/XwwbepYsjc — Christophe Deloire (@chrisdeloire) May 30, 2018 La portavoce del ministero degli Esteri russo Maria Zakharova ha scritto su Facebook:
+1	https://t.co/XwwbepYsjc	https://t.co/XwwbepYsjc	ADV	B	_	6	advmod	_	_
+2	—	—	PUNCT	FF	_	1	punct	_	_
+3	Christophe	Christophe	PROPN	SP	_	6	nsubj	_	_
+4	Deloire	Deloire	PROPN	SP	_	3	flat:name	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	@chrisdeloire	@chrisdeloire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	May	May	PROPN	SP	_	24	obl	_	_
+9	30	30	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	2018	2018	NUM	N	NumType=Card	24	nummod	_	_
+12	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	portavoce	portavoce	NOUN	S	_	24	nsubj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Esteri	estero	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	russo	russo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+21	Maria	Maria	PROPN	SP	_	16	nmod	_	_
+22	Zakharova	Zakharova	PROPN	SP	_	21	flat:name	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	su	su	ADP	E	_	26	case	_	_
+26	Facebook	Facebook	PROPN	SP	_	24	obl	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	24	punct	_	_
+
+# sent_id = 18
+# text = "Il fatto che Babchenko sia vivo è una grande notizia, è un peccato che altri casi non fossero una messa in scena.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	Babchenko	Babchenko	PROPN	SP	_	7	nsubj	_	_
+6	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	3	acl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	grande	grande	ADJ	A	Number=Sing	11	amod	_	_
+11	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+17	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	amod	_	_
+18	casi	caso	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	messa	messa	NOUN	S	Gender=Fem|Number=Sing	15	acl:relcl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	scena	scena	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 19
+# text = È ovvio che faceva parte del piano usare la storia per fini di propaganda".
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ovvio	ovvio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	piano	piano	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	usare	usare	VERB	V	VerbForm=Inf	4	csubj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	storia	storia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	fini	fine	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = In mattinata il premier ucraino Volodymyr Groysman aveva accusato Mosca dell'omicidio scrivendo sul proprio profilo Facebook:
+1	In	in	ADP	E	_	2	case	_	_
+2	mattinata	mattinata	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	premier	premier	NOUN	S	_	9	nsubj	_	_
+5	ucraino	ucraino	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	Volodymyr	Volodymyr	PROPN	SP	_	4	nmod	_	_
+7	Groysman	Groysman	PROPN	SP	_	6	flat:name	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	Mosca	Mosca	PROPN	SP	_	9	obj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	scrivendo	scrivere	VERB	V	VerbForm=Ger	9	advcl	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	Facebook	Facebook	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 21
+# text = "Sono sicuro che la macchina del totalitarismo russo non gli ha perdonato la sua onestà e le sue posizioni di principio".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	14	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	totalitarismo	totalitarismo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	russo	russo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	perdonato	perdonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	onestà	onestà	NOUN	S	Gender=Fem	14	obj	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	principio	principio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Babchenko a sorpresa in tv mentre in Russia e in Ucraina lo piangono per morto Il giornalista veterano Babchenko ha combattuto entrambe le guerre cecene negli anni Novanta e all'inizio degli anni Duemila, "un'esperienza terribile" che ha raccontato nel libro "La guerra di un soldato in Cecenia" (edito in Italia da Mondadori).
+1	Babchenko	Babchenko	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	tv	tv	NOUN	S	Gender=Fem	1	nmod	_	_
+6	mentre	mentre	CCONJ	CC	_	13	cc	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Russia	Russia	PROPN	SP	_	13	obl	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Ucraina	Ucraina	PROPN	SP	_	13	obl	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	piangono	piangere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	morto	morire	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	giornalista	giornalista	NOUN	S	Number=Sing	18	nsubj	_	_
+18	veterano	veterere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+19	Babchenko	Babchenko	PROPN	SP	_	18	xcomp	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	combattuto	combattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22	entrambe	entrambi	DET	T	Gender=Fem|Number=Plur|PronType=Tot	24	det:predet	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	guerre	guerra	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+25	cecene	cecene	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26-27	negli	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	anni	anno	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+29	Novanta	novanta	PROPN	SP	_	28	nmod	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31-32	all'	_	_	_	_	_	_	_	SpaceAfter=No
+31	a	a	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+34-35	degli	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	anni	anno	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+37	Duemila	duemila	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	21	punct	_	_
+39	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+40	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	21	appos	_	_
+42	terribile	terribile	ADJ	A	Number=Sing	41	amod	_	SpaceAfter=No
+43	"	"	PUNCT	FB	_	41	punct	_	_
+44	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+45	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+46	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	acl:relcl	_	_
+47-48	nel	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	libro	libro	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+50	"	"	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+51	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	soldato	soldato	NOUN	S	Gender=Masc|Number=Sing	52	nmod	_	_
+56	in	in	ADP	E	_	57	case	_	_
+57	Cecenia	Cecenia	PROPN	SP	_	55	nmod	_	SpaceAfter=No
+58	"	"	PUNCT	FB	_	52	punct	_	_
+59	(	(	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+60	edito	edire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	acl	_	_
+61	in	in	ADP	E	_	62	case	_	_
+62	Italia	Italia	PROPN	SP	_	60	obl	_	_
+63	da	da	ADP	E	_	64	case	_	_
+64	Mondadori	Mondadori	PROPN	SP	_	62	nmod	_	SpaceAfter=No
+65	)	)	PUNCT	FB	_	60	punct	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 23
+# text = Imbracciata la penna al posto del fucile, è stato uno dei più noti corrispondenti di guerra per diverse testate come "Moskovskij Komsomolets" e "Novaja Gazeta".
+1	Imbracciata	Imbracciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	penna	penna	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fucile	fucile	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+13	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	18	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	noti	noto	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	corrispondenti	corrispondente	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	diverse	diverso	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	18	nmod	_	_
+23	testate	testata	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+24	come	come	ADP	E	_	26	case	_	_
+25	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	Moskovskij	Moskovskij	PROPN	SP	_	23	obl	_	_
+27	Komsomolets	Komsomolets	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	26	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	Novaja	Novaja	PROPN	SP	_	26	conj	_	_
+32	Gazeta	Gazeta	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 24
+# text = Negli ultimi anni le sue critiche contro il Cremlino si sono fatte sempre più feroci, in particolare dopo l'annessione della Crimea e gli scontri in Est Ucraina nel 2014 e l'intervento in Siria nel 2015, e i suoi post sui social network avevano spesso sollevato scandalo.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+8	contro	contro	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Cremlino	Cremlino	PROPN	SP	_	7	nmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	feroci	feroco	ADJ	A	Number=Plur	13	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+20	dopo	dopo	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	annessione	annessione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Crimea	Crimea	PROPN	SP	_	22	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	scontri	scontro	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	Est	Est	PROPN	SP	_	28	nmod	_	_
+31	Ucraina	Ucraina	PROPN	SP	_	28	nmod	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	2014	2014	NUM	N	NumType=Card	28	nmod	_	_
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	Siria	Siria	PROPN	SP	_	37	nmod	_	_
+40-41	nel	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	2015	2015	NUM	N	NumType=Card	37	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	47	punct	_	_
+44	e	e	CCONJ	CC	_	47	cc	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+46	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	47	det:poss	_	_
+47	post	post	NOUN	S	_	13	conj	_	_
+48-49	sui	_	_	_	_	_	_	_	_
+48	su	su	ADP	E	_	51	case	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+50	social	social	ADJ	A	Number=Sing	51	amod	_	_
+51	network	network	NOUN	S	Gender=Masc	47	nmod	_	_
+52	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	54	aux	_	_
+53	spesso	spesso	ADV	B	_	54	advmod	_	_
+54	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+55	scandalo	scandalo	NOUN	S	Gender=Masc|Number=Sing	54	obj	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 25
+# text = Dopo lo schianto nel Mar Nero di un aereo militare russo diretto in Siria con a bordo il Coro dell'Armata rossa, il 25 dicembre 2016, aveva scritto su Facebook di provare "indifferenza" per le morti dei passeggeri.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	schianto	schianto	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Mar	Mar	PROPN	SP	_	3	nmod	_	_
+7	Nero	Nero	PROPN	SP	_	6	flat:name	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	militare	militare	ADJ	A	Number=Sing	10	amod	_	_
+12	russo	russo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+13	diretto	dirigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Siria	Siria	PROPN	SP	_	13	obl	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Coro	coro	PROPN	SP	_	13	obj	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	Armata	armata	PROPN	SP	_	20	nmod	_	_
+24	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	20	punct	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	25	25	NUM	N	NumType=Card	20	nmod	_	_
+28	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	27	flat	_	_
+29	2016	2016	NUM	N	NumType=Card	27	flat	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	3	punct	_	_
+31	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+33	su	su	ADP	E	_	34	case	_	_
+34	Facebook	Facebook	PROPN	SP	_	32	obl	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	provare	provare	VERB	V	VerbForm=Inf	32	xcomp	_	_
+37	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	indifferenza	indifferenza	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	38	punct	_	_
+40	per	per	ADP	E	_	42	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	morti	morte	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+43-44	dei	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	passeggeri	passeggero	NOUN	S	Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 26
+# text = Un post che gli aveva attirato numerose minacce di morte.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	post	post	NOUN	S	_	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	attirato	attirato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	numerose	numeroso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	morte	morte	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = All'inizio del 2017 aveva perciò deciso di lasciare la Russia.
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2017	2017	NUM	N	NumType=Card	3	nmod	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	perciò	perciò	ADV	B	_	9	advmod	_	_
+9	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	lasciare	lasciare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Russia	Russia	PROPN	SP	_	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 28
+# text = Dopo essersi rifugiato prima in Repubblica ceca e poi in Israele, in autunno si è trasferito a Kiev, in Ucraina, dove presenta un programma sulla tv "Atr" dei Tatari di Crimea, oramai vietata nella penisola annessa dalla Russia.
+1	Dopo	dopo	SCONJ	CS	_	4	mark	_	_
+2-3	essersi	_	_	_	_	_	_	_	_
+2	esser	essere	AUX	VA	VerbForm=Inf	4	aux	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	rifugiato	rifugiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	prima	prima	ADV	B	_	4	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Repubblica	repubblica	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	ceca	cecare	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	18	cc	_	_
+10	poi	poi	ADV	B	_	12	advmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Israele	Israele	PROPN	SP	_	18	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	autunno	autunno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	trasferito	trasferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Kiev	Kiev	PROPN	SP	_	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Ucraina	Ucraina	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	dove	dove	ADV	B	_	26	advmod	_	_
+26	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	programma	programma	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29-30	sulla	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	tv	televisione	NOUN	S	Gender=Fem	28	nmod	_	_
+32	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	Atr	Atr	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	33	punct	_	_
+35-36	dei	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	Tatari	Tatario	PROPN	SP	_	33	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Crimea	Crimea	PROPN	SP	_	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	26	punct	_	_
+41	oramai	oramai	ADV	B	_	42	advmod	_	_
+42	vietata	vietare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+43-44	nella	_	_	_	_	_	_	_	_
+43	in	in	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	penisola	penisola	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+46	annessa	annettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	45	acl	_	_
+47-48	dalla	_	_	_	_	_	_	_	_
+47	da	da	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Russia	Russia	PROPN	SP	_	46	obl:agent	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

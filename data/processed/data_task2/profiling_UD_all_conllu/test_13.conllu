@@ -1,0 +1,340 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’ex Presidente del Consiglio, durante un evento a Roma, ha consumato tranquillamente un panino imbottito con la celebre salumeria italiana, scatenando subito l’allarme dei più prevenuti.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	Presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Consiglio	consiglio	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	durante	durante	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	evento	evento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Roma	Roma	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	consumato	consumare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	tranquillamente	tranquillo	ADV	B	_	15	advmod	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	panino	panino	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	imbottito	imbottire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	celebre	celebre	ADJ	A	Number=Sing	23	amod	_	_
+23	salumeria	salumeria	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	15	punct	_	_
+26	scatenando	scatenare	VERB	V	VerbForm=Ger	15	advcl	_	_
+27	subito	subito	ADV	B	_	26	advmod	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	più	più	ADV	B	_	33	advmod	_	_
+33	prevenuti	prevenuto	ADJ	A	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Pare che, dopo i problemi cardiaci che lo hanno afflitto, la mortadella fosse sconsigliata.
+1	Pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	16	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	16	punct	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+7	cardiaci	cardiaco	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	afflitto	affliggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mortadella	mortadella	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+15	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:pass	_	_
+16	sconsigliata	sconsigliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma l’uomo è tornato a rassicurare tutti, con un sorriso e una battuta che è un marchio di fabbrica:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	rassicurare	rassicurare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	battuta	battuta	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	marchio	marchio	NOUN	S	Gender=Masc|Number=Sing	15	acl:relcl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	fabbrica	fabbrica	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = “Non c’è pericolo”.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = E, diciamocelo, è proprio questo il punto.
+1	E	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	diciamocelo	diciamocelo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	proprio	proprio	ADV	B	_	7	advmod	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = L’Italia ha bisogno di un leader che sappia sdrammatizzare, che non si lasci intimorire da menate salutistiche e che sappia godersi i piaceri della vita, anche quelli che, per qualcuno, sarebbero proibiti.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	leader	leader	NOUN	S	_	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	sappia	sapere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	sdrammatizzare	sdrammatizzare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	lasci	lascere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+16	intimorire	intimorire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	menate	menata	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+19	salutistiche	salutistico	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	sappia	sapere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23-24	godersi	_	_	_	_	_	_	_	_
+23	goder	godere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	piaceri	piacere	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	vita	vita	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	anche	anche	ADV	B	_	32	advmod	_	_
+32	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	obl	_	_
+33	che	che	PRON	PR	PronType=Rel	39	nsubj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	per	per	ADP	E	_	36	case	_	_
+36	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	39	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	proibiti	proibire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl:relcl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = C’è da chiedersi, però, cosa ci sia dietro questa insistenza a voler monitorare ogni boccone che finisce nella bocca di Berlusconi.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4-5	chiedersi	_	_	_	_	_	_	_	SpaceAfter=No
+4	chieder	chiedere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	però	però	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	11	nsubj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	dietro	dietro	ADV	B	_	11	advmod	_	_
+13	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	insistenza	insistenza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15	a	a	ADP	E	_	17	mark	_	_
+16	voler	volere	AUX	VM	VerbForm=Inf	17	aux	_	_
+17	monitorare	monitorare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+18	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	boccone	boccone	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Berlusconi	Berlusconi	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Si tratta davvero di sincera preoccupazione per la sua salute, o di un subdolo tentativo di delegittimazione?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	davvero	davvero	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	sincera	sincero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	salute	salute	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	o	o	CCONJ	CC	_	15	cc	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	subdolo	subdolo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+16	tentativo	tentativo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	delegittimazione	delegittimazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Di minare la sua immagine, di dipingerlo come un uomo fragile e incapace di guidare?
+1	Di	di	ADP	E	_	2	mark	_	_
+2	minare	minare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	dipingerlo	_	_	_	_	_	_	_	_
+8	dipinger	dipingere	VERB	V	VerbForm=Inf	2	conj	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	fragile	fragile	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	incapace	incapace	ADJ	A	Number=Sing	13	conj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	guidare	guidare	VERB	V	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = È evidente che l’attenzione mediatica nei suoi confronti è sempre altissima, a volte forse troppo.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	evidente	evidente	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	13	mark	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+6	mediatica	mediatico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	sempre	sempre	ADV	B	_	13	advmod	_	_
+13	altissima	alto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	volte	volte	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+17	forse	forse	ADV	B	_	18	advmod	_	_
+18	troppo	troppo	ADV	B	_	13	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = E che c’è chi non desidera vederlo di nuovo in prima linea, con la sua energia e la sua visione.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	chi	chi	PRON	PR	PronType=Rel	4	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	desidera	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8-9	vederlo	_	_	_	_	_	_	_	_
+8	veder	vedere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	obl	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	14	amod	_	_
+14	linea	linea	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	energia	energia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	visione	visione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Ma l’uomo, con la sua romanza e la sua vitalità, continua a far parlare di sé.
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	romanza	romanza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	vitalità	vitalità	NOUN	S	Gender=Fem	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	far	fare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	parlare	parlare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 13
+# text = E, sia chiaro, a dispetto dei benpensanti, un panino con la mortadella ogni tanto non ha mai ucciso nessuno.
+1	E	e	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	dispetto	dispetto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	benpensanti	benpensante	NOUN	S	Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	panino	panino	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mortadella	mortadella	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	tanto	tanto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	mai	mai	ADV	B	_	22	advmod	_	_
+22	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+23	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Anzi, forse, può
+1	Anzi	anzi	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	forse	forse	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

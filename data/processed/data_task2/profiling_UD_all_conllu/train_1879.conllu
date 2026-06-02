@@ -1,0 +1,334 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un quarto d'ora di gran calcio, gioco arioso, spumeggiante, fatto di scambi rapidi e inserimenti puntuali sulle corsie esterne da dove spedire a centro area inviti per chi precipitava da quelle parti.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gran	gran	ADJ	A	_	7	amod	_	_
+7	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	arioso	arioso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	spumeggiante	spumeggiante	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	scambi	scambio	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+17	rapidi	rapido	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	inserimenti	inserimento	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+20	puntuali	puntuale	ADJ	A	Number=Plur	19	amod	_	_
+21-22	sulle	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	corsie	corsia	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+24	esterne	esterno	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	dove	dove	ADV	B	_	27	advmod	_	_
+27	spedire	spedire	VERB	V	VerbForm=Inf	23	acl:relcl	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	centro	centro	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+30	area	area	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+31	inviti	invito	NOUN	S	Gender=Masc|Number=Plur	30	compound	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	chi	chi	PRON	PR	Number=Sing|PronType=Rel	27	obl	_	_
+34	precipitava	precipitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	acl:relcl	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	37	det	_	_
+37	parti	parte	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = L'uno-due firmato da Conti (in sospetto fuorigioco sul passaggio filtrante di Gomez) e Freuler, che irrompe sul cross di Petagna, manda il pubblico in delirio.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uno-due	uno-due	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+3	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Conti	Conti	PROPN	SP	_	3	obl:agent	_	_
+6	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	in	in	ADP	E	_	8	case	_	_
+8	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	fuorigioco	fuorigioco	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	filtrante	filtrante	ADJ	A	Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Gomez	Gomez	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	8	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Freuler	Freuler	PROPN	SP	_	2	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	case	_	_
+21	irrompe	irrompo	X	X	_	18	acl:relcl	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cross	cross	NOUN	S	Gender=Masc	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Petagna	Petagna	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	manda	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	delirio	delirio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 3
+# text = Tutto facile, già finito?
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	facile	facile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Macchè.
+1	Macchè	Macché	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Di Francesco, di gran lunga il migliore della truppa di Donadoni, rompe l'assedio e tira da lontano.
+1	Di	di	ADP	E	_	2	case	_	_
+2	Francesco	Francesco	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gran	gran	ADJ	A	Number=Sing	6	amod	_	_
+6	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	truppa	truppa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Donadoni	Donadoni	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	rompe	rompo	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	assedio	assedio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	lontano	lontano	ADV	B	_	19	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sembrava un pallone innocuo, ma non per Destro che con una zampata gela il portiere di casa.
+1	Sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pallone	pallone	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	innocuo	innocuo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	Destro	destro	PROPN	SP	_	1	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	14	cc	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	zampata	zampata	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	gela	gelare	NOUN	S	Gender=Fem|Number=Sing	9	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	portiere	portiere	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	casa	casa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = A questo punto la gara è cambiata:
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gara	gara	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	cambiata	cambiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 8
+# text = un calcione di Dzemaili ha messo ko Kessie, costretto a cedere il posto a Cristante e il Bologna ha assunto l'iniziativa mentre l'Atalanta, priva del talento ivoriano, non riusciva più a rimettersi in marcia.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	calcione	calcione	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Dzemaili	Dzemaile	PROPN	SP	_	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ko	ko	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	Kessie	Kessie	PROPN	SP	_	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	cedere	cedere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	posto	posto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Cristante	Cristante	PROPN	SP	_	12	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Bologna	Bologna	PROPN	SP	_	16	conj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	assunto	assumere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	mentre	mentre	SCONJ	CS	_	35	mark	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	Atalanta	Atalanta	PROPN	SP	_	35	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	priva	privo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	talento	talento	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	ivoriano	ivoriano	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	26	punct	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	riusciva	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	advcl	_	_
+36	più	più	ADV	B	_	35	advmod	_	_
+37	a	a	ADP	E	_	38	mark	_	_
+38-39	rimettersi	_	_	_	_	_	_	_	_
+38	rimetter	rimettere	VERB	V	VerbForm=Inf	35	xcomp	_	_
+39	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	38	expl	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	marcia	marcia	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Fatale che alla ripresa il Bologna arrivasse al pareggio e a firmarlo è stato il solito Di Francesco con un sinistro rasoterra nell'angolo alla destra di Berisha.
+1	Fatale	fatale	ADJ	A	Number=Sing	18	nsubj	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Bologna	Bologna	PROPN	SP	_	5	nmod	_	_
+8	arrivasse	arrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pareggio	pareggio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	firmarlo	firmarlo	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	cop	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	solito	solito	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+19	Di	Di	PROPN	SP	_	24	nsubj	_	_
+20	Francesco	Francesco	PROPN	SP	_	19	flat:name	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sinistro	sinistro	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+24	rasoterra	rasoterra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25-26	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	in	in	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	destra	destra	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Berisha	Berisha	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 10
+# text = La gara ha riservato però un altro capitolo, tecnicamente meno spettacolare anche se sicuramente avvincente.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gara	gara	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	riservato	riservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	però	però	ADV	B	_	4	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	capitolo	capitolo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	tecnicamente	tecnicamente	ADV	B	_	12	advmod	_	_
+11	meno	meno	ADV	B	_	12	advmod	_	_
+12	spettacolare	spettacolare	ADJ	A	Number=Sing	8	amod	_	_
+13	anche	anche	ADV	B	_	16	mark	_	_
+14	se	se	SCONJ	CS	_	13	fixed	_	_
+15	sicuramente	sicuramente	ADV	B	_	16	advmod	_	_
+16	avvincente	avvincente	ADJ	A	Number=Sing	12	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = E l'Atalanta ha agguantato il gol della vittoria con Caldara (al suo settimo centro stagionale) pronto a deviare in porta il pallone in arrivo dalla bandierina.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Atalanta	Atalanta	PROPN	SP	_	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	agguantato	agguantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gol	gol	NOUN	S	Gender=Masc	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	Caldara	Caldara	PROPN	SP	_	10	nmod	_	_
+13	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	18	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+17	settimo	settimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	_
+18	centro	centro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+19	stagionale	stagionale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	18	punct	_	_
+21	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	deviare	deviare	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	porta	porta	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	pallone	pallone	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30-31	dalla	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	bandierina	bandierina	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = La rabbiosa reazione del Bologna stavolta non ha avuto il successo sperato e Gasperini ha potuto esultare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	rabbiosa	rabbioso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bologna	Bologna	PROPN	SP	_	3	nmod	_	_
+7	stavolta	stavolta	ADV	B	_	10	advmod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	successo	successo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	sperato	sperato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	Gasperini	Gasperini	PROPN	SP	_	18	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux	_	_
+18	esultare	esultare	VERB	V	VerbForm=Inf	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = E con lui il popolo orobico.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	orobico	orobico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

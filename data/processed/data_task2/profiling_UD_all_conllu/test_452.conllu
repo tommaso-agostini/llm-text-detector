@@ -1,0 +1,327 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Conosco venezuelani di origine italiana che, dati alla mano, mi hanno spiegato bene la situazione.
+1	Conosco	conosco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	venezuelani	venezuelano	NOUN	S	Gender=Masc|Number=Plur	1	compound	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	origine	origine	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	15	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+16	bene	bene	ADV	B	_	15	advmod	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Cose allucinanti.
+1	Cose	cosa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	allucinanti	allucinante	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = E intanto mancano anche le culle per i neonati, oltre alle pappe.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	intanto	intanto	ADV	B	_	3	advmod	_	_
+3	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6-7	culle	_	_	_	_	_	_	_	_
+6	cu	cu	NOUN	S	Gender=Masc	3	nsubj	_	_
+7	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	neonati	neonato	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	oltre	oltre	ADV	B	_	15	case	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	pappe	pappa	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Piero Casati Caro Piero, il comunismo purtroppo non ha ancora finito di fare danni e seminare vittime al suo passaggio.
+1	Piero	Piero	PROPN	SP	_	12	nsubj	_	_
+2	Casati	Casati	PROPN	SP	_	1	flat:name	_	_
+3	Caro	Caro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	Piero	Piero	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	comunismo	comunismo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+8	purtroppo	purtroppo	ADV	B	_	7	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	ancora	ancora	ADV	B	_	12	advmod	_	_
+12	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	danni	danno	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	seminare	seminare	VERB	V	VerbForm=Inf	14	conj	_	_
+18	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Maduro nasce sindacalista e politicamente cresce alla corte di Chávez, il presidente dittatore diventato una icona per la sinistra mondiale.
+1	Maduro	Maduro	PROPN	SP	_	2	nsubj	_	_
+2	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sindacalista	sindacalista	NOUN	S	Number=Sing	2	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	politicamente	politicamente	ADV	B	_	6	advmod	_	_
+6	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corte	corte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Chávez	Chávez	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+15	dittatore	dittatore	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	icona	icona	NOUN	S	Gender=Fem|Number=Sing	16	xcomp	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+22	mondiale	mondiale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La loro ricetta economica, applicata per sedici anni è stato un misto di marxismo, populismo ed ecologismo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	ricetta	ricetta	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+4	economica	economico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	applicata	applicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	sedici	sedici	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	misto	misto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	marxismo	marxismo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	populismo	populismo	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+18	ed	e	CCONJ	CC	_	19	cc	_	_
+19	ecologismo	ecologismo	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = Un «modello economico alternativo», lo avevano battezzato incantando i terzomondisti salottieri europei, una specie di quella «decrescita felice» teorizzata da Beppe Grillo al suo apparire sulla scena politica italiana.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	modello	modello	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	economico	economico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	alternativo	alternativo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+9	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	battezzato	battezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	incantando	incantare	VERB	V	VerbForm=Ger	10	advcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	terzomondisti	terzomondista	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	salottieri	salottiere	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	specie	specie	NOUN	S	Gender=Fem	13	appos	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	18	nmod	_	_
+21	«	«	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	decrescita	decrescita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	felice	felice	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	22	punct	_	_
+25	teorizzata	teorizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	Beppe	Beppe	PROPN	SP	_	25	obl:agent	_	_
+28	Grillo	Grillo	PROPN	SP	_	27	flat:name	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	apparire	apparire	VERB	V	VerbForm=Inf	25	obl	_	_
+33-34	sulla	_	_	_	_	_	_	_	_
+33	su	su	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	scena	scena	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+36	politica	politico	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+37	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Il risultato è un Paese alla fame, come sempre accade quando per aiutare i poveri dai la caccia ai ricchi, espropri i beni, statalizzi le imprese.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fame	fame	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	come	come	ADP	E	_	12	mark	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13	quando	quando	SCONJ	CS	_	15	mark	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	aiutare	aiutare	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18-19	dai	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+22-23	ai	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	espropri	esproprio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	nmod	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	beni	bene	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	statalizzi	statalizzo	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Vede, caro Piero, giustamente per noi occidentali, avendolo subito, l'unico male assoluto è stato il nazismo e scordiamo che invece, per numero di vittime e durata, la più grande tragedia del Novecento è stato il comunismo che, come in Venezuela, continua la sua opera devastatrice.
+1	Vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	caro	caro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	Piero	Piero	PROPN	SP	_	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	giustamente	giusto	ADV	B	_	8	advmod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	obl	_	_
+9	occidentali	occidentale	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	avendolo	avendolare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+12	subito	subito	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	unico	unico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	male	male	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+17	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	cop	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	nazismo	nazismo	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	scordiamo	scordare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+24	che	che	SCONJ	CS	_	44	mark	_	_
+25	invece	invece	ADV	B	_	44	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	numero	numero	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	durata	durata	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	28	punct	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+35	più	più	ADV	B	_	36	advmod	_	_
+36	grande	grande	ADJ	A	Number=Sing	37	amod	_	_
+37	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	44	nsubj	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Novecento	novecento	NUM	N	NumType=Card	37	nmod	_	_
+41	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+42	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	cop	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	comunismo	comunismo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+45	che	che	PRON	PR	PronType=Rel	51	nsubj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	45	punct	_	_
+47	come	come	SCONJ	CS	_	51	mark	_	_
+48	in	in	ADP	E	_	49	case	_	_
+49	Venezuela	Venezuela	PROPN	SP	_	51	obl	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+53	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	54	det:poss	_	_
+54	opera	opera	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	_
+55	devastatrice	devastatore	ADJ	A	Gender=Fem|Number=Sing	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Non che il sistema capitalistico ci stia facendo vivere una grande stagione, ma stiamo attenti a non gettare il bambino insieme all'acqua sporca.
+1	Non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	capitalistico	capitalistico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	_
+7	stia	stare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+9	vivere	vivere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	stiamo	stare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	15	xcomp	_	_
+17	a	a	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	gettare	gettare	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	insieme	insieme	ADV	B	_	25	case	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	22	fixed	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+26	sporca	sporco	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Perché anche se oggi non riusciamo neppure a immaginarlo, al peggio non c'è mai fine.
+1	Perché	perché	ADV	B	_	17	advmod	_	_
+2	anche	anche	ADV	B	_	6	advmod	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	oggi	oggi	ADV	B	_	6	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	riusciamo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+7	neppure	neppure	ADV	BN	PronType=Neg	6	advmod	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	immaginarlo	_	_	_	_	_	_	_	SpaceAfter=No
+9	immaginar	immaginare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	peggio	peggio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	SpaceAfter=No
+17	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	mai	mai	ADV	B	_	17	advmod	_	_
+19	fine	fine	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

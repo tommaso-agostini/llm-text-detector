@@ -1,0 +1,325 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = * *La questione degli scioperi del trasporto pubblico, in particolare delle ferrovie, è un problema che coinvolge l'intera nazione e che sta creando non pochi disagi alla popolazione.
+1	*	*	PUNCT	FF	_	20	punct	_	_
+2	*La	*La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	scioperi	sciopero	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	ferrovie	ferrovia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	3	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	coinvolge	coinvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+24	intera	intero	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	creando	creare	VERB	V	VerbForm=Ger	22	conj	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	32	det	_	_
+32	disagi	disagio	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+33-34	alla	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = L'ultima sciara di questo problema è una lettera scritta da un ragazzo, che ha deciso di esprimere la sua frustrazione e quella della sua famiglia in un modo così diretto e toccante.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	sciara	sciara	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	esprimere	esprimere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	frustrazione	frustrazione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	22	conj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	modo	modo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+32	così	così	ADV	B	_	33	advmod	_	_
+33	diretto	diretto	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	toccante	toccante	ADJ	A	Number=Sing	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = * *Il giovane, infatti, ha scritto una lettera alle ferrovie in cui espone il suo disappunto per i continui scioperi che costringono i suoi genitori a tornare a casa tardi.
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	*Il	*Il	PROPN	SP	_	8	nsubj	_	_
+3	giovane	giovane	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	infatti	infatti	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	ferrovie	ferrovia	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+16	espone	esporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	disappunto	disappunto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	continui	continuo	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+23	scioperi	sciopero	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	costringono	costringere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+29	a	a	ADP	E	_	30	mark	_	_
+30	tornare	tornare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	casa	casa	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+33	tardi	tardi	ADV	B	_	30	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = La sua preoccupazione non è solo quella di avere i genitori a casa meno tempo, ma anche quella per la loro sicurezza, vista l'ora tarda in cui spesso sono costretti a viaggiare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	meno	meno	ADP	E	_	15	case	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	ma	ma	CCONJ	CC	_	19	cc	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	conj	_	_
+20	per	per	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	7	punct	_	_
+25	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	ora	ora	NOUN	S	Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+28	tarda	tardo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	cui	cui	PRON	PR	PronType=Rel	33	obl	_	_
+31	spesso	spesso	ADV	B	_	33	advmod	_	_
+32	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+33	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35	viaggiare	viaggiare	VERB	V	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = * *La lettera, diventata virale sui social network, ha sollevato un'ondata di indignazione tra i lettori.
+1	*	*	PUNCT	FF	_	13	punct	_	_
+2	*La	*La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	virale	virale	ADJ	A	Number=Sing	5	xcomp	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	social	social	ADJ	A	Number=Sing	10	amod	_	_
+10	network	network	NOUN	S	Gender=Masc	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	indignazione	indignazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	tra	tra	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	lettori	lettore	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Molti si sono clustered in questa storia, riconoscendosi nella difficoltà di conciliare lavoro e famiglia, soprattutto quando ci si trova a dover fare i conti con gli spostamenti causati dagli scioperi.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	clustered	clustered	NOUN	S	Gender=Masc	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9-10	riconoscendosi	_	_	_	_	_	_	_	_
+9	riconoscendo	riconoscere	VERB	V	VerbForm=Ger	4	advcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	difficoltà	difficoltà	NOUN	S	Gender=Fem	9	obl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	conciliare	conciliare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	soprattutto	soprattutto	ADV	B	_	24	advmod	_	_
+21	quando	quando	SCONJ	CS	_	24	mark	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+25	a	a	ADP	E	_	27	mark	_	_
+26	dover	dovere	AUX	VM	VerbForm=Inf	27	aux	_	_
+27	fare	fare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	conti	conto	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	spostamenti	spostamente	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+33	causati	causare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl	_	_
+34-35	dagli	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	scioperi	sciopero	NOUN	S	Gender=Masc|Number=Plur	33	obl:agent	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = * *La questione Certification che si pone ora è: come risolvere questo problema?
+1	*	*	PUNCT	FF	_	12	punct	_	_
+2	*La	*La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	Certification	Certification	PROPN	SP	_	3	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	pone	porre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	ora	ora	ADV	B	_	7	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+11	come	come	SCONJ	CS	_	12	mark	_	_
+12	risolvere	risolvere	VERB	V	VerbForm=Inf	0	root	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	problema	problema	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = Gli scioperi, come sappiamo, sono un mezzo di protesta legittimo, ma non possono Continue essere la soluzione a tutti i problemi.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	scioperi	sciopero	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	legittimo	legittimo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	20	punct	_	_
+14	ma	ma	CCONJ	CC	_	20	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+16	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+17	Continue	continue	PROPN	SP	_	20	nsubj	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	20	cop	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	24	det:predet	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Serve un dialogo costante tra le parti in causa, per trovare una soluzione che non penalizzi i cittadini, soprattutto quelli più fragili.
+1	Serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	costante	costante	ADJ	A	Number=Sing	3	amod	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	parti	parte	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	causa	causa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	trovare	trovare	VERB	V	VerbForm=Inf	3	acl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	penalizzi	penalizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	3	punct	_	_
+21	soprattutto	soprattutto	ADV	B	_	22	advmod	_	_
+22	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	nmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	fragili	fragile	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = * *Il governo dovrebbe prendersi beho di questa situazione, trovando un equilibrio tra il diritto
+1	*	*	PUNCT	FF	_	5	punct	_	_
+2	*Il	*Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	prendersi	_	_	_	_	_	_	_	_
+5	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	beho	beho	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	trovando	trovare	VERB	V	VerbForm=Ger	5	advcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	tra	tra	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,759 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A Chicago, nei primi giorni di maggio del 1886, gli operai scioperano davanti all'ingresso della McCormick, una fabbrica di macchine agricole:
+1	A	a	ADP	E	_	2	case	_	_
+2	Chicago	Chicago	PROPN	SP	_	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	1886	1886	NUM	N	NumType=Card	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+16	scioperano	scioperere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	davanti	davanti	ADV	B	_	20	case	_	_
+18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	17	fixed	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	McCormick	McCormick	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	fabbrica	fabbrica	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+29	agricole	agricolo	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 2
+# text = la polizia spara sulla folla, due manifestanti perdono la vita.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	spara	sparare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	folla	folla	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	manifestanti	manifestante	NOUN	S	Number=Plur	10	nsubj	_	_
+10	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = La protesta e le condanne a morte.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	condanne	condanne	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	morte	morte	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = L'11 novembre del 1887, sempre a Chicago, si contano nuove vittime:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	11	11	NUM	N	NumType=Card	13	obl	_	_
+3	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	1887	1887	NUM	N	NumType=Card	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	sempre	sempre	ADV	B	_	10	advmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Chicago	Chicago	PROPN	SP	_	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+13	contano	contare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 5
+# text = quattro anarchici, quattro organizzatori sindacali e quattro operai vengono impiccati.
+1	quattro	quattro	NUM	N	NumType=Card	2	nummod	_	_
+2	anarchici	anarchico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quattro	quattro	NUM	N	NumType=Card	5	nummod	_	_
+5	organizzatori	organizzatore	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+6	sindacali	sindacale	ADJ	A	Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	quattro	quattro	NUM	N	NumType=Card	9	nummod	_	_
+9	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+10	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	impiccati	impiccare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = L'accusa?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Aver organizzato il 1 maggio dell'anno precedente lo sciopero e la manifestazione per le 8 ore di lavoro.
+1	Aver	avere	AUX	VA	VerbForm=Inf	2	aux	_	_
+2	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	1	1	NUM	N	NumType=Card	2	obl	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	precedente	precedente	ADJ	A	Number=Sing	8	amod	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sciopero	sciopero	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	per	per	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	8	8	NUM	N	NumType=Card	18	nummod	_	_
+18	ore	ora	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = "La ballata del lavoro", Sanguineti per il monumento al porto.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ballata	ballata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	Sanguineti	Sanguineto	PROPN	SP	_	3	appos	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	monumento	monumento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	porto	porto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Le celebrazioni in Europa.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	celebrazioni	celebrazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Europa	Europa	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = La data del primo maggio nel continente europeo fu scelta dai delegati socialisti della Seconda Internazionale riuniti a Parigi nel 1889.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	data	data	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	continente	continente	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	scelta	scegliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	delegati	delegato	NOUN	S	Gender=Masc|Number=Plur	12	obl:agent	_	_
+16	socialisti	socialista	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Seconda	seconda	PROPN	SP	_	15	nmod	_	_
+20	Internazionale	internazionale	PROPN	SP	_	19	flat:name	_	_
+21	riuniti	riunire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Parigi	Parigi	PROPN	SP	_	21	obl	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	1889	1889	NUM	N	NumType=Card	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = Fu ratificata in Italia due anni dopo.
+1	Fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	ratificata	ratificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Italia	Italia	PROPN	SP	_	2	obl	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	dopo	dopo	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Festa anche per la Chiesa.
+1	Festa	Festare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Con papa Pio XII anche la Chiesa ricorda il 1 maggio, dal 1955, con la festa di san Giuseppe artigiano e lavoratore.
+1	Con	con	ADP	E	_	2	case	_	_
+2	papa	papa	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+3	Pio	Pio	PROPN	SP	_	2	nmod	_	_
+4	XII	XII	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	1	1	NUM	N	NumType=Card	8	obl	_	_
+11	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	1955	1955	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	festa	festa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	san	san	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	Giuseppe	Giuseppe	PROPN	SP	_	21	nmod	_	_
+23	artigiano	artigiano	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	lavoratore	lavoratore	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = Un modo per far vivere la festa anche ai lavoratori cattolici.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	far	fare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	vivere	vivere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	festa	festa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+12	cattolici	cattolico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Festa dei Lavoratori 2015, il doodle di Google Testimonianze.
+1	Festa	festa	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	2015	2015	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	doodle	doodle	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Google	Google	PROPN	SP	_	8	nmod	_	_
+11	Testimonianze	testimonianze	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Il documentario "Grandiosa manifestazione per il primo maggio 1913 ad Andria (indetta dalle classi operaie)" è uno dei primi documenti filmati della festa in Italia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documentario	documentario	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	Grandiosa	Grandioso	ADJ	A	_	5	amod	_	_
+5	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	1913	1913	NUM	N	NumType=Card	5	nummod	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	Andria	Andria	PROPN	SP	_	5	nmod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	indetta	indettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15-16	dalle	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	classi	classe	NOUN	S	Gender=Fem|Number=Plur	14	obl:agent	_	_
+18	operaie	operaio	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	22	punct	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	26	amod	_	_
+26	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+27	filmati	filmato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	festa	festa	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	Italia	Italia	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 17
+# text = Fu prodotta da Cataldo Balducci e riprende l'evento in sette quadri:
+1	Fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Cataldo	Cataldo	PROPN	SP	_	2	obl:agent	_	_
+5	Balducci	Balducci	PROPN	SP	_	4	flat:name	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	riprende	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	evento	evento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	sette	sette	NUM	N	NumType=Card	12	nummod	_	_
+12	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 18
+# text = corteo, bandiere, strade affollate, uomini (tutti con il cappello) seguono la banda che suona.
+1	corteo	corteo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	strade	strada	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+6	affollate	affollato	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nmod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cappello	cappello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	5	punct	_	_
+15	seguono	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	banda	banda	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 19
+# text = Da Mussolini al bandito Giuliano.
+1	Da	da	ADP	E	_	2	case	_	_
+2	Mussolini	Mussolini	PROPN	SP	_	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bandito	bandito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Giuliano	Giuliano	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Con il fascismo la festa, a cominciare dal 1924, è anticipata al 21 aprile, in coincidenza con il Natale di Roma.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fascismo	fascismo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	festa	festa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	cominciare	cominciare	VERB	V	VerbForm=Inf	3	acl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	1924	1924	NUM	N	NumType=Card	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	anticipata	anticipato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	21	21	NUM	N	NumType=Card	14	obl	_	_
+18	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	coincidenza	coincidenza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Natale	Natale	PROPN	SP	_	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Roma	Roma	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 21
+# text = Dopo la fine del conflitto mondiale, nel 1945, è riportata al 1 maggio.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	mondiale	mondiale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	1945	1945	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	riportata	riportare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	1	1	NUM	N	NumType=Card	14	obl	_	_
+18	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 22
+# text = Nel 1947 la ricorrenza venne funestata a Portella della Ginestra (PA), quando la banda di Salvatore Giuliano spara su un corteo di circa duemila lavoratori in festa, uccidendone undici e ferendone una cinquantina.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1947	1947	NUM	N	NumType=Card	7	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ricorrenza	ricorrenza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	funestata	funestare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Portella	Portella	PROPN	SP	_	7	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Ginestra	Ginestra	PROPN	SP	_	9	nmod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	PA	PA	PROPN	SP	_	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	quando	quando	SCONJ	CS	_	23	mark	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	banda	banda	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Salvatore	Salvatore	PROPN	SP	_	19	nmod	_	_
+22	Giuliano	Giuliano	PROPN	SP	_	21	flat:name	_	_
+23	spara	sparare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	circa	circa	ADV	B	_	29	advmod	_	_
+29	duemila	duemila	NUM	N	NumType=Card	30	nummod	_	_
+30	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	festa	festa	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	23	punct	_	_
+34-35	uccidendone	_	_	_	_	_	_	_	_
+34	uccidendo	uccidere	VERB	V	VerbForm=Ger	23	advcl	_	_
+35	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	34	iobj	_	_
+36	undici	undici	NUM	N	NumType=Card	34	obj	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38-39	ferendone	_	_	_	_	_	_	_	_
+38	ferendo	ferire	VERB	V	VerbForm=Ger	34	conj	_	_
+39	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	38	iobj	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	cinquantina	cinquantina	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = Concertone, Raznovich:
+1	Concertone	concertone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Raznovich	Raznovich	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 24
+# text = "Torno al primo amore, la musica".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Torno	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	musica	musica	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = Il 1 maggio oggi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	1	1	NUM	N	NumType=Card	4	obl	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	oggi	oggi	ADV	B	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = Dal 1990 i sindacati confederali CGIL, CISL e UIL, in collaborazione con il comune di Roma, organizzano in piazza San Giovanni un grande concerto il primo maggio trasmesso in diretta televisiva dalla Rai.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1990	1990	NUM	N	NumType=Card	21	obl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+6	confederali	confederale	ADJ	A	Number=Plur	5	amod	_	_
+7	CGIL	CGIL	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	CISL	CISL	PROPN	SP	_	7	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	UIL	UIL	PROPN	SP	_	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	comune	comune	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Roma	Roma	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	organizzano	organizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+24	San	San	PROPN	SP	_	21	obl	_	_
+25	Giovanni	Giovanni	PROPN	SP	_	24	flat:name	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	grande	grande	ADJ	A	Number=Sing	28	amod	_	_
+28	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	31	amod	_	_
+31	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+32	trasmesso	trasmettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+35	televisiva	televisivo	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36-37	dalla	_	_	_	_	_	_	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Rai	Rai	PROPN	SP	_	32	obl:agent	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 27
+# text = "Il concertone" andrà in onda su Rai3 e sul canale 501 HD in diretta televisiva dalle 15.00 a mezzanotte.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	concertone	concertone	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	5	punct	_	_
+5	andrà	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	onda	onda	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	Rai3	Rai3	PROPN	SP	_	5	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	canale	canale	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+14	501	501	NUM	N	NumType=Card	13	nummod	_	_
+15	HD	HD	PROPN	SP	_	9	flat:name	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+18	televisiva	televisivo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	dalle	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	15.00	15.00	NUM	N	NumType=Card	5	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	mezzanotte	mezzanotte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = L'appello dei sindacati.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	appello	appello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Susanna Camusso, leader della Cgil, sottolinea la necessità di creare occupazione, garantendo i diritti:
+1	Susanna	Susanna	PROPN	SP	_	9	nsubj	_	_
+2	Camusso	Camusso	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	leader	leader	NOUN	S	_	1	appos	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Cgil	Cgil	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	necessità	necessità	NOUN	S	Gender=Fem	9	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	creare	creare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	garantendo	garantire	VERB	V	VerbForm=Ger	13	advcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 30
+# text = "La nostra quotidiana fatica è dare tutele e dignità, quella del lavoro, a quel 43% di giovani disoccupati che, soprattutto al sud, rischia di perdere le loro speranze e i loro anni migliori".
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+8	tutele	tutela	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	dignità	dignità	NOUN	S	Gender=Fem	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	conj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+19	43	43	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	SYM	_	7	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	giovani	giovane	NOUN	S	Number=Plur	20	nmod	_	_
+23	disoccupati	disoccupato	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	31	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	soprattutto	soprattutto	ADV	B	_	29	advmod	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	sud	sud	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33	perdere	perdere	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	loro	loro	DET	AP	Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	speranze	speranza	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	loro	loro	DET	AP	Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	anni	anno	NOUN	S	Gender=Masc|Number=Plur	36	conj	_	_
+41	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	40	amod	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 31
+# text = Primo maggio tutto l'anno.
+1	Primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+2	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+3	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	anno	anno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 32
+# text = Conquiste da difendere.
+1	Conquiste	conquedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	da	da	ADP	E	_	3	mark	_	_
+3	difendere	difendere	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 33
+# text = "Purtroppo è un Primo maggio ancora difficile per tanti lavoratori e tante famiglie che devono fare i conti con una crisi lunga e dolorosa", sottolinea Annamaria Furlan, segretario generale della Cisl, sollecitando "una svolta a livello europeo sia sui temi dello sviluppo e della crescita, sia sull'integrazione e l'accoglienza", che sono "facce della stessa medaglia".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Purtroppo	purtroppo	ADV	B	_	6	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	Primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+7	ancora	ancora	ADV	B	_	8	advmod	_	_
+8	difficile	difficile	ADJ	A	Number=Sing	6	amod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	14	acl:relcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	conti	conto	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	crisi	crisi	NOUN	S	Gender=Fem	17	obl	_	_
+23	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	6	punct	_	_
+28	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	Annamaria	Annamaria	PROPN	SP	_	28	nsubj	_	_
+30	Furlan	Furlan	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	29	appos	_	_
+33	generale	generale	ADJ	A	Number=Sing	32	amod	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Cisl	cisl	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	28	punct	_	_
+38	sollecitando	sollecitare	VERB	V	VerbForm=Ger	28	advcl	_	_
+39	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	livello	livello	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+44	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+45	sia	sia	CCONJ	CC	_	48	cc	_	_
+46-47	sui	_	_	_	_	_	_	_	_
+46	su	su	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	temi	tema	NOUN	S	Gender=Masc|Number=Plur	41	nmod	_	_
+49-50	dello	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	_
+52	e	e	CCONJ	CC	_	55	cc	_	_
+53-54	della	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	51	conj	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	60	punct	_	_
+57	sia	sia	CCONJ	CC	_	60	cc	_	_
+58-59	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+58	su	su	ADP	E	_	60	case	_	_
+59	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	60	det	_	_
+60	integrazione	integrazione	NOUN	S	Gender=Fem|Number=Sing	48	conj	_	_
+61	e	e	CCONJ	CC	_	63	cc	_	_
+62	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	63	det	_	SpaceAfter=No
+63	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	48	conj	_	SpaceAfter=No
+64	"	"	PUNCT	FB	_	63	punct	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	63	punct	_	_
+66	che	che	PRON	PR	PronType=Rel	69	nsubj	_	_
+67	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	69	cop	_	_
+68	"	"	PUNCT	FB	_	69	punct	_	SpaceAfter=No
+69	facce	faccia	NOUN	S	Gender=Fem|Number=Plur	63	acl:relcl	_	_
+70-71	della	_	_	_	_	_	_	_	_
+70	di	di	ADP	E	_	73	case	_	_
+71	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+72	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	73	amod	_	_
+73	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	69	nmod	_	SpaceAfter=No
+74	"	"	PUNCT	FB	_	69	punct	_	SpaceAfter=No
+75	.	.	PUNCT	FS	_	28	punct	_	SpacesAfter=\n
+

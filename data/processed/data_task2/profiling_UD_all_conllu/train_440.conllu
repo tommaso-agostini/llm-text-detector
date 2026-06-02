@@ -1,0 +1,422 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E' di almeno 24 morti - tra agenti della sicurezza e aggressori - il bilancio dell'azione terroristica nello scalo, poco dopo rivendicata dai talebani.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	almeno	almeno	ADV	B	_	4	advmod	_	_
+4	24	24	NUM	N	NumType=Card	5	nummod	_	_
+5	morti	morto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	-	-	PUNCT	FB	_	5	punct	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	agenti	agente	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	aggressori	aggressore	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14	-	-	PUNCT	FB	_	5	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bilancio	bilancio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	azione	azione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	terroristica	terroristico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	nello	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	scalo	scalo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	poco	poco	ADV	B	_	26	advmod	_	_
+26	dopo	dopo	ADV	B	_	27	advmod	_	_
+27	rivendicata	rivendicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+28-29	dai	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	talebani	talebano	NOUN	S	Gender=Masc|Number=Plur	27	obl:agent	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il cruento attacco armato sferrato da un commando del movimento Tehreek-e-Taliban Pakistan (TTP) è cominciato quando una quindicina di militanti si sono infiltrati, entrando da tre punti diversi, nella zona cargo dell'aeroporto internazionale Jinnah, dove due kamikaze si sono fatti esplodere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cruento	cruento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	attacco	attacco	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	armato	armato	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	sferrato	sferrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	commando	commando	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	Tehreek	Tehreek	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	e-Taliban	e-Taliban	PROPN	SP	_	12	flat:name	_	_
+15	Pakistan	Pakistan	PROPN	SP	_	12	flat:name	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	TTP	TTP	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+21	quando	quando	SCONJ	CS	_	28	mark	_	_
+22	una	uno	NUM	N	NumType=Card	23	nummod	_	_
+23	quindicina	quindicina	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	militanti	militante	NOUN	S	Number=Plur	23	nmod	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+27	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	infiltrati	infiltrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	advcl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	entrando	entrare	VERB	V	VerbForm=Ger	28	advcl	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	tre	tre	NUM	N	NumType=Card	33	nummod	_	_
+33	punti	punto	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+34	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	30	punct	_	_
+36-37	nella	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	zona	zona	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+39	cargo	cargo	NOUN	S	Gender=Masc|Number=Sing	38	compound	_	_
+40-41	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+40	di	di	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+43	internazionale	internazionale	ADJ	A	Number=Sing	42	amod	_	_
+44	Jinnah	Jinnah	PROPN	SP	_	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	42	punct	_	_
+46	dove	dove	ADV	B	_	51	advmod	_	_
+47	due	due	NUM	N	NumType=Card	48	nummod	_	_
+48	kamikaze	kamikaze	NOUN	S	Gender=Fem|Number=Plur	51	nsubj	_	_
+49	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	51	expl	_	_
+50	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+52	esplodere	esplodere	VERB	V	VerbForm=Inf	51	xcomp	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Durante il primo scontro a fuoco con le forze di sicurezza, i militanti del TTP hanno incendiato un edificio nella zona del vecchio scalo, i vigili del fuoco non sono riusciti a arrivare e le fiamme si sono sviluppate.
+1	Durante	durante	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	forze	forza	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	militanti	militante	NOUN	S	Number=Plur	19	nsubj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	TTP	TTP	PROPN	SP	_	14	nmod	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	incendiato	incendiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	edificio	edificio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	zona	zona	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	scalo	scalo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	19	punct	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	vigili	vigile	NOUN	S	Gender=Masc|Number=Plur	37	nsubj	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+36	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	conj	_	_
+38	a	a	ADP	E	_	39	mark	_	_
+39	arrivare	arrivare	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	e	e	CCONJ	CC	_	45	cc	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	45	nsubj	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+44	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	sviluppate	sviluppare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	conj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 4
+# text = Pakistan: attacco all'aeroporto.
+1	Pakistan	Pakistan	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Al momento dell'attacco c'erano nell'aeroporto circa 700 passeggeri che sono stati evacuati senza problemi.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9-10	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	circa	circa	ADV	B	_	13	advmod	_	_
+13	700	700	NUM	N	NumType=Card	14	nummod	_	_
+14	passeggeri	passeggero	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj:pass	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	evacuati	evacuare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+19	senza	senza	ADP	E	_	20	case	_	_
+20	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Le tv pachistane hanno mostrato per tutta la notte le fiamme e le colonne di fumo che si sono levate nel cielo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	tv	tv	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	pachistane	pachistano	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	9	det:predet	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	colonne	colonna	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	levate	levare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = L'ufficio stampa dell'esercito a Rawalpindi ha smentito che i militanti avessero incendiato un velivolo, precisando che si trattava invece di un edificio amministrativo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Rawalpindi	Rawalpindi	PROPN	SP	_	2	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	smentito	smentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	militanti	militante	NOUN	S	Number=Plur	15	nsubj	_	_
+14	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	incendiato	incendiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	velivolo	velivolo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	precisando	precisare	VERB	V	VerbForm=Ger	15	advcl	_	_
+20	che	che	SCONJ	CS	_	22	mark	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	trattava	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	_
+23	invece	invece	ADV	B	_	26	case	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	edificio	edificio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	amministrativo	amministrativo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = I danni generali sono ingenti, e anche alcuni aerei (fra cui due delle compagnie Pia e Airblue) sono stati danneggiati.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	danni	danno	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	generali	generale	ADJ	A	Number=Plur	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	ingenti	ingente	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	aerei	aereo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+11	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	fra	fra	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	14	nmod	_	_
+14	due	due	NUM	N	NumType=Card	10	acl:relcl	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	compagnie	compagnia	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	Pia	Pia	PROPN	SP	_	17	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Airblue	Airblue	PROPN	SP	_	18	conj	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	5	punct	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	danneggiati	danneggiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Un comunicato rilasciato dall'Ispr aveva poi confermato che i terroristi erano "stati uccisi e l'aeroporto liberato".
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+4	da	da	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Ispr	Ispr	PROPN	SP	_	3	obl:agent	_	_
+7	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	poi	poi	ADV	B	_	9	advmod	_	_
+9	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	terroristi	terrorista	NOUN	S	Gender=Masc|Number=Plur	16	nsubj:pass	_	_
+13	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	uccisi	uccidere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+20	liberato	liberato	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Ma all'alba si sono sentiti altri spari nell'aeroporto.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	alba	alba	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:pass	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sentiti	sentire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	spari	sparo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+10-11	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Lo ha riferito la tv DawnNews.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tv	tv	NOUN	S	Gender=Fem	3	nsubj	_	_
+6	DawnNews	DawnNews	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Nella nuova sparatoria è stato ferito un ranger di guardia allo scalo aereo.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	sparatoria	sparatoria	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	ferito	ferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ranger	ranger	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	allo	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	scalo	scalo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+15	aereo	aereo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Il Paese da anni fronteggia i cosiddetti talebani pakistani, 'Tehreek-e-Taliban'.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	fronteggia	fronteggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	cosiddetti	cosiddetto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	talebani	talebano	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	pakistani	pakistano	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	'Tehreek	'Tehreek	PROPN	SP	_	8	appos	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	e-Taliban	e-Taliban	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Nei giorni scorsi in città c'erano state proteste per l'arresto a Londra del leader del potente partito Mqm, Altaf Hussain, che controlla Karachi.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	città	città	NOUN	S	Gender=Fem	10	obl	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+8	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+9	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	proteste	protesta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Londra	Londra	PROPN	SP	_	13	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	leader	leader	NOUN	S	_	13	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	potente	potente	ADJ	A	Number=Sing	22	amod	_	_
+22	partito	partito	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+23	Mqm	Mqm	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	10	punct	_	_
+25	Altaf	Altaf	PROPN	SP	_	10	nsubj	_	_
+26	Hussain	Hussain	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	controlla	controllare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+30	Karachi	Karachi	PROPN	SP	_	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = Pakistan, l'attacco all'aeroporto di Karachi
+1	Pakistan	Pakistano	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Karachi	Karachi	PROPN	SP	_	7	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,408 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una fiction interculturale.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fiction	fiction	NOUN	S	Gender=Fem	0	root	_	_
+3	interculturale	interculturale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Le associazioni LVIA e CICSENE lanciano la nuova piattaforma web GenerAzione Intercultura, che ha visto coinvolti giovani italiani e stranieri nelle province di Torino, Cuneo, Novara e Alessandria.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+3	LVIA	LVIA	PROPN	SP	_	2	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5-7	CICSENE	_	_	_	_	_	_	_	_
+5	CIC	CIC	PROPN	SP	_	3	conj	_	_
+6	SE	se	PROPN	SP	_	5	flat:name	_	_
+7	NE	ne	PROPN	SP	_	5	flat:name	_	_
+8	lanciano	lanciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	web	web	NOUN	S	Gender=Masc	11	compound	_	_
+13	GenerAzione	generazione	PROPN	SP	_	12	nmod	_	_
+14	Intercultura	Intercultura	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+19	coinvolti	coinvolgere	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	giovani	giovane	NOUN	S	Number=Plur	18	obj	_	_
+21	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	21	conj	_	_
+24-25	nelle	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	province	provincia	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Torino	Torino	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	Cuneo	Cuneo	PROPN	SP	_	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	Novara	Novara	PROPN	SP	_	28	conj	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	Alessandria	Alessandria	PROPN	SP	_	28	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = La piattaforma contiene materiali innovativi di educazione all'intercultura realizzati con i giovani stessi, nell'ottica di offrire strumenti e spunti utili al contrasto della discriminazione e del pregiudizio in contesti scolastici ed extrascolastici.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	contiene	contenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	materiali	materiale	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	innovativi	innovativo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	intercultura	intercultura	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+11	realizzati	realizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	giovani	giovane	NOUN	S	Number=Plur	11	obl	_	_
+15	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17-18	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	in	in	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ottica	ottico	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	offrire	offrire	VERB	V	VerbForm=Inf	19	acl	_	_
+22	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	spunti	spunto	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+25	utili	utile	ADJ	A	Number=Plur	24	amod	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	discriminazione	discriminazione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	pregiudizio	pregiudizio	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	contesti	contesto	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+38	scolastici	scolastico	ADJ	A	Gender=Masc|Number=Plur	37	amod	_	_
+39	ed	e	CCONJ	CC	_	40	cc	_	_
+40	extrascolastici	extrascolastico	ADJ	A	Gender=Masc|Number=Plur	38	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Una fiction interculturale, delle video cartoline, dieci puntate di web TV che riportano testimonianze e buone pratiche d'integrazione esistenti nei territori, saranno liberamente fruibili da scuole, associazioni, enti e chiunque sia interessato alle tematiche a fini pedagogici e di sensibilizzazione.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fiction	fiction	NOUN	S	Gender=Fem	30	nsubj	_	_
+3	interculturale	interculturale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	video	video	ADJ	A	_	8	amod	_	_
+8	cartoline	cartolina	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	dieci	dieci	NUM	N	NumType=Card	11	nummod	_	_
+11	puntate	puntato	NOUN	S	Gender=Fem|Number=Plur	8	appos	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	web	web	NOUN	S	Gender=Masc	11	nmod	_	_
+14	TV	tv	PROPN	SP	_	13	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	riportano	riportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+17	testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	buone	buono	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+21	d'	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	integrazione	integrazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	esistenti	esistere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	22	acl	_	_
+24-25	nei	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	territori	territorio	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	cop	_	_
+29	liberamente	libero	ADV	B	_	30	advmod	_	_
+30	fruibili	fruibile	ADJ	A	Number=Plur	0	root	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	30	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	enti	ente	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	_
+37	e	e	CCONJ	CC	_	40	cc	_	_
+38	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	40	nsubj:pass	_	_
+39	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux:pass	_	_
+40	interessato	interessato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	_
+41-42	alle	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	tematiche	tematica	NOUN	S	Gender=Fem|Number=Plur	40	obl	_	_
+44	a	a	ADP	E	_	45	case	_	_
+45	fini	fine	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	_
+46	pedagogici	pedagogico	ADJ	A	Gender=Masc|Number=Plur	45	amod	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	sensibilizzazione	sensibilizzazione	NOUN	S	Gender=Fem|Number=Sing	46	conj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 5
+# text = Se c'è interazione, c'è integrazione.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	interazione	interazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	integrazione	integrazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Durante le presentazioni, saranno inoltre illustrati i risultati emersi dallo studio sociologico realizzato nelle quattro provincie piemontesi, relativo all'approccio dei giovani ai temi della migrazione, integrazione e discriminazione.
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	presentazioni	presentazione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
+6	inoltre	inoltre	ADV	B	_	7	advmod	_	_
+7	illustrati	illustrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+10	emersi	emergere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	dallo	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	studio	studio	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14	sociologico	sociologico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	realizzato	realizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	quattro	quattro	NUM	N	NumType=Card	19	nummod	_	_
+19	provincie	provincia	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+20	piemontesi	piemontese	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	relativo	relativo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	giovani	giovane	NOUN	S	Number=Plur	25	nmod	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	temi	tema	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	migrazione	migrazione	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	integrazione	integrazione	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	_
+37	e	e	CCONJ	CC	_	38	cc	_	_
+38	discriminazione	discriminazione	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Ciò che ne risulta è che laddove c'è interazione, c'è integrazione:
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	laddove	laddove	SCONJ	CS	_	9	mark	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	interazione	interazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	integrazione	integrazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 8
+# text = quando i giovani hanno possibilità di conoscersi ed entrare in contatto con altre culture, i pregiudizi cadono e gli stereotipi sono messi in discussione.
+1	quando	quando	SCONJ	CS	_	4	mark	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	giovani	giovane	NOUN	S	Number=Plur	4	nsubj	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+5	possibilità	possibilità	NOUN	S	Gender=Fem	4	obj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	conoscersi	conoscerso	VERB	V	VerbForm=Inf	5	acl	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	entrare	entrare	VERB	V	VerbForm=Inf	7	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	culture	cultura	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	pregiudizi	pregiudizio	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	cadono	cadono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	stereotipi	stereotipo	NOUN	S	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 9
+# text = Manzo, il ragazzo verde.
+1	Manzo	Manzo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	verde	verde	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = L'appuntamento sarà anche l'occasione per visionare in anteprima la Fiction interculturale " Manzo Green: una storia tut(a) verde " che affronta in sei puntate i temi del pregiudizio e della discriminazione in una società sempre più multiculturale come quella italiana.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	visionare	visionare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	anteprima	anteprima	ADV	B	_	8	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Fiction	fiction	PROPN	SP	_	8	obj	_	_
+13	interculturale	interculturale	ADJ	A	Number=Sing	12	amod	_	_
+14	"	"	PUNCT	FB	_	12	punct	_	_
+15	Manzo	Manzo	PROPN	SP	_	12	flat:name	_	_
+16	Green	Green	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	12	punct	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	storia	storia	NOUN	S	Gender=Fem|Number=Sing	12	appos	_	_
+20	tut	tut	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+22	a	a	X	X	_	24	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	_
+24	verde	verde	ADJ	A	Number=Sing	19	amod	_	_
+25	"	"	PUNCT	FB	_	24	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	affronta	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	sei	sei	NUM	N	NumType=Card	27	nummod	_	_
+30	puntate	puntare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	temi	tema	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	pregiudizio	pregiudizio	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	discriminazione	discriminazione	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	società	società	NOUN	S	Gender=Fem	39	nmod	_	_
+43	sempre	sempre	ADV	B	_	44	advmod	_	_
+44	più	più	ADV	B	_	45	advmod	_	_
+45	multiculturale	multiculturale	ADJ	A	Number=Sing	42	amod	_	_
+46	come	come	ADP	E	_	47	case	_	_
+47	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	45	obl	_	_
+48	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Manzo, il protagonista, è un ragazzo di colore verde, personaggio ironico e pieno di capacità propositive per generare intorno a sé il cambiamento che vorrebbe vedere nel mondo.
+1	Manzo	Manzo	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	protagonista	protagonista	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	colore	colore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	verde	verde	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+14	ironico	ironico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	capacità	capacità	NOUN	S	Gender=Fem	16	obl	_	_
+19	propositive	propositivo	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	generare	generare	VERB	V	VerbForm=Inf	18	acl	_	_
+22	intorno	intorno	ADV	B	_	24	case	_	_
+23	a	a	ADP	E	_	22	fixed	_	_
+24	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	obl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	29	obj	_	_
+28	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	vedere	vedere	VERB	V	VerbForm=Inf	26	acl:relcl	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Nel finale troverà l'unica soluzione possibile per reagire al pregiudizio che lo circonda:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	finale	finale	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	troverà	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	unica	unico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	7	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	reagire	reagire	VERB	V	VerbForm=Inf	7	acl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pregiudizio	pregiudizio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	circonda	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 13
+# text = partecipare come cittadino attivo, impegnandosi nella società e mettendosi in gioco in prima persona.
+1	partecipare	partecipare	VERB	V	VerbForm=Inf	0	root	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6-7	impegnandosi	_	_	_	_	_	_	_	_
+6	impegnando	impegnare	VERB	V	VerbForm=Ger	1	advcl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	società	società	NOUN	S	Gender=Fem	6	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	mettendosi	_	_	_	_	_	_	_	_
+12	mettendo	mettere	VERB	V	VerbForm=Ger	6	conj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	18	amod	_	_
+18	persona	persona	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

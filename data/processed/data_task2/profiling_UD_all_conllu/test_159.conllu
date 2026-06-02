@@ -1,0 +1,330 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dieci anni di un dialogo mancato, spesso surreale, tra chi governa e chi, invece, dovrà ereditare il pianeta.
+1	Dieci	dieci	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	mancato	mancato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	spesso	spesso	ADV	B	_	9	advmod	_	_
+9	surreale	surreale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	tra	tra	ADP	E	_	12	case	_	_
+12	chi	chi	PRON	PR	PronType=Rel	5	nmod	_	_
+13	governa	governare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+14	e	e	CCONJ	CC	_	20	cc	_	_
+15	chi	chi	PRON	PR	PronType=Rel	20	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	invece	invece	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	_
+20	ereditare	ereditare	VERB	V	VerbForm=Inf	13	conj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ricordiamo forse ancora le frecciatine di Roberto Calderoli, all’epoca Ministro per le Riforme, sui “bamboccioni” che a casa non ne vogliono andare?
+1	Ricordiamo	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	forse	forse	ADV	B	_	1	advmod	_	_
+3	ancora	ancora	ADV	B	_	1	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	frecciatine	frecciatina	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Roberto	Roberto	PROPN	SP	_	5	nmod	_	_
+8	Calderoli	Calderoli	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10-11	all’	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13	Ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	12	compound	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	Riforme	riforma	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18-19	sui	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	bamboccioni	bamboccione	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	casa	casa	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+26	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+27	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	29	expl	_	_
+28	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	andare	andare	VERB	V	VerbForm=Inf	21	acl:relcl	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Un’etichetta tossica, immediatamente contestata, che dipingeva un’intera generazione come parassitaria e incapace di affrontare le sfide dell’età adulta.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	etichetta	etichetta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	tossica	tossico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	immediatamente	immediatamente	ADV	B	_	6	advmod	_	_
+6	contestata	contestare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	dipingeva	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	intera	intero	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	parassitaria	parassitario	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	incapace	incapace	ADJ	A	Number=Sing	14	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	affrontare	affrontare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21-22	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	età	età	NOUN	S	Gender=Fem	20	nmod	_	_
+24	adulta	adulto	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Un’immagine, quella del figlio a carico oltre i trent’anni, che a ben guardare rifletteva più la precarietà del mercato del lavoro e l’impossibilità di costruire un futuro autonomo, che una presunta mancanza di volontà.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	carico	carico	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	oltre	oltre	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	trent’	trenta	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	a	a	ADP	E	_	18	mark	_	_
+17	ben	bene	ADV	B	_	18	advmod	_	_
+18	guardare	guardare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+19	rifletteva	riflettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	ccomp	_	_
+20	più	più	ADV	B	_	19	advmod	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	precarietà	precarietà	NOUN	S	Gender=Fem	19	obj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	impossibilità	impossibilità	NOUN	S	Gender=Fem	22	conj	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33	costruire	costruire	VERB	V	VerbForm=Inf	31	acl	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+36	autonomo	autonomo	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	35	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	41	case	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	presunta	presunto	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	_
+41	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	volontà	volontà	NOUN	S	Gender=Fem	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Da allora, il refrain si è riproposto in forme diverse, spesso mascherato da consigli paternalistici o da perplessità malcelate.
+1	Da	da	ADP	E	_	2	case	_	_
+2	allora	allora	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	refrain	refrain	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	riproposto	riproporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	forme	forma	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	spesso	spesso	ADV	B	_	14	advmod	_	_
+14	mascherato	mascherare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	14	obl:agent	_	_
+17	paternalistici	paternalistico	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	o	o	CCONJ	CC	_	20	cc	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	perplessità	perplessità	NOUN	S	Gender=Fem	16	conj	_	_
+21	malcelate	malcelato	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Giovanni Giuliano, quando era sottosegretario al Lavoro, nel 2015 parlò di una generazione “a orologeria”, abituata a tutto e subito, senza la fibra del sacrificio.
+1	Giovanni	Giovanni	PROPN	SP	_	14	nsubj	_	_
+2	Giuliano	Giuliano	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	sottosegretario	sottosegretario	NOUN	S	Gender=Masc|Number=Sing	14	advcl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Lavoro	lavoro	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2015	2015	NUM	N	NumType=Card	14	obl	_	_
+14	parlò	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	“	“	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	a	a	ADP	E	_	20	case	_	_
+20	orologeria	orologeria	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	abituata	abituare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	23	obl	_	_
+26	e	e	CCONJ	CC	_	31	cc	_	_
+27	subito	subito	ADV	B	_	31	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	senza	senza	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	fibra	fibra	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	sacrificio	sacrificio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = Un’accusa che ignorava, o forse non voleva vedere, la differente natura delle sfide odierne:
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ignorava	ignorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	o	o	CCONJ	CC	_	10	cc	_	_
+7	forse	forse	ADV	B	_	10	advmod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	vedere	vedere	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	differente	differente	ADJ	A	Number=Sing	14	amod	_	_
+14	natura	natura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	odierne	odierno	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = un mondo globalizzato, competitivo, in cui la meritocrazia è spesso una chimera e la flessibilità un sinonimo di instabilità.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	globalizzato	globalizzato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	competitivo	competitivo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	meritocrazia	meritocrazia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	spesso	spesso	ADV	B	_	14	advmod	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	chimera	chimera	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	flessibilità	flessibilità	NOUN	S	Gender=Fem	14	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sinonimo	sinonimo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	instabilità	instabilità	NOUN	S	Gender=Fem	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Non sono mancate, negli anni, gaffe più leggere, apparentemente innocue, ma rivelatrici di una distanza culturale incolmabile.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	mancate	mancare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	negli	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	gaffe	gaffa	NOUN	S	Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	leggere	leggero	VERB	V	VerbForm=Inf	9	acl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	apparentemente	apparentemente	ADV	B	_	14	advmod	_	_
+14	innocue	innocuire	ADV	B	_	11	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	rivelatrici	rivelatore	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	culturale	culturale	ADJ	A	Number=Sing	20	amod	_	_
+22	incolmabile	incolmabile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ministri sorpresi a commentare con imbarazzo le mode musicali giovanili, a esprimere dubbi sulle nuove forme di aggregazione sociale, a guardare con sospetto la cultura digitale.
+1	Ministri	Ministro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	sorpresi	sorpreso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	commentare	commentare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	imbarazzo	imbarazzo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mode	moda	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+9	musicali	musicale	ADJ	A	Number=Plur	8	amod	_	_
+10	giovanili	giovanile	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	esprimere	esprimere	VERB	V	VerbForm=Inf	4	advcl	_	_
+14	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	18	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	forme	forma	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	aggregazione	aggregazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	sociale	sociale	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	guardare	guardare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+29	digitale	digitale	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = E poi, l'episodio del calcetto,
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	calcetto	calcetto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\n
+

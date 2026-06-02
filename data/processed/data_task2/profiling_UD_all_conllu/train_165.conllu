@@ -1,0 +1,323 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Io che sono greco lo so".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	greco	greco	ADJ	A	Gender=Masc|Number=Sing	6	acl:relcl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Parole che hanno scatenato un’ondata di critiche, accusandolo di elitismo e di una presunta mancanza di empatia verso le difficoltà della gente comune.
+1	Parole	parola	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10-11	accusandolo	_	_	_	_	_	_	_	_
+10	accusando	accusare	VERB	V	VerbForm=Ger	4	advcl	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	elitismo	elitismo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	presunta	presunto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	empatia	empatia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	verso	verso	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	difficoltà	difficoltà	NOUN	S	Gender=Fem	20	nmod	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	gente	gente	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	comune	comune	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ma, permettetemi di dire, Toninelli ha toccato un punto cruciale, un’essenza che sembra ci sia sfuggita a gran parte del nostro Paese.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3-4	permettetemi	_	_	_	_	_	_	_	_
+3	permettete	permettere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Toninelli	Toninelli	PROPN	SP	_	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	cruciale	cruciale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	10	appos	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+20	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	sfuggita	sfuggita	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	gran	grande	ADJ	A	Number=Sing	24	amod	_	_
+24	parte	parte	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Benché la sua origine greca possa apparire un’aggiunta marginale, la sua dichiarazione trova una risonanza profonda perché affonda le radici in una verità storica e culturale che l'Italia, ahimè, sta dimenticando sempre più rapidamente.
+1	Benché	benché	SCONJ	CS	_	7	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	origine	origine	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	greca	greco	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	apparire	apparire	VERB	V	VerbForm=Inf	15	advcl	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	aggiunta	aggiunta	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	marginale	marginale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	risonanza	risonanza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	perché	perché	SCONJ	CS	_	20	mark	_	_
+20	affonda	affondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	radici	radice	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	verità	verità	NOUN	S	Gender=Fem	36	obl	_	_
+26	storica	storico	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	culturale	culturale	ADJ	A	Number=Sing	26	conj	_	_
+29	che	che	SCONJ	CS	_	36	mark	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	Italia	Italia	PROPN	SP	_	36	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	ahimè	ahimè	INTJ	I	_	36	discourse	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	dimenticando	dimenticare	VERB	V	VerbForm=Ger	20	advcl	_	_
+37	sempre	sempre	ADV	B	_	38	advmod	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	rapidamente	rapidamente	ADV	B	_	36	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = La Grecia, nel suo travagliato percorso verso la modernità, ha imparato a caro prezzo che il progresso, la prosperità, la capacità di competere sul mercato globale non derivano da una brama insaziabile di consumi, ma da una disciplina che spinge a rinunciare, a scegliere, a sacrificare il presente per un futuro migliore.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Grecia	Grecia	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	travagliato	travagliato	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+8	percorso	percorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	verso	verso	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	modernità	modernità	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	caro	caro	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	34	obj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	prosperità	prosperità	NOUN	S	Gender=Fem	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	capacità	capacità	NOUN	S	Gender=Fem	20	conj	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	competere	competere	VERB	V	VerbForm=Inf	26	acl	_	_
+29-30	sul	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	globale	globale	ADJ	A	Number=Sing	31	amod	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	derivano	derivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	brama	brama	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+38	insaziabile	insaziabile	ADJ	A	Number=Sing	37	amod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	consumi	consumo	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	45	punct	_	_
+42	ma	ma	CCONJ	CC	_	45	cc	_	_
+43	da	da	ADP	E	_	45	case	_	_
+44	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	disciplina	disciplina	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+46	che	che	PRON	PR	PronType=Rel	47	nsubj	_	_
+47	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	acl:relcl	_	_
+48	a	a	ADP	E	_	49	mark	_	_
+49	rinunciare	rinunciare	VERB	V	VerbForm=Inf	47	xcomp	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	a	a	ADP	E	_	52	mark	_	_
+52	scegliere	scegliere	VERB	V	VerbForm=Inf	49	xcomp	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	52	punct	_	_
+54	a	a	ADP	E	_	55	mark	_	_
+55	sacrificare	sacrificare	VERB	V	VerbForm=Inf	52	xcomp	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	presente	presente	ADJ	A	Number=Sing	55	xcomp	_	_
+58	per	per	ADP	E	_	60	case	_	_
+59	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	55	obl	_	_
+61	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	60	amod	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = Qui in Italia, la mentalità sembra spesso basata sul diritto al benessere immediato, sulla permissività, sulla proposta di “soluzioni” che, in realtà, solo incentivano l'indolenza e la dipendenza.
+1	Qui	qui	ADV	B	_	7	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Italia	Italia	PROPN	SP	_	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mentalità	mentalità	NOUN	S	Gender=Fem	7	nsubj	_	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	spesso	spesso	ADV	B	_	9	advmod	_	_
+9	basata	basare	ADJ	A	Gender=Fem|Number=Sing	7	xcomp	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	benessere	benessere	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	immediato	immediato	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	permissività	permissività	NOUN	S	Gender=Fem	7	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	“	“	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+28	”	”	PUNCT	FB	_	27	punct	_	_
+29	che	che	PRON	PR	PronType=Rel	35	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	solo	solo	ADV	B	_	35	advmod	_	_
+35	incentivano	incentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	indolenza	indolenza	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	dipendenza	dipendenza	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = La promessa di benefici immediati, spesso finanziati con denaro pubblico, alimenta un’illusione di sicurezza che paralizza l'iniziativa privata, soffoca l’imprenditoria e impedisce la crescita economica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	immediati	immediato	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	spesso	spesso	ADV	B	_	8	advmod	_	_
+8	finanziati	finanziare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	alimenta	alimentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	illusione	illusione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	paralizza	paralizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	privata	privato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	soffoca	soffocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	imprenditoria	imprenditoria	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	economica	economico	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Vogliamo parlare delle promesse di reddito di cittadinanza?
+1	Vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Un’altra dimostrazione di questa carenza di visione.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	carenza	carenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	visione	visione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Un ingente sussidio, erogato senza alcun vincolo di impegno, è una pacca sulla spalla che disincentiva la
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	ingente	ingente	ADJ	A	Number=Sing	3	amod	_	_
+3	sussidio	sussidio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	erogato	erogare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	senza	senza	ADP	E	_	8	case	_	_
+7	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	vincolo	vincolo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pacca	pacca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	spalla	spalla	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	disincentiva	disincentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	obj	_	SpacesAfter=\n
+

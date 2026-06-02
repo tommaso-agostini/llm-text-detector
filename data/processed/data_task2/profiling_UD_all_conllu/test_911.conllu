@@ -1,0 +1,193 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "La domanda di lavoro è sarcastica", ammonisce il professore:
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	sarcastica	sarcastico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	ammonisce	ammonire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	professore	professore	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = "Sempre meno salari elevati, sempre meno ore lavorative, sempre più conseguenze disoccupate.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sempre	sempre	ADV	B	_	4	advmod	_	_
+3	meno	meno	ADV	B	_	2	advmod	_	_
+4	salari	salare	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+5	elevati	elevato	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	sempre	sempre	ADV	B	_	8	advmod	_	_
+8	meno	meno	ADV	B	_	9	advmod	_	_
+9	ore	ore	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+10	lavorative	lavorativo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	sempre	sempre	ADV	B	_	13	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+15	disoccupate	disoccupato	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Non sono solo i lavoratori in difficoltà quelli che sono spaventati.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	difficoltà	difficoltà	NOUN	S	Gender=Fem	5	nmod	_	_
+8	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	spaventati	spaventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 5
+# text = E si acuisce il timore che colpi brutali siano in serbo anche per gli studenti che poi diventeranno manager, o imprenditori.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	acuisce	acuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	timore	timore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	che	che	CCONJ	CC	_	11	cc	_	_
+7	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+8	brutali	brutale	ADJ	A	Number=Plur	7	amod	_	_
+9	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	serbo	serbo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	poi	poi	ADV	B	_	18	advmod	_	_
+18	diventeranno	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	acl:relcl	_	_
+19	manager	manager	NOUN	S	_	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	o	o	CCONJ	CC	_	22	cc	_	_
+22	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = "Il pericolo principale non è che robot e intelligenza artificiale impieghino tecnologie fuori dal loro controllo – il problema è che mancano informazioni al vertice disegnate per tenere il passo coi tempi:
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	principale	principale	ADJ	A	Number=Sing	3	amod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	robot	robot	NOUN	S	Gender=Masc	12	nsubj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+11	artificiale	artificiale	ADJ	A	Number=Sing	10	amod	_	_
+12	impieghino	impieghare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	fuori	fuori	ADV	B	_	18	case	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	14	fixed	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+19	–	–	PUNCT	FB	_	6	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	problema	problema	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+23	che	che	SCONJ	CS	_	24	mark	_	_
+24	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+25	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	vertice	vertice	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	disegnate	disegnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	tenere	tenere	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	passo	passo	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34-35	coi	_	_	_	_	_	_	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	22	punct	_	_
+
+# sent_id = 7
+# text = preparare gli studenti, gli ingegneri e anche i dirigenti per quadri che saranno popolati da robot capaci di ragionare, analizzare e applicare algoritmi ottimizzati in soluzioni - risolvere progetti difficile - per le organizzazioni sarà incombinibile al majoα sintetizzarlo".
+1	preparare	preparare	VERB	V	VerbForm=Inf	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ingegneri	ingegnere	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	dirigenti	dirigente	NOUN	S	Number=Plur	1	conj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	quadri	quadro	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj:pass	_	_
+14	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+15	popolati	popolare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	robot	robot	NOUN	S	Gender=Masc	15	obl:agent	_	_
+18	capaci	capace	ADJ	A	Number=Plur	17	amod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	ragionare	ragionare	VERB	V	VerbForm=Inf	18	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	analizzare	analizzare	VERB	V	VerbForm=Inf	20	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	applicare	applicare	VERB	V	VerbForm=Inf	20	conj	_	_
+25	algoritmi	algoritmo	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+26	ottimizzati	ottimizzato	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+29	-	-	PUNCT	FF	_	20	punct	_	_
+30	risolvere	risolvere	VERB	V	VerbForm=Inf	38	parataxis	_	_
+31	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+32	difficile	difficile	ADJ	A	Number=Sing	31	amod	_	_
+33	-	-	PUNCT	FF	_	30	punct	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	organizzazioni	organizzazione	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	_
+37	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	cop	_	_
+38	incombinibile	incombinibile	ADJ	A	Number=Sing	20	conj	_	_
+39-40	al	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	majoα	majoα	PROPN	SP	_	42	obl	_	_
+42-43	sintetizzarlo	_	_	_	_	_	_	_	SpaceAfter=No
+42	sintetizzar	sintetizzarre	VERB	V	VerbForm=Inf	38	csubj	_	_
+43	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
+44	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Per questo è fondamentale garantire un reddito di cittadinanza adeguato per permettere a tutti coloro
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fondamentale	fondamentale	ADJ	A	Number=Sing	0	root	_	_
+5	garantire	garantire	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	adeguato	adeguato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	permettere	permettere	VERB	V	VerbForm=Inf	5	advcl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	_
+15	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	12	obj	_	SpacesAfter=\n
+

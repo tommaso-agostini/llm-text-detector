@@ -1,0 +1,358 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = C’è un’altra parola che evoca il nome di Diego Fazio:
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	parola	parola	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	evoca	evocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	nome	nome	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Diego	Diego	PROPN	SP	_	9	nmod	_	_
+12	Fazio	Fazio	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = commerciante.
+1	commerciante	commerciante	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Un professionista spregiudicato, abile nel plasmare la propria immagine a seconda della clientela, capace di adattarsi a qualsiasi palco e, soprattutto, di trarre profitto da ogni situazione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	professionista	professionista	NOUN	S	Number=Sing	0	root	_	_
+3	spregiudicato	spregiudicato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	abile	abile	ADJ	A	Number=Sing	3	conj	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	plasmare	plasmare	VERB	V	VerbForm=Inf	5	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	clientela	clientela	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	capace	capace	ADJ	A	Number=Sing	3	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	adattarsi	_	_	_	_	_	_	_	_
+20	adattar	adattare	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+24	palco	palco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	e	e	CCONJ	CC	_	30	cc	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	soprattutto	soprattutto	ADV	B	_	30	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	trarre	trarre	VERB	V	VerbForm=Inf	24	conj	_	_
+31	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+34	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Negli ultimi anni, Fazio si è trasformato in un vero e proprio imperatore del consenso, un re che adatta la corona in base a chi lo ascolta.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Fazio	Fazio	PROPN	SP	_	9	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	E	_	15	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+12	vero	vero	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	imperatore	imperatore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	consenso	consenso	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	re	re	NOUN	S	Gender=Masc	9	appos	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	adatta	adattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	corona	corona	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	base	base	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	chi	chi	PRON	PR	PronType=Rel	27	nmod	_	_
+30	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+31	ascolta	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Una volta voce grintosa delle stradine del centrodestra, oggi è l'ospite fisso di Rai3, grillino convinto a suo dire, e protetto della sinistra più malleabile.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	_
+4	grintosa	grintoso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	stradine	stradine	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	centrodestra	centrodestra	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	oggi	oggi	ADV	B	_	15	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ospite	ospite	NOUN	S	Number=Sing	0	root	_	_
+16	fisso	fisso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Rai3	Rai3	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	grillino	grillino	NOUN	S	Gender=Masc|Number=Sing	18	appos	_	_
+21	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	a	a	ADP	E	_	24	mark	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	dire	dire	VERB	V	VerbForm=Inf	21	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	protetto	protetto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	malleabile	malleabile	ADJ	A	Number=Sing	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 6
+# text = Questa non è casuale deviazione, è una strategia.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	casuale	casuale	ADJ	A	Number=Sing	5	amod	_	_
+5	deviazione	deviazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Una strategia chiara e lucida:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	lucida	lucido	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = Fazio non si schiera, si sfrutta.
+1	Fazio	Fazio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	schiera	schiero	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	sfrutta	sfruttare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Il suo “valore”, per così dire, risiede proprio nella sua capacità di giustificare qualsiasi posizione, di essere un’ancora di neutralità che, in realtà, serve solo a garantire la sua permanenza in un panorama mediatico in continua mutazione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	valore	valore	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	dire	dire	VERB	V	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	risiede	risiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	proprio	proprio	ADV	B	_	16	advmod	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	capacità	capacità	NOUN	S	Gender=Fem	11	obl	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	giustificare	giustificare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	di	di	ADP	E	_	24	mark	_	_
+23	essere	essere	AUX	V	VerbForm=Inf	24	cop	_	_
+24	un’	uno	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	18	conj	_	SpaceAfter=No
+25	ancora	ancora	ADV	B	_	27	advmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	neutralità	neutralità	NOUN	S	Gender=Fem	24	obl	_	_
+28	che	che	PRON	PR	PronType=Rel	33	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	realtà	realtà	NOUN	S	Gender=Fem	33	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+34	solo	solo	ADV	B	_	36	advmod	_	_
+35	a	a	ADP	E	_	36	mark	_	_
+36	garantire	garantire	VERB	V	VerbForm=Inf	33	xcomp	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	permanenza	permanenza	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	_
+43	mediatico	mediatico	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+44	in	in	ADP	E	_	46	case	_	_
+45	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	_
+46	mutazione	mutazione	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = L'accordo con il Gruppo Pauro, il cui holding controlla la Vera TV, che lo ha inglobato nella sua struttura, è la prova tangibile di questa ricerca spasmodica del profitto.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Gruppo	Gruppo	PROPN	SP	_	2	nmod	_	_
+6	Pauro	Pauro	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	cui	cui	DET	DR	PronType=Rel	10	det:poss	_	_
+10	holding	holding	NOUN	S	Gender=Fem	11	nsubj	_	_
+11	controlla	controllare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Vera	Vera	PROPN	SP	_	11	obj	_	_
+14	TV	TV	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	inglobato	inglobare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	prova	prova	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+28	tangibile	tangibile	ADJ	A	Number=Sing	27	amod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+31	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+32	spasmodica	spasmodico	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 11
+# text = Un approccio cinico e privo di qualsiasi ideale, che tradisce la retorica che tanto lucida si sforza di professare.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	cinico	cinico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	privo	privo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	ideale	ideale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	tradisce	tradire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	retorica	retorica	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	tanto	tanto	ADV	B	_	16	advmod	_	_
+16	lucida	lucido	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	sforza	sforzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	professare	professare	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = E gli ospiti?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ospiti	ospite	NOUN	S	Number=Plur	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Non sono considerazioni di solidarietà, non sono scelte ideologiche.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	considerazioni	considerazioni	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	solidarietà	solidarietà	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	scelte	scegliere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+10	ideologiche	ideologico	ADJ	A	Gender=Fem|Number=Plur	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Sono biglietti di sola andata per un’indicizzazione strategica, una serie di fedeli che, in cambio di una piattaforma, dispensano troppe plausi e poche riflessioni originali.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	sola	solo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	andata	andare	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	indicizzazione	indicizzazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+9	strategica	strategico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	serie	serie	NOUN	S	Gender=Fem	8	appos	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	fedeli	fedele	NOUN	S	Number=Plur	12	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	23	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	dispensano	dispensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+24	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	plausi	plauso	NOUN	S	Gender=Fem	23	obj	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	28	det	_	_
+28	riflessioni	riflessione	NOUN	S	Gender=Fem|Number=Plur	25	conj	_	_
+29	originali	originale	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = L’obiettivo è il botteghino, la visibilità, la ricchezza.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	botteghino	botteghino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	visibilità	visibilità	NOUN	S	Gender=Fem	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ricchezza	ricchezza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

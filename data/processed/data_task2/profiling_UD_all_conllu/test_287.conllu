@@ -1,0 +1,439 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Siamo sulla soglia di un mondo completamente nuovo.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	sulla	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	completamente	completo	ADV	B	_	10	advmod	_	_
+10	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = I benefici possono essere tanti, così come i pericoli" ha detto.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	benefici	beneficio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	così	così	ADV	B	_	10	advmod	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	pericoli	pericolo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	5	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = "E le nostre Ai devono fare quel che vogliamo che facciano".
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	E	e	CCONJ	CC	_	8	cc	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5-6	Ai	_	_	_	_	_	_	_	_
+5	A	A	PROPN	SP	_	8	nsubj	_	_
+6	i	europeo	ADJ	NO	Number=Sing|NumType=Ord	5	amod	_	_
+7	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+9	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	che	che	SCONJ	CS	_	13	mark	_	_
+13	facciano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Il suo intervento è stato un monito anche se venato da un filo di speranza nel futuro, forse perché questo è un evento destinato soprattutto alle startup e a chi sulla tecnologia punta tutto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	monito	monito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	anche	anche	ADV	B	_	10	mark	_	_
+9	se	se	SCONJ	CS	_	8	fixed	_	_
+10	venato	venare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	filo	filo	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	10	punct	_	_
+20	forse	forse	ADV	B	_	25	advmod	_	_
+21	perché	perché	SCONJ	CS	_	25	mark	_	_
+22	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	25	nsubj	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	evento	evento	NOUN	S	Gender=Masc|Number=Sing	10	advcl	_	_
+26	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+27	soprattutto	soprattutto	ADV	B	_	30	advmod	_	_
+28-29	alle	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	startup	startup	NOUN	S	Gender=Fem	26	obl	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	chi	chi	PRON	PR	Number=Sing|PronType=Rel	30	conj	_	_
+34-35	sulla	_	_	_	_	_	_	_	_
+34	su	su	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+37	punta	puntare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+38	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	37	obj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = "Non possiamo prevedere cosa riusciremo a raggiungere quando le nostre menti verranno amplificate dalle Ai.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	prevedere	prevedere	VERB	V	VerbForm=Inf	0	root	_	_
+5	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	6	obj	_	_
+6	riusciremo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	raggiungere	raggiungere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	quando	quando	SCONJ	CS	_	14	mark	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	menti	mente	NOUN	S	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+13	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+14	amplificate	amplificare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+15-16	dalle	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17-18	Ai	_	_	_	_	_	_	_	SpaceAfter=No
+17	A	A	PROPN	SP	_	14	obl:agent	_	_
+18	i	europeo	ADJ	NO	Number=Sing|NumType=Ord	17	amod	_	_
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Forse, con questi nuovi strumenti, riusciremo a rimediare ai danni che stiamo infliggendo alla natura e forse potremmo essere in grado di sradicare povertà e malattie.
+1	Forse	forse	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+5	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	riusciremo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	rimediare	rimediare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	danni	danno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	infliggendo	infliggere	VERB	V	VerbForm=Ger	13	acl:relcl	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	natura	natura	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	25	cc	_	_
+21	forse	forse	ADV	B	_	25	advmod	_	_
+22	potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+23	essere	essere	AUX	V	VerbForm=Inf	25	cop	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	grado	grado	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	sradicare	sradicare	VERB	V	VerbForm=Inf	25	acl	_	_
+28	povertà	povertà	NOUN	S	Gender=Fem	27	obj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Ogni aspetto della nostra vita verrà trasformato.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ma è anche possibile che con la distruzione di milioni di posti di lavoro venga distrutta la nostra economia e la nostra società".
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	16	mark	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	distruzione	distruzione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	posti	posto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	distrutta	distruggere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	economia	economia	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	società	società	NOUN	S	Gender=Fem	19	conj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Se non ci prepariamo a gestirla, sostiene l’astrofisico, l'intelligenza artificiale potrebbe essere il peggior evento della storia della nostra civiltà.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	prepariamo	preparare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	gestirla	_	_	_	_	_	_	_	SpaceAfter=No
+6	gestir	gestire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	astrofisico	astrofisico	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	20	punct	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+15	artificiale	artificiale	ADJ	A	Number=Sing	14	amod	_	_
+16	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	20	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	peggior	peggiore	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	evento	evento	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	storia	storia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	civiltà	civiltà	NOUN	S	Gender=Fem	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Per questo occorre attuare tutte le strategie necessarie per evitarlo.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+3	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	attuare	attuare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	evitarlo	_	_	_	_	_	_	_	SpaceAfter=No
+10	evitar	evitare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = "Dobbiamo semplicemente sapere che ci sono dei pericoli e dobbiamo identificarli.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	semplicemente	semplicemente	ADV	B	_	4	advmod	_	_
+4	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	pericoli	pericolo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13-14	identificarli	_	_	_	_	_	_	_	SpaceAfter=No
+13	identificar	identificare	VERB	V	VerbForm=Inf	4	conj	_	_
+14	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Magari fra chi ascolta c'è già chi ha una soluzione.
+1	Magari	magari	ADV	B	_	6	advmod	_	_
+2	fra	fra	ADP	E	_	3	case	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obl	_	_
+4	ascolta	ascoltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	già	già	ADV	B	_	6	advmod	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	nsubj	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Io sono un ottimista e credo sia possibile creare un'intelligenza artificiale per il bene del mondo".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ottimista	ottimista	NOUN	S	Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	6	ccomp	_	_
+9	creare	creare	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	artificiale	artificiale	ADJ	A	Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bene	bene	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Eppure la sua, benché autorevole, è una posizione minoritaria.
+1	Eppure	eppure	ADV	B	_	10	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	benché	benché	CCONJ	CC	_	6	cc	_	_
+6	autorevole	autorevole	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	minoritaria	minoritario	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = Gli esperti di intelligenza artificiale come Yann LeCun , a capo dei laboratori di ricerca sulle Ai di Facebook e fra i 'padri' del cosiddetto apprendimento delle macchine, considerano questi allarmi infondati e fuorvianti.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	37	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	artificiale	artificiale	ADJ	A	Number=Sing	4	amod	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	Yann	Yann	PROPN	SP	_	4	nmod	_	_
+8	LeCun	LeCun	PROPN	SP	_	7	flat:name	_	_
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	capo	capo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	laboratori	laboratorio	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	sulle	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19-20	Ai	_	_	_	_	_	_	_	_
+19	A	A	PROPN	SP	_	14	nmod	_	_
+20	i	europeo	ADJ	NO	Number=Sing|NumType=Ord	19	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Facebook	Facebook	PROPN	SP	_	19	nmod	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	fra	fra	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	'	'	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	padri	padre	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+28	'	'	PUNCT	FB	_	27	punct	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	cosiddetto	cosiddetto	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	apprendimento	apprendimento	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	2	punct	_	_
+37	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+38	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	39	det	_	_
+39-40	allarmi	_	_	_	_	_	_	_	_
+39	allar	allar	NOUN	S	Gender=Masc	37	obj	_	_
+40	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	41	obj	_	_
+41	infondati	infondare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	xcomp	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	fuorvianti	fuorviare	ADV	B	_	37	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	37	punct	_	_
+
+# sent_id = 16
+# text = A suo parere allo stato attuale l’intelligenza artificiale è talmente piena di limiti da non rappresentare un pericolo.
+1	A	a	ADP	E	_	3	case	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	parere	parere	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4-5	allo	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stato	stato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	attuale	attuale	ADJ	A	Number=Sing	6	amod	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	intelligenza	intelligenza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	artificiale	artificiale	ADJ	A	Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	talmente	talmente	ADV	B	_	13	advmod	_	_
+13	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	da	da	ADP	E	_	18	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	rappresentare	rappresentare	VERB	V	VerbForm=Inf	15	acl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 17
+# text = "Anche se vince al gioco cinese del Go, non significa che sia davvero intelligente.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Anche	anche	ADV	B	_	4	mark	_	_
+3	se	se	SCONJ	CS	_	2	fixed	_	_
+4	vince	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	cinese	cinese	ADJ	A	Number=Sing	7	amod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Go	Go	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	che	che	SCONJ	CS	_	18	mark	_	_
+16	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	davvero	davvero	ADV	B	_	18	advmod	_	_
+18	intelligente	intelligente	ADJ	A	Number=Sing	14	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Certi timori sono pura isteria", ha dichiarato recentemente.
+1	Certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	timori	timore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	pura	puro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	isteria	isteria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+10	recentemente	recentemente	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

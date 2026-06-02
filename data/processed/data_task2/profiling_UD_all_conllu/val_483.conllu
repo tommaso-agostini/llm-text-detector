@@ -1,0 +1,591 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E il professor Jason Wright della Penn State University, a breve pubblicherà un report in cui verranno delineati i contorni del mistero.
+1	E	e	CCONJ	CC	_	14	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	professor	professore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+4	Jason	Jason	PROPN	SP	_	3	nmod	_	_
+5	Wright	Wright	PROPN	SP	_	4	flat:name	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Penn	Penn	PROPN	SP	_	3	nmod	_	_
+9	State	State	PROPN	SP	_	8	flat:name	_	_
+10	University	University	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	breve	breve	ADJ	A	Number=Sing	14	obl	_	_
+14	pubblicherà	pubblicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	report	report	NOUN	S	Gender=Masc	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	20	obl	_	_
+19	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	20	aux:pass	_	_
+20	delineati	delineare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	contorni	contorno	NOUN	S	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Per almeno provare a capire cosa c'è lassù.
+1	Per	per	ADP	E	_	3	mark	_	_
+2	almeno	almeno	ADV	B	_	3	advmod	_	_
+3	provare	provare	VERB	V	VerbForm=Inf	8	advcl	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	capire	capire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	lassù	lassù	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Perché il telescopio registra una peculiare intermittenza dei fotoni, come se davanti a quella stella passassero delle "megastrutture", magari realizzate da una civiltà aliena per carpire l'energia della stella.
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	telescopio	telescopio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	registra	registrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	peculiare	peculiare	ADJ	A	Number=Sing	7	amod	_	_
+7	intermittenza	intermittenza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	fotoni	fotone	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	come	come	ADV	B	_	18	advmod	_	_
+13	se	se	SCONJ	CS	_	18	mark	_	_
+14	davanti	davanti	ADV	B	_	17	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	stella	stello	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+18	passassero	passare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	megastrutture	megastruttura	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	magari	magari	ADV	B	_	26	advmod	_	_
+26	realizzate	realizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	civiltà	civiltà	NOUN	S	Gender=Fem	26	obl:agent	_	_
+30	aliena	alieno	ADV	B	_	29	advmod	_	_
+31	per	per	ADP	E	_	32	mark	_	_
+32	carpire	carpire	VERB	V	VerbForm=Inf	26	advcl	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	energia	energia	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	stella	stella	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Con variazioni non periodiche e picchi irregolari di ostruzione della luce della stella che arrivano anche al 22%.
+1	Con	con	ADP	E	_	2	case	_	_
+2	variazioni	variazioni	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	periodiche	periodico	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	picchi	picco	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+7	irregolari	irregolare	ADJ	A	Number=Plur	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ostruzione	ostruzione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	stella	stella	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	anche	anche	ADV	B	_	22	advmod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	22	22	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Insomma, una situazione inedita e diversa dal tipico scenario di regolarità di questi dati che porta alla scoperta di un esopianeta.
+1	Insomma	insomma	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	inedita	inedito	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tipico	tipico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	regolarità	regolarità	NOUN	S	Gender=Fem	11	nmod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+16	dati	dato	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	esopianeta	esopianeta	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Spazio: nella Via Lattea una stella su cinque ha pianeti come la Terra.
+1	Spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Via	Via	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+6	Lattea	Lattea	PROPN	SP	_	5	nmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stella	stella	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	cinque	cinque	NUM	N	NumType=Card	8	nummod	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	pianeti	pianeta	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Terra	Terra	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = Ma perché è così atipica la situazione di KIC 8462852, al punto che gli astronomi arrivano a parlare di un argomento tabù per la scienza, civiltà extraterrestri avanzate?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	perché	perché	SCONJ	CS	_	5	mark	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	atipica	atipicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	KIC	KIC	PROPN	SP	_	7	nmod	_	_
+10	8462852	8462852	NUM	N	NumType=Card	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+15	che	che	SCONJ	CS	_	18	mark	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	astronomi	astronome	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	parlare	parlare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	tabù	tabù	NOUN	S	Gender=Masc	23	compound	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29	civiltà	civiltà	NOUN	S	Gender=Fem	18	nsubj	_	_
+30	extraterrestri	extraterrestro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	31	obj	_	_
+31	avanzate	avanzato	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	acl	_	SpaceAfter=No
+32	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Perché le informazioni che arrivano dal telescopio escludono ogni possibile spiegazione eccetto una, uno sciame di comete attirate nell'orbita di KIC 8462852 da un'altra stella, o un impatto avvenuto in tempi distanti.
+1	Perché	perché	ADV	B	_	9	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	telescopio	telescopio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	escludono	escludere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+11	possibile	possibile	ADJ	A	Number=Sing	12	amod	_	_
+12	spiegazione	spiegazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	eccetto	eccetto	ADP	E	_	14	case	_	_
+14	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sciame	sciame	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	comete	comete	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	attirate	attirare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+21-22	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	orbita	orbita	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	KIC	KIC	PROPN	SP	_	23	nmod	_	_
+26	8462852	8462852	NUM	N	NumType=Card	25	flat:name	_	_
+27	da	da	ADP	E	_	30	case	_	_
+28	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+29	altra	altro	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	stella	stella	NOUN	S	Gender=Fem|Number=Sing	20	obl:agent	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	o	o	CCONJ	CC	_	34	cc	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+35	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+38	distanti	distante	ADJ	A	Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Ma per il verificarsi di questa condizione, KIC 8462852 dovrebbe essere molto più giovane di quello che è, e non ci sono riscontri all'infrarosso.
+1	Ma	ma	CCONJ	CC	_	16	cc	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4-5	verificarsi	_	_	_	_	_	_	_	_
+4	verificar	verificare	VERB	V	VerbForm=Inf	16	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	KIC	KIC	PROPN	SP	_	16	nsubj	_	_
+11	8462852	8462852	NUM	N	NumType=Card	10	nummod	_	_
+12	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	giovane	giovane	ADJ	A	Number=Sing	0	root	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	_
+25	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+26	riscontri	riscontro	NOUN	S	Gender=Masc|Number=Plur	25	nsubj	_	_
+27-28	all'	_	_	_	_	_	_	_	SpaceAfter=No
+27	a	a	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	infrarosso	infrarosso	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 10
+# text = Dice Wright all' Atlantic :
+1	Dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Wright	Wright	PROPN	SP	_	1	nsubj	_	_
+3-4	all'	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Atlantic	Atlantic	PROPN	SP	_	1	obl	_	_
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = "L'ipotesi aliena è sempre l'ultima che andrebbe considerata.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ipotesi	ipotesi	NOUN	S	Gender=Fem	8	nsubj	_	_
+4	aliena	alieno	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sempre	sempre	ADV	B	_	8	advmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ultima	ultimo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+10	andrebbe	andere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	considerata	considerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Ma quello che vediamo è proprio qualcosa che ci aspetteremmo che una civiltà aliena costruirebbe".
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+4	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	proprio	proprio	ADV	B	_	7	advmod	_	_
+7	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+10	aspetteremmo	aspetteere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	civiltà	civiltà	NOUN	S	Gender=Fem	15	nsubj	_	_
+14	aliena	alieno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	15	nsubj	_	_
+15	costruirebbe	costruire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Una volta esclusi errori degli strumenti e letture sbagliate, certo.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+3	esclusi	escludere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	errori	errore	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	letture	lettura	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+10	sbagliate	sbagliato	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	certo	certo	ADV	B	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 14
+# text = A questo pensa Tabetha Boyajian di Yale:
+1	A	a	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Tabetha	Tabetha	PROPN	SP	_	3	nsubj	_	_
+5	Boyajian	Boyajian	PROPN	SP	_	4	flat:name	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Yale	Yale	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = "Tutto regolare" sul fronte tecnico.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	regolare	regolare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fronte	fronte	NOUN	S	Number=Sing	3	obl	_	_
+8	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Per sapere cosa c'è nell'orbita di KIC 8462852 servono approfondimenti.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	5	advcl	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	nsubj	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	in	in	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	orbita	orbita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	KIC	KIC	PROPN	SP	_	8	nmod	_	_
+11	8462852	8462852	NUM	N	NumType=Card	10	flat:name	_	_
+12	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+13	approfondimenti	approfondimento	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Forse comete, forse megastrutture intorno a una stella, delle "sfere di Dyson" come quelle degli episodi di Star Trek, quindi.
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	comete	cometo	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	forse	forse	ADV	B	_	9	advmod	_	_
+5	megastrutture	megastruttura	CCONJ	CC	_	9	cc	_	_
+6	intorno	intorno	ADV	B	_	9	case	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stella	stella	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	sfere	sfera	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Dyson	Dyson	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	14	punct	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	9	nmod	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Star	Star	PROPN	SP	_	22	nmod	_	_
+25	Trek	Trek	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	9	punct	_	_
+27	quindi	quindi	ADV	B	_	9	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Tecnologia per assorbire energia finalizzata al mantenimento della vita.
+1	Tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	assorbire	assorbire	VERB	V	VerbForm=Inf	1	acl	_	_
+4	energia	energia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	finalizzata	finalizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mantenimento	mantenimento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Del resto, uno dei metodi di ricerca di civiltà aliene avanzate è proprio l'individuazione di possibili tecnologie.
+1-2	Del	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	metodi	metodo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	civiltà	civiltà	NOUN	S	Gender=Fem	8	nmod	_	_
+13	aliene	alenere	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	avanzate	avanzare	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	proprio	proprio	ADV	B	_	18	advmod	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	individuazione	individuazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	possibili	possibile	ADJ	A	Number=Plur	21	amod	_	_
+21	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 20
+# text = Così nella vicenda si inserisce anche Andrew Siemion, direttore del SETI (Search for Extra-Terrestrial Intelligence).
+1	Così	così	ADV	B	_	6	advmod	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	inserisce	inserire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	Andrew	Andrew	PROPN	SP	_	6	nsubj	_	_
+9	Siemion	Siemion	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	SETI	SETI	PROPN	SP	_	11	nmod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	Search	Search	PROPN	SP	_	11	appos	_	_
+17	for	for	ADP	E	_	18	case	_	_
+18	Extra-Terrestrial	Extra-Terrestrial	PROPN	SP	_	16	nmod	_	_
+19	Intelligence	intelligence	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = E l'ipotesi aliena inizia ad essere presa piuttosto sul serio dagli scienziati.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ipotesi	ipotesi	NOUN	S	Gender=Fem	5	nsubj	_	_
+4	aliena	alieno	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ad	a	ADP	E	_	8	mark	_	_
+7	essere	essere	AUX	VA	VerbForm=Inf	8	aux:pass	_	_
+8	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+9	piuttosto	piuttosto	ADV	B	_	8	advmod	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	serio	serio	ADJ	A	Gender=Masc|Number=Sing	8	obl	_	_
+13-14	dagli	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	scienziati	scienziato	NOUN	S	Gender=Masc|Number=Plur	8	obl:agent	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Il prossimo passo, previsto per gennaio, sarà puntare un'antenna radio verso la stella per verificare se esistono frequenze associabili a questo scenario.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	passo	passo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	_
+10	puntare	puntare	VERB	V	VerbForm=Inf	0	root	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	antenna	antenna	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	radio	radio	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	verso	verso	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	stella	stella	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	verificare	verificare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	se	se	SCONJ	CS	_	20	mark	_	_
+20	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+21	frequenze	frequenza	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+22	associabili	associabile	ADJ	A	Number=Plur	21	amod	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 23
+# text = Se insomma possa essere vero che attorno a KIC 8462852 ci siano dei giganteschi pannelli solari alieni, installati quasi 1500 anni fa.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	insomma	insomma	ADV	B	_	5	advmod	_	_
+3	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	12	mark	_	_
+7	attorno	attorno	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	KIC	KIC	PROPN	SP	_	12	obl	_	_
+10	8462852	8462852	NUM	N	NumType=Card	9	nummod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	expl	_	_
+12	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	giganteschi	gigantesco	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	pannelli	pannelle	ADJ	A	Number=Plur	15	amod	_	_
+17	solari	solare	ADJ	A	Number=Plur	15	amod	_	_
+18	alieni	alieno	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	installati	installare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+21	quasi	quasi	ADV	B	_	22	advmod	_	_
+22	1500	1500	NUM	N	NumType=Card	23	nummod	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+24	fa	fa	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = O per verificare se qualunque cosa abbia visto Kepler, sia ancora lì dopo tutto questo tempo.
+1	O	o	CCONJ	CC	_	3	cc	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	verificare	verificare	VERB	V	VerbForm=Inf	0	root	_	_
+4	se	se	SCONJ	CS	_	8	mark	_	_
+5	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	Kepler	Kepler	PROPN	SP	_	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	17	punct	_	_
+11	sia	essere	CCONJ	CC	_	17	cc	_	_
+12	ancora	ancora	ADV	B	_	13	advmod	_	_
+13	lì	lì	ADV	B	_	17	advmod	_	_
+14	dopo	dopo	ADP	E	_	17	case	_	_
+15	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

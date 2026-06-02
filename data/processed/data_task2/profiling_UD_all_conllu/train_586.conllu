@@ -1,0 +1,371 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vogliamo invece parlare di comportamenti, di rispetto, di onestà intellettuale.
+1	Vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	invece	invece	ADV	B	_	3	advmod	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	rispetto	rispetto	ADV	B	_	11	case	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	8	fixed	_	_
+11	onestà	onestà	NOUN	S	Gender=Fem	3	obl	_	_
+12	intellettuale	intellettuale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il nostro Presidente della Repubblica, Giorgio Napolitano, è un uomo anziano, che ha dedicato gran parte della sua vita al servizio del nostro Paese.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Repubblica	Repubblica	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Giorgio	Giorgio	PROPN	SP	_	3	appos	_	_
+9	Napolitano	Napolitano	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	anziano	anziano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+19	gran	gran	ADJ	A	_	20	amod	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	vita	vita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = EDespite his age and his past, some still find reasons to attack him.
+1	EDespite	EDespite	X	SW	Foreign=Yes	0	root	_	_
+2	his	his	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	age	age	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	and	and	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	his	his	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	past	past	X	SW	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	some	some	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	still	still	NOUN	S	Gender=Masc	8	compound	_	_
+10	find	find	X	SW	Foreign=Yes	9	compound	_	_
+11	reasons	reasons	X	SW	Foreign=Yes	10	flat:foreign	_	_
+12	to	to	X	SW	Foreign=Yes	10	flat:foreign	_	_
+13	attack	attack	X	SW	Foreign=Yes	10	flat:foreign	_	_
+14	him	him	X	SW	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ieri è stato il turno di Beppe Grillo, leader del Movimento 5 Stelle.
+1	Ieri	ieri	ADV	B	_	5	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	turno	turno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Beppe	Beppe	PROPN	SP	_	5	nmod	_	_
+8	Grillo	Grillo	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	leader	leader	NOUN	S	_	7	appos	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Movimento	Movimento	PROPN	SP	_	10	nmod	_	_
+14	5	5	NUM	N	NumType=Card	13	flat:name	_	_
+15	Stelle	Stelle	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Durante unaxrightarrowunächst am Theatre Festival di Innsbruck, in Austria, ha detto che "Napolitano ci ricatta con le dimissioni".
+1	Durante	durante	ADP	E	_	2	case	_	_
+2	unaxrightarrowunächst	unaxrightarrowunächst	X	SW	Foreign=Yes	13	obl	_	_
+3	am	am	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	Theatre	Theatre	PROPN	SP	_	2	nmod	_	_
+5	Festival	Festival	PROPN	SP	_	4	flat:name	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Innsbruck	Innsbruck	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Austria	Austria	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+16	Napolitano	Napolitano	PROPN	SP	_	18	nsubj	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	18	obj	_	_
+18	ricatta	ricattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Parole dure, accuse gravi.
+1	Parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	dure	duro	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+5	gravi	grave	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = E allora mi chiedo:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	allora	allora	ADV	B	_	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = ma cosa vorrebbe dire Grillo?
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	Grillo	Grillo	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Che il Presidente della Repubblica non ha il diritto di dimettersi?
+1	Che	che	SCONJ	CS	_	8	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Repubblica	repubblica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	dimettersi	_	_	_	_	_	_	_	SpaceAfter=No
+12	dimetter	dimettere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Che non può farlo per il bene del Paese?
+1	Che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	farlo	_	_	_	_	_	_	_	_
+4	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bene	bene	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Siamo in piena democratizzazione, eppure alcuni sembra che non l'abbiano ancora capito.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	democratizzazione	democratizzazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	eppure	eppure	CCONJ	CC	_	8	cc	_	_
+7	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+8	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+12	abbiano	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	ancora	ancora	ADV	B	_	12	advmod	_	_
+14	capito	capire	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Il Presidente della Repubblica è il garante della nostra Costituzione, della nostra democrazia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Repubblica	Repubblica	PROPN	SP	_	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	garante	garante	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = E se lui decide di dimettersi, lo fa perché ritiene che sia nel interesse del Paese.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	dimettersi	_	_	_	_	_	_	_	SpaceAfter=No
+6	dimetter	dimettere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	perché	perché	SCONJ	CS	_	12	mark	_	_
+12	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+13	che	che	SCONJ	CS	_	14	mark	_	_
+14	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = Ma Grillo non è il solo a parlare in questo modo.mű#3aM5S ha twittato:
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	Grillo	Grillo	PROPN	SP	_	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	solo	solo	ADJ	A	Gender=Masc|Number=Sing	13	nsubj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	parlare	parlare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	modo.mű#3aM5S	modo.mű#3aM5S	PROPN	SP	_	8	obl	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	twittato	twittare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 15
+# text = "Speriamo che Napolitano dimetta certi consiglieri.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	Napolitano	Napolitano	PROPN	SP	_	5	nsubj	_	_
+5	dimetta	dimettare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	consiglieri	consigliero	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Renzi ci farà una laws comma10 per le dimissioni volontarie.
+1	Renzi	Renzi	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	laws	laws	NOUN	S	Gender=Fem	3	obj	_	_
+6	comma10	comma10	NUM	N	NumType=Card	5	nummod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+10	volontarie	volontario	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Ora serve un fisco giusto, non politici che ci ricattano #Costituzione".
+1	Ora	ora	ADV	B	_	2	advmod	_	_
+2	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fisco	fisco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	politici	politico	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+11	ricattano	ricattare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	#Costituzione	#Costituzione	NOUN	S	Gender=Fem|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Insomma, sembra che l'idea sia che Napolitano stia ricattando il Paese con le sue dimissioni.
+1	Insomma	insomma	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	idea	idea	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	Napolitano	Napolitano	PROPN	SP	_	11	nsubj	_	_
+10	stia	stare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	ricattando	ricattare	VERB	V	VerbForm=Ger	6	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Ma io mi chiedo:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 20
+# text = ma cosa avrebbe mai da ricattare Napolitano?
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+3	avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mai	mare	ADV	B	_	3	advmod	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	ricattare	ricattare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	Napolitano	Napolitano	PROPN	SP	_	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = E invece il Premier, Matteo Renzi, ha intervenuto dicendo che le dimissioni di Napolitano "
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Premier	premier	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Matteo	Matteo	PROPN	SP	_	4	appos	_	_
+7	Renzi	Renzi	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	intervenuto	intervenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	dicendo	dire	VERB	V	VerbForm=Ger	10	advcl	_	_
+12	che	che	SCONJ	CS	_	14	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Napolitano	Napolitano	PROPN	SP	_	14	nmod	_	_
+17	"	"	PUNCT	FB	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,414 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non solo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il conteggio dei passi, dei chilometri percorsi (o corsi) e delle calorie bruciate , stando al Consumer Council, erano infatti inaccurati:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	conteggio	conteggio	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	passi	passo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+10	percorsi	percorso	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	corsi	corso	ADJ	A	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	calorie	caloria	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+19	bruciate	bruciato	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	stando	stare	VERB	V	VerbForm=Ger	29	advcl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Consumer	Consumer	PROPN	SP	_	21	obl	_	_
+25	Council	Council	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	21	punct	_	_
+27	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+28	infatti	infatti	ADV	B	_	29	advmod	_	_
+29	inaccurati	inaccurare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	29	punct	_	_
+
+# sent_id = 3
+# text = “I risultati mostrano che le differenze fra gli smartwatch e i braccialetti e strumenti professionali possono essere elevate – ha spiegato Clement Chan Kam-wing , componente della locale organizzazione dei consumatori.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	19	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+8	fra	fra	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	smartwatch	smartwatch	NOUN	S	Gender=Masc	7	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	braccialetti	braccialetto	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+16	professionali	professionale	ADJ	A	Number=Plur	15	amod	_	_
+17	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	essere	essere	AUX	VA	VerbForm=Inf	19	aux:pass	_	_
+19	elevate	elevare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+20	–	–	PUNCT	FB	_	19	punct	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	parataxis	_	_
+23	Clement	Clement	PROPN	SP	_	22	nsubj	_	_
+24	Chan	Chan	PROPN	SP	_	23	flat:name	_	_
+25	Kam-wing	Kam-wing	PROPN	SP	_	23	flat:name	_	_
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	componente	componente	NOUN	S	Number=Sing	23	appos	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	locale	locale	ADJ	A	Number=Sing	31	amod	_	_
+31	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	consumatori	consumatore	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = In particolare, alcuni fattori come il modo in cui il dispositivo viene indossato – per esempio se è troppo stretto intorno al polso – possono influenzare l'accuratezza delle rilevazioni.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dispositivo	dispositivo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+13	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	indossato	indossare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	–	–	PUNCT	FB	_	14	punct	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	se	se	SCONJ	CS	_	21	mark	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	troppo	troppo	ADV	B	_	21	advmod	_	_
+21	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	14	advcl	_	_
+22	intorno	intorno	ADV	B	_	25	case	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	22	fixed	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	polso	polso	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+26	–	–	PUNCT	FB	_	5	punct	_	_
+27	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	influenzare	influenzare	VERB	V	VerbForm=Inf	0	root	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	accuratezza	accuratezza	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	rilevazioni	rilevazione	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 5
+# text = Secondo Chan dovremmo utilizzare questi gadget "solo per farci un'idea" dei passi, dei consumi e delle distanze percorse.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	Chan	Chan	PROPN	SP	_	4	obl	_	_
+3	dovremmo	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	utilizzare	utilizzare	VERB	V	VerbForm=Inf	0	root	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	gadget	gadget	NOUN	S	Gender=Masc	4	obj	_	_
+7	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	farci	_	_	_	_	_	_	_	_
+10	far	fare	VERB	V	VerbForm=Inf	6	acl	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	idea	idea	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	17	punct	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	passi	passo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	consumi	consumo	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	distanze	distanza	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+26	percorse	percorso	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Una posizione certo molto critica rispetto alle aziende che invece, nel settore, investono da molti anni.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	certo	certo	ADV	B	_	5	advmod	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	critica	critico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+6	rispetto	rispetto	ADV	B	_	9	case	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+11	invece	invece	ADV	B	_	17	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	settore	settore	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	investono	investire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Il modello più costoso si è per giunta rivelato il peggiore in termini di conteggio dei passi, con una discrepanza del 49% rispetto a strumenti professionali.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modello	modello	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	costoso	costoso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	giunta	giunta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+9	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	peggiore	peggiore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	termini	termine	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	conteggio	conteggio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	passi	passo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	discrepanza	discrepanza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	49	49	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	22	nmod	_	_
+27	rispetto	rispetto	ADV	B	_	29	case	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+30	professionali	professionale	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Al contrario, le misurazioni per la corsa si sono rivelate più precise, con quattro modelli che si sono discostati di meno dello 0,5% da quelli professionali.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	misurazioni	misurazione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	rivelate	rivelare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	precise	preciso	ADJ	A	Gender=Fem|Number=Plur	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	quattro	quattro	NUM	N	NumType=Card	18	nummod	_	_
+18	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	discostati	discostare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	meno	meno	ADV	B	_	22	advmod	_	_
+25-26	dello	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	0,5	0,5	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	SYM	_	24	obl	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	22	obl	_	_
+31	professionali	professionale	ADJ	A	Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Dunque, almeno per la corsa, ci si può fidare.
+1	Dunque	dunque	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	almeno	almeno	ADV	B	_	6	advmod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fidare	fidare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Solo cinque modelli testati hanno fatto segnare discrepanze minori del 10% su entrambi i fronti.
+1	Solo	solo	ADV	B	_	2	advmod	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	testati	testato	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	segnare	segnare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	discrepanze	discrepanza	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	minori	minore	ADJ	A	Degree=Cmp|Number=Plur	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	10	10	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	8	nmod	_	_
+14	su	su	ADP	E	_	17	case	_	_
+15	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	fronti	fronte	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Male, invece, nel caso delle calorie bruciate nel corso dell’esercizio (con differenze dell’88%).
+1	Male	male	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	calorie	caloria	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	bruciate	bruciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	corso	corso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	con	con	ADP	E	_	20	case	_	_
+20	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+21-22	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	24	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+23	88	88	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+24	%	%	SYM	SYM	_	20	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = In generale, la tendenza che sembra essere uscita dall’indagine è che le distanze vengono sottostimate mentre le calorie bruciate eccessivamente conteggiate.
+1	In	in	ADP	E	_	2	case	_	_
+2	generale	generale	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+10-11	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+10	da	da	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	che	che	SCONJ	CS	_	18	mark	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	distanze	distanza	NOUN	S	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+17	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	sottostimate	sottostimare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	ccomp	_	_
+19	mentre	mentre	SCONJ	CS	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	calorie	caloria	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+22	bruciate	bruciato	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	eccessivamente	eccessivamente	ADV	B	_	24	advmod	_	_
+24	conteggiate	conteggiato	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 13
+# text = Fra i migliori modelli, combinando tutti i fattori, ci sono gli Apple Watch , con un punteggio di 4,5/5, seguiti dai modelli di Samsung e quelli di Garmin e Fitbit con 4 punti su 5. Male Casio e MyKronoz che sarebbero intorno a 3 punti.
+1	Fra	fra	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	4	amod	_	_
+4	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	combinando	combinare	VERB	V	VerbForm=Ger	12	advcl	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Apple	Apple	PROPN	SP	_	12	nsubj	_	_
+15	Watch	Watch	PROPN	SP	_	14	flat:name	_	_
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	punteggio	punteggio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	4,5	4,5	NUM	N	NumType=Card	19	nmod	_	SpaceAfter=No
+22	/	/	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+23	5	5	NUM	N	NumType=Card	21	compound	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	19	punct	_	_
+25	seguiti	seguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+26-27	dai	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	25	obl:agent	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Samsung	Samsung	PROPN	SP	_	28	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	30	conj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Garmin	Garmin	PROPN	SP	_	32	nmod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	Fitbit	Fitbit	PROPN	SP	_	34	conj	_	_
+37	con	con	ADP	E	_	39	case	_	_
+38	4	4	NUM	N	NumType=Card	39	nummod	_	_
+39	punti	punto	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+40	su	su	ADP	E	_	43	case	_	_
+41	5	5	NUM	N	NumType=Card	43	nummod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	41	punct	_	_
+43	Male	male	PROPN	SP	_	39	nmod	_	_
+44	Casio	Casio	PROPN	SP	_	39	nmod	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	MyKronoz	MyKronoz	PROPN	SP	_	44	conj	_	_
+47	che	che	PRON	PR	PronType=Rel	52	nsubj	_	_
+48	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+49	intorno	intorno	ADV	B	_	52	case	_	_
+50	a	a	ADP	E	_	49	fixed	_	_
+51	3	3	NUM	N	NumType=Card	52	nummod	_	_
+52	punti	punto	NOUN	S	Gender=Masc|Number=Plur	44	acl:relcl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+

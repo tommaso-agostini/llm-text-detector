@@ -1,0 +1,329 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ugo Sposetti , senatore uscente ex tesoriere del Pds, intervistato dal Corriere della Sera , è durissimo nei confronti dell'ex premier.
+1	Ugo	Ugo	PROPN	SP	_	21	nsubj	_	_
+2	Sposetti	Sposetti	PROPN	SP	_	1	flat:name	_	_
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	senatore	senatore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	uscente	uscente	ADJ	A	Number=Sing	4	amod	_	_
+6	ex	ex	ADJ	A	_	4	amod	_	_
+7	tesoriere	tesoriere	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Pds	Pds	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	intervistato	intervistato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Corriere	Corriere	PROPN	SP	_	12	obl:agent	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Sera	Sera	PROPN	SP	_	15	nmod	_	_
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	durissimo	duro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	_
+22-23	nei	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+25-26	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	28	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+27	ex	ex	ADJ	A	_	28	amod	_	_
+28	premier	premier	NOUN	S	_	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 2
+# text = “Lui e la sua cerchia sono delinquenti seriali che hanno distrutto la sinistra e rotto l’idea di comunità” , attacca lo storico dirigente dalemiano che annuncia: " Proporrò la costituzione di ‘Comitati 5 marzo‘ per la rinascita del Pd.
+1	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	cerchia	cerchia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	delinquenti	delinquento	ADJ	A	Number=Plur	0	root	_	_
+9	seriali	seriale	ADJ	A	Number=Plur	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	rotto	rompere	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	idea	idea	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	comunità	comunità	NOUN	S	Gender=Fem	18	nmod	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	18	punct	_	_
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
+24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	storico	storico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	dirigente	dirigente	NOUN	S	Number=Sing	32	nsubj	_	_
+27	dalemiano	dalemiano	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	annuncia	annunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	29	punct	_	_
+31	"	"	PUNCT	FB	_	32	punct	_	_
+32	Proporrò	Proporrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	8	parataxis	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	‘Comitati	‘Comitato	PROPN	SP	_	34	nmod	_	_
+37	5	5	NUM	N	NumType=Card	36	nummod	_	_
+38	marzo‘	marzo‘	PUNCT	FB	_	32	punct	_	_
+39	per	per	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	rinascita	rinascita	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	Pd	Pd	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = I circoli devono autoconvocarsi per esaminare il risultato elettorale ed elaborare proposte per tornare a essere un partito vero”.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	circoli	circolo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	autoconvocarsi	_	_	_	_	_	_	_	_
+4	autoconvocar	autoconvocare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	obj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	esaminare	esaminare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	elettorale	elettorale	ADJ	A	Number=Sing	9	amod	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	elaborare	elaborare	VERB	V	VerbForm=Inf	4	conj	_	_
+13	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	tornare	tornare	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	a	a	ADP	E	_	19	mark	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	19	cop	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	partito	partito	NOUN	S	Gender=Masc|Number=Sing	15	ccomp	_	_
+20	vero	vero	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = “ Renzi va processato” ha detto ancora l’ex tesoriere, citando il Pasolini del processo alla Dc, perché, dice Sposetti, “ci ha portati in una situazione peggiore a quella del ’48.
+1	“	“	PUNCT	FB	_	4	punct	_	_
+2	Renzi	Renzi	PROPN	SP	_	4	nsubj	_	_
+3	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	processato	processare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+8	ancora	ancora	ADV	B	_	7	advmod	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	ex	ex	ADJ	A	_	11	amod	_	_
+11	tesoriere	tesoriere	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	citando	citare	VERB	V	VerbForm=Ger	7	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Pasolini	Pasolini	PROPN	SP	_	13	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	processo	processo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Dc	dc	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	7	punct	_	_
+23	perché	perché	SCONJ	CS	_	30	mark	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	30	punct	_	_
+25	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	parataxis	_	_
+26	Sposetti	Sposetti	PROPN	SP	_	25	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	“	“	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
+30	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+31	portati	portare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	xcomp	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+35	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	34	amod	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	31	obl	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	’48	’48	NUM	N	NumType=Card	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Qua non è rimasto nulla”.
+1	Qua	qua	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	xcomp	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Secondo lui la sconfitta di domenica "è figlia di arroganza politica, boria, pressappochismo, visione miope” e “dietro questa sconfitta c’è anche l’insano gusto del potere che pervade ogni azione di Renzi” .
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sconfitta	sconfitta|sconfitto	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	arroganza	arroganza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	politica	politico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	boria	boria	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	pressappochismo	pressappochismo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	visione	visione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+19	miope	miope	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	18	punct	_	_
+21	e	e	CCONJ	CC	_	27	cc	_	_
+22	“	“	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+23	dietro	dietro	ADP	E	_	25	case	_	_
+24	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	sconfitta	sconfitta|sconfitto	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+26	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	27	expl	_	SpaceAfter=No
+27	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+28	anche	anche	ADV	B	_	31	advmod	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+30	insano	insano	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	potere	potere	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	pervade	pervadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+37	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	38	det	_	_
+38	azione	azione	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	Renzi	Renzi	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+41	”	”	PUNCT	FB	_	40	punct	_	_
+42	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Sposetti crede poco anche alle dimissioni del segretario:
+1	Sposetti	Sposetti	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	poco	poco	ADV	B	_	2	advmod	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	dimissioni	dimissione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = "Tutto quello che sta facendo Renzi in questi giorni e in queste ore è dettato da un vero e disgustoso attaccamento alla poltrona" . E ha aggiunto:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	30	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	facendo	fare	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+7	Renzi	Renzi	PROPN	SP	_	6	obj	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	ore	ora	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	dettato	dettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+17	da	da	ADP	E	_	22	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+19	vero	vero	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	disgustoso	disgustoso	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	_
+22	attaccamento	attaccamento	NOUN	S	Gender=Masc|Number=Sing	16	obl:agent	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	poltrona	poltrona	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	_
+27	.	.	PUNCT	FS	_	3	punct	_	_
+28	E	e	CCONJ	CC	_	30	cc	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	30	punct	_	_
+
+# sent_id = 9
+# text = "Per questo non esiste altra via che quella di un vero e proprio processo politico a Renzi da parte della nostra gente.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	via	via	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	acl:relcl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	vero	vero	ADJ	A	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	processo	processo	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+16	politico	politico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Renzi	Renzi	PROPN	SP	_	15	nmod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	gente	gente	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = A Renzi va soltanto impedito di fare altri danni a se stesso, al partito, alla sinistra, al Paese".
+1	A	a	ADP	E	_	2	case	_	_
+2	Renzi	Renzi	PROPN	SP	_	5	obl	_	_
+3	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	soltanto	soltanto	ADV	B	_	5	advmod	_	_
+5	impedito	impedire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	altri	altro	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	danni	danno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	obl	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	partito	partito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,310 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Si è inventato tutto, ogni dettaglio.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	dettaglio	dettaglio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Era una messinscena ben orchestrata, e io ora ne pago le conseguenze”, ha dichiarato Noemi, visibilmente provata.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	messinscena	messinscena	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	orchestrata	orchestrare	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	ora	ora	ADV	B	_	11	advmod	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+11	pago	pagare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	3	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+18	Noemi	Noemi	PROPN	SP	_	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	visibilmente	visibilmente	ADV	B	_	21	advmod	_	_
+21	provata	provato	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Le accuse sono pesanti e riguardano le frequentazioni con esponenti del mondo politico e non solo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	pesanti	pesante	ADJ	A	Number=Plur	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	riguardano	riguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	frequentazioni	frequentazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	esponenti	esponente	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	politico	politico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	solo	solo	ADV	B	_	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Gualano, secondo la sua versione, avrebbe sostenuto di averle introdotto in contesti di potere, offrendo in cambio favori e ospitalità.
+1	Gualano	Gualare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	secondo	secondo	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	versione	versione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
+10	di	di	ADP	E	_	13	mark	_	_
+11-12	averle	_	_	_	_	_	_	_	_
+11	aver	avere	AUX	VA	VerbForm=Inf	13	aux	_	_
+12	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+13	introdotto	introdotto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	contesti	contesto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	potere	potere	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	offrendo	offrire	VERB	V	VerbForm=Ger	13	advcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	favori	favore	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	ospitalità	ospitalità	NOUN	S	Gender=Fem	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Noemi smentisce categoricamente questa ricostruzione, affermando:
+1	Noemi	Noemi	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	smentisce	smentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	categoricamente	categoricamente	ADV	B	_	2	advmod	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	affermando	affermare	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = “Non ho mai ottenuto nulla in cambio di favori.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	Non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	5	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	favori	favoro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Gino mi ha usata per creare un’immagine di sé, per pavoneggiarsi nei salotti buoni.
+1	Gino	Gino	PROPN	SP	_	4	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	usata	usare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	creare	creare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sé	sé	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13-14	pavoneggiarsi	_	_	_	_	_	_	_	_
+13	pavoneggiar	pavoneggiare	VERB	V	VerbForm=Inf	6	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15-16	nei	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	salotti	salotto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+18	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = E non l’ha fatto gratis, ne sono assolutamente certa.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	gratis	gratis	NOUN	S	Gender=Masc	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	11	iobj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	assolutamente	assolutamente	ADV	B	_	11	advmod	_	_
+11	certa	certo	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = C’erano interessi di terzi dietro, soldi in gioco, e io ero solo un burattino”.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	terzi	terzo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+6	dietro	dietro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	17	punct	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+14	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	cop	_	_
+15	solo	solo	ADV	B	_	17	advmod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	burattino	burattino	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = L'inchiesta giornalistica de Il Giornale ha raccolto elementi che confermano una certa confusione nelle dichiarazioni rilasciate da Gualano nelle ultime settimane.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	giornalistica	giornalistico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	E	_	6	case	_	_
+5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	raccolto	raccogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	confermano	confermare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	certa	certo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	confusione	confusione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+15-16	nelle	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+18	rilasciate	rilasciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Gualano	Gualano	PROPN	SP	_	18	obl:agent	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	24	amod	_	_
+24	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Le ricostruzioni fatte a posteriori sembrano, a detta di chi conosceva bene l’imprenditore, prive di coerenza e finalizzate a tutelare la sua immagine.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	ricostruzioni	ricostruzione	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	posteriori	posteriore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	detta	detta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	chi	chi	PRON	PR	Number=Sing|PronType=Rel	9	nmod	_	_
+12	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	imprenditore	imprenditore	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	prive	privo	ADJ	A	Gender=Fem|Number=Plur	12	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	coerenza	coerenza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	finalizzate	finalizzare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	conj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	tutelare	tutelare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Si ipotizza un tentativo di sviare le indagini su possibili attività illecite, utilizzando la figura di Noemi come schermo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	ipotizza	ipotizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	sviare	sviare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	possibili	possibile	ADJ	A	Number=Plur	11	amod	_	_
+11	attività	attività	NOUN	S	Gender=Fem	8	nmod	_	_
+12	illecite	illecito	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	utilizzando	utilizzare	VERB	V	VerbForm=Ger	2	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	figura	figura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Noemi	Noemi	PROPN	SP	_	16	nmod	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	schermo	schermo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = La ragazza ha riferito di aver ricevuto pressioni per mantenere il silenzio e di aver temuto per la propria sicurezza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	7	aux	_	_
+7	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	pressioni	pressione	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	mantenere	mantenere	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	mark	_	_
+15	aver	avere	AUX	VA	VerbForm=Inf	16	aux	_	_
+16	temuto	temere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+17	per	per	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Ha inoltre annunciato che collaborerà pienamente con la magistratura per fare luce sulla vicenda, fornendo tutti i dettagli in suo
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	inoltre	inoltre	ADV	B	_	3	advmod	_	_
+3	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	collaborerà	collaborere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+6	pienamente	pieno	ADV	B	_	5	advmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	magistratura	magistratura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	luce	luce	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	fornendo	fornire	VERB	V	VerbForm=Ger	5	advcl	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	obl	_	SpacesAfter=\n
+

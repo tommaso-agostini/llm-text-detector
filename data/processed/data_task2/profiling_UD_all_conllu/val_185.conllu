@@ -1,0 +1,507 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un'esposizione che prosegue il suo percorso espositivo nella città romagnola, con il patrocinio di Amnesty International .
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	prosegue	proseguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	espositivo	espositivo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	città	città	NOUN	S	Gender=Fem	7	nmod	_	_
+12	romagnola	romagnolo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	patrocinio	patrocinio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Amnesty	Amnesty	PROPN	SP	_	16	nmod	_	_
+19	International	International	PROPN	SP	_	18	flat:name	_	_
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La rassegna delle opere di Sansavini è visitabile presso la Biblioteca Classense - Manica Lunga, in via Baccarini, 3 a Ravenna, appunto, con ingresso libero.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rassegna	rassegna	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	opere	opera	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Sansavini	Sansavini	PROPN	SP	_	5	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	visitabile	visitabile	ADJ	A	Number=Sing	0	root	_	_
+10	presso	presso	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Biblioteca	biblioteca	PROPN	SP	_	9	obl	_	_
+13	Classense	Classenso	PROPN	SP	_	12	flat:name	_	_
+14	-	-	PUNCT	FF	_	12	punct	_	_
+15	Manica	Manica	PROPN	SP	_	12	nmod	_	_
+16	Lunga	lunga	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	via	via	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+20	Baccarini	Baccarini	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	3	3	NUM	N	NumType=Card	19	nummod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	Ravenna	Ravenna	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	appunto	appunto	ADV	B	_	19	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28	con	con	ADP	E	_	29	case	_	_
+29	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+30	libero	libero	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Orari: dalle 15 alle 18 nei giorni feriali e domenica.
+1	Orari	orari	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	15	15	NUM	N	NumType=Card	1	nmod	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	18	18	NUM	N	NumType=Card	11	nummod	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+12	feriali	feriale	ADJ	A	Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Chiusa il Lunedì.
+1	Chiusa	chiudere	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Lunedì	lunedì	PROPN	SP	_	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Telefono: 0544.482116. Mail: segreteriaclas@classense.ra.it ; casadelleculture@racine.ra.it .
+1	Telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	0544.482116	0544.482116	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	FF	_	1	punct	_	_
+5	Mail	Mail	PROPN	SP	_	1	parataxis	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+7	segreteriaclas@classense.ra.it	segreteriaclas@classense.ra.it	NOUN	S	Gender=Masc	9	nmod	_	_
+8	;	;	PUNCT	FC	_	9	punct	_	_
+9	casadelleculture@racine.ra.it	casadelleculture@racine.ra.it	NOUN	S	Gender=Masc	5	nmod	_	_
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Nel cimitero delle barche dei migranti .
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	barche	barca	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	migranti	migrante	NOUN	S	Number=Plur	6	nmod	_	_
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Dopo Ravenna, la mostra sarà ospitata alla Fondazione Tito Balestra di Longiano (FC) dal 14 aprile al 24 giugno prossimi.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	Ravenna	Ravenna	PROPN	SP	_	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
+7	ospitata	ospitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Fondazione	fondazione	PROPN	SP	_	20	obl	_	_
+11	Tito	Tito	PROPN	SP	_	10	flat:name	_	_
+12	Balestra	Balestra	PROPN	SP	_	10	flat:name	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Longiano	Longiano	PROPN	SP	_	10	nmod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	FC	FC	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	14	14	NUM	N	NumType=Card	7	obl	_	_
+21	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	20	flat	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	24	24	NUM	N	NumType=Card	7	obl	_	_
+25	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	24	flat	_	_
+26	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Sansavini è l’unico artista ad aver ottenuto l’autorizzazione dal Tribunale di Agrigento per entrare nel girone dantesco del cimitero delle barche di Lampedusa, nell’ex-base americana Loran dove, accanto ai molti scafi, ormai abbandonati, sono rimasti molti degli oggetti personali che hanno accompagnato i viaggi di migliaia di persone attraverso il Mediterraneo, verso la speranza di una vita migliore.
+1	Sansavini	Sansavini	PROPN	SP	_	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	unico	unico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	artista	artista	NOUN	S	Number=Sing	0	root	_	_
+6	ad	a	ADP	E	_	8	mark	_	_
+7	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	autorizzazione	autorizzazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Agrigento	Agrigento	PROPN	SP	_	13	nmod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	entrare	entrare	VERB	V	VerbForm=Inf	8	advcl	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	girone	girone	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	dantesco	dantesco	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cimitero	cimitero	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	barche	barca	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Lampedusa	Lampedusa	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	8	punct	_	_
+31-32	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+31	in	in	ADP	E	_	35	case	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+33	ex	ex	ADJ	A	_	35	amod	_	SpaceAfter=No
+34	-	-	PUNCT	FF	_	33	punct	_	SpaceAfter=No
+35	base	base	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+36	americana	americano	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+37	Loran	Loran	PROPN	SP	_	35	nmod	_	_
+38	dove	dove	ADV	B	_	50	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	accanto	accanto	ADV	B	_	44	case	_	_
+41-42	ai	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	40	fixed	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+43	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	44	det	_	_
+44	scafi	scafo	NOUN	S	Gender=Masc|Number=Plur	50	obl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	ormai	ormai	ADV	B	_	47	advmod	_	_
+47	abbandonati	abbandonato	ADJ	A	Gender=Masc|Number=Plur	44	amod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	44	punct	_	_
+49	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+50	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	acl:relcl	_	_
+51	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	50	nsubj	_	_
+52-53	degli	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	oggetti	oggetto	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	_
+55	personali	personale	ADJ	A	Number=Plur	54	amod	_	_
+56	che	che	PRON	PR	PronType=Rel	58	nsubj	_	_
+57	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
+58	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	54	acl:relcl	_	_
+59	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
+60	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	58	obj	_	_
+61	di	di	ADP	E	_	62	case	_	_
+62	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	60	nmod	_	_
+63	di	di	ADP	E	_	64	case	_	_
+64	persone	persona	NOUN	S	Gender=Fem|Number=Plur	62	nmod	_	_
+65	attraverso	attraverso	ADP	E	_	67	case	_	_
+66	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	Mediterraneo	Mediterraneo	PROPN	SP	_	64	nmod	_	SpaceAfter=No
+68	,	,	PUNCT	FF	_	50	punct	_	_
+69	verso	verso	ADP	E	_	71	case	_	_
+70	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
+71	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	50	obl	_	_
+72	di	di	ADP	E	_	74	case	_	_
+73	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
+74	vita	vita	NOUN	S	Gender=Fem|Number=Sing	71	nmod	_	_
+75	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	74	amod	_	SpaceAfter=No
+76	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Le sculture con il legno delle imbarcazioni.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	sculture	scultura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	legno	legno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	imbarcazioni	imbarcazioni	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Il legno prelevato dalle imbarcazioni abbandonate è stato trasformato dall’artista in sculture che raccontano i singoli naufragi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	legno	legno	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+3	prelevato	prelevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	imbarcazioni	imbarcazione	NOUN	S	Gender=Fem|Number=Plur	3	obl:agent	_	_
+7	abbandonate	abbandonato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	artista	artista	NOUN	S	Number=Sing	10	obl:agent	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	sculture	scultura	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	singoli	singolo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	naufragi	naufrago	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = A ricordarceli, il titolo dell’opera:
+1	A	a	ADP	E	_	2	case	_	_
+2	ricordarceli	ricordarcelo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6-7	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	opera	opera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = la data in cui è avvenuto.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	data	data	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Il logo “Touroperator” trae ispirazione dalla scritta Abreit Macht Frei , che campeggiava sui cancelli dei campi di concentramento.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	logo	logo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Touroperator	Touroperator	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	_
+6	trae	trarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scritta	scritta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	Abreit	Abreit	PROPN	SP	_	10	nmod	_	_
+12	Macht	Macht	PROPN	SP	_	11	flat:name	_	_
+13	Frei	Frei	PROPN	SP	_	11	flat:name	_	_
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	campeggiava	campeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+17-18	sui	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	cancelli	cancello	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	campi	campo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	concentramento	concentramento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = La mostra è stata organizzata da:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	organizzata	organizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	5	nsubj:pass	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 15
+# text = l'Assessorato all'immigrazione, e la Casa delle Culture del Comune di Ravenna, l’Istituzione Biblioteca Classense, in collaborazione con Rete civile contro il razzismo e xenofobia Ravenna, Coop di mediazione culturale Terra mia, "conCittadini" - Assemblea legislativa.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Assessorato	Assessorato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	immigrazione	immigrazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Culture	cultura	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Comune	Comune	PROPN	SP	_	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Ravenna	Ravenna	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	Istituzione	istituzione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+21	Biblioteca	Biblioteco	PROPN	SP	_	20	nmod	_	_
+22	Classense	Classenso	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	Rete	rete	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	civile	civile	ADJ	A	Number=Sing	27	amod	_	_
+29	contro	contro	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	xenofobia	xenofobia	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+34	Ravenna	Ravenna	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	Coop	Coop	PROPN	SP	_	2	conj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	mediazione	mediazione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39	culturale	culturale	ADJ	A	Number=Sing	38	amod	_	_
+40	Terra	Terra	PROPN	SP	_	38	nmod	_	_
+41	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	flat:name	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	44	punct	_	_
+43	"	"	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	conCittadini	concittadini	PROPN	SP	_	2	conj	_	SpaceAfter=No
+45	"	"	PUNCT	FB	_	44	punct	_	_
+46	-	-	PUNCT	FF	_	44	punct	_	_
+47	Assemblea	assemblea	NOUN	S	Gender=Fem|Number=Sing	44	compound	_	_
+48	legislativa	legislativo	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Regione Emilia-Romagna.
+1	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Emilia	Emilia	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	Romagna	Romagna	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = L'iniziativa è programmata in occasione della Settimana internazionale contro il razzismo e la discriminazione razziale.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	programmata	programmare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	internazionale	internazionale	ADJ	A	Number=Sing	9	amod	_	_
+11	contro	contro	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	discriminazione	discriminazione	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+17	razziale	razziale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Gli altri luoghi della mostra.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	altri	altro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = "Touroperator" è stata accolta da:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Touroperator	Touroperator	PROPN	SP	_	6	nsubj:pass	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	accolta	accogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	da	da	ADP	E	_	6	nsubj:pass	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 20
+# text = Musei San Domenico, Forlì - Parlamento Europeo, Bruxelles - sede della Regione Emilia-Romagna, Bologna - Fondazione Zoli per l'arte Contemporanea, Forlì - Stazione Marittima Zaha Adid, Salerno - Comune di Imola - Arsenale della Marina Regia - Museo del Mare di Palermo.
+1	Musei	musei	PROPN	SP	_	0	root	_	_
+2	San	San	PROPN	SP	_	1	flat:name	_	_
+3	Domenico	Domenico	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Forlì	Forlì	PROPN	SP	_	10	nmod	_	_
+6	-	-	PUNCT	FF	_	5	punct	_	_
+7	Parlamento	Parlamento	PROPN	SP	_	5	flat:name	_	_
+8	Europeo	Europeo	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	Bruxelles	Bruxelles	PROPN	SP	_	1	nmod	_	_
+11	-	-	PUNCT	FF	_	10	punct	_	_
+12	sede	sede	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	Emilia	Emilia	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+18	Romagna	Romagna	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	Bologna	Bologna	PROPN	SP	_	1	nmod	_	_
+21	-	-	PUNCT	FF	_	20	punct	_	_
+22	Fondazione	fondazione	PROPN	SP	_	20	flat:name	_	_
+23	Zoli	Zoli	PROPN	SP	_	20	flat:name	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	arte	arte	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+27	Contemporanea	contemporanea	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	Forlì	Forlì	PROPN	SP	_	26	nmod	_	_
+30	-	-	PUNCT	FF	_	29	punct	_	_
+31	Stazione	stazione	PROPN	SP	_	29	flat:name	_	_
+32	Marittima	marittima	PROPN	SP	_	29	flat:name	_	_
+33	Zaha	Zaha	PROPN	SP	_	29	flat:name	_	_
+34	Adid	Adid	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	1	punct	_	_
+36	Salerno	Salerno	PROPN	SP	_	1	nmod	_	_
+37	-	-	PUNCT	FF	_	36	punct	_	_
+38	Comune	Comune	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	Imola	Imola	PROPN	SP	_	38	nmod	_	_
+41	-	-	PUNCT	FF	_	38	punct	_	_
+42	Arsenale	Arsenale	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+43-44	della	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	Marina	marina	PROPN	SP	_	42	nmod	_	_
+46	Regia	regia	PROPN	SP	_	45	flat:name	_	_
+47	-	-	PUNCT	FF	_	45	punct	_	_
+48	Museo	museo	PROPN	SP	_	45	nmod	_	_
+49-50	del	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	Mare	mare	PROPN	SP	_	48	nmod	_	_
+52	di	di	ADP	E	_	53	case	_	_
+53	Palermo	Palermo	PROPN	SP	_	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

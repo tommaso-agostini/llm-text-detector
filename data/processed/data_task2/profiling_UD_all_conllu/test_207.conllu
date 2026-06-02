@@ -1,0 +1,397 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una notizia che ha del clamoroso, sconvolgendo il panorama del cibo e attirando l'attenzione dei media di tutto il mondo.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	clamoroso	clamoroso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	sconvolgendo	sconvolgire	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	attirando	attirare	VERB	V	VerbForm=Ger	9	conj	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	media	media	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	25	det:predet	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma non è frutto di una voce diffamante o di una fake news:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	diffamante	diffamante	ADJ	A	Number=Sing	7	amod	_	_
+9	o	o	CCONJ	CC	_	13	cc	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	fake	fake	ADJ	A	Number=Sing	13	amod	_	_
+13	news	news	NOUN	S	Gender=Fem	7	conj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = a parlare è un importante esponente del governo italiano.
+1	a	a	ADP	E	_	2	mark	_	_
+2	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	importante	importante	ADJ	A	Number=Sing	6	amod	_	_
+6	esponente	esponente	NOUN	S	Number=Sing	2	nsubj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Attestano fonti interne al dicastero le dichiarazioni del ministro, secondo cui non vi è alcuna intenzione di autorizzare l'introduzione di insetti nella nostra dieta.
+1	Attestano	Attestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	interne	interno	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dicastero	dicastero	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	secondo	secondo	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+18	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	autorizzare	autorizzare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	introduzione	introduzione	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26-27	nella	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il motivo è molto chiaro:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = l'opinione pubblica, già ampiamente divisa su temi come il consumo di insetti e lo sfruttamento degli animali, deve avere garanzie in termini di sicurezza alimentare e tutela dell'identità gastronomica del Paese.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+3	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	già	già	ADV	B	_	7	advmod	_	_
+6	ampiamente	ampiamente	ADV	B	_	7	advmod	_	_
+7	divisa	dividere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	temi	tema	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	animali	animale	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+24	garanzie	garanzia	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	termini	termine	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	alimentare	alimentare	ADJ	A	Number=Sing	28	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+32-33	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	identità	identità	NOUN	S	Gender=Fem	31	nmod	_	_
+35	gastronomica	gastronomico	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 7
+# text = L'annuncio arriva in un momento cruciale:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	cruciale	cruciale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = proprio in questi giorni il Parlamento europeo ha dato il via libera a un progetto di legge sulla sostenibilità delle produzioni alimentari, che prevede proprio misure specifiche a difesa delle specie tradizionali.
+1	proprio	proprio	ADV	B	_	4	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Parlamento	Parlamento	PROPN	SP	_	9	nsubj	_	_
+7	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	via	via	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	libera	libero	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	legge	legge	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sostenibilità	sostenibilità	NOUN	S	Gender=Fem	9	obl	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	produzioni	produzione	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+24	alimentari	alimentare	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+28	proprio	proprio	ADV	B	_	27	advmod	_	_
+29	misure	misura	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	specifiche	specifico	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	specie	specie	NOUN	S	Gender=Fem	29	nmod	_	_
+36	tradizionali	tradizionale	ADJ	A	Number=Plur	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Una tutela pre-emptive, dunque, per evitare precedenze pericolose.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	pre	pre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	-emptive	-emptivo	SCONJ	CS	_	9	mark	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	dunque	dunque	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	evitare	evitare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	precedenze	precedenze	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	pericolose	pericoloso	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Non si tratta di un divieto assoluto, specifica il ministero, ma di una scelta di prudenza.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	specifica	specificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	prudenza	prudenza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = La normativa vigente in Italia categorizza già molti cibi come proteine o piatti tradizionali, esaminandone attentamente la sicurezza alimentare e l'adeguatezza nutrizionale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	vigente	vigere	ADJ	A	Number=Sing	2	amod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Italia	Italia	PROPN	SP	_	2	nmod	_	_
+6	categorizza	categorizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	già	già	ADV	B	_	6	advmod	_	_
+8	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	proteine	proteina	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14	tradizionali	tradizionale	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16-17	esaminandone	_	_	_	_	_	_	_	_
+16	esaminando	esaminare	VERB	V	VerbForm=Ger	6	advcl	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	16	iobj	_	_
+18	attentamente	attento	ADV	B	_	16	advmod	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+21	alimentare	alimentare	ADJ	A	Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	adeguatezza	adeguatezza	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+25	nutrizionale	nutrizionale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Le dichiarazioni del ministro cadono nel momento in cui anche l'Organizzazione Mondiale della Sanità ha espresso preoccupazione per i possibili rischi per la salute legati all'uso di insetti come alimento.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	cadono	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	20	obl	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	Organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+15	Mondiale	mondiale	ADJ	A	Number=Sing	14	amod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Sanità	sanità	PROPN	SP	_	14	nmod	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+21	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22	per	per	ADP	E	_	25	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	possibili	possibile	ADJ	A	Number=Plur	25	amod	_	_
+25	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	salute	salute	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30-31	all'	_	_	_	_	_	_	_	SpaceAfter=No
+30	a	a	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	uso	uso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+35	come	come	ADP	E	_	36	case	_	_
+36	alimento	alimento	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Una sensibilità condivisa da autorità locali e nazionali in Europa e non solo, che lavorano alacremente per rafforzare il sistema di protezione del consumatore.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sensibilità	sensibilità	NOUN	S	Gender=Fem	0	root	_	_
+3	condivisa	condividere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	autorità	autorità	NOUN	S	Gender=Fem	3	obl:agent	_	_
+6	locali	locale	ADJ	A	Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	nazionali	nazionale	ADJ	A	Number=Plur	6	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Europa	Europa	PROPN	SP	_	8	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	solo	solo	ADV	B	_	14	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+17	alacremente	alacremente	ADV	B	_	16	advmod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	rafforzare	rafforzare	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	consumatore	consumatore	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Al momento, dunque, in Italia tentazioni vegane e noLL fantasy dovranno rimanere relegati al gusto personale e alla curiosità gastronomica, senza intaccare il primato di stili alimentari e tradizioni di cui il popolo
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dunque	dunque	ADV	B	_	15	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	15	obl	_	_
+9	tentazioni	tentazione	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+10	vegane	vegano	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	noLL	noll	ADJ	A	Number=Sing	10	conj	_	_
+13	fantasy	fantasy	NOUN	S	Gender=Fem	9	compound	_	_
+14	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+15	rimanere	rimanere	VERB	V	VerbForm=Inf	0	root	_	_
+16	relegati	relegare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	xcomp	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	personale	personale	ADJ	A	Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	curiosità	curiosità	NOUN	S	Gender=Fem	19	conj	_	_
+25	gastronomica	gastronomico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	16	punct	_	_
+27	senza	senza	ADP	E	_	28	mark	_	_
+28	intaccare	intaccare	VERB	V	VerbForm=Inf	16	advcl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	primato	primato	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	stili	stilo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	alimentari	alimentare	ADJ	A	Number=Plur	32	amod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	tradizioni	tradizione	NOUN	S	Gender=Fem|Number=Plur	32	conj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	cui	cui	PRON	PR	PronType=Rel	39	nmod	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpacesAfter=\n
+

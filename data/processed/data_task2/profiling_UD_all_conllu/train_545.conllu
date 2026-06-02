@@ -1,0 +1,497 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We're working hard to suppress the #FergusonFire , which is along three main park roads.
+1-2	We'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Wi	Wi	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	re	re	NOUN	S	Gender=Masc	0	root	_	_
+4	working	working	X	SW	Foreign=Yes	3	compound	_	_
+5	hard	hard	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	to	to	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	suppress	suppress	X	SW	Foreign=Yes	4	flat:foreign	_	_
+8	the	the	X	SW	Foreign=Yes	4	flat:foreign	_	_
+9	#	#	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+10	FergusonFire	FergusonFire	PROPN	SP	_	3	nmod	_	_
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	which	which	X	SW	Foreign=Yes	10	appos	_	_
+13	is	is	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	along	along	X	SW	Foreign=Yes	12	flat:foreign	_	_
+15	three	threa	NOUN	S	Gender=Fem|Number=Plur	12	flat:foreign	_	_
+16	main	main	X	SW	Foreign=Yes	15	compound	_	_
+17	park	park	X	SW	Foreign=Yes	16	flat:foreign	_	_
+18	roads	roads	X	SW	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = We'll open the roads ASAP, but falling trees and debris make them unsafe for now.
+1-2	We'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Wi	Wi	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ll	ll	NOUN	S	Gender=Masc	0	root	_	_
+4	open	open	X	SW	Foreign=Yes	3	compound	_	_
+5	the	the	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	roads	roads	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	ASAP	Asap	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	but	but	X	SW	Foreign=Yes	3	appos	_	_
+10	falling	falling	X	SW	Foreign=Yes	9	flat:foreign	_	_
+11	trees	trees	X	SW	Foreign=Yes	9	flat:foreign	_	_
+12	and	and	X	SW	Foreign=Yes	9	flat:foreign	_	_
+13	debris	debris	X	SW	Foreign=Yes	9	flat:foreign	_	_
+14	make	make	X	SW	Foreign=Yes	9	flat:foreign	_	_
+15	them	them	X	SW	Foreign=Yes	9	flat:foreign	_	_
+16	unsafe	unsafe	X	SW	Foreign=Yes	9	flat:foreign	_	_
+17	for	for	ADP	E	_	18	case	_	_
+18	now	now	X	SW	Foreign=Yes	9	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Thanks for your patience.
+1	Thanks	Thanks	X	SW	Foreign=Yes	0	root	_	_
+2	for	forre	ADP	E	_	3	case	_	_
+3	your	your	X	SW	Foreign=Yes	1	nmod	_	_
+4	patience	patience	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Updates at https://t.co/yzaBEXdp4i . pic.twitter.com/frEgqKpc2r — Yosemite National Park (@YosemiteNPS) 7 agosto 2018
+1	Updates	Updates	ADP	E	_	2	case	_	_
+2	at	are	NOUN	S	Gender=Masc	0	root	_	_
+3	https://t.co/yzaBEXdp4i	https://t.co/yzaBEXdp4i	PROPN	SP	_	2	nmod	_	_
+4	.	.	PUNCT	FF	_	5	punct	_	_
+5	pic.twitter.com/frEgqKpc2r	pic.twitter.com/frEgqKpc2r	PROPN	SP	_	2	nmod	_	_
+6	—	—	PUNCT	FF	_	5	punct	_	_
+7	Yosemite	Yosemite	PROPN	SP	_	5	nmod	_	_
+8	National	National	PROPN	SP	_	7	flat:name	_	_
+9	Park	Park	PROPN	SP	_	7	flat:name	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	@YosemiteNPS	@YosemiteNPS	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	_
+13	7	7	NUM	N	NumType=Card	5	nmod	_	_
+14	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	13	flat	_	_
+15	2018	2018	NUM	N	NumType=Card	13	flat	_	_
+
+# sent_id = 5
+# text = Le fiamme hanno reso inaccessibili alcune strade e provocato la caduta degli alberi, mentre l'aria è irrespirabile a causa dei fumi.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	inaccessibili	inaccessibile	ADJ	A	Number=Plur	4	xcomp	_	_
+6	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	strade	strada	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	provocato	provocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	mentre	mentre	SCONJ	CS	_	20	mark	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	aria	aria	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	irrespirabile	irrespirabile	ADJ	A	Number=Sing	4	advcl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	causa	causa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	fumi	fume	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Tra le aree chiuse la Yosemite Valley e la foresta di sequoia giganti del Mariposa Grove.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	aree	area	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	chiuse	chiuso	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Yosemite	Yosemite	PROPN	SP	_	3	nmod	_	_
+7	Valley	Valley	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	foresta	foresta	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	sequoia	sequoia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	giganti	gigante	ADJ	A	Number=Plur	12	amod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Mariposa	Mariposo	PROPN	SP	_	12	nmod	_	_
+17	Grove	Grove	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Riapriranno non appena saranno ripristinate le condizioni di sicurezza:
+1	Riapriranno	Riaprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	appena	appena	ADV	B	_	5	advmod	_	_
+4	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	ripristinate	ripristinare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 8
+# text = il National Park Service aggiorna costantemente la situazione.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	National	National	PROPN	SP	_	5	nsubj	_	_
+3	Park	Park	PROPN	SP	_	2	flat:name	_	_
+4	Service	service	PROPN	SP	_	2	flat:name	_	_
+5	aggiorna	aggiornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	costantemente	costantemente	ADV	B	_	5	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Yosemite Valley, Hetch Hetchy, Wawona, Mariposa Grove, and Glacier Point remain closed until further notice due to the #FergusonFire We will provide any updates about these areas as soon as we have more information.
+1	Yosemite	Yosemite	ADP	E	_	2	case	_	_
+2	Valley	Valley	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Hetch	Hetch	PROPN	SP	_	2	conj	_	_
+5	Hetchy	Hetchy	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Wawona	Wawona	PROPN	SP	_	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	Mariposa	Mariposo	PROPN	SP	_	2	conj	_	_
+10	Grove	Grove	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	and	and	X	SW	Foreign=Yes	2	conj	_	_
+13	Glacier	Glacier	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	Point	Point	X	SW	Foreign=Yes	12	flat:foreign	_	_
+15	remain	remain	X	SW	Foreign=Yes	12	flat:foreign	_	_
+16	closed	close	X	SW	Foreign=Yes	12	flat:foreign	_	_
+17	until	until	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	further	further	ADJ	A	_	19	amod	_	_
+19	notice	notice	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+20	due	due	NUM	N	NumType=Card	21	nummod	_	_
+21	to	to	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	the	the	DET	RD	Definite=Def|PronType=Art	24	det	_	_
+23	#	#	PUNCT	FF	_	24	punct	_	SpaceAfter=No
+24	FergusonFire	FergusonFire	PROPN	SP	_	21	nmod	_	_
+25	We	we	PROPN	SP	_	24	flat:name	_	_
+26	will	will	NOUN	S	Number=Sing	24	nmod	_	_
+27	provide	providere	X	SW	Foreign=Yes	36	nmod	_	_
+28	any	any	X	SW	Foreign=Yes	27	flat:foreign	_	_
+29	updates	updates	X	SW	Foreign=Yes	27	flat:foreign	_	_
+30	about	about	X	SW	Foreign=Yes	27	flat:foreign	_	_
+31	these	these	ADJ	A	Number=Sing	27	amod	_	_
+32	areas	areas	X	SW	Foreign=Yes	27	flat:foreign	_	_
+33	as	as	X	SW	Foreign=Yes	27	flat:foreign	_	_
+34	soon	soon	X	SW	Foreign=Yes	27	flat:foreign	_	_
+35	as	as	X	SW	Foreign=Yes	27	flat:foreign	_	_
+36	we	we	NOUN	S	Gender=Fem|Number=Plur	26	compound	_	_
+37	have	have	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	more	more	NOUN	S	_	36	compound	_	_
+39	information.	informationorevole	NOUN	S	_	24	nmod	_	_
+
+# sent_id = 10
+# text = — Yosemite National Park (@YosemiteNPS) 9 agosto 2018 Area protetta dal 1864, il parco di Yosemite occupa una vasta area di quasi 2mila chilometri quadrati.
+1	—	—	PUNCT	FF	_	3	punct	_	_
+2	Yosemite	Yosemite	ADP	E	_	3	case	_	_
+3	National	National	PROPN	SP	_	21	obl	_	_
+4	Park	Park	PROPN	SP	_	3	flat:name	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	@YosemiteNPS	@YosemiteNPS	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	9	9	NUM	N	NumType=Card	11	nummod	_	_
+9	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	_
+10	2018	2018	NUM	N	NumType=Card	8	flat	_	_
+11	Area	area	PROPN	SP	_	3	nmod	_	_
+12	protetta	proteggere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	1864	1864	NUM	N	NumType=Card	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	parco	parco	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Yosemite	Yosemite	PROPN	SP	_	18	nmod	_	_
+21	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	vasta	vasto	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	area	area	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	quasi	quasi	ADV	B	_	27	advmod	_	_
+27	2mila	2mila	NUM	N	NumType=Card	28	nummod	_	_
+28	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+29	quadrati	quadrato	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 11
+# text = Conosciuto per le sue cascate, i panorami mozzafiato e le sequoia giganti, il parco ospita grandi vallate, pareti rocciose, ampi prati, monoliti di granito.
+1	Conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	cascate	cascato	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	panorami	panoramo	NOUN	S	Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+9	mozzafiato	mozzafiato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	sequoia	sequoia	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+13	giganti	giganti	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	parco	parco	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	ospita	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	grandi	grande	ADJ	A	Number=Plur	19	amod	_	_
+19	vallate	vallata	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+22	rocciose	roccioso	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	ampi	ampio	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+25	prati	prato	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	monoliti	monolite	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	granito	granito	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 12
+# text = Lo scorso anno è stato visitato da 4 milioni 400mila turisti e la chiusura di queste settimane, che arriva in uno dei periodi di maggiore affluenza, è un duro colpo per il parco.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	visitato	visitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	parataxis	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	4	4	NUM	N	NumType=Card	9	nummod	_	_
+9	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	400mila	400mila	NUM	N	NumType=Card	11	nummod	_	_
+11	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	17	det	_	_
+17	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	obl	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	periodi	periodo	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	28	amod	_	_
+28	affluenza	affluenza	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	6	punct	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	duro	duro	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	parco	parco	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 13
+# text = Usa, la California brucia: è il peggior incendio nella storia dello Stato.
+1	Usa	Usa	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	California	California	PROPN	SP	_	5	nsubj	_	_
+5	brucia	brucio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	peggior	peggiore	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	incendio	incendio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = In queste ore oltre 14mila vigili del fuoco e 2mila 300 unità della Guardia nazionale sono impegnate nel tentativo di domare quello che si è rivelato il peggior incendio nella storia della California, con oltre 114mila ettari di terreno bruciati.
+1	In	in	ADP	E	_	3	case	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+4	oltre	oltre	ADV	B	_	5	advmod	_	_
+5	14mila	14mila	NUM	N	NumType=Card	6	nummod	_	_
+6	vigili	vigile	NOUN	S	Number=Plur	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	2mila	2mila	NUM	N	NumType=Card	13	nummod	_	_
+12	300	300	NUM	N	NumType=Card	13	nummod	_	_
+13	unità	unità	NOUN	S	Gender=Fem	6	conj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	nazionale	nazionale	ADJ	A	Number=Sing	16	amod	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	impegnate	impegnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	domare	domare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	obj	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	peggior	peggiore	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	incendio	incendio	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+33-34	nella	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	storia	storia	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	California	California	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	35	punct	_	_
+40	con	con	ADP	E	_	43	case	_	_
+41	oltre	oltre	ADV	B	_	42	advmod	_	_
+42	114mila	114mila	NUM	N	NumType=Card	43	nummod	_	_
+43	ettari	ettaro	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	_
+46	bruciati	bruciato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	43	acl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 15
+# text = Nonostante gli sforzi sono riusciti a contenere appena il 30 per cento delle fiamme mentre l'incendio - ribattezzato Mendocino Complex Fire - nel frattempo raddoppiava le proprie dimensioni nel giro di pochi giorni.
+1	Nonostante	nonostante	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	sforzi	sforzo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	contenere	contenere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	appena	appena	ADV	B	_	7	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	30	30	NUM	N	NumType=Card	7	obj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	cento	cento	NUM	N	NumType=Card	10	nummod	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+16	mentre	mentre	SCONJ	CS	_	28	mark	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	incendio	incendio	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+19	-	-	PUNCT	FB	_	20	punct	_	_
+20	ribattezzato	ribattezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+21	Mendocino	Mendocino	PROPN	SP	_	20	nsubj	_	_
+22	Complex	Complex	PROPN	SP	_	21	flat:name	_	_
+23	Fire	Fire	PROPN	SP	_	21	flat:name	_	_
+24	-	-	PUNCT	FB	_	21	punct	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	raddoppiava	raddoppiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	giro	giro	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	37	det	_	_
+37	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = In California peggior incendio della sua storia Il Mendocino Complex Fire è il risultato di due fronti distinti, il Ranch e il River, che si sono uniti all'altezza del Clear Lake.
+1	In	in	ADP	E	_	2	case	_	_
+2	California	California	PROPN	SP	_	3	obl	_	_
+3	peggior	peggiore	VERB	V	VerbForm=Inf	15	ccomp	_	_
+4	incendio	incendio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Mendocino	Mendocino	PROPN	SP	_	15	nsubj	_	_
+11	Complex	Complex	PROPN	SP	_	10	flat:name	_	_
+12	Fire	Fire	PROPN	SP	_	10	flat:name	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	fronti	fronte	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	distinti	distinto	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Ranch	Ranch	PROPN	SP	_	15	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	River	River	PROPN	SP	_	15	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+29	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	uniti	unire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+31-32	all'	_	_	_	_	_	_	_	SpaceAfter=No
+31	a	a	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Clear	Clear	PROPN	SP	_	33	nmod	_	_
+37	Lake	Lake	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 17
+# text = A minacciare da vicino il parco di Yosemite è il Ferguson Fire:
+1	A	a	ADP	E	_	2	mark	_	_
+2	minacciare	minacciare	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	vicino	vicino	ADV	B	_	2	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	parco	parco	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Yosemite	Yosemite	PROPN	SP	_	6	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Ferguson	Ferguson	PROPN	SP	_	0	root	_	_
+12	Fire	Fire	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 18
+# text = ha bruciato finora oltre 38mila ettari e ucciso due persone.
+1	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	bruciato	bruciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	finora	finora	ADV	B	_	2	advmod	_	_
+4	oltre	oltre	ADP	E	_	6	case	_	_
+5	38mila	38mila	NUM	N	NumType=Card	6	nummod	_	_
+6	ettari	ettaro	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

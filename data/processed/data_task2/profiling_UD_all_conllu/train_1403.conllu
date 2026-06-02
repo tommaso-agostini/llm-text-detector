@@ -1,0 +1,243 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non più fantascienza, ma prospettiva concreta:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	fantascienza	fantascienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	prospettiva	prospettivo	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+7	concreta	concreto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = esopianeti, ovvero pianeti che orbitano intorno a stelle diverse dal Sole, stanno diventando oggetto di studio con un’attenzione sempre maggiore, non solo per la possibilità di trovare vita, ma anche per come questi mondi, in modo paragonabile al nostro pianeta, possano presentare condizioni atmosferiche sfaccettate, assurde e talvolta, per i nostri occhi, estremamente inquietanti.
+1	esopianeti	esopianeto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	ovvero	ovvero	CCONJ	CC	_	4	cc	_	_
+4	pianeti	pianeta	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	orbitano	orbitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	intorno	intorno	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Sole	Sole	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	diventando	diventare	VERB	V	VerbForm=Ger	1	advcl	_	_
+17	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	studio	studio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	sempre	sempre	ADV	B	_	24	advmod	_	_
+24	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	solo	solo	ADV	B	_	30	advmod	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	possibilità	possibilità	NOUN	S	Gender=Fem	22	obl	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	trovare	trovare	VERB	V	VerbForm=Inf	30	acl	_	_
+33	vita	vita	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	51	punct	_	_
+35	ma	ma	CCONJ	CC	_	51	cc	_	_
+36	anche	anche	ADV	B	_	51	advmod	_	_
+37	per	per	ADP	E	_	40	case	_	_
+38	come	come	SCONJ	CS	_	37	fixed	_	_
+39	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	40	det	_	_
+40	mondi	mondo	NOUN	S	Gender=Masc|Number=Plur	51	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	modo	modo	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	_
+44	paragonabile	paragonabile	ADJ	A	Number=Sing	43	amod	_	_
+45-46	al	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	48	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	43	punct	_	_
+50	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	presentare	presentare	VERB	V	VerbForm=Inf	32	conj	_	_
+52	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	51	nsubj	_	_
+53	atmosferiche	atmosferiche	ADJ	A	Gender=Fem|Number=Plur	52	amod	_	_
+54	sfaccettate	sfaccettare	ADJ	A	Gender=Fem|Number=Plur	52	amod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	56	punct	_	_
+56	assurde	assurdere	NOUN	S	Gender=Fem|Number=Plur	52	conj	_	_
+57	e	e	CCONJ	CC	_	58	cc	_	_
+58	talvolta	talvolta	ADV	B	_	52	conj	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	51	punct	_	_
+60	per	per	ADP	E	_	63	case	_	_
+61	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
+62	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	63	det:poss	_	_
+63	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	51	obl	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	51	punct	_	_
+65	estremamente	estremamente	ADV	B	_	66	advmod	_	_
+66	inquietanti	inquietante	ADJ	A	Number=Plur	51	amod	_	SpaceAfter=No
+67	.	.	PUNCT	FS	_	51	punct	_	_
+
+# sent_id = 3
+# text = Immaginiamo un pianeta simile a Terra, ma che ruoti attorno a una stella più calda e intensa.
+1	Immaginiamo	Immaginare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	simile	simile	ADJ	A	Number=Sing	3	amod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Terra	Terra	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+10	ruoti	ruota	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+11	attorno	attorno	ADV	B	_	14	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	stella	stella	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	intensa	intenso	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Il mattino, le nuvole di vapore si formano su dieci volte più alta di quanto avvenga sulla Terra, come se sull’atmosfera fosse scesa una pioggia di plasma eccessivamente caldo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	nuvole	nuvola	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	vapore	vapore	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	formano	formare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	dieci	dieci	NUM	N	NumType=Card	12	nummod	_	_
+12	volte	volta	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	alta	alto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
+17	avvenga	avvenire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Terra	Terra	PROPN	SP	_	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	9	punct	_	_
+22	come	come	ADV	B	_	28	mark	_	_
+23	se	se	SCONJ	CS	_	22	fixed	_	_
+24-25	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+24	su	su	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+27	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	plasma	plasma	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	eccessivamente	eccessivamente	ADV	B	_	34	advmod	_	_
+34	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Il sole, che non sembra una fonte di luce ma piuttosto un esatto equivalente di un incendio controllato, esce tra scintille di uragano e ruggenti tempeste di acciaio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sole	sole	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	luce	luce	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	piuttosto	piuttosto	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	esatto	esatto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+15	equivalente	equivalente	ADJ	A	Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	incendio	incendio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	controllato	controllato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	tra	tra	ADP	E	_	23	case	_	_
+23	scintille	scintilla	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	uragano	uragano	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	ruggenti	ruggente	ADJ	A	Number=Plur	28	amod	_	_
+28	tempeste	tempesta	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	acciaio	acciaio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 6
+# text = I pomeriggi invece sono un’altra storia:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	pomeriggi	pomeriggio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	invece	invece	ADV	B	_	7	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	altra	altro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 7
+# text = estremamente caldi, quasi troppo caldi per essere descritti, e in alcuni casi, fatti di spirali di gas sproporzionati che sorgono in maniera anomala, quasi come se un sistema naturale stesse tentando di controllare un disordine primordiale.
+1	estremamente	estremamente	ADV	B	_	2	advmod	_	_
+2	caldi	caldo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quasi	quasi	ADV	B	_	6	advmod	_	_
+5	troppo	troppo	ADV	B	_	6	advmod	_	_
+6	caldi	caldo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+7	per	per	ADP	E	_	9	mark	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	descritti	descrivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	casi	caso	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	spirali	spirale	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	gas	gas	NOUN	S	Gender=Masc	18	nmod	_	_
+21	sproporzionati	sproporzionato	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	sorgono	sorgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+26	anomala	anomalo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	quasi	quasi	ADV	B	_	35	advmod	_	_
+29	come	come	SCONJ	CS	_	35	mark	_	_
+30	se	se	SCONJ	CS	_	29	fixed	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+33	naturale	naturale	ADJ	A	Number=Sing	32	amod	_	_
+34	stesse	stare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	tentando	tentare	VERB	V	VerbForm=Ger	2	advcl	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	controllare	controllare	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	disordine	disordine	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+40	primordiale	primordiale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Tali condizioni, fin
+1	Tali	tale	DET	DD	Number=Plur|PronType=Dem	2	det	_	_
+2	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	fin	fino	ADP	E	_	2	case	_	SpacesAfter=\n
+

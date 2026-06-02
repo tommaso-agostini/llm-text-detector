@@ -1,0 +1,377 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non siamo di fronte a un’invenzione fantascientifica, ma a un’altra confessione, ancora più inquietante, del nostro tempo.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fronte	fronte	NOUN	S	Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	invenzione	invenzione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	fantascientifica	fantascientifico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	ma	ma	CCONJ	CC	_	14	cc	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	altra	altro	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	ancora	ancora	ADV	B	_	17	advmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	inquietante	inquietante	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Gli Stati Uniti hanno, apparentemente, iniziato a sviluppare la coltivazione di cervelli umani in laboratorio, in minuscole capsule, le tanto citate “mini cervelli”.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Stati	Stati	PROPN	SP	_	4	nsubj	_	_
+3	Uniti	Uniti	PROPN	SP	_	2	flat:name	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	apparentemente	apparentemente	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	sviluppare	sviluppare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	coltivazione	coltivazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cervelli	cervello	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	umani	umano	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	minuscole	minuscola	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	capsule	capsule	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	10	punct	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+24	tanto	tanto	ADV	B	_	25	advmod	_	_
+25	citate	citato	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+26	“	“	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+27	mini	mo	ADJ	A	_	28	amod	_	_
+28	cervelli	cervello	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Un'impresa tecnica senza precedenti, certo, ma che solleva interrogativi etici e politici più ampi di qualsiasi scoperta medica.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	tecnica	tecnico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	precedenti	precedente	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	certo	certo	ADV	B	_	11	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	interrogativi	interrogativo	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	etici	etice	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	politici	politico	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	ampi	ampio	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	medica	medico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Le immagini, viste da fonti ben precise all’interno del Pentagono (che, cosa da non sottovalutare, sembra intenzionalmente vaghe sulle modalità del processo, concentrandosi sulla “potenziale applicazione nella ricerca sul trauma cerebrale” e nello “sviluppo di nuovi protocolli di riabilitazione”), mostrano strutture cristalline, minuscole, luminose, sospese in liquidi nutritivi.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	61	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	viste	vedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	4	obl:agent	_	_
+7	ben	bene	ADV	B	_	8	advmod	_	_
+8	precise	preciso	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+9-10	all’	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	interno	interno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Pentagono	pentagono	PROPN	SP	_	11	nmod	_	_
+15	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+16	che	che	PRON	PR	PronType=Rel	23	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	23	nsubj	_	_
+19	da	da	ADP	E	_	21	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	sottovalutare	sottovalutare	VERB	V	VerbForm=Inf	18	acl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+24	intenzionalmente	intenzionalmente	ADV	B	_	23	advmod	_	_
+25	vaghe	vaga	ADV	B	_	23	advmod	_	_
+26-27	sulle	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	modalità	modalità	NOUN	S	Gender=Fem	23	obl	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	processo	processo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	23	punct	_	_
+33-34	concentrandosi	_	_	_	_	_	_	_	_
+33	concentrando	concentrare	VERB	V	VerbForm=Ger	23	advcl	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+35-36	sulla	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	39	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+37	“	“	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+38	potenziale	potenziale	ADJ	A	Number=Sing	39	amod	_	_
+39	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+40-41	nella	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+43-44	sul	_	_	_	_	_	_	_	_
+43	su	su	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	trauma	trauma	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+46	cerebrale	cerebrale	ADJ	A	Number=Sing	45	amod	_	SpaceAfter=No
+47	”	”	PUNCT	FB	_	23	punct	_	_
+48	e	e	CCONJ	CC	_	52	cc	_	_
+49-50	nello	_	_	_	_	_	_	_	_
+49	in	in	ADP	E	_	52	case	_	_
+50	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	“	“	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+52	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	55	amod	_	_
+55	protocolli	protocollo	NOUN	S	Gender=Masc|Number=Plur	52	nmod	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	riabilitazione	riabilitazione	NOUN	S	Gender=Fem|Number=Sing	55	nmod	_	SpaceAfter=No
+58	”	”	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+59	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	2	punct	_	_
+61	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+62	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	61	obj	_	_
+63	cristalline	cristalline	ADJ	A	Gender=Fem|Number=Plur	62	amod	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	65	punct	_	_
+65	minuscole	minuscolo	ADJ	A	Gender=Fem|Number=Plur	63	conj	_	SpaceAfter=No
+66	,	,	PUNCT	FF	_	67	punct	_	_
+67	luminose	luminoso	ADJ	A	Gender=Fem|Number=Plur	63	conj	_	SpaceAfter=No
+68	,	,	PUNCT	FF	_	62	punct	_	_
+69	sospese	sospendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	62	acl	_	_
+70	in	in	ADP	E	_	71	case	_	_
+71	liquidi	liquido	NOUN	S	Gender=Masc|Number=Plur	69	obl	_	_
+72	nutritivi	nutritivo	ADJ	A	Gender=Masc|Number=Plur	71	amod	_	SpaceAfter=No
+73	.	.	PUNCT	FS	_	61	punct	_	_
+
+# sent_id = 5
+# text = Sembrano geode artificiali, minuscole miniature del nostro più complesso e misterioso organo.
+1	Sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	geode	geode	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	artificiali	artificiale	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	minuscole	minuscolo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	miniature	miniatura	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	misterioso	misterioso	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+14	organo	organo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = La propaganda ufficiale gela il sangue.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ufficiale	ufficiale	ADJ	A	Number=Sing	2	amod	_	_
+4	gela	gelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Si parla di potenziali progressi rivoluzionari nella comprensione del cervello, nella cura di lesioni neurologiche, addirittura nella potenziale diagnosi precoce di malattie neurodegenerative come l'Alzheimer.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	potenziali	potenziale	ADJ	A	Number=Plur	5	amod	_	_
+5	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	rivoluzionari	rivoluzionario	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cura	cura	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	neurologiche	neurologico	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	addirittura	addirittura	ADV	B	_	25	advmod	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	potenziale	potenziale	ADJ	A	Number=Sing	25	amod	_	_
+25	diagnosi	diagnoso	NOUN	S	Gender=Fem	2	obl	_	_
+26	precoce	precoce	ADJ	A	Number=Sing	25	amod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	neurodegenerative	neurodegenerativo	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+30	come	come	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	Alzheimer	Alzheimer	PROPN	SP	_	2	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = "Un passo avanti monumentale per la salute umana," ha dichiarato un portavoce del Dipartimento della Difesa, cercando di ancorare l’impresa a una dicotomia che, in realtà, non esiste.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	avanti	avanti	ADV	B	_	5	advmod	_	_
+5	monumentale	monumentale	ADJ	A	Number=Sing	3	amod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	salute	salute	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	umana	umano	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	13	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	portavoce	portavoce	NOUN	S	_	13	nsubj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Difesa	difesa	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	13	punct	_	_
+23	cercando	cercare	VERB	V	VerbForm=Ger	13	advcl	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	ancorare	ancorare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	dicotomia	dicotomia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	37	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	realtà	realtà	NOUN	S	Gender=Fem	37	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+37	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Perché quali sono i reali obiettivi?
+1	Perché	perché	ADV	B	_	6	advmod	_	_
+2	quali	quale	PRON	PR	Number=Plur|PronType=Rel	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	reali	reale	ADJ	A	Number=Plur	6	amod	_	_
+6	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = La verità, che emerge dalle crepe nel muro di silenzio, è decisamente più complessa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	verità	verità	NOUN	S	Gender=Fem	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6-7	dalle	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	crepe	crepa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	muro	muro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	decisamente	decisamente	ADV	B	_	18	advmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 11
+# text = La profusione di risorse dedicate a questo progetto, il livello di segretezza, la sua stretta connessione con le divisioni della DARPA (l'agenzia statunitense per progetti di ricerca avanzata) evocano immagini oscure.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	profusione	profusione	NOUN	S	Gender=Fem|Number=Sing	35	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	dedicate	dedicare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	livello	livello	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	segretezza	segretezza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+17	stretta	stretto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	connessione	connessione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	divisioni	divisione	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	DARPA	DARPA	PROPN	SP	_	21	nmod	_	_
+25	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	18	appos	_	_
+28	statunitense	statunitense	ADJ	A	Number=Sing	27	amod	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	avanzata	avanzato	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	27	punct	_	_
+35	evocano	evocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	35	obj	_	_
+37	oscure	oscuro	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 12
+# text = Non si tratta solo di curare le ferite del cervello,
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	curare	curare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	ferite	ferita	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+

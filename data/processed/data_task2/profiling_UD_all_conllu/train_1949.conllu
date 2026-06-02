@@ -1,0 +1,335 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tre schiaffi, non un sussurro, tre colpi ben assestati che hanno lasciato il pubblico dello stadio, e soprattutto la stampa, sbalordito.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	schiaffi	schiaffo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sussurro	sussurro	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	tre	tre	NUM	N	NumType=Card	9	nummod	_	_
+9	colpi	colpio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+10	ben	bene	ADV	B	_	9	advmod	_	_
+11	assestati	assestato	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	dello	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	soprattutto	soprattutto	ADV	B	_	24	advmod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	sbalordito	sbalordito	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non è stata una partita di calcio, è stata una sfilata di errori, di individualismi, di un’assenza di qualsiasi gioco collaudato.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	partita	partita	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sfilata	sfilata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	errori	errore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	individualismi	individualismo	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+24	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	collaudato	collaudato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Allegri, visibilmente smarrito, ha provato a disegnare qualcosa, a imbracciare le redini di un treno che freme sul ciglio del precipizio, ma il vagone motore è andato in tilt fin dal fischio d’inizio.
+1	Allegri	Allegri	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	visibilmente	visibilmente	ADV	B	_	4	advmod	_	_
+4	smarrito	smarrito	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	disegnare	disegnare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	imbracciare	imbracciare	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	redini	redine	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	treno	treno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	freme	fremere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ciglio	ciglio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	precipizio	precipizio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	33	punct	_	_
+28	ma	ma	CCONJ	CC	_	33	cc	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	vagone	vagone	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+31	motore	motore	NOUN	S	Gender=Masc|Number=Sing	30	compound	_	_
+32	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	tilt	tilt	NOUN	S	Gender=Masc	33	obl	_	_
+36	fin	fino	ADP	E	_	39	case	_	_
+37-38	dal	_	_	_	_	_	_	_	_
+37	da	da	ADP	E	_	36	fixed	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	fischio	fischio	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+40	d’	di	ADP	E	_	41	case	_	SpaceAfter=No
+41	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Henderson, un tempo pilastro, un’ombra.
+1	Henderson	Henderson	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	pilastro	pilastro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Kean, un fantasma del suo passato, incapace di incidere.
+1	Kean	Kean	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	incapace	incapace	ADJ	A	Number=Sing	1	amod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	incidere	incidere	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Miretti, promessa smarrita.
+1	Miretti	Miretti	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+4	smarrita	smarrito	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = E poi, ah, il centrocampo, un vuoto assoluto, un’anomalia che ha permesso al Genoa di dettare i ritmi, di rubare la palla, di creare occasioni da rete.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	poi	poi	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ah	ah	INTJ	I	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	centrocampo	centrocampo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	anomalia	anomalia	NOUN	S	Gender=Fem|Number=Sing	10	appos	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Genoa	Genoa	PROPN	SP	_	17	obl	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	dettare	dettare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	ritmi	ritmo	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	rubare	rubare	VERB	V	VerbForm=Inf	22	advcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	palla	palla	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	creare	creare	VERB	V	VerbForm=Inf	27	conj	_	_
+33	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+34	da	da	ADP	E	_	35	case	_	_
+35	rete	rete	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Amari, da ex, ha regalato alla tifia rossoblu una gioia smisurata, valorizzando il suo ritorno.
+1	Amari	Amare	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	ex	ex	ADJ	A	_	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tifia	tifia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	rossoblu	rossoblu	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	smisurata	smisurato	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	valorizzando	valorizzare	VERB	V	VerbForm=Ger	7	advcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Ma non è solo Amari, è l’intero Genoa, una squadra che non si tira indietro, che lotta, che corre, che si batte per ogni pallone.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	Amari	Amare	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	intero	intero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	Genoa	Genoa	PROPN	SP	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	10	appos	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	indietro	indietro	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	lotta	lottare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	31	det	_	_
+31	pallone	pallone	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Una squadra che, per una volta, ha avuto il coraggio di dire la sua.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	dire	dire	VERB	V	VerbForm=Inf	12	acl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = La Juventus, invece, è apparsa come un esercito in disarmo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Juventus	Juventus	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	apparsa	apparire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	disarmo	disarmo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Il blocco tattico, quello che sembrava un’arma, si è rivelato un fardello troppo pesante.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	blocco	blocco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	tattico	tattico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	arma	arma	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fardello	fardello	NOUN	S	Gender=Masc|Number=Sing	13	xcomp	_	_
+16	troppo	troppo	ADV	B	_	17	advmod	_	_
+17	pesante	pesante	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 13
+# text = Le giocate sono state poche, direi inesistenti, i movimenti confusi.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	giocate	giocare	ADJ	A	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	cop	_	_
+5	poche	poco	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	inesistenti	inesistente	ADJ	A	Number=Plur	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	movimenti	movimento	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+12	confusi	confuso	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = È come se la squadra non avesse mai allenato la palla, come
+1	È	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	ADV	B	_	9	advmod	_	_
+3	se	se	SCONJ	CS	_	9	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+8	mai	mai	ADV	B	_	9	advmod	_	_
+9	allenato	allenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	palla	palla	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	come	come	ADP	E	_	11	case	_	SpacesAfter=\n
+

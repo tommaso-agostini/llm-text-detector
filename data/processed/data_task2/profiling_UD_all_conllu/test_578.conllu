@@ -1,0 +1,727 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mi sembra di sognare ad occhi aperti!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	sognare	sognare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = ", esclama questa giovane donna ventottenne.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	esclama	esclamare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	giovane	giovane	ADJ	A	Number=Sing	6	amod	_	_
+6	donna	donna	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	ventottenne	ventottenne	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dall'altro lato della griglia arrugginita, attraverso cui riesce a passare a malapena un mignolo, si trovano suo padre, sua madre e i suoi nipoti.
+1-2	Dall'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Da	da	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	altro	altro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	lato	lato	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	griglia	griglia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	arrugginita	arrugginito	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	attraverso	attraverso	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+12	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	passare	passare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	malapena	malapena	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mignolo	mignolo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	padre	padre	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	madre	madre	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	nipoti	nipote	NOUN	S	Number=Plur	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 4
+# text = Per vederla sono partiti da Durango, in Messico, e hanno fatto 22 ore di strada.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	vederla	_	_	_	_	_	_	_	_
+2	veder	vedere	VERB	V	VerbForm=Inf	5	advcl	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Durango	Durango	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Messico	Messico	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+15	22	22	NUM	N	NumType=Card	16	nummod	_	_
+16	ore	ora	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	strada	strada	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = L'emozione è tale che, anche se non li conoscono, diverse persone che si trovano vicino a loro hanno le lacrime agli occhi.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	tale	tale	ADJ	A	Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	21	punct	_	_
+7	anche	anche	ADV	B	_	11	advmod	_	_
+8	se	se	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+11	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	vicino	vicino	ADV	B	_	17	advmod	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+21	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24-25	agli	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = "Io non sapevo nemmeno che questo posto esistesse.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	nemmeno	nemmeno	ADV	BN	PronType=Neg	4	advmod	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	esistesse	esistesso	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = ", racconta Vianey, che lavora a qualche chilometro dal Friendship Park.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Vianey	Vianey	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	chilometro	chilometro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Friendship	Friendship	PROPN	SP	_	7	obl	_	_
+14	Park	Park	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Il "parco dell'amicizia", inaugurato nel '71 dalla first lady Pat Nixon affinché le famiglie divise dal confine potessero rivedersi, è stato chiuso dal 2009 al 2011 per lavori di consolidamento del muro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	parco	parco	NOUN	S	Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	inaugurato	inaugurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	'71	'71	NUM	N	NumType=Card	9	obl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	first	first	NOUN	S	_	9	obl:agent	_	_
+16	lady	lady	NOUN	S	Gender=Fem	15	compound	_	_
+17	Pat	Pat	PROPN	SP	_	15	nmod	_	_
+18	Nixon	Nixon	PROPN	SP	_	17	flat:name	_	_
+19	affinché	affinché	SCONJ	CS	_	27	mark	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+22	divise	dividere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23-24	dal	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	confine	confine	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	potessero	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27-28	rivedersi	_	_	_	_	_	_	_	SpaceAfter=No
+27	riveder	rivedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29	,	,	PUNCT	FF	_	3	punct	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux:pass	_	_
+32	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+33-34	dal	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	2009	2009	NUM	N	NumType=Card	32	obl:agent	_	_
+36-37	al	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	2011	2011	NUM	N	NumType=Card	32	obl	_	_
+39	per	per	ADP	E	_	40	case	_	_
+40	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	consolidamento	consolidamento	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	muro	muro	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 9
+# text = Qui tutti hanno problemi legati a espulsioni o situazioni irregolari, ma l'argomento è tabù.
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	espulsioni	espulsione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+10	irregolari	irregolare	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	ma	ma	CCONJ	CC	_	16	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	tabù	tabù	NOUN	S	Gender=Masc	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Le famiglie si vedono sotto gli occhi vigili della Border Patrol il sabato e la domenica dalle 10:00 alle 14:00.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sotto	sotto	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	vigili	vigile	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Border	Border	PROPN	SP	_	7	nmod	_	_
+12	Patrol	Patrol	PROPN	SP	_	11	flat:name	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	10:00	10:00	NUM	N	NumType=Card	4	obl	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	14:00	14:00	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Dall'altro lato della rete c'è invece un parco pubblico di Tijuana in cui sfilano mariachi, gelatai e attivisti.
+1-2	Dall'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Da	da	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	altro	altro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	lato	lato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	rete	rete	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	invece	invece	ADV	B	_	9	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	parco	parco	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+13	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Tijuana	Tijuana	PROPN	SP	_	12	nmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	18	obl	_	_
+18	sfilano	sfilare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+19	mariachi	mariaco	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	gelatai	gelataio	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	attivisti	attivista	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = San Diego, il "parco dell'amicizia" Come ogni domenica, Daniel Garcia ha aperto la sua sedia pieghevole per mettersi a parlare con la fidanzata, una venezuelana senza permesso di soggiorno.
+1	San	San	PROPN	SP	_	18	obl	_	_
+2	Diego	Diego	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	parco	parco	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	_
+11	Come	come	ADP	E	_	13	case	_	_
+12	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	Daniel	Daniel	PROPN	SP	_	6	nsubj	_	_
+16	Garcia	Garcia	PROPN	SP	_	15	flat:name	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	sedia	sedio	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	pieghevole	pieghevole	ADJ	A	Number=Sing	21	amod	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24-25	mettersi	_	_	_	_	_	_	_	_
+24	metter	mettere	VERB	V	VerbForm=Inf	18	advcl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	parlare	parlare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	18	punct	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	venezuelana	venezuelana	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+34	senza	senza	ADP	E	_	35	case	_	_
+35	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 13
+# text = "Ad aprile mi daranno la green card.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ad	a	ADP	E	_	3	case	_	_
+3	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	daranno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	green	green	NOUN	S	Gender=Fem	5	obj	_	_
+8	card.	card.	NOUN	S	Gender=Masc	7	compound	_	_
+
+# sent_id = 14
+# text = - Dice.
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	Dice	dire	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = - Poi ci sposeremo in Messico e faremo riconoscere il matrimonio per far venire Yani qui con me".
+1	-	-	PUNCT	FF	_	4	punct	_	_
+2	Poi	poi	ADV	B	_	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	sposeremo	sposare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Messico	Messico	PROPN	SP	_	4	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	faremo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	conj	_	_
+9	riconoscere	riconoscere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	venire	venire	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	Yani	Yani	PROPN	SP	_	14	obj	_	_
+16	qui	qui	ADV	B	_	14	advmod	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Miguel, invece, è venuto ad assicurarsi che suo cugino stesse bene.
+1	Miguel	Miguel	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	invece	invece	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8-9	assicurarsi	_	_	_	_	_	_	_	_
+8	assicurar	assicurare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	che	che	SCONJ	CS	_	14	mark	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	cugino	cugino	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	stesse	stesso	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 17
+# text = "È stato espulso il mese scorso e non conosce nessuno a TJ.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	espulso	espellere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	TJ	TJ	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = I suoi figli sono qui negli Stati Uniti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	qui	qui	ADV	B	_	8	advmod	_	_
+6-7	negli	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Stati	Stati	PROPN	SP	_	0	root	_	_
+9	Uniti	Uniti	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = ", precisa questo giovane americano.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	giovane	giovane	NOUN	S	Number=Sing	3	nsubj	_	_
+6	americano	americano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = "La maggior parte degli espulsi non ha familiari a Tijuana.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	espulsi	espulso	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	familiari	familiare	ADJ	A	Number=Plur	9	amod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Tijuana	Tijuana	PROPN	SP	_	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 21
+# text = Alcuni non parlano nemmeno spagnolo.
+1	Alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nemmeno	nemmeno	ADV	BN	PronType=Neg	5	advmod	_	_
+5	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = ", ci spiega Brooke Collins, che aiuta John Fanestil, della Border Church, venuto a dare la sua benedizione binazionale.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Brooke	Brooke	PROPN	SP	_	4	nsubj	_	_
+6	Collins	Collins	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	John	John	PROPN	SP	_	9	obj	_	_
+11	Fanestil	Fanestil	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Border	Border	PROPN	SP	_	10	nmod	_	_
+16	Church	Church	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	dare	dare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	benedizione	benedizione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+24	binazionale	binazionale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = "Noi chiediamo una riforma migratoria che sia giusta per tutti!
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	chiediamo	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	migratoria	migratorio	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	5	acl:relcl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	obl	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = ", tuona il reverendo.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	tuona	tuonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	reverendo	reverere	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Accanto a lui, Enrique Morones, dell'organizzazione Border Angels, ci illustra la sua battaglia affinché le famiglie possano tornare ad abbracciarsi attraverso una rete a maglie più larghe.
+1	Accanto	accanto	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Enrique	Enrique	PROPN	SP	_	15	nsubj	_	_
+6	Morones	Morones	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+11	Border	Border	PROPN	SP	_	10	nmod	_	_
+12	Angels	Angels	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	iobj	_	_
+15	illustra	illustrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	affinché	affinché	SCONJ	CS	_	23	mark	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+22	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	tornare	tornare	VERB	V	VerbForm=Inf	18	advcl	_	_
+24	ad	a	ADP	E	_	25	mark	_	_
+25-26	abbracciarsi	_	_	_	_	_	_	_	_
+25	abbracciar	abbracciare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27	attraverso	attraverso	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	rete	rete	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	maglie	maglia	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+32	più	più	ADV	B	_	33	advmod	_	_
+33	larghe	largo	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 26
+# text = "Siamo riusciti a far sì che genitori e figli avessero il permesso di abbracciarsi per qualche minuto per la giornata del bambino il 30 aprile.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	far	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	sì	sì	ADV	B	_	5	advmod	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+11	avessero	avere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	abbracciarsi	_	_	_	_	_	_	_	_
+15	abbracciar	abbracciare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	30	30	NUM	N	NumType=Card	15	obl	_	_
+28	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	27	flat	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Ora cerchiamo di convincere le autorità ad acconsentire anche per il 19 novembre".
+1	Ora	ora	ADV	B	_	2	advmod	_	_
+2	cerchiamo	cercare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	convincere	convincere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	autorità	autorità	NOUN	S	Gender=Fem	4	obj	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8	acconsentire	acconsentire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	19	19	NUM	N	NumType=Card	8	obl	_	_
+13	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Poco più in là, Adriana, venuta da Pasadena, si sfoga:
+1	Poco	poco	ADV	B	_	2	advmod	_	_
+2	più	più	ADV	B	_	6	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	là	là	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Adriana	Adriana	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	venuta	venire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Pasadena	Pasadena	PROPN	SP	_	8	obl:agent	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	sfoga	sfogare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 29
+# text = "C'è un sacco di sangue latino che si batte per il tuo paese, Señor Trump!
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	latino	latino	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+11	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	paese	paese	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	Señor	Señor	PROPN	SP	_	15	nmod	_	_
+18	Trump	Trump	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = Ma che cos'hai al posto del cuore?".
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	cos'	cosa	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+4	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 31
+# text = A due settimane dalle elezioni presidenziali, il consolidamento della frontiera promesso da Trump occupa i pensieri di tutti.
+1	A	a	ADP	E	_	3	case	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+4-5	dalle	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	presidenziali	presidenziale	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	consolidamento	consolidamento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Trump	Trump	PROPN	SP	_	14	obl:agent	_	_
+17	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	pensieri	pensiero	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 32
+# text = "Non ti sembra che questo muro sia già abbastanza alto?
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	muro	muro	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	già	già	ADV	B	_	11	advmod	_	_
+10	abbastanza	abbastanza	ADV	B	_	11	advmod	_	_
+11	alto	alto	ADJ	A	Gender=Masc|Number=Sing	4	ccomp	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 33
+# text = - s'interroga María Galleta, fondatrice dell'associazione Madres Deportadas en Acción.
+1	-	-	PUNCT	FF	_	3	punct	_	_
+2	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	interroga	interrogare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	María	María	PROPN	SP	_	3	nsubj	_	_
+5	Galleta	Galleta	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	fondatrice	fondatore	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	Madres	Madres	X	SW	Foreign=Yes	10	compound	_	_
+12	Deportadas	Deportadas	X	SW	Foreign=Yes	11	flat:foreign	_	_
+13	en	en	X	SW	Foreign=Yes	11	flat:foreign	_	_
+14	Acción	Acción	X	SW	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = - Che cosa succederà se dovesse diventare presidente lui?"
+1	-	-	PUNCT	FF	_	4	punct	_	_
+2	Che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	succederà	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	diventare	diventare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	xcomp	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	4	punct	_	SpacesAfter=\n
+

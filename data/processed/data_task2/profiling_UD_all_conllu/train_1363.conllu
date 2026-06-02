@@ -1,0 +1,355 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una dichiarazione shock che ha lasciando senza parole molti fans e addetti ai lavori.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	shock	shock	ADJ	A	_	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lasciando	lasciare	VERB	V	VerbForm=Ger	2	acl:relcl	_	_
+7	senza	senza	ADP	E	_	8	case	_	_
+8	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	fans	fan	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	addetti	addetto	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = In una lunga intervista al noto conduttore radiofonicoampediatore, Chiara ha confessato di essere lontana dalle scene ormai da tempo e di stare attraversando un momento difficile della sua vita.
+1	In	in	ADP	E	_	4	case	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	noto	noto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	conduttore	conduttore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	radiofonicoampediatore	radiofonicoampediatore	NOUN	S	Gender=Masc	8	compound	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	Chiara	Chiara	PROPN	SP	_	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	di	di	ADP	E	_	16	mark	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+16	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	13	xcomp	_	_
+17-18	dalle	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	scene	scena	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	ormai	ormai	ADV	B	_	16	advmod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	stare	stare	VERB	V	VerbForm=Inf	16	conj	_	_
+26	attraversando	attraversare	VERB	V	VerbForm=Ger	25	advcl	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	momento	momento	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	difficile	difficile	ADJ	A	Number=Sing	28	amod	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	vita	vita	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = "La mia vita - ha ammesso - è un disastro.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+5	-	-	PUNCT	FB	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis	_	_
+8	-	-	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	disastro	disastro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Non ho più la forza di continuare a fingere di essere felice quando non lo sono.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	più	più	ADV	B	_	2	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forza	forza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	continuare	continuare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	fingere	fingere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+12	felice	felice	ADJ	A	Number=Sing	9	xcomp	_	_
+13	quando	quando	SCONJ	CS	_	16	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl	_	_
+16	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ho bisogno di fermarmi, di riflettere e di riprendere in mano la mia vita".
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	fermarmi	_	_	_	_	_	_	_	SpaceAfter=No
+4	fermar	fermare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	riflettere	riflettere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	riprendere	riprendere	VERB	V	VerbForm=Inf	8	conj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	mano	mano	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = La cantante ha ammesso di essere sulla cresta dell'onda già da molti anni, ma ha confessato che il successo e la pressione degli ultimi anni hannobeginan a pesarle troppo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cantante	cantante	NOUN	S	Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	9	mark	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cresta	cresta	NOUN	S	Gender=Fem|Number=Sing	4	ccomp	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	onda	onda	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	già	già	ADV	B	_	16	advmod	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	ma	ma	CCONJ	CC	_	20	cc	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+21	che	che	SCONJ	CS	_	23	mark	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	successo	successo	NOUN	S	Gender=Masc|Number=Sing	20	ccomp	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+27-28	degli	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	30	amod	_	_
+30	anni	anno	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+31	hannobeginan	hannobeginan	ADV	B	_	33	advmod	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33-34	pesarle	_	_	_	_	_	_	_	_
+33	pesar	pesare	VERB	V	VerbForm=Inf	26	acl	_	_
+34	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+35	troppo	troppo	ADV	B	_	33	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = "Mi sembra di non avere più spazio per me stessa, per le mie passioni, per i miei affetti.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	avere	avere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	me	me	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	passioni	passione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	per	per	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sono diventata un'icona, una macchina da affective, ma ho perso di vista quello che realmente desidero".
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	icona	icona	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	affective	affectiva	NUM	N	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	vista	vista	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	realmente	realmente	ADV	B	_	19	advmod	_	_
+19	desidero	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Una confessione che ha fatto Généralmente molti fan preoccupati per il futuro della loro idola, ma che ha anche scatenato molte critiche nei suoi confronti.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	Généralmente	Généralmente	ADV	B	_	5	advmod	_	_
+7	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	fan	fan	NOUN	S	_	5	obj	_	_
+9	preoccupati	preoccupato	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	idola	idola	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	22	punct	_	_
+18	ma	ma	CCONJ	CC	_	22	cc	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	anche	anche	ADV	B	_	22	advmod	_	_
+22	scatenato	scatenato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+23	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25-26	nei	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	28	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Alcuni, infatti, hanno stigmatizzato la sua scelta di " }}{\://etermare di exposing intestarllà sua vita in pubblico, altri hanno invece sottolineato come la sua confessione sia un chiaro segnale di un malessere che può colpire chiunque, anche le celebrities più amate.
+1	Alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	infatti	infatti	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	stigmatizzato	stigmatizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	di	di	ADP	E	_	16	mark	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	_
+12	}	}	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+13	}	}	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	{	{	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+15	\	\	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	://etermare	://etermare	VERB	V	VerbForm=Inf	9	acl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	exposing	exposing	NOUN	S	Gender=Fem	16	obl	_	_
+19	intestarllà	intestarllà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	advcl	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	nsubj	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	invece	invece	ADV	B	_	28	advmod	_	_
+28	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+29	come	come	ADP	E	_	32	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+33	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	malessere	malessere	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+41	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	colpire	colpire	VERB	V	VerbForm=Inf	39	acl:relcl	_	_
+43	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	42	obj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	anche	anche	ADV	B	_	47	advmod	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	celebrities	celebrity	NOUN	S	Gender=Fem|Number=Plur	43	appos	_	_
+48	più	più	ADV	B	_	49	advmod	_	_
+49	amate	amato	ADJ	A	Gender=Fem|Number=Plur	47	amod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = In ogni caso, la confessione di Chiara ha fatto riflettere molti sui limiti del successo e sulla necessità di saper ritagliarsi uno spazio personale anche quando si èUnderò il mira della cronaca rosa e della curiosità del pubblico.
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	confessione	confessione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Chiara	Chiara	PROPN	SP	_	6	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	riflettere	riflettere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	obj	_	_
+13-14	sui	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	successo	successo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	sulla	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	necessità	necessità	NOUN	S	Gender=Fem	15	conj	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	saper	sapere	VERB	V	VerbForm=Inf	22	acl	_	_
+25-26	ritagliarsi	_	_	_	_	_	_	_	_
+25	ritagliar	ritagliare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29	personale	personale	ADJ	A	Number=Sing	28	amod	_	_
+30	anche	anche	ADV	B	_	33	advmod	_	_
+31	quando	quando	SCONJ	CS	_	33	mark	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+33	èUnderò	èUnderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	mira	mira	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+39	rosa	rosa	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	curiosità	curiosità	NOUN	S	Gender=Fem	38	conj	_	_
+44-45	del	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

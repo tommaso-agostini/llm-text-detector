@@ -1,0 +1,612 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E Josè Altafini in carne e ossa.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	Josè	José	PROPN	SP	_	0	root	_	_
+3	Altafini	Altafinare	PROPN	SP	_	2	flat:name	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	carne	carne	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	ossa	osso	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Basterà chiudere gli occhi e Alghero per una notte diventerà Hollywood.
+1	Basterà	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	parataxis	_	_
+2	chiudere	chiudere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Alghero	Alghero	PROPN	SP	_	4	conj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10	diventerà	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	Hollywood	Hollywood	PROPN	SP	_	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Il Leggio d'Oro, l'Oscar delle Voci ideato da Vittorio Vatteroni, organizzato dall'Endas e presentato quest'anno da Moreno Morello e Alessia Reato, premia sabato 19 luglio i migliori doppiatori dell'anno, le voci dei divi del cinema.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Leggio	Leggio	PROPN	SP	_	0	root	_	_
+3	d'	d'	ADP	E	_	4	case	_	SpaceAfter=No
+4	Oro	oro	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Oscar	Oscar	PROPN	SP	_	2	appos	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Voci	voce	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	ideato	ideare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Vittorio	Vittorio	PROPN	SP	_	11	obl:agent	_	_
+14	Vatteroni	Vatteroni	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+17-18	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+17	da	da	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Endas	Endas	PROPN	SP	_	16	obl:agent	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+22	quest'	questo	DET	DD	Number=Sing|PronType=Dem	23	det	_	SpaceAfter=No
+23	anno	anno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	Moreno	Moreno	PROPN	SP	_	21	obl:agent	_	_
+26	Morello	Morello	PROPN	SP	_	25	flat:name	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	Alessia	Alessia	PROPN	SP	_	25	conj	_	_
+29	Reato	reato	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	28	punct	_	_
+31	premia	premiare	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+33	19	19	NUM	N	NumType=Card	32	nmod	_	_
+34	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	33	flat	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	37	amod	_	_
+37	doppiatori	doppiatore	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+38-39	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+38	di	di	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	anno	anno	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	2	punct	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	voci	voce	NOUN	S	Gender=Fem|Number=Plur	2	appos	_	_
+44-45	dei	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	divi	divio	NOUN	S	Gender=Masc|Number=Plur	43	nmod	_	_
+47-48	del	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	cinema	cinema	NOUN	S	Gender=Masc	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = . Il Leggio d'oro Il Leggio d'Oro, nato nel 1995, anno in cui il cinema ha compiuto 100 anni, premia il meglio del doppiaggio italiano.
+1	.	.	PUNCT	FF	_	3	punct	_	_
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Leggio	Leggio	PROPN	SP	_	26	nsubj	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	oro	oro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Leggio	Leggio	PROPN	SP	_	3	nmod	_	_
+8	d'	d'	ADP	E	_	9	case	_	SpaceAfter=No
+9	Oro	oro	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	1995	1995	NUM	N	NumType=Card	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cinema	cinema	NOUN	S	Gender=Masc	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+23	100	100	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	3	punct	_	_
+26	premia	premiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	doppiaggio	doppiaggio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 5
+# text = Il primo a vincerlo fu Alberto Sordi, poi toccò, tra gli altri, a Oreste Lionello, Enzo Garinei, Francesco Pannofino, Luca Ward, Adriano Giannini, Claudio Bisio, Cesare Barbetti, Roberto Chevalier, Claudio Sorrentino.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	nsubj	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4-5	vincerlo	_	_	_	_	_	_	_	_
+4	vincer	vincere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	Alberto	Alberto	PROPN	SP	_	0	root	_	_
+8	Sordi	sorde	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	poi	poi	ADV	B	_	11	advmod	_	_
+11	toccò	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	tra	tra	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Oreste	Oresta	PROPN	SP	_	7	nmod	_	_
+19	Lionello	Lionello	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	Enzo	Enzo	PROPN	SP	_	18	conj	_	_
+22	Garinei	Garinei	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	7	punct	_	_
+24	Francesco	Francesco	PROPN	SP	_	7	flat:name	_	_
+25	Pannofino	Pannofino	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	7	punct	_	_
+27	Luca	Luca	PROPN	SP	_	7	appos	_	_
+28	Ward	Ward	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	7	punct	_	_
+30	Adriano	Adriano	PROPN	SP	_	7	conj	_	_
+31	Giannini	Giannini	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	7	punct	_	_
+33	Claudio	Claudio	PROPN	SP	_	7	conj	_	_
+34	Bisio	Bisio	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	7	punct	_	_
+36	Cesare	Cesare	PROPN	SP	_	7	conj	_	_
+37	Barbetti	Barbetti	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	7	punct	_	_
+39	Roberto	Roberto	PROPN	SP	_	7	flat:name	_	_
+40	Chevalier	Chevalier	PROPN	SP	_	39	flat:name	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	7	punct	_	_
+42	Claudio	Claudio	PROPN	SP	_	7	appos	_	_
+43	Sorrentino	Sorrentino	PROPN	SP	_	42	flat:name	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Presidente del premio è Lorenzo Beccati, scrittore e autore di «Striscia la notizia».
+1	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	premio	premio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	Lorenzo	Lorenzo	PROPN	SP	_	0	root	_	_
+7	Beccati	beccati	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	autore	autore	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	«	«	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Striscia	striscia	PROPN	SP	_	11	nmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	»	»	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ma soprattutto voce del Gabibbo .
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	soprattutto	soprattutto	ADV	B	_	3	advmod	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Gabibbo	Gabibbo	PROPN	SP	_	3	nmod	_	_
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = I premiati Miglior voce femminile: Claudia Catani, per l'intepretazione di Angelina Jolie nel film «Maleficent».
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	premiati	premiato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	Miglior	miglior	PROPN	SP	_	2	nmod	_	_
+4	voce	voce	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+5	femminile	femminile	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+7	Claudia	Claudia	PROPN	SP	_	3	flat:name	_	_
+8	Catani	Catani	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	intepretazione	intepretazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Angelina	Angelina	PROPN	SP	_	12	nmod	_	_
+15	Jolie	Jolie	PROPN	SP	_	14	flat:name	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	film	film	NOUN	S	Gender=Masc	7	nmod	_	_
+19	«	«	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	Maleficent	Maleficent	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = In carriera è stata anche l'agente Scully di X-files (oltre a Charlize Theron e Cameron Diaz) Miglior voce maschile:
+1	In	in	ADP	E	_	2	case	_	_
+2	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	agente	agente	NOUN	S	Number=Sing	0	root	_	_
+8	Scully	Scully	PROPN	SP	_	7	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	X-files	X-files	PROPN	SP	_	8	nmod	_	_
+11	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	oltre	oltre	ADV	B	_	14	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	Charlize	Charlize	PROPN	SP	_	7	nmod	_	_
+15	Theron	Theron	PROPN	SP	_	14	flat:name	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Cameron	Cameron	PROPN	SP	_	14	conj	_	_
+18	Diaz	Diaz	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	14	punct	_	_
+20	Miglior	miglior	PROPN	SP	_	7	nmod	_	_
+21	voce	voce	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22	maschile	maschile	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 10
+# text = Francesco Prando che interpreta Ralph Fiennes in «Grand Budapest Hotel» (ma è sua anche la voce di James Bond/Daniel Craig oltre a Keanu Reeves e Hugh Grant,) Miglior direzione di Doppiaggio:
+1	Francesco	Francesco	PROPN	SP	_	0	root	_	_
+2	Prando	Prando	PROPN	SP	_	1	flat:name	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	interpreta	interpretare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	Ralph	Ralph	PROPN	SP	_	4	obj	_	_
+6	Fiennes	Fiennes	PROPN	SP	_	5	flat:name	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Grand	Grand	PROPN	SP	_	4	obl	_	_
+10	Budapest	Budapest	PROPN	SP	_	9	flat:name	_	_
+11	Hotel	Hotel	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	9	punct	_	_
+13	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+14	ma	ma	CCONJ	CC	_	19	cc	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+17	anche	anche	ADV	B	_	19	advmod	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	voce	voce	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	James	James	PROPN	SP	_	19	nmod	_	_
+22	Bond	Bond	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	/	/	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+24	Daniel	Daniel	PROPN	SP	_	21	nmod	_	_
+25	Craig	Craig	PROPN	SP	_	24	flat:name	_	_
+26	oltre	oltre	ADV	B	_	28	case	_	_
+27	a	a	ADP	E	_	26	fixed	_	_
+28	Keanu	Keanu	PROPN	SP	_	19	nmod	_	_
+29	Reeves	Reeves	PROPN	SP	_	28	flat:name	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	Hugh	Hugh	PROPN	SP	_	28	conj	_	_
+32	Grant	Grant	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	19	punct	_	_
+35	Miglior	miglior	ADJ	A	Number=Sing	36	amod	_	_
+36	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	Doppiaggio	Doppiaggio	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = Sandro Acerbo, voce di Brad Pitt, (ma anche di Michael J. Fox in «Ritorno al futuro» e Will Smith in «Men in Black»), per il film «12 anni, schiavo» Miglior voce femminile dell'anno:
+1	Sandro	Sandro	PROPN	SP	_	0	root	_	_
+2	Acerbo	Acerbo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	voce	voce	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Brad	Brad	PROPN	SP	_	4	nmod	_	_
+7	Pitt	Pitt	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Michael	Michael	PROPN	SP	_	6	appos	_	_
+14	J.	J.	PROPN	SP	_	13	flat:name	_	_
+15	Fox	Fox	PROPN	SP	_	13	flat:name	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	«	«	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	Ritorno	ritorno	PROPN	SP	_	13	nmod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	»	»	PUNCT	FB	_	18	punct	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	Will	Will	PROPN	SP	_	13	conj	_	_
+25	Smith	Smith	PROPN	SP	_	24	flat:name	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	«	«	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	Men	Men	PROPN	SP	_	24	flat:name	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	Black	Black	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	»	»	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	1	punct	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	film	film	NOUN	S	Gender=Masc	1	nmod	_	_
+37	«	«	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+38	12	12	NUM	N	NumType=Card	39	nummod	_	_
+39	anni	anno	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	39	punct	_	_
+41	schiavo	schiare	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+42	»	»	PUNCT	FB	_	41	punct	_	_
+43	Miglior	miglior	ADJ	A	Number=Sing	44	amod	_	_
+44	voce	voce	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+45	femminile	femminile	ADJ	A	Number=Sing	44	amod	_	_
+46-47	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+46	di	di	ADP	E	_	48	case	_	_
+47	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	anno	anno	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+49	:	:	PUNCT	FC	_	36	punct	_	_
+
+# sent_id = 12
+# text = Roberta Greganti.
+1	Roberta	Roberta	PROPN	SP	_	0	root	_	_
+2	Greganti	Gregante	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Tra le sue interpretazioni più famose:
+1	Tra	tra	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	interpretazioni	interpretazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	famose	famoso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 14
+# text = Bo Derek in «10», Jamie Lee Curtis in «True Lies», Uma Thurman in «Batman e Robin» Miglior voce maschile dell'anno:
+1	Bo	Bo	PROPN	SP	_	0	root	_	_
+2	Derek	Derek	PROPN	SP	_	1	flat:name	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	10	10	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	Jamie	Jamie	PROPN	SP	_	1	conj	_	_
+9	Lee	Lee	PROPN	SP	_	8	flat:name	_	_
+10	Curtis	Curtis	PROPN	SP	_	8	flat:name	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	«	«	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	True	True	PROPN	SP	_	8	nmod	_	_
+14	Lies	Lies	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Uma	Uma	PROPN	SP	_	1	conj	_	_
+18	Thurman	Thurman	PROPN	SP	_	17	flat:name	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	«	«	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Batman	Batman	PROPN	SP	_	17	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	Robin	Robin	PROPN	SP	_	21	conj	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	21	punct	_	_
+25	Miglior	miglior	PROPN	SP	_	17	flat:name	_	_
+26	voce	voce	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+27	maschile	maschile	ADJ	A	Number=Sing	26	amod	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	anno	anno	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 15
+# text = Flavio Aquilone, alter ego di Zac Efron.
+1	Flavio	Flavio	PROPN	SP	_	0	root	_	_
+2	Aquilone	aquilone	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	alter	alter	ADP	E	_	5	case	_	_
+5	ego	ego	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Zac	Zac	PROPN	SP	_	5	nmod	_	_
+8	Efron	Efron	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Suo il Tom Felten di «Harry Potter» Premio alla Carriera:
+1	Suo	suo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Tom	Tom	PROPN	SP	_	1	obj	_	_
+4	Felten	Felten	PROPN	SP	_	3	flat:name	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Harry	Harry	PROPN	SP	_	3	nmod	_	_
+8	Potter	Potter	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	7	punct	_	_
+10	Premio	Premio	NOUN	S	Gender=Masc|Number=Sing	1	xcomp	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Carriera	carriera	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 17
+# text = Michele Gammino, cioè l'Harrison Ford di «Indiana Jones», il Richard Gere di «Pretty Woman», il Kevin Costner di «Balla con i lupi».
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Gammino	Gammino	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	cioè	cioè	CCONJ	CC	_	6	cc	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Harrison	Harrison	PROPN	SP	_	1	conj	_	_
+7	Ford	Ford	PROPN	SP	_	6	flat:name	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Indiana	Indiana	PROPN	SP	_	6	nmod	_	_
+11	Jones	Jones	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	»	»	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Richard	Richard	PROPN	SP	_	1	conj	_	_
+16	Gere	Gere	PROPN	SP	_	15	flat:name	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	«	«	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	Pretty	Pretty	PROPN	SP	_	15	nmod	_	_
+20	Woman	Woman	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Kevin	Kevin	PROPN	SP	_	1	conj	_	_
+25	Costner	Costner	PROPN	SP	_	24	flat:name	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	«	«	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	Balla	balla	PROPN	SP	_	24	nmod	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	lupi	lupo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+32	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Ma è anche Jack Nicholson, Steven Seagal e Bill Murray Voce Telefilm Cult:
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	Jack	Jack	PROPN	SP	_	0	root	_	_
+5	Nicholson	Nicholson	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Steven	Steven	PROPN	SP	_	4	conj	_	_
+8	Seagal	Seagal	PROPN	SP	_	7	flat:name	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Bill	Bill	PROPN	SP	_	4	conj	_	_
+11	Murray	Murray	PROPN	SP	_	10	flat:name	_	_
+12	Voce	Voce	PROPN	SP	_	10	flat:name	_	_
+13	Telefilm	Telefilm	PROPN	SP	_	10	flat:name	_	_
+14	Cult	Cult	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 19
+# text = Edoardo Nevola, voce di Will Smith nella serie «Willy, il principe di Bel Air» Voce rivelazione dei Cartoon:
+1	Edoardo	Edoardo	PROPN	SP	_	0	root	_	_
+2	Nevola	Nevola	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	voce	voce	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Will	Will	PROPN	SP	_	4	nmod	_	_
+7	Smith	Smith	PROPN	SP	_	6	flat:name	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	serie	serie	NOUN	S	Gender=Fem	4	nmod	_	_
+11	«	«	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Willy	Willy	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	principe	principe	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Bel	bel	PROPN	SP	_	15	nmod	_	_
+18	Air	Air	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	15	punct	_	_
+20	Voce	Voce	PROPN	SP	_	15	nmod	_	_
+21	rivelazione	rivelazione	NOUN	S	Gender=Fem|Number=Sing	20	flat:name	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Cartoon	Cartoon	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 20
+# text = Josè Altafini per «Rio» 2 dove interpreta Luiz Premio Alberto Sordi:
+1	Josè	José	PROPN	SP	_	0	root	_	_
+2	Altafini	Altafinare	PROPN	SP	_	1	flat:name	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Rio	Rio	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	5	punct	_	_
+7	2	2	NUM	N	NumType=Card	1	flat:name	_	_
+8	dove	dove	ADV	B	_	10	advmod	_	_
+9	interpreta	interpretare	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	Luiz	Luiz	PROPN	SP	_	1	acl:relcl	_	_
+11	Premio	Premio	PROPN	SP	_	10	flat:name	_	_
+12	Alberto	Alberto	PROPN	SP	_	10	flat:name	_	_
+13	Sordi	sordo	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 21
+# text = Maurizio Mattioli, attore comico, protagonista del Bagaglino e doppiatore di cartoni animati come «Z la formica» e «La gang del bosco».
+1	Maurizio	Maurizio	PROPN	SP	_	0	root	_	_
+2	Mattioli	Mattioli	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	attore	attore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	comico	comico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	protagonista	protagonista	NOUN	S	Number=Sing	4	appos	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Bagaglino	Bagaglino	PROPN	SP	_	7	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	doppiatore	doppiatore	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cartoni	cartoni	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	animati	animata	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	come	come	ADP	E	_	18	case	_	_
+17	«	«	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	Z	Z	PROPN	SP	_	15	obl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	formica	formica	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	»	»	PUNCT	FB	_	18	punct	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	«	«	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+24	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	gang	gang	NOUN	S	Gender=Fem	18	conj	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	bosco	bosco	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+29	»	»	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = . Dove e quando:
+1	.	.	PUNCT	FF	_	2	punct	_	_
+2	Dove	dove	ADV	B	_	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	quando	quando	SCONJ	CS	_	2	conj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 23
+# text = Sabato 19 luglio alle 9.30, alla Banchina Garibaldi di Alghero (Sassari).
+1	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	19	19	NUM	N	NumType=Card	1	nmod	_	_
+3	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	9.30	9.30	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Banchina	Banchina	PROPN	SP	_	1	nmod	_	_
+11	Garibaldi	Garibaldi	PROPN	SP	_	10	flat:name	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Alghero	Alghero	PROPN	SP	_	10	nmod	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Sassari	Sassari	PROPN	SP	_	10	appos	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Presentano Moreno Morello e l'ex velina Alessia Reato
+1	Presentano	presentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Moreno	Moreno	PROPN	SP	_	1	obj	_	_
+3	Morello	Morello	PROPN	SP	_	2	flat:name	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	ex	ex	ADJ	A	_	7	amod	_	_
+7	velina	velina	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	Alessia	Alessia	PROPN	SP	_	7	nmod	_	_
+9	Reato	reato	PROPN	SP	_	8	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,794 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Trent'anni dopo Wojtya, un altro papa, Francesco, ha visitato il tempio sul lungotevere de' Cenci.
+1	Trent'	trenta	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+3	dopo	dopo	ADP	E	_	4	case	_	_
+4	Wojtya	Wojtya	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	papa	papa	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	Francesco	Francesco	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	visitato	visitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tempio	tempio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lungotevere	lungotevere	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	de'	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Cenci	Cenci	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = E agli ebrei romani, Bergoglio ha ripetuto:
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2-3	agli	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+5	romani	romano	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	Bergoglio	Bergoglio	PROPN	SP	_	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ripetuto	ripetere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 3
+# text = «Voi siete i nostri fratelli e le nostre sorelle maggiori nella fede».
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
+3	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+11	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	10	amod	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fede	fede	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Il dialogo fra «fratelli nella fede» prosegue fecondo, ma il rischio di incomprensioni non è mai superato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	fra	fra	ADP	E	_	5	case	_	_
+4	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fede	fede	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	5	punct	_	_
+10	prosegue	proseguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	fecondo	fecondo	VERB	V	VerbForm=Ger	10	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	21	punct	_	_
+13	ma	ma	CCONJ	CC	_	21	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	incomprensioni	incomprensione	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	mai	mai	ADV	B	_	21	advmod	_	_
+21	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Rabbino Arbib, qual è lo stato d'animo col quale lei, rabbino capo di Milano, e gli ebrei milanesi, vivranno la visita del papa, dopo l'incontro con il cardinale Scola nella sinagoga maggiore, due mesi fa, in occasione della giornata del dialogo?
+1	Rabbino	Rabbino	PROPN	SP	_	4	nsubj	_	_
+2	Arbib	Arbib	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	qual	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stato	stato	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	animo	animo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	col	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	quale	quale	PRON	PR	Number=Sing|PronType=Rel	15	obl	_	_
+13	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	rabbino	rabbare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+16	capo	capo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Milano	Milano	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+23	milanesi	milanese	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	vivranno	vivre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	visita	visita	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	papa	papa	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	25	punct	_	_
+32	dopo	dopo	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+35	con	con	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	cardinale	cardinale	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	Scola	Scola	PROPN	SP	_	37	nmod	_	_
+39-40	nella	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	sinagoga	sinagoga	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+42	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	41	amod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	25	punct	_	_
+44	due	due	NUM	N	NumType=Card	45	nummod	_	_
+45	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+46	fa	fa	ADV	B	_	45	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	25	punct	_	_
+48	in	in	ADP	E	_	49	case	_	_
+49	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+50-51	della	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	_
+53-54	del	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
+56	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = «La visita del Papa non coinvolge gli ebrei come comunità ma come cittadini milanesi e come tali siamo interessati a ciò che il Papa dirà e farà e ovviamente gli diamo il benvenuto nella nostra città.
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	visita	visita	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Papa	Papa	PROPN	SP	_	3	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	coinvolge	coinvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ebrei	ebreo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	comunità	comunità	NOUN	S	Gender=Fem	10	nmod	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+16	milanesi	milanese	ADJ	A	Number=Plur	15	amod	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	tali	tale	PRON	PD	Number=Plur|PronType=Dem	21	obl	_	_
+20	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	interessati	interessare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	obl	_	_
+24	che	che	PRON	PR	PronType=Rel	27	obj	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Papa	Papa	PROPN	SP	_	27	nsubj	_	_
+27	dirà	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	acl:relcl	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	33	conj	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	ovviamente	ovviamente	ADV	B	_	33	advmod	_	_
+32	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	iobj	_	_
+33	diamo	dare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	benvenuto	benvenuto	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+36-37	nella	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	39	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	città	città	NOUN	S	Gender=Fem	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = La visita del cardinale Scola è stato un momento importante nel percorso di dialogo ebraico cristiano che ha coinvolto l'ebraismo in generale e la comunità ebraica di Milano e la Diocesi di Milano in particolare».
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	visita	visita	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cardinale	cardinale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Scola	Scola	PROPN	SP	_	5	nmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	importante	importante	ADJ	A	Number=Sing	10	amod	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	cristiano	cristiano	NOUN	S	Gender=Masc|Number=Sing	16	compound	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	ebraismo	ebraismo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	generale	generale	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	comunità	comunità	NOUN	S	Gender=Fem	23	conj	_	_
+29	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Milano	Milano	PROPN	SP	_	28	nmod	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Diocesi	Diocesi	PROPN	SP	_	23	conj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	Milano	Milano	PROPN	SP	_	34	nmod	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+39	»	»	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Il papato di Bergoglio ha fatto segnare significativi progressi in questo dialogo?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	papato	papato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Bergoglio	Bergoglio	PROPN	SP	_	2	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	segnare	segnare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	significativi	significativo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Ci sono stati passi avanti nel solco della svolta conciliare (l'attesa messianica, la teologia della sostituzione).
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	passi	passare	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+5	avanti	avanti	ADV	B	_	4	advmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	solco	solco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	conciliare	conciliare	ADJ	A	Number=Sing	11	amod	_	_
+13	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	messianica	messianico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	teologia	teologia	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sostituzione	sostituzione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = «Il dialogo ha fatto indubbiamente significativi progressi.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	indubbiamente	indubbiamente	ADV	B	_	5	advmod	_	_
+7	significativi	significativo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = È stata superata la teologia della sostituzione e sia il Papa Benedetto XVI sia il Papa Francesco hanno ribadito che le promesse divine sono irrevocabili compresa ovviamente l'alleanza tra Dio e Israele.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	superata	superare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	teologia	teologia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sostituzione	sostituzione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Papa	Papa	PROPN	SP	_	20	nsubj	_	_
+13	Benedetto	Benedetto	PROPN	SP	_	12	flat:name	_	_
+14	XVI	XVI	PROPN	SP	_	12	flat:name	_	_
+15	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Papa	Papa	PROPN	SP	_	20	nsubj	_	_
+18	Francesco	Francesco	PROPN	SP	_	17	flat:name	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	ribadito	ribadire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+21	che	che	SCONJ	CS	_	26	mark	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+24	divine	divino	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+25	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	irrevocabili	irrevocabile	ADJ	A	Number=Plur	20	ccomp	_	_
+27	compresa	comprendere	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	ovviamente	ovviamente	ADV	B	_	27	advmod	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	alleanza	alleanza	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+31	tra	tra	ADP	E	_	32	case	_	_
+32	Dio	dio	PROPN	SP	_	30	nmod	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	Israele	Israele	PROPN	SP	_	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Il dialogo ha poi contribuito a superare secoli di ostilità antiebraica e di antigiudaismo cristiano».
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	poi	poi	ADV	B	_	5	advmod	_	_
+5	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	superare	superare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	ostilità	ostilità	NOUN	S	Gender=Fem	8	nmod	_	_
+11	antiebraica	antiebraico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	antigiudaismo	antigiudaismo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	cristiano	cristiano	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = La cronaca ci riporta all'attenzione il rischio di riflessi antichi e inquietanti, come nel caso del discusso evento di settembre, con i biblisti riuniti a Venezia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+4	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	riflessi	riflesso	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	antichi	antico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	inquietanti	inquietante	ADJ	A	Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	come	come	ADV	B	_	19	advmod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	caso	caso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	discusso	discusso	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	evento	evento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	4	punct	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	biblisti	biblista	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+30	riuniti	riunire	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	Venezia	Venezia	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = «Permangono degli ostacoli.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Permangono	Permangere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ostacoli	ostacolo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Ebraismo e cristianesimo sono due religioni diverse e tali devono rimanere.
+1	Ebraismo	Ebraismo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	cristianesimo	cristianesimo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	religioni	religione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+7	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	tali	tale	PRON	PD	Number=Plur|PronType=Dem	11	nsubj	_	_
+10	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rimanere	rimanere	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Il dialogo quindi non può essere un dialogo teologico ma un rapporto di amicizia, comprensione e collaborazione che si rivolge soprattutto al sociale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	quindi	quindi	ADV	B	_	8	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	teologico	teologico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	rivolge	rivolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	soprattutto	soprattutto	ADV	B	_	25	advmod	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sociale	sociale	ADJ	A	Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = C'è poi una rinascita di antisemitismo che riprende spesso le vecchie categorie dell'antigiudaismo medievale.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	poi	poi	ADV	B	_	2	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	rinascita	rinascita	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	antisemitismo	antisemitismo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	riprende	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	spesso	spesso	ADV	B	_	9	advmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	vecchie	vecchio	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	categorie	categoria	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	antigiudaismo	antigiudaismo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	medievale	medievale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Il complotto ebraico, il Dio della vendetta contrapposto al Dio dell'amore eccetera.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	complotto	complotto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vendetta	vendetta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	contrapposto	contrapporre	ADJ	A	_	9	amod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	eccetera	eccetera	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Spiace vedere come queste stesse categorie vengono a volte riprese in ambito cattolico.
+1	Spiace	Spiace	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	vedere	vedere	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	come	come	ADP	E	_	6	case	_	_
+4	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+5	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	categorie	categoria	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	volte	volte	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+10	riprese	riprendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	cattolico	cattolico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Il convegno dei Biblisti previsto per settembre a Venezia sembra voler riprendere questi temi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	convegno	convegno	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Biblisti	Biblista	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Venezia	Venezia	PROPN	SP	_	6	obl	_	_
+11	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	voler	volere	AUX	VM	VerbForm=Inf	13	aux	_	_
+13	riprendere	riprendere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+14	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	temi	tema	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 21
+# text = Si parla di Dio geloso e di ambivalenza della religione dell'antico Israele e sembra che venga attribuita alla Torà l'origine dei fondamentalismi contemporanei.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	geloso	geloso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ambivalenza	ambivalenza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	religione	religione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	15	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+14	antico	antico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	Israele	Israele	PROPN	SP	_	11	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	che	che	SCONJ	CS	_	20	mark	_	_
+19	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	attribuita	attribuire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Torà	torà	PROPN	SP	_	20	obl	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	origine	origine	NOUN	S	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	fondamentalismi	fondamentalismo	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	contemporanei	contemporanei	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Si tratta di uno scivolone e di un preoccupante ritorno al passato».
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	scivolone	scivolone	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	preoccupante	preoccupante	ADJ	A	Number=Sing	10	amod	_	_
+10	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	passato	passato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+14	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Sono immaginabili ricadute sulla delicatissima situazione dello stato di Israele?
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	immaginabili	immaginabile	ADJ	A	Number=Plur	0	root	_	_
+3	ricadute	ricadere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	delicatissima	delicato	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	7	amod	_	_
+7	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	dello	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	stato	stato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Israele	Israele	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Ci sono timori su Israele e Gerusalemme anche in ragione di eventi come l'incontro fra il Papa e il leader palestinese Abu Mazen per l'apertura dell'ambasciata presso il Vaticano?
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	timori	timore	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	su	su	ADP	E	_	5	case	_	_
+5	Israele	Israele	PROPN	SP	_	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Gerusalemme	Gerusalemme	PROPN	SP	_	5	conj	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	fra	fra	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Papa	Papa	PROPN	SP	_	15	nmod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	leader	leader	NOUN	S	_	18	conj	_	_
+22	palestinese	palestinese	ADJ	A	Number=Sing	21	amod	_	_
+23	Abu	Abu	PROPN	SP	_	21	nmod	_	_
+24	Mazen	Mazen	PROPN	SP	_	23	flat:name	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	ambasciata	ambasciata	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	presso	presso	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Vaticano	Vaticano	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = «C'è la questione di Israele e di Gerusalemme.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Israele	Israele	PROPN	SP	_	5	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Gerusalemme	Gerusalemme	PROPN	SP	_	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Ci sono state recentemente risoluzioni Unesco assolutamente vergognose che disconoscono il rapporto del popolo ebraico con Gerusalemme.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	recentemente	recentemente	ADV	B	_	5	advmod	_	_
+5	risoluzioni	risoluzionare	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+6	Unesco	Unesco	PROPN	SP	_	5	nmod	_	_
+7	assolutamente	assolutamente	ADV	B	_	8	advmod	_	_
+8	vergognose	vergognoso	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	disconoscono	disconore	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	Gerusalemme	Gerusalemme	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Sull'argomento il cardinale Scola ha assunto una posizione netta e di questo lo ringraziamo.
+1-2	Sull'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Su	su	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cardinale	cardinale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Scola	Scola	PROPN	SP	_	5	nmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	assunto	assumere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	netta	netto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	obl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	ringraziamo	ringraziare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 28
+# text = Però a volte la posizione della Chiesa cattolica nei confronti di Israele non è stata priva di ambiguità.
+1	Però	però	ADV	B	_	18	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	cattolica	cattolico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	nei	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Israele	Israele	PROPN	SP	_	12	nmod	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	cop	_	_
+18	priva	privare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	ambiguità	ambiguità	NOUN	S	Gender=Fem	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 29
+# text = Si continua ad esempio a parlare di Terra Santa invece di Terra d'Israele.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	parlare	parlare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Terra	Terra	PROPN	SP	_	6	obl	_	_
+9	Santa	Santa	PROPN	SP	_	8	flat:name	_	_
+10	invece	invece	ADV	B	_	12	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Terra	terra	PROPN	SP	_	2	nmod	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	Israele	Israele	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Il rapporto del popolo ebraico con questa terra e in particolare con Gerusalemme è fondamentale ed è alla base stessa dell'identità del pensiero e della religione ebraica».
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	terra	terra	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	Gerusalemme	Gerusalemme	PROPN	SP	_	16	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	fondamentale	fondamentale	ADJ	A	Number=Sing	5	amod	_	_
+17	ed	e	CCONJ	CC	_	21	cc	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	base	base	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+22	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	identità	identità	NOUN	S	Gender=Fem	21	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	religione	religione	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+33	ebraica	ebraico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

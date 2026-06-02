@@ -1,0 +1,743 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I seggi sono stati aperti alle 6 ora locale, le 11 in Italia.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	seggi	seggio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	aperti	aprire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	6	6	NUM	N	NumType=Card	9	nummod	_	_
+9	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	locale	locale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	11	11	NUM	N	NumType=Card	5	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Italia	Italia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il repubblicano Joseph Lhota non sembra avere margini di vittoria.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	repubblicano	repubblicano	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Joseph	Joseph	PROPN	SP	_	2	nmod	_	_
+4	Lhota	Lhota	PROPN	SP	_	3	flat:name	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	avere	avere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	margini	margine	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Secondo l'ultimo sondaggio condotto da Wall Street Journal-Nbc , il 65% degli intervistati vuole infatti il democratico De blasio come nuovo sindaco contro il 24% di Lhota.
+1	Secondo	secondo	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	sondaggio	sondaggio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+5	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Wall	Wall	PROPN	SP	_	5	obl:agent	_	_
+8	Street	Street	PROPN	SP	_	7	flat:name	_	_
+9	Journal	Journal	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+11	Nbc	Nbc	PROPN	SP	_	7	nmod	_	_
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	65	65	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	23	nsubj	_	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	intervistati	intervistato	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	infatti	infatti	ADV	B	_	23	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	De	De	PROPN	SP	_	0	root	_	_
+24	blasio	blasio	NOUN	S	Gender=Masc|Number=Sing	23	appos	_	_
+25	come	come	ADP	E	_	27	case	_	_
+26	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	contro	contro	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	24	24	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+31	%	%	SYM	SYM	_	27	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Lhota	Lhota	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 4
+# text = Dalla parte dei deboli.
+1-2	Dalla	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	deboli	debolo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = I newyorchesi sembrano però orientati a scegliere un sindaco in qualche modo più "morbido" che sta dalla parte dei più bisognosi.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	newyorchesi	newyorchese	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	però	però	ADV	B	_	3	advmod	_	_
+5	orientati	orientare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	xcomp	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	scegliere	scegliere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	più	più	ADV	B	_	15	advmod	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	morbido	morbido	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	18	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	bisognosi	bisognoso	ADJ	A	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il programma di De Blasio è, infatti, molto chiaro:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programma	programma	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	De	De	PROPN	SP	_	2	nmod	_	_
+5	Blasio	Blasio	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	infatti	infatti	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 7
+# text = far pagare più tasse ai residenti che guadagnano più di 500 mila dollari l'anno per finanziare gli asili nido e cambiare la legge sui salari minimi.
+1	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+2	pagare	pagare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	tasse	tassa	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	residenti	residente	NOUN	S	Number=Plur	2	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	guadagnano	guadagnare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	più	più	ADV	B	_	14	advmod	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	500	500	NUM	N	NumType=Card	14	nummod	_	_
+13	mila	mila	NUM	N	NumType=Card	12	flat	_	_
+14	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	finanziare	finanziare	VERB	V	VerbForm=Inf	9	advcl	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	asili	asilo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	nido	nido	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	cambiare	cambiare	VERB	V	VerbForm=Inf	18	conj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	legge	legge	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26-27	sui	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	salari	salare	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	minimi	minimo	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Anche da rappresentante dei diritti dei cittadini nel distretto di Brooklyn, incarico che ricopre dal 2010, il candidato ha sempre difeso la cultura, i deboli e gli emarginati.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	rappresentante	rappresentante	NOUN	S	Number=Sing	27	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	distretto	distretto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Brooklyn	Brooklyn	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	ricopre	ricoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19-20	dal	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	2010	2010	NUM	N	NumType=Card	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	sempre	sempre	ADV	B	_	27	advmod	_	_
+27	difeso	difendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	deboli	debolo	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	emarginati	emarginato	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 9
+# text = Il favorito.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	favorito	favorito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = De Blasio, 52 anni, newyorkese della lower class, origini bianche, italiane e tedesche, rappresenta un manifesto di eguaglianza e tolleranza multirazziale.
+1	De	De	PROPN	SP	_	20	nsubj	_	_
+2	Blasio	Blasio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	52	52	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	newyorkese	newyorkese	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lower	lower	NOUN	S	_	7	nmod	_	_
+11	class	class	NOUN	S	Gender=Masc	10	compound	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	origini	origine	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+14	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	14	conj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	tedesche	tedesco	ADJ	A	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	manifesto	manifesto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	eguaglianza	eguaglianza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	tolleranza	tolleranza	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+27	multirazziale	multirazziale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 11
+# text = Nato sotto il nome di Warren Wilhelm, De Blasio non ancora 20enne cambiò il cognome paterno con quello della madre, una De Blasio figlia di immigrati, per superare i traumi subiti da un padre sempre assente e poi suicida.
+1	Nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+2	sotto	sotto	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Warren	Warren	PROPN	SP	_	4	nmod	_	_
+7	Wilhelm	Wilhelm	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	De	De	PROPN	SP	_	6	appos	_	_
+10	Blasio	Blasio	PROPN	SP	_	9	flat:name	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	ancora	ancora	ADV	B	_	13	advmod	_	_
+13	20enne	20enne	ADJ	A	Number=Sing	1	amod	_	_
+14	cambiò	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cognome	cognome	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	paterno	paterno	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	madre	madre	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	De	De	PROPN	SP	_	14	appos	_	_
+26	Blasio	Blasio	PROPN	SP	_	25	flat:name	_	_
+27	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	25	flat:name	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	14	punct	_	_
+31	per	per	ADP	E	_	32	mark	_	_
+32	superare	superare	VERB	V	VerbForm=Inf	14	advcl	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	traumi	traume	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+35	subiti	subire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	34	acl	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	padre	padre	NOUN	S	Gender=Masc|Number=Sing	35	obl:agent	_	_
+39	sempre	sempre	ADV	B	_	40	advmod	_	_
+40	assente	assente	ADJ	A	Number=Sing	38	amod	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	poi	poi	ADV	B	_	43	advmod	_	_
+43	suicida	suicida	ADJ	A	Gender=Fem|Number=Sing	40	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 12
+# text = Il candidato democratico ha sempre ricordato le origini italiane e nel giorno in cui può diventare sindaco, ha inviato un messaggio ai cittadini di Sant'Agata dei Goti , paesino nella provincia di Benevento, da dove partirono anni fa i nonni per emigrare negli Stati Uniti:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	origini	origine	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	21	cc	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+16	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	diventare	diventare	VERB	V	VerbForm=Inf	13	acl:relcl	_	_
+18	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	inviato	inviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	ai	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Sant'	Sant'	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	Agata	Agare	PROPN	SP	_	28	flat:name	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	Goti	Goto	PROPN	SP	_	28	nmod	_	_
+33	,	,	PUNCT	FF	_	21	punct	_	_
+34	paesino	paesino	ADV	B	_	37	advmod	_	_
+35-36	nella	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Benevento	Benevento	PROPN	SP	_	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	39	punct	_	_
+41	da	da	ADP	E	_	42	case	_	_
+42	dove	dove	ADV	B	_	43	advmod	_	_
+43	partirono	partire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	39	acl:relcl	_	_
+44	anni	anno	NOUN	S	Gender=Masc|Number=Plur	43	obl	_	_
+45	fa	fa	ADV	B	_	44	advmod	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	nonni	nonno	NOUN	S	Gender=Masc|Number=Plur	43	obj	_	_
+48	per	per	ADP	E	_	49	mark	_	_
+49	emigrare	emigrare	VERB	V	VerbForm=Inf	47	acl	_	_
+50-51	negli	_	_	_	_	_	_	_	_
+50	in	in	ADP	E	_	52	case	_	_
+51	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	Stati	Stati	PROPN	SP	_	49	obl	_	_
+53	Uniti	Uniti	PROPN	SP	_	52	flat:name	_	SpaceAfter=No
+54	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 13
+# text = "Questa sera penserò a voi e a Sant'Agata dei Goti, spero di tornare quanto prima" ha scritto De Blasio.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+4	penserò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	obl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	Sant'	Sant'	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+10	Agata	Agato	PROPN	SP	_	6	conj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Goti	Goto	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	spero	sperare	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	tornare	tornare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obj	_	_
+19	prima	prima	ADV	B	_	20	advmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	22	punct	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	De	De	PROPN	SP	_	22	nsubj	_	_
+24	Blasio	Blasio	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Il candidato più gettonato a sindaco di New York si è specializzato in politica e affari internazionali alla Columbia University.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	gettonato	gettonato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	New	New	PROPN	SP	_	6	nmod	_	_
+9	York	York	PROPN	SP	_	8	flat:name	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	specializzato	specializzare	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	politica	politica|politico	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	affari	affare	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+17	internazionali	internazionale	ADJ	A	Number=Plur	16	amod	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Columbia	Columbia	PROPN	SP	_	12	obl	_	_
+21	University	University	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 15
+# text = Ha distribuito cibo e medicinali durante la rivoluzione in Nicaragua, prima di essere eletto, nel 2002, membro della giunta comunale cittadina.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	medicinali	medicinale	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+6	durante	durante	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Nicaragua	Nicaragua	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	prima	prima	ADV	B	_	15	mark	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	eletto	eleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2002	2002	NUM	N	NumType=Card	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	membro	membro	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	giunta	giunta	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	comunale	comunale	ADJ	A	Number=Sing	24	amod	_	_
+26	cittadina	cittadino	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Al suo fianco la moglie Chirlane McCray, 59 anni, afroamericana, combattiva e determinata, che già da bambina ha dimostrato il suo carattere:
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	Chirlane	Chirlane	PROPN	SP	_	6	nmod	_	_
+8	McCray	McCray	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	59	59	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	afroamericana	afroamericano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	combattiva	combattivo	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	determinata	determinato	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+20	già	già	ADV	B	_	22	advmod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 17
+# text = per difendersi dagli insulti razzisti e dalle discriminazioni, mentre frequentava il college firmò sul giornale della scuola un articolo dal titolo 'Sono lesbica'.
+1	per	per	ADP	E	_	2	mark	_	_
+2-3	difendersi	_	_	_	_	_	_	_	_
+2	difender	difendere	VERB	V	VerbForm=Inf	17	advcl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4-5	dagli	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	insulti	insulto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	razzisti	razzista	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	dalle	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	discriminazioni	discriminazione	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+14	frequentava	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	college	college	NOUN	S	Gender=Masc	14	obj	_	_
+17	firmò	firmare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	'	'	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+30	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	lesbica	lesbico	ADJ	A	Gender=Fem|Number=Sing	17	advcl	_	SpaceAfter=No
+32	'	'	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 18
+# text = E conquistò De Blasio con un piercing al naso:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	conquistò	conquistare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	De	De	PROPN	SP	_	2	obj	_	_
+4	Blasio	Blasio	PROPN	SP	_	3	flat:name	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	piercing	piercing	NOUN	S	_	2	obl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	naso	naso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 19
+# text = "Se sarò sindaco, lei farà l'attivista", ha annunciato il marito.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	4	mark	_	_
+3	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	cop	_	_
+4	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	attivista	attivista	NOUN	S	Number=Sing	7	obj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	marito	marito	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 20
+# text = Un democratico dopo 20 anni.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	democratico	democratico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	dopo	dopo	ADP	E	_	5	case	_	_
+4	20	20	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Se i sondaggi quindi non mentono, New York avrà dopo 20 anni un democratico alla guida di City Hall e per di più liberale.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	sondaggi	sondaggio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	quindi	quindi	ADV	B	_	6	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	mentono	mente	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	New	New	PROPN	SP	_	10	nsubj	_	_
+9	York	York	PROPN	SP	_	8	flat:name	_	_
+10	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	dopo	dopo	ADP	E	_	13	case	_	_
+12	20	20	NUM	N	NumType=Card	13	nummod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	democratico	democratico	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	guida	guida	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	City	City	PROPN	SP	_	18	nmod	_	_
+21	Hall	Hall	PROPN	SP	_	20	flat:name	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	liberale	liberale	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 22
+# text = Bloomberg e Rudolph Giuliani erano repubblicani (soltanto in occasione del terzo mandato Bloomberg si è presentato come indipendente); i democratici David Dinkins, Ed Koch e Abe Beame mantennero sempre un atteggiamento moderato;
+1	Bloomberg	Bloomberg	PROPN	SP	_	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Rudolph	Rudolph	PROPN	SP	_	1	conj	_	_
+4	Giuliani	Giuliani	PROPN	SP	_	3	flat:name	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	repubblicani	repubblicano	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+8	soltanto	soltanto	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	mandato	mandato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	Bloomberg	Bloomberg	PROPN	SP	_	14	nmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	indipendente	indipendente	ADJ	A	Number=Sing	18	obl	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	24	punct	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	democratici	democratico	NOUN	S	Gender=Masc|Number=Plur	33	obl	_	_
+25	David	David	PROPN	SP	_	24	nmod	_	_
+26	Dinkins	Dinkins	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	Ed	e	CCONJ	CC	_	33	cc	_	_
+29	Koch	Koch	PROPN	SP	_	33	nsubj	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	Abe	Abe	PROPN	SP	_	29	conj	_	_
+32	Beame	Beame	PROPN	SP	_	29	flat:name	_	_
+33	mantennero	mantenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+34	sempre	sempre	ADV	B	_	33	advmod	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+37	moderato	moderato	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
+38	;	;	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 23
+# text = per trovare un primo cittadino liberale, bisogna risalire a John Lindsay, che governò dal 1966 al 1973 ma che apparteneva al partito repubblicano.
+1	per	per	ADP	E	_	2	mark	_	_
+2	trovare	trovare	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	liberale	liberale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	risalire	risalire	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	John	John	PROPN	SP	_	9	obl	_	_
+12	Lindsay	Lindsay	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	governò	governare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	1966	1966	NUM	N	NumType=Card	15	obl	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	1973	1973	NUM	N	NumType=Card	15	obl	_	_
+22	ma	ma	CCONJ	CC	_	24	cc	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	apparteneva	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	partito	partito	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	repubblicano	repubblicano	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 24
+# text = Sempre più Italia .
+1	Sempre	sempre	ADV	B	_	2	advmod	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	Italia	Italia	PROPN	SP	_	0	root	_	_
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Con De Blasio, New York sarà ancora più italo-americana.
+1	Con	con	ADP	E	_	2	case	_	_
+2	De	De	PROPN	SP	_	10	obl	_	_
+3	Blasio	Blasio	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	New	New	PROPN	SP	_	10	nsubj	_	_
+6	York	York	PROPN	SP	_	5	flat:name	_	_
+7	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	italo	italo	ADJ	A	_	0	root	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	americana	americano	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 26
+# text = Per la prima volta in assoluto ci saranno due personalità di origini italiane alla guida di una città e di uno stato cruciali come New York.
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	assoluto	assoluto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	personalità	personalità	NOUN	S	Gender=Fem	8	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	origini	origine	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guida	guida	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	città	città	NOUN	S	Gender=Fem	16	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	stato	stato	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+24	cruciali	cruciale	ADJ	A	Number=Plur	23	amod	_	_
+25	come	come	ADP	E	_	26	case	_	_
+26	New	New	PROPN	SP	_	16	nmod	_	_
+27	York	York	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 27
+# text = Il probabile sindaco lavorerà al fianco del governatore Andrew Cuomo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	probabile	probabile	ADJ	A	Number=Sing	3	amod	_	_
+3	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	lavorerà	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governatore	governatore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	Andrew	Andrew	PROPN	SP	_	10	nmod	_	_
+12	Cuomo	Cuomo	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

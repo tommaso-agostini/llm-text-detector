@@ -1,0 +1,318 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma le idee?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	idee	idea	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = L'interrogativo, rivoloto al Pd, è di Romano Prodi.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	interrogativo	interrogativo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	rivoloto	rivolotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Pd	Pd	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Romano	Romano	PROPN	SP	_	0	root	_	_
+12	Prodi	Prodi	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = "Adesso sono cattivo:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Adesso	adesso	ADV	B	_	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = vedo che si sanno i nomi delle primarie Pd ma non i loro programmi .
+1	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	primarie	primario	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	Pd	Pd	PROPN	SP	_	6	nmod	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E questo per me è un problema gravissimo.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	gravissimo	grave	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Bisogna dire quello che uno vuole, che Paese e che partito si ha in testa.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+6	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	Paese	paese	PROPN	SP	_	2	ccomp	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	che	che	SCONJ	CS	_	14	mark	_	_
+12	partito	partito	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	testa	testa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Mi attendo che finalmente si cominci a presentare le differenze che non sono di personalità ma di contenuto".
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	attendo	attendere	VERB	V	VerbForm=Ger	1	advcl	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	finalmente	finalmente	ADV	B	_	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	cominci	cominco	ADJ	A	Gender=Masc|Number=Plur	2	ccomp	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	presentare	presentare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	personalità	personalità	NOUN	S	Gender=Fem	10	acl:relcl	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Così il fondatore dell'Ulivo su "In Mezz'ora in più", su Rai 3.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Ulivo	Ulivo	PROPN	SP	_	3	nmod	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	In	in	PROPN	SP	_	3	nmod	_	_
+10	Mezz'	Mezz'	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	ora	ora	ADV	B	_	13	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	più	più	ADV	B	_	9	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	Rai	Rai	PROPN	SP	_	13	nmod	_	_
+18	3	3	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = E sul fatto che vada o meno a votare alle primarie, l'ex premier è stato più vago:
+1	E	e	CCONJ	CC	_	21	cc	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	meno	meno	ADV	B	_	6	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	votare	votare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	primarie	primaria	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	ex	ex	ADJ	A	_	17	amod	_	_
+17	premier	premier	NOUN	S	_	21	nsubj	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	cop	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	vago	vago	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	21	punct	_	_
+
+# sent_id = 10
+# text = "Francamente non ho ancora deciso".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Francamente	Francamente	ADV	B	_	6	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = rep Intervista Maurizio Martina:
+1	rep	rep	NOUN	S	Gender=Masc	0	root	_	_
+2	Intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	1	compound	_	_
+3	Maurizio	Maurizio	PROPN	SP	_	1	nmod	_	_
+4	Martina	Martina	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = “Io in campo per evitare la sfida tra ultrà.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Io	iare	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	campo	campo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	evitare	evitare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	tra	tra	ADP	E	_	10	mark	_	_
+10	ultrà	ultre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Il congresso rifonderà il Pd” di GOFFREDO DE MARCHIS E tra le prime reazioni quella di Stefano Pedica :
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	congresso	congresso	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	rifonderà	rifondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Pd	Pd	PROPN	SP	_	3	obj	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	3	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	GOFFREDO	GOFFREDO	PROPN	SP	_	3	obl	_	_
+9	DE	De	PROPN	SP	_	8	flat:name	_	_
+10	MARCHIS	MARCHIS	PROPN	SP	_	8	flat:name	_	_
+11	E	e	CCONJ	CC	_	15	cc	_	_
+12	tra	tra	ADP	E	_	15	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	15	amod	_	_
+15	reazioni	reazione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+16	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Stefano	Stefano	PROPN	SP	_	16	nmod	_	_
+19	Pedica	Pedico	PROPN	SP	_	18	flat:name	_	_
+20	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = "Le parole di Prodi devono svegliare il Pd e farlo reagire.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Prodi	Prodi	PROPN	SP	_	3	nmod	_	_
+6	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	svegliare	svegliare	VERB	V	VerbForm=Inf	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Pd	Pd	PROPN	SP	_	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11-12	farlo	_	_	_	_	_	_	_	_
+11	far	fare	VERB	V	VerbForm=Inf	7	conj	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	reagire	reagire	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = In tempi di magra di idee e leader, i problemi non si risolvono parlandosi addosso o presentando libri.
+1	In	in	ADP	E	_	2	case	_	_
+2	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	magra	magra	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	idee	idea	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	leader	leader	NOUN	S	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	risolvono	risolvere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15-16	parlandosi	_	_	_	_	_	_	_	_
+15	parlando	parlare	VERB	V	VerbForm=Ger	14	advcl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	addosso	adduovere	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	presentando	presentare	VERB	V	VerbForm=Ger	14	conj	_	_
+20	libri	libro	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 16
+# text = Bisogna ripartire dai programmi e cercare di rispondere alle esigenze dei cittadini:
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ripartire	ripartire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3-4	dai	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	cercare	cercare	VERB	V	VerbForm=Inf	2	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	rispondere	rispondere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 17
+# text = dal rapporto diretto con i nostri elettori.
+1-2	dal	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	diretto	diretto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Solo così si potrà dar vita a una nuova stagione politica del Pd e di tutto il centrosinistra".
+1	Solo	solo	ADV	B	_	2	advmod	_	_
+2	così	così	ADV	B	_	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+4	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	politica	politico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Pd	Pd	PROPN	SP	_	10	nmod	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	centrosinistra	centrosinistra	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

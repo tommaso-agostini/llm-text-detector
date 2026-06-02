@@ -1,0 +1,407 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La bambina è stata fermata insieme ad altri due sospetti membri del gruppo terrorista Boko Haram, responsabile del recente rapimento di oltre duecento ragazze che ha provocato lo sdegno della comunità internazionale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	fermata	fermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	insieme	insieme	ADV	B	_	5	advmod	_	_
+7	ad	a	ADP	E	_	10	case	_	_
+8	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	sospetti	sospetto	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+11	membri	membro	NOUN	S	Gender=Masc|Number=Plur	10	compound	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	terrorista	terroristo	NOUN	S	Number=Sing	14	compound	_	_
+16	Boko	Boko	PROPN	SP	_	14	nmod	_	_
+17	Haram	Haram	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	responsabile	responsabile	NOUN	S	Number=Sing	5	appos	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	recente	recente	ADJ	A	Number=Sing	23	amod	_	_
+23	rapimento	rapimento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	oltre	oltre	ADV	B	_	26	advmod	_	_
+26	duecento	duecento	NUM	N	NumType=Card	27	nummod	_	_
+27	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	provocato	provocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	sdegno	sdegno	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	comunità	comunità	NOUN	S	Gender=Fem	32	nmod	_	_
+36	internazionale	internazionale	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = L'attentato di Kano avvenuto oggi, probabilmente architettato da Boko Haram, è il quarto in una settimana compiuto da una kamikaze donna.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Kano	Kano	PROPN	SP	_	2	nmod	_	_
+5	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	oggi	oggi	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	probabilmente	probabilmente	ADV	B	_	9	advmod	_	_
+9	architettato	architettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	Boko	Boko	PROPN	SP	_	9	obl:agent	_	_
+12	Haram	Haram	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	kamikaze	kamikaze	NOUN	S	Gender=Masc	20	obl:agent	_	_
+24	donna	donna	NOUN	S	Gender=Fem|Number=Sing	23	compound	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Questa si è fatta esplodere al Politecnico della seconda città della Nigeria.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	esplodere	esplodere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Politecnico	Politecnico	PROPN	SP	_	5	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	città	città	NOUN	S	Gender=Fem	8	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Nigeria	Nigeria	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Lo ha riferito un portavoce del governo, aggiungendo che il bilancio provvisorio è di sei morti.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	riferito	riferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	portavoce	portavoce	NOUN	S	_	3	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	aggiungendo	aggiungere	VERB	V	VerbForm=Ger	3	advcl	_	_
+11	che	che	SCONJ	CS	_	18	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bilancio	bilancio	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+14	provvisorio	provvisorio	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	sei	sei	NUM	N	NumType=Card	18	nummod	_	_
+18	morti	morto	NOUN	S	Gender=Masc|Number=Plur	10	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Nell'istituto era ripresa l'attività proprio oggi, dopo la pausa per la festa di fine Ramadan.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	ripresa	riprendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	attività	attività	NOUN	S	Gender=Fem	5	nsubj	_	_
+8	proprio	proprio	ADV	B	_	9	advmod	_	_
+9	oggi	oggi	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	dopo	dopo	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pausa	pausa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	festa	festa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	fine	fine	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	Ramadan	Ramadan	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ma la violenza in tutto il Paese sembra inarrestabile.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	7	det:predet	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	inarrestabile	inarrestabile	ADJ	A	Number=Sing	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Ieri sera almeno sei persone uccise e altre dieci sono rimaste ferite in un doppio attentato contro due moschee sciite di Potiskum, località dello Stato di Yobe (nord-est), già colpita più volte da Boko Haram.
+1	Ieri	ieri	ADV	B	_	11	advmod	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+3	almeno	almeno	ADV	B	_	4	advmod	_	_
+4	sei	sei	NUM	N	NumType=Card	5	nummod	_	_
+5	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+6	uccise	ucciso	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	altre	altro	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	dieci	diece	NUM	N	NumType=Card	6	conj	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rimaste	rimanere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	ferite	ferito	ADJ	A	Gender=Fem|Number=Plur	11	xcomp	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	doppio	doppio	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	contro	contro	ADP	E	_	19	case	_	_
+18	due	due	NUM	N	NumType=Card	19	nummod	_	_
+19	moschee	moschea	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	sciite	sciito	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Potiskum	Potiskum	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	località	località	NOUN	S	Gender=Fem	22	appos	_	_
+25-26	dello	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Yobe	Yobe	PROPN	SP	_	27	nmod	_	_
+30	(	(	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	nord-est	nord-est	NOUN	S	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	24	punct	_	_
+34	già	già	ADV	B	_	35	advmod	_	_
+35	colpita	colpire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+36	più	più	ADV	B	_	37	advmod	_	_
+37	volte	volta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	35	advcl	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	Boko	Boko	PROPN	SP	_	37	obl:agent	_	_
+40	Haram	Haram	PROPN	SP	_	39	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Secondo fonti della sicurezza locale la prima esplosione si è verificata alle 19.55 (ora locale) contro una moschea sciita del quartiere di Dogo Tebo, mentre i fedeli erano riuniti per la preghiera serale di fine ramadan.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	locale	locale	ADJ	A	Number=Sing	5	amod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	esplosione	esplosione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	verificata	verificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	19.55	19.55	NUM	N	NumType=Card	17	nmod	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	ora	ora	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+18	locale	locale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	17	punct	_	_
+20	contro	contro	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	moschea	moschea	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+23	sciita	sciito	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Dogo	Dogo	PROPN	SP	_	26	nmod	_	_
+29	Tebo	Tebo	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	12	punct	_	_
+31	mentre	mentre	SCONJ	CS	_	35	mark	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	fedeli	fedele	NOUN	S	Number=Plur	35	nsubj:pass	_	_
+34	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	aux:pass	_	_
+35	riuniti	riunire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	advcl	_	_
+36	per	per	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	preghiera	preghiera	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+39	serale	serale	ADJ	A	Number=Sing	38	amod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	fine	fine	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+42	ramadan	ramadan	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Quattro le persone uccise e cinque i feriti trasportati all'ospedale locale.
+1	Quattro	quattro	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	uccise	uccidere	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	cinque	cinque	NUM	N	NumType=Card	8	nummod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	feriti	ferito	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+9	trasportati	trasportare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	locale	locale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Mentre i soccorritori stavano intervenendo sul luogo dell'attentato un secondo ordigno è deflagrato, cinque minuti dopo, in un'altra moschea nella zona di Anguwar Bolawa, quella dell'imam della città, causando la morte di altri due civili.
+1	Mentre	mentre	SCONJ	CS	_	5	mark	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	soccorritori	soccorritore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	stavano	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	intervenendo	intervenire	VERB	V	VerbForm=Ger	16	advcl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	ordigno	ordigno	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	deflagrato	deflagrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	cinque	cinque	NUM	N	NumType=Card	19	nummod	_	_
+19	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	dopo	dopo	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+24	altra	altro	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	moschea	moschea	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+26-27	nella	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	zona	zona	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Anguwar	Anguwar	PROPN	SP	_	28	nmod	_	_
+31	Bolawa	Bolawa	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	30	nmod	_	_
+34-35	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+34	di	di	ADP	E	_	36	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	imam	imam	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	città	città	NOUN	S	Gender=Fem	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	16	punct	_	_
+41	causando	causare	VERB	V	VerbForm=Ger	16	advcl	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	morte	morte	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	di	di	ADP	E	_	47	case	_	_
+45	altri	altro	ADJ	A	Gender=Masc|Number=Plur	47	amod	_	_
+46	due	due	NUM	N	NumType=Card	47	nummod	_	_
+47	civili	civile	NOUN	S	Number=Plur	43	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = Intanto, sono purtroppo ancora nelle mani di Boko Haram 219 liceali rapite ad aprile dopo la fuga di una sessantina di loro .
+1	Intanto	intanto	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	purtroppo	purtroppo	ADV	B	_	8	advmod	_	_
+5	ancora	ancora	ADV	B	_	8	advmod	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mani	mano	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Boko	Boko	PROPN	SP	_	8	nmod	_	_
+11	Haram	Haram	PROPN	SP	_	10	flat:name	_	_
+12	219	219	NUM	N	NumType=Card	10	flat:name	_	_
+13	liceali	liceale	ADJ	A	Number=Plur	10	amod	_	_
+14	rapite	rapire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+15	ad	a	ADP	E	_	16	case	_	_
+16	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	dopo	dopo	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sessantina	sessantina	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Le operazioni dell'esercito finora non hanno portato alla liberazione delle giovani.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	operazioni	operazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	finora	finoro	ADV	B	_	5	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	giovani	giovane	NOUN	S	Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Il loro rapimento ha scatenato viva commozione in tutto il mondo, dando vita alla campagna #bringbackourgirls, che ha visto come 'testimonial' anche Michelle Obama.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	rapimento	rapimento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	dando	dare	VERB	V	VerbForm=Ger	5	advcl	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	#bringbackourgirls	#bringbackourgirls	NOUN	S	Gender=Fem	17	compound	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+23	come	come	SCONJ	CS	_	25	case	_	_
+24	'	'	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	testimonial'	testimonialo	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	obl	_	_
+26	anche	anche	ADV	B	_	25	advmod	_	_
+27	Michelle	Michelle	PROPN	SP	_	22	obj	_	_
+28	Obama	Obama	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,330 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’accusa?
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Aver rivelato parolacce e un’opinione sulla figlia del ragazzo, definendola “poco interessante”.
+1	Aver	avere	AUX	VA	VerbForm=Inf	2	aux	_	_
+2	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	parolacce	parolaccia	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14-15	definendola	_	_	_	_	_	_	_	_
+14	definendo	definire	VERB	V	VerbForm=Ger	2	advcl	_	_
+15	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	poco	poco	ADV	B	_	18	advmod	_	_
+18	interessante	interessante	ADJ	A	Number=Sing	14	xcomp	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La vicenda è stata immediatamente amplificata da un certo Antonio Spada, noto esponente del movimento civico “Italia Siamo!”, che ha lanciato un’interrogazione sui social media e ha poi utilizzato il suo blog per denunciare “un’atteggiata irrispettosa e libertina” da parte del cronista.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	immediatamente	immediatamente	ADV	B	_	6	advmod	_	_
+6	amplificata	amplificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	certo	certo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	Antonio	Antonio	PROPN	SP	_	6	obl:agent	_	_
+11	Spada	spada	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	noto	noto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	esponente	esponente	NOUN	S	Number=Sing	6	appos	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+18	civico	civico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	“	“	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	Italia	Italia	PROPN	SP	_	21	nsubj	_	_
+21	Siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	21	punct	_	SpaceAfter=No
+23	”	”	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+28	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	interrogazione	interrogazione	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30-31	sui	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	social	social	NOUN	S	Gender=Masc	27	obl	_	_
+33	media	medio	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+36	poi	poi	ADV	B	_	37	advmod	_	_
+37	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	blog	blog	NOUN	S	_	37	obj	_	_
+41	per	per	ADP	E	_	42	mark	_	_
+42	denunciare	denunciare	VERB	V	VerbForm=Inf	37	advcl	_	_
+43	“	“	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+44	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	atteggiata	atteggiata	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+46	irrispettosa	irrispettoso	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	libertina	libertino	ADJ	A	Gender=Fem|Number=Sing	46	conj	_	SpaceAfter=No
+49	”	”	PUNCT	FB	_	45	punct	_	_
+50	da	da	ADP	E	_	51	case	_	_
+51	parte	parte	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+52-53	del	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	cronista	cronista	NOUN	S	Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Spada ha incalzato, chiedendo scuse pubbliche e sottolineando come una simile condotta sia sintomo di una generale decadenza dei valori familiari.
+1	Spada	spada	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	incalzato	incalzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	chiedendo	chiedere	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	scuse	scusa	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	pubbliche	pubblico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	sottolineando	sottolineare	VERB	V	VerbForm=Ger	5	conj	_	_
+10	come	come	ADP	E	_	13	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	simile	simile	ADJ	A	Number=Sing	13	amod	_	_
+13	condotta	condotta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	sia	essere	CCONJ	CC	_	15	cc	_	_
+15	sintomo	sintomo	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	generale	generale	ADJ	A	Number=Sing	19	amod	_	_
+19	decadenza	decadenza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	valori	valore	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	familiari	familiare	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ma cosa è successo veramente?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	successo	successo	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	veramente	veramente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Intervistato dai nostri collaboratori, Marco Rossi ha smentito categoricamente qualsiasi intento di offesa, spiegando che il suo intervento al figlio si è limitato a una conversazione spontanea, un momento di occhio al mondo.
+1	Intervistato	Intervistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	dai	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	collaboratori	collaboratore	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	Marco	Marco	PROPN	SP	_	10	nsubj	_	_
+8	Rossi	Rossi	PROPN	SP	_	7	flat:name	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	smentito	smentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+11	categoricamente	categoricamente	ADV	B	_	10	advmod	_	_
+12	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	intento	intento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	offesa	offesa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	spiegando	spiegare	VERB	V	VerbForm=Ger	10	advcl	_	_
+18	che	che	SCONJ	CS	_	27	mark	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	spontanea	spontaneo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	27	punct	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	momento	momento	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = "Ho detto che il ragazzo non mi dava molto da scrivere," ha affermato Rossi, "e che la sua ragazza non era particolarmente coinvolgente.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	dava	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+10	molto	molto	ADV	B	_	9	advmod	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	scrivere	scrivere	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	16	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+17	Rossi	Rossi	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+20	e	e	CCONJ	CC	_	28	cc	_	_
+21	che	che	SCONJ	CS	_	28	mark	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+27	particolarmente	particolarmente	ADV	B	_	28	advmod	_	_
+28	coinvolgente	coinvolgente	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Dubito che sia una frase che possa essere interpretata come una mancanza di rispetto.
+1	Dubito	dubitare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frase	frase	NOUN	S	Gender=Fem|Number=Sing	1	ccomp	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj:pass	_	_
+7	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = La mia figlia, anzi, è una ragazza intelligente e capace, e non ho mai pensato di giudicarla in questo modo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	anzi	anzi	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	intelligente	intelligente	ADJ	A	Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	capace	capace	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	e	e	CCONJ	CC	_	18	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	mai	mai	ADV	B	_	18	advmod	_	_
+18	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	giudicarla	_	_	_	_	_	_	_	_
+20	giudicar	giudicare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	modo	modo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 10
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 11
+# text = Il cronista ha insistito sul fatto che era consapevole di star parlando in famiglia, e che il suo intento era semplicemente quello di condividere una sua osservazione, beneficiando della libertà di parola che, secondo lui, la nostra Costituzione garantisce.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cronista	cronista	NOUN	S	Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	insistito	insistere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	consapevole	consapevole	ADJ	A	Number=Sing	7	advcl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	star	stare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	parlando	parlare	VERB	V	VerbForm=Ger	12	advcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	24	punct	_	_
+17	e	e	CCONJ	CC	_	24	cc	_	_
+18	che	che	SCONJ	CS	_	24	mark	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	intento	intento	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+22	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+23	semplicemente	semplicemente	ADV	B	_	24	advmod	_	_
+24	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	conj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	condividere	condividere	VERB	V	VerbForm=Inf	24	acl	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	osservazione	osservazione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	beneficiando	beneficiare	VERB	V	VerbForm=Ger	26	advcl	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	libertà	libertà	NOUN	S	Gender=Fem	31	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	parola	parola	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37	che	che	PRON	PR	PronType=Rel	34	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	37	punct	_	_
+39	secondo	secondo	ADP	E	_	40	case	_	_
+40	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	40	appos	_	_
+45	garantisce	garantiscio	ADJ	A	Gender=Fem|Number=Plur	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Ha confessato, con un pizzico di amarezza, di non comprendere la reazione eccessiva
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pizzico	pizzico	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	comprendere	comprendere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	eccessiva	eccessivo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\n
+

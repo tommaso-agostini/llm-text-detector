@@ -1,0 +1,300 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un gesto romantico, insolito, in cui il giovane, inginocchiato, estrae l’anello, mentre la fidanzata appare quasi incredula.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	romantico	romantico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	insolito	insolito	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giovane	giovane	ADJ	A	Number=Sing	14	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	inginocchiato	inginocchiato	ADJ	A	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	estrae	estrarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	anello	anello	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	mentre	mentre	SCONJ	CS	_	21	mark	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+22	quasi	quasi	ADV	B	_	23	advmod	_	_
+23	incredula	incredulare	ADJ	A	Gender=Fem|Number=Sing	21	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Poi, il buio.
+1	Poi	poi	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	buio	buio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Nessuna notizia dopo quel momento.
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	dopo	dopo	ADP	E	_	5	case	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il web, come spesso accade, si è immediatamente mobilitato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	web	web	NOUN	S	Gender=Masc	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADP	E	_	6	case	_	_
+5	spesso	spesso	ADV	B	_	6	advmod	_	_
+6	accade	accadere	ADJ	A	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	immediatamente	immediatamente	ADV	B	_	11	advmod	_	_
+11	mobilitato	mobilitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Hashtag creati ad hoc, appelli, condivisioni di immagini e video.
+1	Hashtag	Hashtag	PROPN	SP	_	0	root	_	_
+2	creati	creare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	ad	a	X	SW	Foreign=Yes	2	obl	_	_
+4	hoc	hoc	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	appelli	appello	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	condivisioni	condivisione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	video	video	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Un esercito di “cyber-detective” alla ricerca di indizi, convinti di poter ricostruire gli istanti successivi e scoprire l’epilogo di questa vicenda.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	cyber-	_	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	detective	detectivo	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	6	punct	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	indizi	indizio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	convinti	convinto	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+15	di	di	ADP	E	_	17	mark	_	_
+16	poter	potere	AUX	VM	VerbForm=Inf	17	aux	_	_
+17	ricostruire	ricostruire	VERB	V	VerbForm=Inf	14	advcl	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	istanti	istante	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	successivi	successivo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	scoprire	scoprire	VERB	V	VerbForm=Inf	17	conj	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	epilogo	epilogo	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma l’ondata di partecipazione emotiva, seppur comprensibile, solleva alcune riflessioni.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	emotiva	emotivo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	seppur	seppure	ADV	B	_	9	advmod	_	_
+9	comprensibile	comprensibile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	riflessioni	riflessioni	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Siamo sicuri che sia necessario un simile clamore mediatico per una situazione che, per quanto delicata, riconduce probabilmente a dinamiche personali?
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sicuri	sicuro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	simile	simile	ADJ	A	Number=Sing	8	amod	_	_
+8	clamore	clamore	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+9	mediatico	mediatico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	19	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	quanto	quanto	ADV	B	_	15	fixed	_	_
+17	delicata	delicare	ADJ	A	Gender=Fem|Number=Sing	19	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	riconduce	ricondurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+20	probabilmente	probabilmente	ADV	B	_	19	advmod	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	dinamiche	dinamica	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+23	personali	personale	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Non rischiamo di trasformare un momento intimo in uno spettacolo circense, alimentando un’isteria collettiva basata su supposizioni e teorie complottistiche?
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	rischiamo	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	trasformare	trasformare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	intimo	intimo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	circense	circenso	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	alimentando	alimentare	VERB	V	VerbForm=Ger	4	advcl	_	_
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	isteria	isteria	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	collettiva	collettivo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	basata	basare	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+18	su	su	ADP	E	_	19	case	_	_
+19	supposizioni	supposizione	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+22	complottistiche	complottistico	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = C’è da dire che la vicenda si inserisce in un contesto più ampio di iper-esposizione e voyeurismo digitale.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+9	inserisce	inserire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	ampio	ampio	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	iper-esposizione	iper-esposizione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	voyeurismo	voyeurismo	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+19	digitale	digitale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Ogni gesto, ogni emozione, ogni vita privata sembra destinata a essere condivisa e giudicata pubblicamente.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	emozione	emozione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	privata	privato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	xcomp	_	_
+12	a	a	ADP	E	_	14	mark	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	14	aux:pass	_	_
+14	condivisa	condividere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	giudicata	giudicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+17	pubblicamente	pubblicamente	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = Un meccanismo perverso che, in nome della solidarietà e dell’empatia, spesso sfocia in un’invadenza inaccettabile.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	meccanismo	meccanismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	perverso	perverso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	17	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	nome	nome	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	solidarietà	solidarietà	NOUN	S	Gender=Fem	7	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	empatia	empatia	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	spesso	spesso	ADV	B	_	17	advmod	_	_
+17	sfocia	sfociare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	invadenza	invadenza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	inaccettabile	inaccettabile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Attendiamo, ovviamente, sviluppi positivi e che la coppia in questione possa rassicurare amici e familiari.
+1	Attendiamo	attendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	ovviamente	ovviamente	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	sviluppi	sviluppo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+6	positivi	positivo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	14	cc	_	_
+8	che	che	SCONJ	CS	_	14	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	questione	questione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+13	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	rassicurare	rassicurare	VERB	V	VerbForm=Inf	1	conj	_	_
+15	amici	amico	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	familiari	familiare	NOUN	S	Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Ma forse, è il caso di ricordare che la privacy e il rispetto della sfera personale dovrebbero sempre prevalere sull’impul
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	forse	forse	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	ricordare	ricordare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	che	che	SCONJ	CS	_	21	mark	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	privacy	privacy	NOUN	S	_	21	nsubj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	personale	personale	ADJ	A	Number=Sing	17	amod	_	_
+19	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	sempre	sempre	ADV	B	_	21	advmod	_	_
+21	prevalere	prevalere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+22-23	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+22	su	su	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	impul	impul	NOUN	S	Gender=Masc	21	obl	_	SpacesAfter=\n
+

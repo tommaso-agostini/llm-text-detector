@@ -1,0 +1,344 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Grazie al pugilato sono qui con voi - dice - senza questo sport sarebbe andata male.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Grazie	grazie	NOUN	S	_	17	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pugilato	pugilato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+7	qui	qui	ADV	B	_	17	advmod	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	obl	_	_
+10	-	-	PUNCT	FF	_	11	punct	_	_
+11	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+12	-	-	PUNCT	FF	_	11	punct	_	_
+13	senza	senza	ADP	E	_	15	case	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	sport	sport	NOUN	S	Gender=Masc	17	obl	_	_
+16	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	male	male	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = Ho avuto un'infanzia difficile, un papà alcoolizzato e una madre malata che subiva le sue violenze.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	difficile	difficile	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	papà	papà	NOUN	S	Gender=Masc	2	conj	_	_
+9	alcoolizzato	alcoolizzato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	madre	madre	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+13	malata	malato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	subiva	subire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Violenze domestiche quotidiane, anche le mie sorelle venivano maltrattate.
+1	Violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+2	domestiche	domestico	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	quotidiane	quotidiano	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+9	venivano	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux:pass	_	_
+10	maltrattate	maltrattare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Papà era violento con loro, le femmine prendevano botte".
+1	Papà	papà	NOUN	S	Gender=Masc	3	nsubj	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	violento	violento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	femmine	femmina	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+9	prendevano	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+10	botte	botte	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Come scrive Fanpage , è in questo momento difficile che Giacobbe Fragomeni ha iniziato ad interrogarsi su di sé, su come agire e come porsi con gli altri.
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+3	Fanpage	Fanpage	PROPN	SP	_	2	nsubj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	difficile	difficile	ADJ	A	Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+11	Giacobbe	Giacobbe	PROPN	SP	_	14	nsubj	_	_
+12	Fragomeni	Fragomeno	PROPN	SP	_	11	flat:name	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	ad	a	ADP	E	_	16	mark	_	_
+16-17	interrogarsi	_	_	_	_	_	_	_	_
+16	interrogar	interrogare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	di	di	ADP	E	_	18	fixed	_	_
+20	sé	sé	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	16	punct	_	_
+22	su	su	ADP	E	_	24	mark	_	_
+23	come	come	SCONJ	CS	_	22	fixed	_	_
+24	agire	agire	VERB	V	VerbForm=Inf	16	advcl	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	come	come	SCONJ	CS	_	27	mark	_	_
+27-28	porsi	_	_	_	_	_	_	_	_
+27	por	porre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	conj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = "Io non capivo - continua - e pensavo che fosse colpa mia.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	capivo	capivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	-	-	PUNCT	FF	_	6	punct	_	_
+6	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	colpa	colpare	NOUN	S	Gender=Fem|Number=Sing	9	ccomp	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Lui beveva, giocava, perdeva, tornava a casa e menava.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	beveva	bevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	giocava	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	perdeva	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	tornava	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	menava	menare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Io non ero un bambino facile, ero in ansia e chiuso in me stesso.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	facile	facile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Sentivo l'ambulanza e pensavo subito che mio padre a casa menava mia mamma e le mie sorelle".
+1	Sentivo	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ambulanza	ambulanza	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	conj	_	_
+6	subito	subito	ADV	B	_	5	advmod	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	padre	padre	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	menava	menare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = La sua triste storia gli ha insegnato molto - spiega - prima su tutto l'importanza di perdonare, poi quanto è bella la vita.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	triste	triste	ADJ	A	Number=Sing	4	amod	_	_
+4	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	molto	molto	ADV	B	_	7	advmod	_	_
+9	-	-	PUNCT	FB	_	10	punct	_	_
+10	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+11	-	-	PUNCT	FB	_	10	punct	_	_
+12	prima	prima	ADV	B	_	10	advmod	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	perdonare	perdonare	VERB	V	VerbForm=Inf	16	acl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	poi	poi	ADV	B	_	23	advmod	_	_
+21	quanto	quanto	ADV	B	_	23	advmod	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	bella	bello	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Fragomeni confessa che grazie alla sua forza è riuscito a superare quel momento così buio della sua infanzia e ora vive con serenità e si gode tutto ciò che ha intorno.
+1	Fragomeni	Fragomeno	PROPN	SP	_	2	nsubj	_	_
+2	confessa	confessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	grazie	grazie	NOUN	S	_	8	case	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	forza	forza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	superare	superare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	momento	momento	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	così	così	ADV	B	_	16	advmod	_	_
+16	buio	buio	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	ora	ora	ADV	B	_	23	advmod	_	_
+23	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	serenità	serenità	NOUN	S	Gender=Fem	23	obl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl:pass	_	_
+28	gode	godere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+29	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
+30	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	28	nsubj:pass	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33	intorno	intorno	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = La famiglia per Giacobbe Fragomeni è tutto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	Giacobbe	Giacobbe	PROPN	SP	_	2	nmod	_	_
+5	Fragomeni	Fragomeno	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = "Mia figlia Letizia ha subito anche lei degli atti di bullismo , adesso l'ho portata in palestra da un amico a fare boxe.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	Letizia	Letizia	PROPN	SP	_	3	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	subito	subire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	atti	atto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	bullismo	bullismo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	adesso	adesso	ADV	B	_	18	advmod	_	_
+16	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+17	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	palestra	palestra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	amico	amico	NOUN	S	Gender=Masc|Number=Sing	18	obl:agent	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+26	boxe	boxe	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Son contento che faccia questo.
+1	Son	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Tante volte è in imbarazzo perché la guardano i ragazzetti, poi logico… se me la toccano e le fanno del male… sono uccelli per diabetici come direbbe Lino Banfi".
+1	Tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	imbarazzo	imbarazzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	perché	perché	SCONJ	CS	_	8	mark	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	guardano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ragazzetti	ragazzetto	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	25	punct	_	_
+12	poi	poi	ADV	B	_	25	advmod	_	_
+13	logico…	logico…	PUNCT	FF	_	25	punct	_	_
+14	se	se	SCONJ	CS	_	17	mark	_	_
+15	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	expl	_	_
+16	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	toccano	toccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+20	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	male…	male…	PUNCT	FF	_	20	punct	_	_
+24	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	uccelli	uccello	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	diabetici	diabetico	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+28	come	come	ADP	E	_	30	case	_	_
+29	direbbe	dire	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	Lino	lino	PROPN	SP	_	10	nmod	_	_
+31	Banfi	Banfi	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

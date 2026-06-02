@@ -1,0 +1,340 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Subito i familiari si sono abbracciati.
+1	Subito	subito	ADV	B	_	6	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	familiari	familiare	NOUN	S	Number=Plur	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	abbracciati	abbracciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Gruppi di persone stanno salendo sull’altura che sovrasta Campo Esperanza dove sventolano 32 bandiere cilene e una boliviana per l’unico minatore straniero.
+1	Gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	salendo	salire	VERB	V	VerbForm=Ger	0	root	_	_
+6-7	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+6	su	su	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	altura	altura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	sovrasta	sovrastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	Campo	Campo	PROPN	SP	_	10	obj	_	_
+12	Esperanza	Esperanza	PROPN	SP	_	11	flat:name	_	_
+13	dove	dove	ADV	B	_	14	advmod	_	_
+14	sventolano	sventolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	32	32	NUM	N	NumType=Card	16	nummod	_	_
+16	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	cilene	cilene	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	boliviana	boliviano	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+23	unico	unico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	minatore	minatore	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	straniero	straniero	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = "È un miracolo" ha detto Maria Segovia, sorella di uno dei minatori.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	miracolo	miracolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+8	Maria	Maria	PROPN	SP	_	7	nsubj	_	_
+9	Segovia	Segovia	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	minatori	minatore	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = In salvo tra pochi giorni Gli ingegneri dovranno adesso decidere se puntellare il pozzo con cerchi di metallo (nell’intero percorso o solo in alcuni tratti) per renderlo più sicuro.
+1	In	in	ADP	E	_	2	case	_	_
+2	salvo	salvo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+6	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ingegneri	ingegnere	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	_
+9	adesso	adesso	ADV	B	_	10	advmod	_	_
+10	decidere	decidere	VERB	V	VerbForm=Inf	0	root	_	_
+11	se	se	SCONJ	CS	_	12	mark	_	_
+12	puntellare	puntellare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pozzo	pozzo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	cerchi	cerchio	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	metallo	metallo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+20-21	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	23	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+22	intero	intero	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+24	o	o	CCONJ	CC	_	28	cc	_	_
+25	solo	solo	ADV	B	_	28	advmod	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	28	det	_	_
+28	tratti	tratto	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	23	punct	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31-32	renderlo	_	_	_	_	_	_	_	_
+31	render	rendere	VERB	V	VerbForm=Inf	12	advcl	_	_
+32	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	31	xcomp	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Terminata questa operazione, comincerà il salvataggio vero e proprio attraverso una capsula che verrà calata nel cunicolo.
+1	Terminata	Terminare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	comincerà	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	salvataggio	salvataggio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	attraverso	attraverso	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	capsula	capsula	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj:pass	_	_
+15	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
+16	calata	calare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cunicolo	cunicolo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Se le pareti sono abbastanza resistenti, i minatori potrebbero essere tratti in salvo già da martedì.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	abbastanza	abbastanza	ADV	B	_	6	advmod	_	_
+6	resistenti	resistente	ADJ	A	Number=Plur	12	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	minatori	minatore	NOUN	S	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+10	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	tratti	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	salvo	salvo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	già	già	ADV	B	_	17	advmod	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	martedì	martedì	NOUN	S	Gender=Masc	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Nello scenario peggiore potrebbero volerci "8-10 giorni".
+1-2	Nello	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	_
+5	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	volerci	volere	VERB	V	VerbForm=Inf	0	root	_	_
+7	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+8	8	8	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+9	-10	-10	NUM	N	NumType=Card	10	nummod	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Ieri le autorità cilene hanno ispezionato il locale che ospiterà i minatori quando saranno fuori dal pozzo e incontreranno i familiari, prima di essere trasferiti con un elicottero militare all’ospedale di Copiapo.
+1	Ieri	ieri	ADV	B	_	6	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	autorità	autorità	NOUN	S	Gender=Fem	6	nsubj	_	_
+4	cilene	cilene	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ispezionato	ispezionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	locale	locale	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	ospiterà	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	minatori	minatore	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	quando	quando	SCONJ	CS	_	14	mark	_	_
+14	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+15	fuori	fuori	ADV	B	_	18	case	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	15	fixed	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pozzo	pozzo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	incontreranno	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	conj	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	familiari	familiare	NOUN	S	Number=Plur	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	6	punct	_	_
+24	prima	prima	ADV	B	_	27	mark	_	_
+25	di	di	ADP	E	_	24	fixed	_	_
+26	essere	essere	AUX	VA	VerbForm=Inf	27	aux	_	_
+27	trasferiti	trasferire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	elicottero	elicottero	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+31	militare	militare	ADJ	A	Number=Sing	30	amod	_	_
+32-33	all’	_	_	_	_	_	_	_	SpaceAfter=No
+32	a	a	ADP	E	_	34	case	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	Copiapo	Copiapo	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Minatori calmi I minatori hanno accolto "con calma e tranquillità" il completamento del pozzo avvenuto pochi minuti fa a San Josè.
+1	Minatori	Minatore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	calmi	calma	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	1	amod	_	_
+3	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	minatori	minatore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	con	con	ADP	E	_	9	case	_	_
+9	calma	calma	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	tranquillità	tranquillità	NOUN	S	Gender=Fem	9	conj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	9	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	completamento	completamento	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pozzo	pozzo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
+20	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+21	fa	fa	ADV	B	_	20	advmod	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	San	San	PROPN	SP	_	20	nmod	_	_
+24	Josè	José	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Lo ha detto il ministro delle Risorse minerarie cileno, Lawrence Globorne, che ha aggiunto:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	parataxis	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	Risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	minerarie	minerario	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	cileno	cileno	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	Lawrence	Lawrence	PROPN	SP	_	18	nsubj	_	_
+13-14	Globorne	_	_	_	_	_	_	_	SpaceAfter=No
+13	Globor	Globor	PROPN	SP	_	12	flat:name	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	18	iobj	_	_
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 11
+# text = "Per decidere i prossimi passi da fare ci prenderemo il tempo necessario".
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	mark	_	_
+3	decidere	decidere	VERB	V	VerbForm=Inf	10	advcl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	passi	passo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	expl	_	_
+10	prenderemo	prendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = La decisione sull’eventuale rivestimento con tubi d’acciaio del pozzo non dovrebbe richiedere molto tempo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3-4	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+3	su	su	ADP	E	_	6	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	eventuale	eventuale	ADJ	A	Number=Sing	6	amod	_	_
+6	rivestimento	rivestimento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	tubi	tubo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	d’	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	acciaio	acciaio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pozzo	pozzo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	richiedere	richiedere	VERB	V	VerbForm=Inf	0	root	_	_
+17	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = "Quello di oggi - ha sottolineato il ministro - è un risultato fondamentale ma questo lavoro sarà finito solo quando vedremo l’ultimo dei 33 minatori uscire fuori dal giacimento"
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	oggi	oggi	ADV	B	_	2	advmod	_	_
+5	-	-	PUNCT	FB	_	7	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	-	-	PUNCT	FB	_	7	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	fondamentale	fondamentale	ADJ	A	Number=Sing	13	amod	_	_
+15	ma	ma	CCONJ	CC	_	19	cc	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux	_	_
+19	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+20	solo	solo	ADV	B	_	22	advmod	_	_
+21	quando	quando	SCONJ	CS	_	22	mark	_	_
+22	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	19	advcl	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	22	obj	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	33	33	NUM	N	NumType=Card	28	nummod	_	_
+28	minatori	minatore	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+29	uscire	uscire	VERB	V	VerbForm=Inf	28	acl	_	_
+30	fuori	fuori	ADV	B	_	29	advmod	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	giacimento	giacimento	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	13	punct	_	SpacesAfter=\n
+

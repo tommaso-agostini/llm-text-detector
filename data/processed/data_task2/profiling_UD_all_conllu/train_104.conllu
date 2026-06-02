@@ -1,0 +1,502 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A Bagni di Lucca , località termale della Garfagnana, non ci sono più parroci .
+1	A	a	ADP	E	_	2	case	_	_
+2	Bagni	bagni	PROPN	SP	_	14	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Lucca	Lucca	PROPN	SP	_	2	nmod	_	_
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	località	località	NOUN	S	Gender=Fem	2	appos	_	_
+7	termale	termale	ADJ	A	Number=Sing	6	amod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Garfagnana	Garfagnana	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	parroci	parroce	ADV	B	_	14	advmod	_	_
+17	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = O meglio, dei quattro rimasti, due sono troppo vecchi e il terzo è gravemente malato.
+1	O	o	CCONJ	CC	_	12	cc	_	_
+2	meglio	meglio	ADV	B	_	12	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	quattro	quattro	NUM	N	NumType=Card	7	nummod	_	_
+7	rimasti	rimanere	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	due	due	NUM	N	NumType=Card	12	nsubj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+13	e	e	CCONJ	CC	_	18	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	terzo	terzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	gravemente	gravemente	ADV	B	_	18	advmod	_	_
+18	malato	malato	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Insomma, tocca ad un solo sacerdote prendersi cura di migliaia di anime.
+1	Insomma	insomma	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	solo	solo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	sacerdote	sacerdote	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	prendersi	_	_	_	_	_	_	_	_
+8	prender	prendere	VERB	V	VerbForm=Inf	3	csubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	cura	cura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	anime	anima	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ma il rapporto è evidentemente sproporzionato.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	evidentemente	evidentemente	ADV	B	_	6	advmod	_	_
+6	sproporzionato	sproporzionato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = E così i fedeli esausti hanno dato vita ad una rivolta silenziosa per chiedere al vescovo di mandare nuovi “pastori” a Bagni di Lucca.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	così	così	ADV	B	_	7	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fedeli	fedele	NOUN	S	Number=Plur	7	nsubj	_	_
+5	esausti	esausto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9	ad	a	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	silenziosa	silenzioso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	chiedere	chiedere	VERB	V	VerbForm=Inf	7	advcl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	vescovo	vescovo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	mandare	mandare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	pastori	pastore	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+23	”	”	PUNCT	FB	_	22	punct	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Bagni	bagni	PROPN	SP	_	19	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Lucca	Lucca	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = A parlare, infatti, sono stati dapprima i cartelli, affissi sui portoni sbarrati delle parrocchie: “Chiuso per inutilità”, “Chiuso per troppa teoria e poca pratica”, “Chiuso in attesa di miracolo”.
+1	A	a	ADP	E	_	2	mark	_	_
+2	parlare	parlare	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
+8	dapprima	dapprima	ADV	B	_	10	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cartelli	cartello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	affissi	affiggere	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	sui	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	portoni	portone	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	sbarrati	sbarrato	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	parrocchie	parrocchia	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	12	punct	_	_
+21	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Chiuso	chiudere	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	inutilità	inutilità	NOUN	S	Gender=Fem	22	nmod	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	“	“	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	Chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	parataxis	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	troppa	troppo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+31	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	34	det	_	_
+34	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+35	”	”	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	28	punct	_	_
+37	“	“	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	Chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	parataxis	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	miracolo	miracolo	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+43	”	”	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Ed in effetti è proprio in un intervento divino, come racconta Flavia Amabile in un reportage pubblicato sul quotidiano La Stampa , che confida la maggioranza dei cittadini.
+1	Ed	e	CCONJ	CC	_	8	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	proprio	proprio	ADV	B	_	8	advmod	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	divino	divino	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	come	come	SCONJ	CS	_	12	mark	_	_
+12	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	Flavia	Flavia	PROPN	SP	_	12	nsubj	_	_
+14	Amabile	Amabile	PROPN	SP	_	13	flat:name	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	reportage	reportage	NOUN	S	Gender=Masc	12	obl	_	_
+18	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	sul	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Stampa	stampa	PROPN	SP	_	21	nmod	_	_
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	confida	confidare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Visto che, convocato dagli abitanti del paese, l’arcivescovo di Lucca, Italo Castellani, si è limitato a proporre di spostarsi per andare a messa nella sua città.
+1	Visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	convocato	convocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5-6	dagli	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	abitanti	abitante	NOUN	S	Number=Plur	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	arcivescovo	arcivescovo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Lucca	Lucca	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	Italo	Italo	PROPN	SP	_	13	appos	_	_
+18	Castellani	Castellani	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	proporre	proporre	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26-27	spostarsi	_	_	_	_	_	_	_	_
+26	spostar	spostare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	andare	andare	VERB	V	VerbForm=Inf	26	advcl	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	messa	messa	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+32-33	nella	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	35	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	città	città	NOUN	S	Gender=Fem	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 9
+# text = Del resto, la crisi delle vocazioni non lascia spazio a soluzioni differenti.
+1-2	Del	_	_	_	_	_	_	_	_
+1	Di	di	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	crisi	crisi	NOUN	S	Gender=Fem	11	nsubj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	vocazioni	vocazione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+15	differenti	differente	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = In più di duemila ogni anno lasciano l’abito.
+1	In	in	ADP	E	_	2	case	_	_
+2	più	più	ADV	B	_	7	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	duemila	duemila	NUM	N	NumType=Card	2	nummod	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+7	lasciano	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	abito	abito	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Numeri, questi, che già nel 2016 suscitarono la “disperazione” di Papa Francesco.
+1	Numeri	numeri	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+6	già	già	ADV	B	_	10	advmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2016	2016	NUM	N	NumType=Card	10	nummod	_	_
+10	suscitarono	suscitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	“	“	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	13	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Papa	Papa	PROPN	SP	_	13	nmod	_	_
+17	Francesco	Francesco	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Per ora a rimuovere i segni dell'abbandono dalle chiese della diocesi ci pensano i laici.
+1	Per	per	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	17	advmod	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	rimuovere	rimuovere	VERB	V	VerbForm=Inf	17	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	segni	segno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	dalle	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	chiese	chiese	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	diocesi	diocesi	NOUN	S	Gender=Fem	12	nmod	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	laici	laico	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 13
+# text = Ma la preoccupazione è che, continuando su questa strada, le comunità perdano i loro punti di riferimento e che i piccoli centri possano progressivamente spopolarsi.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	14	punct	_	_
+7	continuando	continuare	VERB	V	VerbForm=Ger	14	advcl	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	strada	strada	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	comunità	comunità	NOUN	S	Gender=Fem	14	nsubj	_	_
+14	perdano	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	punti	punto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	27	cc	_	_
+21	che	che	SCONJ	CS	_	27	mark	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	centri	centro	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	_
+25	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	progressivamente	progressivamente	ADV	B	_	27	advmod	_	_
+27-28	spopolarsi	_	_	_	_	_	_	_	SpaceAfter=No
+27	spopolar	spopolare	VERB	V	VerbForm=Inf	14	conj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Qualcuno teme addirittura che, come è già accaduto in altre zone, i luoghi di culto cristiani possano essere sostituiti da quelli di altre confessioni.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	teme	temere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	addirittura	addirittura	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	21	punct	_	_
+6	come	come	SCONJ	CS	_	9	mark	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	già	già	ADV	B	_	9	advmod	_	_
+9	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	zone	zona	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	culto	culto	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	cristiani	cristiano	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+19	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	essere	essere	AUX	VA	VerbForm=Inf	21	aux:pass	_	_
+21	sostituiti	sostituire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	21	obl	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	altre	altro	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+26	confessioni	confessioni	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Secondo i dati resi noti dal quotidiano torinese , inoltre, il problema non è circoscritto a Bagni di Lucca.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	dati	dato	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+4	resi	rendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5	noti	noto	ADJ	A	Gender=Masc|Number=Plur	4	xcomp	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+9	torinese	torinese	ADJ	A	Number=Sing	8	amod	_	_
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	inoltre	inoltre	ADV	B	_	17	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	problema	problema	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	circoscritto	circoscritto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Bagni	bagni	PROPN	SP	_	17	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Lucca	Lucca	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 16
+# text = Quella della carenza di religiosi è una piaga che affligge l'intera diocesi, dove, in media, c’è un solo sacerdote ogni due parrocchie.
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	nsubj	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	carenza	carenza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	religiosi	religioso	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	piaga	piaga	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	affligge	affliggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	intera	intero	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	diocesi	diocesi	NOUN	S	Gender=Fem	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	dove	dove	ADV	B	_	22	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	media	media	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	SpaceAfter=No
+22	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	solo	solo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	sacerdote	sacerdotere	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+26	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+27	due	due	NUM	N	NumType=Card	28	nummod	_	_
+28	parrocchie	parrocchia	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = E complice il fatto che le frazioni sono molto lontane fra loro o sperdute fra le colline, sono in tanti a rimanere senza il conforto dell'eucaristia.
+1	E	e	CCONJ	CC	_	21	cc	_	_
+2	complice	complice	NOUN	S	Number=Sing	21	nsubj	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	frazioni	frazione	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	lontane	lontano	ADJ	A	Gender=Fem|Number=Plur	4	advcl	_	_
+11	fra	fra	ADP	E	_	12	case	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	10	obl	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	sperdute	sperdere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	conj	_	_
+15	fra	fra	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	colline	collina	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	rimanere	rimanere	VERB	V	VerbForm=Inf	21	acl	_	_
+24	senza	senza	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	conforto	conforto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27-28	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+27	di	di	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	eucaristia	eucaristia	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 18
+# text = Per questo i cittadini sono decisi a combattere.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	decisi	decidere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	combattere	combattere	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = E, annunciano, che presto scriveranno anche al Papa.
+1	E	e	CCONJ	CC	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	annunciano	annunciare	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	presto	presto	ADV	B	_	7	advmod	_	_
+7	scriveranno	scrivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Papa	Papa	PROPN	SP	_	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,356 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per la procura Cappato ha aiutato Dj Fabo ad "esercitare il diritto alla dignità umana".
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	procura	procura	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	Cappato	Cappato	PROPN	SP	_	3	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	Dj	Dj	PROPN	SP	_	6	nsubj	_	_
+8	Fabo	Fabo	PROPN	SP	_	7	flat:name	_	_
+9	ad	a	ADP	E	_	11	mark	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	esercitare	esercitare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	dignità	dignità	NOUN	S	Gender=Fem	11	obl	_	_
+17	umana	umano	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Non è così?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = "Non direi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	direi	dire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Per la legge italiana c'è l'obbligo di assistere il morente.
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	legge	legge	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	assistere	assistere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	morente	morente	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Le cure palliative esistono proprio per questo motivo.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cure	cura	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	palliative	palliativo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	proprio	proprio	ADV	B	_	8	advmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Sono fondate sul principio del curare, dell'essere assistiti, del vivere con dignità".
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	fondate	fondare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	principio	principio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	curare	curare	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	13	mark	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	assistiti	assistire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	vivere	vivere	VERB	V	VerbForm=Inf	8	conj	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	dignità	dignità	NOUN	S	Gender=Fem	17	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = La legge resta però poco chiara.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	legge	legge	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	però	però	ADV	B	_	3	advmod	_	_
+5	poco	poco	ADV	B	_	6	advmod	_	_
+6	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = "Questo sì.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	sì	sì	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ma anche se poco chiara e poco definita, non apre a pratiche che di fatto sono eutanasia".
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	anche	anche	ADV	B	_	5	mark	_	_
+3	se	se	SCONJ	CS	_	2	fixed	_	_
+4	poco	poco	ADV	B	_	5	advmod	_	_
+5	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	11	advcl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	poco	poco	ADV	B	_	8	advmod	_	_
+8	definita	definire	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	che	che	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	eutanasia	eutanasia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 10
+# text = È eutanasia lasciare che sia il paziente ad attivare il pulsante che attiva l'emissione di un farmaco letale?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	eutanasia	eutanasia	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lasciare	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	paziente	paziente	NOUN	S	Number=Sing	3	ccomp	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9	attivare	attivare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pulsante	pulsante	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	attiva	attivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	emissione	emissione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	letale	letale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = "È sostanzialmente eutanasia prendere un farmaco per uccidersi quanto non prendere un farmaco che ti può salvare.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	sostanzialmente	sostanzialmente	ADV	B	_	5	advmod	_	_
+4	eutanasia	eutanasia	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9-10	uccidersi	_	_	_	_	_	_	_	_
+9	uccider	uccidere	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	quanto	quanto	ADV	B	_	13	advmod	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	prendere	prendere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	19	iobj	_	_
+18	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	salvare	salvare	VERB	V	VerbForm=Inf	15	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = C'è l'obbligo di assistere il morente.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	assistere	assistere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	morente	morente	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Se questo non avviene si forza la legge".
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	avviene	avvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+6	forza	forzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	legge	legge	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Eppure il discrimine entro il quale muoversi resta ampio.
+1	Eppure	eppure	ADV	B	_	9	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	discrimine	discrimine	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	entro	entro	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	quale	quale	PRON	PR	Number=Sing|PronType=Rel	9	obl	_	_
+7-8	muoversi	_	_	_	_	_	_	_	_
+7	muover	muovere	AUX	VA	VerbForm=Inf	9	aux	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ampio	ampio	ADJ	A	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = "Sì, ma occorre anche capire bene i motivi che stanno dietro la pratica dell'eutanasia o che possono favorire il suicidio assistito.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	capire	capire	VERB	V	VerbForm=Inf	5	ccomp	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	dietro	dietro	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	eutanasia	eutanasia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	o	o	CCONJ	CC	_	22	cc	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	favorire	favorire	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	suicidio	suicidio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	assistito	assistere	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = C'è anche il tema che, invecchiando sempre più la nostra società, si vuole risparmiare per non spendere i soldi necessari alla cura.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tema	tema	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	17	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	invecchiando	invecchiare	VERB	V	VerbForm=Ger	17	advcl	_	_
+9	sempre	sempre	ADV	B	_	8	advmod	_	_
+10	più	più	ADV	B	_	8	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	società	società	NOUN	S	Gender=Fem	8	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+16	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	risparmiare	risparmiare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+18	per	per	ADP	E	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	spendere	spendere	VERB	V	VerbForm=Inf	17	advcl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	necessari	necessario	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	cura	cura	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Tutto questo è tuttavia non ammissibile.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	tuttavia	tuttavia	ADV	B	_	6	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	ammissibile	ammissibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Se tutto è retto dal risparmiare i soldi allora non siamo altro che merce da buttare.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	retto	reggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	risparmiare	risparmiare	VERB	V	VerbForm=Inf	4	obl:agent	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	allora	allora	ADV	B	_	13	advmod	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	merce	merce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	buttare	buttare	VERB	V	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = In ogni caso la richiesta della procura è una forzatura che s'inserisce in una controversa che tuttavia ancora non ha diritto d'essere essendo il tutto non previsto dalla legislazione italiana".
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	procura	procura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	forzatura	forzatura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	SpaceAfter=No
+14	inserisce	inserire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	controversa	controverso	ADJ	A	Gender=Fem|Number=Sing	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	tuttavia	tuttavia	ADV	B	_	22	advmod	_	_
+20	ancora	ancora	ADV	B	_	22	advmod	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+23	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+24	d'	di	ADP	E	_	30	mark	_	SpaceAfter=No
+25	essere	essere	AUX	V	VerbForm=Inf	30	aux	_	_
+26	essendo	essere	AUX	V	VerbForm=Ger	30	aux:pass	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	nsubj	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+31-32	dalla	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	legislazione	legislazione	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	30	punct	_	SpacesAfter=\n
+

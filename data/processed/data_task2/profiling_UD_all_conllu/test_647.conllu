@@ -1,0 +1,311 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma ahimè, non siamo tutti d'accordo...
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	ahimè	ahimè	INTJ	I	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+7	d'	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	accordo...	accordo...	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+
+# sent_id = 2
+# text = Il Sig.\*\*\*\*, attivista da anni per la difesa degli equilibri ambientali, ha lanciato un allarme drammatico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sig.\*\*\*\*	sig.\*\*\*\*	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	attivista	attivista	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl:agent	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	equilibri	equilibro	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	ambientali	ambientale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Il nostro pianeta, sostiene, è sull'orlo del collasso a causa delle ingerenze umane, e la situazione è critica.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8-9	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+8	su	su	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	orlo	orlo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	collasso	collasso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	causa	causa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	ingerenze	ingerenza	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	umane	umano	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	critica	critico	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Gli spunti di riflessione offerti da questa intervista sono molteplici, indubbiamente interessanti.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	spunti	spunto	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	riflessione	riflessione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	offerti	offrire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	molteplici	molteplice	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	indubbiamente	indubbiamente	ADV	B	_	13	advmod	_	_
+13	interessanti	interessante	ADJ	A	Number=Plur	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = La critica ad un certo tipo di ambientalismo ideologico che spesso sconfina con l'allarmismetto elettoralistico;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	critica	critico	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	ad	a	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	certo	certo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ambientalismo	ambientalismo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	ideologico	ideologico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	spesso	spesso	ADV	B	_	12	advmod	_	_
+12	sconfina	sconfinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	allarmismetto	allarmismetto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	elettoralistico	elettoralistico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = la sfiducia verso certe politiche energetiche che penalizzano i cittadini comuni rispetto ai colossi multinazionali;
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sfiducia	sfiducia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	verso	verso	ADP	E	_	5	case	_	_
+4	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	energetiche	energetico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	penalizzano	penalizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	comuni	comune	ADJ	A	Number=Plur	10	amod	_	_
+12	rispetto	rispetto	ADV	B	_	15	case	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	colossi	colosso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+16	multinazionali	multinazionale	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = l'attacco all'ideologia del veganesimo equiparato al comunismo di Marx.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	ideologia	ideologia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	veganesimo	veganesimo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	equiparato	equiparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	comunismo	comunismo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Marx	Marx	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Tutte questioni interessanti, ma cerchiamo di guardare le cose da una prospettiva più ampia.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	2	det	_	_
+2	questioni	questione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	interessanti	interessante	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	cerchiamo	cercare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	guardare	guardare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	prospettiva	prospettiva	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	ampia	ampio	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Nel trattare questi temi non dimentichiamo che c'è un aspetto da non sottovalutare:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trattare	trattare	VERB	V	VerbForm=Inf	7	obl	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	temi	tema	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	dimentichiamo	dimenticare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	da	da	ADP	E	_	15	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	sottovalutare	sottovalutare	VERB	V	VerbForm=Inf	12	acl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 10
+# text = la pressione inesorabile dei cambiamenti climatici, che richiede un impegno per il futuro del pianeta.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	inesorabile	inesorabile	ADJ	A	Number=Sing	2	amod	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cambiamenti	cambiamento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	climatici	climatico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = L'obiettivo per noi, come esseri umani, non è solo evitare gli allarmismi o i pericoli fittizi dell'"ecologismo ideologico", ma riconoscere al contempo le sfide che ci attendono .
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+8	umani	umano	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	solo	solo	ADV	B	_	13	advmod	_	_
+13	evitare	evitare	VERB	V	VerbForm=Inf	0	root	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	allarmismi	allarmismo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	o	o	CCONJ	CC	_	19	cc	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	pericoli	pericolo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	fittizi	fittizio	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	23	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+22	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	ecologismo	ecologismo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	ideologico	ideologico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	ma	ma	CCONJ	CC	_	28	cc	_	_
+28	riconoscere	riconoscere	VERB	V	VerbForm=Inf	13	conj	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	contempo	contempo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	36	obj	_	_
+36	attendono	attendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 12
+# text = In ultima analisi, l'aria che tira, oggi, sembra tutt'altro che ottimista.
+1	In	in	ADP	E	_	3	case	_	_
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	analisi	analisi	NOUN	S	Gender=Fem	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	aria	aria	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	oggi	oggi	ADV	B	_	12	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	tutt'	tutto	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	xcomp	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	ottimista	ottimista	ADJ	A	Number=Sing	14	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 13
+# text = Ma possiamo ancora sperare in uno spiraglio per cambiare rotta.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ancora	ancora	ADV	B	_	4	advmod	_	_
+4	sperare	sperare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	spiraglio	spiraglio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	cambiare	cambiare	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	rotta	rotta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Non era forse questo il vero obiettivo di chi da decenni si batte per la tutela dell'ambiente?
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	forse	forse	ADV	B	_	4	advmod	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	vero	vero	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	nmod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	batte	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

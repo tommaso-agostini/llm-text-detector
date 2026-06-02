@@ -1,0 +1,400 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Thomas e Vincent Seris, universitari di Bordeaux, vivono di giorno protetti da tute speciali, con un particolare casco simile a quello indossato dagli astronauti.
+1	Thomas	Thomas	PROPN	SP	_	10	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Vincent	Vincent	PROPN	SP	_	1	conj	_	_
+4	Seris	Seris	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	universitari	universitario	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Bordeaux	Bordeaux	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	protetti	proteggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	tute	tuta	NOUN	S	Gender=Fem|Number=Plur	13	obl:agent	_	_
+16	speciali	speciale	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	10	punct	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	particolare	particolare	ADJ	A	Number=Sing	21	amod	_	_
+21	casco	casco	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+22	simile	simile	ADJ	A	Number=Sing	21	amod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	obl	_	_
+25	indossato	indossare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26-27	dagli	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	astronauti	astronauta	NOUN	S	Gender=Masc|Number=Plur	25	obl:agent	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Ma nonostante la singolare sindrome – come racconta il Daily Mail – vivono una vita pressoché normale.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	nonostante	nonostante	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	singolare	singolare	ADJ	A	Number=Sing	5	amod	_	_
+5	sindrome	sindrome	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+6	–	–	PUNCT	FB	_	5	punct	_	_
+7	come	come	SCONJ	CS	_	8	mark	_	_
+8	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Daily	Daily	PROPN	SP	_	8	nsubj	_	_
+11	Mail	Mail	PROPN	SP	_	10	flat:name	_	_
+12	–	–	PUNCT	FB	_	8	punct	_	_
+13	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+16	pressoché	pressoché	ADV	B	_	17	advmod	_	_
+17	normale	normale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Frequentano regolarmente l’università, hanno amici e un hobby quanto mai azzeccato:
+1	Frequentano	frequentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	regolarmente	regolarmente	ADV	B	_	1	advmod	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	università	università	NOUN	S	Gender=Fem	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	amici	amico	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	hobby	hobby	NOUN	S	Gender=Masc	1	conj	_	_
+11	quanto	quanto	ADV	B	_	13	advmod	_	_
+12	mai	mai	ADV	B	_	13	advmod	_	_
+13	azzeccato	azzeccare	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = la speleologia.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	speleologia	speleologia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E di sera, appena scende il sole, liberi dalle protezioni, sono proprio come tutti gli altri.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	appena	appena	ADV	B	_	6	advmod	_	_
+6	scende	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sole	sole	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+11-12	dalle	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	protezioni	protezione	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	6	punct	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+16	proprio	proprio	ADV	B	_	20	advmod	_	_
+17	come	come	ADP	E	_	20	case	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = L’ allergia per la luce ultravioletta è potenzialmente mortale in quanto i fratelli sono inclini a sviluppare velocemente tumori della pelle.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	allergia	allergia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	luce	luce	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	ultravioletta	ultravioletto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	potenzialmente	potenzialmente	ADV	B	_	9	advmod	_	_
+9	mortale	mortale	ADJ	A	Number=Sing	0	root	_	_
+10	in	in	ADP	E	_	15	mark	_	_
+11	quanto	quanto	ADV	B	_	10	fixed	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	inclini	inclinare	ADJ	A	Number=Plur	9	advcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	sviluppare	sviluppare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	velocemente	velocemente	ADV	B	_	17	advmod	_	_
+19	tumori	tumore	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Anche poche minuti di sole potrebbero bastare per fare crescere il brutto male.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sole	sole	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	bastare	bastare	VERB	V	VerbForm=Inf	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	crescere	crescere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	male	male	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Se il soprannome di vampiri può non piacere, i media francesi li hanno ribattezzati “I figli della luna” e Thomas e Vincent sono stati anche fonte d’ispirazione per il film “La Permission de Minuit”.
+1	Se	se	SCONJ	CS	_	8	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	soprannome	soprannome	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	vampiri	vampiro	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	15	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	media	media	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+12	francesi	francese	ADJ	A	Number=Plur	11	amod	_	_
+13	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	ribattezzati	ribattezzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	luna	luna	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	30	punct	_	_
+23	e	e	CCONJ	CC	_	30	cc	_	_
+24	Thomas	Thomas	PROPN	SP	_	30	nsubj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	Vincent	Vincent	PROPN	SP	_	24	conj	_	_
+27	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+28	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	cop	_	_
+29	anche	anche	ADV	B	_	30	advmod	_	_
+30	fonte	fonte	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+31	d’	di	ADP	E	_	32	case	_	SpaceAfter=No
+32	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	film	film	NOUN	S	Gender=Masc	15	obl	_	_
+36	“	“	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+37	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Permission	Permission	PROPN	SP	_	35	nmod	_	_
+39	de	de	ADP	E	_	40	case	_	_
+40	Minuit	Minuit	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+41	”	”	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = E se oggi indossano una maschera certamente ingombrante, ma ventilata e trasparente, qualche anno fa si ritrovavano costretti a uscire di casa bardati da sci:
+1	E	e	CCONJ	CC	_	19	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	oggi	oggi	ADV	B	_	4	advmod	_	_
+4	indossano	indossare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	maschera	maschera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	certamente	certamente	ADV	B	_	8	advmod	_	_
+8	ingombrante	ingombrante	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	ventilata	ventilato	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	trasparente	trasparente	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+17	fa	fa	ADV	B	_	16	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	ritrovavano	ritrovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+20	costretti	costringere	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	uscire	uscire	VERB	V	VerbForm=Inf	20	acl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	casa	casa	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+25	bardati	bardare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+26	da	da	ADP	E	_	27	case	_	_
+27	sci	sci	NOUN	S	Gender=Masc	25	obl:agent	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 10
+# text = “Mi piacerebbe smettere di spaventare la gente.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	piacerebbe	piaceere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	smettere	smettere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	spaventare	spaventare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Vorrei che la nostra storia insegnasse alle persone di avere un altro sguardo e riguardo per chi soffre” si sfoga Vincent.
+1	Vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	insegnasse	insegnare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	9	acl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	altro	altro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	chi	chi	PRON	PR	Number=Sing|PronType=Rel	16	nmod	_	_
+19	soffre	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	22	punct	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	sfoga	sfogare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	Vincent	Vincent	PROPN	SP	_	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = L’XP è stata loro diagnosticata a due anni, quando proprio Vincent subì tre crisi.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	XP	XP	PROPN	SP	_	6	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	diagnosticata	diagnosticare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	quando	quando	SCONJ	CS	_	14	mark	_	_
+12	proprio	proprio	ADV	B	_	13	advmod	_	_
+13	Vincent	Vincent	PROPN	SP	_	14	nsubj	_	_
+14	subì	subire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+15	tre	tre	NUM	N	NumType=Card	16	nummod	_	_
+16	crisi	crisi	NOUN	S	Gender=Fem	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = I fratelli figli della Luna – messi al mondo, invece, da Françoise e Bernard – sono tra le 70-80 persone che in Francia soffrono di tale malattia, mentre si stima che in tutto il mondo i casi siano tra i 5 e 10mila.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	fratelli	fratello	ADJ	A	Number=Plur	3	amod	_	_
+3	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Luna	Luna	PROPN	SP	_	3	nmod	_	_
+7	–	–	PUNCT	FB	_	8	punct	_	_
+8	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	invece	invece	ADV	B	_	8	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Françoise	Françoise	PROPN	SP	_	8	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Bernard	Bernard	PROPN	SP	_	16	conj	_	_
+19	–	–	PUNCT	FB	_	3	punct	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+21	tra	tra	ADP	E	_	26	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+23	70	70	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+24	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+25	80	80	NUM	N	NumType=Card	23	compound	_	_
+26	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	Francia	Francia	PROPN	SP	_	30	obl	_	_
+30	soffrono	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	tale	tale	DET	DD	Number=Sing|PronType=Dem	33	det	_	_
+33	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	30	punct	_	_
+35	mentre	mentre	SCONJ	CS	_	37	mark	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl:impers	_	_
+37	stima	stimare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+38	che	che	SCONJ	CS	_	42	mark	_	_
+39	in	in	ADP	E	_	42	case	_	_
+40	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	42	det:predet	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	casi	caso	NOUN	S	Gender=Masc|Number=Plur	48	nsubj	_	_
+45	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+46	tra	tra	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	5	5	NUM	N	NumType=Card	42	nummod	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50	10mila	10mila	NUM	N	NumType=Card	48	conj	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 14
+# text = I genitori, che li hanno cresciuti in una casa super equipaggiata e schermata, nel 2000 hanno creato l’associazione “Les Enfants de la Lune” con l’obiettivo di fornire un punto di riferimento a chi soffre di tale sindrome e di stimolare la ricerca sullo xeroderma pigmentoso .
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cresciuti	crescere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	super	super	ADJ	A	_	10	amod	_	_
+12	equipaggiata	equipaggiare	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	schermata	schermare	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	2000	2000	NUM	N	NumType=Card	20	obl	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	Les	Les	PROPN	SW	Foreign=Yes	22	nmod	_	_
+25	Enfants	Enfants	PROPN	SP	_	24	flat:name	_	_
+26	de	de	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Lune	luna	ADJ	A	Number=Sing	24	nmod	_	SpaceAfter=No
+29	”	”	PUNCT	FB	_	24	punct	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	fornire	fornire	VERB	V	VerbForm=Inf	32	acl	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	punto	punto	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	chi	chi	PRON	PR	Number=Sing|PronType=Rel	34	obl	_	_
+41	soffre	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	tale	tale	DET	DD	Number=Sing|PronType=Dem	44	det	_	_
+44	sindrome	sindrome	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+45	e	e	CCONJ	CC	_	47	cc	_	_
+46	di	di	ADP	E	_	47	mark	_	_
+47	stimolare	stimolare	VERB	V	VerbForm=Inf	41	conj	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	47	obj	_	_
+50-51	sullo	_	_	_	_	_	_	_	_
+50	su	su	ADP	E	_	52	case	_	_
+51	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	xeroderma	xeroderma	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+53	pigmentoso	pigmentoso	ADJ	A	Gender=Masc|Number=Sing	52	amod	_	_
+54	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
+

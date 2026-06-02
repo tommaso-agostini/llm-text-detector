@@ -1,0 +1,327 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi l'hanno svaligiata.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	svaligiata	svaligiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Erano le tre di notte circa quando quattro malviventi, con il volto coperto, hanno forzato una finestra al quarto piano riuscendo così a entrare nella camera da letto della casa di Arbore, in via Cortina d’Ampezzo, zona collina Fleming.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	tre	tre	NUM	N	NumType=Card	6	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	circa	circa	ADV	B	_	17	mark	_	_
+7	quando	quando	SCONJ	CS	_	6	fixed	_	_
+8	quattro	quattro	NUM	N	NumType=Card	9	nummod	_	_
+9	malviventi	malvivento	NOUN	S	Number=Plur	17	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	volto	volto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	coperto	coperto	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	forzato	forzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	finestra	finestra	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	piano	piano	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	riuscendo	riuscire	VERB	V	VerbForm=Ger	17	advcl	_	_
+25	così	così	ADV	B	_	24	advmod	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	entrare	entrare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28-29	nella	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	camera	camera	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	letto	letto	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	casa	casa	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Arbore	Arbore	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	27	punct	_	_
+39	in	in	ADP	E	_	40	case	_	_
+40	via	via	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+41	Cortina	Cortina	PROPN	SP	_	40	nmod	_	_
+42	d’	di	ADP	E	_	43	case	_	SpaceAfter=No
+43	Ampezzo	Ampezzo	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	zona	zona	NOUN	S	Gender=Fem|Number=Sing	43	conj	_	_
+46	collina	collina	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	_
+47	Fleming	Fleming	PROPN	SP	_	45	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Musicista minacciato Entrati in casa i ladri hanno minacciato il noto musicista, facendosi consegnare circa ottomila euro in contanti e alcuni preziosi.
+1	Musicista	Musicista	NOUN	S	Number=Sing	9	obl	_	_
+2	minacciato	minacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	Entrati	entrati	PROPN	SP	_	2	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ladri	ladro	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	minacciato	minacciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	noto	noto	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	musicista	musicista	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14-15	facendosi	_	_	_	_	_	_	_	_
+14	facendo	fare	VERB	V	VerbForm=Ger	9	advcl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	obj	_	_
+16	consegnare	consegnare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	circa	circa	ADV	B	_	18	advmod	_	_
+18	ottomila	ottomila	NUM	N	NumType=Card	19	nummod	_	_
+19	euro	euro	NOUN	S	Gender=Masc	16	obj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	contanti	contante	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	alcuni	alcuno	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+24	preziosi	prezioso	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = In casa c’era anche la domestica filippina, che non si è accorta di nulla.
+1	In	in	ADP	E	_	2	case	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	domestica	domestico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	filippina	filippina	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	accorta	accorgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = È stato lo stesso Arbore a chiamare il 113.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Arbore	Arbore	PROPN	SP	_	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	chiamare	chiamare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	113	113	NUM	N	NumType=Card	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = "Ero spaventato" "Mi hanno svegliato puntandomi all’improvviso una luce molto forte negli occhi, una luce quasi accecante.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	spaventato	spaventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	svegliato	svegliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+9-10	puntandomi	_	_	_	_	_	_	_	_
+9	puntando	puntare	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11-12	all’	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	9	obl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	forte	forte	ADJ	A	Number=Sing	15	amod	_	_
+18-19	negli	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	15	punct	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	luce	luce	NOUN	S	Gender=Fem|Number=Sing	15	appos	_	_
+24	quasi	quasi	ADV	B	_	25	advmod	_	_
+25	accecante	accecante	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Non sono riuscito a vedere se erano armati ma ero spaventato ugualmente e quando mi hanno chiesto i soldi glieli ho dati".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	vedere	vedere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	armati	armare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	spaventato	spaventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	ugualmente	ugualmente	ADV	B	_	11	advmod	_	_
+13	e	e	CCONJ	CC	_	23	cc	_	_
+14	quando	quando	SCONJ	CS	_	17	mark	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20-21	glieli	_	_	_	_	_	_	_	_
+20	glie	gli	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	iobj	_	_
+21	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+22	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Queste alcune delle frasi che Arbore avrebbe detto alla polizia ricostruendo la brutta esperienza.
+1	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+2	alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	1	obj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+7	Arbore	Arbore	PROPN	SP	_	9	nsubj	_	_
+8	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	ricostruendo	ricostruire	VERB	V	VerbForm=Ger	9	advcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Renzo Arbore ha anche aggiunto che i malviventi non hanno fatto del male nè a lui nè alla domestica filippina anche se ambedue erano molto scossi all’arrivo della polizia nell’appartamento.
+1	Renzo	Renzo	PROPN	SP	_	5	nsubj	_	_
+2	Arbore	Arbore	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	malviventi	malvivento	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	male	male	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	nè	né	CCONJ	CC	_	17	cc	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+18	nè	né	CCONJ	CC	_	22	cc	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	domestica	domestica	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	filippina	filippinare	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+23	anche	anche	ADV	B	_	28	advmod	_	_
+24	se	se	SCONJ	CS	_	28	mark	_	_
+25	ambedue	ambedue	PRON	PI	Number=Plur|PronType=Ind	28	nsubj:pass	_	_
+26	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+27	molto	molto	ADV	B	_	28	advmod	_	_
+28	scossi	scuovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	advcl	_	_
+29-30	all’	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	31	case	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+35-36	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+35	in	in	ADP	E	_	37	case	_	_
+36	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Le indagini Gli investigatori hanno effettuato i rilievi scientifici mettendo a confronto alcune analogie tra la rapina subita da Arbore con altre avvenute nella zona recentemente.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	investigatori	investigatore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	effettuato	effettuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	rilievi	rilievo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	scientifici	scientifico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	mettendo	mettere	VERB	V	VerbForm=Ger	6	advcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	analogie	analogia	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+15	tra	tra	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	rapina	rapina	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	subita	subire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Arbore	Arbore	PROPN	SP	_	18	obl:agent	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	18	obl	_	_
+23	avvenute	avvenuto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	zona	zona	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	recentemente	recentemente	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Nel mirino anche alcuni cantieri di ristrutturazione sia nel palazzo dove abita Arbore sia in altre palazzine accanto, nella zona Trionfale, una zona residenziale della capitale.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mirino	mirino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	cantieri	cantiere	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	ristrutturazione	ristrutturazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	sia	sia	CCONJ	CC	_	12	cc	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	dove	dove	ADV	B	_	14	advmod	_	_
+14	abita	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	Arbore	Arbore	PROPN	SP	_	14	nsubj	_	_
+16	sia	essere	CCONJ	CC	_	19	cc	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+19	palazzine	palazzino	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+20	accanto	accanto	ADV	B	_	24	case	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	20	fixed	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	zona	zona	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+25	Trionfale	Trionfale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	19	punct	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	zona	zona	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+29	residenziale	residenziale	ADJ	A	Number=Sing	28	amod	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,555 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Almeno sul cemento americano la testa di serie numero 2 è inarrivabile:
+1	Almeno	almeno	ADV	B	_	13	advmod	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cemento	cemento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5	americano	americano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	testa	testa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	serie	serie	NOUN	S	Gender=Fem	7	nmod	_	_
+10	numero	numero	NOUN	S	Gender=Masc|Number=Sing	9	compound	_	_
+11	2	2	NUM	N	NumType=Card	9	nummod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	inarrivabile	inarrivabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 2
+# text = troppo potente, la pallina non rimbalza, si abbatte per terra e rincorrerla diventa insostenibile.
+1	troppo	troppo	ADV	B	_	2	advmod	_	_
+2	potente	potente	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pallina	pallina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	rimbalza	rimbalzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	abbatte	abbattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	terra	terra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	rincorrerla	rincorrerla	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	insostenibile	insostenibile	ADJ	A	Number=Sing	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = La fatica di Flavia dura un'ora e un quarto, il tempo di due set chiusi 6-4 6-3.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Flavia	Flavia	PROPN	SP	_	2	nmod	_	_
+5	dura	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ora	ora	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	set	set	NOUN	S	Gender=Masc	13	nmod	_	_
+17	chiusi	chiuso	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	6	6	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+20	4	4	NUM	N	NumType=Card	16	nummod	_	_
+21	6	6	NUM	N	NumType=Card	20	flat	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+23	3	3	NUM	N	NumType=Card	20	fixed	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = "Ho dato tutto, ma non era la mia notte - spiega la Pennetta a fine match -.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	ma	ma	CCONJ	CC	_	11	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	-	-	PUNCT	FB	_	13	punct	_	_
+13	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Pennetta	Pennetta	PROPN	SP	_	13	nsubj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	fine	fine	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	match	match	ADJ	A	_	17	amod	_	_
+19	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non ho avuto molte chance.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	chance	chance	NOUN	S	Gender=Fem	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ne ho avute giusto due, ma me le sono lasciate sfuggire.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	avute	avere	ADV	B	_	4	advmod	_	_
+4	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	due	due	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	lasciate	lasciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
+12	sfuggire	sfuggire	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Serena ha giocato veramente molto bene, era molto aggressiva:
+1	Serena	Serena	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	veramente	veramente	ADV	B	_	5	advmod	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	bene	bene	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	aggressiva	aggressivo	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = quando si gioca con un'avversaria così, bisogna mostrare il tennis migliore e non commettere errori.
+1	quando	quando	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	gioca	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	avversaria	avversario	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	così	così	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	mostrare	mostrare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	commettere	commettere	VERB	V	VerbForm=Inf	3	conj	_	_
+17	errori	errore	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Io qualche errore l'ho commesso in alcuni momenti importanti".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	errore	errore	NOUN	S	Gender=Masc|Number=Sing	6	dislocated	_	_
+4	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	commesso	commettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	importanti	importante	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Tour d'Oriente Ora per Flavia una piccola pausa, prima di partecipare ai tornei di Tokyo, Pechino e Londra:
+1	Tour	tour	NOUN	S	_	0	root	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	Oriente	Oriente	PROPN	SP	_	1	nmod	_	_
+4	Ora	ora	PROPN	SP	_	3	flat:name	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	Flavia	Flavia	PROPN	SP	_	9	nmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	pausa	pausa	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	prima	prima	ADV	B	_	13	mark	_	_
+12	di	di	ADP	E	_	11	fixed	_	_
+13	partecipare	partecipare	VERB	V	VerbForm=Inf	9	advcl	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	tornei	torneo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Tokyo	Tokyo	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	Pechino	Pechino	PROPN	SP	_	1	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Londra	Londra	PROPN	SP	_	1	conj	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = "Dovrei andare in Spagna con il coach, ma forse qualche giorno a casa prima lo faccio".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Spagna	Spagna	PROPN	SP	_	3	obl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	coach	coach	NOUN	S	Gender=Masc	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	18	punct	_	_
+10	ma	ma	CCONJ	CC	_	18	cc	_	_
+11	forse	forse	ADV	B	_	18	advmod	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	casa	casa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+16	prima	prima	ADV	B	_	18	advmod	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = La sconfitta non elimina comunque la soddisfazione per la performance complessiva nel torneo e nella stagione finora giocata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sconfitta	sconfitta|sconfitto	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	elimina	eliminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	comunque	comunque	ADV	B	_	4	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	performance	performance	NOUN	S	Gender=Fem	7	nmod	_	_
+11	complessiva	complessivo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	torneo	torneo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+19	finora	finora	ADV	B	_	20	advmod	_	_
+20	giocata	giocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = "Sono molto contenta - racconta la tennista -.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	-	-	PUNCT	FB	_	6	punct	_	_
+6	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tennista	tennista	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	-	-	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = E' una bella soddisfazione essere qui:
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+6	qui	qui	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 15
+# text = la sensazione è positiva, ma alla fine un po' di amarezza c'é.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	positiva	positivo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	15	punct	_	_
+6	ma	ma	CCONJ	CC	_	15	cc	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fine	fine	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po'	poco	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	é	é	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Penso che la partita sia andata via per poco.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	partita	partita	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	via	via	ADV	B	_	6	advmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	poco	poco	ADV	B	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Gabi mi diceva di continuare" aggiunge riferendosi al suo coach, Gabriel Urpi, che le ha riconosciuto di aver "giocato bene".
+1	Gabi	Gabi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	continuare	continuare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	7	punct	_	_
+7	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8-9	riferendosi	_	_	_	_	_	_	_	_
+8	riferendo	riferire	VERB	V	VerbForm=Ger	7	advcl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	coach	coach	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	Gabriel	Gabriel	PROPN	SP	_	13	nmod	_	_
+16	Urpi	Urpi	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	iobj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	riconosciuto	riconoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+22	di	di	ADP	E	_	25	mark	_	_
+23	aver	avere	AUX	VA	VerbForm=Inf	25	aux	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	_	_
+26	bene	bene	ADV	B	_	25	advmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Onore a Flavia Un riconoscimento che le è arrivato anche dalla Williams:
+1	Onore	onore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Flavia	Flavia	PROPN	SP	_	1	nmod	_	_
+4	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	anche	anche	ADV	B	_	13	advmod	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Williams	Williams	PROPN	SP	_	9	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 19
+# text = "E' stato un grande match, non abbandonava mai.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	match	match	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	abbandonava	abbandonavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+10	mai	mai	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = E' una brava giocatrice" afferma l'americana che, in semifinale, incontrerà ora Kim Clijsters, ex numero uno al mondo e vincitrice degli Us Open nel 2005.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	brava	bravo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	giocatrice	giocatore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	6	punct	_	_
+6	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	americana	americano	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	14	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	semifinale	semifinale	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	incontrerà	incontrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+15	ora	ora	ADV	B	_	14	advmod	_	_
+16	Kim	Kim	PROPN	SP	_	14	obj	_	_
+17	Clijsters	Clijsters	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	ex	ex	ADJ	A	_	20	amod	_	_
+20	numero	numero	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	uno	uno	NUM	N	NumType=Card	20	nummod	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	vincitrice	vincitore	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+27-28	degli	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	Us	Us	PROPN	SP	_	26	nmod	_	_
+30	Open	Open	PROPN	SP	_	29	flat:name	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	2005	2005	NUM	N	NumType=Card	14	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = La Williams scherza:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Williams	Williams	PROPN	SP	_	3	nsubj	_	_
+3	scherza	scherzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 22
+# text = "Forse dovrei fare come la Clijsters, che ha avuto un bambino e ora è rientrata dopo una pausa di due anni più forte.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Forse	forse	ADV	B	_	4	advmod	_	_
+3	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Clijsters	Clijsters	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	ora	ora	ADV	B	_	17	advmod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	rientrata	rientrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+18	dopo	dopo	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	pausa	pausa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	anni	anno	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	forte	forte	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Sembra essere più rapida".
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Un po' di pressione - afferma - anche la stessa Pennetta l'ha messa alla testa di serie numero due, scesa in campo con un vestitino nero, una vistosa fascia fucsia nei capelli e grandi orecchini a cerchio.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	po'	poco	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	-	-	PUNCT	FB	_	6	punct	_	_
+6	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	anche	anche	ADV	B	_	14	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	Pennetta	Pennetta	PROPN	SP	_	14	nsubj	_	_
+12	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	testa	testa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	serie	serie	NOUN	S	Gender=Fem	17	nmod	_	_
+20	numero	numero	NOUN	S	Gender=Masc|Number=Sing	19	compound	_	_
+21	due	due	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	campo	campo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	vestitino	vestitino	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+29	nero	nero	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	vistosa	vistosa	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	fascia	fascio	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+34	fucsia	fucsia	CCONJ	CC	_	37	cc	_	_
+35-36	nei	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	grandi	grande	ADJ	A	Number=Plur	40	amod	_	_
+40	orecchini	orecchino	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	_
+41	a	a	ADP	E	_	42	case	_	_
+42	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 25
+# text = "Ambedue siamo scese in campo all'erta.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ambedue	ambedue	PRON	PI	Number=Plur|PronType=Ind	4	obj	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scese	scendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	campo	campo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	erta	erta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 26
+# text = Io non era tesa ma concentrata, anche lei.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	tesa	teso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	concentrata	concentrato	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Ma forse giocare con una come me, che viene da un periodo buono e ha battuto la sorella a Cincinnati, la metteva un po' sotto pressione".
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	forse	forse	ADV	B	_	3	advmod	_	_
+3	giocare	giocare	VERB	V	VerbForm=Inf	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	obl	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	buono	buono	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Cincinnati	Cincinnati	PROPN	SP	_	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	metteva	mettere	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	po'	poco	ADV	B	_	28	advmod	_	_
+27	sotto	sotto	ADP	E	_	28	case	_	_
+28	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

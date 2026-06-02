@@ -1,0 +1,359 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma il "vecchio" Pd non sta a guardare.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	Pd	pd	PROPN	SP	_	4	nmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	guardare	guardare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Beloardo Bersani ha deciso di rispondere alla sfida di Renzi con un adina campagna di convegni in tutta Italia.
+1	Beloardo	Beloardo	PROPN	SP	_	4	nsubj	_	_
+2	Bersani	Bersani	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	rispondere	rispondere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Renzi	Renzi	PROPN	SP	_	9	nmod	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	adina	adino	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	convegni	convegno	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	20	det	_	_
+20	Italia	Italia	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La strategia di Bersani sembra chiara:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Bersani	Bersani	PROPN	SP	_	2	nmod	_	_
+5	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = convergere su un messaggio forte e coerente che vada oltre le divisioni interne al partito e guardi verso un futuro in cui il Pd possa tornare ad essere un punto di riferimento per gli elettori del centrosinistra.
+1	convergere	convergere	VERB	V	VerbForm=Inf	0	root	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	forte	forte	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	coerente	coerente	ADJ	A	Number=Sing	5	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	oltre	oltre	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	divisioni	divisione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	interne	interno	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	partito	partito	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	guardi	guardare	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+19	verso	verso	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	27	obl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Pd	Pd	PROPN	SP	_	27	nsubj	_	_
+26	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	tornare	tornare	VERB	V	VerbForm=Inf	21	acl:relcl	_	_
+28	ad	a	ADP	E	_	31	mark	_	_
+29	essere	essere	AUX	V	VerbForm=Inf	31	cop	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	punto	punto	NOUN	S	Gender=Masc|Number=Sing	27	xcomp	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+37-38	del	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	centrosinistra	centrosinistra	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = I convegni organizzati da Bersani sono l'occasione per discutere di temi centrali per il Paese, dalla politica economica alla sicurezza, dalla questione migratoria alla giustizia.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	convegni	convegno	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	organizzati	organizzato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Bersani	Bersani	PROPN	SP	_	3	obl:agent	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	discutere	discutere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	temi	tema	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	centrali	centrale	ADJ	A	Number=Plur	12	amod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Paese	Paese	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	politica	politica	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+21	economica	economico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	8	punct	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	questione	questione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+29	migratoria	migratorio	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Ma sono anche un modo per ribadire la propria leadership all'interno del partito e per attirare l'attenzione dei media e degli elettori.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	ribadire	ribadire	VERB	V	VerbForm=Inf	5	acl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	leadership	leadership	NOUN	S	Gender=Fem	7	obj	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	interno	interno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	partito	partito	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	attirare	attirare	VERB	V	VerbForm=Inf	7	conj	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	media	media	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	degli	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = "_Bisogna smettere di perdere tempo in lotte interne e concentrarsi su ciò che veramente importa:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	_Bisogna	_Bisogna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	smettere	smettere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	perdere	perdere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	lotte	lotta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	interne	interno	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11-12	concentrarsi	_	_	_	_	_	_	_	_
+11	concentrar	concentrare	VERB	V	VerbForm=Inf	5	conj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	veramente	veramente	ADV	B	_	17	advmod	_	_
+17	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = il bene del Paese_", ha dichiarato Bersani in un'intervista recente.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bene	bene	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Paese_	paese_	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	Bersani	Bersani	PROPN	SP	_	9	obj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	recente	recente	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = E in effetti, il "modello Bersani" sembra essere quello di un Pd unito e coeso, in grado di parlare con una sola voce e di proporre una alternativa credibile alla destra e al nuovo soggetto politico di Renzi.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	modello	modello	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	Bersani	Bersani	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	essere	essere	AUX	V	VerbForm=Inf	12	cop	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	ccomp	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Pd	Pd	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	unito	unito	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	coeso	coeso	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	grado	grado	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	parlare	parlare	VERB	V	VerbForm=Inf	21	acl	_	_
+24	con	con	ADP	E	_	27	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sola	solo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	voce	voce	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	proporre	proporre	VERB	V	VerbForm=Inf	23	conj	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	credibile	credibile	ADJ	A	Number=Sing	32	amod	_	_
+34-35	alla	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	destra	destra	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+37	e	e	CCONJ	CC	_	41	cc	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	41	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+41	soggetto	soggetto	NOUN	S	Gender=Masc|Number=Sing	36	conj	_	_
+42	politico	politico	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	Renzi	Renzi	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Ma la risposta di Bersani al "Big-Bang" di Renzi non si ferma ai convegni.
+1	Ma	ma	CCONJ	CC	_	15	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Bersani	Bersani	PROPN	SP	_	3	nmod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Big-Bang	Big-Bang	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Renzi	Renzi	PROPN	SP	_	9	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	ai	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	convegni	convegno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Il leader del Pd ha deciso di fare spallucce anche ai dispetti e alle accuse che gli vengono rivolte da una parte della base del partito.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	leader	leader	NOUN	S	_	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Pd	pd	PROPN	SP	_	2	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	spallucce	spalluccia	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	dispetti	dispetto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj:pass	_	_
+20	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
+21	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	rivolte	rivolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	parte	parte	NOUN	S	Gender=Fem|Number=Sing	22	obl:agent	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	base	base	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	partito	partito	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = "_Non ho intenzione di abboccare alle provocazioni e di perdere tempo in insensate polemiche_", ha dichiarato Bersani.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	_Non	_Non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	abboccare	abboccare	VERB	V	VerbForm=Inf	4	acl	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	provocazioni	provocazione	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	perdere	perdere	VERB	V	VerbForm=Inf	6	conj	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	insensate	insensata	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16	polemiche_	polemiche-	ADJ	NO	NumType=Ord	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+21	Bersani	Bersani	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = E così,
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+

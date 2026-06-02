@@ -1,0 +1,404 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Roma, 19 mar.
+1	Roma	Roma	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	19	19	NUM	N	NumType=Card	4	nummod	_	_
+4	mar	mare	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Chi pensava che il nuovo governo Meloni si sarebbe potuto distinguere per un aumento della pressione fiscale sugli immobili si sbagliava.
+1	Chi	chi	PRON	PQ	PronType=Int	2	nsubj	_	_
+2	pensava	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	11	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	Meloni	Meloni	PROPN	SP	_	6	nmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+9	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux	_	_
+11	distinguere	distinguere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	fiscale	fiscale	ADJ	A	Number=Sing	17	amod	_	_
+19-20	sugli	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+23	sbagliava	sbagliavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Anzi.
+1	Anzi	anzi	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = I proprietari di immobili a uso abitativo non devono temere il salasso da parte delle casse dello Stato.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	proprietari	proprietario	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	uso	uso	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	abitativo	abitativo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	temere	temere	VERB	V	VerbForm=Inf	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	salasso	salasso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	casse	cassa	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18-19	dello	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Anche se sono tornati a pesare sulle tasche dei contribuenti con il recente rincaro delle bollette.
+1	Anche	anche	ADV	B	_	4	mark	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tornati	tornare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	pesare	pesare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	tasche	tasca	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	contribuenti	contribuente	NOUN	S	Number=Plur	9	nmod	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	recente	recente	ADJ	A	Number=Sing	16	amod	_	_
+16	rincaro	rincaro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	bollette	bolletta	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E con l’aumento dei costi energetici potrebbero contare su un aiuto.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	costi	costo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	energetici	energetico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	contare	contare	VERB	V	VerbForm=Inf	0	root	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Appena insediato, il nuovo governo ha pensato a loro e ha deciso di confermare, anche per il 2023, l’esenzione dall’Irpef dei redditi di locazione di immobile adibito ad abitazione principale.
+1	Appena	appena	ADV	B	_	2	advmod	_	_
+2	insediato	insediare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	confermare	confermare	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	anche	anche	ADV	B	_	20	advmod	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	2023	2023	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	esenzione	esenzione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+24-25	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+24	da	da	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Irpef	Irpef	PROPN	SP	_	23	nmod	_	_
+27-28	dei	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	redditi	reddito	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	locazione	locazione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+34	adibito	adibire	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35	ad	a	ADP	E	_	36	case	_	_
+36	abitazione	abitazione	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+37	principale	principale	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = “Abitàzione principale” significa che l’immobile in questione non deve essere registrato o accatastato come ufficio, laboratorio, negozio o bed and breakfast e nemmeno il contratto di affitto deve indicare esplicitamente la residenza del locatore.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Abitàzione	Abitàzione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	principale	principale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	”	”	PUNCT	FB	_	2	punct	_	_
+5	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	14	mark	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	questione	questione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	14	aux:pass	_	_
+14	registrato	registrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+15	o	o	CCONJ	CC	_	16	cc	_	_
+16	accatastato	accatastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+17	come	come	ADP	E	_	18	case	_	_
+18	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	bed	bed	NOUN	S	Gender=Masc	18	conj	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	breakfast	breakfast	NOUN	S	Gender=Masc	18	conj	_	_
+27	e	e	CCONJ	CC	_	34	cc	_	_
+28	nemmeno	nemmeno	ADV	BN	PronType=Neg	30	advmod	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	indicare	indicare	VERB	V	VerbForm=Inf	14	conj	_	_
+35	esplicitamente	esplicito	ADV	B	_	34	advmod	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	residenza	residenza	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	locatore	locatore	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Nonostante le richieste di alcuni partiti, non verrà inoltre aumentata l’aliquota al 21%.
+1	Nonostante	nonostante	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux:pass	_	_
+10	inoltre	inoltre	ADV	B	_	11	advmod	_	_
+11	aumentata	aumentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	aliquota	aliquota	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	21	21	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+17	%	%	SYM	SYM	_	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Se le cose dovessero rimanere così, chi affitta un appartamento non dovrà più corse a pagare le tasse ciascuna volta che l’inquilino lascia l’abitazione (situazione che si verifica frequentemente quando gli inquilini rimangono meno di un anno nello stesso stabile), ospitando nel proprio appartamento lavoratori immigrati, badanti o studenti che poi se ne vanno.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	dovessero	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	rimanere	rimanere	VERB	V	VerbForm=Inf	15	advcl	_	_
+6	così	così	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	15	nsubj	_	_
+9	affitta	affiggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	corse	corso	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	pagare	pagare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	tasse	tassa	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+20	ciascuna	ciascuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	volta	volta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22	che	che	SCONJ	CS	_	25	mark	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	inquilino	inquilino	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+25	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	abitazione	abitazione	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	27	appos	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	verifica	verificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	frequentemente	frequentemente	ADV	B	_	32	advmod	_	_
+34	quando	quando	SCONJ	CS	_	37	mark	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	inquilini	inquilino	NOUN	S	Gender=Masc|Number=Plur	37	nsubj	_	_
+37	rimangono	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+38	meno	meno	ADV	B	_	41	case	_	_
+39	di	di	ADP	E	_	38	fixed	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	anno	anno	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+42-43	nello	_	_	_	_	_	_	_	_
+42	in	in	ADP	E	_	45	case	_	_
+43	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+45	stabile	stabile	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+46	)	)	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	25	punct	_	_
+48	ospitando	ospitare	VERB	V	VerbForm=Ger	25	advcl	_	_
+49-50	nel	_	_	_	_	_	_	_	_
+49	in	in	ADP	E	_	52	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	52	det:poss	_	_
+52	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	48	obl	_	_
+53	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	48	obj	_	_
+54	immigrati	immigrato	ADJ	A	Gender=Masc|Number=Plur	53	amod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	56	punct	_	_
+56	badanti	badante	NOUN	S	Gender=Masc|Number=Plur	53	conj	_	_
+57	o	o	CCONJ	CC	_	58	cc	_	_
+58	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	53	conj	_	_
+59	che	che	PRON	PR	PronType=Rel	63	nsubj	_	_
+60	poi	poi	ADV	B	_	63	advmod	_	_
+61	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	63	expl	_	_
+62	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	63	iobj	_	_
+63	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	58	acl:relcl	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Inoltre, il proprietario che sceglie il regime della cedolare secca al 21 per cento invece di pagare l’Irpef, deve pagare l’imposta di bollo (230 euro ogni 4 facciate scritte), la registrazione del contratto presso l’Agenzia delle entrate (termine di 30 giorni), il modello F24 Elide per effettuare il pagamento dell’imposta di registro, l’Ipocatastale, che serve per attestare la proprietà dell’immobile.
+1	Inoltre	inoltre	ADV	B	_	25	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	proprietario	proprietario	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	regime	regime	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	cedolare	cedolare	ADJ	A	Number=Sing	12	amod	_	_
+12	secca	seccare	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	21	21	NUM	N	NumType=Card	18	nummod	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	cento	cento	NUM	N	NumType=Card	15	nummod	_	_
+18	invece	invece	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	pagare	pagare	VERB	V	VerbForm=Inf	18	acl	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	Irpef	Irpef	PROPN	SP	_	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	4	punct	_	_
+24	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	pagare	pagare	VERB	V	VerbForm=Inf	0	root	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	bollo	bollo	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	230	230	NUM	N	NumType=Card	32	nummod	_	_
+32	euro	euro	NOUN	S	Gender=Masc	29	nmod	_	_
+33	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	35	det	_	_
+34	4	4	NUM	N	NumType=Card	35	nummod	_	_
+35	facciate	fare	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+36	scritte	scritta	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	25	punct	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	registrazione	registrazione	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+41-42	del	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+44	presso	presso	ADP	E	_	46	case	_	_
+45	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	Agenzia	Agenzia	PROPN	SP	_	43	nmod	_	_
+47-48	delle	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	entrate	entrata	NOUN	S	Gender=Fem|Number=Plur	46	nmod	_	_
+50	(	(	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+51	termine	termine	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	30	30	NUM	N	NumType=Card	54	nummod	_	_
+54	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	SpaceAfter=No
+55	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	25	punct	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	modello	modello	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+59	F24	F24	PROPN	SP	_	58	nmod	_	_
+60	Elide	Elide	PROPN	SP	_	59	flat:name	_	_
+61	per	per	ADP	E	_	62	mark	_	_
+62	effettuare	effettuare	VERB	V	VerbForm=Inf	58	acl	_	_
+63	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	62	obj	_	_
+65-66	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+65	di	di	ADP	E	_	67	case	_	_
+66	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	67	det	_	_
+67	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	64	nmod	_	_
+68	di	di	ADP	E	_	69	case	_	_
+69	registro	registro	NOUN	S	Gender=Masc|Number=Sing	67	nmod	_	SpaceAfter=No
+70	,	,	PUNCT	FF	_	62	punct	_	_
+71	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	72	det	_	SpaceAfter=No
+72	Ipocatastale	Ipocatastale	PROPN	SP	_	62	appos	_	SpaceAfter=No
+73	,	,	PUNCT	FF	_	72	punct	_	_
+74	che	che	PRON	PR	PronType=Rel	75	nsubj	_	_
+75	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	acl:relcl	_	_
+76	per	per	ADP	E	_	77	mark	_	_
+77	attestare	attestare	VERB	V	VerbForm=Inf	75	advcl	_	_
+78	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	79	det	_	_
+79	proprietà	proprietà	NOUN	S	Gender=Fem	77	obj	_	_
+80-81	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+80	di	di	ADP	E	_	82	case	_	_
+81	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	82	det	_	_
+82	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	79	nmod	_	SpaceAfter=No
+83	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 12
+# text = Un esborso di 67 euro.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	esborso	esborso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	67	67	NUM	N	NumType=Card	5	nummod	_	_
+5	euro	euro	NOUN	S	Gender=Masc	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma non bisogna dimenticare che i proprietari
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dimenticare	dimenticare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	che	che	SCONJ	CS	_	7	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	proprietari	proprietario	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpacesAfter=\n
+

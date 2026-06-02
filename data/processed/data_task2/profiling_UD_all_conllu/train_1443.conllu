@@ -1,0 +1,513 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'avvocato non entra nel dettaglio e aggiunge solo di attendere ora la decisione del gip sulla convalida del fermo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dettaglio	dettaglio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	solo	solo	ADV	B	_	12	advmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	attendere	attendere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+13	ora	ora	ADV	B	_	12	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gip	gip	NOUN	S	Gender=Masc	15	nmod	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	convalida	convalida	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fermo	fermo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Decisione che si aspetta ancora, al termine di tre ore e mezza di udienza e interrogatorio di garanzia.
+1	Decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	ancora	ancora	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	termine	termine	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	ore	ora	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	mezza	mezza	ADJ	A	Gender=Fem|Number=Sing	12	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	interrogatorio	interrogatorio	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	garanzia	garanzia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Il gip di Brindisi , Ines Casciaro si è riservata la decisione su due fronti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gip	gip	NOUN	S	Gender=Masc	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Brindisi	Brindisi	PROPN	SP	_	2	nmod	_	_
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Ines	Ines	PROPN	SP	_	10	nsubj	_	_
+7	Casciaro	Casciaro	PROPN	SP	_	6	flat:name	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	riservata	riservare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	fronti	fronte	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Tanto sulla convalida del fermo quanto sull'emissione dell'ordinanza di custodia cautelare in carcere chiesta dai pm.
+1	Tanto	tanto	ADV	B	_	0	root	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	convalida	convalida	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fermo	fermo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	quanto	quanto	ADV	B	_	11	cc	_	_
+9-10	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+9	su	su	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	emissione	emissione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	ordinanza	ordinanza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	custodia	custodia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	cautelare	cautelare	ADJ	A	Number=Sing	16	amod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	chiesta	chiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+21-22	dai	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	pm	pm	NOUN	S	Gender=Masc	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Domani o già oggi nel pomeriggio una risposta chiara.
+1	Domani	domani	ADV	B	_	0	root	_	_
+2	o	o	CCONJ	CC	_	9	cc	_	_
+3	già	già	ADV	B	_	9	advmod	_	_
+4	oggi	oggi	ADV	B	_	9	advmod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+10	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = E chiarezza si dovrà fare anche su quei punti dell'attentato che tuttora rimangono oscuri.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	chiarezza	chiarezza	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	punti	punto	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	tuttora	tuttora	ADV	B	_	15	advmod	_	_
+15	rimangono	rimanere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	oscuri	oscuro	ADJ	A	Gender=Masc|Number=Plur	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Gli investigatori hanno individuato - ormai ne sono certi - il principale responsabile della drammatica esplosione di Brindisi, ma rimane il dubbio che siano ancora da trovare i complici, che lo avrebbero aiutato a portare a compimento il gesto.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	investigatori	investigatore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	individuato	individuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	-	-	PUNCT	FB	_	9	punct	_	_
+6	ormai	ormai	ADV	B	_	9	advmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	certi	certo	ADJ	A	Gender=Masc|Number=Plur	4	xcomp	_	_
+10	-	-	PUNCT	FF	_	9	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	principale	principale	ADJ	A	Number=Sing	13	amod	_	_
+13	responsabile	responsabile	NOUN	S	Number=Sing	9	nsubj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	drammatica	drammatico	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	esplosione	esplosione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Brindisi	Brindisi	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	ma	ma	CCONJ	CC	_	22	cc	_	_
+22	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	ancora	ancora	ADV	B	_	26	advmod	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29	trovare	trovare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	complici	complico	NOUN	S	Number=Plur	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	31	punct	_	_
+33	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+34	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+35	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl:relcl	_	_
+37	a	a	ADP	E	_	38	mark	_	_
+38	portare	portare	VERB	V	VerbForm=Inf	36	xcomp	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	compimento	compimento	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Vantaggiato , che pure non ha voluto indicare il movente del suo gesto, si è comunque lasciato sfuggire durante l'interrogatorio di mercoledì un plurale che potrebbe tradire un concorso di altri soggetti, implicati nei fatti.
+1	Vantaggiato	Vantaggiato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+4	pure	pure	ADV	B	_	8	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+8	indicare	indicare	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	movente	movente	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	1	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:impers	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	comunque	comunque	ADV	B	_	19	advmod	_	_
+19	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	sfuggire	sfuggire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+21	durante	durante	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	interrogatorio	interrogatorio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	mercoledì	mercoledì	NOUN	S	Gender=Masc	23	nmod	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	plurale	plurale	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+28	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	tradire	tradire	VERB	V	VerbForm=Inf	27	acl:relcl	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	altri	altro	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	_
+35	soggetti	soggetto	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	32	punct	_	_
+37	implicati	implicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl	_	_
+38-39	nei	_	_	_	_	_	_	_	_
+38	in	in	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 9
+# text = Poco chiaro anche l'ipotetico mandante del gesto.
+1	Poco	poco	ADV	B	_	2	advmod	_	_
+2	chiaro	chiaro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	ipotetico	ipotetico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	mandante	mandante	NOUN	S	Number=Sing	2	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Al gip però ha detto di aver fatto "un gesto dimostrativo perché ho subito due truffe e perché il fatturato negli ultimi anni è diminuito".
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gip	gip	NOUN	S	Gender=Masc	6	obl	_	_
+4	però	però	ADV	B	_	6	advmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	dimostrativo	dimostrativo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	perché	perché	SCONJ	CS	_	16	mark	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	subito	subito	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	truffe	truffa	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	e	e	CCONJ	CC	_	28	cc	_	_
+20	perché	perché	SCONJ	CS	_	28	mark	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fatturato	fatturato	NOUN	S	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+23-24	negli	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	26	amod	_	_
+26	anni	anno	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	diminuito	diminuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Il 68enne infatti non sarebbe stato pagato da un suo cliente, Cosimo Parato, e da un fornitore di Avetrana, per u totale di 400mila euro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	68enne	68enne	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+3	infatti	infatti	ADV	B	_	7	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	cliente	cliente	NOUN	S	Number=Sing	7	obl:agent	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	Cosimo	Cosimo	PROPN	SP	_	7	appos	_	_
+14	Parato	Parato	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fornitore	fornitore	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Avetrana	Avetrana	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	7	punct	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	u	u	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	totale	totale	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	400mila	400mila	NUM	N	NumType=Card	28	nummod	_	_
+28	euro	euro	NOUN	S	Gender=Masc	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Da quando nel 2003 inoltre non aveva più l'appalto con la Provincia per alcune scuole superiori di Brindisi (tra cui proprio l'istituto Morvillo Falcone), i suoi affari si erano ridimensionati di molto (circa il 70% del fatturato).
+1	Da	da	ADP	E	_	2	case	_	_
+2	quando	quando	ADV	B	_	8	advmod	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	2003	2003	NUM	N	NumType=Card	8	obl	_	_
+6	inoltre	inoltre	ADV	B	_	8	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	più	più	ADV	B	_	8	advmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	appalto	appalto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	17	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Brindisi	Brindisi	PROPN	SP	_	17	nmod	_	_
+21	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+22	tra	tra	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	26	nmod	_	_
+24	proprio	proprio	ADV	B	_	26	advmod	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	17	acl:relcl	_	_
+27	Morvillo	Morvillo	PROPN	SP	_	26	nmod	_	_
+28	Falcone	Falcone	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	14	punct	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	affari	affare	NOUN	S	Gender=Masc|Number=Plur	36	nsubj	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+35	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
+36	ridimensionati	ridimensionare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	molto	molto	ADV	B	_	36	advmod	_	_
+39	(	(	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+40	circa	circa	ADV	B	_	43	advmod	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	70	70	NUM	N	NumType=Card	43	nummod	_	SpaceAfter=No
+43	%	%	SYM	SYM	_	38	obl	_	_
+44-45	del	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	fatturato	fatturato	NOUN	S	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+47	)	)	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Al giudice Vantaggiato ha anche spiegato come ha realizzato la bomba e come l'ha piazzata davanti alla scuola.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	Vantaggiato	Vantaggiato	PROPN	SP	_	7	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	come	come	SCONJ	CS	_	10	mark	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	realizzato	realizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	bomba	bomba	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	piazzata	piazzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+18	davanti	davanti	ADV	B	_	21	case	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	18	fixed	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Prima dell'attentato inoltre, avrebbe fatto delle prove in campagna.
+1	Prima	prima	ADV	B	_	4	case	_	_
+2-3	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+2	di	di	ADP	E	_	1	fixed	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	inoltre	inoltre	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	prove	prova	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = In ogni caso ha negato il coinvolgimento di altre persone e che il gesto fosse dettato da ragioni politiche o fosse legato alla Sacra Corona Unita.
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	negato	negare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	coinvolgimento	coinvolgimento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	che	che	SCONJ	CS	_	16	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+15	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:pass	_	_
+16	dettato	dettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	16	obl:agent	_	_
+19	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	o	o	CCONJ	CC	_	22	cc	_	_
+21	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Sacra	sacra	PROPN	SP	_	22	obl	_	_
+26	Corona	corona	PROPN	SP	_	25	flat:name	_	_
+27	Unita	unita	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Nell'interrogatorio, l'uomo ha chiarito come mai l' obiettivo del suo attentato sia stato proprio l'istituto Morvillo Falcone.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	interrogatorio	interrogatorio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	chiarito	chiarire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	mai	mai	ADV	B	_	8	advmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	cop	_	_
+19	proprio	proprio	ADV	B	_	21	advmod	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+22	Morvillo	Morvillo	PROPN	SP	_	21	nmod	_	_
+23	Falcone	Falcone	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = La scuola, infatti, oltre che al tribunale, è vicina alla superstrada che gli avrebbe permesso di allontanarsi velocemente da Brindisi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	oltre	oltre	ADV	B	_	10	case	_	_
+7	che	che	SCONJ	CS	_	6	fixed	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	superstrada	superstrada	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+19	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	allontanarsi	_	_	_	_	_	_	_	_
+22	allontanar	allontanare	VERB	V	VerbForm=Inf	20	ccomp	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	velocemente	velocemente	ADV	B	_	26	advmod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	Brindisi	brindisi	PROPN	SP	_	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

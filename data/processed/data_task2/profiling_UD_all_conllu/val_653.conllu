@@ -1,0 +1,311 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parole pesanti, dure, pronunciate da De Rose in un’occasione inattesa:
+1	Parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	pesanti	pesante	ADJ	A	Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	dure	dure	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	pronunciate	pronunciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	De	De	PROPN	SP	_	6	obl:agent	_	_
+9	Rose	Rose	PROPN	SP	_	8	flat:name	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	inattesa	inatteso	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = una telefonata con questo giornale necessaria per far luce su quanto accaduto dopo il suo brusco licenziamento da *L'Ora* lo scorso autunno.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	far	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	luce	luce	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	9	nmod	_	_
+12	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+13	dopo	dopo	ADP	E	_	17	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	brusco	brusco	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	licenziamento	licenziamento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	*L'	*il	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	Ora*	ora*	PROPN	SP	_	19	flat:name	_	_
+21	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	autunno	autunno	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma la conversazione si è rapidamente trasformata in un fiume in piena di accuse, con il giornalista accusato di aver, a suo dire, creato il clima di ostilità e svalutazione che ha portato alla sua uscita.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	rapidamente	rapidamente	ADV	B	_	7	advmod	_	_
+7	trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	piena	piena	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	giornalista	giornalista	NOUN	S	Number=Sing	7	obl	_	_
+19	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20	di	di	ADP	E	_	27	mark	_	_
+21	aver	avere	AUX	VA	VerbForm=Inf	27	aux	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	27	punct	_	_
+23	a	a	ADP	E	_	25	mark	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	dire	dire	VERB	V	VerbForm=Inf	27	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	xcomp	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	clima	clima	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	ostilità	ostilità	NOUN	S	Gender=Fem	29	nmod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	svalutazione	svalutazione	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+34	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+37-38	alla	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	40	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	uscita	uscire	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = "È tutto colpa del mio modo di parlare, del mio 'dialetto'", ha tuonato De Rose, ricorrendo a un linguaggio talmente forte da far rabbrividire.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+4	colpa	colpa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	parlare	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	16	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	'	'	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	dialetto	dialetto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+17	'	'	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	tuonato	tuonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+22	De	De	PROPN	SP	_	21	nsubj	_	_
+23	Rose	Rose	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	ricorrendo	ricorrere	VERB	V	VerbForm=Ger	21	advcl	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	talmente	talmente	ADV	B	_	30	advmod	_	_
+30	forte	forte	ADJ	A	Number=Sing	28	amod	_	_
+31	da	da	ADP	E	_	32	mark	_	_
+32	far	fare	VERB	V	VerbForm=Inf	30	advcl	_	_
+33	rabbrividire	rabbrividire	VERB	V	VerbForm=Inf	32	ccomp	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = "Mi sono fatto insultare, deridere, disprezzare.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	insultare	insultare	VERB	V	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	deridere	deridere	VERB	V	VerbForm=Inf	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	disprezzare	disprezzare	VERB	V	VerbForm=Inf	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Sono stato trattato come un 'imbranato' alle prese con i concetti.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	come	come	ADP	E	_	7	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	imbranato	imbranato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	7	punct	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	prese	presa	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	concetti	concetto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Da gente che si crede intellettualmente superiore, che si ritiene superiore perché parla un italiano 'corretto', come se la verità fosse un monumento da muso polido!
+1	Da	da	ADP	E	_	2	case	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	intellettualmente	intellettualmente	ADV	B	_	7	advmod	_	_
+7	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+11	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+12	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	11	xcomp	_	_
+13	perché	perché	SCONJ	CS	_	14	mark	_	_
+14	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	come	come	ADV	B	_	27	advmod	_	_
+22	se	se	SCONJ	CS	_	27	mark	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	verità	verità	NOUN	S	Gender=Fem	27	nsubj	_	_
+25	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	monumento	monumento	NOUN	S	Gender=Masc|Number=Sing	14	advcl	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	muso	muso	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	polido	polido	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 9
+# text = La sua versione, sempre perentoria, è che avrebbe semplicemente sfidato le dinamiche interne al quotidiano, sostenendo una linea critica nei confronti del panorama politico progressista, cercando di introdurre una riflessione più ampia e meno connotata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	versione	versione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	perentoria	perentorio	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	semplicemente	semplicemente	ADV	B	_	12	advmod	_	_
+12	sfidato	sfidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	dinamiche	dinamica	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	interne	interno	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	sostenendo	sostenere	VERB	V	VerbForm=Ger	12	advcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	linea	linea	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	critica	critico	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24-25	nei	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	politico	politico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	progressista	progressisto	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	20	punct	_	_
+33	cercando	cercare	VERB	V	VerbForm=Ger	20	advcl	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	introdurre	introdurre	VERB	V	VerbForm=Inf	33	xcomp	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	riflessione	riflessione	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	ampia	ampio	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	meno	meno	ADV	B	_	42	advmod	_	_
+42	connotata	connotare	ADJ	A	Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Un tentativo, a suo racconto, vanificato dalla reazione di una redazione percepita come galvanizzata in una posizione intransigente.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	vanificato	vanificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	redazione	redazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	percepita	percepire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	come	come	SCONJ	CS	_	17	mark	_	_
+17	galvanizzata	galvanizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	intransigente	intransigente	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = "Ho cercato di aprire un dibattito, di offrire alternative", ha spiegato De Rose, "e invece mi sono trovato in balia di un'onda di ostilità che mi
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	aprire	aprire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dibattito	dibattito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	offrire	offrire	VERB	V	VerbForm=Inf	7	acl	_	_
+11	alternative	alternativa	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+16	De	De	PROPN	SP	_	15	nsubj	_	_
+17	Rose	Rose	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21	invece	invece	ADV	B	_	24	advmod	_	_
+22	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	expl	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	balia	balia	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	onda	onda	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	ostilità	ostilità	NOUN	S	Gender=Fem	29	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	acl:relcl	_	SpacesAfter=\n
+

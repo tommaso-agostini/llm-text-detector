@@ -1,0 +1,352 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dopo il video della carbonara "alla francese", comparso qualche giorno fa e che mostra la preparazione completamente errata di una carbonara cucinata con delle farfalle Barilla, ora è emerso un altro video che fa rabbrividire gli amanti della buona cucina.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	video	video	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	carbonara	carbonara	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	francese	francese	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	comparso	comparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	fa	fa	ADV	B	_	15	advmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	mostra	mostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	completamente	completo	ADV	B	_	23	advmod	_	_
+23	errata	errato	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	carbonara	carbonara	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+27	cucinata	cucinato	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	con	con	ADP	E	_	31	case	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	28	fixed	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	farfalle	farfalla	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+32	Barilla	Barilla	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	19	punct	_	_
+34	ora	ora	ADV	B	_	19	advmod	_	_
+35	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	emerso	emergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	altro	altro	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+39	video	video	NOUN	S	Gender=Masc|Number=Sing	36	nsubj	_	_
+40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+41	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+42	rabbrividire	rabbrividire	VERB	V	VerbForm=Inf	41	ccomp	_	_
+43	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	amanti	amante	NOUN	S	Number=Plur	42	obj	_	_
+45-46	della	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	48	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	buona	buono	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	_
+48	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Questa volta si tratta della ricetta degli spaghetti alla marinara all'americana , in inglese "One-Pot Spaghetti Marinara".
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ricetta	ricetta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	spaghetti	spaghetto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	marinara	marinara	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	americana	americano	ADJ	A	Gender=Fem|Number=Sing	13	nmod	_	_
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	inglese	inglese	NOUN	S	Number=Sing	7	nmod	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	One-Pot	One-Pot	PROPN	SP	_	7	nmod	_	_
+22	Spaghetti	Spaghetti	PROPN	SP	_	21	flat:name	_	_
+23	Marinara	Marinara	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Nel video la magagna è subito evidente:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	video	video	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	magagna	magagna	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	subito	subito	ADV	B	_	8	advmod	_	_
+8	evidente	evidente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = dopo aver versato l'olio in padella, infatti, vengono messi gli spaghetti crudi.
+1	dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	versato	versare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	olio	olio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	padella	padella	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	infatti	infatti	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	spaghetti	spaghetto	NOUN	S	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+15	crudi	crudo	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Un'aberrazione per i "tradizionalisti" della pasta.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aberrazione	aberrazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	tradizionalisti	tradizionalista	ADJ	A	Number=Plur	2	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pasta	pasta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sì perché a quanto pare, la preparazione degli spaghetti (fatti bollire a parte e solo dopo conditi) non è una formula universale:
+1	Sì	sì	INTJ	I	Polarity=Pos	25	cop	_	_
+2	perché	perché	SCONJ	CS	_	25	mark	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	25	obl	_	_
+5	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	spaghetti	spaghetto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+14	bollire	bollire	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	solo	solo	ADV	B	_	19	advmod	_	_
+19	dopo	dopo	ADV	B	_	20	advmod	_	_
+20	conditi	condire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	13	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	formula	formula	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+26	universale	universale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 7
+# text = piano piano si stanno facendo largo gli " innovatori " della pasta, che la cucinano come se fosse riso.
+1	piano	piare	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	piano	piano	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+6	largo	largo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	_
+9	innovatori	innovatore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pasta	pasta	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	cucinano	cucinare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+18	come	come	ADV	B	_	21	advmod	_	_
+19	se	se	SCONJ	CS	_	21	mark	_	_
+20	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	riso	ridere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = La video-ricetta, postata sulla pagina Facebook "Country Living Magazine", ha in poco tempo ottenuto migliaia di like e condivisioni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	video	video	ADJ	A	_	4	amod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	ricetta	ricetta	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	postata	postare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	Facebook	Facebook	PROPN	SP	_	9	nmod	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Country	Country	PROPN	SP	_	9	nmod	_	_
+13	Living	Living	PROPN	SP	_	12	flat:name	_	_
+14	Magazine	Magazine	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+22	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	like	like	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	condivisioni	condivisione	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = E inevitabilmente tra i commenti, l'orgoglio culinario degli utenti italiani si è fatto sentire: " Quando qualcuno 'cucina' queste cose, un italiano muore ", scrive Federica Gilli Gilardi; " Ma poi loro per al dente intendono consistenza cream caramel?
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	inevitabilmente	inevitabilmente	ADV	B	_	16	advmod	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	commenti	commento	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	orgoglio	orgoglio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+9	culinario	culinario	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	utenti	utente	NOUN	S	Number=Plur	8	nmod	_	_
+13	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	sentire	sentire	VERB	V	VerbForm=Inf	16	ccomp	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	_
+19	"	"	PUNCT	FB	_	46	punct	_	_
+20	Quando	quando	SCONJ	CS	_	46	mark	_	_
+21	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	46	nsubj	_	_
+22	'	'	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	cucina	cucinare	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	'	'	PUNCT	FB	_	23	punct	_	_
+25	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	26	det	_	_
+26	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	30	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+30	muore	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	parataxis	_	_
+31	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	parataxis	_	_
+34	Federica	Federica	PROPN	SP	_	33	nsubj	_	_
+35	Gilli	Gillo	PROPN	SP	_	34	flat:name	_	_
+36	Gilardi	Gilardi	PROPN	SP	_	34	flat:name	_	SpaceAfter=No
+37	;	;	PUNCT	FC	_	33	punct	_	_
+38	"	"	PUNCT	FB	_	46	punct	_	_
+39	Ma	ma	CCONJ	CC	_	46	cc	_	_
+40	poi	poi	ADV	B	_	41	advmod	_	_
+41	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	46	nsubj	_	_
+42	per	per	ADP	E	_	45	case	_	_
+43-44	al	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	dente	dente	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+46	intendono	intendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+47	consistenza	consistenza	ADP	E	_	48	case	_	_
+48	cream	cream	NOUN	S	Gender=Masc	46	obl	_	_
+49	caramel	caramel	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	SpaceAfter=No
+50	?	?	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 10
+# text = No perché cuocendola in quel modo imbarazzante la consistenza sarà quella ", commenta Pietro Balbi.
+1	No	no	INTJ	I	Polarity=Neg	15	discourse	_	_
+2	perché	perché	SCONJ	CS	_	12	mark	_	_
+3-4	cuocendola	_	_	_	_	_	_	_	_
+3	cuocendo	cuocire	VERB	V	VerbForm=Ger	12	advcl	_	_
+4	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+8	imbarazzante	imbarazzare	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	consistenza	consistenza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+11	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	15	nsubj	_	_
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	Pietro	Pietro	PROPN	SP	_	15	nsubj	_	_
+17	Balbi	Balbi	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Al di là delle sottigliezze, però, i nostri connazionali su una cosa sembrano concordare:
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	là	là	ADV	B	_	7	advmod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	sottigliezze	sottigliezza	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	però	però	ADV	B	_	17	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	connazionali	connazionale	NOUN	S	Number=Plur	17	nsubj	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	concordare	concordare	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 12
+# text = questa "marinara innovativa" poco somiglia al piatto che tutti noi conosciamo.
+1	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	marinara	marinara	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	innovativa	innovativo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	_
+6	poco	poco	ADV	B	_	7	advmod	_	_
+7	somiglia	somigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	obl	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Siete d'accordo?
+1	Siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	d'	di	ADP	E	_	3	case	_	SpaceAfter=No
+3	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

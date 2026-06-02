@@ -1,0 +1,261 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Dobbiamo garantire sicurezza e legalità nel nostro bellissimo centro storico".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	garantire	garantire	VERB	V	VerbForm=Inf	0	root	_	_
+4	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	legalità	legalità	NOUN	S	Gender=Fem	4	conj	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	11	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	11	amod	_	_
+11	centro	centro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+12	storico	storico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Le componenti della maggioranza di destra, da Palazzo Chigi alla Camera, lanciano l'attualissimo slogan:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	componenti	componente	NOUN	S	Number=Plur	16	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	destra	destra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Palazzo	Palazzo	PROPN	SP	_	2	nmod	_	_
+11	Chigi	Chigi	PROPN	SP	_	10	flat:name	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Camera	Camera	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	lanciano	lanciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	attualissimo	attuale	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	19	amod	_	_
+19	slogan	slogan	NOUN	S	Gender=Masc	16	obj	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 3
+# text = "Sgomberi subito".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sgomberi	Sgomberi	ADV	B	_	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Almeno in 100 palazzi.
+1	Almeno	almeno	ADV	B	_	4	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	100	100	NUM	N	NumType=Card	4	nummod	_	_
+4	palazzi	palazzo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Certo, vita difficile per qualche famiglia indigente ma la sicurezza di Roma sarà garantita.
+1	Certo	certo	ADV	B	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	3	amod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	indigente	indigente	ADJ	A	Number=Sing	7	amod	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Roma	Roma	PROPN	SP	_	11	nmod	_	_
+14	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+15	garantita	garantire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 6
+# text = Perché se non si affronta il problema delle abitazioni occupate alla base o degli affitti introvabili i problemi dello stato sociale e della disoccupazione cresceranno di giorno in giorno.
+1	Perché	perché	ADV	B	_	30	advmod	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	affronta	affrontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	problema	problema	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	abitazioni	abitazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	occupate	occupare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	base	base	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	o	o	CCONJ	CC	_	18	cc	_	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	affitti	affitto	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+19	introvabili	introvabile	ADJ	A	Number=Plur	18	amod	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+22-23	dello	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	stato	stato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	sociale	sociale	ADJ	A	Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+30	cresceranno	crescere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 7
+# text = Un problema atavico nel dopoguerra è ancora attuale.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	atavico	atavico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dopoguerra	dopoguerra	NOUN	S	Gender=Masc	2	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	ancora	ancora	ADV	B	_	9	advmod	_	_
+9	attuale	attuale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Si potrebbe obiettare che gli sfratti non sempre sono agevolazione e che vengono eseguiti senza solidarietà e senza un percorso alternativo all'abitare.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	obiettare	obiettare	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	sfratti	sfratto	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	sempre	sempre	ADV	B	_	6	advmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	agevolazione	agevolazione	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj:pass	_	_
+13	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	eseguiti	eseguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+15	senza	senza	ADP	E	_	16	case	_	_
+16	solidarietà	solidarietà	NOUN	S	Gender=Fem	14	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	senza	senza	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+21	alternativo	alternativo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	abitare	abitare	VERB	V	VerbForm=Inf	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ma forse gli errori del passato potrebbero aver aperto la strada a una soluzione adeguata alla qualità del problema sociale.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	forse	forse	ADV	B	_	10	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	errori	errore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	passato	passato	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	aver	avere	AUX	VA	VerbForm=Inf	10	aux	_	_
+10	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	strada	strada	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+16	adeguata	adeguato	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	qualità	qualità	NOUN	S	Gender=Fem	16	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	problema	problema	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	sociale	sociale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Se il centrodestra riutilizzasse fondi del PNRR per garantire le condizioni minime decenti di chi si trova per un motivo qualsiasi in mezzo alla strada, agli sgomberi e alle occupazioni abusive si opporrebbero pochi "occupanti" poiché a sinistra l'assenza di servizi sociali consolidati sgretolerebbero l'internazionalismo anche più motivato.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	centrodestra	centrodestra	NOUN	S	Gender=Masc	4	nsubj	_	_
+4	riutilizzasse	riutilizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	advcl	_	_
+5	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PNRR	PNRR	PROPN	SP	_	5	nmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	garantire	garantire	VERB	V	VerbForm=Inf	4	advcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	minime	minimo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	decenti	decente	ADJ	A	Number=Plur	12	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	chi	chi	PRON	PR	PronType=Rel	12	nmod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	qualsiasi	qualsiasi	ADJ	A	Number=Sing	21	amod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	strada	strada	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29-30	agli	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	sgomberi	sgombero	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	alle	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	occupazioni	occupazione	NOUN	S	Gender=Fem|Number=Plur	21	conj	_	_
+36	abusive	abusivo	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+37	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	38	expl:pass	_	_
+38	opporrebbero	opporre	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+39	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	41	det	_	_
+40	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+41	occupanti	occupante	NOUN	S	Number=Plur	38	nsubj:pass	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	41	punct	_	_
+43	poiché	poiché	SCONJ	CS	_	52	mark	_	_
+44	a	a	ADP	E	_	45	case	_	_
+45	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	_
+46	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
+47	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	52	nsubj	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+50	sociali	sociale	ADJ	A	Number=Plur	49	amod	_	_
+51	consolidati	consolidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	52	acl	_	_
+52	sgretolerebbero	sgretolare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
+53	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	54	det	_	SpaceAfter=No
+54	internazionalismo	internazionalismo	NOUN	S	Gender=Masc|Number=Sing	52	obj	_	_
+55	anche	anche	ADV	B	_	57	advmod	_	_
+56	più	più	ADV	B	_	57	advmod	_	_
+57	motivato	motivato	ADJ	A	Gender=Masc|Number=Sing	52	xcomp	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	38	punct	_	SpacesAfter=\n
+

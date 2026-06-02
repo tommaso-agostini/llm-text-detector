@@ -1,0 +1,329 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma perché questo improvviso cambiamento di direzione?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	perché	perché	SCONJ	CS	_	5	mark	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = La risposta sta nella crescente ostilità dell'amministrazione Trump verso la Cina e la Russia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	crescente	crescere	ADJ	A	Number=Sing	7	amod	_	_
+7	ostilità	ostilità	NOUN	S	Gender=Fem	3	obl	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	Trump	Trump	PROPN	SP	_	10	nmod	_	_
+12	verso	verso	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Cina	Cina	PROPN	SP	_	3	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Russia	Russia	PROPN	SP	_	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Le sanzioni economiche, le tensioni commerciali e le iniziative militari in sikλυi ai loro interessi hanno spinto Mosca e Pechino a stringerelá tra loro, fostanlä un'alleanza strategica che è destinata a influenzare l'assetto geopolitico dei prossimi anni.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+3	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7	commerciali	commerciale	ADJ	A	Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+11	militari	militare	ADJ	A	Number=Plur	10	amod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	sikλυi	sikλυo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	Mosca	Mosca	PROPN	SP	_	19	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Pechino	Pechino	PROPN	SP	_	20	conj	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	stringerelá	stringerelá	PROPN	SP	_	19	obl	_	_
+25	tra	tra	ADP	E	_	26	case	_	_
+26	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	fostanlä	fostanlä	PROPN	SP	_	26	conj	_	_
+29	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	alleanza	alleanza	NOUN	S	Gender=Fem|Number=Sing	26	appos	_	_
+31	strategica	strategico	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	che	che	PRON	PR	PronType=Rel	34	nsubj:pass	_	_
+33	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+34	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+35	a	a	ADP	E	_	36	mark	_	_
+36	influenzare	influenzare	VERB	V	VerbForm=Inf	34	xcomp	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	assetto	assetto	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+39	geopolitico	geopolitico	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40-41	dei	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	43	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+42	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	43	amod	_	_
+43	anni	anno	NOUN	S	Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 4
+# text = La Russia e la Cina hanno avviato una serie di accordi commerciali e di collaborazione militare, come il programma di sviluppo del sistema di missili hipersofici cinese.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Russia	Russia	PROPN	SP	_	7	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Cina	Cina	PROPN	SP	_	2	conj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avviato	avviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	serie	serie	NOUN	S	Gender=Fem	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	commerciali	commerciale	ADJ	A	Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+16	militare	militare	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	come	come	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	programma	programma	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	missili	missile	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+28	hipersofici	hipersofico	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	cinese	cinese	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Inoltre, hanno intensificato la cooperazione nell'Asia centrale, con la vista di contrastare l'influenza degli Stati Uniti e dei loro alleati regionali.
+1	Inoltre	inoltre	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	intensificato	intensificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	in	in	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Asia	Asia	PROPN	SP	_	6	nmod	_	_
+10	centrale	centrale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vista	vista	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	contrastare	contrastare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Stati	Stati	PROPN	SP	_	18	nmod	_	_
+22	Uniti	Uniti	PROPN	SP	_	21	flat:name	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	alleati	alleato	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+28	regionali	regionale	ADJ	A	Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ma come mai la sinistra progressista dovrebbe preoccuparsi di questa alleanza?
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	mai	mai	ADV	B	_	8	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	progressista	progressista	ADJ	A	Number=Sing	5	amod	_	_
+7	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8-9	preoccuparsi	_	_	_	_	_	_	_	_
+8	preoccupar	preoccuparre	VERB	V	VerbForm=Inf	0	root	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	alleanza	alleanza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = In primo luogo, c'è il rischio che il conflitto tra l'alleanza russo-cinese e gli Stati Uniti porti a una nuova fase della Guerra Fredda, con gravi conseguenze per la pace e la stabilità internazionale.
+1	In	in	ADP	E	_	3	case	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	che	che	SCONJ	CS	_	22	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+12	tra	tra	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	alleanza	alleanza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	russo	russo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+17	cinese	cinese	ADJ	A	Number=Sing	14	amod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Stati	Stati	PROPN	SP	_	14	conj	_	_
+21	Uniti	Uniti	PROPN	SP	_	20	flat:name	_	_
+22	porti	portare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	fase	fase	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	Fredda	freddo	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	22	punct	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	gravi	grave	ADJ	A	Number=Plur	34	amod	_	_
+34	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+35	per	per	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	pace	pace	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	stabilità	stabilità	NOUN	S	Gender=Fem	37	conj	_	_
+41	internazionale	internazionale	ADJ	A	Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = In secondo luogo, l'alleanza potrebbe favorire unORDINE mondiale basato sulla legge del più forte, con la amoquarters di quanti diritti e libertà democratiche.
+1	In	in	ADP	E	_	3	case	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	alleanza	alleanza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	favorire	favorire	VERB	V	VerbForm=Inf	0	root	_	_
+9	unORDINE	unORDINE	PROPN	SP	_	8	obj	_	_
+10	mondiale	mondiale	ADJ	A	Number=Sing	9	amod	_	_
+11	basato	basato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	legge	legge	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	forte	forte	ADJ	A	Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	amoquarters	amoquarter	NOUN	S	Gender=Fem	14	nmod	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	25	det	_	_
+25	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	libertà	libertà	NOUN	S	Gender=Fem	25	conj	_	_
+28	democratiche	democratico	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = In questo contesto, è fondamentale che la comunità internazionale si adopri per ridurre le tensioni e favorire un dialogo costruttivo tra Stati Uniti, Russia e Cina.
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	fondamentale	fondamentale	ADJ	A	Number=Sing	0	root	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	comunità	comunità	NOUN	S	Gender=Fem	12	nsubj	_	_
+10	internazionale	internazionale	ADJ	A	Number=Sing	9	amod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	adopri	adoprire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	ridurre	ridurre	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	favorire	favorire	VERB	V	VerbForm=Inf	14	conj	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dialogo	dialogo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	costruttivo	costruttivo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	tra	tra	ADP	E	_	23	case	_	_
+23	Stati	Stati	PROPN	SP	_	20	nmod	_	_
+24	Uniti	Uniti	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	Russia	Russia	PROPN	SP	_	23	conj	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	Cina	Cina	PROPN	SP	_	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Questo significa anche lavorare per un sistema multilaterale basato sulla cooperazione, la pace e il rispetto dei diritti umani.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	lavorare	lavorare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	multilaterale	multilaterale	ADJ	A	Number=Sing	7	amod	_	_
+9	basato	basare	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+10-11	sulla	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cooperazione	cooperazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	umani	umano	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Come progressisti, dobbiamo condemnedlare la politica estera aggressiva dell'amministrazione Trump,
+1	Come	come	ADP	E	_	2	case	_	_
+2	progressisti	progressista	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	condemnedlare	condemnedlare	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	politica	politica	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	estera	estero	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	aggressiva	aggressivo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	Trump	Trump	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\n
+

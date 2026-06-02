@@ -1,0 +1,666 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Solo ieri mattina nel comasco caduti 100 millimetri d’acqua tanto che a Blevio alcune abitazioni sono state evacuate.
+1	Solo	solo	ADV	B	_	2	advmod	_	_
+2	ieri	ieri	ADV	B	_	20	advmod	_	_
+3	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	comasco	comasco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+7	caduti	cadere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+8	100	100	NUM	N	NumType=Card	9	nummod	_	_
+9	millimetri	millimetro	NOUN	S	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	tanto	tanto	ADV	B	_	20	advmod	_	_
+13	che	che	SCONJ	CS	_	20	mark	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Blevio	Blevio	PROPN	SP	_	20	obl	_	_
+16	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	abitazioni	abitazione	NOUN	S	Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	evacuate	evacuare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = A Cernobbio è stata chiusa la statale 340 per caduta massi e il traffico deviato sulla statale 36.
+1	A	a	ADP	E	_	2	case	_	_
+2	Cernobbio	Cernobbio	PROPN	SP	_	5	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	statale	statale	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	340	340	NUM	N	NumType=Card	7	nummod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	caduta	cadere	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	massi	masso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+15	deviato	deviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	sulla	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	statale	statale	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	36	36	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = L’allerta della Protezione civile riguarda anche Milano, Lodi, Monza, Bergamo e la Brianza, a macchia di leopardo un po’ tutta la regione.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	allerta	allerta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Protezione	Protezione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	civile	civile	ADJ	A	Number=Sing	5	amod	_	_
+7	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	Milano	Milano	PROPN	SP	_	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Lodi	Lodi	PROPN	SP	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	Monza	Monza	PROPN	SP	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	Bergamo	Bergamo	PROPN	SP	_	9	conj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Brianza	Brianza	PROPN	SP	_	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	leopardo	leopardo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	po’	poco	ADV	B	_	28	advmod	_	_
+26	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	28	det:predet	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	regione	regione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Traffico in tilt e strade allagate in città per effetto della pioggia torrenziale che si è abbattuta ieri sul capoluogo lombardo.
+1	Traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	tilt	tilt	NOUN	S	Gender=Masc	1	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	strade	strada	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+6	allagate	allagare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	città	città	NOUN	S	Gender=Fem	6	obl	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	torrenziale	torrenziale	ADJ	A	Number=Sing	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	abbattuta	abbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+19	ieri	ieri	ADV	B	_	18	advmod	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	capoluogo	capoluogo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+23	lombardo	lombardo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Dopo le quattro pomeridiane ha squillato ininterrottamente il centralino dei vigili del fuoco.
+1	Dopo	dopo	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+4	pomeridiane	pomeridiano	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	squillato	squillare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ininterrottamente	ininterrottamente	ADV	B	_	6	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	centralino	centralino	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	vigili	vigile	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Una settantina gli interventi dei pompieri su cantine, negozi e strade allagate o grondaie pericolanti, concentrati nei 45 minuti del nubifragio.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settantina	settantina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	pompieri	pompiere	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	cantine	cantina	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	negozi	negozio	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	strade	strada	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+14	allagate	allagato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	o	o	CCONJ	CC	_	16	cc	_	_
+16	grondaie	grondaio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+17	pericolanti	pericolante	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	concentrati	concentrare	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+20-21	nei	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	45	45	NUM	N	NumType=Card	23	nummod	_	_
+23	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nubifragio	nubifragio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Cinque mezzi del 115 impegnati dal primo mattino a Lainate, dove è straripato il torrente Lura.
+1	Cinque	cinque	NUM	N	NumType=Card	2	nummod	_	_
+2	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	115	115	NUM	N	NumType=Card	2	nmod	_	_
+6	impegnati	impegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dal	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+10	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Lainate	Lainata	PROPN	SP	_	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	dove	dove	ADV	B	_	16	advmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	straripato	straripare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	torrente	torrente	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+19	Lura	Lura	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = L’acqua ha allagato tre villette in via Settembrini e costretto a interrompere l’attività di alcune aziende della zona.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	allagato	allagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	villette	villetta	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	via	via	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	Settembrini	Settembrini	PROPN	SP	_	8	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	interrompere	interrompere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	attività	attività	NOUN	S	Gender=Fem	13	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+18	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	zona	zona	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = I vigili del fuoco hanno raccolto l’acqua con le autopompe e cercato di ricostruire gli argini del torrente con sabbia e pale gommate.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	vigili	vigile	NOUN	S	Number=Plur	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	raccolto	raccogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	autopompe	autopompa	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	ricostruire	ricostruire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	argini	argine	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	torrente	torrente	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	sabbia	sabbia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	pale	pala	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	_
+26	gommate	gommato	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Allagato anche un tratto della tangenziale est, mentre ad Albairate è caduto un grosso albero sull’alzaia del Naviglio Grande.
+1	Allagato	Allagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tratto	tratto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	tangenziale	tangenziale	ADJ	A	Number=Sing	8	amod	_	_
+8	est	est	NOUN	S	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+11	ad	a	ADP	E	_	12	case	_	_
+12	Albairate	Albairate	PROPN	SP	_	14	obl	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	caduto	cadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	albero	albero	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+18-19	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+18	su	su	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	alzaia	alzaia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Naviglio	Naviglio	PROPN	SP	_	20	nmod	_	_
+24	Grande	Grande	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = E a Trezzano il sindaco ha firmato un’ordinanza per gli automobilisti:
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Trezzano	Trezzano	PROPN	SP	_	7	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ordinanza	ordinanza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	automobilisti	automobilista	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 12
+# text = vietato superare i 30 chilometri col maltempo.
+1	vietato	vietare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	superare	superare	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	30	30	NUM	N	NumType=Card	5	nummod	_	_
+5	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6-7	col	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	maltempo	maltempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = E c’è poco da sperare per i prossimi giorni, previsto ancora maltempo.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	poco	poco	ADV	B	_	3	advmod	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	sperare	sperare	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	maltempo	maltempo	NOUN	S	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Fino a venerdì si alterneranno i rovesci e fra un intervallo e l’altro, sempre cielo nuvoloso.
+1	Fino	fino	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	venerdì	venerdì	NOUN	S	Gender=Masc	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	alterneranno	alternare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	rovesci	rovesce	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+8	e	e	CCONJ	CC	_	7	cc	_	_
+9	fra	fra	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	intervallo	intervallo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+18	nuvoloso	nuvoloso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = «Le temperature non sono tanto più basse rispetto alla media - ha detto Flavio Galbiati del centro Epson -.
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	tanto	tanto	ADV	B	_	8	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	basse	basso	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+9	rispetto	rispetto	ADV	B	_	12	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	media	media	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13	-	-	PUNCT	FB	_	8	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	_
+16	Flavio	Flavio	PROPN	SP	_	15	nsubj	_	_
+17	Galbiati	Galbiato	PROPN	SP	_	16	flat:name	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	centro	centro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	Epson	Epson	PROPN	SP	_	20	nmod	_	_
+22	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Ieri il picco massimo è stato di 19 gradi (con la minima a 13), ma dopo il temporale la colonnina è precipitata di sei gradi fino a 13.
+1	Ieri	ieri	ADV	B	_	9	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	picco	picco	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	19	19	NUM	N	NumType=Card	9	nummod	_	_
+9	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+10	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11	con	con	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	minima	minima	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	13	13	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	25	punct	_	_
+18	ma	ma	CCONJ	CC	_	25	cc	_	_
+19	dopo	dopo	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	temporale	temporale	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	colonnina	colonnina	NOUN	S	Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+25	precipitata	precipitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	sei	sei	NUM	N	NumType=Card	28	nummod	_	_
+28	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+29	fino	fino	ADV	B	_	31	case	_	_
+30	a	a	ADP	E	_	29	fixed	_	_
+31	13	13	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = Avremo miglioramenti nel fine settimana, più evidenti domenica, sabato ancora acquazzoni sulle Alpi».
+1	Avremo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	miglioramenti	miglioramento	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	fine	fine	ADJ	A	Number=Sing	6	amod	_	_
+6	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	più	più	ADV	B	_	1	advmod	_	_
+9	evidenti	evidente	ADJ	A	Number=Plur	10	amod	_	_
+10	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+13	ancora	ancora	ADV	B	_	14	advmod	_	_
+14	acquazzoni	acquazzone	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+15-16	sulle	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Alpi	Alpi	PROPN	SP	_	14	obl	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = In dieci giorni di maggio sono caduti 140 millimetri d’acqua (la media è di 90), il diluvio di ieri si è abbattuto sul centro città ha accumulato su viali e strade 20 millimetri di pioggia.
+1	In	in	ADP	E	_	3	case	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	caduti	cadere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	140	140	NUM	N	NumType=Card	9	nummod	_	_
+9	millimetri	millimetro	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	media	media	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	90	90	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	diluvio	diluvio	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	ieri	ieri	ADV	B	_	21	advmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	abbattuto	abbattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+27-28	sul	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	centro	centro	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	città	città	NOUN	S	Gender=Fem	29	compound	_	_
+31	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	accumulato	accumulare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+33	su	su	ADP	E	_	34	case	_	_
+34	viali	viali	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	strade	strada	NOUN	S	Gender=Fem|Number=Plur	34	conj	_	_
+37	20	20	NUM	N	NumType=Card	38	nummod	_	_
+38	millimetri	millimetro	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = Stanno peggio i comaschi.
+1	Stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	peggio	peggio	ADV	B	_	1	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	comaschi	comasco	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = I laghi Garda e Maggiore sono ai livelli massimi e la Coldiretti ha sottolineato il rischio per le campagne.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	laghi	lago	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	Garda	Garda	PROPN	SP	_	2	nmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Maggiore	Maggiore	PROPN	SP	_	3	conj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+10	massimi	massimo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Coldiretti	Coldiretti	PROPN	SP	_	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	sottolineato	sottolineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 21
+# text = Dopo dieci giorni di piogge torrenziali crolla la produzione a Como e a Lecco:
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	piogge	pioggia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	torrenziali	torrenziale	ADJ	A	Number=Plur	5	amod	_	_
+7	crolla	crollare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Como	Como	PROPN	SP	_	7	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Lecco	Lecco	PROPN	SP	_	11	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 22
+# text = «Meno 40% di patate, meno 25 di mais, malattie di natura funginea nel frumento e orzo, semine da rifare sul 30% della provincia - ha spiegato il presidente della Coldiretti Alberto Pagani - Quest’anno invenduta la metà delle piante come gerani, fiori di vetro, begonie o piantine da orto che in genere vanno a ruba.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Meno	meno	ADV	B	_	4	advmod	_	_
+3	40	40	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	SYM	_	9	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	patate	patato	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	meno	meno	ADV	B	_	9	advmod	_	_
+9	25	25	NUM	N	NumType=Card	35	nummod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	mais	mais	NOUN	S	Gender=Masc	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	natura	natura	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	funginea	fungineo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	frumento	frumento	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	orzo	orzo	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	11	punct	_	_
+23	semine	semine	NOUN	S	Gender=Masc|Number=Sing	11	appos	_	_
+24	da	da	ADP	E	_	25	mark	_	_
+25	rifare	rifare	VERB	V	VerbForm=Inf	23	acl	_	_
+26-27	sul	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	30	30	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	25	obl	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	-	-	PUNCT	FB	_	11	punct	_	_
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Coldiretti	Coldiretti	PROPN	SP	_	37	nmod	_	_
+41	Alberto	Alberto	PROPN	SP	_	40	flat:name	_	_
+42	Pagani	Pagani	PROPN	SP	_	40	flat:name	_	_
+43	-	-	PUNCT	FF	_	40	punct	_	_
+44	Quest’	questo	DET	DD	Number=Sing|PronType=Dem	45	det	_	SpaceAfter=No
+45	anno	anno	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+46	invenduta	invendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	metà	metà	NOUN	S	Gender=Fem	46	obj	_	_
+49-50	delle	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+51	piante	pianta	NOUN	S	Gender=Fem|Number=Plur	48	nmod	_	_
+52	come	come	ADP	E	_	53	case	_	_
+53	gerani	gerano	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	55	punct	_	_
+55	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	53	conj	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	vetro	vetro	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+58	,	,	PUNCT	FF	_	59	punct	_	_
+59	begonie	begonia	NOUN	S	Gender=Fem|Number=Plur	53	conj	_	_
+60	o	o	CCONJ	CC	_	61	cc	_	_
+61	piantine	piantina	NOUN	S	Gender=Fem|Number=Plur	53	conj	_	_
+62	da	da	ADP	E	_	63	case	_	_
+63	orto	orto	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	_
+64	che	che	PRON	PR	PronType=Rel	67	nsubj	_	_
+65	in	in	ADP	E	_	66	case	_	_
+66	genere	genere	NOUN	S	Gender=Masc|Number=Sing	67	obl	_	_
+67	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	acl:relcl	_	_
+68	a	a	ADP	E	_	69	case	_	_
+69	ruba	ruba	NOUN	S	Gender=Fem|Number=Sing	67	obl	_	SpaceAfter=No
+70	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 23
+# text = Abbiamo stimato che le semine ritardate provocano una perdite di oltre un milione di euro e che i nuovi costi per la semina sono sui 300mila euro.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	stimato	stimare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	semine	semine	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+6	ritardate	ritardato	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	provocano	provocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	perdite	perdita	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	oltre	oltre	ADV	B	_	13	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	milione	milione	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	euro	euro	NOUN	S	Gender=Masc	13	nmod	_	_
+16	e	e	CCONJ	CC	_	28	cc	_	_
+17	che	che	SCONJ	CS	_	28	mark	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	costi	costo	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	semina	semina	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+25-26	sui	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	28	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	300mila	300mila	NUM	N	NumType=Card	28	nummod	_	_
+28	euro	euro	NOUN	S	Gender=Masc	7	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Per salvare le specie in serra sono ripartite le caldaie, non era mai successo in maggio».
+1	Per	per	ADP	E	_	2	mark	_	_
+2	salvare	salvare	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	specie	specie	NOUN	S	Gender=Fem	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	serra	serra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ripartite	ripartire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	caldaie	caldaia	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+14	mai	mai	ADV	B	_	15	advmod	_	_
+15	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

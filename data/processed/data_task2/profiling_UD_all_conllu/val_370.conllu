@@ -1,0 +1,855 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Prodotta da Ron Howard e Brian Graze, è ambientata nel 2038:
+1	Prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	Ron	Ron	PROPN	SP	_	1	obl:agent	_	_
+4	Howard	Howard	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Brian	Brian	PROPN	SP	_	3	conj	_	_
+7	Graze	Graze	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	ambientata	ambientare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2038	2038	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = sono trascorsi cinque anni dalla creazione del primo insediamento marziano.
+1	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trascorsi	trascorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	cinque	cinque	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	creazione	creazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	insediamento	insediamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	marziano	marziano	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Olympus Town, la colonia fondata dalla International Mars Science Foundation, è ormai un sistema completamente sviluppato.
+1	Olympus	Olympus	PROPN	SP	_	17	nsubj	_	_
+2	Town	Town	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	colonia	colonia	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+6	fondata	fondare	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	International	International	PROPN	SP	_	6	obl	_	_
+10	Mars	Mars	PROPN	SP	_	9	flat:name	_	_
+11	Science	Science	PROPN	SP	_	9	flat:name	_	_
+12	Foundation	Foundation	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	ormai	ormai	ADV	B	_	17	advmod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	completamente	completo	ADV	B	_	19	advmod	_	_
+19	sviluppato	sviluppato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 4
+# text = L'agenzia spaziale sponsorizzata dal Governo non può però continuare a finanziarlo e decide di aprire la missione a investitori privati come la Lukrum Industries.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	spaziale	spaziale	ADJ	A	Number=Sing	2	amod	_	_
+4	sponsorizzata	sponsorizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	però	però	ADV	B	_	11	advmod	_	_
+11	continuare	continuare	VERB	V	VerbForm=Inf	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13-14	finanziarlo	_	_	_	_	_	_	_	_
+13	finanziar	finanziarre	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	aprire	aprire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	missione	missione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	investitori	investitore	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+23	privati	privato	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	come	come	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Lukrum	Lukrum	PROPN	SP	_	22	nmod	_	_
+27	Industries	Industries	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Una decisione che comporta l'inizio d'inevitabili tensioni tra gli scienziati e i nuovi arrivati.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+8	inevitabili	inevitabile	ADJ	A	Number=Plur	9	amod	_	_
+9	tensioni	tensione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	tra	tra	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	scienziati	scienziato	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	arrivati	arrivato	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La sfida è ancora più audace rispetto alla prima stagione, perché prova a rispondere a un quesito molto importante per il futuro della specie:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	audace	audace	ADJ	A	Number=Sing	0	root	_	_
+7	rispetto	rispetto	ADV	B	_	11	case	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	perché	perché	SCONJ	CS	_	14	mark	_	_
+14	prova	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	rispondere	rispondere	VERB	V	VerbForm=Inf	14	ccomp	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	quesito	quesito	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	molto	molto	ADV	B	_	21	advmod	_	_
+21	importante	importante	ADJ	A	Number=Sing	19	amod	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	specie	specie	NOUN	S	Gender=Fem	24	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 7
+# text = ora che l'umanità ha raggiunto il pianeta rosso, cosa intende farci?
+1	ora	ora	ADV	B	_	12	advmod	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	umanità	umanità	NOUN	S	Gender=Fem	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	12	nsubj	_	_
+12	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	farci	_	_	_	_	_	_	_	SpaceAfter=No
+13	far	fare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+15	?	?	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = Usarlo per fini scientifici o sfruttarlo a scopi economici?
+1-2	Usarlo	_	_	_	_	_	_	_	_
+1	Usar	usare	VERB	V	VerbForm=Inf	0	root	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	fini	fine	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	scientifici	scientifico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7-8	sfruttarlo	_	_	_	_	_	_	_	_
+7	sfruttar	sfruttare	VERB	V	VerbForm=Inf	1	conj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	scopi	scopo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	economici	economico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Scienza contro profitto, esplorazione contro sfruttamento:
+1	Scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	contro	contro	ADP	E	_	3	case	_	_
+3	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	esplorazione	esplorazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+6	contro	contro	ADP	E	_	7	case	_	_
+7	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 10
+# text = quando diventeremo una specie interplanetaria, l'umanità riuscirà a spezzare questa catena o ripeterà gli errori commessi sulla Terra anche nel nuovo mondo?
+1	quando	quando	SCONJ	CS	_	2	mark	_	_
+2	diventeremo	diventare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	9	advcl	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	specie	specie	NOUN	S	Gender=Fem	2	obj	_	_
+5	interplanetaria	interplanetario	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	umanità	umanità	NOUN	S	Gender=Fem	9	nsubj	_	_
+9	riuscirà	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	spezzare	spezzare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	catena	catena	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	ripeterà	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	errori	errore	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Terra	Terra	PROPN	SP	_	18	obl	_	_
+22	anche	anche	ADV	B	_	26	advmod	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+27	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = A fornire una risposta è lo stesso produttore, Ron Howard:
+1	A	a	ADP	E	_	2	mark	_	_
+2	fornire	fornire	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	Ron	Ron	PROPN	SP	_	8	appos	_	_
+11	Howard	Howard	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 12
+# text = «I protagonisti di queste spedizioni su Marte non sono in cerca della semplice scoperta scientifica.
+1	«	«	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	spedizioni	spedizione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	Marte	Marte	PROPN	SP	_	3	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	cerca	cerca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	semplice	semplice	ADJ	A	Number=Sing	16	amod	_	_
+16	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	scientifica	scientifica	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 13
+# text = Sarebbe naïve immaginare il contrario.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	naïve	naïvo	ADV	B	_	3	advmod	_	_
+3	immaginare	immaginare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Dopotutto anche nel 1500 e 1600 gli esploratori erano finanziati da investitori privati che volevano più risorse e rotte commerciali.
+1	Dopotutto	dopotutto	ADV	B	_	11	advmod	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	1500	1500	NUM	N	NumType=Card	11	obl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	1600	1600	NUM	N	NumType=Card	5	conj	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	esploratori	esploratore	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+10	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux:pass	_	_
+11	finanziati	finanziare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	investitori	investitore	NOUN	S	Gender=Masc|Number=Plur	11	obl:agent	_	_
+14	privati	privato	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	volevano	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	rotte	rotta	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+21	commerciali	commerciale	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 15
+# text = Spero però che la serie possa funzionare come metafora perché mostriamo come sia possibile coesistere, trovare accordi, risolvere problemi insieme».
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	però	però	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	serie	serie	NOUN	S	Gender=Fem	7	nsubj	_	_
+6	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	funzionare	funzionare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	metafora	metafora	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	perché	perché	SCONJ	CS	_	11	mark	_	_
+11	mostriamo	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	come	come	SCONJ	CS	_	14	mark	_	_
+13	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	possibile	possibile	ADJ	A	Number=Sing	11	ccomp	_	_
+15	coesistere	coesistere	VERB	V	VerbForm=Inf	14	csubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	trovare	trovare	VERB	V	VerbForm=Inf	15	conj	_	_
+18	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	risolvere	risolvere	VERB	V	VerbForm=Inf	17	advcl	_	_
+21	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	insieme	insieme	ADV	B	_	20	advmod	_	SpaceAfter=No
+23	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Se nella prima stagione il documentario era utile a spiegare la realtà scientifica dei viaggi interplanetari, nella seconda si concentra su ciò che sta mettendo realmente in pericolo la Terra:
+1	Se	se	SCONJ	CS	_	9	mark	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	documentario	documentario	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	utile	utile	ADJ	A	Number=Sing	24	advcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	spiegare	spiegare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	realtà	realtà	NOUN	S	Gender=Fem	11	obj	_	_
+14	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	interplanetari	interplanetario	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	24	obl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	concentra	concentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	su	su	ADP	E	_	26	case	_	_
+26	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	obl	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	mettendo	mettere	VERB	V	VerbForm=Ger	26	acl:relcl	_	_
+30	realmente	realmente	ADV	B	_	29	advmod	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Terra	Terra	PROPN	SP	_	24	nsubj	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	24	punct	_	_
+
+# sent_id = 17
+# text = lo scioglimento dei ghiacciai, le trivellazioni, l'innalzamento del livello dei mari e le epidemie, conseguenze di comportamenti umani che rischieremmo di replicare anche su Marte.
+1	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scioglimento	scioglimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ghiacciai	ghiacciaio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	trivellazioni	trivellazione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	innalzamento	innalzamento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	livello	livello	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	mari	maro	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	epidemie	epidemia	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+25	umani	umano	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	rischieremmo	rischieere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	replicare	replicare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	anche	anche	ADV	B	_	32	advmod	_	_
+31	su	su	ADP	E	_	32	case	_	_
+32	Marte	Marte	PROPN	SP	_	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = E così ciò che c'è d'inventato in ogni episodio, diventa subito realtà:
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	d'	di	ADP	E	_	8	mark	_	SpaceAfter=No
+8	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	subito	subito	ADV	B	_	13	advmod	_	_
+15	realtà	realtà	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 19
+# text = «Ho studiato a lungo il disastro della Deepwater Horizon ha spiegato la new entry Antonia Juhasz, giornalista investigativa specializzata negli scandali petroliferi che ha contribuito alla scrittura delle nuove puntate - e il processo decisionale che ha portato a quanto accaduto è stato ben sintetizzato dal giudice:
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	3	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	disastro	disastro	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Deepwater	Deepwater	PROPN	SP	_	7	nmod	_	_
+11	Horizon	Horizon	PROPN	SP	_	10	flat:name	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	new	new	NOUN	S	_	13	obj	_	_
+16	entry	entry	NOUN	S	_	15	compound	_	_
+17	Antonia	Antonia	PROPN	SP	_	15	nmod	_	_
+18	Juhasz	Juhasz	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	giornalista	giornalista	NOUN	S	Number=Sing	15	appos	_	_
+21	investigativa	investigativo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	specializzata	specializzato	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+23-24	negli	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	scandali	scandale	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+26	petroliferi	petrolifero	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+36	puntate	puntato	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+37	-	-	PUNCT	FF	_	36	punct	_	_
+38	e	e	CCONJ	CC	_	51	cc	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	processo	processo	NOUN	S	Gender=Masc|Number=Sing	51	nsubj:pass	_	_
+41	decisionale	decisionale	ADJ	A	Number=Sing	40	amod	_	_
+42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+43	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+45	a	a	ADP	E	_	46	case	_	_
+46	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	44	obl	_	_
+47	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	acl:relcl	_	_
+48	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+49	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	aux:pass	_	_
+50	ben	bene	ADV	B	_	51	advmod	_	_
+51	sintetizzato	sintetizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+52-53	dal	_	_	_	_	_	_	_	_
+52	da	da	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	51	obl:agent	_	SpaceAfter=No
+55	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 20
+# text = la compagnia ha messo il profitto davanti alla sicurezza e questo è quello che accade anche in un nostro episodio.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	davanti	davanti	ADV	B	_	10	case	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	anche	anche	ADV	B	_	21	advmod	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Se continueremo a seguire questo modello, continueremo ad avere lo stesso risultato».
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	continueremo	continuare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	seguire	seguire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	modello	modello	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	continueremo	continuare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	ad	a	ADP	E	_	10	mark	_	_
+10	avere	avere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	»	»	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = Se c'è ancora qualcuno che pensa che la colonizzazione di Marte sia fantascienza (ci è appena arrivata la sonda InSight), ecco la risposta dello scrittore Stephen Petranek, autore del libro How we'll live on Mars, su cui si basa la serie:
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	colonizzazione	colonizzazione	NOUN	S	Gender=Fem|Number=Sing	7	ccomp	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Marte	Marte	PROPN	SP	_	10	nmod	_	_
+13	sia	essere	CCONJ	CC	_	14	cc	_	_
+14	fantascienza	fantascienza	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+15	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	appena	appena	ADV	B	_	19	advmod	_	_
+19	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sonda	sonda	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+22	InSight	InSight	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	10	punct	_	_
+25	ecco	ecco	ADV	B	_	27	advmod	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	10	appos	_	_
+28-29	dello	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31	Stephen	Stephen	PROPN	SP	_	30	nmod	_	_
+32	Petranek	Petranek	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	30	punct	_	_
+34	autore	autore	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	libro	libro	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	How	How	PROPN	SP	_	37	nmod	_	_
+39-40	we'	_	_	_	_	_	_	_	SpaceAfter=No
+39	wi	wo	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	ll	ll	NOUN	S	Gender=Masc	27	nmod	_	_
+42	live	live	ADJ	A	Gender=Fem|Number=Plur	41	amod	_	_
+43	on	on	NOUN	S	Gender=Fem	41	nmod	_	_
+44	Mars	Mars	PROPN	SP	_	43	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	27	punct	_	_
+46	su	su	ADP	E	_	47	case	_	_
+47	cui	cui	PRON	PR	PronType=Rel	49	obl	_	_
+48	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	49	expl	_	_
+49	basa	basare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	serie	serie	NOUN	S	Gender=Fem	49	nsubj	_	SpaceAfter=No
+52	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 23
+# text = «La specie umana, se vuole sopravvivere, deve diventare interplanetaria.
+1	«	«	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	specie	specie	NOUN	S	Gender=Fem	11	nsubj	_	_
+4	umana	umano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	diventare	diventare	VERB	V	VerbForm=Inf	0	root	_	_
+12	interplanetaria	interplanetario	ADJ	A	Gender=Fem|Number=Sing	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 24
+# text = La Terra è destinata a diventare ostile:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Terra	Terra	PROPN	SP	_	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	diventare	diventare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	ostile	ostile	ADJ	A	Number=Sing	6	xcomp	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 25
+# text = potremmo essere colpiti da un meteorite o uccisi da una nuova epidemia.
+1	potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	3	aux:pass	_	_
+3	colpiti	colpire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meteorite	meteorita	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	uccisi	uccidere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	epidemia	epidemia	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Può succedere tra un mese o tra millenni, è vero, ma capiterà e dobbiamo avere un piano B.
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	succedere	succedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mese	mese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	o	o	CCONJ	CC	_	8	cc	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	millenni	millenne	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	vero	vero	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ma	ma	CCONJ	CC	_	14	cc	_	_
+14	capiterà	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avere	avere	VERB	V	VerbForm=Inf	2	conj	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	piano	piano	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	B	B	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Spostarci su altri pianeti è necessario.
+1-2	Spostarci	_	_	_	_	_	_	_	_
+1	Spostar	spostare	VERB	V	VerbForm=Inf	7	csubj	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	1	expl	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	altri	altro	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	pianeti	pianeta	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 28
+# text = Nella serie tv l'uomo arriva su Marte nel 2033 ma la realtà ci dice che andremo prima, forse nel 2026, e nel 2050 ci saranno laggiù più di 100.000 persone.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serie	serio	NOUN	S	Gender=Fem	7	obl	_	_
+4	tv	televisione	NOUN	S	Gender=Fem	3	compound	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	Marte	Marte	PROPN	SP	_	7	obl	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	2033	2033	NUM	N	NumType=Card	7	obl	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	realtà	realtà	NOUN	S	Gender=Fem	17	nsubj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	iobj	_	_
+17	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	che	che	SCONJ	CS	_	19	mark	_	_
+19	andremo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
+20	prima	prima	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	forse	forse	ADV	B	_	25	advmod	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	2026	2026	NUM	N	NumType=Card	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	32	punct	_	_
+27	e	e	CCONJ	CC	_	32	cc	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	2050	2050	NUM	N	NumType=Card	32	obl	_	_
+31	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	32	expl	_	_
+32	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	conj	_	_
+33	laggiù	laggiù	ADV	B	_	32	advmod	_	_
+34	più	più	ADV	B	_	37	advmod	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	100.000	100.000	NUM	N	NumType=Card	37	nummod	_	_
+37	persone	persona	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 29
+# text = Elon Musk sta già costruendo il primo razzo che ospita 8200 persone e vuole costruirne migliaia».
+1	Elon	Elon	PROPN	SP	_	5	nsubj	_	_
+2	Musk	Musk	PROPN	SP	_	1	flat:name	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	costruendo	costruire	VERB	V	VerbForm=Ger	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	razzo	razzo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	ospita	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	8200	8200	NUM	N	NumType=Card	12	nummod	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	costruirne	_	_	_	_	_	_	_	_
+15	costruir	costruire	VERB	V	VerbForm=Inf	5	conj	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+17	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = Oltre a Musk, stanno progettando razzi Jeff Bezos e Richard Branson così come le agenzie spaziali di Russia, Cina, India, America ed Europa.
+1	Oltre	oltre	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	Musk	Musk	PROPN	SP	_	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	progettando	progettare	VERB	V	VerbForm=Ger	0	root	_	_
+7	razzi	razzo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	Jeff	Jeff	PROPN	SP	_	7	nmod	_	_
+9	Bezos	Bezos	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Richard	Richard	PROPN	SP	_	8	conj	_	_
+12	Branson	Branson	PROPN	SP	_	11	flat:name	_	_
+13	così	così	ADV	B	_	16	advmod	_	_
+14	come	come	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	agenzie	agenzia	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+17	spaziali	spaziale	ADJ	A	Number=Plur	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Russia	Russia	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	Cina	Cina	PROPN	SP	_	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	India	India	PROPN	SP	_	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	America	America	PROPN	SP	_	19	conj	_	_
+26	ed	e	CCONJ	CC	_	27	cc	_	_
+27	Europa	Europa	PROPN	SP	_	19	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 31
+# text = «Però la conquista dello spazio è in mano alle aziende aggiunge Petranek per questo la tensione tra scienziati e privati è molto realistica.
+1	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Però	però	ADV	B	_	10	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	conquista	conquista	NOUN	S	Number=Sing	10	nsubj	_	_
+5-6	dello	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
+15	Petranek	Petranek	PROPN	SP	_	14	nsubj	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+20	tra	tra	ADP	E	_	21	case	_	_
+21	scienziati	scienziato	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	privati	privato	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	molto	molto	ADV	B	_	26	advmod	_	_
+26	realistica	realistico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 32
+# text = Si risolverà solo se gli interlocutori capiranno che hanno bisogno l'uno dell'altro.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	risolverà	risolvere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	solo	solo	ADV	B	_	7	advmod	_	_
+4	se	se	SCONJ	CS	_	7	mark	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	interlocutori	interlocutore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	capiranno	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	advcl	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+10	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = È parte della natura umana, della nostra civiltà moderna».
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	natura	natura	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	umana	umano	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	civiltà	civiltà	NOUN	S	Gender=Fem	5	conj	_	_
+12	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 34
+# text = Idealismo?
+1	Idealismo	Idealismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 35
+# text = «No. Lo definirei ottimismo».
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	I	Polarity=Neg	5	discourse	_	SpaceAfter=No
+3	.	.	PUNCT	FF	_	2	punct	_	_
+4	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	definirei	definire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ottimismo	ottimismo	NOUN	S	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

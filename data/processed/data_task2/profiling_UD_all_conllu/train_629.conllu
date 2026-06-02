@@ -1,0 +1,341 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Significa, soprattutto, riscoprire i sapori autentici, quelli che ci hanno sempre nutrito e che non si comprano a peso d’oro in qualche catena di ristoranti internazionali.
+1	Significa	significo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	soprattutto	soprattutto	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	riscoprire	riscoprire	VERB	V	VerbForm=Inf	1	conj	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	sapori	sapore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	autentici	autentico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+13	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	nutrito	nutrito	ADJ	A	Gender=Masc|Number=Sing	13	advcl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	comprano	comprare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	peso	peso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+23	d’	di	ADP	E	_	24	case	_	SpaceAfter=No
+24	oro	oro	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	catena	catena	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	ristoranti	ristorante	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30	internazionali	internazionale	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Quest’anno, con questo caldo record, le spiagge che urlano “divertimento” e “refreshment” si sono riempite di frappè, gelati e altre miserie industriali, gomme da masticare per l’anima.
+1	Quest’	questo	DET	DD	Number=Sing|PronType=Dem	2	det	_	SpaceAfter=No
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+7	record	record	NOUN	S	Gender=Masc	6	compound	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	spiagge	spiaggia	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	urlano	urlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	“	“	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	divertimento	divertimento	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	14	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	refreshment	refreshment	NOUN	S	Gender=Masc	12	conj	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	18	punct	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	riempite	riempire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	frappè	frappè	NOUN	S	Gender=Masc	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	gelati	gelato	ADJ	A	Number=Plur	24	conj	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	altre	altro	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	_
+29	miserie	miseria	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+30	industriali	industriale	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	gomme	gomma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+33	da	da	ADP	E	_	34	mark	_	_
+34	masticare	masticare	VERB	V	VerbForm=Inf	32	advcl	_	_
+35	per	per	ADP	E	_	37	case	_	_
+36	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	anima	anima	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 3
+# text = Ma chi, tra i veri italiani, si accontenta di un surrogato di piacere?
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tra	tra	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	veri	vero	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	accontenta	accontentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	surrogato	surrogato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Chi ha tempo per odore di plastica e zucchero?
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	odore	odore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	zucchero	zucchero	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il vero antidoto al caldo, e alla superficialità, è un menu semplice, robusto, che sappia accendere il palato e ancorare il corpo alla terra.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	antidoto	antidotare	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	superficialità	superficialità	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	menu	menù	NOUN	S	Gender=Masc	0	root	_	_
+16	semplice	semplice	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	robusto	robusto	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	sappia	sapere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+22	accendere	accendere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	palato	palato	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	ancorare	ancorare	VERB	V	VerbForm=Inf	15	conj	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29-30	alla	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	terra	terra	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 6
+# text = Immaginatevi:
+1	Immaginatevi	Immaginateve	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = un tagliere di salumi artigianali, un formaggio pecorino podolico stagionato, magari accompagnati da un buon bicchiere di vino rosso corposo della Tuscia.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tagliere	tagliere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	salumi	salume	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	artigianali	artigianale	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	formaggio	formaggio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	pecorino	pecorino	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	podolico	podolico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+11	stagionato	stagionato	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	magari	magari	ADV	B	_	14	advmod	_	_
+14	accompagnati	accompagnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	buon	buono	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	bicchiere	bicchiere	NOUN	S	Gender=Masc|Number=Sing	14	obl:agent	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	vino	vino	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	rosso	rosso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	corposo	corposo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Tuscia	Tuscia	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Non un Merlot di qualche regione d’olanda, ma un rosso che racconta la storia dei nostri territori.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Merlot	Merlot	PROPN	SP	_	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	regione	regione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	d’	di	ADP	E	_	8	case	_	SpaceAfter=No
+8	olanda	olanda	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	rosso	rosso	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	storia	storia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	territori	territorio	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = E poi, che dire di una frittura di pesce locale?
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	frittura	frittura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	locale	locale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Calamari, gamberi, alici, freschissimi, pescati da questi mari che ci hanno battuto generazioni di marinai.
+1	Calamari	calamaro	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	gamberi	gambero	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	alici	alice	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	freschissimi	frescho	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	pescati	pescare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	mari	maro	NOUN	S	Gender=Masc|Number=Plur	9	obl:agent	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	16	iobj	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	marinai	marinaio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Fritti in olio extravergine d'oliva, non in miscele anonime di semi esotici per “dare sapore”.
+1	Fritti	Frivere	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	olio	olio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	extravergine	extravergine	ADJ	A	Number=Sing	3	amod	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	oliva	oliva	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	miscele	miscela	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+11	anonime	anonimo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	semi	sema	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	esotici	esotico	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	per	per	ADP	E	_	17	mark	_	_
+16	“	“	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	dare	dare	VERB	V	VerbForm=Inf	14	advcl	_	_
+18	sapore	sapore	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	”	”	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Un occhio al sale, un pizzico di prezzemolo, e basta.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sale	sala	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pizzico	pizzico	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	prezzemolo	prezzemolo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Non dimentichiamoci della pasta, naturalmente.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	dimentichiamoci	dimentichiamoci	ADV	B	_	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pasta	pasta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	naturalmente	naturalmente	ADV	B	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Un piatto di spaghetti alle vongole, preparati con vongole vere, non quelle di plastica.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	spaghetti	spaghetto	NOUN	S	Gender=Masc	2	nmod	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	vongole	vongola	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	preparati	preparare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	vongole	vongola	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+12	vere	vero	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	2	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Un'insalata di pomodori e basilico, con pomodori maturi al sole, raccolti a mano
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	insalata	insalata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	pomodori	pomodoro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	basilico	basilico	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	pomodori	pomodoro	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+10	maturi	maturo	ADJ	A	Degree=Cmp|Number=Plur	9	amod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sole	sole	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	mano	mano	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpacesAfter=\n
+

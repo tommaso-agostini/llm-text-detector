@@ -1,0 +1,336 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma cosa c'è dietro a questo curioso fatto?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dietro	dietro	ADV	B	_	4	advmod	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	curioso	curioso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Il delfino è stato avvistato nuotare serenamente lungo il fiume, tra la meraviglia e lo stupore dei presenti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delfino	delfino	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	avvistato	avvistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	nuotare	nuotare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+7	serenamente	sereno	ADV	B	_	6	advmod	_	_
+8	lungo	lungo	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	tra	tra	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	meraviglia	meraviglia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	stupore	stupore	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	presenti	presente	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Tuttavia, gli esperti hanno espresso alcune preoccupazioni riguardo allo stato di salute dell'animale.ън facto, in Italia esistono branchi di delfini che abitualmente vivono nei mari e nelle coste, ma non è affatto comune trovare questi cetacei nei fiumi interni come l'Arno.
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	preoccupazioni	preoccupazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	riguardo	riguardo	ADV	B	_	12	case	_	_
+10-11	allo	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	stato	stato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	salute	salute	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	animale.ън	animale.ън	PROPN	SP	_	14	nmod	_	_
+18	facto	facto	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Italia	Italia	PROPN	SP	_	22	obl	_	_
+22	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+23	branchi	branco	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	delfini	delfino	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	abitualmente	abitualmente	ADV	B	_	28	advmod	_	_
+28	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29-30	nei	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	mari	maro	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33-34	nelle	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	coste	costa	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	41	punct	_	_
+37	ma	ma	CCONJ	CC	_	41	cc	_	_
+38	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+39	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	affatto	affatto	ADV	B	_	41	advmod	_	_
+41	comune	comune	ADJ	A	Number=Sing	28	conj	_	_
+42	trovare	trovare	VERB	V	VerbForm=Inf	41	csubj	_	_
+43	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	44	det	_	_
+44	cetacei	cetaceo	NOUN	S	Gender=Masc|Number=Plur	42	obj	_	_
+45-46	nei	_	_	_	_	_	_	_	_
+45	in	in	ADP	E	_	47	case	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	fiumi	fiume	NOUN	S	Gender=Masc|Number=Plur	42	obl	_	_
+48	interni	interno	ADJ	A	Gender=Masc|Number=Plur	47	amod	_	_
+49	come	come	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
+51	Arno	Arno	PROPN	SP	_	47	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = "Potrebbe essere che l'animale si sia smarrito e abbia bisogno di aiuto", ha dichiarato il dottor Massimiliano Lanari, biologo marino di fama nazionale.
+1	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+2	Potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	18	aux	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	animale	animale	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	smarrito	smarrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+21	Massimiliano	Massimiliano	PROPN	SP	_	20	nmod	_	_
+22	Lanari	Lanario	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	biologo	biologo	NOUN	S	Gender=Masc|Number=Sing	20	appos	_	_
+25	marino	marino	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	fama	fama	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	nazionale	nazionale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 5
+# text = Gli animalisti temono che il delfino possa essere malato o in difficoltà.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	animalisti	animalista	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	temono	temere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	delfino	delfino	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+7	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	VA	VerbForm=Inf	9	aux:pass	_	_
+9	malato	malare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	o	o	CCONJ	CC	_	12	cc	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	difficoltà	difficoltà	NOUN	S	Gender=Fem	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = "Potrebbe aver oltrepassato i limiti dei suoi habitat naturali e ora si trova in mortal pericolo", ha dichiarato entregarantemente la portavoce di un'organizzazione protezionistica.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	aver	avere	AUX	VA	VerbForm=Inf	4	aux	_	_
+4	oltrepassato	oltrepassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	habitat	habitat	NOUN	S	Gender=Masc	6	nmod	_	_
+11	naturali	naturale	ADJ	A	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	ora	ora	ADV	B	_	15	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	mortal	mortale	DET	DD	Number=Sing|PronType=Dem	18	det	_	_
+18	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+23	entregarantemente	entregarantemente	ADV	B	_	22	advmod	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	portavoce	portavoce	NOUN	S	_	22	nsubj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	protezionistica	protezionistico	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = La vicenda ha già scatenato un'ondata di solidarietà sui social network, con numerosi utenti che esortano le autorità locali ad intervenire per salvare il povero Bochielli.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	solidarietà	solidarietà	NOUN	S	Gender=Fem	7	nmod	_	_
+10-11	sui	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	social	social	ADJ	A	Number=Sing	13	amod	_	_
+13	network	network	NOUN	S	Gender=Masc	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	utenti	utente	NOUN	S	Number=Plur	5	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	esortano	esortare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	autorità	autorità	NOUN	S	Gender=Fem	19	obj	_	_
+22	locali	locale	ADJ	A	Number=Plur	21	amod	_	_
+23	ad	a	ADP	E	_	24	mark	_	_
+24	intervenire	intervenire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+25	per	per	ADP	E	_	26	mark	_	_
+26	salvare	salvare	VERB	V	VerbForm=Inf	24	advcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	povero	povero	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	Bochielli	Bochielli	PROPN	SP	_	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Ma quali sono le reali intenzioni delle istituzioni?
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	quali	quale	PRON	PR	Number=Plur|PronType=Rel	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	reali	reale	ADJ	A	Number=Plur	6	amod	_	_
+6	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Il sindaco di Pisa,.ilocomparetti, ha dichiarato di essere al lavoro per proteggere il delfino e fornirgli le cure necessarie.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Pisa	Pisa	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+6	.ilocomparetti	.ilocomparetto	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	14	case	_	_
+11	essere	essere	AUX	V	VerbForm=Inf	14	cop	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	proteggere	proteggere	VERB	V	VerbForm=Inf	14	acl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	delfino	delfino	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20-21	fornirgli	_	_	_	_	_	_	_	_
+20	fornir	fornire	VERB	V	VerbForm=Inf	9	conj	_	_
+21	gli	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	cure	cura	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+24	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = "Stiamo valutando diverse opzioni, ma la sicurezza del cetaceo è la nostra priorità assoluta", ha dichiarato il primo cittadino.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	valutando	valutare	VERB	V	VerbForm=Ger	0	root	_	_
+4	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	opzioni	opzione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	16	punct	_	_
+7	ma	ma	CCONJ	CC	_	16	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cetaceo	cetaceo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	priorità	priorità	NOUN	S	Gender=Fem	3	conj	_	_
+17	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
+24	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Tuttavia, alcuni critiques hanno sollevato dubbi sulla reale efficacia delle iniziative intraprese dall'amministrazione comunale.
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	critiques	critiques	NOUN	S	Gender=Masc	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sollevato	sollevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	reale	reale	ADJ	A	Number=Sing	11	amod	_	_
+11	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	intraprese	intraprendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+16	da	da	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	15	obl:agent	_	_
+19	comunale	comunale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = "Spero che non si stiano limitando solo a fare buon viso a cattivo gioco per sfruttare questo
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+6	stiano	stare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	limitando	limitare	VERB	V	VerbForm=Ger	6	advcl	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+11	buon	buono	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	viso	viso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	sfruttare	sfruttare	VERB	V	VerbForm=Inf	10	advcl	_	_
+18	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	obj	_	SpacesAfter=\n
+

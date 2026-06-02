@@ -1,0 +1,867 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Certo, non parliamo di decine di milioni di persone.
+1	Certo	certo	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	decine	decina	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ma, come dicono gli economisti, è un trend in salita.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	economisti	economista	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	trend	trend	NOUN	S	Gender=Masc	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	salita	salita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Tendenza che non piace a molti nutrizionisti, soprattutto i pediatri.
+1	Tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	nutrizionisti	nutrizionista	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	soprattutto	soprattutto	ADV	B	_	11	advmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	pediatri	pediatro	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Anche perché molti tendono a far da soli, mentre la parola d’ordine, che vale per gli adulti, e ancor più per i bambini, è che è assolutamente vietato improvvisare.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+4	tendono	tendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	far	fare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	soli	solo	ADJ	A	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	mentre	mentre	SCONJ	CS	_	29	mark	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	parola	parola	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+13	d’	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	adulti	adulto	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	27	punct	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	_
+23	ancor	ancora	ADV	B	_	24	advmod	_	_
+24	più	più	ADV	B	_	27	advmod	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	12	punct	_	_
+29	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+30	che	che	SCONJ	CS	_	33	mark	_	_
+31	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+32	assolutamente	assolutamente	ADV	B	_	33	advmod	_	_
+33	vietato	vietare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	ccomp	_	_
+34	improvvisare	improvvisare	VERB	V	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Perché i risultati li consegna la cronaca:
+1	Perché	perché	ADV	B	_	5	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	consegna	consegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = bambini con gravi disturbi neurologici, sottopeso, con fragilità irrecuperabili.
+1	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	gravi	grave	ADJ	A	Number=Plur	4	amod	_	_
+4	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	neurologici	neurologico	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	sottopeso	sottopeso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	fragilità	fragilità	NOUN	S	Gender=Fem	4	conj	_	_
+11	irrecuperabili	irrecuperabile	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Denunce dei medici ospedalieri, ricorsi al tribunale, addirittura potestà genitoriali contestate.
+1	Denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	medici	medico	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	ospedalieri	ospedaliero	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	ricorsi	ricorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	addirittura	addirittura	ADV	B	_	13	advmod	_	_
+13	potestà	potestà	NOUN	S	Gender=Fem	1	conj	_	_
+14	genitoriali	genitoriale	ADJ	A	Number=Plur	13	amod	_	_
+15	contestate	contestato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Non ci si può inventare vegano, insomma.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	inventare	inventare	VERB	V	VerbForm=Inf	0	root	_	_
+6	vegano	vegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	insomma	insomma	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = E non si può pensare di imporre ai figli un regime così particolare - che implica carenze anche importanti - senza la supervisione attenta e continua di un pediatra esperto.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	imporre	imporre	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	regime	regime	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+13	così	così	ADV	B	_	14	advmod	_	_
+14	particolare	particolare	ADJ	A	Number=Sing	12	amod	_	_
+15	-	-	PUNCT	FB	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	implica	implicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	carenze	carenza	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+19	anche	anche	ADV	B	_	20	advmod	_	_
+20	importanti	importante	ADJ	A	Number=Plur	18	amod	_	_
+21	-	-	PUNCT	FB	_	17	punct	_	_
+22	senza	senza	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	supervisione	supervisione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+25	attenta	attento	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	pediatra	pediatra	NOUN	S	Number=Sing	27	obl	_	_
+31	esperto	esperto	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Per non parlare poi degli animali domestici, cani e, ancor più gatti, costretti ad una dieta vegetariana e vegana, loro che nascono carnivori.
+1	Per	per	ADP	E	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+4	poi	poi	ADV	B	_	3	advmod	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	animali	animale	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	domestici	domestico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	cani	cane	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ancor	ancora	ADV	B	_	15	advmod	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	gatti	gatto	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+18	ad	a	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	vegetariana	vegetariano	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	vegana	vegano	ADJ	A	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	nascono	nascere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	carnivori	carnivoro	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Quindi niente fai-da-te.
+1	Quindi	quindi	ADV	B	_	3	advmod	_	_
+2	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	fai-da-te	fai-da-to	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Mai e per nessun motivo.
+1	Mai	mai	ADV	B	_	0	root	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = «Se mi si chiede qual è il regime alimentare corretto per far crescere un bambino in modo sano - ragiona Alberto Villani , presidente della Società italiana di Pediatria - non posso che rispondere che ha bisogno di mangiare anche carne e pesce, sebbene il fabbisogno proteico sia stato di recente aggiustato al ribasso.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	5	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	qual	qual	PRON	PQ	Number=Sing|PronType=Int	0	root	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	regime	regime	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+10	alimentare	alimentare	ADJ	A	Number=Sing	9	amod	_	_
+11	corretto	corretto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	crescere	crescere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	modo	modo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	sano	sano	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	-	-	PUNCT	FF	_	11	punct	_	_
+21	ragiona	ragionare	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
+22	Alberto	Alberto	PROPN	SP	_	11	obj	_	_
+23	Villani	Villani	PROPN	SP	_	22	flat:name	_	_
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	22	appos	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Società	società	NOUN	S	Gender=Fem	25	nmod	_	_
+29	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Pediatria	Pediatria	PROPN	SP	_	28	nmod	_	_
+32	-	-	PUNCT	FB	_	22	punct	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	posso	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+35	che	che	SCONJ	CS	_	36	mark	_	_
+36	rispondere	rispondere	VERB	V	VerbForm=Inf	34	ccomp	_	_
+37	che	che	SCONJ	CS	_	38	mark	_	_
+38	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	ccomp	_	_
+39	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+40	di	di	ADP	E	_	41	mark	_	_
+41	mangiare	mangiare	VERB	V	VerbForm=Inf	39	acl	_	_
+42	anche	anche	ADV	B	_	43	advmod	_	_
+43	carne	carne	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	43	conj	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	38	punct	_	_
+47	sebbene	sebbene	SCONJ	CS	_	55	mark	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	fabbisogno	fabbisogno	NOUN	S	Gender=Masc|Number=Sing	55	nsubj	_	_
+50	proteico	proteico	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+51	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	_	_
+52	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	cop	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	recente	recente	ADJ	A	Number=Sing	55	amod	_	_
+55	aggiustato	aggiustato	NOUN	S	Gender=Masc|Number=Sing	38	advcl	_	_
+56-57	al	_	_	_	_	_	_	_	_
+56	a	a	ADP	E	_	58	case	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	ribasso	ribasso	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Se poi mi si chiede se sia possibile vivere senza mangiare carne e pesce, la risposta è sì.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+6	se	se	SCONJ	CS	_	8	mark	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	5	ccomp	_	_
+9	vivere	vivere	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	mangiare	mangiare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	carne	carne	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	sì	sì	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = Ma con controlli continui e integrazioni di un pediatra esperto in nutrizione.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	controlli	controlle	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	continui	continuo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	integrazioni	integrazioni	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pediatra	pediatra	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	esperto	esperto	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	nutrizione	nutrizione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Per i bambini, che sono organismi in accrescimento, ma anche per le donne in gravidanza e in allattamento.
+1	Per	per	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	organismi	organismo	NOUN	S	Gender=Masc|Number=Plur	3	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	accrescimento	accrescimento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	15	punct	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	anche	anche	ADV	B	_	15	advmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	allattamento	allattamento	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Due anni fa al Bambino Gesù abbiamo ricoverato una bambina con gravi danni cerebrali.
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bambino	bambino	PROPN	SP	_	9	obl	_	_
+7	Gesù	Gesù	PROPN	SP	_	6	flat:name	_	_
+8	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ricoverato	ricoverare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	gravi	grave	ADJ	A	Number=Plur	14	amod	_	_
+14	danni	danno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	cerebrali	cerebrale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 18
+# text = Non si riusciva a individuarne il motivo finché non abbiamo scoperto che i genitori erano entrambi vegani e che la mamma aveva allattato senza alcuna supplementazioni di vitamina B12.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	riusciva	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	individuarne	individuarne	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+8	finché	finché	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+12	che	che	SCONJ	CS	_	17	mark	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	nsubj	_	_
+17	vegani	vegano	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+18	e	e	CCONJ	CC	_	23	cc	_	_
+19	che	che	SCONJ	CS	_	23	mark	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	allattato	allattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+24	senza	senza	ADP	E	_	26	case	_	_
+25	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	26	det	_	_
+26	supplementazioni	supplementazione	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	B12	B12	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Erano disperati, hanno cominciato a far mangiare carne alla bambina, ma purtroppo i danni erano irreversibili.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	disperati	disperato	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	far	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	mangiare	mangiare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	carne	carne	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	19	punct	_	_
+14	ma	ma	CCONJ	CC	_	19	cc	_	_
+15	purtroppo	purtroppo	ADV	B	_	19	advmod	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	danni	danno	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+18	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	irreversibili	irreversibile	ADJ	A	Number=Plur	5	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = E di casi così purtroppo ce ne sono tanti.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	casi	caso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	così	così	ADV	B	_	8	advmod	_	_
+5	purtroppo	purtroppo	ADV	B	_	8	advmod	_	_
+6	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = Non si pensa, con leggerezza, agli effetti di una dieta che in sé è squilibrata ».
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	leggerezza	leggerezza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8-9	agli	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	obl	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	squilibrata	squilibrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+19	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Videoscheda: che vegetariano sei?.
+1	Videoscheda	Videoscheda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vegetariano	vegetariare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	sei	sei	NUM	N	NumType=Card	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Il controllo di un medico pediatra è dunque fondamentale, ma spesso le famiglie che compiono una scelta vegan si sentono osteggiate dal sistema sanitario e difficilmente vi accedono, se non in caso di problemi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	medico	medico	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	pediatra	pediatro	NOUN	S	Gender=Masc	5	compound	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	dunque	dunque	ADV	B	_	9	advmod	_	_
+9	fondamentale	fondamentale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	21	punct	_	_
+11	ma	ma	CCONJ	CC	_	21	cc	_	_
+12	spesso	spesso	ADV	B	_	14	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	compiono	compiere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	vegan	vegan	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+22	osteggiate	osteggiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	xcomp	_	_
+23-24	dal	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	22	obl:agent	_	_
+26	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	difficilmente	difficilmente	ADV	B	_	30	advmod	_	_
+29	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	30	expl	_	_
+30	accedono	accedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	se	se	SCONJ	CS	_	35	mark	_	_
+33	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	caso	caso	NOUN	S	Gender=Masc|Number=Sing	30	advcl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 24
+# text = Inoltre, non tutti i pediatri di base - o ospedalieri - hanno competenze specifiche in alimentazione.
+1	Inoltre	inoltre	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	pediatri	pediatro	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	base	base	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	-	-	PUNCT	FF	_	11	punct	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	ospedalieri	ospedaliere	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+12	-	-	PUNCT	FB	_	11	punct	_	_
+13	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	specifiche	specifico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 25
+# text = «È vero, i centri non sono dappertutto - premette Elvira Verduci , pediatra all’ospedale San Paolo di Milano e docente di Alimentazione in età pediatrica all’università - e per questo la Sinu (società italiana di nutrizione umana) ha in mente di preparare un documento condiviso sulle diete vegetariane e vegane, che certamente non possono essere consigliate alla popolazione generale ma che comunque vengono seguite da molte famiglie.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	centri	centro	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	dappertutto	dappertutto	ADV	B	_	3	advmod	_	_
+10	-	-	PUNCT	FB	_	11	punct	_	_
+11	premette	premettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+12	Elvira	Elvira	PROPN	SP	_	11	nsubj	_	_
+13	Verduci	Verduce	PROPN	SP	_	12	flat:name	_	_
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	pediatra	pediatrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+16-17	all’	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	San	San	PROPN	SP	_	18	nmod	_	_
+20	Paolo	Paolo	PROPN	SP	_	19	flat:name	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Milano	Milano	PROPN	SP	_	19	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	docente	docente	NOUN	S	Number=Sing	18	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	età	età	NOUN	S	Gender=Fem	26	nmod	_	_
+29	pediatrica	pediatrico	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	all’	_	_	_	_	_	_	_	SpaceAfter=No
+30	a	a	ADP	E	_	32	case	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	università	università	NOUN	S	Gender=Fem	28	nmod	_	_
+33	-	-	PUNCT	FF	_	38	punct	_	_
+34	e	e	CCONJ	CC	_	38	cc	_	_
+35	per	per	ADP	E	_	36	case	_	_
+36	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	38	nmod	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Sinu	Sinu	PROPN	SP	_	24	nmod	_	_
+39	(	(	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+40	società	società	NOUN	S	Gender=Fem	38	appos	_	_
+41	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	nutrizione	nutrizione	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44	umana	umano	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	SpaceAfter=No
+45	)	)	PUNCT	FB	_	40	punct	_	_
+46	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+47	in	in	ADP	E	_	48	case	_	_
+48	mente	menta	NOUN	S	Gender=Fem|Number=Plur	46	obl	_	_
+49	di	di	ADP	E	_	50	mark	_	_
+50	preparare	preparare	VERB	V	VerbForm=Inf	48	acl	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	documento	documento	NOUN	S	Gender=Masc|Number=Sing	50	obj	_	_
+53	condiviso	condiviso	ADJ	A	Gender=Masc|Number=Sing	52	amod	_	_
+54-55	sulle	_	_	_	_	_	_	_	_
+54	su	su	ADP	E	_	56	case	_	_
+55	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	56	det	_	_
+56	diete	dieta	NOUN	S	Gender=Fem|Number=Plur	52	nmod	_	_
+57	vegetariane	vegetariano	ADJ	A	Gender=Fem|Number=Plur	56	amod	_	_
+58	e	e	CCONJ	CC	_	59	cc	_	_
+59	vegane	vegano	ADJ	A	Gender=Fem|Number=Plur	57	conj	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	52	punct	_	_
+61	che	che	PRON	PR	PronType=Rel	66	nsubj:pass	_	_
+62	certamente	certamente	ADV	B	_	66	advmod	_	_
+63	non	non	ADV	BN	PronType=Neg	66	advmod	_	_
+64	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	66	aux	_	_
+65	essere	essere	AUX	VA	VerbForm=Inf	66	aux:pass	_	_
+66	consigliate	consigliare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	52	acl:relcl	_	_
+67-68	alla	_	_	_	_	_	_	_	_
+67	a	a	ADP	E	_	69	case	_	_
+68	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	66	obl	_	_
+70	generale	generale	ADJ	A	Number=Sing	69	amod	_	_
+71	ma	ma	CCONJ	CC	_	75	cc	_	_
+72	che	che	PRON	PR	PronType=Rel	75	nsubj:pass	_	_
+73	comunque	comunque	ADV	B	_	75	advmod	_	_
+74	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	75	aux:pass	_	_
+75	seguite	seguire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	66	conj	_	_
+76	da	da	ADP	E	_	78	case	_	_
+77	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	78	det	_	_
+78	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	75	obl	_	SpaceAfter=No
+79	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Quindi il pediatra non deve voltare le spalle, sennò spinge i genitori verso internet o il passaparola, con conseguenze negative per la salute dei bambini.
+1	Quindi	quindi	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	pediatra	pediatra	NOUN	S	Gender=Masc	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	voltare	voltare	VERB	V	VerbForm=Inf	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	sennò	sennare	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+11	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	verso	verso	ADP	E	_	15	case	_	_
+15	internet	internet	NOUN	S	_	13	nmod	_	_
+16	o	o	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	passaparola	passaparola	NOUN	S	Gender=Masc	6	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+22	negative	negativo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	salute	salute	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 27
+# text = Bisogna dare i consigli giusti, monitorare una volta al mese la crescita, controllare il loro diario alimentare, verificare i dosaggi.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dare	dare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	giusti	giusto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	monitorare	monitorare	VERB	V	VerbForm=Inf	1	conj	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mese	mese	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	controllare	controllare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	diario	diario	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	alimentare	alimentare	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	verificare	verificare	VERB	V	VerbForm=Inf	19	acl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	dosaggi	dosaggio	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = E poi supplementare con vitamina B12, eventualmente con Omega 3, e utilizzare accorgimenti per assumere calcio, ferro e zinco con alcuni alimenti».
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	supplementare	supplementare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	B12	B12	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	eventualmente	eventualmente	ADV	B	_	3	advmod	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	Omega	Omega	PROPN	SP	_	3	obl	_	_
+11	3	3	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	utilizzare	utilizzare	VERB	V	VerbForm=Inf	3	conj	_	_
+15	accorgimenti	accorgimento	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	assumere	assumere	VERB	V	VerbForm=Inf	14	advcl	_	_
+18	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	ferro	ferro	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	zinco	zinco	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = Know How Salute:
+1	Know	Know	PROPN	SP	_	0	root	_	_
+2	How	How	PROPN	SP	_	1	flat:name	_	_
+3	Salute	salute	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 30
+# text = la dieta vegana è sostenibile?.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	vegana	vegano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	sostenibile	sostenibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Insomma, crescere da vegani non è impossibile, ma non è cosa che si possa fare con la mano sinistra.
+1	Insomma	insomma	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	crescere	crescere	VERB	V	VerbForm=Inf	8	csubj	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	vegani	vegano	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+16	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	13	csubj	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	mano	mano	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	20	compound	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 32
+# text = Soprattutto per i soggetti più vulnerabili, come bambini, donne in gravidanza e allattamento.
+1	Soprattutto	soprattutto	ADV	B	_	4	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	soggetti	soggetto	NOUN	S	Gender=Masc	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	vulnerabili	vulnerabile	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	donne	donna	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	allattamento	allattamento	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 33
+# text = Uno studio norvegese recente, appena pubblicato su American Journal of Epidemiology, ha infatti dimostrato - su oltre undicimila gravidanze in 11 Paesi - come chi seguisse una dieta troppo povera di alimenti da fonti animali avesse un rischio aumentato del 21% di parto prematuro.
+1	Uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	studio	studio	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	norvegese	norvegese	ADJ	A	Number=Sing	2	amod	_	_
+4	recente	recente	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	appena	appena	ADV	B	_	7	advmod	_	_
+7	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	American	American	PROPN	SP	_	7	obl	_	_
+10	Journal	Journal	PROPN	SP	_	9	flat:name	_	_
+11	of	of	ADP	E	_	12	case	_	_
+12	Epidemiology	Epidemiology	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	infatti	infatti	ADV	B	_	16	advmod	_	_
+16	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	-	-	PUNCT	FB	_	16	punct	_	_
+18	su	su	ADP	E	_	21	case	_	_
+19	oltre	oltre	ADV	B	_	20	advmod	_	_
+20	undicimila	undicimila	NUM	N	NumType=Card	21	nummod	_	_
+21	gravidanze	gravidanza	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	11	11	NUM	N	NumType=Card	24	nummod	_	_
+24	Paesi	Paesi	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	-	-	PUNCT	FB	_	27	punct	_	_
+26	come	come	ADP	E	_	27	case	_	_
+27	chi	chi	PRON	PR	Number=Sing|PronType=Rel	21	nmod	_	_
+28	seguisse	seguire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	troppo	troppo	ADV	B	_	32	advmod	_	_
+32	povera	povero	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	alimenti	alimento	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+35	da	da	ADP	E	_	36	case	_	_
+36	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	_
+37	animali	animale	ADJ	A	Number=Plur	36	amod	_	_
+38	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41	aumentato	aumentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	45	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	21	21	NUM	N	NumType=Card	45	nummod	_	SpaceAfter=No
+45	%	%	SYM	SYM	_	41	obl	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	parto	parto	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+48	prematuro	prematuro	ADJ	A	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 34
+# text = Rischio legato alla carenza di vitamina B12, che è sì provocata d a diete prive di prodotti animali, ma anche a malnutrizione e povertà.
+1	Rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	carenza	carenza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	vitamina	vitamina	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	B12	B12	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj:pass	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	sì	sì	ADV	B	_	13	advmod	_	_
+13	provocata	provocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+14	d	d	NOUN	S	_	13	nsubj:pass	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	diete	dieta	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	prive	privo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+20	animali	animali	NOUN	S	Gender=Masc|Number=Plur	19	compound	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	ma	ma	CCONJ	CC	_	25	cc	_	_
+23	anche	anche	ADV	B	_	25	advmod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	malnutrizione	malnutrizione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	povertà	povertà	NOUN	S	Gender=Fem	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

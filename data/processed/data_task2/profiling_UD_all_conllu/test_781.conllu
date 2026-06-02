@@ -1,0 +1,338 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Romano, attraverso i suoi legali, ha annunciato che presto verrà presentata una richiesta formale di revisione del processo.
+1	Romano	Romano	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	attraverso	attraverso	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	legali	legale	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	presto	presto	ADV	B	_	13	advmod	_	_
+12	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux:pass	_	_
+13	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+16	formale	formale	ADJ	A	Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	processo	processo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Una mossa che riapre ferite mai rimarginate e solleva interrogativi inquietanti su una delle pagine più oscure della cronaca nera italiana.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	riapre	riaprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	ferite	ferito	ADJ	A	Gender=Fem|Number=Plur	4	xcomp	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	rimarginate	rimarginare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	solleva	sollevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	interrogativi	interrogativo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	inquietanti	inquietante	ADJ	A	Number=Plur	10	amod	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	10	nmod	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	oscure	oscuro	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+22	nera	nero	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Romano, insieme a Rosa Boggio, sconta l’ergastolo per l’efferato omicidio di quattro persone:
+1	Romano	Romano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	insieme	insieme	ADV	B	_	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	Rosa	Rosa	PROPN	SP	_	1	obl	_	_
+6	Boggio	Boggio	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	sconta	scontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	ergastolo	ergastolo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	efferato	efferato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	quattro	quattro	NUM	N	NumType=Card	17	nummod	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 4
+# text = la coppia di anziani, Raffaella Castagna e Antonio Perretti, e i loro vicini di casa, Paola Galli e Giovanni Parmalenti.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Raffaella	Raffaella	PROPN	SP	_	2	nmod	_	_
+7	Castagna	Castagna	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Antonio	Antonio	PROPN	SP	_	6	conj	_	_
+10	Perretti	Perretti	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	vicini	vicino	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	Paola	Paola	PROPN	SP	_	15	appos	_	_
+20	Galli	Galli	PROPN	SP	_	19	flat:name	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Giovanni	Giovanni	PROPN	SP	_	19	conj	_	_
+23	Parmalenti	Parmalente	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Una condanna basata, per anni, su indizi, presunti alibi mancanti e, soprattutto, sulle macchie di sangue ritrovate sugli indumenti dell’epoca.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	basata	basato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	indizi	indizio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	presunti	presumere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+12	alibi	alibe	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+13	mancanti	mancante	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	soprattutto	soprattutto	ADV	B	_	20	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18-19	sulle	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	macchie	macchia	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	sangue	sangue	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	ritrovate	ritrovare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+24-25	sugli	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	indumenti	indumento	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+27-28	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+27	di	di	ADP	E	_	29	case	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Indizi che, a detta dei difensori, non reggono a un vaglio scientifico più accurato, reso possibile dalle nuove tecnologie investigative.
+1	Indizi	indizio	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	11	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	11	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	detta	detta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	difensori	difensore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	reggono	reggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vaglio	vaglio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	accurato	accurato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+20	possibile	possibile	ADJ	A	Number=Sing	19	xcomp	_	_
+21-22	dalle	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	24	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+24	tecnologie	tecnologia	NOUN	S	Gender=Fem|Number=Plur	19	obl:agent	_	_
+25	investigative	investigativo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = La svolta, e qui il punto nodale, sembra legata alle analisi del DNA.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	qui	qui	ADV	B	_	7	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	punto	punto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8	nodale	nodale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	xcomp	_	_
+12-13	alle	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	analisi	analisi	NOUN	S	Gender=Fem	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	DNA	Dna	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Secondo quanto trapela, sarebbero emersi elementi che metterebbero in discussione la certezza della presenza del Dna delle vittime sugli abiti di Romano e Boggio.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	6	obl	_	_
+3	trapela	trapela	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	emersi	emergere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	metterebbero	mettere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Dna	Dna	PROPN	SP	_	16	nmod	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23-24	sugli	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	abiti	abito	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Romano	Romano	PROPN	SP	_	25	nmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	Boggio	Boggio	PROPN	SP	_	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Un’ipotesi che, se confermata, minerebbe alle fondamenta l’intera ricostruzione accusatoria.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ipotesi	ipotesi	NOUN	S	Gender=Fem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	confermata	confermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	minerebbe	minare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	fondamenta	fondamento	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	intera	intero	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+15	accusatoria	accusatorio	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = C’è chi parla di un errore giudiziario, chi di depistaggi, chi infine di una verità ancora nascosta.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	errore	errore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	giudiziario	giudiziario	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	depistaggi	depistaggio	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	chi	chi	PRON	PR	PronType=Rel	10	acl:relcl	_	_
+15	infine	infine	ADV	B	_	18	advmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	verità	verità	NOUN	S	Gender=Fem	14	nmod	_	_
+19	ancora	ancora	ADV	B	_	20	advmod	_	_
+20	nascosta	nascosto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Quel che è certo è che la vicenda di Erba, fin dall'inizio, è stata caratterizzata da zone d’ombra e da una narrazione mediaticamente molto intensa, a volte fin troppo incline al sensazionalismo.
+1	Quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	certo	certo	ADV	B	_	5	advmod	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	che	che	SCONJ	CS	_	19	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Erba	erba	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	fin	fino	ADV	B	_	15	case	_	_
+13-14	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+13	da	da	ADP	E	_	12	fixed	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	caratterizzata	caratterizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	zone	zona	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+22	d’	di	ADP	E	_	23	case	_	SpaceAfter=No
+23	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+28	mediaticamente	mediaticamente	ADV	B	_	30	advmod	_	_
+29	molto	molto	ADV	B	_	30	advmod	_	_
+30	intensa	intenso	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	27	punct	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	volte	volte	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+34	fin	fino	ADP	E	_	36	case	_	_
+35	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	36	det	_	_
+36	incline	inclina	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	sensazionalismo	sensazionalismo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Una narrazione che, forse, ha contribuito a condizionare l’opinione pubblica e
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	forse	forse	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	contribuito	contribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	condizionare	condizionare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	2	cc	_	SpacesAfter=\n
+

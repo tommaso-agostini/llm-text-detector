@@ -1,0 +1,937 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È un esperimento dal nome piccante:
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	esperimento	esperimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	piccante	piccante	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = Gingerino (Gyroscopes in General Relativity).
+1	Gingerino	Gingerino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	Gyroscopes	Gyroscopes	PROPN	SP	_	1	appos	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	General	General	PROPN	SP	_	3	nmod	_	_
+6	Relativity	Relativity	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = È nato per misurare una delle implicazioni della teoria della Relatività non ancora del tutto comprovata, ma ha scoperto di essere utile anche a chi studia la rotazione e le deformazioni della Terra.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	misurare	misurare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	obj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	implicazioni	implicazione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Relatività	Relatività	NOUN	S	Gender=Fem	11	nmod	_	_
+15	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+16	ancora	ancora	ADV	B	_	20	advmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	tutto	tutto	ADV	B	_	20	advmod	_	_
+20	comprovata	comprovato	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	ma	ma	CCONJ	CC	_	24	cc	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+25	di	di	ADP	E	_	27	mark	_	_
+26	essere	essere	AUX	V	VerbForm=Inf	27	cop	_	_
+27	utile	utile	ADJ	A	Number=Sing	24	ccomp	_	_
+28	anche	anche	ADV	B	_	30	advmod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	chi	chi	PRON	PR	Number=Sing|PronType=Rel	27	obl	_	_
+31	studia	studiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	deformazioni	deformazione	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Terra	Terra	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Gingerino è uno strumento montato a 1.400 metri di profondità per misurare gli effetti della rotazione terrestre.
+1	Gingerino	Gingerino	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	montato	montare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	1.400	1.400	NUM	N	NumType=Card	8	nummod	_	_
+8	metri	metro	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	profondità	profondità	NOUN	S	Gender=Fem	8	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	misurare	misurare	VERB	V	VerbForm=Inf	5	advcl	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	terrestre	terrestre	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Quelli fisici hanno a che vedere con la Relatività, perché un corpo che ruota deforma la trama dello spazio-tempo torcendola nella direzione del suo movimento (così suggeriscono le teorie di Einstein).
+1	Quelli	quello	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	fisici	fisico	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	6	mark	_	_
+5	che	che	SCONJ	CS	_	4	fixed	_	_
+6	vedere	vedere	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Relatività	Relatività	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	perché	perché	SCONJ	CS	_	33	mark	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	33	nsubj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	ruota	ruotare	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	deforma	deformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	trama	trama	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	dello	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	spazio-tempo	spazio-tempo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22-23	torcendola	_	_	_	_	_	_	_	_
+22	torcendo	torcere	VERB	V	VerbForm=Ger	16	advcl	_	_
+23	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+31	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+32	così	così	ADV	B	_	33	advmod	_	_
+33	suggeriscono	suggerire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	teorie	teoria	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Einstein	Einstein	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ma si tratta di influenze minime, che alterano la velocità di rotazione (il cui valore all'equatore raggiunge i 1.600 chilometri all'ora) per meno di un miliardesimo di grado ogni secondo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	influenze	influenza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	minime	minimo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	alterano	alterare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	velocità	velocità	NOUN	S	Gender=Fem	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	cui	cui	DET	DR	PronType=Rel	17	det:poss	_	_
+17	valore	valore	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	equatore	equatore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	raggiunge	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	1.600	1.600	NUM	N	NumType=Card	24	nummod	_	_
+24	chilometri	chilometro	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	ora	ora	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	21	punct	_	_
+29	per	per	ADP	E	_	30	case	_	_
+30	meno	meno	ADV	B	_	3	advmod	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	miliardesimo	miliardesimo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	grado	grado	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	37	det	_	_
+37	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = "È entusiasmante studiare questo usando fotoni" spiega la responsabile dell'esperimento, Angela Di Virgilio dell'Infn di Pisa.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	entusiasmante	entusiasmante	ADJ	A	Number=Sing	0	root	_	_
+4	studiare	studiare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	usando	usare	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	fotoni	fotone	NOUN	S	Gender=Masc|Number=Plur	6	compound	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	3	punct	_	_
+9	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	responsabile	responsabile	NOUN	S	Number=Sing	9	nsubj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	esperimento	esperimento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	Angela	Angela	PROPN	SP	_	11	appos	_	_
+17	Di	Di	PROPN	SP	_	16	flat:name	_	_
+18	Virgilio	Virgilio	PROPN	SP	_	16	flat:name	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	Infn	Infn	PROPN	SP	_	11	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Pisa	Pisa	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Gli ultimi dati raccolti dallo strumento sono pubblicati su Review of Scientific Instruments.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	dati	dato	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+4	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dallo	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	pubblicati	pubblicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	Review	Review	PROPN	SP	_	9	obl	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	Scientific	Scientific	PROPN	SP	_	11	nmod	_	_
+14	Instruments	Instruments	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Poi ci sono gli effetti geologici, che riguardano un aspetto poco studiato dei terremoti:
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	geologici	geologico	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	riguardano	riguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	poco	poco	ADV	B	_	13	advmod	_	_
+13	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	terremoti	terremoto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = la rotazione che imprimono al suolo.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	imprimono	imprimere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = "Le onde sismiche fanno muovere il suolo principalmente lungo traiettorie lineari.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	onde	onda	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sismiche	sismico	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	muovere	muovere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	principalmente	principalmente	ADV	B	_	11	advmod	_	_
+10	lungo	lungo	ADP	E	_	11	case	_	_
+11	traiettorie	traiettoria	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	lineari	lineario	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Ma provocano anche rotazioni" spiega Gilberto Saccorotti, direttore della sezione di Pisa dell'Istituto nazionale di geofisica e vulcanologia.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	provocano	provocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	2	advmod	_	_
+4	rotazioni	rotazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	_
+6	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	Gilberto	Gilberto	PROPN	SP	_	6	nsubj	_	_
+8	Saccorotti	Saccorotti	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Pisa	Pisa	PROPN	SP	_	13	nmod	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	nazionale	nazionale	ADJ	A	Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	geofisica	geofisica	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	vulcanologia	vulcanologia	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = "Questo fenomeno era impossibile da misurare prima di strumenti come Gingerino, che ha acquisito dati anche durante la sequenza sismica dell'Italia centrale.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	_
+6	da	da	ADP	E	_	7	mark	_	_
+7	misurare	misurare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	prima	prima	ADV	B	_	10	case	_	_
+9	di	di	ADP	E	_	8	fixed	_	_
+10	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	Gingerino	Gingerino	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	acquisito	acquisire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	dati	dato	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	anche	anche	ADV	B	_	21	advmod	_	_
+19	durante	durante	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sequenza	sequenza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+22	sismica	sismico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Italia	Italia	PROPN	SP	_	21	nmod	_	_
+26	centrale	centrale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Ora potremo calcolare meglio le caratteristiche che gli edifici devono avere per resistere alle scosse e misurare le piccolissime deformazioni lente del suolo:
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	potremo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	calcolare	calcolare	VERB	V	VerbForm=Inf	0	root	_	_
+4	meglio	meglio	ADV	B	_	3	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avere	avere	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	resistere	resistere	VERB	V	VerbForm=Inf	11	advcl	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	scosse	scosso	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	misurare	misurare	VERB	V	VerbForm=Inf	13	conj	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	piccolissime	piccolo	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	21	amod	_	_
+21	deformazioni	deformazione	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+22	lente	lente	ADJ	A	Number=Sing	21	amod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 15
+# text = possibili precursori di un terremoto".
+1	possibili	possibile	ADJ	A	Number=Plur	2	amod	_	_
+2	precursori	precursore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	terremoto	terremoto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Per studiare Einstein e la tettonica, Gingerino usa due fasci laser che corrono lungo i lati di un quadrato di 3,6 metri, guidati da un gruppo di specchi perfettamente levigati.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	_
+3	Einstein	Einstein	PROPN	SP	_	2	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tettonica	tettonica	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Gingerino	Gingerino	PROPN	SP	_	2	appos	_	_
+9	usa	usare	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	fasci	fasce	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	laser	laser	NOUN	S	Gender=Masc	11	compound	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	corrono	correre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	lungo	lungo	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	lati	lato	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	quadrato	quadrato	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	3,6	3,6	NUM	N	NumType=Card	23	nummod	_	_
+23	metri	metro	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	8	punct	_	_
+25	guidati	guidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	25	obl:agent	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	specchi	specchio	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+31	perfettamente	perfettamente	ADV	B	_	32	advmod	_	_
+32	levigati	levigato	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = L'apparecchio è fissato alla roccia della montagna, al riparo da qualunque forza esterna.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	apparecchio	apparecchio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	fissato	fissare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	roccia	roccia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	riparo	riparo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	forza	forza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	esterna	esterno	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Perfino pioggia, vento o rumore - ha dimostrato uno strumento "fratello" montato a Wettzell in Baviera - possono infatti infrangerne la precisione assoluta.
+1	Perfino	perfino	ADV	B	_	2	advmod	_	_
+2	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	vento	vento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7	-	-	PUNCT	FF	_	2	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	montato	montato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Wettzell	Wettzell	PROPN	SP	_	15	obl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Baviera	Baviera	PROPN	SP	_	17	nmod	_	_
+20	-	-	PUNCT	FF	_	23	punct	_	_
+21	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	infatti	infatti	ADV	B	_	23	advmod	_	_
+23	infrangerne	infrangernere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+26	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 19
+# text = "Lo strumento tedesco è stato costruito con dovizia di fondi" spiega Di Virgilio.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	dovizia	dovizia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	13	punct	_	_
+13	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+14	Di	Di	PROPN	SP	_	13	parataxis	_	_
+15	Virgilio	Virgilio	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 20
+# text = "Noi invece teniamo l'anima coi denti.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	invece	invece	ADV	B	_	2	advmod	_	_
+4	teniamo	tenere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	anima	anima	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	coi	_	_	_	_	_	_	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	denti	dente	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Io stessa sono andata sottoterra a montare Gingerino con cazzuola e cemento".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	sottoterra	sottoterra	ADV	B	_	4	advmod	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	montare	montare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	Gingerino	Gingerino	PROPN	SP	_	7	obj	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	cazzuola	cazzuola	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	cemento	cemento	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Anche se sotto al Gran Sasso Gingerino è al riparo dai capricci del meteo, soffre l'umidità, che fra le rocce è vicina al punto di rugiada.
+1	Anche	anche	ADV	B	_	6	advmod	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	_
+3	sotto	sotto	ADV	B	_	6	advmod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Gran	Gran	PROPN	SP	_	12	nsubj	_	_
+7	Sasso	Sasso	PROPN	SP	_	6	flat:name	_	_
+8	Gingerino	Gingerino	PROPN	SP	_	6	flat:name	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	riparo	riparo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	capricci	capriccio	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	meteo	meteo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	soffre	soffrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	umidità	umidità	NOUN	S	Gender=Fem	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+25	fra	fra	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	rocce	roccia	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	22	acl:relcl	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	punto	punto	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	rugiada	rugiada	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 23
+# text = "Con questi valori l'elettronica non può funzionare" spiega Jacopo Belfi, il ricercatore dell'Infn che ha curato Gingerino fin dalla nascita.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	4	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	valori	valore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	elettronica	elettronica	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	funzionare	funzionare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	11	punct	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+12	Jacopo	Jacopo	PROPN	SP	_	11	nsubj	_	_
+13	Belfi	Belfi	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ricercatore	ricercatore	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Infn	Infn	PROPN	SP	_	16	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	curato	curare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23	Gingerino	Gingerino	PROPN	SP	_	22	obj	_	_
+24	fin	fino	ADP	E	_	27	case	_	_
+25-26	dalla	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	24	fixed	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 24
+# text = "Abbiamo chiuso lo strumento in una camera isolata, riscaldandola con lampade a infrarosso".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	camera	camera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	isolata	isolato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	riscaldandola	riscaldandolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	lampade	lampada	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	infrarosso	infrarosso	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = La distorsione dello spazio-tempo fa sì che il fascio laser che corre in senso antiorario (quindi nella direzione della rotazione terrestre) debba percorrere una distanza leggermente superiore rispetto all'altro.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	distorsione	distorsione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	dello	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spazio-tempo	spazio-tempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sì	sì	ADV	B	_	6	advmod	_	_
+8	che	che	SCONJ	CS	_	28	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fascio	fascio	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+11	laser	laser	NOUN	S	Gender=Masc	10	compound	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	senso	senso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	antiorario	antiorario	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+18	quindi	quindi	ADV	B	_	21	advmod	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	terrestre	terrestre	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	21	punct	_	_
+27	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	percorrere	percorrere	VERB	V	VerbForm=Inf	6	ccomp	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	leggermente	leggermente	ADV	B	_	32	advmod	_	_
+32	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	30	amod	_	_
+33	rispetto	rispetto	ADV	B	_	36	case	_	_
+34-35	all'	_	_	_	_	_	_	_	SpaceAfter=No
+34	a	a	ADP	E	_	33	fixed	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = Questione di miliardesimi di metro, ma quanto basta per modificare la frequenza dei fotoni, rendendo l'effetto misurabile dai ricercatori.
+1	Questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	miliardesimi	miliardesimo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	metro	metro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	1	conj	_	_
+9	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	modificare	modificare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	frequenza	frequenza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	fotoni	fotone	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	rendendo	rendere	VERB	V	VerbForm=Ger	11	advcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	misurabile	misurabile	ADJ	A	Number=Sing	20	amod	_	_
+22-23	dai	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = "Non abbiamo ancora raggiunto la precisione necessaria per confermare questa implicazione della teoria di Einstein" spiega Di Virgilio.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ancora	ancora	ADV	B	_	5	advmod	_	_
+5	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	confermare	confermare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	implicazione	implicazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Einstein	Einstein	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	19	punct	_	_
+19	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+20	Di	Di	PROPN	SP	_	19	parataxis	_	_
+21	Virgilio	Virgilio	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = "Gingerino è un modello, L'esperimento più grande si chiamerà Ginger e verrà installato sempre al Gran Sasso.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Gingerino	Gingerino	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	modello	modello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	12	punct	_	_
+7	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	esperimento	esperimento	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	chiamerà	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+13	Ginger	Ginger	PROPN	SP	_	12	xcomp	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
+16	installato	installare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+17	sempre	sempre	ADV	B	_	16	advmod	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Gran	Gran	PROPN	SP	_	16	obl	_	_
+21	Sasso	Sasso	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = Non un solo giroscopio ma almeno due:
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	solo	solo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	giroscopio	giroscopio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	almeno	almeno	ADV	B	_	7	advmod	_	_
+7	due	due	NUM	N	NumType=Card	4	conj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 30
+# text = così saremo in grado di provare la distorsione dello spazio-tempo provocata dalla rotazione terrestre o le maree solide causate dall'attrazione gravitazionale della Luna".
+1	così	così	ADV	B	_	2	advmod	_	_
+2	saremo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	grado	grado	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	provare	provare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	distorsione	distorsione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	dello	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	spazio-tempo	spazio-tempo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	provocata	provocare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+16	terrestre	terrestre	ADJ	A	Number=Sing	15	amod	_	_
+17	o	o	CCONJ	CC	_	19	cc	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	maree	marea	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+20	solide	solido	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	causate	causare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+22-23	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+22	da	da	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	attrazione	attrazione	NOUN	S	Gender=Fem|Number=Sing	21	obl:agent	_	_
+25	gravitazionale	gravitazionale	ADJ	A	Number=Sing	24	amod	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Luna	Luna	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 31
+# text = Ecco come la Terra trascina con sé lo spazio-tempo.
+1	Ecco	ecco	ADV	B	_	5	advmod	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Terra	Terra	PROPN	SP	_	5	obl	_	_
+5	trascina	trascinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	obl	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	spazio-tempo	spazio-tempo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 32
+# text = Una prima conferma di questa distorsione - l'effetto Lense-Thirring - è arrivata dal cielo l'anno scorso.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	distorsione	distorsione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	-	-	PUNCT	FF	_	9	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	Lense-Thirring	Lense-Thirring	PROPN	SP	_	9	nmod	_	_
+11	-	-	PUNCT	FF	_	9	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	anno	anno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 33
+# text = La misura ha ancora un margine di errore piuttosto grande (5%), ma è pure frutto in buona parte della nostra ricerca, grazie ai satelliti Lageos e Lares, lanciati da Nasa e Agenzia spaziale italian.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	misura	misura	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	margine	margine	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	errore	errore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	piuttosto	piuttosto	ADV	B	_	10	advmod	_	_
+10	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	5	5	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	8	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	ma	ma	CCONJ	CC	_	19	cc	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	pure	pure	ADV	B	_	19	advmod	_	_
+19	frutto	fruggere	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	buona	buono	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	3	punct	_	_
+28	grazie	grazie	NOUN	S	_	31	case	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	28	fixed	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	satelliti	satellite	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+32	Lageos	Lageos	PROPN	SP	_	31	nmod	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	Lares	Lares	PROPN	SP	_	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	31	punct	_	_
+36	lanciati	lanciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+37	da	da	ADP	E	_	38	case	_	_
+38	Nasa	nasa	PROPN	SP	_	36	obl:agent	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	Agenzia	Agenzia	PROPN	SP	_	38	conj	_	_
+41	spaziale	spaziale	ADJ	A	Number=Sing	40	amod	_	_
+42	italian	italian	ADJ	A	Number=Sing	40	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = Per il coordinatore di questi esperimenti, Ignazio Ciufolini dell'Università del Salento, "i nuovi dati faranno diminuire questo errore.
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	coordinatore	coordinatore	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	esperimenti	esperimento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Ignazio	Ignazio	PROPN	SP	_	3	nmod	_	_
+9	Ciufolini	Ciufolini	PROPN	SP	_	8	flat:name	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Università	Università	NOUN	S	Gender=Fem	8	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Salento	Salento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	dati	dato	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+21	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+22	diminuire	diminuire	VERB	V	VerbForm=Inf	21	ccomp	_	_
+23	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	errore	errore	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 35
+# text = Il trascinamento dello spazio-tempo è un fenomeno affascinante anche per capire come scorre il tempo attorno ai buchi neri".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trascinamento	trascinamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	dello	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spazio-tempo	spazio-tempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	affascinante	affascinante	ADJ	A	Number=Sing	8	amod	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	capire	capire	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	come	come	SCONJ	CS	_	14	mark	_	_
+14	scorre	scorre	VERB	V	VerbForm=Inf	12	ccomp	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	attorno	attorno	ADV	B	_	20	case	_	_
+18-19	ai	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	buchi	buco	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+21	neri	nero	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

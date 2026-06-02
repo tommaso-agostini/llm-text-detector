@@ -1,0 +1,372 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cinque nuovi film basati sull'universo creato dalla scrittrice J.K. Rowling sono in programma, destinati a espandere, a quanto pare, l'amata saga di Harry Potter.
+1	Cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+2	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	film	film	NOUN	S	Gender=Masc	17	nsubj	_	_
+4	basati	basare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	universo	universo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	scrittrice	scrittore	NOUN	S	Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	J.K	J.k	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+14	Rowling	Rowling	PROPN	SP	_	12	flat:name	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	programma	programma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	destinati	destinare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	espandere	espandere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	21	obl	_	_
+25	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	amata	amato	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+29	saga	saga	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	Harry	Harry	PROPN	SP	_	28	nmod	_	_
+32	Potter	Potter	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = C’è chi parla di un ritorno trionfale, di un’ondata di magia pronta a conquistare una nuova generazione.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	trionfale	trionfale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	magia	magia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	conquistare	conquistare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma non è solo entusiasmo quello che dovrebbe guidare il nostro giudizio.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	guidare	guidare	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La Rowling, come ben sappiamo, è diventata negli ultimi anni una figura polarizzante a causa delle sue posizioni, spesso giudicate problematiche, sui temi di genere e identità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Rowling	Rowling	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADP	E	_	6	mark	_	_
+5	ben	bene	ADV	B	_	6	advmod	_	_
+6	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	13	amod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	figura	figura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+16	polarizzante	polarizzante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	15	acl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	causa	causa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	15	punct	_	_
+24	spesso	spesso	ADV	B	_	25	advmod	_	_
+25	giudicate	giudicare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+26	problematiche	problematico	ADJ	A	Gender=Fem|Number=Plur	25	xcomp	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	9	punct	_	_
+28-29	sui	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	temi	tema	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	genere	genere	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	identità	identità	NOUN	S	Gender=Fem	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Un’autrice di indiscutibile talento, certo, ma che ha scelto di schierarsi su terreni ideologici dove il "politically correct", come lo definisce certa critica, sembra lasciare spazio a riflessioni più autentiche e meno conformi al pensiero dominante.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	autrice	autore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	indiscutibile	indiscutibile	ADJ	A	Number=Sing	5	amod	_	_
+5	talento	talento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	certo	certo	ADV	B	_	2	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	schierarsi	_	_	_	_	_	_	_	_
+14	schierar	schierarre	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	terreni	terreno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+18	ideologici	ideologico	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	dove	dove	ADV	B	_	32	advmod	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	politically	politically	NOUN	S	_	32	nsubj	_	_
+23	correct	correct	NOUN	S	Gender=Masc	22	compound	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	come	come	SCONJ	CS	_	28	mark	_	_
+27	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	definisce	definire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+29	certa	certo	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	critica	critico	NOUN	S	Gender=Fem|Number=Sing	28	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	28	punct	_	_
+32	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+33	lasciare	lasciare	VERB	V	VerbForm=Inf	32	xcomp	_	_
+34	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	riflessioni	riflessione	NOUN	S	Gender=Fem|Number=Plur	33	obl	_	_
+37	più	più	ADV	B	_	38	advmod	_	_
+38	autentiche	autentico	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+39	e	e	CCONJ	CC	_	41	cc	_	_
+40	meno	meno	ADV	B	_	41	advmod	_	_
+41	conformi	conforme	ADJ	A	Number=Plur	38	conj	_	_
+42-43	al	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+45	dominante	dominante	ADJ	A	Number=Sing	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = E questo, per alcuni, è imperdonabile.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	imperdonabile	imperdonabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = La decisione di Warner Bros., quindi, non può essere scissa dal contesto attuale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Warner	Warner	PROPN	SP	_	2	nmod	_	_
+5	Bros.	Bros.	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	quindi	quindi	ADV	B	_	12	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	scissa	scissare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	12	obl:agent	_	_
+16	attuale	attuale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = Si tratta di un calcolo puramente commerciale?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	puramente	puro	ADV	B	_	7	advmod	_	_
+7	commerciale	commerciale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Oppure un tentativo di riabilitare un’immagine offuscata, di dare una mano a un’autrice che ha creato un colosso dell’intrattenimento ma che è stata penalizzata per le sue idee?
+1	Oppure	oppure	CCONJ	CC	_	3	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	riabilitare	riabilitare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	offuscata	offuscata	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	dare	dare	VERB	V	VerbForm=Inf	3	acl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mano	mano	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	autrice	autore	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	colosso	colosso	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	intrattenimento	intrattenimento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	ma	ma	CCONJ	CC	_	29	cc	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj:pass	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	penalizzata	penalizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+30	per	per	ADP	E	_	33	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	idee	idea	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+34	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = È lecito dubitare che dietro l'annuncio si nasconda anche un desiderio di riscatto culturale, una sorta di affermazione del diritto di esprimere opinioni diverse, anche se non gradite a una certa orbita intellettuale.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	lecito	lecito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	dubitare	dubitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	dietro	dietro	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+9	nasconda	nascondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	riscatto	riscatto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	culturale	culturale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	12	appos	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	affermazione	affermazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	esprimere	esprimere	VERB	V	VerbForm=Inf	23	acl	_	_
+26	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+27	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	anche	anche	ADV	B	_	32	mark	_	_
+30	se	se	SCONJ	CS	_	29	fixed	_	_
+31	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+32	gradite	gradire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	advcl	_	_
+33	a	a	ADP	E	_	36	case	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	certa	certo	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+36	orbita	orbita	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+37	intellettuale	intellettuale	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = È importante sottolineare che la qualità dei primi otto film è stata, in larga parte, indiscutibile.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+3	sottolineare	sottolineare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	che	che	SCONJ	CS	_	19	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	qualità	qualità	NOUN	S	Gender=Fem	19	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	11	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	11	amod	_	_
+10	otto	otto	NUM	N	NumType=Card	11	nummod	_	_
+11	film	film	NOUN	S	Gender=Masc	6	nmod	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+13	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	larga	largo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	indiscutibile	indiscutibile	ADJ	A	Number=Sing	3	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 12
+# text = Un lavoro di adattamento accurato, un cast brillante e una cura per i dettagli che hanno reso l’esperienza cinematografica memorabile.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	adattamento	adattamento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	accurato	accurato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cast	cast	NOUN	S	Gender=Masc	2	conj	_	_
+9	brillante	brillante	ADJ	A	Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cura	cura	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	cinematografica	cinematografico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	memorabile	memorabile	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma la trasposizione cinematografica di un libro è già una sfida, figuriamoci l’espansione di un universo narrativo così vast
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	trasposizione	trasposizione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	cinematografica	cinematografico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	già	già	ADV	B	_	11	advmod	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13-14	figuriamoci	_	_	_	_	_	_	_	_
+13	figuriamo	figurare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	espansione	espansione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	universo	universo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	narrativo	narrativo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	così	così	ADV	B	_	19	advmod	_	_
+22	vast	vast	CCONJ	CC	_	13	cc	_	SpacesAfter=\n
+

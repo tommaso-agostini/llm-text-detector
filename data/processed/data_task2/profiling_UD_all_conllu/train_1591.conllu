@@ -1,0 +1,943 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È più determinato che mai, il senatore del Vermont Bernie Sanders.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+5	mai	mai	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	senatore	senatore	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Vermont	Vermont	PROPN	SP	_	8	nmod	_	_
+12	Bernie	Bernie	PROPN	SP	_	11	flat:name	_	_
+13	Sanders	Sanders	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Che sale nei sondaggi, facendo aumentare le preoccupazioni per Hillary Clinton.
+1	Che	che	PRON	PR	PronType=Rel	2	nsubj	_	_
+2	sale	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nei	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sondaggi	sondaggio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	facendo	fare	VERB	V	VerbForm=Ger	2	advcl	_	_
+8	aumentare	aumentare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	preoccupazioni	preoccupazione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	Hillary	Hillary	PROPN	SP	_	10	nmod	_	_
+13	Clinton	Clinton	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ma non è solo l'ex Segretario di Stato a doverlo temere.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	solo	solo	ADV	B	_	7	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	ex	ex	ADJ	A	_	7	amod	_	_
+7	Segretario	Segretario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	a	a	ADP	E	_	13	mark	_	_
+11-12	doverlo	_	_	_	_	_	_	_	_
+11	dover	dovere	AUX	VM	VerbForm=Inf	13	aux	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	temere	temere	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Senatore Sanders, lei è in Iowa, in piena campagna elettorale.
+1	Senatore	senatore	PROPN	SP	_	0	root	_	_
+2	Sanders	Sanders	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Iowa	Iowa	PROPN	SP	_	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+12	elettorale	elettorale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Come procede?
+1	Come	come	SCONJ	CS	_	2	advmod	_	_
+2	procede	procedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Perché è appena arrivata la notizia che nessun senatore democratico è disposto a sostenere la sua candidatura...
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	appena	appena	ADV	B	_	4	advmod	_	_
+4	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	senatore	senatore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	disposto	disposto	ADJ	A	Gender=Masc|Number=Sing	6	advcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	sostenere	sostenere	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	candidatura..	candidatura..	NOUN	S	_	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = "Non mi sorprende che tutti questi politici mi voltino le spalle:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	sorprende	sorprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	politici	politico	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	voltino	voltare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 8
+# text = la mia è una sfida all'establishment politico, a quello economico, agli interessi finanziari di questo paese, alle corporation.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	establishment	establishment	NOUN	S	Gender=Masc	5	nmod	_	_
+9	politico	politico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+13	economico	economico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15-16	agli	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+18	finanziari	finanziario	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	paese	paese	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	5	punct	_	_
+23-24	alle	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	corporation	corporation	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Per questo la mia campagna elettorale è unica, perché mira ad avviare una rivoluzione politica che avvicini milioni di persone al sistema che controlla Washington.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	elettorale	elettorale	ADJ	A	Number=Sing	5	amod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	unica	unico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	perché	perché	SCONJ	CS	_	11	mark	_	_
+11	mira	mirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+12	ad	a	ADP	E	_	13	mark	_	_
+13	avviare	avviare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	politica	politico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	avvicini	avvicino	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	persone	persona	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	controlla	controllare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	Washington	Washington	PROPN	SP	_	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Sì, l'establishment appoggia la Clinton.
+1	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	establishment	establishment	NOUN	S	Gender=Masc	5	nsubj	_	_
+5	appoggia	appoggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Clinton	Clinton	PROPN	SP	_	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Non è un segreto.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Ma il motivo per cui la mia campagna sta suscitando così tanto entusiasmo è che la gente pensa sia davvero arrivata l'ora di sfidare l'establishment, Wall Street e i grandi interessi economici".
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	suscitando	suscitare	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+11	così	così	ADV	B	_	10	advmod	_	_
+12	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	che	che	SCONJ	CS	_	18	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	gente	gente	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+18	pensa	pensare	ADJ	A	Gender=Fem|Number=Sing	14	ccomp	_	_
+19	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	davvero	davvero	ADV	B	_	21	advmod	_	_
+21	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	ora	ora	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	sfidare	sfidare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	establishment	establishment	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	29	punct	_	_
+29	Wall	Wall	PROPN	SP	_	27	nmod	_	_
+30	Street	Street	PROPN	SP	_	29	flat:name	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	grandi	grande	ADJ	A	Number=Plur	34	amod	_	_
+34	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	_
+35	economici	economico	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
+36	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 13
+# text = Se vincerà la nomination democratica corre il rischio di ritrovarsi un terzo incomodo in gara:
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	vincerà	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	nomination	nomination	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	democratica	democratico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	ritrovarsi	_	_	_	_	_	_	_	_
+10	ritrovar	ritrovare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	incomodo	incomodo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	gara	gara	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 14
+# text = Michael Bloomberg, candidato indipendente.
+1	Michael	Michael	PROPN	SP	_	0	root	_	_
+2	Bloomberg	Bloomberg	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	indipendente	indipendente	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Che ne pensa?
+1	Che	che	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = "Se Donald Trump vincesse la nomination repubblicana e Bloomberg si decidesse a scendere in campo, ci sarebbero ben due multimiliardari in corsa contro di me per la presidenza degli Stati Uniti.
+1	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	5	mark	_	_
+3	Donald	Donald	PROPN	SP	_	5	nsubj	_	_
+4	Trump	Trump	PROPN	SP	_	3	flat:name	_	_
+5	vincesse	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	nomination	nomination	NOUN	S	Gender=Fem	5	obj	_	_
+8	repubblicana	repubblicano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	Bloomberg	Bloomberg	PROPN	SP	_	12	nsubj	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	decidesse	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	scendere	scendere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	campo	campo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+19	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	ben	bene	ADV	B	_	19	advmod	_	_
+21	due	due	NUM	N	NumType=Card	22	nummod	_	_
+22	multimiliardari	multimiliardario	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	contro	contro	ADV	B	_	27	case	_	_
+26	di	di	ADP	E	_	25	fixed	_	_
+27	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	presidenza	presidenza	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+31-32	degli	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	Stati	Stati	PROPN	SP	_	30	nmod	_	_
+34	Uniti	Uniti	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 17
+# text = Non credo che il popolo americano abbia voglia di vedere la nostra nazione andare verso un'oligarchia, dove ad avere il controllo del processo politico sono dei miliardari.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	americano	americano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	vedere	vedere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	andare	andare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+15	verso	verso	ADP	E	_	17	case	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	oligarchia	oligarchia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	dove	dove	ADV	B	_	31	advmod	_	_
+20	ad	a	ADP	E	_	21	mark	_	_
+21	avere	avere	VERB	V	VerbForm=Inf	31	advcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	processo	processo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	politico	politico	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	miliardari	miliardario	NOUN	S	Gender=Masc|Number=Plur	17	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Quindi penso che vincerei le elezioni".
+1	Quindi	quindi	CCONJ	CC	_	2	cc	_	_
+2	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	vincerei	vincere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Ta-Nehisi Coates, che è oggi uno degli intellettuali più stimati del movimento per i diritti civili, l'ha attaccata su Atlantic perché lei è contrario a indennizzare gli afroamericani in quanto discendenti degli schiavi ma chiede costantemente giustizia economica per tanti altri motivi.
+1	Ta-Nehisi	Ta-Nehisi	PROPN	SP	_	23	nsubj	_	_
+2	Coates	Coates	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	oggi	oggi	ADV	B	_	7	advmod	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	acl:relcl	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	intellettuali	intellettuale	NOUN	S	Number=Plur	7	nmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	stimati	stimato	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+19	civili	civile	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	attaccata	attaccare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	su	su	ADP	E	_	25	case	_	_
+25	Atlantic	Atlantic	PROPN	SP	_	23	obl	_	_
+26	perché	perché	SCONJ	CS	_	29	mark	_	_
+27	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	23	advcl	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	indennizzare	indennizzare	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	afroamericani	afroamericano	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	quanto	quanto	ADV	B	_	34	fixed	_	_
+36	discendenti	discendente	NOUN	S	Number=Plur	31	obl	_	_
+37-38	degli	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	schiavi	schiavo	NOUN	S	Gender=Masc|Number=Plur	36	nmod	_	_
+40	ma	ma	CCONJ	CC	_	41	cc	_	_
+41	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+42	costantemente	costantemente	ADV	B	_	43	advmod	_	_
+43	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	economica	economico	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+45	per	per	ADP	E	_	48	case	_	_
+46	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	48	det	_	_
+47	altri	altro	ADJ	A	Gender=Masc|Number=Plur	48	amod	_	_
+48	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	41	obl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 20
+# text = Come risponde?
+1	Come	come	SCONJ	CS	_	2	advmod	_	_
+2	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = "È inaccettabile che nel nostro paese vi sia così tanta povertà e che la situazione più grave sia quella della comunità afroamericana, dove tra i ragazzi fra i 17 e i 20 anni che finiscono le superiori c'è un tasso di disoccupazione del 51 per cento.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	inaccettabile	inaccettabile	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	paese	paese	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+9	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	così	così	ADV	B	_	10	advmod	_	_
+12	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
+13	povertà	povertà	NOUN	S	Gender=Fem	10	obj	_	_
+14	e	e	CCONJ	CC	_	21	cc	_	_
+15	che	che	SCONJ	CS	_	21	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	grave	grave	ADJ	A	Number=Sing	17	amod	_	_
+20	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	conj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	comunità	comunità	NOUN	S	Gender=Fem	21	nmod	_	_
+25	afroamericana	afroamericano	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	dove	dove	ADV	B	_	43	advmod	_	_
+28	tra	tra	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	43	obl	_	_
+31	fra	fra	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	17	17	NUM	N	NumType=Card	30	nmod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	20	20	NUM	N	NumType=Card	37	nummod	_	_
+37	anni	anno	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	finiscono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	superiori	superiore	ADJ	A	Degree=Cmp|Number=Plur	39	xcomp	_	_
+42	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	43	expl	_	SpaceAfter=No
+43	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	43	nsubj	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+48-49	del	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	51	51	NUM	N	NumType=Card	45	nmod	_	_
+51	per	per	ADP	E	_	52	case	_	_
+52	cento	cento	NUM	N	NumType=Card	50	nummod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Dove il 36 per cento dei bambini viva in povertà.
+1	Dove	dove	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	36	36	NUM	N	NumType=Card	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	cento	cento	NUM	N	NumType=Card	3	nummod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+9	viva	vivo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	povertà	povertà	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Se diventerò presidente è mia intenzione affrontare questi problemi in modo aggressivo, facendo sì che i giovani lavorino invece di finire in prigione.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	diventerò	diventare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	affrontare	affrontare	VERB	V	VerbForm=Inf	6	csubj	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	aggressivo	aggressivo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	facendo	fare	VERB	V	VerbForm=Ger	6	advcl	_	_
+15	sì	sì	ADV	B	_	14	advmod	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	giovani	giovane	NOUN	S	Number=Plur	19	nsubj	_	_
+19	lavorino	lavorino	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+20	invece	invece	ADV	B	_	19	advmod	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	finire	finire	VERB	V	VerbForm=Inf	19	xcomp	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	prigione	prigione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = E mi adopererò per migliorare le scuole, è indispensabile".
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	adopererò	adoperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	migliorare	migliorare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	indispensabile	indispensabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 25
+# text = Non ha risposto alla mia domanda:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 26
+# text = perché non è favorevole ai risarcimenti?
+1	perché	perché	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	favorevole	favorevole	ADJ	A	Number=Sing	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	risarcimenti	risarcimento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = "Perché dobbiamo investire nel futuro.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	4	advmod	_	_
+3	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	investire	investire	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = Dobbiamo risolvere la piaga della povertà in America.
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	risolvere	risolvere	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	piaga	piaga	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	povertà	povertà	NOUN	S	Gender=Fem	4	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	America	America	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Nella mia agenda è previsto l'innalzamento del salario minimo a 15 dollari l'ora, creando milioni di posti di lavoro, ricostruendo le infrastrutture, concentrandoci per porre rimedio all'alta percentuale di disoccupazione giovanile.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	agenda	agenda	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	innalzamento	innalzamento	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	salario	salario	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	15	15	NUM	N	NumType=Card	15	nummod	_	_
+15	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	ora	ora	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	creando	creare	VERB	V	VerbForm=Ger	6	advcl	_	_
+20	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	posti	posto	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	6	punct	_	_
+26	ricostruendo	ricostruire	VERB	V	VerbForm=Ger	6	advcl	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30-31	concentrandoci	_	_	_	_	_	_	_	_
+30	concentrando	concentrare	VERB	V	VerbForm=Ger	26	advcl	_	_
+31	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	30	obj	_	_
+32	per	per	ADP	E	_	33	mark	_	_
+33	porre	porre	VERB	V	VerbForm=Inf	30	advcl	_	_
+34	rimedio	rimedio	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+35-36	all'	_	_	_	_	_	_	_	SpaceAfter=No
+35	a	a	ADP	E	_	38	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+37	alta	alto	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+38	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	giovanile	giovanile	ADJ	A	Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 30
+# text = La mia candidatura è quella di chi vuole risolvere i problemi della comunità afroamericana e degli americani poveri in generale".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nmod	_	_
+8	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	risolvere	risolvere	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	comunità	comunità	NOUN	S	Gender=Fem	11	nmod	_	_
+15	afroamericana	afroamericano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	americani	americane	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+20	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	generale	generale	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Molti l'ascoltano con interesse, ma tanti pensano che non riuscirà mai a far approvare la sua agenda dal Congresso.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+3	ascoltano	ascoltare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nsubj	_	_
+9	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	riuscirà	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	ccomp	_	_
+13	mai	mai	ADV	B	_	12	advmod	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	far	fare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+16	approvare	approvare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	agenda	agenda	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Congresso	Congresso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = Molte sue idee sono difficili da realizzare...
+1	Molte	molto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	3	nmod	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	idee	idea	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	difficili	difficile	ADJ	A	Number=Plur	0	root	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	realizzare..	realizzare..	NOUN	S	_	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 33
+# text = "A questo paese sto dicendo che alle ultime elezioni il 63 per cento degli americani non ha votato.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dicendo	dire	VERB	V	VerbForm=Ger	0	root	_	_
+7	che	che	SCONJ	CS	_	21	mark	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	11	amod	_	_
+11	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	63	63	NUM	N	NumType=Card	21	nsubj	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	cento	cento	NUM	N	NumType=Card	13	nummod	_	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	americani	americano	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 34
+# text = E a quelle di metà mandato non ha votato l'80 per cento dei giovani.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	9	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	metà	metà	NOUN	S	Gender=Fem	3	nmod	_	_
+6	mandato	mandato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	80	80	NUM	N	NumType=Card	9	nsubj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	cento	cento	NUM	N	NumType=Card	11	nummod	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	giovani	giovane	NOUN	S	Number=Plur	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 35
+# text = È per questo che i ricchi continuano ad arricchirsi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	continuano	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	ad	a	ADP	E	_	9	mark	_	_
+9-10	arricchirsi	_	_	_	_	_	_	_	SpaceAfter=No
+9	arricchir	arricchire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 36
+# text = È per questo che i miliardari sono in grado di comprarsi le elezioni.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	miliardari	miliardario	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	grado	grado	NOUN	S	Gender=Masc|Number=Sing	3	acl:relcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11-12	comprarsi	_	_	_	_	_	_	_	_
+11	comprar	comprare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 37
+# text = Io cerco di far comprendere che nella democrazia americana il Congresso dovrebbe rappresentare le famiglie dei lavoratori e la classe media, invece di chi contribuisce in modo più cospicuo alle campagne elettorali.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	cerco	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	far	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	comprendere	comprendere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	che	che	SCONJ	CS	_	14	mark	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+10	americana	americano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Congresso	Congresso	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	rappresentare	rappresentare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	classe	classe	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+23	media	medio	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	2	punct	_	_
+25	invece	invece	ADV	B	_	27	case	_	_
+26	di	di	ADP	E	_	25	fixed	_	_
+27	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	obl	_	_
+28	contribuisce	contribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	modo	modo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	cospicuo	cospicuo	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+33-34	alle	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+36	elettorali	elettorale	ADJ	A	Number=Plur	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 38
+# text = Sto cercando di modificare le dinamiche della politica americana.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	modificare	modificare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	dinamiche	dinamica	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	politica	politica	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	americana	americano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 39
+# text = Incitare milioni di giovani e milioni di operai a battersi a testa alta per i loro diritti.
+1	Incitare	incitare	VERB	V	VerbForm=Inf	0	root	_	_
+2	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	giovani	giovane	NOUN	S	Number=Plur	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	battersi	_	_	_	_	_	_	_	_
+10	batter	battere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	testa	testa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	alta	alto	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	per	per	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 40
+# text = Se ci riusciranno, potremo aumentare il salario minimo.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	riusciranno	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	potremo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	aumentare	aumentare	VERB	V	VerbForm=Inf	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	salario	salario	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 41
+# text = Potremo creare posti di lavoro.
+1	Potremo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	creare	creare	VERB	V	VerbForm=Inf	0	root	_	_
+3	posti	posto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 42
+# text = Potremo rendere gratuita la frequenza dei college pubblici ed eliminare le rette universitarie.
+1	Potremo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	rendere	rendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	gratuita	gratuito	ADJ	A	Gender=Fem|Number=Sing	2	xcomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frequenza	frequenza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	college	college	NOUN	S	Gender=Masc	5	nmod	_	_
+9	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	ed	e	CCONJ	CC	_	11	cc	_	_
+11	eliminare	eliminare	VERB	V	VerbForm=Inf	2	conj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	rette	retta	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	universitarie	universitario	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 43
+# text = Questo dovremmo fare.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	dovremmo	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 44
+# text = E questo voglio fare".
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+3	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 45
+# text = © Meet the Press, Nbc.
+1	©	©	SYM	SYM	_	0	root	_	_
+2	Meet	Meet	PROPN	SP	_	1	nmod	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	Press	Press	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Nbc	Nbc	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 46
+# text = Traduzione Anna Bissanti
+1	Traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Anna	Anna	PROPN	SP	_	1	nmod	_	_
+3	Bissanti	Bissante	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+

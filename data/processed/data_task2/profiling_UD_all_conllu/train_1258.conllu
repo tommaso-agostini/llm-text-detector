@@ -1,0 +1,410 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sarebbe molto meglio, a suo dire, che la regione votasse insieme a Lombardia e Molise.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	meglio	meglio	ADV	B	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	a	a	ADP	E	_	7	mark	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	dire	dire	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	regione	regione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	votasse	votare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+13	insieme	insieme	ADV	B	_	15	case	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	Lombardia	Lombardia	PROPN	SP	_	12	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Molise	Molise	PROPN	SP	_	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Il discorso è per lo più economico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	economico	economico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = " La decisione del tribunale amministrativo di far votare per le Regionali nel Lazio il 3 e il 4 febbraio 2013 pone dei problemi molto gravi ".
+1	"	"	PUNCT	FB	_	3	punct	_	_
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	amministrativo	amministrativo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	far	fare	VERB	V	VerbForm=Inf	3	acl	_	_
+10	votare	votare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Regionali	regionali	PROPN	SP	_	10	obl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Lazio	Lazio	PROPN	SP	_	10	obl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	3	3	NUM	N	NumType=Card	10	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	4	4	NUM	N	NumType=Card	18	conj	_	_
+22	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	21	flat	_	_
+23	2013	2013	NUM	N	NumType=Card	21	flat	_	_
+24	pone	pone	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	molto	molto	ADV	B	_	29	advmod	_	_
+29	gravi	grave	ADJ	A	Number=Plur	27	amod	_	_
+30	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Che - sottolinea il ministro, riportato dal Corriere - sono più che altro "economici".
+1	Che	che	SCONJ	CS	_	13	mark	_	_
+2	-	-	PUNCT	FF	_	3	punct	_	_
+3	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Corriere	Corriere	PROPN	SP	_	7	obl:agent	_	_
+11	-	-	PUNCT	FB	_	3	punct	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	più	più	ADV	B	_	0	root	_	_
+14	che	che	SCONJ	CS	_	15	case	_	_
+15	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obl	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	economici	economico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Se si votasse il tre, " l’ultima fase della raccolta di firme coinciderà con il periodo delle festività natalizie e del Capodanno.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	votasse	votare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tre	tre	NUM	N	NumType=Card	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	"	"	PUNCT	FB	_	10	punct	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	fase	fase	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	firme	firma	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	coinciderà	coincidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	festività	festività	NOUN	S	Gender=Fem	19	nmod	_	_
+23	natalizie	natalizio	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Capodanno	Capodanno	PROPN	SP	_	22	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 6
+# text = Questo vuol dire che il procedimento di esame e di ammissione delle liste si dovrà fare il 6 gennaio, giorno dell’Epifania, quando gli uffici sono chiusi ".
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	17	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	procedimento	procedimento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	esame	esame	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	ammissione	ammissione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	liste	lista	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:pass	_	_
+16	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	6	6	NUM	N	NumType=Card	17	obl	_	_
+20	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23-24	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Epifania	epifania	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	22	punct	_	_
+27	quando	quando	SCONJ	CS	_	31	mark	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	uffici	ufficio	NOUN	S	Gender=Masc|Number=Plur	31	nsubj	_	_
+30	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	chiusi	chiuso	ADJ	A	Gender=Masc|Number=Plur	17	advcl	_	_
+32	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Il primo problema è proprio quello della coincidenza con le festività.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	proprio	proprio	ADV	B	_	6	advmod	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	coincidenza	coincidenza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	festività	festività	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = " Tenendo conto degli straordinari che dovremo pagare a tutti i dipendenti presenti, si tratta di un aggravio di spesa esorbitante, anche perchè non ci si riferisce soltanto ai dipendenti del Viminale e delle prefetture, ma pure a quelli della Corte d’appello dove ha sede la Commissione centrale elettorale ".
+1	"	"	PUNCT	FB	_	17	punct	_	_
+2	Tenendo	tenere	VERB	V	VerbForm=Ger	17	advcl	_	_
+3	conto	conto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	straordinari	straordinario	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	dovremo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	pagare	pagare	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	dipendenti	dipendente	NOUN	S	Number=Plur	9	obl	_	_
+14	presenti	presente	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	aggravio	aggravio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	esorbitante	esorbitante	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	anche	anche	ADV	B	_	30	advmod	_	_
+26	perchè	perché	SCONJ	CS	_	30	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+28	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	30	expl	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl:impers	_	_
+30	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+31	soltanto	soltanto	ADV	B	_	34	advmod	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	dipendenti	dipendente	NOUN	S	Number=Plur	30	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Viminale	Viminale	PROPN	SP	_	34	nmod	_	_
+38	e	e	CCONJ	CC	_	41	cc	_	_
+39-40	delle	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	prefetture	prefettura	NOUN	S	Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	46	punct	_	_
+43	ma	ma	CCONJ	CC	_	46	cc	_	_
+44	pure	pure	ADV	B	_	46	advmod	_	_
+45	a	a	ADP	E	_	46	case	_	_
+46	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	34	conj	_	_
+47-48	della	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Corte	corte	PROPN	SP	_	46	nmod	_	_
+50	d’	di	ADP	E	_	51	case	_	SpaceAfter=No
+51	appello	appello	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	_
+52	dove	dove	ADV	B	_	53	advmod	_	_
+53	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+54	sede	sede	NOUN	S	Gender=Fem|Number=Sing	53	obj	_	_
+55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	54	nmod	_	_
+57	centrale	centrale	ADJ	A	Number=Sing	56	amod	_	_
+58	elettorale	elettorale	ADJ	A	Number=Sing	56	amod	_	_
+59	"	"	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 9
+# text = E con un obiettivo primario che rimane "quello di contenere la spesa" una scelta del genere pare impensabile.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	primario	primario	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	contenere	contenere	VERB	V	VerbForm=Inf	9	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	16	punct	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	genere	genere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+21	impensabile	impensabile	ADJ	A	Number=Sing	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Al di là della questione meramente economica, il rischio è " che si crei un grave vulnus all’esercizio del diritto di elettorato passivo, con il rischio che alcune forze politiche possano addirittura essere costrette a non partecipare ".
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	là	là	ADV	B	_	17	advmod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	questione	questione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+8	meramente	meramente	ADV	B	_	9	advmod	_	_
+9	economica	economico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+14	"	"	PUNCT	FB	_	17	punct	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	crei	creare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	grave	grave	ADJ	A	Number=Sing	20	amod	_	_
+20	vulnus	vulnus	NOUN	S	Gender=Masc	17	obj	_	_
+21-22	all’	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	elettorato	elettorato	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+29	passivo	passivo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	17	punct	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+34	che	che	SCONJ	CS	_	41	mark	_	_
+35	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	36	det	_	_
+36	forze	forza	NOUN	S	Gender=Fem|Number=Plur	41	nsubj:pass	_	_
+37	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+39	addirittura	addirittura	ADV	B	_	41	advmod	_	_
+40	essere	essere	AUX	VA	VerbForm=Inf	41	aux:pass	_	_
+41	costrette	costringere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	33	advcl	_	_
+42	a	a	ADP	E	_	44	mark	_	_
+43	non	non	ADV	BN	PronType=Neg	44	advmod	_	_
+44	partecipare	partecipare	VERB	V	VerbForm=Inf	41	xcomp	_	_
+45	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 11
+# text = Perché molti elettori potrebbero non essere rintracciabili, come anche gli ufficiali necessari ad autenticare le firme.
+1	Perché	perché	ADV	B	_	7	advmod	_	_
+2	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+7	rintracciabili	rintracciabile	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	come	come	ADP	E	_	12	case	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	ufficiali	ufficiale	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+13	necessari	necessario	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15	autenticare	autenticare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	firme	firma	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = "Decideremo cosa fare", conclude la Cancellieri.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Decideremo	Decidere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Cancellieri	Cancellieri	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Che oggi della questione parlerà in Consiglio dei ministri.
+1	Che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+2	oggi	oggi	ADV	B	_	1	advmod	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	questione	questione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+6	parlerà	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = E si terra conto anche del fatto che "sarebbe opportuno far votare contemporaneamente il Lazio, il Molise e la Lombardia".
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	terra	terra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	conto	conto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	che	che	SCONJ	CS	_	12	mark	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	opportuno	opportuno	ADJ	A	Gender=Masc|Number=Sing	8	advcl	_	_
+13	far	fare	VERB	V	VerbForm=Inf	12	csubj	_	_
+14	votare	votare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	contemporaneamente	contemporaneamente	ADV	B	_	14	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Lazio	Lazio	PROPN	SP	_	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Molise	Molise	PROPN	SP	_	3	nsubj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Lombardia	Lombardia	PROPN	SP	_	20	conj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

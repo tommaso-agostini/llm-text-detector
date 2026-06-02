@@ -1,0 +1,804 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una pressione psicologica può fare male quanto quella fisica.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	psicologica	psicologico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	male	male	ADV	B	_	5	advmod	_	_
+7	quanto	quanto	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	fisica	fisico	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Rosa lo sa.
+1	Rosa	Rosa	PRON	PQ	Number=Sing|PronType=Int	3	iobj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = È lei a raccontare la sua storia.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	raccontare	raccontare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Era giovanissima quando decise di lasciare la casa di famiglia e sposarsi.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	giovanissima	giovane	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	_
+3	quando	quando	SCONJ	CS	_	4	mark	_	_
+4	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	lasciare	lasciare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	sposarsi	_	_	_	_	_	_	_	SpaceAfter=No
+12	sposar	sposare	VERB	V	VerbForm=Inf	4	conj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Con l'arrivo dei figli e le prime difficoltà, l’atmosfera serena dei primi anni era ormai un ricordo.
+1	Con	con	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	10	amod	_	_
+10	difficoltà	difficoltà	NOUN	S	Gender=Fem	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+14	serena	sereno	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	18	amod	_	_
+18	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+19	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+20	ormai	ormai	ADV	B	_	22	advmod	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 6
+# text = La casa non era più un rifugio tranquillo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rifugio	rifugio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = "E' molto difficile uscire e cercare aiuto quando l’autostima viene meno giorno dopo giorno - spiega .
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+5	uscire	uscire	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	cercare	cercare	VERB	V	VerbForm=Inf	5	conj	_	_
+8	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	quando	quando	SCONJ	CS	_	12	mark	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	autostima	autostima	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	meno	meno	ADV	B	_	14	advmod	_	_
+14	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	dopo	dopo	ADP	E	_	16	case	_	_
+16	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	-	-	PUNCT	FB	_	18	punct	_	_
+18	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Un’umiliazione costante che finisce per annientarti e che ti toglie la voglia di vivere.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	umiliazione	umiliazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	costante	costante	ADJ	A	Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	annientarti	annientarto	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	iobj	_	_
+11	toglie	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	vivere	vivere	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = E i miei figli affrontavano il dolore di convivere con una madre spenta e un padre assente".
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	affrontavano	affrontavare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	convivere	convivere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	madre	madre	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	spenta	spento	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	padre	padre	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+17	assente	assente	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Alla fine Rosa stava sempre più male ed è stato il suo stesso fisico a cedere.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Number=Sing	8	obl	_	_
+4	Rosa	Rosa	PROPN	SP	_	8	nsubj	_	_
+5	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	male	male	ADV	B	_	0	root	_	_
+9	ed	e	CCONJ	CC	_	15	cc	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+11	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	fisico	fisico	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	cedere	cedere	VERB	V	VerbForm=Inf	15	acl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = "Alla fine è il corpo che ti avvisa - dice Rosa- Pensavo fosse una cervicale, ma poi gli episodi sono stati sempre più frequenti e una sola diagnosi:
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2-3	Alla	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	fine	fine	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	iobj	_	_
+10	avvisa	avvisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	-	-	PUNCT	FF	_	12	punct	_	_
+12	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+13	Rosa	rosa	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	12	punct	_	_
+15	Pensavo	pensare	PROPN	SP	_	18	nsubj	_	_
+16	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cervicale	cervicale	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	28	punct	_	_
+20	ma	ma	CCONJ	CC	_	28	cc	_	_
+21	poi	poi	ADV	B	_	28	advmod	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+24	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+25	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	cop	_	_
+26	sempre	sempre	ADV	B	_	27	advmod	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	frequenti	frequente	ADJ	A	Number=Plur	18	conj	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sola	solo	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+32	diagnosi	diagnosi	NOUN	S	Gender=Fem	18	conj	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	18	punct	_	_
+
+# sent_id = 12
+# text = soffrivo di forti attacchi di panico.
+1	soffrivo	soffrivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	forti	forte	ADJ	A	Number=Plur	4	amod	_	_
+4	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	panico	panico	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Forse un'altra avrebbe reagito con più forza, ma io non ci sono riuscita".
+1	Forse	forse	ADV	B	_	5	advmod	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	5	nsubj	_	_
+4	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	reagito	reagire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	forza	forza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Come uscire da tutto questo?
+1	Come	come	ADP	E	_	2	mark	_	_
+2	uscire	uscire	VERB	V	VerbForm=Inf	0	root	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Rosa ce l’ha fatta.
+1	Rosa	Rosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+2	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+3	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = “Bisogna sempre chiedere aiuto, cercare qualcuno di competente che possa aiutarti.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	chiedere	chiedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	cercare	cercare	VERB	V	VerbForm=Inf	4	conj	_	_
+8	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	competente	competente	ADJ	A	Number=Sing	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	aiutarti	aiutartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Guarire si può.
+1	Guarire	guarire	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	può	potere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Prima di tutto, però, bisogna capire che il problema è in chi effettua la violenza e non in te”.
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	capire	capire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	che	che	SCONJ	CS	_	14	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	problema	problema	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	ccomp	_	_
+15	effettua	effettuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	conj	_	SpaceAfter=No
+22	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = Lo stigma.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	stigma	stigma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Oggi Rosa ha 50 anni .
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	Rosa	Rosa	PROPN	SP	_	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	50	50	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Con la sua storia è un esempio di ciò che si può considerare “stigma”:
+1	Con	con	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj:pass	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	considerare	considerare	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+14	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	stigma	stigma	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+16	”	”	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 22
+# text = quando qualcuno, in base a delle caratteristiche di genere, finisce per vederti in un certo modo, esercitando una pressione psicologica che condiziona e può anche sfociare in una patologia medica.
+1	quando	quando	SCONJ	CS	_	13	mark	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	base	base	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	6	fixed	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	genere	genere	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15-16	vederti	_	_	_	_	_	_	_	_
+15	veder	vedere	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obj	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	certo	certo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	modo	modo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	esercitando	esercitare	VERB	V	VerbForm=Ger	13	advcl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	psicologica	psicologico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	condiziona	condizionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	anche	anche	ADV	B	_	31	advmod	_	_
+31	sfociare	sfociare	VERB	V	VerbForm=Inf	27	conj	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+35	medica	medico	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 23
+# text = La Giornata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Lo stigma colpisce a morte le donne con il femminicidio, ma anche attraverso il pregiudizio, che porta solitudine e la malattia.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	stigma	stigma	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	colpisce	colpire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	morte	morte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	femminicidio	femminicidio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	ma	ma	CCONJ	CC	_	16	cc	_	_
+13	anche	anche	ADV	B	_	16	advmod	_	_
+14	attraverso	attraverso	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pregiudizio	pregiudizio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	solitudine	solitudine	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = In occasione della Giornata dello stigma il 14 e il 15 ottobre a Ferrara, presso l’aula magna del dipartimento di giurisprudenza, l’alta scuola italiana per la lotta allo stigma (A.S.I.L.S. ), organizza una serie di incontri dedicati al pregiudizio e allo stereotipo nei confronti del genere femminile.
+1	In	in	ADP	E	_	2	case	_	_
+2	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	stigma	stigma	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	14	14	NUM	N	NumType=Card	8	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	15	15	NUM	N	NumType=Card	10	conj	_	_
+14	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Ferrara	Ferrara	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	presso	presso	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	aula	aula	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+21	magna	magno	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	giurisprudenza	giurisprudenza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	20	punct	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+29	alta	alto	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+30	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	42	nsubj	_	_
+31	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+35-36	allo	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	stigma	stigma	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	(	(	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	A.S.I.L.S.	A.S.I.L.S.	PROPN	SP	_	37	appos	_	_
+40	)	)	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	30	punct	_	_
+42	organizza	organizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+43	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	serie	serie	NOUN	S	Gender=Fem	42	obj	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	incontri	incontro	NOUN	S	Gender=Masc|Number=Plur	44	nmod	_	_
+47	dedicati	dedicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	46	acl	_	_
+48-49	al	_	_	_	_	_	_	_	_
+48	a	a	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	pregiudizio	pregiudizio	NOUN	S	Gender=Masc|Number=Sing	47	obl	_	_
+51	e	e	CCONJ	CC	_	54	cc	_	_
+52-53	allo	_	_	_	_	_	_	_	_
+52	a	a	ADP	E	_	54	case	_	_
+53	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	stereotipo	stereotipo	NOUN	S	Gender=Masc|Number=Sing	50	conj	_	_
+55-56	nei	_	_	_	_	_	_	_	_
+55	in	in	ADP	E	_	57	case	_	_
+56	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
+57	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	54	nmod	_	_
+58-59	del	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	60	case	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	genere	genere	NOUN	S	Gender=Masc|Number=Sing	57	nmod	_	_
+61	femminile	femminile	ADJ	A	Number=Sing	60	amod	_	SpaceAfter=No
+62	.	.	PUNCT	FS	_	42	punct	_	_
+
+# sent_id = 26
+# text = Per capire che nella società alcune caratteristiche femminili spesso vengono stigmatizzate, diventando un condizionamento sociale che può sfociare in patologie mediche e psicologiche.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	capire	capire	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	12	mark	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	società	società	NOUN	S	Gender=Fem	12	obl	_	_
+7	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+9	femminili	femminile	ADJ	A	Number=Plur	8	amod	_	_
+10	spesso	spesso	ADV	B	_	8	advmod	_	_
+11	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	stigmatizzate	stigmatizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	diventando	diventare	VERB	V	VerbForm=Ger	2	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	condizionamento	condizionamento	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	sociale	sociale	ADJ	A	Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	sfociare	sfociare	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	patologie	patologia	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+23	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	psicologiche	psicologico	ADJ	A	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Come curare le ferite.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	curare	curare	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	ferite	ferita	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = "L’obiettivo è far nascere - spiega il professor Antonino Minervino, fondatore e segretario scientifico della scuola - dei gruppi di discussione.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	nascere	nascere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	-	-	PUNCT	FB	_	8	punct	_	_
+8	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	professor	professore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	Antonino	Antonino	PROPN	SP	_	10	nmod	_	_
+12	Minervino	Minervino	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	10	appos	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+17	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	-	-	PUNCT	FB	_	16	punct	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = Un vero e proprio investimento per le future generazioni.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	vero	vero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+5	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	future	futuro	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = La cronaca racconta di uomini che uccidono le donne, di donne che si tolgono la vita perché esposte a feroci aggressioni, ma la violenza e il femminicidio sono la parte più evidente di una questione ben più ampia e profonda che non si può solo affrontare quando si ha una recrudescenza di violenza".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	uccidono	uccidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	tolgono	tolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	perché	perché	SCONJ	CS	_	19	mark	_	_
+19	esposte	esporre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	feroci	feroco	ADJ	A	Number=Plur	22	amod	_	_
+22	aggressioni	aggressione	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	32	punct	_	_
+24	ma	ma	CCONJ	CC	_	32	cc	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	femminicidio	femminicidio	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+30	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	evidente	evidente	ADJ	A	Number=Sing	32	amod	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	questione	questione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+38	ben	bene	ADV	B	_	40	advmod	_	_
+39	più	più	ADV	B	_	40	advmod	_	_
+40	ampia	ampio	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	40	conj	_	_
+43	che	che	PRON	PR	PronType=Rel	48	obj	_	_
+44	non	non	ADV	BN	PronType=Neg	48	advmod	_	_
+45	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	48	expl:impers	_	_
+46	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+47	solo	solo	ADV	B	_	48	advmod	_	_
+48	affrontare	affrontare	VERB	V	VerbForm=Inf	37	acl:relcl	_	_
+49	quando	quando	SCONJ	CS	_	51	mark	_	_
+50	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	51	expl:impers	_	_
+51	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	advcl	_	_
+52	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	recrudescenza	recrudescenza	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	_
+54	di	di	ADP	E	_	55	case	_	_
+55	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	53	nmod	_	SpaceAfter=No
+56	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = Come affrontare il problema?
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	affrontare	affrontare	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	problema	problema	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = "Bisogna porre la questione di genere come fondamento pedagogico.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	porre	porre	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	genere	genere	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	fondamento	fondamento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	pedagogico	pedagogico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = Va riscoperta la radice comune da cui partono le differenze e questa sta nella costruzione della soggettività.
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	riscoperta	riscoprire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	radice	radice	NOUN	S	Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+5	comune	comune	ADJ	A	Number=Sing	4	amod	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+8	partono	parte	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	_
+13	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	soggettività	soggettività	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 34
+# text = Ogni azione che disconosca la soggettività genera stigma”.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	azione	azione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	disconosca	disconoscere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	soggettività	soggettività	NOUN	S	Gender=Fem	4	obj	_	_
+7	genera	genero	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	stigma	stigmo	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 35
+# text = I dati.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dati	dato	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = Nei primi otto mesi del 2016 in Italia – secondo l'Eures, l'Istituto di ricerche economiche - ci sono stati 76 femminicidi.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	5	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+4	otto	otto	NUM	N	NumType=Card	5	nummod	_	_
+5	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2016	2016	NUM	N	NumType=Card	5	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Italia	Italia	PROPN	SP	_	8	nmod	_	_
+11	–	–	PUNCT	FB	_	5	punct	_	_
+12	secondo	secondo	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	Eures	Eures	PROPN	SP	_	24	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	Istituto	istituto	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	_
+20	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	-	-	PUNCT	FF	_	19	punct	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+25	76	76	NUM	N	NumType=Card	26	nummod	_	_
+26	femminicidi	femminicidio	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 37
+# text = Il dato sale a 80 inglobando anche gli ultimi fatti di cronaca.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dato	dato	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sale	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	80	80	NUM	N	NumType=Card	3	nummod	_	_
+6	inglobando	inglobare	VERB	V	VerbForm=Ger	3	advcl	_	_
+7	anche	anche	ADV	B	_	10	advmod	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 38
+# text = Negli ultimi dieci anni le donne uccise nel nostro Paese sono state 1740: 1251 (il 71,9%) in famiglia, 846 di queste (il 67,6%) all'interno della coppia e 224 per mano di un ex.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	5	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+4	dieci	dieci	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+8	uccise	uccidere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+15	1740	1740	NUM	N	NumType=Card	14	xcomp	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	14	punct	_	_
+17	1251	1251	NUM	N	NumType=Card	21	nummod	_	_
+18	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	71,9	71,9	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	SYM	_	14	obl	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	21	punct	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	14	punct	_	_
+26	846	846	NUM	N	NumType=Card	14	xcomp	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	26	nmod	_	_
+29	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	67,6	67,6	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+32	%	%	SYM	SYM	_	28	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	32	punct	_	_
+34-35	all'	_	_	_	_	_	_	_	SpaceAfter=No
+34	a	a	ADP	E	_	36	case	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	interno	interno	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41	224	224	NUM	N	NumType=Card	43	nummod	_	_
+42	per	per	ADP	E	_	43	case	_	_
+43	mano	mano	NOUN	S	Gender=Fem|Number=Sing	36	conj	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	ex	ex	NOUN	S	_	43	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+

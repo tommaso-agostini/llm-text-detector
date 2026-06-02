@@ -1,0 +1,320 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma in questo scenario complicato, tra dichiarazioni contrastanti e silenzi scomodi, emerge una voce autorevole, un pragmatismo lucido che forse può illuminare la strada:
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+5	complicato	complicato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+9	contrastanti	contrastante	ADJ	A	Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	silenzi	silenzi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	_
+12	scomodi	scomodo	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	voce	voce	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+17	autorevole	autorevole	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pragmatismo	pragmatismo	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+21	lucido	lucido	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+23	forse	forse	ADV	B	_	25	advmod	_	_
+24	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	illuminare	illuminare	VERB	V	VerbForm=Inf	20	acl:relcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	strada	strada	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 2
+# text = quella di Antonio Navarra, capoproponente del Partito Radicale per l'ambiente.
+1	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Antonio	Antonio	PROPN	SP	_	1	nmod	_	_
+4	Navarra	Navarra	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	capoproponente	capoproponente	NOUN	S	Number=Sing	3	appos	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Radicale	radicale	ADJ	A	Number=Sing	9	amod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Navarra, ascoltato in un'intervista a stretto contatto, è chiaro:
+1	Navarra	Navarra	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 4
+# text = “Non abbiamo la bacchetta magica.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	bacchetta	bacchetta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	magica	magico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non c'è un singolo intervento, una tecnologia rivoluzionaria o un decreto che, da solo, risolverà il problema del riscaldamento globale.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+10	rivoluzionaria	rivoluzionario	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	19	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	solo	solo	ADV	B	_	19	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	risolverà	risolvere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	problema	problema	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	riscaldamento	riscaldamento	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	globale	globale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Certezze false e false speranze sono un pericolo ben più grande della realtà, che è complessa, articolata e, ammettiamolo, dolorosamente lenta da modificare”.
+1	Certezze	certezza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+2	false	falso	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	false	falso	ADJ	A	Gender=Fem|Number=Plur	2	conj	_	_
+5	speranze	speranze	NOUN	S	Gender=Fem|Number=Plur	1	compound	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	ben	bene	ADV	B	_	11	advmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	realtà	realtà	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	8	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	articolata	articolare	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23-24	ammettiamolo	_	_	_	_	_	_	_	SpaceAfter=No
+23	ammettiamo	ammettere	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	conj	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	dolorosamente	doloroso	ADV	B	_	27	advmod	_	_
+27	lenta	lentire	ADJ	A	Gender=Fem|Number=Sing	23	xcomp	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29	modificare	modificare	VERB	V	VerbForm=Inf	27	acl	_	SpaceAfter=No
+30	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = La sua posizione, che lieta di sfatare i miti puristi e le soluzioni semplicistiche, è un'arma a doppio taglio:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	lieta	lietare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	sfatare	sfatare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	miti	mito	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	puristi	purista	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+15	semplicistiche	semplicistico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	arma	arma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	doppio	doppio	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	taglio	taglio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 8
+# text = rischia di essere fraintesa come un appello all'immobilismo, come una giustificazione per rinunciare a un futuro sostenibile.
+1	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	4	mark	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	aux:pass	_	_
+4	fraintesa	fraintendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	appello	appello	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	immobilismo	immobilismo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	giustificazione	giustificazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	rinunciare	rinunciare	VERB	V	VerbForm=Inf	4	advcl	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	sostenibile	sostenibile	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Ma Navarra insiste sul punto cruciale:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	Navarra	Navarra	PROPN	SP	_	3	nsubj	_	_
+3	insiste	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	punto	punto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	cruciale	cruciale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = “Rispettare gli accordi di Parigi è la base, il fondamento su cui dobbiamo costruire qualsiasi strategia concreta.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Rispettare	rispettare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Parigi	Parigi	PROPN	SP	_	4	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	base	base	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fondamento	fondamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	costruire	costruire	VERB	V	VerbForm=Inf	12	acl:relcl	_	_
+17	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	concreta	concreto	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Non si tratta di un atto di carità verso il pianeta, ma di un obbligo giuridico, di una responsabilità nei confronti delle generazioni future, di un’autoconservazione”.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	atto	atto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	carità	carità	NOUN	S	Gender=Fem	6	nmod	_	_
+9	verso	verso	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+17	giuridico	giuridico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	responsabilità	responsabilità	NOUN	S	Gender=Fem	16	nmod	_	_
+22-23	nei	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+28	future	futuro	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	autoconservazione	autoconservazione	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+33	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = E sottolinea come l'attuale scenario politico italiano sia il più peggiore in Europa per quanto riguarda la politica ambientale:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	ADP	E	_	6	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	attuale	attuale	ADJ	A	Number=Sing	6	amod	_	_
+6	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	politico	politico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+9	sia	essere	CCONJ	CC	_	12	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	peggiore	peggiore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Europa	Europa	PROPN	SP	_	12	obl	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
+17	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	politica	politica	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	ambientale	ambientale	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = "Abbiamo un governo che – con le sue dichiarazioni, spesso contraddittorie – minaccia costantemente di allentare gli impegni presi, che mette in
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+6	–	–	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	spesso	spesso	ADV	B	_	13	advmod	_	_
+13	contraddittorie	contraddittorio	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+14	–	–	PUNCT	FB	_	10	punct	_	_
+15	minaccia	minacciare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+16	costantemente	costantemente	ADV	B	_	18	advmod	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	allentare	allentare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	presi	prendere	ADJ	A	Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+25	in	in	ADP	E	_	20	case	_	SpacesAfter=\n
+

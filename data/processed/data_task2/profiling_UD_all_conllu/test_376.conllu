@@ -1,0 +1,362 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A me pare, con tutto il rispetto, che il Papa neghi l’evidenza".
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Papa	Papa	PROPN	SP	_	13	nsubj	_	_
+13	neghi	nego	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	evidenza	evidenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Così il segretario federale della Lega Nord, Matteo Salvini , ha commentato su Facebook le dichiarazioni di Papa Francesco che in un messaggio ai Movimenti popolari riuniti in California ha affermato:
+1	Così	così	ADV	B	_	14	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+4	federale	federale	ADJ	A	Number=Sing	3	amod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Lega	Lega	PROPN	SP	_	3	nmod	_	_
+8	Nord	Nord	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	Matteo	Matteo	PROPN	SP	_	3	appos	_	_
+11	Salvini	Salvini	PROPN	SP	_	10	flat:name	_	_
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	commentato	commentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	su	su	ADP	E	_	16	case	_	_
+16	Facebook	Facebook	PROPN	SP	_	14	obl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Papa	Papa	PROPN	SP	_	18	nmod	_	_
+21	Francesco	Francesco	PROPN	SP	_	20	flat:name	_	_
+22	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+26-27	ai	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	Movimenti	movimento	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	popolari	popolare	ADJ	A	Number=Plur	28	amod	_	_
+30	riuniti	riunire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	California	California	PROPN	SP	_	30	obl	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	14	punct	_	_
+
+# sent_id = 3
+# text = "Nessun popolo è criminale, e nessuna religione è terrorista.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	criminale	criminale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	religione	religione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	terrorista	terrorista	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Non esiste il terrorismo cristiano, non esiste il terrorismo ebraico e non esiste il terrorismo islamico.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	cristiano	cristiano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	ebraico	ebraico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	islamico	islamico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non esistono", ha scritto il Papa.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Papa	Papa	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = "Nessun popolo - ha affermato il Papa - è criminale o narcotrafficante o violento".
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	Nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Papa	Papa	PROPN	SP	_	6	nsubj	_	_
+9	-	-	PUNCT	FF	_	6	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	criminale	criminale	ADJ	A	Number=Sing	0	root	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	narcotrafficante	narcotrafficante	ADJ	A	Number=Sing	11	conj	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	violento	violento	ADJ	A	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = Secondo il Pontefice, infatti, "ci sono persone fondamentaliste e violente in tutti i popoli e in tutte religioni, che si rafforzano anche con le generalizzazioni intolleranti, e si nutrono dall’odio e dalla xenofobia".
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Pontefice	pontefice	PROPN	SP	_	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+11	fondamentaliste	fondamentalista	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	violente	violento	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	21	det	_	_
+21	religioni	religione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	rafforzano	rafforzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	anche	anche	ADV	B	_	29	advmod	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	generalizzazioni	generalizzazione	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+30	intolleranti	intollerante	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	34	punct	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	nutrono	nutrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+35-36	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+35	da	da	ADP	E	_	37	case	_	_
+36	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	odio	odio	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+38	e	e	CCONJ	CC	_	41	cc	_	_
+39-40	dalla	_	_	_	_	_	_	_	_
+39	da	da	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	xenofobia	xenofobia	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = E sulle parole di Bergoglio è arrivato anche il commento di Roberto Calderoli:
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2-3	sulle	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	parole	parola	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Bergoglio	Bergoglio	PROPN	SP	_	4	nmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	commento	commento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Roberto	Roberto	PROPN	SP	_	11	nmod	_	_
+14	Calderoli	Calderoli	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 9
+# text = "Il Viminale ci comunica che in poco più di un mese sono sbarcati 9456 immigrati, addirittura il 43% in più rispetto ad un anno fa.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Viminale	Viminale	PROPN	SP	_	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+5	comunica	comunica	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	14	mark	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	poco	poco	ADV	B	_	9	advmod	_	_
+9	più	più	ADV	B	_	14	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mese	mese	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	sbarcati	sbarcare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	ccomp	_	_
+15	9456	9456	NUM	N	NumType=Card	16	nummod	_	_
+16	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	addirittura	addirittura	ADV	B	_	21	advmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	43	43	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	SYM	_	14	obl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	più	più	ADV	B	_	21	advmod	_	_
+24	rispetto	rispetto	ADV	B	_	27	case	_	_
+25	ad	a	ADP	E	_	24	fixed	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	anno	anno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+28	fa	fa	ADV	B	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Questo significa che rischiamo di farci invadere da oltre 200mila immigrati in questo 2017 e intanto Papa Francesco sostiene che dobbiamo integrarli tutti e ci indica come modello di accoglienza la Svezia , che a ogni immigrato ha dato lavoro".
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	rischiamo	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	farci	_	_	_	_	_	_	_	_
+6	far	fare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	_
+8	invadere	invadere	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	oltre	oltre	ADV	B	_	11	advmod	_	_
+11	200mila	200mila	NUM	N	NumType=Card	12	nummod	_	_
+12	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	2017	2017	NUM	N	NumType=Card	8	obl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	intanto	intanto	ADV	B	_	20	advmod	_	_
+18	Papa	Papa	PROPN	SP	_	20	nsubj	_	_
+19	Francesco	Francesco	PROPN	SP	_	18	flat:name	_	_
+20	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	che	che	SCONJ	CS	_	23	mark	_	_
+22	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23-24	integrarli	_	_	_	_	_	_	_	_
+23	integrar	integrare	VERB	V	VerbForm=Inf	20	ccomp	_	_
+24	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+25	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	23	nsubj	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	_
+28	indica	indicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+29	come	come	ADP	E	_	30	case	_	_
+30	modello	modello	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Svezia	Svezia	PROPN	SP	_	32	nmod	_	_
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	39	det	_	_
+39	immigrato	immigrato	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+40	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl:relcl	_	_
+42	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	SpaceAfter=No
+43	"	"	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = "No, caro Santo Padre, intanto l'Italia, a differenza della Svezia, ha una disoccupazione generale oltre l'11% e una disoccupazione giovanile oltre il 40%, per cui il lavoro prima di tutto lo dobbiamo dare ai nostri, e poi se andiamo avanti così, ad essere invasi con questo ritmo, con questi numeri, presto saremo noi a dover essere integrati da loro", aggiunge Calderoli
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	I	Polarity=Neg	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Santo	Santo	PROPN	SP	_	18	nsubj	_	_
+6	Padre	Padre	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	intanto	intanto	ADV	B	_	10	advmod	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Italia	Italia	PROPN	SP	_	5	appos	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Svezia	Svezia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	generale	generale	ADJ	A	Number=Sing	20	amod	_	_
+22	oltre	oltre	ADP	E	_	25	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+24	11	11	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+25	%	%	SYM	SYM	_	18	obl	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+29	giovanile	giovanile	ADJ	A	Number=Sing	28	amod	_	_
+30	oltre	oltre	ADP	E	_	33	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	40	40	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+33	%	%	SYM	SYM	_	29	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	28	punct	_	_
+35	per	per	ADP	E	_	36	case	_	_
+36	cui	cui	PRON	PR	PronType=Rel	44	obl	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	44	nsubj	_	_
+39	prima	prima	ADV	B	_	41	case	_	_
+40	di	di	ADP	E	_	39	fixed	_	_
+41	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	44	obl	_	_
+42	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obj	_	_
+43	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	dare	dare	VERB	V	VerbForm=Inf	28	acl:relcl	_	_
+45-46	ai	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	52	case	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+47	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	52	det:poss	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	52	punct	_	_
+49	e	e	CCONJ	CC	_	52	cc	_	_
+50	poi	poi	ADV	B	_	52	advmod	_	_
+51	se	se	SCONJ	CS	_	52	mark	_	_
+52	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	44	obl	_	_
+53	avanti	avanti	ADV	B	_	52	advmod	_	_
+54	così	così	ADV	B	_	52	advmod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	18	punct	_	_
+56	ad	a	ADP	E	_	58	mark	_	_
+57	essere	essere	AUX	V	VerbForm=Inf	58	cop	_	_
+58	invasi	invanere	ADJ	A	Gender=Masc|Number=Plur	18	conj	_	_
+59	con	con	ADP	E	_	61	case	_	_
+60	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	61	det	_	_
+61	ritmo	ritmo	NOUN	S	Gender=Masc|Number=Sing	58	obl	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	18	punct	_	_
+63	con	con	ADP	E	_	65	case	_	_
+64	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	65	det	_	_
+65	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+66	,	,	PUNCT	FF	_	68	punct	_	_
+67	presto	presto	ADV	B	_	68	advmod	_	_
+68	saremo	sare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	18	conj	_	_
+69	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	68	nsubj	_	_
+70	a	a	ADP	E	_	73	mark	_	_
+71	dover	dovere	AUX	VM	VerbForm=Inf	73	aux	_	_
+72	essere	essere	AUX	VA	VerbForm=Inf	73	aux:pass	_	_
+73	integrati	integrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	68	xcomp	_	_
+74	da	da	ADP	E	_	75	case	_	_
+75	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	73	obl:agent	_	SpaceAfter=No
+76	"	"	PUNCT	FB	_	75	punct	_	SpaceAfter=No
+77	,	,	PUNCT	FF	_	78	punct	_	_
+78	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+79	Calderoli	Calderoli	PROPN	SP	_	78	nsubj	_	SpacesAfter=\n
+

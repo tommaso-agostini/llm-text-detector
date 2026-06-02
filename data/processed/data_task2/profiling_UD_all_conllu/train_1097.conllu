@@ -1,0 +1,709 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quale Ateneo forgia il supertop manager, l'amministratore delegato (Chief executive officer, Ceo) perfetto?
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	Ateneo	ateneo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	forgia	forgiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	supertop	supertop	ADJ	A	_	6	amod	_	_
+6	manager	manager	NOUN	S	_	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	amministratore	amministratore	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+10	delegato	delegato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Chief	Chief	X	SW	Foreign=Yes	9	appos	_	_
+13	executive	executivo	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	officer	officer	X	SW	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	Ceo	ceo	PROPN	SP	_	12	appos	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	12	punct	_	_
+18	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Se il vostro sogno è scalare le vette dei gruppi economici mondiali, che vantano fatturati da centinaia di miliardi di dollari, allora potreste darvi una chance iscrivendovi all'Università giusta.
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	scalare	scalare	VERB	V	VerbForm=Inf	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	vette	vetta	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	economici	economico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	mondiali	mondiale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	vantano	vantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+17	fatturati	fatturare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	xcomp	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	17	obl:agent	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	6	punct	_	_
+25	allora	allora	ADV	B	_	26	advmod	_	_
+26	potreste	potresta	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	advcl	_	_
+27-28	darvi	_	_	_	_	_	_	_	_
+27	dar	dare	VERB	V	VerbForm=Inf	26	advcl	_	_
+28	vi	vi	ADV	B	_	27	advmod	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	chance	chance	NOUN	S	Gender=Fem	27	obj	_	_
+31-32	iscrivendovi	_	_	_	_	_	_	_	_
+31	iscrivendo	iscrivere	VERB	V	VerbForm=Ger	27	advcl	_	_
+32	vi	vi	ADV	B	_	31	advmod	_	_
+33-34	all'	_	_	_	_	_	_	_	SpaceAfter=No
+33	a	a	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	Università	Università	NOUN	S	Gender=Fem	31	obl	_	_
+36	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ma dovete essere in grado di pagare rette che in molti casi (ma non tutti) sfiorano i 40.000 euro all'anno.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	dovete	dovere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	grado	grado	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	pagare	pagare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	rette	rettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+9	che	che	SCONJ	CS	_	18	mark	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	casi	caso	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	conj	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	_
+18	sfiorano	sfiorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	40.000	40.000	NUM	N	NumType=Card	21	nummod	_	_
+21	euro	euro	NOUN	S	Gender=Masc	18	obj	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	anno	anno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Times Higher Education, che stila classifiche sui sistemi universitari di tutto il mondo, in tempi di crisi economica e globalizzazione punta l'obbiettivo sulle potenzialità di carriera.
+1	Times	Times	PROPN	SP	_	24	nsubj	_	_
+2	Higher	Higher	PROPN	SP	_	1	flat:name	_	_
+3	Education	education	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	stila	stilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+7	classifiche	classifica	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11	universitari	universitario	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	15	det:predet	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	crisi	crisi	NOUN	S	Gender=Fem	18	nmod	_	_
+21	economica	economico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	globalizzazione	globalizzazione	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+24	punta	puntare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	obbiettivo	obbiettivo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27-28	sulle	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	potenzialità	potenzialità	NOUN	S	Gender=Fem	26	nmod	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 5
+# text = Dove si sono laureati i 500 amministratori delegati delle più grandi aziende mondiali?
+1	Dove	dove	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	laureati	laureare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	500	500	NUM	N	NumType=Card	7	nummod	_	_
+7	amministratori	amministratore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+8	delegati	delegato	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	13	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	grandi	grande	ADJ	A	Number=Plur	13	amod	_	_
+13	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+14	mondiali	mondiale	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Scorriamo l'Alma Mater Index:
+1	Scorriamo	Scorrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Alma	Alma	PROPN	SP	_	1	obj	_	_
+4	Mater	Mater	PROPN	SP	_	3	flat:name	_	_
+5	Index	Index	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 7
+# text = Global Executive e scopriamo così (e non è una sorpresa) che ad allevare il maggior numero di manager di successo mondiale è l'università americana di Harvard seguita da quella di Tokio.
+1	Global	Global	PROPN	SP	_	0	root	_	_
+2	Executive	Executive	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	scopriamo	scoprire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	così	così	ADV	B	_	4	advmod	_	_
+6	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	_
+13	che	che	SCONJ	CS	_	26	mark	_	_
+14	ad	a	ADP	E	_	15	mark	_	_
+15	allevare	allevare	VERB	V	VerbForm=Inf	26	ccomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+18	numero	numero	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	manager	manager	NOUN	S	_	22	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	successo	successo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+23	mondiale	mondiale	ADJ	A	Number=Sing	22	amod	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	università	università	NOUN	S	Gender=Fem	4	obj	_	_
+27	americana	americano	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Harvard	Harvard	PROPN	SP	_	26	nmod	_	_
+30	seguita	seguire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+31	da	da	ADP	E	_	32	case	_	_
+32	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	30	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Tokio	Tokio	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Nell'ateneo Usa più prestigioso, frequentato in passato da John F. Kennedy e Barack Obama, si è laureato il 5 per cento dei 500 top Ceo, 25 in tutto mentre l'Università di Tokyo ne ha forgiati 13, il 3%.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	ateneo	ateneo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+4	Usa	Usa	PROPN	SP	_	3	nmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	prestigioso	prestigioso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	frequentato	frequentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	passato	passato	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	John	John	PROPN	SP	_	8	obl:agent	_	_
+13	F.	F.	PROPN	SP	_	12	flat:name	_	_
+14	Kennedy	Kennedy	PROPN	SP	_	12	flat:name	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Barack	Barack	PROPN	SP	_	12	conj	_	_
+17	Obama	Obama	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	5	5	NUM	N	NumType=Card	21	nsubj	_	_
+24	per	per	ADP	E	_	25	case	_	_
+25	cento	cento	NUM	N	NumType=Card	23	nummod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	500	500	NUM	N	NumType=Card	29	nummod	_	_
+29	top	top	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+30	Ceo	ceo	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	25	25	NUM	N	NumType=Card	29	nummod	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	tutto	tutto	ADV	B	_	32	advmod	_	_
+35	mentre	mentre	SCONJ	CS	_	42	mark	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	Università	università	NOUN	S	Gender=Fem	42	nsubj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Tokyo	Tokyo	PROPN	SP	_	37	nmod	_	_
+40	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	42	iobj	_	_
+41	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	forgiati	forgiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	34	advcl	_	_
+43	13	13	NUM	N	NumType=Card	42	obj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	42	punct	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	3	3	NUM	N	NumType=Card	47	nummod	_	SpaceAfter=No
+47	%	%	SYM	SYM	_	42	obl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 9
+# text = Tra i primi 10 dominano gli Usa con quattro istituzioni con un alto numero di graduati al top del bussines mondiale:
+1	Tra	tra	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	10	10	NUM	N	NumType=Card	5	obl	_	_
+5	dominano	dominare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Usa	Usa	PROPN	SP	_	5	nsubj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	quattro	quattro	NUM	N	NumType=Card	10	nummod	_	_
+10	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	alto	alto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	numero	numero	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	graduati	graduato	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	top	top	NOUN	S	Gender=Masc	14	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bussines	bussines	NOUN	S	Gender=Masc	19	nmod	_	_
+23	mondiale	mondiale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 10
+# text = Harvard (25), Stanford (13), University of Pennsylvania (9), Massachusetts Institute of Technology (9).
+1	Harvard	Harvard	NOUN	S	_	0	root	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	25	25	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Stanford	Stanford	PROPN	SP	_	1	conj	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	13	13	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	University	University	PROPN	SP	_	1	conj	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	Pennsylvania	Pennsylvania	PROPN	SP	_	11	nmod	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	9	9	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	Massachusetts	Massachusetts	PROPN	SP	_	1	conj	_	_
+19	Institute	Institute	PROPN	SP	_	18	nmod	_	_
+20	of	of	ADP	E	_	21	case	_	_
+21	Technology	Technology	PROPN	SP	_	19	nmod	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	9	9	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Al secondo posto l'Europa grazie alla Francia.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Europa	Europa	PROPN	SP	_	4	nmod	_	_
+7	grazie	grazie	NOUN	S	_	10	case	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Francia	Francia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Tre atenei tra i primi dieci:
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	atenei	ateneo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	tra	tra	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	6	amod	_	_
+6	dieci	diece	NUM	N	NumType=Card	2	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = l'Ecole Polytechnique (12), Hec Paris (10), Ena (9).
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Ecole	Ecole	PROPN	SP	_	0	root	_	_
+3	Polytechnique	Polytechnique	PROPN	SP	_	2	flat:name	_	_
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	12	12	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Hec	Hec	PROPN	SP	_	2	appos	_	_
+9	Paris	Paris	PROPN	SP	_	8	flat:name	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	10	10	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	Ena	Ena	PROPN	SP	_	8	nmod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	9	9	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Sale e si potenzia la posizione del Giappone con due istituzioni:
+1	Sale	salire	ADJ	A	Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	potenzia	potenziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Giappone	Giappone	PROPN	SP	_	6	nmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 15
+# text = Tokyo (14), Keio (8).
+1	Tokyo	Tokyo	PROPN	SP	_	0	root	_	_
+2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	14	14	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	Keio	Keio	PROPN	SP	_	1	nmod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	8	8	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = L'Inghilterra si piazza "solo" al 21mo posto grazie ad Oxford (5).
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Inghilterra	Inghilterra	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	piazza	piazzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	solo	solo	ADV	B	_	11	advmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	21mo	21mo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	grazie	grazie	NOUN	S	_	14	case	_	_
+13	ad	a	ADP	E	_	12	fixed	_	_
+14	Oxford	Oxford	PROPN	SP	_	11	nmod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	5	5	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = E se sono sempre gli Usa a dominare la classifica dei primi 100 con 38 istituzioni la Cina accelera il passo con 15 università nella lista.
+1	E	e	CCONJ	CC	_	20	cc	_	_
+2	se	se	SCONJ	CS	_	6	mark	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Usa	Usa	PROPN	SP	_	20	advcl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	dominare	dominare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	classifica	classifica	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	14	amod	_	_
+14	100	100	NUM	N	NumType=Card	10	nmod	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	38	38	NUM	N	NumType=Card	17	nummod	_	_
+17	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Cina	Cina	PROPN	SP	_	20	nsubj	_	_
+20	accelera	accelerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	passo	passo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	15	15	NUM	N	NumType=Card	25	nummod	_	_
+25	università	università	NOUN	S	Gender=Fem	22	nmod	_	_
+26-27	nella	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	lista	lista	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 18
+# text = L'Italia c'è grazie alla Bocconi di Milano ed alla Sapienza di Roma, 3 superCeo per ciascun Ateneo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	4	nsubj	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	grazie	grazie	NOUN	S	_	8	case	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Bocconi	bocconi	PROPN	SP	_	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Milano	Milano	PROPN	SP	_	8	nmod	_	_
+11	ed	e	CCONJ	CC	_	14	cc	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Sapienza	sapienza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Roma	Roma	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	3	3	NUM	N	NumType=Card	19	nummod	_	_
+19	superCeo	superCeo	PROPN	SP	_	4	nmod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	ciascun	ciascuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+22	Ateneo	ateneo	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Presente tra i primi cento anche il Politecnico che ha insegnato a cavalcare con successo il business a due attuali Ceo.
+1	Presente	presente	ADV	B	_	8	advmod	_	_
+2	tra	tra	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+5	cento	cento	NUM	N	NumType=Card	1	nummod	_	_
+6	anche	anche	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Politecnico	Politecnico	PROPN	SP	_	0	root	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	cavalcare	cavalcare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	successo	successo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	business	business	NOUN	S	Gender=Masc	13	obj	_	_
+18	a	a	ADP	E	_	21	case	_	_
+19	due	due	NUM	N	NumType=Card	21	nummod	_	_
+20	attuali	attuale	ADJ	A	Number=Plur	21	amod	_	_
+21	Ceo	ceo	PROPN	SP	_	13	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 20
+# text = Tra loro John Elkann, a capo dell'Exor Group, laureato in Ingegneria al Politecnico;
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	John	John	PROPN	SP	_	0	root	_	_
+4	Elkann	Elkann	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	capo	capo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Exor	Exor	PROPN	SP	_	7	nmod	_	_
+11	Group	Group	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Ingegneria	ingegneria	PROPN	SP	_	13	obl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Politecnico	Politecnico	PROPN	SP	_	13	obl	_	SpaceAfter=No
+19	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 21
+# text = il Ceo delle Assicurazioni Generali, Mario Greco, laurea in Economia alla Sapienza e quello di Intesa Sanpaolo, Enrico Tommaso Cucchiani, laurea alla Bocconi ed Mba a Stanford.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ceo	ceo	PROPN	SP	_	11	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Assicurazioni	assicurazioni	PROPN	SP	_	2	nmod	_	_
+6	Generali	Generali	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Mario	Mario	PROPN	SP	_	2	appos	_	_
+9	Greco	Greco	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	laurea	laureo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Economia	economia	PROPN	SP	_	11	obl	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Sapienza	Sapienza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Intesa	Intesa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	Sanpaolo	Sanpaolo	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	Enrico	Enrico	PROPN	SP	_	20	appos	_	_
+24	Tommaso	Tommaso	PROPN	SP	_	23	flat:name	_	_
+25	Cucchiani	Cucchiani	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	laurea	laureare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Bocconi	bocconi	PROPN	SP	_	27	obl	_	_
+31	ed	e	CCONJ	CC	_	32	cc	_	_
+32	Mba	Mba	PROPN	SP	_	30	conj	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	Stanford	Stanford	PROPN	SP	_	27	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 22
+# text = Un altro dato che emerge è quello della altissima specializzazione.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	dato	dato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	emerge	emergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	altissima	alto	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	11	amod	_	_
+11	specializzazione	specializzazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = I top al top vantano Mba e dottorati.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	top	top	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	top	top	NOUN	S	Gender=Masc	2	nmod	_	_
+6	vantano	vantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Mba	Mba	PROPN	SP	_	6	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	dottorati	dottorato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 24
+# text = Su 500 Ceo 113 hanno un Mba e 53 un dottorato o un Phd.
+1	Su	su	ADP	E	_	3	case	_	_
+2	500	500	NUM	N	NumType=Card	3	nummod	_	_
+3	Ceo	ceo	PROPN	SP	_	5	obl	_	_
+4	113	113	NUM	N	NumType=Card	3	nummod	_	_
+5	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Mba	Mba	PROPN	SP	_	5	obj	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	53	53	NUM	N	NumType=Card	11	nummod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dottorato	dottorato	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12	o	o	CCONJ	CC	_	14	cc	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Phd	Phd	PROPN	SP	_	7	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = Certo in pochi possono permettersi di spendere 50.000 dollari all'anno (39.000 euro) per mandare un figlio ad Harvard ma i ricercatori invitano a non disperarsi visto che tra i capi delle le prime dieci società più ricche non ci sono laureati ad Harvard.
+1	Certo	certo	ADV	B	_	5	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	_
+4	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	permettersi	_	_	_	_	_	_	_	_
+5	permetter	permettere	VERB	V	VerbForm=Inf	0	root	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	spendere	spendere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	50.000	50.000	NUM	N	NumType=Card	10	nummod	_	_
+10	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	39.000	39.000	NUM	N	NumType=Card	16	nummod	_	_
+16	euro	euro	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	mandare	mandare	VERB	V	VerbForm=Inf	5	advcl	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	ad	a	ADP	E	_	23	case	_	_
+23	Harvard	Harvard	PROPN	SP	_	19	obl	_	_
+24	ma	ma	CCONJ	CC	_	27	cc	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	_
+27	invitano	invitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+28	a	a	ADP	E	_	30	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30-31	disperarsi	_	_	_	_	_	_	_	_
+30	disperar	disperarre	VERB	V	VerbForm=Inf	27	xcomp	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl	_	_
+32	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	_
+33	che	che	SCONJ	CS	_	48	mark	_	_
+34	tra	tra	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	capi	capo	NOUN	S	Gender=Masc|Number=Plur	48	obl	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	42	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+40	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	42	amod	_	_
+41	dieci	dieci	NUM	N	NumType=Card	42	nummod	_	_
+42	società	società	NOUN	S	Gender=Fem	36	nmod	_	_
+43	più	più	ADV	B	_	44	advmod	_	_
+44	ricche	ricco	ADJ	A	Gender=Fem|Number=Plur	42	amod	_	_
+45	non	non	ADV	BN	PronType=Neg	48	advmod	_	_
+46	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	48	expl	_	_
+47	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux:pass	_	_
+48	laureati	laureato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	ccomp	_	_
+49	ad	a	ADP	E	_	50	case	_	_
+50	Harvard	Harvard	PROPN	SP	_	48	obl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = Per esempio all'ottavo posto si è piazzato Akio Toyoda che guida la Toyota Motor ed ha una laurea in legge presa alla Keio University che richiede una retta da soli 10.000 euro annui.
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	6	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	ottavo	ottavo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	piazzato	piazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	Akio	Akio	PROPN	SP	_	9	obj	_	_
+11	Toyoda	Toyoda	PROPN	SP	_	10	flat:name	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	guida	guidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Toyota	Toyota	PROPN	SP	_	13	obj	_	_
+16	Motor	Motor	PROPN	SP	_	15	flat:name	_	_
+17	ed	e	CCONJ	CC	_	18	cc	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	legge	legge	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Keio	Keio	PROPN	SP	_	23	obl	_	_
+27	University	University	PROPN	SP	_	26	flat:name	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	retta	retta	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	da	da	ADP	E	_	33	case	_	_
+33	soli	soli	PROPN	SP	_	31	nmod	_	_
+34	10.000	10.000	NUM	N	NumType=Card	35	nummod	_	_
+35	euro	euro	NOUN	S	Gender=Masc	33	nmod	_	_
+36	annui	annuo	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

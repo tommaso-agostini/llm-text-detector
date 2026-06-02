@@ -1,0 +1,903 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così Roberto Saviano , ospite a Circo Massimo, analizza i toni della propaganda in vista delle prossime elezioni.
+1	Così	così	ADV	B	_	10	advmod	_	_
+2	Roberto	Roberto	PROPN	SP	_	10	nsubj	_	_
+3	Saviano	Saviano	PROPN	SP	_	2	flat:name	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ospite	ospite	NOUN	S	Number=Sing	2	appos	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Circo	circo	PROPN	SP	_	5	nmod	_	_
+8	Massimo	Massimo	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	analizza	analizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	toni	tono	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	vista	vista	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Ed è sempre più complesso combattere contro le fake news, sottolinea lo scrittore.
+1	Ed	e	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	sempre	sempre	ADV	B	_	5	advmod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	combattere	combattere	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	contro	contro	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	fake	fake	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	news	news	NOUN	S	Gender=Fem	9	compound	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = "Smontare una notizia falsa diventa difficile quando il tuo interlocutore non ha tempo.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Smontare	Smontare	VERB	V	VerbForm=Inf	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	falsa	falso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	difficile	difficile	ADJ	A	Number=Sing	6	xcomp	_	_
+8	quando	quando	SCONJ	CS	_	13	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	interlocutore	interlocutore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ci si ferma ai titoli".
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Quindi, il panorama, in vista del 4 marzo, 'è drammatico'.
+1	Quindi	quindi	ADV	B	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	vista	vista	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	4	4	NUM	N	NumType=Card	7	nmod	_	_
+11	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 6
+# text = Ma Saviano dà un consiglio agli elettori:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	Saviano	Saviano	PROPN	SP	_	3	nsubj	_	_
+3	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	agli	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	elettori	elettore	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = "La prima cosa da dire in questa campagna elettorale è di prendersi tempo, capire che l'argomentazione è più importante di un titolo.
+1	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	elettorale	elettorale	ADJ	A	Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	prendersi	_	_	_	_	_	_	_	_
+13	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	capire	capire	VERB	V	VerbForm=Inf	13	conj	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	argomentazione	argomentazione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	importante	importante	ADJ	A	Number=Sing	17	ccomp	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Chi si sente confuso, deve trovare affidabilità in alcune voci.
+1	Chi	chi	PRON	PQ	PronType=Int	7	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	confuso	confuso	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trovare	trovare	VERB	V	VerbForm=Inf	0	root	_	_
+8	affidabilità	affidabilità	NOUN	S	Gender=Fem	7	obj	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	voci	voce	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Tutto ciò che è immediato è rischiosissimo".
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	immediato	immediare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	rischiosissimo	rischiosissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Per Saviano, "l'emergenza immigrati e quella terrorismo sono molto più facili da vendere in campagna elettorale", mentre è molto più difficile affrontare il tema della mafia e della legalità.
+1	Per	per	ADP	E	_	2	case	_	_
+2	Saviano	Saviano	PROPN	SP	_	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+7	immigrati	immigrato	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	facili	facile	ADJ	A	Number=Plur	0	root	_	_
+15	da	da	ADP	E	_	16	mark	_	_
+16	vendere	vendere	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	elettorale	elettorale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	mentre	mentre	CCONJ	CC	_	26	cc	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	molto	molto	ADV	B	_	26	advmod	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	difficile	difficile	ADJ	A	Number=Sing	14	conj	_	_
+27	affrontare	affrontare	VERB	V	VerbForm=Inf	26	csubj	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	tema	tema	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	mafia	mafia	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	legalità	legalità	NOUN	S	Gender=Fem	32	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 11
+# text = Saviano: " Terrorismo e immigrati, emergenze facili da vendere in campagna elettorale".
+1	Saviano	Saviano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	_
+4	Terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	emergenze	emergenze	NOUN	S	Gender=Fem|Number=Plur	4	appos	_	_
+9	facili	facile	ADJ	A	Number=Plur	8	amod	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	vendere	vendere	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	elettorale	elettorale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = BABY GANG Chi accusa Gomorra di ispirare i giovanissimi a commettere violenze è 'complice' delle paranze e non si rende conto che il libro, il film e la serie tv sono 'specchio' di una realtà che già esisteva a Napoli.
+1	BABY	Baby	PROPN	SP	_	15	nsubj	_	_
+2	GANG	GANg	PROPN	SP	_	1	flat:name	_	_
+3	Chi	chi	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	accusa	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	Gomorra	Gomorra	PROPN	SP	_	4	obj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	ispirare	ispirare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	giovanissimi	giovane	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	7	obj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	commettere	commettere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+12	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	complice	complice	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+16	'	'	PUNCT	FB	_	15	punct	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	paranze	paranza	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+24	conto	conto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25	che	che	SCONJ	CS	_	37	mark	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	libro	libro	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	film	film	NOUN	S	Gender=Masc	37	nsubj	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	serie	serie	NOUN	S	Gender=Fem	30	conj	_	_
+34	tv	tv	NOUN	S	Gender=Fem	33	compound	_	_
+35	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	'	'	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	specchio	specchio	NOUN	S	Gender=Masc|Number=Sing	23	ccomp	_	SpaceAfter=No
+38	'	'	PUNCT	FB	_	37	punct	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	realtà	realtà	NOUN	S	Gender=Fem	37	nmod	_	_
+42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+43	già	già	ADV	B	_	44	advmod	_	_
+44	esisteva	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	acl:relcl	_	_
+45	a	a	ADP	E	_	46	case	_	_
+46	Napoli	Napoli	PROPN	SP	_	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 13
+# text = Saviano, respinge le accuse di quanti attribuiscono all'emulazione del suo libro l'esplosione di violenza nel capoluogo partenopeo da parte di minorenni.
+1	Saviano	Saviano	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	respinge	respingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	quanti	quanto	PRON	PR	Gender=Masc|Number=Plur|PronType=Rel	8	obl	_	_
+8	attribuiscono	attribuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	emulazione	emulazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	libro	libro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	esplosione	esplosione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	capoluogo	capoluogo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+23	partenopeo	partenopeo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	parte	parte	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	minorenni	minorenne	NOUN	S	Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = "Imitano?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Imitano	Imitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Non è vero, ci si sta specchiando", dice Saviano.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	specchiando	specchiare	VERB	V	VerbForm=Ger	3	csubj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	Saviano	Saviano	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Saviano:
+1	Saviano	Saviare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 17
+# text = ''Gomorra ha ispirato baby gang?
+1	''	''	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	Gomorra	Gomorra	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ispirato	ispirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	baby	baby	ADJ	A	_	6	amod	_	_
+6	gang	gang	NOUN	S	Gender=Masc	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = E' complice della ''paranza'' chi lo dice''.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	complice	complice	NOUN	S	Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	7	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	''	''	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+6	paranza''	paranza'o	ADV	B	_	7	advmod	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nmod	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dice''	dice''	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Commentando gli ultimi episodi di violenza tra giovanissimi, ha aggiunto:
+1	Commentando	Commentare	VERB	V	VerbForm=Ger	11	advcl	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	giovanissimi	giovane	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 20
+# text = "Il termine paranza è più adatta di baby gang perché dà l'idea di struttura e di appartenenza.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	termine	termine	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	paranza	paranza	NOUN	S	Gender=Fem|Number=Sing	3	compound	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	adatta	adatto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	baby	baby	NOUN	S	_	7	obl	_	_
+10	gang	gang	NOUN	S	Gender=Masc	9	compound	_	_
+11	perché	perché	SCONJ	CS	_	12	mark	_	_
+12	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	idea	idea	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	appartenenza	appartenenza	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = Quando ne scrivevo mi si diceva 'non è vero, è tutta un'esagerazione', adesso mi si dice che le ho ispirate io:
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	scrivevo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	parataxis	_	_
+7	'	'	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	vero	vero	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det:predet	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	esagerazione	esagerazione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+16	'	'	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	adesso	adesso	ADV	B	_	21	advmod	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	che	che	SCONJ	CS	_	25	mark	_	_
+23	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+24	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	ispirate	ispirare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
+26	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	21	punct	_	_
+
+# sent_id = 22
+# text = è una cecità rispetto al problema che è locale e nazionale".
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cecità	cecità	NOUN	S	Gender=Fem	0	root	_	_
+4	rispetto	rispetto	ADV	B	_	7	case	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	locale	locale	ADJ	A	Number=Sing	7	acl:relcl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	nazionale	nazionale	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = La situazione, dice Saviano, è disastrosa, a partire dalle scuole.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+5	Saviano	Saviano	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	disastrosa	disastroso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	partire	partire	VERB	V	VerbForm=Inf	8	advcl	_	_
+12-13	dalle	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 24
+# text = I protagonisti di questi episodi, insiste lo scrittore, dovrebbero stare a scuola.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	insiste	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	stare	stare	VERB	V	VerbForm=Inf	7	conj	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = Ma a Napoli non si combatte la dispersione scolastica.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Napoli	Napoli	PROPN	SP	_	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+6	combatte	combattere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	dispersione	dispersione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9	scolastica	scolastico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = "Gli edifici sono fatiscenti, non ci sono palestre, le mense iniziano a novembre inoltrato.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	fatiscenti	fatiscente	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	palestre	palestra	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	mense	mense	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+14	iniziano	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	inoltrato	inoltrato	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 27
+# text = E le donne devono sopperire a quello che non fa lo Stato.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sopperire	sopperire	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = La violenza è la fiammata finale di un processo molto più complesso.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fiammata	fiammata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	finale	finale	ADJ	A	Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	processo	processo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	complesso	complesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = Avere un coltello, una pistola, fare paura è l'unico capitale che questi ragazzini hanno".
+1	Avere	avere	VERB	V	VerbForm=Inf	13	csubj	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	coltello	coltello	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pistola	pistola	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	1	conj	_	_
+9	paura	paura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	unico	unico	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	capitale	capitale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+16	ragazzini	ragazzino	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+17	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 30
+# text = C'è chi dice che la violenza non è emergenza, ha ricordato Giannini, dando parte della responsabilità all'imitazione.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	4	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+14	Giannini	Giannini	PROPN	SP	_	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	dando	dare	VERB	V	VerbForm=Ger	13	advcl	_	_
+17	parte	parte	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	responsabilità	responsabilità	NOUN	S	Gender=Fem	17	nmod	_	_
+21-22	all'	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	imitazione	imitazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 31
+# text = "La solita accusa a Gomorra la trovo folle e vedo una sorta di complicità.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	solita	solita	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	accusa	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Gomorra	Gomorra	PROPN	SP	_	4	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	trovo	trovo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+9	folle	folle	ADJ	A	Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	complicità	complicità	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 32
+# text = Quello che mi spaventa delle sedicenti elite è il fatto che si reputino le uniche in grado di recepire il senso di Gomorra, invece i ragazzini dei Quartieri Spagnoli, della Sanità no.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	spaventa	spaventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	sedicenti	sedicento	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	elite	elito	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:pass	_	_
+14	reputino	reputare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	uniche	unica	NOUN	S	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	grado	grado	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	recepire	recepire	VERB	V	VerbForm=Inf	18	acl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	senso	senso	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Gomorra	Gomorra	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	11	punct	_	_
+26	invece	invece	ADV	B	_	28	advmod	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	ragazzini	ragazzino	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	Quartieri	quartieri	PROPN	SP	_	28	nmod	_	_
+32	Spagnoli	Spagnoli	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Sanità	sanità	NOUN	S	Gender=Fem	31	nmod	_	_
+37	no	no	ADV	BN	PronType=Neg	36	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 33
+# text = 'Tu Saviano non la dovevi scrivere'.
+1	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	Saviano	Saviano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	dovevi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	scrivere	scrivere	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = Ma non si sono accorti che Gomorra ce l'avevano intorno?" Gomorra, insiste Saviano, ha preso le frasi dalla realtà, non l'ha ispirata.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	accorti	accortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	Gomorra	Gomorra	PROPN	SP	_	10	nsubj	_	_
+8	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+10	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+11	intorno	intorno	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	14	punct	_	_
+14	Gomorra	Gomorra	PROPN	SP	_	16	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	insiste	insistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+17	Saviano	Saviano	PROPN	SP	_	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	realtà	realtà	NOUN	S	Gender=Fem	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+28	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	30	obj	_	SpaceAfter=No
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	ispirata	ispirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 35
+# text = "I ragazzini che hanno picchiato Arturo non imitano Gomorra, ma i paranzini.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ragazzini	ragazzino	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	picchiato	picchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	Arturo	Arturo	PROPN	SP	_	6	obj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	imitano	imitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Gomorra	Gomorra	PROPN	SP	_	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	paranzini	paranzino	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 36
+# text = Facile dire militarizziamo o peggio abbassiamo l'imputazione a 12 anni".
+1	Facile	facile	ADJ	A	Number=Sing	0	root	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	1	advcl	_	_
+3	militarizziamo	militarizzare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	peggio	peggio	ADV	B	_	6	advmod	_	_
+6	abbassiamo	abbassare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	imputazione	imputazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	12	12	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 37
+# text = Ma, per lo scrittore, abbassare l'età punibile è 'pericolosissimo':
+1	Ma	ma	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	scrittore	scrittore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	abbassare	abbassare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	età	età	NOUN	S	Gender=Fem	13	nsubj	_	_
+10	punibile	punibile	ADJ	A	Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	'	'	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	pericolosissimo	pericoloso	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+14	'	'	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 38
+# text = "Loro lo mettono in conto.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	conto	conto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 39
+# text = Non è che se li metti in galera li stai salvando.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	se	si	SCONJ	CS	_	6	mark	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	metti	meggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	galera	galera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	salvando	salvare	VERB	V	VerbForm=Ger	10	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = Li salvi solo se metti in atto un prcorso di diritto".
+1	Li	li	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	salvi	salvere	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	metti	meggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	atto	atto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	prcorso	prcorso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 41
+# text = Saviano, quindi, si dice preoccupato dalla risposta del ministro dell'Interno Marco Minniti che, secondo lui, parlava a quella parte di Napoli che vuole "vivere tranquilla a casa sua".
+1	Saviano	Saviano	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quindi	quindi	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	preoccupato	preoccupato	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Interno	Interno	PROPN	SP	_	13	nmod	_	_
+17	Marco	Marco	PROPN	SP	_	13	nmod	_	_
+18	Minniti	Minniti	PROPN	SP	_	17	flat:name	_	_
+19	che	che	PRON	PR	PronType=Rel	24	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	secondo	secondo	ADP	E	_	22	case	_	_
+22	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	parte	parte	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Napoli	Napoli	PROPN	SP	_	27	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	vivere	vivere	VERB	V	VerbForm=Inf	31	ccomp	_	_
+34	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	casa	casa	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+37	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 42
+# text = "Ma la tranquillità ai turisti - dice Saviano - la assicura la camorra, che impedisce i furti, perché sta investendo moltissimo nei B&B".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	4	cc	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tranquillità	tranquillità	NOUN	S	Gender=Fem	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	-	-	PUNCT	FF	_	9	punct	_	_
+9	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+10	Saviano	Saviano	PROPN	SP	_	9	nsubj	_	_
+11	-	-	PUNCT	FB	_	9	punct	_	_
+12	la	lo	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	assicura	assicurare	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	camorra	camorra	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	impedisce	impedire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	furti	furto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	perché	perché	SCONJ	CS	_	24	mark	_	_
+23	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	investendo	investire	VERB	V	VerbForm=Ger	18	advcl	_	_
+25	moltissimo	molto	ADV	B	Degree=Abs	24	advmod	_	_
+26-27	nei	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	B&B	B&b	PROPN	SP	_	24	obl	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 43
+# text = Rispondere semplicemente così, insiste, "non basta".
+1	Rispondere	rispondere	VERB	V	VerbForm=Inf	0	root	_	_
+2	semplicemente	semplicemente	ADV	B	_	1	advmod	_	_
+3	così	così	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	insiste	insistere	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

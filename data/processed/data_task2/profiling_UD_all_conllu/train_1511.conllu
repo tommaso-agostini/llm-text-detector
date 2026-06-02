@@ -1,0 +1,341 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I nuovi MacBook Pro, modelli che aspettiamo con ansia da mesi, sono stati accidentalmente svelati online a causa di un aggiornamento di macOS Ventura.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	MacBook	MacBook	PROPN	SP	_	17	nsubj:pass	_	_
+4	Pro	pro	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	aspettiamo	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+16	accidentalmente	accidentalmente	ADV	B	_	17	advmod	_	_
+17	svelati	svelare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+18	online	online	NOUN	S	Gender=Fem|Number=Plur	17	xcomp	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	causa	causa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	aggiornamento	aggiornamento	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	macOS	macOS	PROPN	SP	_	23	nmod	_	_
+26	Ventura	Ventura	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = L'epilogo è questo:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	epilogo	epilogo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = un utente, apparentemente durante l'installazione di un aggiornamento del sistema operativo, ha trovato nel suo Mac Pro un file nascosto, un documento Word ben scritto e dettagliatamente illustrato, che recava design, specifiche tecniche e anche alcune immagini dei nuovi MacBook.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	utente	utente	NOUN	S	Number=Sing	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	apparentemente	apparentemente	ADV	B	_	7	advmod	_	_
+5	durante	durante	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	installazione	installazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	aggiornamento	aggiornamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	operativo	operativo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Mac	mac	PROPN	SP	_	17	obl	_	_
+22	Pro	pro	PROPN	SP	_	21	flat:name	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	file	fila	NOUN	S	Number=Sing	17	obj	_	_
+25	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	documento	documento	NOUN	S	Gender=Masc|Number=Sing	24	appos	_	_
+29	Word	word	PROPN	SP	_	28	nmod	_	_
+30	ben	bene	ADV	B	_	31	advmod	_	_
+31	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	dettagliatamente	dettagliato	ADV	B	_	34	advmod	_	_
+34	illustrato	illustrato	ADJ	A	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	24	punct	_	_
+36	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+37	recava	recare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+38	design	design	ADV	B	_	37	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	specifiche	specifica	ADJ	A	Gender=Fem|Number=Plur	41	amod	_	_
+41	tecniche	tecnico	NOUN	S	Gender=Fem|Number=Plur	37	obj	_	_
+42	e	e	CCONJ	CC	_	45	cc	_	_
+43	anche	anche	ADV	B	_	45	advmod	_	_
+44	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	45	det	_	_
+45	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	37	conj	_	_
+46-47	dei	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	49	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	49	amod	_	_
+49	MacBook	MacBook	PROPN	SP	_	45	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 4
+# text = Il documento, inequivocabilmente proveniente da Apple, ha fatto il giro del web in poche ore, scatenando un’ondata di speculation e, inevitabilmente, un malcontento diffuso tra i fan dell'azienda.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	inequivocabilmente	inequivocabilmente	ADV	B	_	5	advmod	_	_
+5	proveniente	provenire	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	acl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Apple	Apple	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giro	giro	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	web	webbraio	NOUN	S	Gender=Masc	12	nmod	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+18	ore	ora	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	scatenando	scatenare	VERB	V	VerbForm=Ger	10	advcl	_	_
+21	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	speculation	speculation	NOUN	S	Gender=Fem	22	nmod	_	_
+25	e	e	CCONJ	CC	_	30	cc	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	inevitabilmente	inevitabilmente	ADV	B	_	30	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	27	punct	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	malcontento	malcontento	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+31	diffuso	diffuso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32	tra	tra	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	fan	fan	NOUN	S	_	30	nmod	_	_
+35-36	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+35	di	di	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = La fonte, all’anonymo, ha immediatamente contattato alcuni siti di settore super-informali, rilasciando il documento prima che Apple potesse intervenire.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fonte	fonta	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	all’	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	anonymo	anonymo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	immediatamente	immediatamente	ADV	B	_	10	advmod	_	_
+10	contattato	contattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	siti	sito	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	settore	settore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+15	super	super	ADJ	A	_	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+17	informali	informale	ADJ	A	Number=Plur	12	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	10	punct	_	_
+19	rilasciando	rilasciare	VERB	V	VerbForm=Ger	10	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	documento	documento	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	prima	prima	ADV	B	_	26	mark	_	_
+23	che	che	SCONJ	CS	_	22	fixed	_	_
+24	Apple	Apple	PROPN	SP	_	26	nsubj	_	_
+25	potesse	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	intervenire	intervenire	VERB	V	VerbForm=Inf	21	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = La veridicità, inizialmente, era stata messa in dubbio, con chiarne la attribuzione a una provocazione tesa ad allarmare gli utenti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	veridicità	veridicità	NOUN	S	Gender=Fem	8	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	inizialmente	inizialmente	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	con	con	ADP	E	_	13	mark	_	_
+13-14	chiarne	_	_	_	_	_	_	_	_
+13	chiar	chiarre	VERB	V	VerbForm=Inf	8	advcl	_	_
+14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	attribuzione	attribuzione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	provocazione	provocazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+20	tesa	teso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22	allarmare	allarmare	VERB	V	VerbForm=Inf	20	advcl	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	utenti	utente	NOUN	S	Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Ma la mole di dettagli, la precisione delle informazioni e persino alcuni screenshot che mostrano elementi di design rivelatori, hanno rapidamente smentito ogni timore:
+1	Ma	ma	CCONJ	CC	_	25	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mole	mola	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	precisione	precisione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	persino	persino	ADV	B	_	15	advmod	_	_
+14	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	screenshot	screenshot	NOUN	S	Gender=Masc	8	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	design	designo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	rivelatori	rivelatore	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	rapidamente	rapidamente	ADV	B	_	25	advmod	_	_
+25	smentito	smentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	timore	timore	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 8
+# text = si tratta di documenti reali, interni ad Apple, relativi ai nuovi MacBook.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	reali	reale	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	interni	interno	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+8	ad	a	ADP	E	_	9	case	_	_
+9	Apple	Apple	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	relativi	relativo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+12-13	ai	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	MacBook	MacBook	PROPN	SP	_	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Le informazioni trapelate sono state raccolte e analizzate a fondo da diverse testate giornalistiche, tra cui La Repubblica, che ha potuto confermare la veridicità del materiale.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+3	trapelate	trapelato	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	raccolte	raccogliere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	analizzate	analizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	testate	testata	NOUN	S	Gender=Fem|Number=Plur	8	obl:agent	_	_
+14	giornalistiche	giornalistico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	tra	tra	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+18	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Repubblica	repubblica	PROPN	SP	_	24	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux	_	_
+24	confermare	confermare	VERB	V	VerbForm=Inf	13	acl:relcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	veridicità	veridicità	NOUN	S	Gender=Fem	24	obj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Si tratta di modelli MacBook Pro, dotati di chip M3 Pro e M3 Max, con design rivisitato (la fame di potenza di Apple sembra aver prevalso sulla ricerca di un profilo più compatto) e una nuova configurazione di porte Thunderbolt.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	MacBook	MacBook	PROPN	SP	_	4	nmod	_	_
+6	Pro	pro	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	dotati	dotare	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	chip	chip	NOUN	S	Gender=Masc	11	nmod	_	_
+11	M3	m3	PROPN	SP	_	8	nmod	_	_
+12	Pro	pro	PROPN	SP	_	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	M3	m3	PROPN	SP	_	11	conj	_	_
+15	Max	Max	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	design	designo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	rivisitato	rivisitato	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+20	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fame	fame	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Apple	Apple	PROPN	SP	_	24	nmod	_	_
+27	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+28	aver	avere	AUX	VA	VerbForm=Inf	29	aux	_	_
+29	prevalso	prevalere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+30-31	sulla	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	più	più	ADV	B	_	37	advmod	_	_
+37	compatto	compatto	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	29	punct	_	_
+39	e	e	CCONJ	CC	_	42	cc	_	_
+40	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+42	configurazione	configurazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	porte	porta	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+45	Thunderbolt	Thunderbolt	PROPN	SP	_	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Ma non è
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

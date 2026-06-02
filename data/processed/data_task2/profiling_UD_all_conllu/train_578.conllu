@@ -1,0 +1,262 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La mostra, intitolata "Signori e Scettici:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	intitolata	intitolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Signori	Signori	PROPN	SP	_	4	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Scettici	Scettici	PROPN	SP	_	4	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = La Verità Dietro l'Apparenza", presenta le quattro statue di Bruegel - il Filosofo, il Medico, l’Anatomista e il Botanico - conservate nel Museo Nazionale Romano.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Verità	Verità	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	Dietro	dietro	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Apparenza	apparenza	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	quattro	quattro	NUM	N	NumType=Card	11	nummod	_	_
+11	statue	statua	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Bruegel	Bruegel	PROPN	SP	_	11	nmod	_	_
+14	-	-	PUNCT	FB	_	8	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Filosofo	filosofo	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Medico	medico	PROPN	SP	_	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	Anatomista	Anatomista	NOUN	S	Number=Sing	16	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Botanico	Botanico	PROPN	SP	_	16	conj	_	_
+26	-	-	PUNCT	FF	_	16	punct	_	_
+27	conservate	conservare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Museo	Museo	PROPN	SP	_	27	obl	_	_
+31	Nazionale	Nazionale	PROPN	SP	_	30	flat:name	_	_
+32	Romano	Romano	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Li abbiamo visti per l’ultima volta nel 1824, quando furono esposti in una sala dell’Istituto Penale di Roma.
+1	Li	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	1824	1824	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	quando	quando	SCONJ	CS	_	14	mark	_	_
+13	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	esposti	esporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sala	sala	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18-19	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Istituto	istituto	PROPN	SP	_	17	nmod	_	_
+21	Penale	penale	PROPN	SP	_	20	amod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Roma	Roma	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Vennero poi rimossi e nascosti, testimonianza tangibile della crescente condanna della corruzione e dell’ipocrisia che permeava l'aristocrazia del tempo.
+1	Vennero	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	rimossi	rimuovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	nascosti	nascondere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	tangibile	tangibile	ADJ	A	Number=Sing	7	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	crescente	crescente	ADJ	A	Number=Sing	12	amod	_	_
+12	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	corruzione	corruzione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17-18	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	ipocrisia	ipocrisia	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	permeava	permeare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	aristocrazia	aristocrazia	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ora, riproposti in questo contesto, evocano un senso di ambiguità che non può sfuggire.
+1	Ora	ora	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	riproposti	riproporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	evocano	evocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	senso	senso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	ambiguità	ambiguità	NOUN	S	Gender=Fem	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	sfuggire	sfuggire	VERB	V	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Erano figure già controverse nel loro tempo, ritratte in modo spietato con i loro labilli e le loro cospirazioni.
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	figure	figura	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	controverse	controverso	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ritratte	ritrarre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	spietato	spietato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	con	con	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	loro	loro	DET	AP	Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	labilli	labille	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	cospirazioni	cospirazione	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Bagliarono lustri di intellettuali che si spacciavano per eruditi, ma che, di fatto, si limitavano a intossicare il dibattito pubblico con parole vuote e interessi personali.
+1	Bagliarono	Bagliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	lustri	lustro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	intellettuali	intellettuale	NOUN	S	Number=Plur	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	spacciavano	spacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	eruditi	erudito	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	18	punct	_	_
+11	ma	ma	CCONJ	CC	_	18	cc	_	_
+12	che	che	PRON	PR	PronType=Rel	18	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	limitavano	limitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	intossicare	intossicare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dibattito	dibattito	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	parole	parola	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26	vuote	vuoto	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	_
+29	personali	personale	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La loro “ricerca della verità” era soltanto uno strumento per arricchirsi e per esercitare la propria influenza all'ombra del potere.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verità	verità	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+8	”	”	PUNCT	FB	_	4	punct	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+10	soltanto	soltanto	ADV	B	_	12	advmod	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	arricchirsi	_	_	_	_	_	_	_	_
+14	arricchir	arricchire	VERB	V	VerbForm=Inf	12	acl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	esercitare	esercitare	VERB	V	VerbForm=Inf	14	conj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	potere	potere	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = E qui che sta il punto.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	qui	qui	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Questa mostra non è un omaggio al genio artistico di Bruegel.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	genio	genio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	artistico	artistico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Bruegel	Bruegel	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = È una riproposizione,
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	riproposizione	riproposizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+

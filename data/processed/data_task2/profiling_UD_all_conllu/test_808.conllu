@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La crisi economica, il crollo del bolivar e un'inflazione record di oltre il 1.000.000% hanno colpito duramente il popolo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	crisi	crisi	NOUN	S	Gender=Fem	20	nsubj	_	_
+3	economica	economico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	crollo	crollo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bolivar	bolivar	NOUN	S	Gender=Masc	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	inflazione	inflazione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+13	record	record	NOUN	S	Gender=Masc	12	compound	_	_
+14	di	di	ADP	E	_	18	case	_	_
+15	oltre	oltre	ADV	B	_	18	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	1.000.000	1.000.000	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	SYM	_	12	nmod	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	duramente	duramente	ADV	B	_	20	advmod	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = Maduro, tuttavia, si dice fiducioso e chiede anche ai privati ​​di aiutare, riconoscendo che la crisi ha colpito la parte produttiva della popolazione.
+1	Maduro	Maduro	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tuttavia	tuttavia	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+7	fiducioso	fiducioso	ADJ	A	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	anche	anche	ADV	B	_	13	advmod	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	privati	privato	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+14	​​di	​​do	ADJ	A	Number=Plur	13	amod	_	_
+15	aiutare	aiutare	VERB	V	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	riconoscendo	riconoscere	VERB	V	VerbForm=Ger	15	advcl	_	_
+18	che	che	SCONJ	CS	_	22	mark	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	crisi	crisi	NOUN	S	Gender=Fem	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	parte	parte	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	produttiva	produttivo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

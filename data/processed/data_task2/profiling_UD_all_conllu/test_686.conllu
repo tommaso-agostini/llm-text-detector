@@ -1,0 +1,390 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'annuncio ufficiale dovrebbe arrivare tra poco.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ufficiale	ufficiale	ADJ	A	Number=Sing	2	amod	_	_
+4	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+6	tra	tra	ADP	E	_	7	case	_	_
+7	poco	poco	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Nella notte - come riporta la Gazzetta dello Sport - è arrivata la firma del giovane trequartista argentino con i nerazzurri.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	notte	notte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+4	-	-	PUNCT	FB	_	6	punct	_	_
+5	come	come	SCONJ	CS	_	6	mark	_	_
+6	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Gazzetta	gazzetta	PROPN	SP	_	6	nsubj	_	_
+9-10	dello	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Sport	Sport	PROPN	SP	_	8	nmod	_	_
+12	-	-	PUNCT	FF	_	6	punct	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	firma	firma	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	giovane	giovane	ADJ	A	Number=Sing	20	amod	_	_
+20	trequartista	trequartista	NOUN	S	Number=Sing	16	nmod	_	_
+21	argentino	argentino	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	nerazzurri	nerazzurro	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Al Velez Sarsfield andranno circa 12 milioni di euro, il giocatore firmerà un contratto di 5 anni a 1,8 milioni di euro.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Velez	Velez	PROPN	SP	_	5	obl	_	_
+4	Sarsfield	Sarsfield	PROPN	SP	_	5	nsubj	_	_
+5	andranno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	circa	circa	ADV	B	_	7	advmod	_	_
+7	12	12	NUM	N	NumType=Card	8	nummod	_	_
+8	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	euro	euro	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	firmerà	firmare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	5	5	NUM	N	NumType=Card	19	nummod	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	1,8	1,8	NUM	N	NumType=Card	22	nummod	_	_
+22	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	euro	euro	NOUN	S	Gender=Masc	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Bruciata la concorrenza dell'Arsenal Al termine di un blitz di quattro giorni in Sud America, l'Inter è riuscita a bruciare la pericolosa concorrenza dell'Arsenal e i tentativi di inserimento della Roma.
+1	Bruciata	bruciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Arsenal	Arsenal	PROPN	SP	_	3	nmod	_	_
+7-8	Al	_	_	_	_	_	_	_	_
+7	A	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	termine	termine	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	blitz	blitz	NOUN	S	Gender=Masc	9	nmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	quattro	quattro	NUM	N	NumType=Card	15	nummod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Sud	Sud	PROPN	SP	_	12	nmod	_	_
+18	America	America	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	Inter	Inter	PROPN	SP	_	23	nsubj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	bruciare	bruciare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	pericolosa	pericoloso	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+29-30	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+29	di	di	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	Arsenal	Arsenal	PROPN	SP	_	28	nmod	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	tentativi	tentativo	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	inserimento	inserimento	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+37-38	della	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Roma	Roma	PROPN	SP	_	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 5
+# text = Alvarez nei prossimi giorni sarà in Italia per le visite mediche e la firma sul contratto.
+1	Alvarez	Alvarez	NOUN	S	Gender=Masc	6	nsubj	_	_
+2-3	nei	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	6	obl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	visite	visita	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+12	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	firma	firma	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Nuove trattative
+1	Nuove	nuovo	NUM	N	NumType=Card	2	nummod	_	_
+2	trattative	trattativa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+
+# sent_id = 7
+# text = Nel frattempo il dt Marco Branca continua a lavorare per convincere Goran Pandev ad accettare il trasferimento al Genoa, permettendo così all'Inter di portare a Milano Rodrigo Palacio L'accordo sembra molto vicino, nelle prossime ore potrebbe arrivare anche la fumata bianca dell'attaccante gradito a Gasperini.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dt	dt	NOUN	S	Gender=Masc	8	nsubj	_	_
+6	Marco	Marco	PROPN	SP	_	5	nmod	_	_
+7	Branca	Branca	PROPN	SP	_	6	flat:name	_	_
+8	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	lavorare	lavorare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	convincere	convincere	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	Goran	Goran	PROPN	SP	_	12	obj	_	_
+14	Pandev	Pandev	PROPN	SP	_	13	flat:name	_	_
+15	ad	a	ADP	E	_	16	mark	_	_
+16	accettare	accettare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Genoa	Genoa	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23	permettendo	permettere	VERB	V	VerbForm=Ger	16	advcl	_	_
+24	così	così	ADV	B	_	23	advmod	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	Inter	Inter	PROPN	SP	_	23	obl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	portare	portare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Milano	Milano	PROPN	SP	_	29	obl	_	_
+32	Rodrigo	Rodrigo	PROPN	SP	_	29	obj	_	_
+33	Palacio	Palacio	PROPN	SP	_	32	flat:name	_	_
+34	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	36	nsubj	_	_
+36	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+37	molto	molto	ADV	B	_	38	advmod	_	_
+38	vicino	vicino	ADV	B	_	36	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	36	punct	_	_
+40-41	nelle	_	_	_	_	_	_	_	_
+40	in	in	ADP	E	_	43	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+42	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	_
+43	ore	ora	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+44	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	arrivare	arrivare	VERB	V	VerbForm=Inf	8	conj	_	_
+46	anche	anche	ADV	B	_	48	advmod	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	fumata	fumata	NOUN	S	Gender=Fem|Number=Sing	45	nsubj	_	_
+49	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	_
+50-51	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+50	di	di	ADP	E	_	52	case	_	_
+51	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	52	det	_	_
+52	attaccante	attaccante	NOUN	S	Number=Sing	48	nmod	_	_
+53	gradito	gradire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	acl	_	_
+54	a	a	ADP	E	_	55	case	_	_
+55	Gasperini	Gasperini	PROPN	SP	_	53	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ma l'ArgentInter non si ferma qui, perché il manager di Alvarez, Simonian, è lo stesso di Ever Banega.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ArgentInter	ArgentInter	PROPN	SP	_	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	qui	qui	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	perché	perché	SCONJ	CS	_	21	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	manager	manager	NOUN	S	_	21	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Alvarez	Alvarez	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	Simonian	Simonian	PROPN	SP	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Ever	Ever	PROPN	SP	_	6	advcl	_	_
+22	Banega	Banega	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Per il mediano del Valencia la strada è in discesa.
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mediano	mediano	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Valencia	Valencia	PROPN	SP	_	3	nmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	strada	strada	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Al club iberico sono stati offerti 9 milioni di euro...
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	club	club	NOUN	S	Gender=Masc	7	obl	_	_
+4	iberico	iberico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	offerti	offrire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	9	9	NUM	N	NumType=Card	9	nummod	_	_
+9	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	euro...	euro...	NOUN	S	_	9	nmod	_	_
+
+# sent_id = 11
+# text = Sneijder e Motta in uscita Se per la nuova Inter stanno arrivando pezzi pregiati, qualcuno potrebbe essere in partenza.
+1	Sneijder	Sneijder	PROPN	SP	_	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Motta	Motta	PROPN	SP	_	1	conj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+6	Se	se	SCONJ	CS	_	12	mark	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	Inter	Inter	PROPN	SP	_	12	obl	_	_
+11	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	arrivando	arrivare	VERB	V	VerbForm=Ger	20	advcl	_	_
+13	pezzi	pezzo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	pregiati	pregiato	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	nsubj	_	_
+17	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	20	cop	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Da tempo si parla del forte interessamento di Sir Alex Ferguson (Manchester United) per Wesley Sneijder.
+1	Da	da	ADP	E	_	2	case	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	forte	forte	ADJ	A	Number=Sing	8	amod	_	_
+8	interessamento	interessamento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Sir	Sir	PROPN	SP	_	8	nmod	_	_
+11	Alex	Alex	PROPN	SP	_	10	flat:name	_	_
+12	Ferguson	Ferguson	PROPN	SP	_	10	flat:name	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Manchester	Manchester	PROPN	SP	_	10	nmod	_	_
+15	United	United	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	14	punct	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	Wesley	Wesley	PROPN	SP	_	8	nmod	_	_
+19	Sneijder	Sneijder	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = L'ultima offerta degli inglesi arriva a 35 milioni di euro.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	offerta	offerta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	degli	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	inglesi	inglese	NOUN	S	Number=Plur	3	nmod	_	_
+7	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	35	35	NUM	N	NumType=Card	10	nummod	_	_
+10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	euro	euro	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = All'Inter l'olandese è considerato incedibile...
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Inter	Inter	PROPN	SP	_	7	obl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	olandese	olandese	NOUN	S	Number=Sing	7	nsubj:pass	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	incedibile...	incedibile.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = ma a fronte di una sostanziosa offerta tutto si può fare.
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sostanziosa	sostanzioso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	offerta	offerta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Un altro che potrebbe essere in partenza è Thiago Motta.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+4	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	Thiago	Thiago	PROPN	SP	_	0	root	_	_
+10	Motta	Motto	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = Per lui c'è l'interessamento dell'Arsenal...
+1	Per	per	ADP	E	_	2	case	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	interessamento	interessamento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Arsenal..	Arsenal..	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

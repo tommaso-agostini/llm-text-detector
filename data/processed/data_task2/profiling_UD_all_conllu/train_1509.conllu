@@ -1,0 +1,347 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dunque, via del torneo il 20 agosto (anzi, il 19 con gli anticipi), un altro turno il 27, poi la sosta per gli impegni azzurri, primo fra tutti quello con le Furie Rosse.
+1	Dunque	dunque	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	via	via	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	torneo	torneo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	20	20	NUM	N	NumType=Card	3	nmod	_	_
+9	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	anzi	anzi	ADV	B	_	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	19	19	NUM	N	NumType=Card	8	flat	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	anticipi	anticipo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	3	punct	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	altro	altro	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	turno	turno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	27	27	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	poi	poi	ADV	B	_	28	advmod	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sosta	sosta	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+32	azzurri	azzurro	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	_
+34	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	31	amod	_	_
+35	fra	fra	ADP	E	_	37	case	_	_
+36	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	37	det	_	_
+37	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	34	obl	_	_
+38	con	con	ADP	E	_	40	case	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	Furie	Furia	PROPN	SP	_	37	nmod	_	_
+41	Rosse	rosso	PROPN	SP	_	40	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Nessuna giornata infrasettimanale, nè il 16 (data prevista al momento per la Supercoppa Italiana) nè il 23 agosto come sperato da Ventura, che però non ha intenzione - parole sue - di creare un tormentone.
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	infrasettimanale	infrasettimanale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	nè	né	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	16	16	NUM	N	NumType=Card	2	conj	_	_
+8	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	data	dare	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	prevista	prevedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	momento	momento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Supercoppa	Supercoppa	PROPN	SP	_	13	nmod	_	_
+17	Italiana	Italiana	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	10	punct	_	_
+19	nè	né	CCONJ	CC	_	21	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	23	23	NUM	N	NumType=Card	2	conj	_	_
+22	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	21	flat	_	_
+23	come	come	SCONJ	CS	_	24	mark	_	_
+24	sperato	sperare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	Ventura	Ventura	PROPN	SP	_	24	obl:agent	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+29	però	però	ADV	B	_	31	advmod	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+32	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+33	-	-	PUNCT	FF	_	32	punct	_	_
+34	parole	parola	NOUN	S	Gender=Fem|Number=Plur	32	compound	_	_
+35	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	38	det:poss	_	_
+36	-	-	PUNCT	FF	_	38	punct	_	_
+37	di	di	ADP	E	_	38	mark	_	_
+38	creare	creare	VERB	V	VerbForm=Inf	32	acl	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	tormentone	tormentone	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non ci saranno quindi tour de force, l'unica novità vera nel calendario sarà presumibilmente il Boxing Day di Santo Stefano (26 dicembre) sullo stile della Premier League.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	quindi	quindi	ADV	B	_	3	advmod	_	_
+5	tour	tour	NOUN	S	Gender=Masc	3	nsubj	_	_
+6	de	di	ADP	E	_	7	case	_	_
+7	force	forcia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	unica	unico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	novità	novità	NOUN	S	Gender=Fem	19	nsubj	_	_
+12	vera	vero	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	calendario	calendario	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
+17	presumibilmente	presumibilmente	ADV	B	_	19	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Boxing	Boxing	PROPN	SP	_	3	parataxis	_	_
+20	Day	day	PROPN	SP	_	19	flat:name	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Santo	Santo	PROPN	SP	_	19	nmod	_	_
+23	Stefano	Stefano	PROPN	SP	_	22	flat:name	_	_
+24	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	26	26	NUM	N	NumType=Card	19	nmod	_	_
+26	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	25	flat	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	25	punct	_	_
+28-29	sullo	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	stile	stile	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Premier	premier	PROPN	SP	_	30	nmod	_	_
+34	League	League	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Certo, la situazione della Lega di A è al momento ingarbugliata.
+1	Certo	certo	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Lega	Lega	PROPN	SP	_	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	A	a	PROPN	SP	_	7	nmod	_	_
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	momento	momento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	ingarbugliata	ingarbugliato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Deve eleggere un presidente, ma il recente strappo di sei società big ha complicato il cammino alla successione di Maurizio Beretta.
+1	Deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	eleggere	eleggere	VERB	V	VerbForm=Inf	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	15	punct	_	_
+6	ma	ma	CCONJ	CC	_	15	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	recente	recente	ADJ	A	Number=Sing	9	amod	_	_
+9	strappo	strappo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	sei	sei	NUM	N	NumType=Card	12	nummod	_	_
+12	società	società	NOUN	S	Gender=Fem	9	nmod	_	_
+13	big	big	NOUN	S	Gender=Fem	12	compound	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	complicato	complicato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cammino	cammino	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	successione	successione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Maurizio	Maurizio	PROPN	SP	_	20	nmod	_	_
+23	Beretta	Beretta	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Il Coni sorveglia da vicino la situazione, la Federcalcio nel primo consiglio federale della nuova era Tavecchio (lunedì a Coverciano) darà una sorta di aut aut alla Confindustria del pallone nostrano.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Coni	cono	PROPN	SP	_	3	nsubj	_	_
+3	sorveglia	sorvegliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	vicino	vicino	ADV	B	_	3	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Federcalcio	Federcalcio	PROPN	SP	_	3	obl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+15	federale	federale	ADJ	A	Number=Sing	14	amod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	era	era	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+20	Tavecchio	Tavecchio	PROPN	SP	_	19	nmod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	lunedì	lunedì	NOUN	S	Gender=Masc	19	appos	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	Coverciano	Coverciano	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	22	punct	_	_
+26	darà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	aut	aut	NOUN	S	Gender=Masc	28	nmod	_	_
+31	aut	aut	NOUN	S	Gender=Masc	30	compound	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Confindustria	Confindustria	PROPN	SP	_	26	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	pallone	pallone	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38	nostrano	nostrano	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Con lo spettro commissariamento, forse da parte dello stesso numero uno di via Allegri.
+1	Con	con	ADP	E	_	4	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	spettro	spettro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	commissariamento	commissariamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	forse	forse	ADV	B	_	8	cc	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+9-10	dello	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	numero	numero	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	appos	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	via	via	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	Allegri	Allegri	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Che però, se dovesse avvenire, difficilmente porterebbe a decisioni drastiche sul prossimo campionato.
+1	Che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+2	però	però	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	avvenire	avvenire	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	difficilmente	difficilmente	ADV	B	_	9	advmod	_	_
+9	porterebbe	portare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	decisioni	decisione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+12	drastiche	drastico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Certo, giocare tre gare ad agosto farebbe arrivare l'Italia di Ventura più "allenata" alla partita con gli spagnoli.
+1	Certo	certo	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	giocare	giocare	VERB	V	VerbForm=Inf	0	root	_	_
+4	tre	tre	NUM	N	NumType=Card	5	nummod	_	_
+5	gare	gara	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	farebbe	fare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	arrivare	arrivare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Italia	Italia	PROPN	SP	_	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Ventura	Ventura	PROPN	SP	_	11	nmod	_	_
+14	più	più	ADV	B	_	16	advmod	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	allenata	allenato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	partita	partita	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	spagnoli	spagnolo	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Di contro, l'ipotesi di un turno infrasettimanale in periodo ancora di ferie della maggioranza dei tifosi, non garantirebbe stadi pieni.
+1	Di	di	ADP	E	_	2	case	_	_
+2	contro	contro	ADV	B	_	23	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ipotesi	ipotesi	NOUN	S	Gender=Fem	23	nsubj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	turno	turno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	infrasettimanale	infrasettimanale	ADJ	A	Number=Sing	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	ancora	ancora	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	ferie	ferie	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	dei	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	garantirebbe	garantire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+25	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 11
+# text = Eventualità invece possibile con un turno a ridosso di Natale.
+1	Eventualità	eventualità	NOUN	S	Gender=Fem	0	root	_	_
+2	invece	invece	ADV	B	_	3	advmod	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	1	amod	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	turno	turno	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	ridosso	ridosso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Natale	Natale	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = MDD
+1	MDD	MDD	CCONJ	CC	_	0	root	_	SpacesAfter=\n
+

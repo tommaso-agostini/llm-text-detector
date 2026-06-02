@@ -1,0 +1,815 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Se la crisi italiana diventerà una grave crisi, essa imploderà principalmente nell'economia italiana...
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	crisi	crisi	NOUN	S	Gender=Fem	5	nsubj	_	_
+4	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	diventerà	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	advcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	grave	grave	ADJ	A	Number=Sing	8	amod	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	imploderà	implodere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	principalmente	principalmente	ADV	B	_	11	advmod	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	economia	economia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+16	italiana...	italiana.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = al contrario di diffondersi in Europa ", ha detto il politico olandese.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	diffondersi	_	_	_	_	_	_	_	_
+5	diffonder	diffondere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Europa	Europa	PROPN	SP	_	5	obl	_	_
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	politico	politico	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+15	olandese	olandese	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Che ha proseguito: " A causa del modo in cui l'economia italiana e le banche italiane sono finanziate, sarà un'implosione piuttosto che un'esplosione ".
+1	Che	che	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	proseguito	proseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	"	"	PUNCT	FB	_	7	punct	_	_
+6	A	a	ADP	E	_	7	case	_	_
+7	causa	causa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	economia	economia	NOUN	S	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+15	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	banche	banca	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+19	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	finanziate	finanziare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	implosione	implosione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+26	piuttosto	piuttosto	ADV	B	_	29	case	_	_
+27	che	che	SCONJ	CS	_	26	fixed	_	_
+28	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	esplosione	esplosione	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Insomma, l'Europa vuole contenere i rischi.
+1	Insomma	insomma	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Europa	Europa	PROPN	SP	_	6	nsubj	_	_
+5	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	contenere	contenere	VERB	V	VerbForm=Inf	0	root	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = E i mercati, assicura Dijsselbloem, faranno la loro parte:
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	assicura	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Dijsselbloem	Dijsselbloem	PROPN	SP	_	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 6
+# text = " E ci sarà un ruolo per i mercati, voglio dire se si guarda a ciò di cui l'Italia ha bisogno per finanziare il solo anno prossimo, stiamo parlando di oltre 250 miliardi di euro, rifinendo parte del capitale del loro debito e anche, ovviamente, questi nuovi piani di spesa.
+1	"	"	PUNCT	FB	_	4	punct	_	_
+2	E	e	CCONJ	CC	_	4	cc	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	4	parataxis	_	_
+13	se	se	SCONJ	CS	_	15	mark	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	Italia	Italia	PROPN	SP	_	22	nsubj	_	_
+22	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+23	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	finanziare	finanziare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	solo	solo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	anno	anno	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	4	punct	_	_
+31	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	parlando	parlare	VERB	V	VerbForm=Ger	4	advcl	_	_
+33	di	di	ADP	E	_	36	case	_	_
+34	oltre	oltre	ADV	B	_	35	advmod	_	_
+35	250	250	NUM	N	NumType=Card	36	nummod	_	_
+36	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	euro	euro	NOUN	S	Gender=Masc	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	32	punct	_	_
+40	rifinendo	rifinire	VERB	V	VerbForm=Ger	32	advcl	_	_
+41	parte	parte	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	capitale	capitale	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45-46	del	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	48	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	loro	loro	DET	AP	Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	debito	debito	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+49	e	e	CCONJ	CC	_	52	cc	_	_
+50	anche	anche	ADV	B	_	52	advmod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	50	punct	_	_
+52	ovviamente	ovviamente	ADV	B	_	32	conj	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	32	punct	_	_
+54	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	56	det	_	_
+55	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	56	amod	_	_
+56	piani	piano	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+57	di	di	ADP	E	_	58	case	_	_
+58	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	56	nmod	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Quindi i mercati dovranno davvero guardarlo in modo molto critico ".
+1	Quindi	quindi	CCONJ	CC	_	6	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+5	davvero	davvero	ADV	B	_	6	advmod	_	_
+6-7	guardarlo	_	_	_	_	_	_	_	_
+6	guardar	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	critico	critico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+12	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Ma non solo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Nel mirino del politico olandese finiscono anche le banche italiane (" abbiamo già visto scendere le loro valutazioni azionarie ").
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mirino	mirino	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	politico	politico	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	olandese	olandese	ADJ	A	Number=Sing	6	amod	_	_
+8	finiscono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	banche	banca	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+12	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	17	punct	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	già	già	ADV	B	_	17	advmod	_	_
+17	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+18	scendere	scendere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	valutazioni	valutazioni	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+22	azionarie	azionario	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = Ma chi è Dijsselbloem?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Dijsselbloem	Dijsselbloem	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Innanzitutto non è uno che le manda a dire e, inoltre, sembra avere una concezione tutta sua di Europa, che sembra escludere gli Stati del Sud.
+1	Innanzitutto	innanzitutto	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+7	manda	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	dire	dire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	inoltre	inoltre	ADV	B	_	14	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	avere	avere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	concezione	concezione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Europa	Europa	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+25	escludere	escludere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Stati	Stati	PROPN	SP	_	25	obj	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Sud	Sud	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = In un'intervista al quotidiano tedesco Frankfurter Allgemeine Zeitung , disse: " Durante la crisi dell’euro, i paesi del Nord hanno dimostrato solidarietà con i paesi interessati dalla crisi.
+1	In	in	ADP	E	_	3	case	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	Frankfurter	Frankfurter	PROPN	SP	_	6	nmod	_	_
+9	Allgemeine	Allgemeine	PROPN	SP	_	8	flat:name	_	_
+10	Zeitung	Zeitung	PROPN	SP	_	8	flat:name	_	_
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	parataxis	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+14	"	"	PUNCT	FB	_	17	punct	_	_
+15	Durante	durante	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	crisi	crisi	NOUN	S	Gender=Fem	28	obl	_	_
+18-19	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	euro	euro	NOUN	S	Gender=Masc	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Nord	Nord	PROPN	SP	_	23	nmod	_	_
+27	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+29	solidarietà	solidarietà	NOUN	S	Gender=Fem	28	obj	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	interessati	interessato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl	_	_
+34-35	dalla	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	crisi	crisi	NOUN	S	Gender=Fem	33	obl:agent	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 13
+# text = Come socialdemocratico, do grande importanza alla solidarietà.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	socialdemocratico	socialdemocratico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	do	do	ADP	E	_	6	case	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	solidarietà	solidarietà	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Ma ci sono anche dei doveri.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	doveri	dovere	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Non puoi spendere tutti i soldi in alcol e donne e poi chiedere aiuto ".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	spendere	spendere	VERB	V	VerbForm=Inf	0	root	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	poi	poi	ADV	B	_	13	advmod	_	_
+13	chiedere	chiedere	VERB	V	VerbForm=Inf	3	conj	_	_
+14	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+15	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Ma non solo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Avendo questa particolare stima dei Paesi dell'Europa meridionale si è occupato prima della crisi dei sistemi bancari di Cipro e poi del debito greco.
+1	Avendo	avere	VERB	V	VerbForm=Ger	14	advcl	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	particolare	particolare	ADJ	A	Number=Sing	4	amod	_	_
+4	stima	stima	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Paesi	paese	PROPN	SP	_	4	nmod	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Europa	Europa	PROPN	SP	_	7	nmod	_	_
+11	meridionale	meridionale	ADJ	A	Number=Sing	10	amod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	prima	prima	ADV	B	_	18	case	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	15	fixed	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	crisi	crisi	NOUN	S	Gender=Fem	14	obl	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	bancari	bancario	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Cipro	Cipro	PROPN	SP	_	21	nmod	_	_
+25	e	e	CCONJ	CC	_	29	cc	_	_
+26	poi	poi	ADV	B	_	29	advmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	debito	debito	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+30	greco	greco	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 18
+# text = E sappiamo come è andata.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	SCONJ	CS	_	5	mark	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = O meglio.
+1	O	o	CCONJ	CC	_	2	cc	_	_
+2	meglio	meglio	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Secondo le parole dello stesso Dijsselbloem il caso Cipro è stato allo stesso tempo un successo e un fallimento.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+4-5	dello	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	Dijsselbloem	Dijsselbloem	PROPN	SP	_	3	nmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caso	caso	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	Cipro	Cipro	PROPN	SP	_	9	nmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	allo	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	successo	successo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 21
+# text = Non stiamo scherzando.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scherzando	scherzare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Il 24 marzo del 2013, il politico olandese assicurava a Financial Times e Reuters che la sua gestione nell'isola rappresentava un modello.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	24	24	NUM	N	NumType=Card	11	obl	_	_
+3	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2013	2013	NUM	N	NumType=Card	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	politico	politico	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	olandese	olandese	ADJ	A	Number=Sing	9	amod	_	_
+11	assicurava	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Financial	Financial	PROPN	SP	_	11	obl	_	_
+14	Times	Times	PROPN	SP	_	13	flat:name	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Reuters	Reuters	PROPN	SP	_	13	conj	_	_
+17	che	che	SCONJ	CS	_	24	mark	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+21-22	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	isola	isola	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	rappresentava	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	ccomp	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	modello	modello	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 23
+# text = Salvo poi contraddirsi qualche giorno dopo ( facendo così impazzire i mercati ).
+1	Salvo	salvo	ADJ	A	Number=Sing	0	root	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3-4	contraddirsi	_	_	_	_	_	_	_	_
+3	contraddir	contraddire	VERB	V	VerbForm=Inf	1	csubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	dopo	dopo	ADV	B	_	6	advmod	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	_
+9	facendo	fare	VERB	V	VerbForm=Ger	3	advcl	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	impazzire	impazzire	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = E poi c'è il grande capitolo Grecia . Dijsselbloem ha rappresentato egregiamente l'ala più intransigente dell'Unione europea.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	grande	grande	ADJ	A	Number=Sing	7	amod	_	_
+7	capitolo	capitolo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+8	Grecia	Grecia	PROPN	SP	_	7	nmod	_	_
+9	.	.	PUNCT	FS	_	4	punct	_	_
+10	Dijsselbloem	Dijsselbloem	PROPN	SP	_	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	rappresentato	rappresentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+13	egregiamente	egregiamente	ADV	B	_	12	advmod	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ala	ala	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	intransigente	intransigente	ADJ	A	Number=Sing	15	amod	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Unione	Unione	PROPN	SP	_	15	nmod	_	_
+21	europea	Europea	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = Quando, nel 2015, il ministro delle Finanze greco Yanis Varufakis chiese di indire una conferenza per ridiscutere il debito di Atene insieme agli altri Paesi europei, Dijsselbloem rispose picche e specificò che solo lui e l'eurogruppo dovevano occuparsi di questa faccenda.
+1	Quando	quando	SCONJ	CS	_	15	mark	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	15	punct	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	2015	2015	NUM	N	NumType=Card	15	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	Finanze	finanza	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	greco	greco	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	Yanis	Yanis	PROPN	SP	_	8	nmod	_	_
+14	Varufakis	Varufakis	PROPN	SP	_	13	flat:name	_	_
+15	chiese	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	advcl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	indire	indire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	ridiscutere	ridiscutere	VERB	V	VerbForm=Inf	17	advcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	debito	debito	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Atene	Atene	PROPN	SP	_	23	nmod	_	_
+26	insieme	insieme	ADV	B	_	30	case	_	_
+27-28	agli	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	26	fixed	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	altri	altro	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+30	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+31	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	15	punct	_	_
+33	Dijsselbloem	Dijsselbloem	PROPN	SP	_	34	nsubj	_	_
+34	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+35	picche	picca	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	specificò	specificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	conj	_	_
+38	che	che	SCONJ	CS	_	45	mark	_	_
+39	solo	solo	ADV	B	_	40	advmod	_	_
+40	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+43	eurogruppo	eurogruppo	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	_
+44	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	45	aux	_	_
+45-46	occuparsi	_	_	_	_	_	_	_	_
+45	occupar	occupare	VERB	V	VerbForm=Inf	37	ccomp	_	_
+46	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	49	det	_	_
+49	faccenda	faccenda	NOUN	S	Gender=Fem|Number=Sing	45	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	34	punct	_	_
+
+# sent_id = 26
+# text = I risultati sono oggi sotto gli occhi di tutti.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	oggi	oggi	ADV	B	_	7	advmod	_	_
+5	sotto	sotto	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 27
+# text = Risultati che molti hanno paragonato a una vero e proprio mattatoio sociale .
+1	Risultati	risultare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	paragonato	paragonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	a	a	ADP	E	_	11	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	mattatoio	mattatoio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	sociale	sociale	ADJ	A	Number=Sing	11	amod	_	_
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = Come nota Affari italiani , sotto la guida di Dijsselbloem, " la Grecia è stata tagliata fuori da TARGET 2, il sistema di pagamento europeo, in modo che non un singolo euro possa essere trasferito all'estero per un lungo periodo ".
+1	Come	come	ADP	E	_	3	case	_	_
+2	nota	noto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	Affari	Affari	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+4	italiani	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	sotto	sotto	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	guida	guida	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Dijsselbloem	Dijsselbloem	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	"	"	PUNCT	FB	_	17	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Grecia	Grecia	PROPN	SP	_	17	nsubj:pass	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	tagliata	tagliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	fuori	fuori	ADV	B	_	17	advmod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	TARGET	Target	PROPN	SP	_	17	obl:agent	_	_
+21	2	2	NUM	N	NumType=Card	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	20	appos	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	24	punct	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	modo	modo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+31	che	che	SCONJ	CS	_	38	mark	_	_
+32	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+35	euro	euro	NOUN	S	Gender=Masc	38	nsubj:pass	_	_
+36	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	essere	essere	AUX	VA	VerbForm=Inf	38	aux:pass	_	_
+38	trasferito	trasferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+39-40	all'	_	_	_	_	_	_	_	SpaceAfter=No
+39	a	a	ADP	E	_	41	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	estero	estero	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42	per	per	ADP	E	_	45	case	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	45	amod	_	_
+45	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+46	"	"	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 29
+# text = Già qualche giorno fa, in un'intervista alla Cnbc , Dijsselbloem aveva specificato che " l'Europa non salverà l'Italia, perchè il Meccanismo di Stabilità Europea verrebbe prosciugato in soli due anni .
+1	Già	già	ADV	B	_	3	advmod	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4	fa	fa	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Cnbc	Cnbc	PROPN	SP	_	8	nmod	_	_
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	Dijsselbloem	Dijsselbloem	PROPN	SP	_	15	nsubj	_	_
+14	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	specificato	specificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	che	che	SCONJ	CS	_	21	mark	_	_
+17	"	"	PUNCT	FB	_	21	punct	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	Europa	Europa	PROPN	SP	_	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	salverà	salvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	ccomp	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	Italia	Italia	PROPN	SP	_	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	21	punct	_	_
+25	perchè	perché	SCONJ	CS	_	32	mark	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Meccanismo	meccanismo	NOUN	S	Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Stabilità	stabilità	NOUN	S	Gender=Fem	27	nmod	_	_
+30	Europea	europea	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	verrebbe	verere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+32	prosciugato	prosciugare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+33	in	in	ADP	E	_	36	case	_	_
+34	soli	solo	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+35	due	due	NUM	N	NumType=Card	36	nummod	_	_
+36	anni	anno	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+37	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 30
+# text = L'Italia dovrà salvarsi da sola ".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	4	nsubj	_	_
+3	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4-5	salvarsi	_	_	_	_	_	_	_	_
+4	salvar	salvare	VERB	V	VerbForm=Inf	0	root	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	4	obl	_	_
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 31
+# text = Ma non solo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = Nella stessa intervista precisava: " Guardando cosa (i funzionari italiani Ndr ) hanno messo sul tavolo, la commissione non ha davvero altra scelta che rimandarla indietro, il che - a proposito - non è la fine del processo, ma l'inizio del processo.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+5	precisava	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	parataxis	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	_
+8	Guardando	guardare	VERB	V	VerbForm=Ger	5	advcl	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	funzionari	funzionario	NOUN	S	Gender=Masc|Number=Plur	9	appos	_	_
+13	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	Ndr	ndr	PROPN	SP	_	12	nmod	_	_
+15	)	)	PUNCT	FB	_	12	punct	_	_
+16	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+26	davvero	davvero	ADV	B	_	25	advmod	_	_
+27	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	28	det	_	_
+28	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	rimandarla	rimandarlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+31	indietro	indietro	ADV	B	_	30	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+35	-	-	PUNCT	FB	_	30	punct	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+38	-	-	PUNCT	FF	_	5	punct	_	_
+39	non	non	ADV	BN	PronType=Neg	42	advmod	_	_
+40	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	fine	fine	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+43-44	del	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	processo	processo	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	49	punct	_	_
+47	ma	ma	CCONJ	CC	_	49	cc	_	_
+48	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
+49	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	42	conj	_	_
+50-51	del	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	processo	processo	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	42	punct	_	_
+
+# sent_id = 33
+# text = È piuttosto preoccupante, ci sarà lo scontro e penso che la commissione non abbia altra scelta che accettare questo confronto e prenderlo ".
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	piuttosto	piuttosto	ADV	B	_	3	advmod	_	_
+3	preoccupante	preoccupante	ADJ	A	Number=Sing	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+16	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
+17	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	mark	_	_
+19	accettare	accettare	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+20	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23-24	prenderlo	_	_	_	_	_	_	_	_
+23	prender	prendere	VERB	V	VerbForm=Inf	19	conj	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

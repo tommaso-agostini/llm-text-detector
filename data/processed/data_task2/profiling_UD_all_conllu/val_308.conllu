@@ -1,0 +1,338 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L’oggetto?
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il suo ex compagno, il giovane e popolare attore Tomaso Berlèse.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	ex	ex	ADJ	A	_	4	amod	_	_
+4	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+7	giovane	giovane	ADJ	A	Number=Sing	10	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	popolare	popolare	ADJ	A	Number=Sing	7	conj	_	_
+10	attore	attore	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+11	Tomaso	Tomaso	PROPN	SP	_	10	nmod	_	_
+12	Berlèse	Berlèse	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Hunziker, intervistato da un programma di gossip, ha rivelato con un’espressione che oscillava tra l’amarezza e una punta di divertimento, di quanto tempo ci sia voluto perché il suo “piccolo”
+1	Hunziker	Hunziker	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	intervistato	intervistato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	programma	programma	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	gossip	gossip	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	oscillava	oscillare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	amarezza	amarezza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	punta	punta	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	divertimento	divertimento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	28	det	_	_
+28	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+29	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	_
+30	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+32	perché	perché	SCONJ	CS	_	36	mark	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+35	“	“	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	31	advcl	_	SpaceAfter=No
+37	”	”	PUNCT	FB	_	36	punct	_	_
+
+# sent_id = 4
+# text = Berlèse gli desse il primo bacio.
+1	Berlèse	Berlèse	PROPN	SP	_	3	nsubj	_	_
+2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	desse	dettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Tre mesi.
+1	Tre	tre	NUM	N	NumType=Card	2	nummod	_	_
+2	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Un’eternità, a detta del biker, che definisce - con la sua solita onestà proletaria - “una mancanza di coraggio e di rispetto”.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	eternità	eternità	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	detta	detta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	biker	biker	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	definisce	definire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	-	-	PUNCT	FB	_	11	punct	_	_
+13	con	con	ADP	E	_	17	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	solita	solito	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	onestà	onestà	NOUN	S	Gender=Fem	11	obl	_	_
+18	proletaria	proletario	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	-	-	PUNCT	FF	_	17	punct	_	_
+20	“	“	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+28	”	”	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = "Lui era sempre lì, mi guardava, mi seguiva.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	lì	lì	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	guardava	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	seguiva	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ma il bacio?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Dopo tre mesi!
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Un bel po' di tempo per capire se c'è qualcosa di più, no?
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	bel	bello	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	po'	poco	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	capire	capire	VERB	V	VerbForm=Inf	5	acl	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	10	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	più	più	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	no	no	ADV	BN	PronType=Neg	5	advmod	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = A me non piacejo chiacchere, chi mi guarda in faccia e mi dimostra.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	piacejo	piacejo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	chiacchere	chiacchere	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	chi	chi	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = E lui, ammettiamolo, è un po' passato il tempo a farlo.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	ammettiamolo	_	_	_	_	_	_	_	SpaceAfter=No
+4	ammettiamo	ammettere	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	ADV	B	_	10	advmod	_	_
+10	passato	passato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+14	far	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 13
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 14
+# text = Le parole di Hunziker, senza mezzi termini, piovono come macigni sulla fragile immagine di Berlèse, dipinto finora come il fidanzato dolce e devoto del biker.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Hunziker	Hunziker	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	senza	senza	ADP	E	_	8	case	_	_
+7	mezzi	mezzo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	termini	termine	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	piovono	piovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	macigni	macigno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	fragile	fragile	ADJ	A	Number=Sing	16	amod	_	_
+16	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Berlèse	Berlèse	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	dipinto	dipingere	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	finora	finora	ADV	B	_	20	advmod	_	_
+22	come	come	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	dolce	dolce	ADJ	A	Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	devoto	devoto	ADJ	A	Gender=Masc|Number=Sing	25	conj	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	biker	biker	NOUN	S	_	24	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = L'immagine del ragazzo timido e innamorato, dunque, viene smantellata con un gesto semplice, ma carico di significato.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	timido	timido	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	innamorato	innamorato	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	dunque	dunque	ADV	B	_	5	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	smantellata	smantellare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	semplice	semplice	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	ma	ma	CCONJ	CC	_	20	cc	_	_
+20	carico	carico	ADJ	A	Gender=Masc|Number=Sing	13	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	significato	significato	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 16
+# text = Un bacio, si dice, che appare improvviso, quasi una premessa, un "prova di stile" che non è stata all’altezza delle aspettative del più grande biker italiano.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	quasi	quasi	ADV	B	_	13	advmod	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	premessa	premessa	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	prova	prova	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	stile	stile	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	17	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+24	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	cop	_	_
+25-26	all’	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	13	acl:relcl	_	_
+28-29	delle	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	aspettative	aspettativa	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	35	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	grande	grande	ADJ	A	Number=Sing	35	amod	_	_
+35	biker	biker	NOUN	S	_	30	nmod	_	_
+36	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Non si tratta di un commento mio, né di un'interpretazione soggettiva.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	commento	commento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	né	né	CCONJ	CC	_	12	cc	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	interpretazione	interpretazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+13	soggettiva	soggettivo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = È la semplice e inequivocabile affermazione di un
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+3	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	inequivocabile	inequivocabile	ADJ	A	Number=Sing	3	conj	_	_
+6	affermazione	affermazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	root	_	SpacesAfter=\n
+

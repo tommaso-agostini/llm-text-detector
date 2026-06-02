@@ -1,0 +1,567 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Camicia azzurra, occhiali color oro, dimagrito e invecchiato:
+1	Camicia	Camicia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	azzurra	azzurro	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	occhiali	occhiale	ADJ	A	Number=Plur	6	amod	_	_
+5	color	colore	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	oro	oro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	dimagrito	dimagrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	invecchiato	invecchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = è apparso così Mario Caterino, considerato il numero due del Casalesi e catturato questa mattina dalla polizia a Casal di Principe nel casertano.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	apparso	apparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	così	così	ADV	B	_	2	advmod	_	_
+4	Mario	Mario	PROPN	SP	_	2	nsubj	_	_
+5	Caterino	Caterino	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	due	due	NUM	N	NumType=Card	9	nummod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Casalesi	Casalesi	PROPN	SP	_	9	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	catturato	catturare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	15	obl:agent	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Casal	Casal	PROPN	SP	_	15	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Principe	Principe	PROPN	SP	_	22	nmod	_	_
+25-26	nel	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	casertano	casertare	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Al suo arrivo alla Questura di Caserta i poliziotti, alcuni dei quali ancora con il ’mefistò sul volto hanno festeggiato la cattura del latitante, mentre quello che viene ritenuto il braccio destro di Francesco Schiavone-Sandokan non ha mai abbassato lo sguardo, ma anzi sorriso e mimato un applauso rivolgendosi a telecamere e fotografi.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Questura	Questura	PROPN	SP	_	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Caserta	Caserta	PROPN	SP	_	7	nmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	nsubj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	quali	quale	PRON	PR	Number=Plur|PronType=Rel	13	nmod	_	_
+17	ancora	ancora	ADV	B	_	20	advmod	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	’	’	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+21	mefistò	mefistare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	volto	volto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	festeggiato	festeggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	cattura	cattura	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	latitante	latitante	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	26	punct	_	_
+33	mentre	mentre	SCONJ	CS	_	49	mark	_	_
+34	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	49	nsubj	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj:pass	_	_
+36	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
+37	ritenuto	ritenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl:relcl	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	37	nsubj:pass	_	_
+40	destro	destro	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	Francesco	Francesco	PROPN	SP	_	39	nmod	_	_
+43	Schiavone	Schiavone	PROPN	SP	_	42	flat:name	_	SpaceAfter=No
+44	-	-	PUNCT	FF	_	45	punct	_	SpaceAfter=No
+45	Sandokan	Sandokan	PROPN	SP	_	34	appos	_	_
+46	non	non	ADV	BN	PronType=Neg	49	advmod	_	_
+47	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+48	mai	mai	ADV	B	_	49	advmod	_	_
+49	abbassato	abbassare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+50	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	55	punct	_	_
+53	ma	ma	CCONJ	CC	_	55	cc	_	_
+54	anzi	anzi	ADV	B	_	55	advmod	_	_
+55	sorriso	sorriso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+56	e	e	CCONJ	CC	_	57	cc	_	_
+57	mimato	mimare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	conj	_	_
+58	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	applauso	applauso	NOUN	S	Gender=Masc|Number=Sing	57	obj	_	_
+60-61	rivolgendosi	_	_	_	_	_	_	_	_
+60	rivolgendo	rivolgere	VERB	V	VerbForm=Ger	55	advcl	_	_
+61	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	60	expl	_	_
+62	a	a	ADP	E	_	63	case	_	_
+63	telecamere	telecamera	NOUN	S	Gender=Fem|Number=Plur	60	obl	_	_
+64	e	e	CCONJ	CC	_	65	cc	_	_
+65	fotografi	fotografo	NOUN	S	Gender=Masc|Number=Plur	63	conj	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 4
+# text = Secondo quanto si è appreso Mario Caterino non si è opposto all’arresto quando è stato sorpreso mentre passeggiava nel cortile dell’abitazione in via Toscanini a Casal di Principe dov’è stato sorpreso.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	appreso	apprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl:relcl	_	_
+6	Mario	Mario	PROPN	SP	_	5	nsubj	_	_
+7	Caterino	Caterino	PROPN	SP	_	6	flat:name	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	opposto	opporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl:relcl	_	_
+12-13	all’	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	quando	quando	SCONJ	CS	_	18	mark	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
+19	mentre	mentre	SCONJ	CS	_	20	mark	_	_
+20	passeggiava	passeggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	advcl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cortile	cortile	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24-25	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	abitazione	abitazione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	via	via	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	Toscanini	Toscanini	PROPN	SP	_	28	nmod	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Casal	Casal	PROPN	SP	_	20	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Principe	Principe	PROPN	SP	_	31	nmod	_	_
+34	dov’	dovo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	37	obj	_	SpaceAfter=No
+35	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+36	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	aux:pass	_	_
+37	sorpreso	sorprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	37	punct	_	_
+
+# sent_id = 5
+# text = Si è lasciato ammanettare e ha detto poche parole:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ammanettare	ammanettare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+8	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	parole	parola	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = «Prima o poi doveva succedere».
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Prima	Prima	ADV	B	_	0	root	_	_
+3	o	o	CCONJ	CC	_	6	cc	_	_
+4	poi	poi	ADV	B	_	6	advmod	_	_
+5	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	succedere	succedere	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Il 53enne si suppone stesse in quella casa da pochi giorni e quel rifugio sarebbe stato adoperato soltanto per poco.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	53enne	53enne	NOUN	S	Number=Sing	4	nsubj:pass	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	suppone	supporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	stesse	stesso	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	rifugio	rifugio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+15	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	adoperato	adoperare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+18	soltanto	soltanto	ADV	B	_	20	advmod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	poco	poco	ADV	B	_	17	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Come tutti i veri e propri boss, Caterino non si era mai allontanato da quella che viene ritenuta la roccaforte del clan, sfidando le forze dell’ordine e soprattutto la polizia che a poca distanza ha una sede distaccata della Squadra mobile.
+1	Come	come	ADP	E	_	7	case	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+4	veri	vero	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	propri	proprio	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	_
+7	boss	boss	NOUN	S	Gender=Masc	14	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	Caterino	Caterino	PROPN	SP	_	14	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+13	mai	mai	ADV	B	_	14	advmod	_	_
+14	allontanato	allontanare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	14	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+18	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	ritenuta	ritenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	roccaforte	roccaforta	NOUN	S	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	clan	clan	NOUN	S	Gender=Masc	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	14	punct	_	_
+26	sfidando	sfidare	VERB	V	VerbForm=Ger	14	advcl	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	forze	forza	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29-30	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+29	di	di	ADP	E	_	31	case	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	soprattutto	soprattutto	ADV	B	_	35	advmod	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+36	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	39	det	_	_
+39	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	40	obl	_	_
+40	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	sede	sede	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	_
+43	distaccata	distaccato	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+44-45	della	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	Squadra	Squadra	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+47	mobile	mobile	ADJ	A	Number=Sing	46	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 9
+# text = Ad ospitarlo un muratore incensurato, Crescenzo Della Corte, che è stato arrestato.
+1	Ad	a	ADP	E	_	2	mark	_	_
+2-3	ospitarlo	_	_	_	_	_	_	_	_
+2	ospitar	ospitare	VERB	V	VerbForm=Inf	0	root	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	muratore	muratore	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	_
+6	incensurato	incensurato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	Crescenzo	Crescenzo	PROPN	SP	_	5	appos	_	_
+9-10	Della	_	_	_	_	_	_	_	_
+9	Di	Di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Corte	corte	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	16	nsubj:pass	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Nel corso della perquisizione all’interno dell’appartamento non sono stati trovati né armi né documenti.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	perquisizione	perquisizione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	all’	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	interno	interno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	trovati	trovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+17	né	né	CCONJ	CC	_	18	cc	_	_
+18	armi	arma	NOUN	S	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+19	né	né	CCONJ	CC	_	20	cc	_	_
+20	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = Caterino era inserito nell’elenco dei 30 latitanti più pericolosi d’Italia ed era ricercato per una condanna all’ergastolo.
+1	Caterino	Caterino	PROPN	SP	_	3	nsubj:pass	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
+3	inserito	inserire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	30	30	NUM	N	NumType=Card	10	nummod	_	_
+10	latitanti	latitante	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	pericolosi	pericoloso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+13	d’	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	Italia	Italia	PROPN	SP	_	12	obl	_	_
+15	ed	e	CCONJ	CC	_	17	cc	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:pass	_	_
+17	ricercato	ricercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21-22	all’	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	ergastolo	ergastolo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Le sue tracce si erano perse nel 2005.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	perse	perdere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2005	2005	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Era considerato un ’super killer’ del clan dei Casalesi Mario Caterino, detto ’a bottà, arrestato dalla squadra mobile di Caserta, dai poliziotti di Napoli e dello Sco.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	’	’	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	super	super	ADP	E	_	6	case	_	_
+6	killer’	killero	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	clan	clan	NOUN	S	Gender=Masc	6	nmod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Casalesi	Casalesi	PROPN	SP	_	9	nmod	_	_
+13	Mario	Mario	PROPN	SP	_	12	flat:name	_	_
+14	Caterino	Caterino	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+17	’	’	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+18	a	a	ADP	E	_	19	case	_	_
+19	bottà	bottà	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	xcomp	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	21	obl:agent	_	_
+25	mobile	mobile	ADJ	A	Number=Sing	24	amod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Caserta	Caserta	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29-30	dai	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Napoli	Napoli	PROPN	SP	_	31	nmod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35-36	dello	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Sco	Sco	PROPN	SP	_	24	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Caterino era ritenuto fino ad oggi il numero due del clan dopo Michele Zagaria, primula rossa dell’organizzazione criminale e latitante da 16 anni.
+1	Caterino	Caterino	PROPN	SP	_	3	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	ritenuto	ritenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	fino	fino	ADV	B	_	6	case	_	_
+5	ad	a	ADP	E	_	4	fixed	_	_
+6	oggi	oggi	ADV	B	_	3	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	numero	numero	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+9	due	due	NUM	N	NumType=Card	8	nummod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	clan	clan	NOUN	S	Gender=Masc	8	nmod	_	_
+13	dopo	dopo	ADP	E	_	14	case	_	_
+14	Michele	Michele	PROPN	SP	_	12	nmod	_	_
+15	Zagaria	Zagaria	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	primula	primulo	NOUN	S	Gender=Fem|Number=Sing	14	appos	_	_
+18	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	criminale	criminale	ADJ	A	Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	latitante	latitante	ADJ	A	Number=Sing	22	conj	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	16	16	NUM	N	NumType=Card	27	nummod	_	_
+27	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Braccio destro del capo del clan di Francesco Schiavone, Caterino era ricercato dal 2005, dopo essere stato condannato all’ergastolo, nell’ambito del processo Spartacus, per omicidio e associazione per delinquere di tipo mafioso.
+1	Braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+2	destro	destro	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	capo	capo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	clan	clan	NOUN	S	Gender=Masc	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Francesco	Francesco	PROPN	SP	_	8	nmod	_	_
+11	Schiavone	Schiavone	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	Caterino	Caterino	PROPN	SP	_	15	nsubj:pass	_	_
+14	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+15	ricercato	ricercato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16-17	dal	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	2005	2005	NUM	N	NumType=Card	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	dopo	dopo	SCONJ	CS	_	23	mark	_	_
+21	essere	essere	AUX	VA	VerbForm=Inf	23	aux	_	_
+22	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+24-25	all’	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	ergastolo	ergastolo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	23	punct	_	_
+28-29	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+28	in	in	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	processo	processo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	Spartacus	Spartacus	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	15	punct	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	_
+40	per	per	ADP	E	_	41	mark	_	_
+41	delinquere	delinquere	VERB	V	VerbForm=Inf	39	acl	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+44	mafioso	mafioso	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 16
+# text = Il boss, inserito nell’elenco dei latitanti di massima pericolosità, è nato il 14 giugno del 1957 a Casal di Principe (Caserta).
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	boss	boss	NOUN	S	Gender=Masc	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	inserito	inserire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	latitanti	latitante	NOUN	S	Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	massima	massima	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	pericolosità	pericolosità	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	14	14	NUM	N	NumType=Card	16	obl	_	_
+19	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	18	flat	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	1957	1957	NUM	N	NumType=Card	16	nummod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	Casal	Casal	PROPN	SP	_	16	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Principe	Principe	PROPN	SP	_	24	nmod	_	_
+27	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+28	Caserta	Caserta	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 17
+# text = Non aveva lasciato neppure durante la latitanza la sua città:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	neppure	neppure	ADV	BN	PronType=Neg	7	advmod	_	_
+5	durante	durante	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	latitanza	latitanza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	città	città	NOUN	S	Gender=Fem	3	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 18
+# text = proprio a Casal di Principe, infatti, è stato arrestato dagli agenti.
+1	proprio	proprio	ADV	B	_	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Casal	Casal	PROPN	SP	_	11	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Principe	Principe	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	infatti	infatti	ADV	B	_	11	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	dagli	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	agenti	agente	NOUN	S	Number=Plur	11	obl:agent	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

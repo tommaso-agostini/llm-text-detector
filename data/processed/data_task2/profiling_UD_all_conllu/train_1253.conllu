@@ -1,0 +1,351 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una situazione che gettana lampshade sulla inefficienza e disorganizzazione del sistema fiscale italiano.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	gettana	gettanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	lampshade	lampshada	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	inefficienza	inefficienza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	disorganizzazione	disorganizzazione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	fiscale	fiscale	ADJ	A	Number=Sing	13	amod	_	_
+15	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Il bollo auto è un tributo dovuto annualmente dai proprietari di veicoli immatricolati.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bollo	bollo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	auto	auto	ADJ	A	_	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tributo	tributo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	annualmente	annualmente	ADV	B	_	11	advmod	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	proprietari	proprietario	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	veicoli	veicolo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	immatricolati	immatricolare	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Tuttavia, a quanto pare, molti italiani non considerano questo adempimento come una priorità, o peggio ancora, ignorano completamente l'obbligo di pagarlo.
+1	Tuttavia	tuttavia	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	10	obl	_	_
+5	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	adempimento	adempimento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	come	come	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	priorità	priorità	NOUN	S	Gender=Fem	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	o	o	CCONJ	CC	_	21	cc	_	_
+18	peggio	peggio	ADV	B	_	19	advmod	_	_
+19	ancora	ancora	ADV	B	_	21	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	ignorano	ignorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+22	completamente	completamente	ADV	B	_	21	advmod	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26-27	pagarlo	_	_	_	_	_	_	_	SpaceAfter=No
+26	pagar	pagare	VERB	V	VerbForm=Inf	24	acl	_	_
+27	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Ed è proprio questo unidentified behaviors che stanno portando alla radiazione di migliaia di veicoli dal Pra.
+1	Ed	e	CCONJ	CC	_	6	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	proprio	proprio	ADV	B	_	6	advmod	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+5	unidentified	unidentified	ADJ	A	_	6	amod	_	_
+6	behaviors	behavior	NOUN	S	_	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	portando	portare	VERB	V	VerbForm=Ger	6	acl:relcl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	radiazione	radiazione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	veicoli	veicolo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Pra	Pra	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ma perché questo problema è così diffuso in Italia?
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	perché	perché	SCONJ	CS	_	7	mark	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	problema	problema	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	così	così	ADV	B	_	7	advmod	_	_
+7	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = In parte, la colpa è della scarsa informazione e consapevolezza da parte dei cittadini.
+1	In	in	ADP	E	_	2	case	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	scarsa	scarso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	consapevolezza	consapevolezza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Molti non sanno che il mancato pagamento del bollo auto comporta non solo la radiazione del veicolo, ma anche numerose conseguenze legali e penali.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	12	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mancato	mancato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bollo	bollo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	auto	auto	ADJ	A	_	10	amod	_	_
+12	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	solo	solo	ADV	B	_	12	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	radiazione	radiazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	veicolo	veicolo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	ma	ma	CCONJ	CC	_	24	cc	_	_
+22	anche	anche	ADV	B	_	24	advmod	_	_
+23	numerose	numeroso	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+24	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+25	legali	legale	ADJ	A	Number=Plur	24	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	penali	penale	ADJ	A	Number=Plur	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Inoltre, la Leo avesse avuto un sistema fiscale più semplice e trasparente, would could prevent many of these misunderstanding.
+1	Inoltre	inoltre	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Leo	Leo	PROPN	SP	_	6	nsubj	_	_
+5	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	fiscale	fiscale	ADJ	A	Number=Sing	8	amod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	semplice	semplice	ADJ	A	Number=Sing	8	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	trasparente	trasparente	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	would	would	X	SW	Foreign=Yes	8	appos	_	_
+16	could	could	X	SW	Foreign=Yes	15	flat:foreign	_	_
+17	prevent	prevent	X	SW	Foreign=Yes	15	flat:foreign	_	_
+18	many	many	X	SW	Foreign=Yes	15	flat:foreign	_	_
+19	of	of	ADP	E	_	21	case	_	_
+20	these	these	ADJ	A	Number=Sing	21	amod	_	_
+21	misunderstanding	misunderstanding	NOUN	S	_	15	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Inoltre, the lack of a efficient enforcement system contributes to the problem.
+1	Inoltre	inoltre	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	the	the	X	SW	Foreign=Yes	1	appos	_	_
+4	lack	lack	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	of	of	X	SW	Foreign=Yes	3	flat:foreign	_	_
+6	a	a	X	X	_	3	flat:foreign	_	_
+7	efficient	efficient	X	SW	Foreign=Yes	3	flat:foreign	_	_
+8	enforcement	enforcement	X	SW	Foreign=Yes	3	flat:foreign	_	_
+9	system	system	X	SW	Foreign=Yes	3	flat:foreign	_	_
+10	contributes	contributes	X	SW	Foreign=Yes	3	flat:foreign	_	_
+11	to	to	X	SW	Foreign=Yes	3	flat:foreign	_	_
+12	the	the	X	SW	Foreign=Yes	3	flat:foreign	_	_
+13	problem	problem	X	SW	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Il Fisco italiano non always manages to pursue evaders effectively, allowing some individuals to skate by without paying their dues.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fisco	fisco	PROPN	SP	_	0	root	_	_
+3	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	always	always	X	SW	Foreign=Yes	2	flat:foreign	_	_
+6	manages	manages	X	SW	Foreign=Yes	5	flat:foreign	_	_
+7	to	to	X	SW	Foreign=Yes	5	flat:foreign	_	_
+8	pursue	pursue	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
+9	evaders	evaders	X	SW	Foreign=Yes	5	flat:foreign	_	_
+10	effectively	effectively	X	SW	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	allowing	allowing	X	SW	Foreign=Yes	2	appos	_	_
+13	some	some	X	SW	Foreign=Yes	12	flat:foreign	_	_
+14	individuals	individuals	X	SW	Foreign=Yes	12	flat:foreign	_	_
+15	to	to	X	SW	Foreign=Yes	12	flat:foreign	_	_
+16	skate	skare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+17	by	by	X	SW	Foreign=Yes	16	xcomp	_	_
+18	without	without	X	SW	Foreign=Yes	17	flat:foreign	_	_
+19	paying	paying	X	SW	Foreign=Yes	17	flat:foreign	_	_
+20	their	their	X	SW	Foreign=Yes	17	flat:foreign	_	_
+21	dues	dues	X	SW	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = This lax enforcement might lead to a belief among citizens that they can simply ignore the payment without facing any consequences.
+1	This	This	X	SW	Foreign=Yes	0	root	_	_
+2	lax	lax	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	enforcement	enforcement	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	might	might	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	lead	lead	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	to	to	X	SW	Foreign=Yes	1	flat:foreign	_	_
+7	a	a	X	X	_	1	flat:foreign	_	_
+8	belief	belief	X	SW	Foreign=Yes	1	flat:foreign	_	_
+9	among	among	X	SW	Foreign=Yes	1	flat:foreign	_	_
+10	citizens	citizens	X	SW	Foreign=Yes	1	flat:foreign	_	_
+11	that	that	X	SW	Foreign=Yes	1	flat:foreign	_	_
+12	they	they	X	SW	Foreign=Yes	1	flat:foreign	_	_
+13	can	can	NOUN	S	Gender=Masc	1	nmod	_	_
+14	simply	simply	NOUN	S	Gender=Masc	13	compound	_	_
+15	ignore	ignore	ADJ	A	Degree=Cmp|Number=Sing	16	amod	_	_
+16	the	the	X	SW	Foreign=Yes	14	compound	_	_
+17	payment	payment	X	SW	Foreign=Yes	16	flat:foreign	_	_
+18	without	without	X	SW	Foreign=Yes	16	flat:foreign	_	_
+19	facing	facing	X	SW	Foreign=Yes	16	flat:foreign	_	_
+20	any	any	X	SW	Foreign=Yes	16	flat:foreign	_	_
+21	consequences	consequences	X	SW	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Ma i problemi non finiscono qui.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	finiscono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	qui	qui	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = La radiazione del veicolo dal Pra comporta anche l'impossibilità di circolazione sulla strada, oltre alla possibile confisca del mezzo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	radiazione	radiazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	veicolo	veicolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Pra	Pra	PROPN	SP	_	2	nmod	_	_
+9	comporta	comportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	impossibilità	impossibilità	NOUN	S	Gender=Fem	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	strada	strada	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	oltre	oltre	ADV	B	_	23	case	_	_
+20-21	alla	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	possibile	possibile	ADJ	A	Number=Sing	23	amod	_	_
+23	confisca	confisca	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 14
+# text = Senza contare le difficoltà nel caso si voglia vendere il veicolo o intestarlo a un altro proprietario.
+1	Senza	senza	ADP	E	_	2	mark	_	_
+2	contare	contare	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	difficoltà	difficoltà	NOUN	S	Gender=Fem	2	obj	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:pass	_	_
+9	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	vendere	vendere	VERB	V	VerbForm=Inf	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	veicolo	veicolo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14-15	intestarlo	_	_	_	_	_	_	_	_
+14	intestar	intestare	VERB	V	VerbForm=Inf	10	conj	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	altro	altro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	proprietario	proprietario	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = È necessario prendere dei provvedimenti urgenti per affrontare questa situazione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	prendere	prendere	VERB	V	VerbForm=Inf	2	csubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	provvedimenti	provvedimento	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	urgenti	urgente	ADJ	A	Number=Plur	6	amod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	affrontare	affrontare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = In primo
+1	In	in	ADP	E	_	2	case	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	SpacesAfter=\n
+

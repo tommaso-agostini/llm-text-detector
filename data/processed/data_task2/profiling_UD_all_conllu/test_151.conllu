@@ -1,0 +1,448 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Riccardo Noury è il portavoce dell'associazione.
+1	Riccardo	Riccardo	PROPN	SP	_	5	nsubj	_	_
+2	Noury	Noury	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	portavoce	portavoce	NOUN	S	_	0	root	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Perché ancora non si riesce a far luce sulla vicenda?
+1	Perché	perché	ADV	B	_	5	advmod	_	_
+2	ancora	ancora	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	far	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	luce	luce	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = La Procura italiana sta facendo tutto il possibile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Procura	Procura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+6	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	possibile	possibile	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Il problema sono le autorità egiziane , che rendono tutto più difficile perché vogliono scagionare il governo del Cairo da ogni responsabilità.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	autorità	autorità	NOUN	S	Gender=Fem	0	root	_	_
+6	egiziane	egiziano	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	rendono	rendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	difficile	difficile	ADJ	A	Number=Sing	9	xcomp	_	_
+13	perché	perché	SCONJ	CS	_	15	mark	_	_
+14	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	scagionare	scagionare	VERB	V	VerbForm=Inf	9	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	governo	governo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Cairo	Cairo	PROPN	SP	_	17	nmod	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	responsabilità	responsabilità	NOUN	S	Gender=Fem	15	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = La procura di Roma si è vista anche negare piena collaborazione dall' Università di Cambridge , per conto della quale Giulio stava svolgendo ricerche sull’economia egiziana.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procura	procura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Roma	Roma	PROPN	SP	_	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	negare	negare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	dall'	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Università	università	NOUN	S	Gender=Fem	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Cambridge	Cambridge	PROPN	SP	_	14	nmod	_	_
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	conto	conto	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	quale	quale	PRON	PR	Number=Sing|PronType=Rel	25	obl	_	_
+23	Giulio	Giulio	PROPN	SP	_	25	nsubj	_	_
+24	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	svolgendo	svolgere	VERB	V	VerbForm=Ger	19	acl:relcl	_	_
+26	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+27-28	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+27	su	su	ADP	E	_	29	case	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	economia	economia	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	egiziana	egiziano	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = La commissione istituita al Cairo che lavora al caso Regeni ha respinto le richieste della procura, dicendo che sono in contrasto con la Costituzione egiziana .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	istituita	istituire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Cairo	Cairo	PROPN	SP	_	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	caso	caso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	Regeni	Regeno	PROPN	SP	_	11	nmod	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	respinto	respingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	procura	procura	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	dicendo	dire	VERB	V	VerbForm=Ger	14	advcl	_	_
+22	che	che	SCONJ	CS	_	25	mark	_	_
+23	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	contrasto	contrasto	NOUN	S	Gender=Masc|Number=Sing	21	ccomp	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	egiziana	egiziano	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = Sono motivazioni assurde.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	motivazioni	motivazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	assurde	assurda	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Come giudica l'ipotesi che la morte di Regeni sia uno strumento per sabotare i rapporti diplomatici tra Italia ed Egitto?
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	giudica	giudicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ipotesi	ipotesi	NOUN	S	Gender=Fem	2	nsubj	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	morte	morte	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Regeni	Regeno	PROPN	SP	_	7	nmod	_	_
+10	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	sabotare	sabotare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	diplomatici	diplomatico	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	tra	tra	ADP	E	_	19	case	_	_
+19	Italia	Italia	PROPN	SP	_	16	nmod	_	_
+20	ed	e	CCONJ	CC	_	21	cc	_	_
+21	Egitto	Egitto	PROPN	SP	_	19	conj	_	SpaceAfter=No
+22	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Io mi baso su fatti concreti e non su voci.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	baso	badere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	su	su	ADP	E	_	5	case	_	_
+5	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	concreti	concreto	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	voci	voce	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = I segni sul corpo di Giulio sono comuni a molti altri egiziani che hanno subito torture.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	segni	segno	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Giulio	Giulio	PROPN	SP	_	5	nmod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	comuni	comune	ADJ	A	Number=Plur	0	root	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+12	altri	altro	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	egiziani	egiziano	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	subito	subire	ADV	B	_	15	advmod	_	_
+17	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Il giorno in cui è scomparso Regeni era un giorno particolare, la capitale egiziana era piena di agenti di sicurezza perché ricorreva l’anniversario delle rivolta del 2011 contro il governo Mubarak.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	scomparso	scomparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	Regeni	Regeno	PROPN	SP	_	6	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+11	particolare	particolare	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	egiziana	egiziano	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	agenti	agente	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	perché	perché	SCONJ	CS	_	23	mark	_	_
+23	ricorreva	ricorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	anniversario	anniversario	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26-27	delle	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	rivolta	rivolta	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	2011	2011	NUM	N	NumType=Card	28	nmod	_	_
+32	contro	contro	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	governo	governo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+35	Mubarak	Mubarak	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 12
+# text = A questo va aggiunto che in Egitto c’è un forte sospetto verso tutti gli stranieri.
+1	A	a	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Egitto	Egitto	PROPN	SP	_	9	obl	_	_
+8	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	forte	forte	ADJ	A	Number=Sing	12	amod	_	_
+12	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+13	verso	verso	ADP	E	_	16	case	_	_
+14	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	stranieri	straniero	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Le istituzioni internazionali hanno richiamato l’Egitto sul rispetto dei diritti umani?
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	internazionali	internazionale	ADJ	A	Number=Plur	2	amod	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	richiamato	richiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Egitto	Egitto	PROPN	SP	_	5	obj	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	umani	umano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = L’Italia è un paese solo sullo scenario internazionale.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Italia	Italia	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	solo	solo	ADV	B	_	9	advmod	_	_
+7-8	sullo	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	internazionale	internazionale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Dire che Giulio era un cittadino europeo è stata solo retorica.
+1	Dire	dire	VERB	V	VerbForm=Inf	11	csubj	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	Giulio	Giulio	PROPN	SP	_	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	1	ccomp	_	_
+7	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+10	solo	solo	ADV	B	_	11	advmod	_	_
+11	retorica	retorico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 16
+# text = In realtà, soltanto il governo italiano si è interessato alla cosa, e lo stesso si può dire per un cittadino francese che è morto in Egitto nel 2013 di cui si sta occupando con scarsi risultati solo Parigi.
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	soltanto	soltanto	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	governo	governo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	interessato	interessato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	20	punct	_	_
+15	e	e	CCONJ	CC	_	20	cc	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	obj	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+19	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	dire	dire	VERB	V	VerbForm=Inf	10	conj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	francese	francese	ADJ	A	Number=Sing	23	amod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	Egitto	Egitto	PROPN	SP	_	27	obl	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	2013	2013	NUM	N	NumType=Card	27	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	cui	cui	PRON	PR	PronType=Rel	37	obl	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl:impers	_	_
+36	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	occupando	occupare	VERB	V	VerbForm=Ger	32	acl:relcl	_	_
+38	con	con	ADP	E	_	39	mark	_	_
+39-40	scarsi	_	_	_	_	_	_	_	_
+39	scar	scarre	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+41	risultati	risultare	NOUN	S	Gender=Masc|Number=Plur	39	obj	_	_
+42	solo	solo	ADV	B	_	43	advmod	_	_
+43	Parigi	Parigi	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 17
+# text = In più sono mille giorni che un cittadino irlandese è nelle prigioni del Cairo e Dublino non riesce a tirarlo fuori.
+1	In	in	ADP	E	_	2	case	_	_
+2	più	più	ADV	B	_	5	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	mille	mille	NUM	N	NumType=Card	5	nummod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+9	irlandese	irlandese	ADJ	A	Number=Sing	8	amod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11-12	nelle	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	prigioni	prigione	NOUN	S	Gender=Fem|Number=Plur	5	acl:relcl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Cairo	Cairo	PROPN	SP	_	13	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Dublino	Dublino	PROPN	SP	_	13	conj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22-23	tirarlo	_	_	_	_	_	_	_	_
+22	tirar	tirare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	fuori	fuori	ADV	B	_	22	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 18
+# text = A livello internazionale non c’è nessuno che ci sta aiutando a far luce sulla vicenda e nessuno che richiami l’Egitto a rispettare i diritti umani.
+1	A	a	ADP	E	_	2	case	_	_
+2	livello	livello	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	internazionale	internazionale	ADJ	A	Number=Sing	2	amod	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	aiutando	aiutare	VERB	V	VerbForm=Ger	10	advcl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	luce	luce	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	conj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	richiami	richiamare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	Egitto	Egitto	PROPN	SP	_	21	obj	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	rispettare	rispettare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	umani	umano	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = È proprio questo il problema più grande.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	proprio	proprio	ADV	B	_	3	advmod	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	grande	grande	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

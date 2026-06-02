@@ -1,0 +1,644 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il 10% delle aziende in Italia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	10	10	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Al 2016 le attività indipendenti condotte da lavoratori immigrati sono oltre 571.255;
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2016	2016	NUM	N	NumType=Card	13	obl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	attività	attività	NOUN	S	Gender=Fem	13	nsubj	_	_
+6	indipendenti	indipendente	ADJ	A	Number=Plur	5	amod	_	_
+7	condotte	condurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+10	immigrati	immigrato	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	oltre	oltre	ADP	E	_	13	case	_	_
+13	571.255	571.255	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 3
+# text = ovvero quasi un decimo di tutte le aziende presenti in Italia.
+1	ovvero	ovvero	CCONJ	CC	_	4	cc	_	_
+2	quasi	quasi	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	decimo	decimo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+9	presenti	presente	ADJ	A	Number=Plur	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Italia	Italia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La tendenza registrata segna una costante crescita di anno in anno che va di pari passo con la tendenza diffusa da parte dei migranti di avviare nuovi esercizi, con una predilezione per le attività autonome poiché riscontrano maggiori difficoltà a inserirsi nel mondo del lavoro dipendente.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	registrata	registrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	segna	segnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	costante	costante	ADJ	A	Number=Sing	7	amod	_	_
+7	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	pari	pari	ADJ	A	_	16	amod	_	_
+16	passo	passo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+20	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	migranti	migrante	NOUN	S	Number=Plur	22	nmod	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	avviare	avviare	VERB	V	VerbForm=Inf	25	acl	_	_
+28	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+29	esercizi	esercizio	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	4	punct	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	predilezione	predilezione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	attività	attività	NOUN	S	Gender=Fem	33	nmod	_	_
+37	autonome	autonomo	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	poiché	poiché	SCONJ	CS	_	39	mark	_	_
+39	riscontrano	riscontrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+40	maggiori	maggiore	ADJ	A	Degree=Cmp|Number=Plur	41	amod	_	_
+41	difficoltà	difficoltà	NOUN	S	Gender=Fem	39	obj	_	_
+42	a	a	ADP	E	_	43	mark	_	_
+43-44	inserirsi	_	_	_	_	_	_	_	_
+43	inserir	inserire	VERB	V	VerbForm=Inf	39	xcomp	_	_
+44	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	43	expl	_	_
+45-46	nel	_	_	_	_	_	_	_	_
+45	in	in	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	_
+48-49	del	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+51	dipendente	dipendente	ADJ	A	Number=Sing	50	amod	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = In 8 casi su 10, i cittadini immigrati scelgono di aprire ditte individuali.
+1	In	in	ADP	E	_	3	case	_	_
+2	8	8	NUM	N	NumType=Card	3	nummod	_	_
+3	casi	caso	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+4	su	su	ADP	E	_	5	case	_	_
+5	10	10	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	immigrati	immigrato	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	scelgono	scegliere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	aprire	aprire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	ditte	ditta	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	individuali	individuale	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = I principali ambiti di impiego sono il commercio e l’edilizia, seguiti dalle attività di alloggio e ristorazione e dai servizi ristorativi-alberghieri che si collocano a pari merito con l’attività manifatturiera.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	principali	principale	ADJ	A	Number=Plur	3	amod	_	_
+3	ambiti	ambito	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	edilizia	edilizia	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	seguiti	seguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+14-15	dalle	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	attività	attività	NOUN	S	Gender=Fem	13	obl:agent	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	ristorazione	ristorazione	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	dai	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+25	ristorativi	ristorativo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	-alberghieri	-alberghiero	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	collocano	collocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	pari	pari	ADJ	A	_	32	amod	_	_
+32	merito	merito	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	attività	attività	NOUN	S	Gender=Fem	29	obl	_	_
+36	manifatturiera	manifatturiero	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = L’imprenditorialità immigrata si concentra soprattutto nel settore dei servizi.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	imprenditorialità	imprenditorialità	NOUN	S	Gender=Fem	5	nsubj	_	_
+3	immigrata	immigrato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	concentra	concentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	soprattutto	soprattutto	ADV	B	_	9	advmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	settore	settore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Al secondo posto vi è quello industriale.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+8	industriale	industriale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Particolarmente rilevante è l’inserimento dei migranti come lavoratori indipendenti nel mondo dell’artigianato.
+1	Particolarmente	particolarmente	ADV	B	_	2	advmod	_	_
+2	rilevante	rilevante	ADJ	A	Number=Sing	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	inserimento	inserimento	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	migranti	migrante	NOUN	S	Number=Plur	5	nmod	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+11	indipendenti	indipendente	ADJ	A	Number=Plur	10	amod	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15-16	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	artigianato	artigianato	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Centro-nord in testa.
+1	Centro	centro	ADP	E	_	2	case	_	SpaceAfter=No
+2	-nord	-nord	NOUN	S	Gender=Masc	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	testa	testa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = In prima linea vi sono i migranti provenienti dal Marocco e dalla Cina.
+1	In	in	ADP	E	_	3	case	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	linea	linea	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	migranti	migrante	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	7	acl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Marocco	Marocco	PROPN	SP	_	8	obl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Cina	Cina	PROPN	SP	_	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = I primi maggiormente inseriti nel commercio, i secondi distribuiti tra commercio, manifattura e servizi di alloggio e ristorazione.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+3	maggiormente	maggiormente	ADV	B	_	4	advmod	_	_
+4	inseriti	inserire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+11	distribuiti	distribuire	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	tra	tra	ADP	E	_	13	case	_	_
+13	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	manifattura	manifattura	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	ristorazione	ristorazione	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Dal punto di vista distributivo, le regioni centro-settentrionali beneficiano maggiormente dell’imprenditorialità immigrata, con la Lombardia al primo posto e il Lazio al secondo.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	vista	vista	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	distributivo	distributivo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+10	centro	centro	NOUN	S	Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	settentrionali	settentrionale	ADJ	A	Number=Plur	10	amod	_	_
+13	beneficiano	beneficiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	maggiormente	maggiormente	ADV	B	_	13	advmod	_	_
+15-16	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	imprenditorialità	imprenditorialità	NOUN	S	Gender=Fem	13	obl	_	_
+18	immigrata	immigrato	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Lombardia	Lombardia	PROPN	SP	_	17	nmod	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
+26	posto	posto	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Lazio	Lazio	PROPN	SP	_	26	conj	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	26	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 14
+# text = Seguiti da Emilia-Romagna e Veneto.
+1	Seguiti	seguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	Emilia	Emilia	PROPN	SP	_	1	obl	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	Romagna	Romagna	PROPN	SP	_	3	flat:name	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Veneto	Veneto	PROPN	SP	_	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Piemonte e Campania si contendono il quinto posto.
+1	Piemonte	Piemonte	PROPN	SP	_	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Campania	Campania	PROPN	SP	_	1	conj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	contendono	contendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = In aumento la concentrazione di lavoratori immigrati indipendenti in alcune città meridionali, come Napoli, Reggio Calabria e Palermo.
+1	In	in	ADP	E	_	2	case	_	_
+2	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	concentrazione	concentrazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	immigrati	immigrato	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	indipendenti	indipendente	ADJ	A	Number=Plur	7	amod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+11	città	città	NOUN	S	Gender=Fem	8	obl	_	_
+12	meridionali	meridionale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	Napoli	Napoli	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Reggio	Reggio	PROPN	SP	_	15	conj	_	_
+18	Calabria	Calabria	PROPN	SP	_	17	flat:name	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Palermo	Palermo	PROPN	SP	_	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = L’apertura di attività autonome da parte dei migranti rappresenta un fenomeno in crescita.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	attività	attività	NOUN	S	Gender=Fem	2	nmod	_	_
+5	autonome	autonomo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	_
+11	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 18
+# text = Infatti, contrariamente alla fase di stagnazione della piccola e media imprenditoria gestita da lavoratori nati in Italia, quella a guida immigrata è in aumento con un +3,7% nell’ultimo anno.
+1	Infatti	infatti	ADV	B	_	28	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	contrariamente	contrariamente	ADV	B	_	22	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fase	fase	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	stagnazione	stagnazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	14	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+11	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	media	medio	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+14	imprenditoria	imprenditoria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+15	gestita	gestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	15	obl:agent	_	_
+18	nati	nato	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Italia	Italia	PROPN	SP	_	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	28	nsubj	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	guida	guida	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+25	immigrata	immigrato	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	+3,7	+3,7	NUM	N	NumType=Card	32	nummod	_	SpaceAfter=No
+32	%	%	SYM	SYM	_	28	nmod	_	_
+33-34	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+33	in	in	ADP	E	_	36	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+35	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	36	amod	_	_
+36	anno	anno	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 19
+# text = Donne in prima linea.
+1	Donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	linea	linea	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Le imprese guidate da donne immigrate nel 2016 sono 135mila.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+3	guidate	guidare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	obl:agent	_	_
+6	immigrate	immigrare	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2016	2016	NUM	N	NumType=Card	3	obl	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	135mila	135mila	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 21
+# text = L’imprenditoria femminile cresce più di quella maschile e più di quella delle donne native.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	imprenditoria	imprenditoria	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	femminile	femminile	ADJ	A	Number=Sing	2	amod	_	_
+4	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	obl	_	_
+8	maschile	maschile	ADJ	A	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	conj	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	native	nativo	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Il picco è stato registrato nel settore tessile, con Prato capofila in Italia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	picco	picco	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	registrato	registrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	settore	settore	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	tessile	tessile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	Prato	Prato	PROPN	SP	_	5	obl	_	_
+13	capofila	capofila	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Italia	Italia	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = Proprio a un’imprenditrice quest’anno è stato assegnato il MoneyGram Award.
+1	Proprio	proprio	ADV	B	_	9	advmod	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	imprenditrice	imprenditore	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+5	quest’	questo	DET	DD	Number=Sing|PronType=Dem	6	det	_	SpaceAfter=No
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	assegnato	assegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	MoneyGram	MoneyGram	PROPN	SP	_	9	nsubj:pass	_	_
+12	Award	Award	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 24
+# text = Yafreisy Berenice, originaria di Santo Domingo, ha rilevato un’attività in chiusura, riuscendo a costruire una società nel settore alimentare oggi in crescita.
+1	Yafreisy	Yafreisy	PROPN	SP	_	10	nsubj	_	_
+2	Berenice	Berenice	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	originaria	originario	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Santo	Santo	PROPN	SP	_	4	obl	_	_
+7	Domingo	Domingo	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rilevato	rilevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	attività	attività	NOUN	S	Gender=Fem	10	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	riuscendo	riuscire	VERB	V	VerbForm=Ger	10	advcl	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	costruire	costruire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	società	società	NOUN	S	Gender=Fem	18	obj	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	settore	settore	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	alimentare	alimentare	ADJ	A	Number=Sing	23	amod	_	_
+25	oggi	oggi	ADV	B	_	27	advmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 25
+# text = Non sono mancati però gli ostacoli.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	mancati	mancare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	però	però	ADV	B	_	3	advmod	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ostacoli	ostacolo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Segnala, infatti, “una diffusa diffidenza nei confronti delle imprese guidate da stranieri”.
+1	Segnala	segnala	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	infatti	infatti	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	diffidenza	diffidenza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	guidate	guidare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	stranieri	straniero	NOUN	S	Gender=Masc|Number=Plur	15	obl:agent	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = Eppure, guardando i dati, è impossibile non riconoscere il contributo degli immigrati al mondo del lavoro autonomo in Italia.
+1	Eppure	eppure	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	guardando	guardare	VERB	V	VerbForm=Ger	8	advcl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	dati	dato	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	riconoscere	riconoscere	VERB	V	VerbForm=Inf	8	csubj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	autonomo	autonomo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	Italia	Italia	PROPN	SP	_	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 28
+# text = Permangono però alcune criticità che riguardano la cittadinanza, l’acceso al credito e un’implementazione degli strumenti a garanzia della qualità e non sono della quantità.
+1	Permangono	Permangere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	però	però	ADV	B	_	1	advmod	_	_
+3	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	criticità	criticità	NOUN	S	Gender=Fem	1	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	riguardano	riguardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	acceso	acceso	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	credito	credito	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	implementazione	implementazione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	garanzia	garanzia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	qualità	qualità	NOUN	S	Gender=Fem	22	nmod	_	_
+26	e	e	CCONJ	CC	_	31	cc	_	_
+27	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+28	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	quantità	quantità	NOUN	S	Gender=Fem	6	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

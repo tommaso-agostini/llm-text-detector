@@ -1,0 +1,376 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un riferimento al luogo in cui fu esposto dopo la morte, nel 1945, il corpo di Benito Mussolini.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+8	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	esposto	esporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	dopo	dopo	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	morte	morte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	1945	1945	NUM	N	NumType=Card	19	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Benito	Benito	PROPN	SP	_	19	nmod	_	_
+22	Mussolini	Mussolini	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Matteo Salvini ha deciso di postare sui social questa foto, scattata ieri durante la pacifica manifestazione di Milano , in piazza San Babila, contro il suo incontro con il premier sovranista ungherese Orban.
+1	Matteo	Matteo	PROPN	SP	_	4	nsubj	_	_
+2	Salvini	Salvini	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	postare	postare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7-8	sui	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	social	social	NOUN	S	Gender=Masc	6	obl	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	foto	foto	NOUN	S	Gender=Fem	6	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	scattata	scattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+14	ieri	ieri	ADV	B	_	13	advmod	_	_
+15	durante	durante	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	pacifica	pacifico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Milano	Milano	PROPN	SP	_	18	nmod	_	_
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+24	San	San	PROPN	SP	_	13	nmod	_	_
+25	Babila	Babila	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	contro	contro	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	premier	premier	NOUN	S	_	30	nmod	_	_
+34	sovranista	sovranista	ADJ	A	Number=Sing	33	amod	_	_
+35	ungherese	ungherese	ADJ	A	Number=Sing	33	amod	_	_
+36	Orban	Orban	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = E si è rivolto ai suoi bersagli polemici preferiti:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	bersagli	bersaglio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	polemici	polemico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	preferiti	preferito	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = Boldrini, Renzi, Boschi.
+1	Boldrini	Boldrini	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Renzi	Renzi	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	Boschi	Boschi	PROPN	SP	_	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = "Chiedo pubblicamente a Boldrini, Boschi, Renzi e compagni vari di condannare questo gesto vigliacco, che mi dipinge come nazista augurandomi la MORTE.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pubblicamente	pubblicamente	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Boldrini	Boldrini	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Boschi	Boschi	PROPN	SP	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	Renzi	Renzi	PROPN	SP	_	5	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+12	vari	vario	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	condannare	condannare	VERB	V	VerbForm=Inf	11	acl	_	_
+15	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	vigliacco	vigliacco	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+21	dipinge	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	nazista	nazista	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24-25	augurandomi	_	_	_	_	_	_	_	_
+24	augurando	augurare	VERB	V	VerbForm=Ger	21	advcl	_	_
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	MORTE	morte	PROPN	SP	_	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Secondo voi risponderanno all'appello?".
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+3	risponderanno	rispondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	appello	appello	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Chiedo pubblicamente a Boldrini, Boschi, Renzi e compagni vari di condannare questo gesto vigliacco, che mi dipinge come nazista augurandomi la MORTE.
+1	Chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pubblicamente	pubblicamente	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Boldrini	Boldrini	PROPN	SP	_	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Boschi	Boschi	PROPN	SP	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Renzi	Renzi	PROPN	SP	_	4	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+11	vari	vario	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	condannare	condannare	VERB	V	VerbForm=Inf	10	acl	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	vigliacco	vigliacco	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+20	dipinge	dipingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	nazista	nazista	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23-24	augurandomi	_	_	_	_	_	_	_	_
+23	augurando	augurare	VERB	V	VerbForm=Ger	20	advcl	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	MORTE	morte	PROPN	SP	_	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Secondo voi risponderanno all'appello?
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+3	risponderanno	rispondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	appello	appello	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = pic.twitter.com/gyCbN0tNyE — Matteo Salvini (@matteosalvinimi) August 29, 2018 In un clima politico sempre più avvelenato, Salvini ha scelto di condividere ogni volta sui social le minacce ricevute.
+1	pic.twitter.com/gyCbN0tNyE	pic.twitter.com/gyCbN0tNyE	ADV	B	_	22	advmod	_	_
+2	—	—	PUNCT	FF	_	1	punct	_	_
+3	Matteo	Matteo	PROPN	SP	_	22	nsubj	_	_
+4	Salvini	Salvini	PROPN	SP	_	3	flat:name	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	@matteosalvinimi	@matteosalvinimo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	August	August	PROPN	SP	_	3	nmod	_	_
+9	29	29	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	2018	2018	NUM	N	NumType=Card	22	nummod	_	_
+12	In	in	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	clima	clima	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+15	politico	politico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	avvelenato	avvelenato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	Salvini	Salvini	PROPN	SP	_	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	condividere	condividere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+26	volta	volta	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27-28	sui	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	social	social	NOUN	S	Gender=Masc	24	obl	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+32	ricevute	ricevuto	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 10
+# text = Rispondendo in genere:
+1	Rispondendo	rispondere	VERB	V	VerbForm=Ger	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	genere	genere	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = "Io non ho paura".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Cronaca Parma, scritte minacciose contro Salvini:
+1	Cronaca	cronaca	PROPN	SP	_	0	root	_	_
+2	Parma	Parma	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	scritte	scritta	NOUN	S	Gender=Fem|Number=Plur	1	appos	_	_
+5	minacciose	minaccioso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6	contro	contro	ADP	E	_	7	case	_	_
+7	Salvini	Salvini	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 13
+# text = "Ma io non ho paura" In questo caso ha deciso di rivolgersi agli avversari politici.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	_
+8	In	in	ADP	E	_	10	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	caso	caso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	rivolgersi	_	_	_	_	_	_	_	_
+14	rivolger	rivolgere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16-17	agli	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	avversari	avversario	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+19	politici	politico	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Sotto il tweet - e il post su Facebook - di Salvini, oltre a varie invettive contro la sinistra anche tante richieste rivolte a tutte le forze politiche:
+1	Sotto	sotto	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tweet	tweet	NOUN	S	Gender=Masc	23	nmod	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	post	post	NOUN	S	_	23	conj	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	Facebook	Facebook	PROPN	SP	_	7	nmod	_	_
+10	-	-	PUNCT	FF	_	7	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Salvini	Salvini	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	oltre	oltre	ADV	B	_	17	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	invettive	invettiva	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+18	contro	contro	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	anche	anche	ADV	B	_	23	advmod	_	_
+22	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	richieste	richieste	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+24	rivolte	rivolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25	a	a	ADP	E	_	28	case	_	_
+26	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	28	det:predet	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	forze	forza	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+29	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 15
+# text = abbassate i toni, prima che si spacchi il Paese.
+1	abbassate	abbassare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	toni	tono	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	prima	prima	ADV	B	_	8	mark	_	_
+6	che	che	SCONJ	CS	_	5	fixed	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	spacchi	spacco	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Io rispondo e dico che è sbagliato attaccarla.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	rispondo	rispondo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	dico	dico	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8-9	attaccarla	_	_	_	_	_	_	_	SpaceAfter=No
+8	attaccar	attaccare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Aggiungo però, Ministro, abbassiamo tutti i toni, prima che sia tardi.
+1	Aggiungo	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	però	però	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Ministro	Ministro	PROPN	SP	_	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	abbassiamo	abbassare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	toni	tono	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	prima	prima	ADV	B	_	13	mark	_	_
+12	che	che	SCONJ	CS	_	11	fixed	_	_
+13	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+14	tardi	tardi	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Prima che si spacchi il Paese.
+1	Prima	prima	ADV	B	_	4	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	spacchi	spacco	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Grazie — Flaviano Di Franza (@fdfpd) August 29, 2018
+1	Grazie	grazie	INTJ	I	_	0	root	_	_
+2	—	—	PUNCT	FF	_	1	punct	_	_
+3	Flaviano	Flaviano	PROPN	SP	_	1	appos	_	_
+4	Di	Di	PROPN	SP	_	3	flat:name	_	_
+5	Franza	Franza	PROPN	SP	_	3	flat:name	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	@fdfpd	@fdfpd	NOUN	S	_	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	_
+9	August	August	PROPN	SP	_	5	flat:name	_	_
+10	29	29	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	2018	2018	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+

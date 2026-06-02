@@ -1,0 +1,380 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Funziona!
+1	Funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = ", la gara di costruzioni tecnologiche per 14 mila studenti "creativi".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gara	gara	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	costruzioni	costruzione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	tecnologiche	tecnologico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	14	14	NUM	N	NumType=Card	11	nummod	_	_
+10	mila	mila	NUM	N	NumType=Card	9	flat	_	_
+11	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	creativi	creativo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = L'obiettivo della sfida?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Partendo da un kit di materiali distribuito tra i banchi di alcune terze, quarte e quinte elementari, i piccoli giocatori dovranno costruire un giocattolo, traendo ispirazione dalla vita quotidiana.
+1	Partendo	partire	VERB	V	VerbForm=Ger	24	advcl	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	kit	kit	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	materiali	materiale	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	tra	tra	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	terze	terze	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	quarte	quarte	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	quinte	quinto	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+18	elementari	elementario	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	giocatori	giocatore	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+23	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	24	aux	_	_
+24	costruire	costruire	VERB	V	VerbForm=Inf	0	root	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	giocattolo	giocattolo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	traendo	trarre	VERB	V	VerbForm=Ger	24	advcl	_	_
+29	ispirazione	ispirazione	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+30-31	dalla	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	vita	vita	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+33	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 5
+# text = Il progetto, attivo in tutta Europa dal 2003, è arrivato alla quinta edizione italiana ed è promosso a livello nazionale da Federmeccanica, in accordo con il Miur e con la collaborazione di numerose associazioni territoriali di Confindustria.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	7	det	_	_
+7	Europa	Europa	PROPN	SP	_	4	obl	_	_
+8-9	dal	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	2003	2003	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
+17	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+18	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	ed	e	CCONJ	CC	_	21	cc	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	promosso	promuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	livello	livello	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	nazionale	nazionale	ADJ	A	Number=Sing	23	amod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	Federmeccanica	Federmeccanica	PROPN	SP	_	21	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Miur	Miur	PROPN	SP	_	29	nmod	_	_
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	numerose	numeroso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	39	det	_	_
+39	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	_
+40	territoriali	territoriale	ADJ	A	Number=Plur	39	amod	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	Confindustria	Confindustria	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Utilizzare l'invenzione come strumento per imparare, spiegano gli organizzatori, stimolando l'ingegno e l'attitudine al lavoro di gruppo di migliaia di bambini:
+1	Utilizzare	utilizzare	VERB	V	VerbForm=Inf	9	advcl	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	invenzione	invenzione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	imparare	imparare	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	spiegano	spiegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	organizzatori	organizzatore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	stimolando	stimolare	VERB	V	VerbForm=Ger	9	advcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	ingegno	ingegno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	attitudine	attitudine	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 7
+# text = così un giocattolo può allenare la "cultura" tecnica e scientifica.
+1	così	così	ADV	B	_	5	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giocattolo	giocattolo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	allenare	allenare	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	_
+10	tecnica	tecnica	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Un investimento formativo già tenuto in massima considerazione in numerosi paesi europei come Germania, Finlandia, Olanda e Francia, facendo leva sull'approccio interdisciplinare che coinvolge materie di studio come matematica e disegno, passando per l'italiano e scienza.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	formativo	formativo	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+12	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	Germania	Germania	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	Finlandia	Finlandia	PROPN	SP	_	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	Olanda	Olanda	PROPN	SP	_	14	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	Francia	Francia	PROPN	SP	_	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	facendo	fare	VERB	V	VerbForm=Ger	5	advcl	_	_
+23	leva	leva	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+24-25	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+24	su	su	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	interdisciplinare	interdisciplinare	ADJ	A	Number=Sing	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	coinvolge	coinvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	materie	materia	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	studio	studio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	come	come	ADP	E	_	34	case	_	_
+34	matematica	matematica	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	disegno	disegno	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	22	punct	_	_
+38	passando	passare	VERB	V	VerbForm=Ger	22	advcl	_	_
+39	per	per	ADP	E	_	41	case	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	41	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = I bambini, pertanto, andranno a ideare, progettare, costruire, pubblicizzare giocattoli che si muoveranno attraverso l'aria e l'acqua, applicando il principio fisico della pneumatica.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	pertanto	pertanto	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	andranno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	ideare	ideare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	progettare	progettare	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	costruire	costruire	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	pubblicizzare	pubblicizzare	VERB	V	VerbForm=Inf	6	conj	_	_
+15	giocattoli	giocattolo	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj:pass	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:pass	_	_
+18	muoveranno	muovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	acl:relcl	_	_
+19	attraverso	attraverso	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	aria	aria	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	6	punct	_	_
+26	applicando	applicare	VERB	V	VerbForm=Ger	6	advcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	principio	principio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	fisico	fisico	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	pneumatica	pneumatica	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = I kit - confezionati dall'associazione Realmonte, che impiega rifugiati politici - saranno composti da siringhe di plastica senza ago e tubicini di gomma, palloncini e cannucce, dischi di cartone, elastici, fogli di alluminio.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	kit	kit	NOUN	S	_	16	nsubj:pass	_	_
+3	-	-	PUNCT	FB	_	2	punct	_	_
+4	confezionati	confezionare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	Realmonte	Realmonte	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	impiega	impiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+12	rifugiati	rifugiato	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	politici	politico	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	-	-	PUNCT	FB	_	2	punct	_	_
+15	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
+16	composti	comporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	siringhe	siringa	NOUN	S	Gender=Fem|Number=Plur	16	obl:agent	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	senza	senza	ADP	E	_	22	case	_	_
+22	ago	ago	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	tubicini	tubicino	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	gomma	gomma	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	palloncini	palloncino	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	cannucce	cannuccia	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	dischi	disco	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	cartone	cartone	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	elastici	elastico	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	fogli	foglio	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	alluminio	alluminio	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = I numeri di "Eureka!
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Eureka	Eureka	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Funziona!" - fanno sapere i promotori - sono in continua crescita:
+1	Funziona	funzionare	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+2	!	!	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	1	punct	_	_
+4	-	-	PUNCT	FB	_	1	punct	_	_
+5	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	5	ccomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	promotori	promotore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	-	-	PUNCT	FB	_	5	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 13
+# text = all'edizione del 2017 parteciperanno 38 territori in tutt'italia: da Trento a Messina, passando tra l'altro per Como, Milano, Bologna, Roma, Frosinone, Caserta, Crotone, Brindisi e Bari.
+1-2	all'	_	_	_	_	_	_	_	SpaceAfter=No
+1	a	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2017	2017	NUM	N	NumType=Card	3	nmod	_	_
+7	parteciperanno	partecipare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	38	38	NUM	N	NumType=Card	9	nummod	_	_
+9	territori	territorio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	tutt'	tutto	DET	T	PronType=Tot	12	det	_	SpaceAfter=No
+12	italia	italia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	9	punct	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	Trento	Trento	PROPN	SP	_	9	nmod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Messina	Messina	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	passando	passare	VERB	V	VerbForm=Ger	7	advcl	_	_
+20	tra	tra	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	obl	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	Como	Como	PROPN	SP	_	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	Milano	Milano	PROPN	SP	_	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Bologna	Bologna	PROPN	SP	_	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	Roma	Roma	PROPN	SP	_	24	conj	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	_	_
+32	Frosinone	Frosinone	PROPN	SP	_	24	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	Caserta	Caserta	PROPN	SP	_	24	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	Crotone	Crotone	PROPN	SP	_	24	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	Brindisi	Brindisi	PROPN	SP	_	24	conj	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	Bari	Bari	PROPN	SP	_	24	conj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Che il gioco abbia inizio.
+1	Che	che	SCONJ	CS	_	4	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

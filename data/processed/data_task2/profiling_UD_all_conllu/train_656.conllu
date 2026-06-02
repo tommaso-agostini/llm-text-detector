@@ -1,0 +1,353 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una signora, una signora apparentemente normale, che inciampa in una buca, non una buca, una voragine, un abisso creato dalla negligenza e dalla mentalità di chi, da anni, considera Roma un cantiere a cielo aperto e i suoi cittadini semplici ingombranti da deviare.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	signora	signore	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+6	apparentemente	apparentemente	ADV	B	_	7	advmod	_	_
+7	normale	normale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	inciampa	inciampere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	buca	buca	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	buca	buca	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	voragine	voragine	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	2	punct	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	abisso	abisso	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+24	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+25-26	dalla	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	negligenza	negligenza	NOUN	S	Gender=Fem|Number=Sing	24	obl:agent	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29-30	dalla	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	mentalità	mentalità	NOUN	S	Gender=Fem	27	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	chi	chi	PRON	PR	Number=Sing|PronType=Rel	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	da	da	ADP	E	_	36	case	_	_
+36	anni	anno	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	2	punct	_	_
+38	considera	considerare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+39	Roma	Roma	PROPN	SP	_	38	obj	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	cantiere	cantiere	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+44	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+45	e	e	CCONJ	CC	_	48	cc	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+47	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	48	det:poss	_	_
+48	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	_
+49	semplici	semplico	ADJ	A	Number=Plur	48	amod	_	_
+50	ingombranti	ingombrante	ADJ	A	Number=Plur	48	amod	_	_
+51	da	da	ADP	E	_	52	mark	_	_
+52	deviare	deviare	VERB	V	VerbForm=Inf	50	advcl	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	38	punct	_	_
+
+# sent_id = 2
+# text = Paola Perego, insegnante di scuola media, madre di due figli, ha pianto, lo ha dichiarato a caldo ai nostri microfoni, mentre si riprendeva da quella caduta, una caduta che avrebbe potuto costarle molto di più.
+1	Paola	Paola	PROPN	SP	_	15	nsubj	_	_
+2	Perego	Perego	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	insegnante	insegnante	NOUN	S	Number=Sing	1	appos	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+7	media	medio	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	madre	madre	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	pianto	piangere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22-23	ai	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	microfoni	microfone	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	15	punct	_	_
+27	mentre	mentre	SCONJ	CS	_	29	mark	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	riprendeva	riprendevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+30	da	da	ADP	E	_	31	case	_	_
+31	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	29	obl	_	_
+32	caduta	caduta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
+36	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+37	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+38	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	aux	_	_
+39-40	costarle	_	_	_	_	_	_	_	_
+39	costar	costare	VERB	V	VerbForm=Inf	35	acl:relcl	_	_
+40	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+41	molto	molto	ADV	B	_	43	advmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	più	più	ADV	B	_	39	advmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Non è stata la caduta in sé, per quanto dolorosa e spiacevole, a scatenare la sua rabbia, ma la constatazione amara:
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	per	per	ADP	E	_	7	case	_	_
+10	quanto	quanto	ADV	B	_	9	fixed	_	_
+11	dolorosa	doloroso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	spiacevole	spiacevole	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	scatenare	scatenare	VERB	V	VerbForm=Inf	5	acl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	ma	ma	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	constatazione	constatazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+24	amara	amaro	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 4
+# text = la buca.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	buca	buca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Una buca di quelle che non ci sono, o che dovrebbero essere state riparate da mesi, una di quelle che non fanno altro che mettere a rischio la vita dei pedoni e dei ciclisti.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	buca	buca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	o	o	CCONJ	CC	_	15	cc	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	essere	essere	AUX	VA	VerbForm=Inf	15	aux	_	_
+14	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	riparate	riparare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	15	obl:agent	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	appos	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	obj	_	_
+26	che	che	SCONJ	CS	_	27	mark	_	_
+27	mettere	mettere	VERB	V	VerbForm=Inf	24	ccomp	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	vita	vita	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	pedoni	pedone	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36-37	dei	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	ciclisti	ciclista	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Un'altra ferita aperta in quella Roma, ahimè, gentrificata e ‘riqualificata’ a suon di soldi pubblici, che è diventata un campo di prova per progetti faraonici a discapito della sicurezza dei suoi abitanti.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	ferita	ferita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Roma	Roma	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	ahimè	ahimè	INTJ	I	_	11	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	gentrificata	gentrificare	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	‘riqualificata	‘riqualificare	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	’	’	PUNCT	FF	_	11	punct	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	suon	suon	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	campo	campo	NOUN	S	Gender=Masc|Number=Sing	23	xcomp	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	prova	prova	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	per	per	ADP	E	_	29	case	_	_
+29	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+30	faraonici	faraonico	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	discapito	discapito	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	dei	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	39	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+38	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	abitanti	abitante	NOUN	S	Number=Plur	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Certo, l'assessore all'urbanistica, il professor Bianchi, ha rilasciato un comunicato condoglienti.
+1	Certo	certo	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	assessore	assessore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	urbanistica	urbanistica	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	professor	professore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+11	Bianchi	Bianchi	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	condoglienti	condogliente	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 8
+# text = Parla di “circostanze impreviste” e di “immediati interventi”.
+1	Parla	parlare	PROPN	SP	_	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	circostanze	circostanza	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+5	impreviste	imprevista	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	4	punct	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	“	“	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	immediati	immediato	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Ma noi abbiamo imparato a non fidarci di questi comunicati.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7-8	fidarci	_	_	_	_	_	_	_	_
+7	fidar	fidare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	comunicati	comunicato	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Abbiamo imparato a guardare oltre le parole e a cercare la sostanza, quella che finora è sembrata sempre mancare.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	guardare	guardare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	oltre	oltre	ADV	B	_	4	advmod	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	cercare	cercare	VERB	V	VerbForm=Inf	4	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	finora	finora	ADV	B	_	18	advmod	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	sembrata	sembrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+19	sempre	sempre	ADV	B	_	18	advmod	_	_
+20	mancare	mancare	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Ricordiamo che la città è imbrattata di buche, di tombini che perdono acqua, di strade dissestate, mentre i lavori per la nuova metro, per il nuovo museo, per la nuova pista ciclabile, procedono a
+1	Ricordiamo	ricordare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	città	città	NOUN	S	Gender=Fem	6	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	imbrattata	esimbratere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	buche	buca	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	tombini	tombino	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	strade	strada	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+18	dissestate	dissestato	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	39	punct	_	_
+20	mentre	mentre	SCONJ	CS	_	39	mark	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	39	nsubj	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	metro	metro	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	per	per	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	museo	museo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	22	punct	_	_
+33	per	per	ADP	E	_	36	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+36	pista	pista	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+37	ciclabile	ciclabile	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	procedono	procedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+40	a	a	ADP	E	_	1	fixed	_	SpacesAfter=\n
+

@@ -1,0 +1,378 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I due uomini, un ventenne di origini marocchine regolare in Italia e un quarantenne ambulante irregolare, sono stati portati all'ospedale con ferite da arma da fuoco molto gravi.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	21	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ventenne	ventenne	NOUN	S	Number=Sing	3	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	origini	origine	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	marocchine	marocchina	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	regolare	regolare	ADJ	A	Number=Sing	8	amod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Italia	Italia	PROPN	SP	_	3	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	quarantenne	quarantenne	NOUN	S	Number=Sing	3	conj	_	_
+16	ambulante	ambulante	ADJ	A	Number=Sing	15	amod	_	_
+17	irregolare	irregolare	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	portati	portare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	ferite	ferita	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	arma	arma	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	molto	molto	ADV	B	_	32	advmod	_	_
+32	gravi	grave	ADJ	A	Number=Plur	26	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 2
+# text = Le autorità attivano immediatamente le indagini, cercando di capire il movente dell'omicidio.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	autorità	autorità	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	attivano	attivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	immediatamente	immediato	ADV	B	_	3	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	cercando	cercare	VERB	V	VerbForm=Ger	3	advcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	capire	capire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	movente	movente	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = In questi giorni, sono state fatte delle ricerche che suscitano preoccupazione.
+1	In	in	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	suscitano	suscitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Secondo le statistiche, in Italia in sette anni le pistole sono raddoppiate.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	statistiche	statistica	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	3	nmod	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	sette	sette	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	pistole	pistola	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	raddoppiate	raddoppiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Secondo i dati forniti dalla Polizia, nel 2014 le pistole sequestrate nel nostro Paese erano 32.345.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	dati	dato	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+4	forniti	fornire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	2014	2014	NUM	N	NumType=Card	3	nmod	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	pistole	pistola	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+14	sequestrate	sequestrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+20	32.345	32.345	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 6
+# text = Nel 2021, erano diventate 61.201.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2021	2021	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	diventate	diventare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	61.201	61.201	NUM	N	NumType=Card	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Un aumento considerevole, soprattutto se unito all'aumento della criminalità.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	considerevole	considerevole	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	soprattutto	soprattutto	ADV	B	_	7	advmod	_	_
+6	se	se	SCONJ	CS	_	7	mark	_	_
+7	unito	unire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	criminalità	criminalità	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = **Si tratta in gran parte di revolver acquistati legalmente, ma usati per reati**.
+1	**Si	**Si	PROPN	SP	_	2	nsubj	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	gran	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	revolver	revolver	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	acquistati	acquistare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	xcomp	_	_
+9	legalmente	legalmente	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	usati	usare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	reati**	reati**	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Questo perché il nostro Paese è uno dei primi in Europa in termini d'acquisto delle armi.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	perché	perché	SCONJ	CS	_	7	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Paese	Paese	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	advcl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	nmod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Europa	Europa	PROPN	SP	_	10	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	termini	termine	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	armi	arma	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Se nel 2008 se ne registravano 5 milioni e 200 mila venduti legalmente in Italia, con il nuovo decennio la cifra è quasi raddoppiata.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2008	2008	NUM	N	NumType=Card	7	obl	_	_
+5	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	registravano	registrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	advcl	_	_
+8	5	5	NUM	N	NumType=Card	9	nummod	_	_
+9	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	200	200	NUM	N	NumType=Card	13	nummod	_	_
+12	mila	mila	NUM	N	NumType=Card	11	flat	_	_
+13	venduti	vendere	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+14	legalmente	legalmente	ADV	B	_	16	advmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Italia	Italia	PROPN	SP	_	7	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	decennio	decennio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+24	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+25	quasi	quasi	ADV	B	_	26	advmod	_	_
+26	raddoppiata	raddoppiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 11
+# text = Quello della sicurezza non è solo un tema politico, ma anche economico.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tema	tema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	politico	politico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	anche	anche	ADV	B	_	14	advmod	_	_
+14	economico	economico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = Se le forze armate del nostro Paese non dispongono delle armi necessarie per reprimere le azioni criminali, si rischia di emanare leggi che limitano la libertà del popolo italiano, e in particolare delle fasce più deboli della popolazione.
+1	Se	se	SCONJ	CS	_	10	mark	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	forze	forza	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+4	armate	armato	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	dispongono	disporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	armi	arma	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	reprimere	reprimere	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	criminali	criminale	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	emanare	emanare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	limitano	limitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	libertà	libertà	NOUN	S	Gender=Fem	27	obj	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	40	punct	_	_
+35	e	e	CCONJ	CC	_	40	cc	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+38-39	delle	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	fasce	fascia	NOUN	S	Gender=Fem|Number=Plur	22	conj	_	_
+41	più	più	ADV	B	_	42	advmod	_	_
+42	deboli	debole	ADJ	A	Number=Plur	40	amod	_	_
+43-44	della	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 13
+# text = Come diceva il cardinale Carlo Maria Martini, `Un popolo che non concepisse la guerra perderebbe l'ultimo treno del pensiero', coltivando anche sistemi democratici lontani dal nostro.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cardinale	cardinale	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	Carlo	Carlo	PROPN	SP	_	4	nmod	_	_
+6	Maria	Maria	PROPN	SP	_	5	flat:name	_	_
+7	Martini	Martini	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	`Un	`Uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	concepisse	concepire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	perderebbe	perdere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	treno	treno	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	coltivando	coltivare	VERB	V	VerbForm=Ger	16	advcl	_	_
+26	anche	anche	ADV	B	_	27	advmod	_	_
+27	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	democratici	democratico	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = E in un Paese evoluto, c'è un sistema culturale ed economico che spinge a investire sulla sicurezza e su sistemi che migliorino la qualità della vita del popolo italiano.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	evoluto	evoluto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	culturale	culturale	ADJ	A	Number=Sing	10	amod	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	economico	economico	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	investire	investire	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	su	su	ADP	E	_	23	case	_	_
+23	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	migliorino	migliorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	qualità	qualità	NOUN	S	Gender=Fem	25	obj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	vita	vita	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

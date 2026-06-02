@@ -1,0 +1,344 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Negli ultimi giorni, infatti, un numero allarmante di cani è stato trovato morto, con sintomi inspiegabili e, peggio ancora, con la presenza di sostanze chimiche nel corpo.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	infatti	infatti	ADV	B	_	15	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+10	allarmante	allarmante	ADJ	A	Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	cani	cane	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	morto	morto	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	sintomi	sintomo	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+20	inspiegabili	inspiegabile	ADJ	A	Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	28	cc	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	peggio	peggio	ADV	B	_	21	advmod	_	_
+24	ancora	ancora	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+31	chimiche	chimico	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32-33	nel	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 2
+# text = Le prime, timide, indagini alimentano un’ipotesi raccapricciante:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	timide	timide	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	alimentano	alimentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	ipotesi	ipotesi	NOUN	S	Gender=Fem	7	obj	_	_
+10	raccapricciante	raccapricciante	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = i nostri cani stanno venendo avvelenati.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	cani	cane	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	venendo	venire	AUX	VA	VerbForm=Ger	6	aux	_	_
+6	avvelenati	avvelenare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Non si tratta di un incidente, di un gesto di vandalismo fortuito.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vandalismo	vandalismo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	fortuito	fortuito	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = I veterinari che hanno esaminato i corpi degli animali, provenienti da diversi quartieri della città, individuano tracce di una sostanza tossica, una formulazione che ricorda, a dir poco, le polpette.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	veterinari	veterinario	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	esaminato	esaminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	corpi	corpe	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	animali	animale	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	7	acl	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	quartieri	quartiere	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	città	città	NOUN	S	Gender=Fem	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	individuano	individuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	tossica	tossico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	formulazione	formulazione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	dir	dire	VERB	V	VerbForm=Inf	30	xcomp	_	_
+34	poco	poco	ADV	B	_	33	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	polpette	polpetta	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 6
+# text = Polpette, amici miei, con un ingrediente segreto, un veleno celato.
+1	Polpette	Polpetta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	compound	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ingrediente	ingrediente	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+9	segreto	segreto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	veleno	veleno	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+13	celato	celato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Certo, l'ipotesi, al momento, è solo un'ipotesi.
+1	Certo	certo	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ipotesi	ipotesi	NOUN	S	Gender=Fem	13	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	momento	momento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	solo	solo	ADV	B	_	13	advmod	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	ipotesi	ipotesi	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Le autorità competenti – e qui è che ci si innervosisce – rassicurano che stanno indagando a fondo, che si escludono cause naturali o accidentali.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	autorità	autorità	NOUN	S	Gender=Fem	7	nsubj	_	_
+3	competenti	competente	ADJ	A	Number=Plur	2	amod	_	_
+4	–	–	PUNCT	FB	_	7	punct	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	qui	qui	ADV	B	_	7	advmod	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+11	innervosisce	innervosire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	–	–	PUNCT	FB	_	13	punct	_	_
+13	rassicurano	rassicurare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+14	che	che	SCONJ	CS	_	16	mark	_	_
+15	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	indagando	indagare	VERB	V	VerbForm=Ger	13	ccomp	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:pass	_	_
+22	escludono	escludere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	cause	causa	NOUN	S	Gender=Fem|Number=Plur	22	nsubj:pass	_	_
+24	naturali	naturale	ADJ	A	Number=Plur	23	amod	_	_
+25	o	o	CCONJ	CC	_	26	cc	_	_
+26	accidentali	accidentale	ADJ	A	Number=Plur	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Ma la verità è che la mancanza di reazioni rapide e concrete alimenta la rabbia e il senso di abbandono di una cittadinanza che, in questo caso, non si sente protetta.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	verità	verità	NOUN	S	Gender=Fem	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	reazioni	reazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	rapide	rapido	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	concrete	concreto	ADJ	A	Gender=Fem|Number=Plur	10	conj	_	_
+13	alimenta	alimentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	rabbia	rabbia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	senso	senso	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	32	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	caso	caso	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl:impers	_	_
+32	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+33	protetta	protetta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Quello che vediamo a Milano è un segno di degrado, di una violenza inaudita nei confronti degli esseri più vulnerabili.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	obj	_	_
+3	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Milano	Milano	PROPN	SP	_	3	obl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	segno	segno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	degrado	degrado	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+15	inaudita	inaudire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	nei	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+19-20	degli	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	esseri	essere	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	vulnerabili	vulnerabile	ADJ	A	Number=Plur	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Non è una coincidenza la concomitanza con l'aumento della criminalità nella città, con la progressiva perdita del senso civico, con la diffusione di una cultura che sembra non dare più valore alla vita e alla proprietà altrui.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	coincidenza	coincidenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	concomitanza	concomitanza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	criminalità	criminalità	NOUN	S	Gender=Fem	9	nmod	_	_
+13-14	nella	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	città	città	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	4	punct	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	progressiva	progressivo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	senso	senso	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	civico	civico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	4	punct	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	dare	dare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+36	più	più	ADV	B	_	35	advmod	_	_
+37	valore	valore	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38-39	alla	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	vita	vita	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+41	e	e	CCONJ	CC	_	44	cc	_	_
+42-43	alla	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	proprietà	proprietà	NOUN	S	Gender=Fem	40	conj	_	_
+45	altrui	altrui	DET	AP	Poss=Yes|PronType=Prs	44	det:poss	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = È impossibile non addurre un collegamento tra questi avvenimenti.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	addurre	addurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	collegamento	collegamento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	avvenimenti	avvenimento	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = La strada è diventata un luogo di insicurezza, quasi un terreno di caccia per comportamenti deviati
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	strada	strada	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	insicurezza	insicurezza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	quasi	quasi	ADV	B	_	12	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+17	deviati	deviato	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpacesAfter=\n
+

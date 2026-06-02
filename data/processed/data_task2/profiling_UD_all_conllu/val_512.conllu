@@ -1,0 +1,411 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Professore, come spiega il boom di lodi al Sud?
+1	Professore	professore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	boom	boom	NOUN	S	Gender=Masc	4	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lodi	lodo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Sud	Sud	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = "La tendenza ad allargare la manica per esprimere giudizi più positivi al Sud è legata a un fattore di costume e a un minor distacco degli insegnanti nel rapporto con le famiglie.
+1	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+4	ad	a	ADP	E	_	5	mark	_	_
+5	allargare	allargare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	manica	manica	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	esprimere	esprimere	VERB	V	VerbForm=Inf	5	advcl	_	_
+10	giudizi	giudizio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	positivi	positivo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Sud	Sud	PROPN	SP	_	12	obl	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	costume	costume	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	a	a	ADP	E	_	27	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	minor	minore	ADJ	A	Degree=Cmp|Number=Sing	27	amod	_	_
+27	distacco	distacco	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+28-29	degli	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	insegnanti	insegnante	NOUN	S	Number=Plur	27	nmod	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Ma non me ne preoccuperei.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	preoccuperei	preoccupare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Basterebbe uniformare i voti tenendo conto di una media italiana".
+1	Basterebbe	Basteere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	uniformare	uniformare	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	voti	voto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	tenendo	tenere	VERB	V	VerbForm=Ger	2	advcl	_	_
+6	conto	conto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	media	media	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = A partire da queste disparità nei giudizi c'è chi propone l'introduzione di un test unico nazionale, è d'accordo?
+1	A	a	ADP	E	_	2	mark	_	_
+2	partire	partire	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	disparità	disparità	NOUN	S	Gender=Fem	2	obl	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	giudizi	giudizio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	nsubj	_	_
+12	propone	proporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	introduzione	introduzione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	test	test	NOUN	S	Gender=Masc	14	nmod	_	_
+18	unico	unico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	nazionale	nazionale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	d'	di	ADP	E	_	23	case	_	SpaceAfter=No
+23	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = "No, non mi convince questa soluzione.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	No	no	INTJ	I	Polarity=Neg	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	convince	convincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = La valutazione è ricerca, capacità di interpretare un sistema, non la fotografia istantanea di un certo momento.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	valutazione	valutazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	capacità	capacità	NOUN	S	Gender=Fem	4	conj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	interpretare	interpretare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+15	istantanea	istantaneo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	certo	certo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	momento	momento	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = E non è la medicina per curare i mali della scuola.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	curare	curare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	mali	male	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = L'atteggiamento sincronico di indagini come l'Ocse- Pisa non mi trova d'accordo".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	sincronico	sincronico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Ocse	Ocse	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	_
+10	Pisa	Pisa	PROPN	SP	_	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+13	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 10
+# text = In che senso?
+1	In	in	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	senso	senso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = "Valutare serve se mi aiuta a capire qualcosa di più:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Valutare	valutare	VERB	V	VerbForm=Inf	3	csubj	_	_
+3	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	se	se	SCONJ	CS	_	6	mark	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	capire	capire	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = le potenzialità di un ragazzo, come è cambiato per effetto delle scuola e dei rapporti sociali.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	potenzialità	potenzialità	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	come	come	SCONJ	CS	_	9	mark	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+19	sociali	sociale	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = La vera riforma va fatta su questo:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	vera	vero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 14
+# text = migliorare le conoscenze sull'evoluzione del profilo culturale degli allievi.
+1	migliorare	migliorare	VERB	V	VerbForm=Inf	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	conoscenze	conoscenza	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4-5	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+4	su	su	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	culturale	culturale	ADJ	A	Number=Sing	9	amod	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	allievi	allievo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Di questo, invece, non ne abbiamo la minima idea.
+1	Di	di	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	idea	idea	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Per esempio, non sappiamo nulla del bagaglio di competenze verbali dei ragazzi ".
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	5	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bagaglio	bagaglio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	verbali	verbale	ADJ	A	Number=Plur	11	amod	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+16	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Non si fida nemmeno della prova Invalsi?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	fida	fidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nemmeno	nemmeno	ADV	BN	PronType=Neg	3	advmod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	prova	prova	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	Invalsi	Invalsi	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = "Ho dubbi sull'attendibilità di prove che danno presupposta una capacità di comprensione, per esempio di un testo, quando spesso gli studenti quel testo semplicemente non lo capiscono ".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4-5	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+4	su	su	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	attendibilità	attendibilità	NOUN	S	Gender=Fem	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	prove	prova	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	presupposta	presupporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	capacità	capacità	NOUN	S	Gender=Fem	11	nsubj:pass	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	testo	testo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	11	punct	_	_
+23	quando	quando	SCONJ	CS	_	32	mark	_	_
+24	spesso	spesso	ADV	B	_	32	advmod	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	32	nsubj	_	_
+27	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	testo	testo	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+29	semplicemente	semplicemente	ADV	B	_	32	advmod	_	_
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+32	capiscono	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+33	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Alla fine è l'esame di Maturità a finire sotto accusa?
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	esame	esame	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Maturità	maturità	PROPN	SP	_	6	nmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	finire	finire	VERB	V	VerbForm=Inf	6	acl	_	_
+11	sotto	sotto	ADP	E	_	12	case	_	_
+12	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = "Si continua a replicare un modello di tipo scenico:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	replicare	replicare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	modello	modello	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	scenico	scenico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 21
+# text = il candidato deve esibire se stesso davanti a una commissione.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	candidato	candidato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	esibire	esibire	VERB	V	VerbForm=Inf	0	root	_	_
+5	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	obj	_	_
+6	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	davanti	davanti	ADV	B	_	10	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = In altri tempi aveva un senso, oggi non più".
+1	In	in	ADP	E	_	3	case	_	_
+2	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	oggi	oggi	ADV	B	_	10	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	più	più	ADV	B	_	4	conj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

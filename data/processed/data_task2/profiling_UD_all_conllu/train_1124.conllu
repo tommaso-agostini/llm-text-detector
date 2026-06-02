@@ -1,0 +1,270 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = **Chris’s Car Issue – “The Bug that Took 3 Weeks to Fix”** - **Current State:** * 27 bugs opened in the last sprint on the “Vehicles” feature * 5 critical fails reached QA → 1 hard‑rollback * Dev‑lead – Chris – spent 120 min "troubleshooting" one issue - **Desired State:** * Post‑release bugs < 2 for the same feature set * Mean fix‑time < 15 min on a single developer’s effort * 100 % deterministic tests covering edge cases - **Proposed Actions:** 1.
+1	**Chris	**Chris	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	’s	’s	PROPN	SW	Foreign=Yes	1	flat:name	_	_
+3	Car	Car	PROPN	SP	_	1	flat:name	_	_
+4	Issue	Issue	PROPN	SP	_	1	flat:name	_	_
+5	–	–	PUNCT	FB	_	7	punct	_	_
+6	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	The	The	X	SW	Foreign=Yes	1	nmod	_	_
+8	Bug	Bug	X	SW	Foreign=Yes	7	flat:foreign	_	_
+9	that	that	X	SW	Foreign=Yes	7	flat:foreign	_	_
+10	Took	Took	X	SW	Foreign=Yes	7	flat:foreign	_	_
+11	3	3	NUM	N	NumType=Card	7	nummod	_	_
+12	Weeks	Weeks	PROPN	SP	_	7	nmod	_	_
+13	to	to	ADP	E	_	14	case	_	_
+14	Fix”**	Fix”**	PROPN	SP	_	16	nmod	_	_
+15	-	-	PUNCT	FF	_	14	punct	_	_
+16	**Current	**Current	PROPN	SP	_	12	flat:name	_	_
+17	State:**	State:**	PROPN	SP	_	16	flat:name	_	_
+18	*	*	PUNCT	FF	_	19	punct	_	_
+19	27	27	NUM	N	NumType=Card	16	nummod	_	SpacesAfter= 
+20	bugs	bugs	X	SW	Foreign=Yes	19	compound	_	_
+21	opened	opened	X	SW	Foreign=Yes	20	flat:foreign	_	_
+22	in	in	X	SW	Foreign=Yes	20	flat:foreign	_	_
+23	the	the	X	SW	Foreign=Yes	20	flat:foreign	_	_
+24	last	last	X	SW	Foreign=Yes	20	flat:foreign	_	_
+25	sprint	sprint	X	SW	Foreign=Yes	20	flat:foreign	_	_
+26	on	on	X	SW	Foreign=Yes	20	flat:foreign	_	_
+27	the	the	X	SW	Foreign=Yes	20	flat:foreign	_	_
+28	“	“	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	Vehicles	Vehicles	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+30	”	”	PUNCT	FB	_	29	punct	_	_
+31	feature	featura	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	_
+32	*	*	PUNCT	FF	_	36	punct	_	_
+33	5	5	NUM	N	NumType=Card	34	nummod	_	SpacesAfter= 
+34	critical	critical	NOUN	S	Gender=Masc	35	nmod	_	_
+35	fails	fails	NOUN	S	Gender=Masc	36	nmod	_	_
+36	reached	reache	NOUN	S	Gender=Masc	29	appos	_	_
+37	QA	QA	PROPN	SP	_	36	nmod	_	_
+38	→	→	SYM	SYM	_	37	flat:name	_	_
+39	1	1	NUM	N	NumType=Card	40	nummod	_	SpacesAfter= 
+40	hard‑rollback	hard‑rollback	NOUN	S	Gender=Masc	37	nmod	_	_
+41	*	*	PUNCT	FF	_	42	punct	_	_
+42	Dev‑lead	Dev‑lead	PROPN	SP	_	40	nmod	_	_
+43	–	–	PUNCT	FF	_	42	punct	_	_
+44	Chris	Chris	PROPN	SP	_	42	nmod	_	_
+45	–	–	PUNCT	FB	_	44	punct	_	_
+46	spent	spent	SYM	X	_	44	flat:name	_	_
+47	120	120	NUM	N	NumType=Card	44	nummod	_	SpacesAfter= 
+48	min	min	X	SW	Foreign=Yes	47	flat	_	_
+49	"	"	PUNCT	FB	_	50	punct	_	SpaceAfter=No
+50	troubleshooting	troubleshooting	NOUN	S	Gender=Masc	52	nmod	_	SpaceAfter=No
+51	"	"	PUNCT	FB	_	52	punct	_	_
+52	one	one	NOUN	S	Gender=Fem|Number=Plur	55	nmod	_	_
+53	issue	issue	ADJ	A	Gender=Fem|Number=Plur	52	amod	_	_
+54	-	-	PUNCT	FF	_	52	punct	_	_
+55	**Desired	**Desired	PROPN	SP	_	44	flat:name	_	_
+56	State:**	State:**	PROPN	SP	_	44	flat:name	_	_
+57	*	*	PUNCT	FF	_	58	punct	_	_
+58	Post	post	PROPN	SP	_	44	flat:name	_	SpaceAfter=No
+59	‑	‑	PUNCT	FF	_	58	punct	_	SpaceAfter=No
+60	release	releanere	NOUN	S	Number=Sing	58	nmod	_	_
+61	bugs	bugs	NOUN	S	Gender=Masc	60	nmod	_	_
+62	<	<	SYM	SYM	_	61	nmod	_	SpacesAfter= 
+63	2	2	NUM	N	NumType=Card	62	nummod	_	_
+64	for	for	ADP	E	_	66	case	_	_
+65	the	the	DET	RD	Definite=Def|PronType=Art	66	det	_	_
+66	same	same	NOUN	S	Gender=Masc|Number=Sing	62	nmod	_	_
+67	feature	featura	ADJ	A	Number=Sing	66	amod	_	_
+68	set	set	NOUN	S	Gender=Masc	70	nmod	_	_
+69	*	*	PUNCT	FF	_	70	punct	_	_
+70	Mean	Mean	PROPN	SP	_	66	nmod	_	_
+71	fix	fix	ADP	E	_	72	case	_	SpaceAfter=No
+72	‑time	‑timo	NOUN	S	Gender=Masc|Number=Sing	73	nmod	_	_
+73	<	<	SYM	SYM	_	70	nmod	_	SpacesAfter= 
+74	15	15	NUM	N	NumType=Card	73	nummod	_	SpacesAfter= 
+75	min	mino	X	SW	Foreign=Yes	74	flat	_	_
+76	on	on	X	SW	Foreign=Yes	75	flat:foreign	_	_
+77	a	a	ADP	E	_	79	case	_	_
+78	single	single	ADJ	A	_	79	amod	_	_
+79	developer	developer	NOUN	S	_	75	nmod	_	SpaceAfter=No
+80	’	’	PUNCT	FF	_	75	punct	_	SpaceAfter=No
+81	s	s	X	SW	Foreign=Yes	75	flat:foreign	_	_
+82	effort	effort	X	SW	Foreign=Yes	81	flat:foreign	_	_
+83	*	*	PUNCT	FF	_	75	punct	_	_
+84	100	100	NUM	N	NumType=Card	85	nummod	_	SpacesAfter= 
+85	%	%	SYM	SYM	_	75	amod	_	_
+86	deterministic	deterministic	X	SW	Foreign=Yes	85	flat:foreign	_	_
+87	tests	tests	X	SW	Foreign=Yes	85	flat:foreign	_	_
+88	covering	covering	X	SW	Foreign=Yes	87	flat:foreign	_	_
+89	edge	edge	X	SW	Foreign=Yes	87	flat:foreign	_	_
+90	cases	cases	X	SW	Foreign=Yes	87	flat:foreign	_	_
+91	-	-	PUNCT	FF	_	85	punct	_	_
+92	**Proposed	**Proposed	PROPN	SP	_	85	nmod	_	_
+93	Actions:**	Actions:**	PROPN	SP	_	92	flat:name	_	_
+94	1	1	NUM	N	NumType=Card	92	nummod	_	SpaceAfter=No
+95	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Introduce **Test‑First Pair Programming** for all new feature branches.
+1	Introduce	introduce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	**Test‑	**Test‑	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+3	First	First	PROPN	SP	_	2	flat:name	_	_
+4	Pair	Pair	PROPN	SP	_	2	flat:name	_	_
+5	Programming**	Programming**	PROPN	SP	_	2	flat:name	_	_
+6	for	for	ADP	E	_	8	case	_	_
+7	all	all	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	new	new	NOUN	S	_	2	nmod	_	_
+9	feature	featura	NOUN	S	_	8	nmod	_	_
+10	branches	branches	NOUN	S	_	9	compound	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = 2.
+1	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Enforce a **Code Review Allocation** rule: every PR must be assigned a second reviewer from a distinct qualifier group.
+1	Enforce	Enforcia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	**Code	**Code	PROPN	SP	_	1	obl	_	_
+4	Review	Review	PROPN	SP	_	3	flat:name	_	_
+5	Allocation**	Allocation**	PROPN	SP	_	6	nsubj	_	_
+6	rule	rule	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+8	every	every	DET	DI	PronType=Ind	9	det	_	_
+9	PR	PR	PROPN	SP	_	6	obj	_	_
+10	must	must	CCONJ	CC	_	11	cc	_	_
+11	be	ba	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+12	assigned	assigne	CCONJ	CC	_	14	cc	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	second	second	X	SW	Foreign=Yes	11	conj	_	_
+15	reviewer	reviewere	X	SW	Foreign=Yes	14	flat:foreign	_	_
+16	from	from	X	SW	Foreign=Yes	14	flat:foreign	_	_
+17	a	a	X	X	_	14	flat:foreign	_	_
+18	distinct	distinct	X	SW	Foreign=Yes	14	flat:foreign	_	_
+19	qualifier	qualifiere	X	SW	Foreign=Yes	14	flat:foreign	_	_
+20	group	group	X	SW	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = 3.
+1	3	3	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Automate a **“Missing Test” check** on CI (no PR reaches mergeable until critical tests are in place).
+1	Automate	Automare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	**“	**“	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+4	Missing	Missing	PROPN	SP	_	18	obl	_	_
+5	Test	test	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	”	”	PUNCT	FB	_	4	punct	_	_
+7	check**	check**	PUNCT	FF	_	8	punct	_	_
+8	on	on	NOUN	S	Gender=Fem	18	nsubj	_	_
+9	CI	Ci	PROPN	SP	_	8	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	no	no	X	SW	Foreign=Yes	8	nmod	_	_
+12	PR	PR	X	SW	Foreign=Yes	11	flat:foreign	_	_
+13	reaches	reaches	X	SW	Foreign=Yes	11	flat:foreign	_	_
+14	mergeable	mergeable	X	SW	Foreign=Yes	11	flat:foreign	_	_
+15	until	until	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	critical	critical	NOUN	S	Gender=Masc	11	nsubj	_	_
+17	tests	tests	NOUN	S	Gender=Masc	16	compound	_	_
+18	are	are	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	place	place	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = - **Discussion Points:** * Chris:
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	**Discussion	**Discussion	PROPN	SP	_	0	root	_	_
+3	Points:**	Points:**	PROPN	SP	_	2	nmod	_	_
+4	*	*	PUNCT	FF	_	2	punct	_	_
+5	Chris	Chris	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = What tooling support is needed for “debug‑in‑PR” sessions? * QA Lead: How can we tighten the pre‑merge vetting to catch edge cases earlier?
+1	What	What	X	SW	Foreign=Yes	0	root	_	_
+2	tooling	tooling	X	SW	Foreign=Yes	1	flat:foreign	_	_
+3	support	support	X	SW	Foreign=Yes	1	flat:foreign	_	_
+4	is	is	X	SW	Foreign=Yes	1	flat:foreign	_	_
+5	needed	needed	X	SW	Foreign=Yes	1	flat:foreign	_	_
+6	for	for	ADP	E	_	8	case	_	_
+7	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	debug‑in‑PR	debug‑in‑PR	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+9	”	”	PUNCT	FB	_	8	punct	_	_
+10	sessions	sessions	PROPN	Sw	_	8	flat:name	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	13	punct	_	_
+12	*	*	PUNCT	FF	_	13	punct	_	_
+13	QA	QA	PROPN	SP	_	8	flat:name	_	_
+14	Lead	Lead	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	13	punct	_	_
+16	How	How	PROPN	SP	_	8	nmod	_	_
+17	can	can	NOUN	S	Gender=Masc	16	compound	_	_
+18	we	we	ADJ	A	Number=Sing	17	amod	_	_
+19	tighten	tighten	X	SW	Foreign=Yes	17	nmod	_	_
+20	the	the	X	SW	Foreign=Yes	19	flat:foreign	_	_
+21	pre‑merge	pre‑merge	X	SW	Foreign=Yes	19	flat:foreign	_	_
+22	vetting	vetting	X	SW	Foreign=Yes	19	flat:foreign	_	_
+23	to	to	X	SW	Foreign=Yes	19	flat:foreign	_	_
+24	catch	catch	X	SW	Foreign=Yes	17	flat:foreign	_	_
+25	edge	edge	X	SW	Foreign=Yes	24	flat:foreign	_	_
+26	cases	cases	X	SW	Foreign=Yes	24	flat:foreign	_	_
+27	earlier	earliere	X	SW	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = * DevOps:
+1	*	*	PUNCT	FF	_	2	punct	_	_
+2	DevOps	DevOps	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = Options for adopting static analysis alerts at review‑stake level.
+1	Options	Options	ADP	E	_	2	case	_	_
+2	for	for	NOUN	S	_	3	nmod	_	_
+3	adopting	adopting	X	SW	Foreign=Yes	9	nmod	_	_
+4	static	static	X	SW	Foreign=Yes	3	flat:foreign	_	_
+5	analysis	analysis	X	SW	Foreign=Yes	3	flat:foreign	_	_
+6	alerts	alerts	X	SW	Foreign=Yes	3	flat:foreign	_	_
+7	at	at	X	SW	Foreign=Yes	3	flat:foreign	_	_
+8	review‑stake	review‑stake	X	SW	Foreign=Yes	3	flat:foreign	_	_
+9	level.	levelii	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+
+# sent_id = 11
+# text = --- ## 2. **New Requirements for “Smart‑Home Sync” Feature** - **Context:** The product manager has just received the last batch of customer journey mapping for the Smart‑Home use‑case.
+1	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	1	punct	_	_
+4	#	#	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	#	#	PUNCT	FF	_	1	punct	_	_
+6	2	2	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+8	**New	**New	PROPN	SP	_	0	root	_	_
+9	Requirements	Requirements	PROPN	SP	_	8	flat:name	_	_
+10	for	forre	ADP	E	_	12	case	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Smart‑Home	Smart‑Home	PROPN	SP	_	8	nmod	_	_
+13	Sync	Sync	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	12	punct	_	_
+15	Feature**	Feature**	PROPN	SP	_	12	appos	_	_
+16	-	-	PUNCT	FF	_	15	punct	_	_
+17	**Context:**	**Context:**	PROPN	SP	_	15	flat:name	_	_
+18	The	The	X	SW	Foreign=Yes	15	flat:foreign	_	_
+19	product	product	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	manager	managere	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	has	has	X	SW	Foreign=Yes	18	flat:foreign	_	_
+22	just	just	X	SW	Foreign=Yes	18	flat:foreign	_	_
+23	received	received	X	SW	Foreign=Yes	18	flat:foreign	_	_
+24	the	the	X	SW	Foreign=Yes	18	flat:foreign	_	_
+25	last	last	X	SW	Foreign=Yes	18	flat:foreign	_	_
+26	batch	batch	X	SW	Foreign=Yes	18	flat:foreign	_	_
+27	of	of	X	SW	Foreign=Yes	18	flat:foreign	_	_
+28	customer	customer	X	SW	Foreign=Yes	18	flat:foreign	_	_
+29	journey	journey	X	SW	Foreign=Yes	18	flat:foreign	_	_
+30	mapping	mapping	X	SW	Foreign=Yes	18	flat:foreign	_	_
+31	for	for	ADP	E	_	33	case	_	_
+32	the	the	DET	RD	Definite=Def|PronType=Art	33	det	_	_
+33	Smart‑Home	Smart‑Home	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+34	use	uso	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	‑case	‑casa	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

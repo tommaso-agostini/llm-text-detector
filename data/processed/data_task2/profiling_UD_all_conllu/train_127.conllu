@@ -1,0 +1,396 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Lui mi ha descritto come una perdente.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	descritto	descrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	perdente	perdente	NOUN	S	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mi ha detto che do un cattivo esempio.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	do	do	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Io sono una persona vera!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	vera	vero	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Sono sincera" , ha detto Silvia chiarendo di essersi difesa dopo essere stata attaccata per via del suo passato fidanzamento con Fabrizio Corona.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sincera	sincero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	FB	_	2	punct	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+7	Silvia	Silvia	PROPN	SP	_	6	nsubj	_	_
+8	chiarendo	chiarire	VERB	V	VerbForm=Ger	6	advcl	_	_
+9	di	di	ADP	E	_	12	mark	_	_
+10-11	essersi	_	_	_	_	_	_	_	_
+10	esser	essere	AUX	VA	VerbForm=Inf	12	aux	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+12	difesa	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	dopo	dopo	SCONJ	CS	_	16	mark	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	16	aux	_	_
+15	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	attaccata	attaccare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	via	via	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	passato	passato	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+23	fidanzamento	fidanzamento	NOUN	S	Gender=Masc|Number=Sing	22	compound	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	Fabrizio	Fabrizio	PROPN	SP	_	12	obl	_	_
+26	Corona	corona	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = "Sono stata male per quello che mi ha detto.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+4	male	male	ADV	B	_	6	advmod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Mi ha ferito troppo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ferito	ferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	troppo	troppo	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Mi ha aperto delle cicatrici" , ha continuato la Provvedi, che evidentemente non ha archiviato la lite con il giornalista:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cicatrici	cicatore	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	continuato	continuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Provvedi	Provvede	PROPN	SP	_	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	evidentemente	evidentemente	ADV	B	_	18	advmod	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	archiviato	archiviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lite	lite	NOUN	S	Gender=Fem	18	obj	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giornalista	giornalista	NOUN	S	Number=Sing	18	obl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = è chiaro che il passato amoroso della ragazza rappresenta per lei ancora un tasto dolente.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	passato	passato	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	amoroso	amoroso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	ancora	ancora	ADV	B	_	10	advmod	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tasto	tasto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+16	dolente	dolente	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = "Io ho fatto sempre bene alla gente" :
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	bene	bene	ADV	B	_	4	advmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	4	punct	_	_
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 10
+# text = questo è il pensiero di Silvia, la quale, quando si recava in carcere a trovare Fabrizio era diventata un punto di riferimento per tutte le donne, madri e compagne che avevano un caro detenuto, così come Alfonso Signorini ha dichiarato durante una delle ultime dirette del Grande Fratello.
+1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	44	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Silvia	Silvia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	quale	quale	PRON	PR	Number=Sing|PronType=Rel	20	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	recava	recare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	advcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	trovare	trovare	VERB	V	VerbForm=Inf	20	ccomp	_	_
+18	Fabrizio	Fabrizio	PROPN	SP	_	17	obj	_	_
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	punto	punto	NOUN	S	Gender=Masc|Number=Sing	20	xcomp	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	per	per	ADP	E	_	28	case	_	_
+26	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	28	det:predet	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	donne	donna	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	madri	madre	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	compagne	compagna	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	caro	caro	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+37	detenuto	detenuto	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	22	punct	_	_
+39	così	così	ADV	B	_	41	advmod	_	_
+40	come	come	ADP	E	_	41	case	_	_
+41	Alfonso	Alfonso	PROPN	SP	_	22	nmod	_	_
+42	Signorini	Signorini	PROPN	SP	_	41	flat:name	_	_
+43	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+45	durante	durante	ADP	E	_	46	case	_	_
+46	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	44	obl	_	_
+47-48	delle	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	50	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+49	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	50	amod	_	_
+50	dirette	diretta	NOUN	S	Gender=Fem|Number=Plur	46	nmod	_	_
+51-52	del	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	Grande	grande	PROPN	SP	_	50	nmod	_	_
+54	Fratello	fratello	PROPN	SP	_	53	flat:name	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	44	punct	_	_
+
+# sent_id = 11
+# text = Facendosi forte del fatto che molte persona la seguono, Silvia è convinta di piacere umanamente, anche se sa che ovviamnete non tutti possono apprezzarla.
+1-2	Facendosi	_	_	_	_	_	_	_	_
+1	Facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	forte	forte	ADJ	A	Number=Sing	1	xcomp	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	persona	persona	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	seguono	seguono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	Silvia	Silvia	PROPN	SP	_	15	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	convinta	convincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	umanamente	umano	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	anche	anche	ADV	B	_	22	mark	_	_
+21	se	se	SCONJ	CS	_	20	fixed	_	_
+22	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+23	che	che	SCONJ	CS	_	24	mark	_	_
+24	ovviamnete	ovviamnere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	28	nsubj	_	_
+27	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28-29	apprezzarla	_	_	_	_	_	_	_	SpaceAfter=No
+28	apprezzar	apprezzarre	VERB	V	VerbForm=Inf	24	ccomp	_	_
+29	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Nella mia vita non mi sono mai messa sul piedistallo" , ha continuato la ragazza, al quale sta dimostrando durante la su esperienza la reality uan grande maturità.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2-3	Nella	_	_	_	_	_	_	_	_
+2	In	in	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	mai	mai	ADV	B	_	10	advmod	_	_
+10	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	piedistallo	piedistallo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	10	punct	_	_
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	continuato	continuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	quale	quale	PRON	PR	Number=Sing|PronType=Rel	25	obl	_	_
+24	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	dimostrando	dimostrare	VERB	V	VerbForm=Ger	17	advcl	_	_
+26	durante	durante	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	su	su	ADP	E	_	29	case	_	_
+29	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	reality	reality	NOUN	S	Gender=Fem	29	nmod	_	_
+32	uan	uan	ADJ	A	Number=Sing	31	amod	_	_
+33	grande	grande	ADJ	A	Number=Sing	34	amod	_	_
+34	maturità	maturità	NOUN	S	Gender=Fem	31	compound	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = GF Vip, lo sfogo di Silvia Provvedi contro Alessandro Cecchi Paone Sembra evidente che l'argomento sarà trattato ancora nelle future puntate del GF Vip.
+1	GF	GF	PROPN	SP	_	0	root	_	_
+2	Vip	vip	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sfogo	sfogo	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Silvia	Silvia	PROPN	SP	_	5	nmod	_	_
+8	Provvedi	Provvede	PROPN	SP	_	7	flat:name	_	_
+9	contro	contro	ADP	E	_	10	case	_	_
+10	Alessandro	Alessandro	PROPN	SP	_	5	nmod	_	_
+11	Cecchi	Cecchi	PROPN	SP	_	10	flat:name	_	_
+12	Paone	Paone	PROPN	SP	_	10	flat:name	_	_
+13	Sembra	sembrare	PROPN	SP	_	10	flat:name	_	_
+14	evidente	evidente	ADJ	A	Number=Sing	10	amod	_	_
+15	che	che	SCONJ	CS	_	19	mark	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+18	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux:pass	_	_
+19	trattato	trattato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+20	ancora	ancora	ADV	B	_	19	advmod	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	future	futuro	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+24	puntate	puntato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	GF	GF	PROPN	SP	_	24	obl	_	_
+28	Vip	vip	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = La storia con Fabrizio Corona e le opinioni degli latri concorrenti sono stati uno dei fili conduttori di tutto il programma:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	Fabrizio	Fabrizio	PROPN	SP	_	2	nmod	_	_
+5	Corona	corona	PROPN	SP	_	4	flat:name	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	opinioni	opinione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	latri	latro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	concorrenti	concorrente	ADJ	A	Number=Plur	11	amod	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	cop	_	_
+15	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	fili	file	ADJ	A	Number=Plur	19	amod	_	_
+19	conduttori	conduttore	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	23	det:predet	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	programma	programma	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 15
+# text = tra alti e bassi, però, Silvia ha ribadito in più di un'occasione di essere pronta a voltare pagine, non prima però di aver messo in chiaro la sua posizione e di riscattare la sua persona.
+1	tra	tra	ADP	E	_	2	case	_	_
+2	alti	alto	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	bassi	basso	ADJ	A	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	però	però	ADV	B	_	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Silvia	Silvia	PROPN	SP	_	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	ribadito	ribadire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	più	più	ADV	B	_	10	advmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+16	di	di	ADP	E	_	18	mark	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	18	cop	_	_
+18	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	voltare	voltare	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	prima	prima	ADV	B	_	25	advmod	_	_
+25	però	però	ADV	B	_	18	advmod	_	_
+26	di	di	ADP	E	_	28	mark	_	_
+27	aver	avere	AUX	VA	VerbForm=Inf	28	aux	_	_
+28	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	28	obl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	riscattare	riscattare	VERB	V	VerbForm=Inf	28	conj	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	persona	persona	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

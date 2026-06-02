@@ -1,0 +1,375 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma cosa JFrame i medici e gli esperti in materia di prevenzione cardiaca?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+3	JFrame	JFrame	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	medici	medico	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	materia	materia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	cardiaca	cardiaco	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = La risposta è semplice:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	semplice	semplice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 3
+# text = la prevenzione deve iniziare già fin dalla vita intrauterina.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	iniziare	iniziare	VERB	V	VerbForm=Inf	0	root	_	_
+5	già	già	ADV	B	_	9	advmod	_	_
+6	fin	fino	ADP	E	_	9	case	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	6	fixed	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	intrauterina	intrauterina	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Sì, avete capito bene.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Il benessere del nostro cuore dipende anche dalle cure che riceviamo già durante la dadersSw di nostra madre.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	benessere	benessere	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	dipende	dipendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9-10	dalle	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	cure	cura	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	riceviamo	ricevere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	già	già	ADV	B	_	13	advmod	_	_
+15	durante	durante	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	dadersSw	dadersSw	PROPN	SP	_	13	obl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	madre	madre	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ecco perché è importante che le future madri si prendano cura di sé stesse e seguano un'alimentazione equilibrata e uno stile di vita sano, così da garantire al feto uno sviluppo armonioso e in buona salute.
+1	Ecco	ecco	ADV	B	_	4	advmod	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	future	futuro	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+8	madri	madre	ADJ	A	Number=Plur	7	amod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	prendano	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	cura	cura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	nmod	_	_
+14	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	seguano	seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	equilibrata	equilibrare	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	stile	stile	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	vita	vita	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	sano	sano	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	10	punct	_	_
+27	così	così	ADV	B	_	29	mark	_	_
+28	da	da	ADP	E	_	27	fixed	_	_
+29	garantire	garantire	VERB	V	VerbForm=Inf	10	advcl	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	feto	feto	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+35	armonioso	armonioso	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	buona	buono	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	_
+39	salute	salute	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ma come mai la prevenzione cardiaca inizia già nell'utero?
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	mai	mai	ADV	B	_	7	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	cardiaca	cardiaco	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	già	già	ADV	B	_	11	advmod	_	_
+9-10	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	utero	utero	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = La spiegazione scientifica è legata all'importanza del periodo fetale per lo sviluppo del nostro organismo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	spiegazione	spiegazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	fetale	fetale	ADJ	A	Number=Sing	11	amod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	organismo	organismo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Durante i primi mesi di vita, infatti, si gettano le basi per la formazione del nostro sistema cardiovascolare, e ogni minima carenza o disturbo potrebbe avere conseguenze a lungo termine sulla salute del nostro cuore.
+1	Durante	durante	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	infatti	infatti	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:pass	_	_
+11	gettano	gettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	basi	base	NOUN	S	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	cardiovascolare	cardiovascolare	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	30	punct	_	_
+23	e	e	CCONJ	CC	_	30	cc	_	_
+24	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	26	det	_	_
+25	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	carenza	carenza	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+27	o	o	CCONJ	CC	_	28	cc	_	_
+28	disturbo	disturbo	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+29	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	avere	avere	VERB	V	VerbForm=Inf	11	conj	_	_
+31	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	termine	termine	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35-36	sulla	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	salute	salute	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	41	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Per questo motivo, i medici sottolineano l'importanza di un'alimentazione equilibrata e ricca di nutrienti essenziali, come il folato e l'acido folico, che aiutano a prevenire le malformazioni cardiache nei feti.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	medici	medico	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	sottolineano	sottolineare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	equilibrata	equilibrare	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	nutrienti	nutriente	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+18	essenziali	essenziale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	folato	folato	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	acido	acido	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+26	folico	folico	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	12	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	aiutano	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	prevenire	prevenire	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	malformazioni	malformazione	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	_
+34	cardiache	cardiaco	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+35-36	nei	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	feti	feto	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Тако.Linqo, una dieta ricca di frutta e verdura, l'assunzione di integratori specifici e la riduzione del consumo di alcol e fumo sono solo alcuni dei consigli che le future mamme dovrebbero seguire per garantire il benessere del loro piccolo proposer}P gran parte della vita.
+1	Тако.Linqo	Тако.Linqo	PROPN	SP	_	28	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	verdura	verdura	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	assunzione	assunzione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	integratori	integratore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	specifici	specifico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	fumo	fumo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	solo	solo	ADV	B	_	28	advmod	_	_
+28	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	37	obj	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+34	future	future	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+35	mamme	mammo	NOUN	S	Gender=Fem|Number=Plur	37	nsubj	_	_
+36	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	seguire	seguire	VERB	V	VerbForm=Inf	31	acl:relcl	_	_
+38	per	per	ADP	E	_	39	mark	_	_
+39	garantire	garantire	VERB	V	VerbForm=Inf	37	advcl	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	benessere	benessere	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	46	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+44	loro	loro	DET	AP	Poss=Yes|PronType=Prs	46	det:poss	_	_
+45	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	_
+46	proposer	proposer	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+47	}	}	PUNCT	FF	_	46	punct	_	SpaceAfter=No
+48	P	P	PROPN	SP	_	46	nmod	_	_
+49	gran	gran	ADJ	A	Number=Sing	48	amod	_	_
+50	parte	parte	NOUN	S	Gender=Fem|Number=Sing	48	nmod	_	_
+51-52	della	_	_	_	_	_	_	_	_
+51	di	di	ADP	E	_	53	case	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	vita	vita	NOUN	S	Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 12
+# text = Inoltre, gli esperti sottolineano l'importanza di uno stile di vita attivo e della riduzione dello stress, fattori che possono influire negativamente sulla salute del cuore, sia in adulthood che in età adulta.
+1	Inoltre	inoltre	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	sottolineano	sottolineare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	stile	stile	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+18-19	dello	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	stress	stress	NOUN	S	Gender=Masc	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	influire	influire	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+26	negativamente	negativamente	ADV	B	_	25	advmod	_	_
+27-28	sulla	_	_	_	_	_	_	_	_
+27	su	su	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	salute	salute	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	36	punct	_	_
+34	sia	sia	CCONJ	CC	_	36	cc	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	adulthood	adulthood	NOUN	S	Gender=Masc	25	conj	_	_
+37	che	che	PRON	PR	PronType=Rel	39	case	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	età	età	NOUN	S	Gender=Fem	36	obl	_	_
+40	adulta	adulto	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Ecco perché è importante che le future madri praticino eserc
+1	Ecco	ecco	ADV	B	_	4	advmod	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	future	futuro	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+8	madri	madre	ADJ	A	Number=Plur	7	amod	_	_
+9	praticino	praticino	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+10	eserc	eserc	NOUN	S	Gender=Fem	9	obj	_	SpacesAfter=\n
+

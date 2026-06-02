@@ -1,0 +1,374 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E lo ha ottenuto.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Il motivo?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Alcuni di questi domini erano usati da malintenzionati per innondare le caselle di mail di spam e per diffondere programmi dannosi.
+1	Alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj:pass	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	domini	domini	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	usati	usare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	malintenzionati	malintenzionato	NOUN	S	Gender=Masc|Number=Plur	6	obl:agent	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	innondare	innondare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	caselle	casella	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	mail	mail	NOUN	S	Gender=Masc	12	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	spam	spam	NOUN	S	Gender=Masc	14	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	diffondere	diffondere	VERB	V	VerbForm=Inf	10	conj	_	_
+20	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+21	dannosi	dannoso	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Un intervento era necessario ma l'azione della casa di Redmond è sembrato sin da subito sproporzionata rispetto al problema.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	azione	azione	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Redmond	Redmond	PROPN	SP	_	10	nmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	sembrato	sembrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+15	sin	sino	ADV	B	_	18	case	_	_
+16	da	da	ADP	E	_	15	fixed	_	_
+17	subito	subito	ADV	B	_	18	advmod	_	_
+18	sproporzionata	sproporzionato	ADJ	A	Gender=Fem|Number=Sing	14	obl	_	_
+19	rispetto	rispetto	ADV	B	_	22	case	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	problema	problema	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Invece di richiedere alla Vitalwerks, la società che gestisce il servizio no-ip, la cancellazione dei pochi domini malevoli ha richiesto direttamente il sequestro di tutti i sottodomini oscurando anche migliaia di utenti niente affatto malintenzionati.
+1	Invece	invece	ADV	B	_	3	mark	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	richiedere	richiedere	VERB	V	VerbForm=Inf	25	advcl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vitalwerks	Vitalwerks	PROPN	SP	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	società	società	NOUN	S	Gender=Fem	25	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	gestisce	gestire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	no-	_	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	ip	ip	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cancellazione	cancellazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	22	det	_	_
+22	domini	domini	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+23	malevoli	malevole	ADJ	A	Number=Plur	22	amod	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	direttamente	direttamente	ADV	B	_	25	advmod	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	32	det:predet	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	sottodomini	sottodomino	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+33	oscurando	oscurare	VERB	V	VerbForm=Ger	25	advcl	_	_
+34	anche	anche	ADV	B	_	33	advmod	_	_
+35	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	utenti	utente	NOUN	S	Number=Plur	35	nmod	_	_
+38	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	33	obl	_	_
+39	affatto	affatto	ADV	B	_	40	advmod	_	_
+40	malintenzionati	malintenzionare	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 6
+# text = E molti di questi anche paganti.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	2	nmod	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	paganti	pagante	ADV	B	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Il servizio no-ip è usato giornalmente da centinaia di migliaia di persone per ottenere attraverso un artificio le stesse funzioni che si hanno con un indirizzo IP statico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	no-ip	no-ip	ADJ	A	_	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	giornalmente	giornalmente	ADV	B	_	5	advmod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	ottenere	ottenere	VERB	V	VerbForm=Inf	5	advcl	_	_
+15	attraverso	attraverso	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	artificio	artificio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	funzioni	funzione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	IP	Ip	PROPN	SP	_	26	nmod	_	_
+28	statico	statico	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Con le normali connessioni ADSL e DIAL-UP infatti ad ogni connessione corrisponde un indirizzo IP differente.
+1	Con	con	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	normali	normale	ADJ	A	Number=Plur	4	amod	_	_
+4	connessioni	connessione	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+5	ADSL	ADSL	PROPN	SP	_	4	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	DIAL-UP	DIAL-UP	PROPN	SP	_	5	conj	_	_
+8	infatti	infatti	ADV	B	_	12	advmod	_	_
+9	ad	a	ADP	E	_	11	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	connessione	connessione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+12	corrisponde	corrispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	IP	IP	PROPN	SP	_	14	nmod	_	_
+16	differente	differente	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Stando così le cose, senza no-ip è assai difficile raggiungere le macchine e i servizi a loro collegati sul web.
+1	Stando	stare	VERB	V	VerbForm=Ger	10	advcl	_	_
+2	così	così	ADV	B	_	1	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	no-ip	no-ip	NOUN	S	Gender=Fem	10	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	assai	assai	ADV	B	_	10	advmod	_	_
+10	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+11	raggiungere	raggiungere	VERB	V	VerbForm=Inf	10	csubj	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+19	collegati	collegato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	web	webbraio	NOUN	S	Gender=Masc	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Il servizio di no-ip - che è sia gratuito sia a pagamento - ovvia a tutto questo facendo da ponte ogni volte che ci connettiamo alla rete e dandoci la possibilità di poter fare funzionare, appunto, centraline di video sorveglianza in remoto, stazioni meteo e piccoli server web La Vitalwerks ha rilasciato un comunicato ufficiale sul proprio blog per aggiornare i propri utenti sulla situazione e puntare il dito contro Microsoft per il suo comportamento definito "draconiano".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	85	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	no-ip	no-ip	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	-	-	PUNCT	FB	_	2	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+10	sia	sia	CCONJ	CC	_	12	cc	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	57	obl	_	_
+13	-	-	PUNCT	FB	_	12	punct	_	_
+14	ovvia	ovvia	ADV	B	_	18	advmod	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+18	facendo	fare	VERB	V	VerbForm=Ger	57	advcl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	volte	volta	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	25	expl	_	_
+25	connettiamo	connettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	rete	rete	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30-31	dandoci	_	_	_	_	_	_	_	_
+30	dando	dare	VERB	V	VerbForm=Ger	25	advcl	_	_
+31	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	30	expl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	possibilità	possibilità	NOUN	S	Gender=Fem	30	obj	_	_
+34	di	di	ADP	E	_	36	mark	_	_
+35	poter	potere	AUX	VM	VerbForm=Inf	36	aux	_	_
+36	fare	fare	VERB	V	VerbForm=Inf	33	acl	_	_
+37	funzionare	funzionare	VERB	V	VerbForm=Inf	36	conj	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	37	punct	_	_
+39	appunto	appunto	ADV	B	_	37	advmod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	36	punct	_	_
+41	centraline	centralina	NOUN	S	Gender=Fem|Number=Plur	36	obj	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	video	video	ADJ	A	_	44	amod	_	_
+44	sorveglianza	sorveglianza	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	remoto	remoto	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	stazioni	stazione	NOUN	S	Gender=Fem|Number=Plur	46	conj	_	_
+49	meteo	meteo	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	_
+50	e	e	CCONJ	CC	_	51	cc	_	_
+51	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	49	conj	_	_
+52	server	servere	ADP	E	_	53	case	_	_
+53	web	webbraio	NOUN	S	Gender=Masc	49	obl	_	_
+54	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	Vitalwerks	Vitalwerks	PROPN	SP	_	48	nmod	_	_
+56	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
+57	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+58	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	57	obj	_	_
+60	ufficiale	ufficiale	ADJ	A	Number=Sing	59	amod	_	_
+61-62	sul	_	_	_	_	_	_	_	_
+61	su	su	ADP	E	_	64	case	_	_
+62	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+63	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	64	det:poss	_	_
+64	blog	blog	NOUN	S	_	57	obl	_	_
+65	per	per	ADP	E	_	66	mark	_	_
+66	aggiornare	aggiornare	VERB	V	VerbForm=Inf	57	advcl	_	_
+67	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	69	det	_	_
+68	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	69	det:poss	_	_
+69	utenti	utente	NOUN	S	Number=Plur	66	obj	_	_
+70-71	sulla	_	_	_	_	_	_	_	_
+70	su	su	ADP	E	_	72	case	_	_
+71	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	69	nmod	_	_
+73	e	e	CCONJ	CC	_	74	cc	_	_
+74	puntare	puntare	VERB	V	VerbForm=Inf	66	conj	_	_
+75	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	dito	dito	NOUN	S	Gender=Masc|Number=Sing	74	obj	_	_
+77	contro	contro	ADP	E	_	78	case	_	_
+78	Microsoft	Microsoft	PROPN	SP	_	74	obl	_	_
+79	per	per	ADP	E	_	82	case	_	_
+80	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
+81	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	82	det:poss	_	_
+82	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	74	obl	_	_
+83	definito	definire	ADJ	A	Gender=Masc|Number=Sing	82	amod	_	_
+84	"	"	PUNCT	FB	_	85	punct	_	SpaceAfter=No
+85	draconiano	draconiano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+86	"	"	PUNCT	FB	_	85	punct	_	SpaceAfter=No
+87	.	.	PUNCT	FS	_	85	punct	_	_
+
+# sent_id = 11
+# text = In effetti - tanto per fare un paragone - spegnere i sottodomini i no-ip perché questo servizio viene usato anche da qualche malintenzionato equivale a richiedere il sequestro di miliardi di PC con Windows installato, partendo da fatto che proprio grazie alle falle di sicurezza di questo sistema operativo virus e spyware vengono giornalmente diffusi in Internet.
+1	In	in	ADP	E	_	2	case	_	_
+2	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+3	-	-	PUNCT	FB	_	2	punct	_	_
+4	tanto	tanto	ADV	B	_	6	advmod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	paragone	paragone	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	-	-	PUNCT	FB	_	10	punct	_	_
+10	spegnere	spegnere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	sottodomini	sottodomino	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	no-ip	no-ip	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+15	perché	perché	SCONJ	CS	_	19	mark	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+18	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+20	anche	anche	ADV	B	_	23	advmod	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	malintenzionato	malintenzionato	NOUN	S	Gender=Masc|Number=Sing	19	obl:agent	_	_
+24	equivale	equivalere	ADJ	A	Number=Sing	23	amod	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	richiedere	richiedere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	PC	Pc	PROPN	SP	_	30	nmod	_	_
+33	con	con	ADP	E	_	34	case	_	_
+34	Windows	Windows	PROPN	SP	_	35	obl	_	_
+35	installato	installato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	partendo	partire	VERB	V	VerbForm=Ger	35	advcl	_	_
+38	da	da	ADP	E	_	39	case	_	_
+39	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+40	che	che	SCONJ	CS	_	57	mark	_	_
+41	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+42	grazie	grazie	NOUN	S	_	45	case	_	_
+43-44	alle	_	_	_	_	_	_	_	_
+43	a	a	ADP	E	_	42	fixed	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	falle	falla	NOUN	S	Gender=Fem|Number=Plur	57	nsubj:pass	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	50	det	_	_
+50	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+51	operativo	operativo	ADJ	A	Gender=Masc|Number=Sing	50	amod	_	_
+52	virus	virus	NOUN	S	Gender=Masc	50	compound	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	spyware	spyware	VERB	V	VerbForm=Inf	45	conj	_	_
+55	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	57	aux:pass	_	_
+56	giornalmente	giornalmente	ADV	B	_	57	advmod	_	_
+57	diffusi	diffondere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	39	acl	_	_
+58	in	in	ADP	E	_	59	case	_	_
+59	Internet	Internet	PROPN	SP	_	57	obl	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Ma nessuno si sogna di farlo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	sogna	sognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	farlo	_	_	_	_	_	_	_	SpaceAfter=No
+6	far	fare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

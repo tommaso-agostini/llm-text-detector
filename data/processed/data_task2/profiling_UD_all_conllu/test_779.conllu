@@ -1,0 +1,266 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Basketball girl" non ha senso.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Basketball	Basketball	ADJ	A	_	3	amod	_	_
+3	girl	girl	NOUN	S	_	6	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	senso	senso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = *
+1	*	*	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 3
+# text = 2. *Gli arti non sono amputati, ma solo amputati sopra il ginocchio.
+1	2	2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	*Gli	*Glo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	arti	arto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	amputati	amputare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	solo	solo	ADV	B	_	11	advmod	_	_
+11	amputati	amputare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+12	sopra	sopra	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ginocchio	ginocchio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = La bambina non ha sofferto una amputazione totale, come qualcuno sembra ipotizzare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	amputazione	amputazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	totale	totale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	come	come	SCONJ	CS	_	12	mark	_	_
+11	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+12	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13	ipotizzare	ipotizzare	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = *
+1	*	*	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 6
+# text = 3.
+1	3	3	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = **L'epiteto "bambina" è fuori contesto, indelicato e potenzialmente offensivo.
+1	**L'	**il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	epiteto	epiteto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	bambina	bambino	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	fuori	fuori	ADV	B	_	8	advmod	_	_
+8	contesto	contesto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	indelicato	indelicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	potenzialmente	potenzialmente	ADV	B	_	13	advmod	_	_
+13	offensivo	offensivo	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = Jiao è una donna adulta di circa 16 anni, con una storia molto difficile alle spalle.
+1	Jiao	Jiao	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	adulta	adulto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	circa	circa	ADV	B	_	8	advmod	_	_
+8	16	16	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	difficile	difficile	ADJ	A	Number=Sing	13	amod	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = *
+1	*	*	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 10
+# text = 4. **La bambola di Willy Wonka non c'entra:
+1	4	4	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	FF	_	1	punct	_	_
+3	**La	**La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bambola	bambolo	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Willy	Willy	PROPN	SP	_	4	nmod	_	_
+7	Wonka	Wonka	PROPN	SP	_	6	flat:name	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	entra	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 11
+# text = non sembra ispirata dalla vicenda di Charlie Bucket o dalle trovate di Roald Dahl.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ispirata	ispirare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	3	obl:agent	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Charlie	Charlie	PROPN	SP	_	6	nmod	_	_
+9	Bucket	Bucket	PROPN	SP	_	8	flat:name	_	_
+10	o	o	CCONJ	CC	_	13	cc	_	_
+11-12	dalle	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	trovate	trovare	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Roald	Roald	PROPN	SP	_	13	nmod	_	_
+16	Dahl.	Dahlii	PROPN	SP	_	15	flat:name	_	_
+
+# sent_id = 12
+# text = *
+1	*	*	PUNCT	FF	_	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 13
+# text = La storia di Jiao è potente e duratura.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Jiao	Jiao	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	potente	potente	ADJ	A	Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	duratura	duraturo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = È una vicenda di speranza, riscatto e resilienza.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	riscatto	riscatto	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	resilienza	resilienza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Purtroppo online, almeno su un grande portale generalista come questo, abbondano titoli clickbait e odio social:
+1	Purtroppo	purtroppo	ADV	B	_	2	advmod	_	_
+2	online	online	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	almeno	almeno	ADV	B	_	8	advmod	_	_
+5	su	su	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+8	portale	portale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	generalista	generalista	ADJ	A	Number=Sing	8	amod	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	abbondano	abbondare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	clickbait	clickbait	NOUN	S	Gender=Masc	14	compound	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	odio	odio	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18	social	social	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 16
+# text = gettare discredito favorisce il clickbaiting, l'odio è un ragionamneto sterile (che cosa guadagnerà da una narrazione del genere?
+1	gettare	gettare	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	discredito	discredire	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	favorisce	favorire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	clickbaiting	clickbaiting	NOUN	S	Gender=Masc	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	odio	odio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ragionamneto	ragionamneto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+12	sterile	sterile	ADJ	A	Number=Sing	11	amod	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	che	che	DET	DQ	PronType=Int	15	det	_	_
+15	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	guadagnerà	guadagnere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	advcl	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	genere	genere	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Naw, meglio litigare sul nulla).
+1	Naw	Naw	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	meglio	meglio	ADV	B	_	4	advmod	_	_
+4	litigare	litigare	VERB	V	VerbForm=Inf	1	acl	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nulla	nulla	NOUN	S	Gender=Masc	4	obl	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = Restituire la storia nella sua complessità e la grazia di Jiao e della sua storia è per un giornale la giusta modalità giornalistica.
+1	Restituire	restituire	VERB	V	VerbForm=Inf	21	csubj	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	storia	storia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	complessità	complessità	NOUN	S	Gender=Fem	21	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	grazia	grazia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Jiao	Jiao	PROPN	SP	_	10	nmod	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	storia	storia	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	modalità	modalità	NOUN	S	Gender=Fem	21	nmod	_	_
+25	giornalistica	giornalistico	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
+

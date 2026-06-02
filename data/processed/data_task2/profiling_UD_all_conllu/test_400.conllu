@@ -1,0 +1,980 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Rifiuti e bottiglie sparse sul prato.
+1	Rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	bottiglie	bottiglie	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+4	sparse	sparso	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	prato	prato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Le aiuole nella zona della Stazione Centrale sono state trasformate di nuovo in bivacchi:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	aiuole	aiuola	NOUN	S	Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	zona	zona	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Stazione	stazione	PROPN	SP	_	5	nmod	_	_
+9	Centrale	centrale	PROPN	SP	_	8	flat:name	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	trasformate	trasformare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	12	obl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	bivacchi	bivacco	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 3
+# text = a Milano è tornata l'emergenza migranti.
+1	a	a	ADP	E	_	2	case	_	_
+2	Milano	Milano	PROPN	SP	_	4	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	migranti	migrante	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Nelle ultime settimane circa 200 stranieri si sono accampati ai giardini di Porta Venezia e in piazza Duca D'Aosta, porta d'accesso alla città per milioni di turisti ( guarda il video ).
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	4	amod	_	_
+4	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+5	circa	circa	ADV	B	_	6	advmod	_	_
+6	200	200	NUM	N	NumType=Card	7	nummod	_	_
+7	stranieri	straniero	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	accampati	accampare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	giardini	giardino	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Porta	Porta	PROPN	SP	_	13	nmod	_	_
+16	Venezia	Venezia	PROPN	SP	_	15	flat:name	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+20	Duca	duco	PROPN	SP	_	10	obj	_	_
+21	D'	D'	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	Aosta	Aosta	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	porta	porta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+25	d'	di	ADP	E	_	26	case	_	SpaceAfter=No
+26	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	città	città	NOUN	S	Gender=Fem	26	nmod	_	_
+30	per	per	ADP	E	_	31	case	_	_
+31	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+34	(	(	PUNCT	FB	_	35	punct	_	_
+35	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	video	video	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+38	)	)	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Anche il Pd si è (finalmente) accorto di questa nuova ondata di migranti .
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Pd	pd	PROPN	SP	_	9	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	finalmente	finalmente	ADV	B	_	9	advmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	_
+9	accorto	accorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+12	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nmod	_	_
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = È stato l'assessore alle Politiche sociali Pierfrancesco Majorino a denunciare la situazione in città, usando il degrado per attaccare le politiche del ministro dell'Interno Matteo Salvini.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	assessore	assessore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Politiche	Politiche	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	sociali	sociale	ADJ	A	Number=Plur	7	amod	_	_
+9	Pierfrancesco	Pierfrancesco	PROPN	SP	_	7	nmod	_	_
+10	Majorino	Majorino	PROPN	SP	_	9	flat:name	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	denunciare	denunciare	VERB	V	VerbForm=Inf	4	acl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	città	città	NOUN	S	Gender=Fem	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	usando	usare	VERB	V	VerbForm=Ger	12	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	degrado	degrado	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	attaccare	attaccare	VERB	V	VerbForm=Inf	20	acl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	Interno	Interno	PROPN	SP	_	27	nmod	_	_
+31	Matteo	Matteo	PROPN	SP	_	27	nmod	_	_
+32	Salvini	Salvini	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = "Il Pd evita di ammettere che questo disastro è figlio della propaganda pro immigrazione della sinistra che ha aperto le porte a tutti moltiplicando i clandestini, gli immigrati in transito, i delinquenti e i bivacchi nelle strade" , ha tuonato però Silvia Sardone, consigliere comunale e regionale di Forza Italia.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Pd	pd	PROPN	SP	_	4	nsubj	_	_
+4	evita	evitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	ammettere	ammettere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	disastro	disastro	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	6	ccomp	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	pro	pro	NOUN	S	_	14	compound	_	_
+16	immigrazione	immigrazione	NOUN	S	Gender=Fem|Number=Sing	15	compound	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	porte	porta	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	22	obl	_	_
+27	moltiplicando	moltiplicare	VERB	V	VerbForm=Ger	22	advcl	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	clandestini	clandestino	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	4	punct	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	transito	transito	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	delinquenti	delinquento	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	_
+38	e	e	CCONJ	CC	_	40	cc	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	bivacchi	bivacco	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	_
+41-42	nelle	_	_	_	_	_	_	_	_
+41	in	in	ADP	E	_	43	case	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	strade	strada	NOUN	S	Gender=Fem|Number=Plur	40	nmod	_	SpaceAfter=No
+44	"	"	PUNCT	FB	_	40	punct	_	_
+45	,	,	PUNCT	FF	_	47	punct	_	_
+46	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	tuonato	tuonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+48	però	però	ADV	B	_	47	advmod	_	_
+49	Silvia	Silvia	PROPN	SP	_	47	obj	_	_
+50	Sardone	Sardone	PROPN	SP	_	49	flat:name	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	49	punct	_	_
+52	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	49	appos	_	_
+53	comunale	comunale	ADJ	A	Number=Sing	52	amod	_	_
+54	e	e	CCONJ	CC	_	55	cc	_	_
+55	regionale	regionale	ADJ	A	Number=Sing	53	conj	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	Forza	Forza	PROPN	SP	_	52	nmod	_	_
+58	Italia	Italia	PROPN	SP	_	57	flat:name	_	SpaceAfter=No
+59	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = "È questa la Milano internazionale di cui vantarsi?
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Milano	Milano	PROPN	SP	_	3	nsubj	_	_
+6	internazionale	internazionale	ADJ	A	Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+9-10	vantarsi	_	_	_	_	_	_	_	SpaceAfter=No
+9	vantar	vantare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = - si domanda il consigliere - Sembra piuttosto un enorme campo profughi a cielo aperto".
+1	-	-	PUNCT	FF	_	3	punct	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	domanda	domandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	-	-	PUNCT	FB	_	3	punct	_	_
+7	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	piuttosto	piuttosto	ADV	B	_	7	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	enorme	enorme	ADJ	A	Number=Sing	11	amod	_	_
+11	campo	campo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+12	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	11	compound	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Stazione Centrale Provare per credere.
+1	Stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Centrale	centrale	PROPN	SP	_	1	nmod	_	_
+3	Provare	provare	PROPN	SP	_	2	flat:name	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	credere	credere	VERB	V	VerbForm=Inf	1	acl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = "Dormo qui sotto al ponte.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Dormo	Dormo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	qui	qui	ADV	B	_	2	advmod	_	_
+4	sotto	sotto	ADV	B	_	2	advmod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Ma non sono solo, ci sono altre persone là più avanti" . Ahmed arriva dal Ciad e da oltre un mese ha trasformato un pezzo del marciapiede del sottopasso Mortirolo nella sua abitazione:
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	solo	solo	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+10	là	là	ADV	B	_	11	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	avanti	avanti	ADV	B	_	9	advmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	7	punct	_	_
+14	.	.	PUNCT	FS	_	7	punct	_	_
+15	Ahmed	Ahmed	PROPN	SP	_	16	nsubj	_	_
+16	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Ciad	Ciad	PROPN	SP	_	16	obl	_	_
+20	e	e	CCONJ	CC	_	26	cc	_	_
+21	da	da	ADP	E	_	24	case	_	_
+22	oltre	oltre	ADV	B	_	24	advmod	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mese	mese	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	marciapiede	marciapiedere	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	sottopasso	sottopasso	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	Mortirolo	Mortirolo	PROPN	SP	_	34	nmod	_	_
+36-37	nella	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	39	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	abitazione	abitazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 13
+# text = un materasso buttato a terra come giaciglio, asciugamani, borse, taniche di acqua e alcuni teli allacciati ai pali per isolarsi dalla strada.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	materasso	materasso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	buttato	buttato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	terra	terra	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	giaciglio	giaciglio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	asciugamani	asciugamano	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	borse	borsa	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	taniche	tanica	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	7	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	teli	telo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+19	allacciati	allacciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	pali	palo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24-25	isolarsi	_	_	_	_	_	_	_	_
+24	isolar	isolare	VERB	V	VerbForm=Inf	19	advcl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26-27	dalla	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	strada	strada	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Insieme altri migranti, Ahmed vive nella galleria sotto la stazione tutto il giorno.
+1	Insieme	insieme	ADV	B	_	2	advmod	_	_
+2	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+3	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	Ahmed	Ahmed	PROPN	SP	_	6	nsubj	_	_
+6	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	galleria	galleria	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	sotto	sotto	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	15	det:predet	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = "La gente passa di qui e mi lascia qualcosa da mangiare" , ci spiega mentre con la testa fa capolino dalle coperte che emanano un odore nauseabondo.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	qui	qui	ADV	B	_	4	advmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	mangiare	mangiare	VERB	V	VerbForm=Inf	9	acl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	4	punct	_	_
+14	,	,	PUNCT	FF	_	4	punct	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+16	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+17	mentre	mentre	SCONJ	CS	_	21	mark	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	testa	testa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+21	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+22	capolino	capolino	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+23-24	dalle	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	coperte	coperta	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	emanano	emanare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	odore	odore	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	nauseabondo	nauseabondo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Milano, l'accampamento dei migranti invade la città Di sera le aiuole in piazza Duca d’Aosta si riempiono di migranti.
+1	Milano	Milano	PROPN	SP	_	8	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	accampamento	accampamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	_
+8	invade	invadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	città	città	NOUN	S	Gender=Fem	8	obj	_	_
+11	Di	di	ADP	E	_	12	case	_	_
+12	sera	sera	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	aiuole	aiuola	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+17	Duca	duco	PROPN	SP	_	14	nmod	_	_
+18	d’	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	Aosta	Aosta	PROPN	SP	_	17	nmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	riempiono	riemprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	migranti	migrante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = Si tratta per lo più di giovani "transitanti" provenienti da diversi paesi dell'Africa.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	più	più	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	giovani	giovane	NOUN	S	Number=Plur	5	nmod	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	transitanti	transitante	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	7	acl	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	Africa	Africa	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Sbarcati sulle coste siciliane, hanno attraversato tutta l'Italia e sono arrivati a Milano con la speranza di proseguire il viaggio verso il Nord Europa.
+1	Sbarcati	Sbarcare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+2-3	sulle	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	coste	costa	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	siciliane	siciliano	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	attraversato	attraversare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Italia	Italia	PROPN	SP	_	8	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Milano	Milano	PROPN	SP	_	14	obl	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	proseguire	proseguire	VERB	V	VerbForm=Inf	19	acl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	verso	verso	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Nord	Nord	PROPN	SP	_	23	nmod	_	_
+27	Europa	Europa	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = Sperano di fermarsi nella città pochi giorni prima di raggiungere la Svizzera e la Germania.
+1	Sperano	sperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	fermarsi	_	_	_	_	_	_	_	_
+3	fermar	fermare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	città	città	NOUN	S	Gender=Fem	3	obl	_	_
+8	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+10	prima	prima	ADV	B	_	9	advmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	raggiungere	raggiungere	VERB	V	VerbForm=Inf	9	acl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Svizzera	Svizzera	PROPN	SP	_	12	obj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Germania	Germania	PROPN	SP	_	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Tra loro molti clandestini che hanno ricevuto il diniego alla richiesta d'asilo e che, invece di essere espulsi, continuano a bivaccare per l'Italia e a Milano.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	23	obl	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	clandestini	clandestino	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	diniego	diniego	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	asilo	asilo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	CC	_	21	cc	_	_
+16	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	invece	invece	ADV	B	_	21	mark	_	_
+19	di	di	ADP	E	_	18	fixed	_	_
+20	essere	essere	AUX	VA	VerbForm=Inf	21	aux	_	_
+21	espulsi	espellere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	continuano	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	bivaccare	bivaccare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	Italia	Italia	PROPN	SP	_	25	obl	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	a	a	ADP	E	_	31	case	_	_
+31	Milano	Milano	PROPN	SP	_	28	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 21
+# text = Seduti sui muretti di fronte all'ingresso principale della stazione trascorrono il tempo giocando con i loro smartphone, ascoltando musica e parlando tra di loro.
+1	Seduti	sedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+2-3	sui	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	muretti	muretto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	fronte	fronte	NOUN	S	Number=Sing	4	nmod	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	principale	principale	ADJ	A	Number=Sing	9	amod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	trascorrono	trascorrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	giocando	giocare	VERB	V	VerbForm=Ger	14	advcl	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	loro	loro	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	smartphone	smartphone	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	ascoltando	ascoltare	VERB	V	VerbForm=Ger	14	advcl	_	_
+24	musica	musica	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	parlando	parlare	VERB	V	VerbForm=Ger	23	conj	_	_
+27	tra	tra	ADP	E	_	29	case	_	_
+28	di	di	ADP	E	_	27	fixed	_	_
+29	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 22
+# text = Aspettano che faccia buio e il piazzale si svuoti prima di stendere i loro teli sull'erba e dormire.
+1	Aspettano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	buio	buio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	piazzale	piazzale	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	svuoti	svuoto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+10	prima	prima	ADV	B	_	9	advmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	stendere	stendere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	loro	loro	DET	AP	Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	teli	telo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+16-17	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+16	su	su	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	erba	erba	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	dormire	dormire	VERB	V	VerbForm=Inf	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = Bambini a Porta Venezia Per chi non ha il coraggio di accamparsi di fronte alla Mela di Pistoletto, ci sono sempre i giardini di Porta Venezia .
+1	Bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Porta	Porta	PROPN	SP	_	1	nmod	_	_
+4	Venezia	Venezia	PROPN	SP	_	3	flat:name	_	_
+5	Per	per	ADP	E	_	6	case	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	23	obl	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	accamparsi	_	_	_	_	_	_	_	_
+12	accampar	accampare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	fronte	fronte	NOUN	S	Number=Sing	12	obl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Mela	mela	PROPN	SP	_	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Pistoletto	Pistoletto	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	6	punct	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+23	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	sempre	sempre	ADV	B	_	23	advmod	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	giardini	giardino	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Porta	Porta	PROPN	SP	_	26	nmod	_	_
+29	Venezia	Venezia	PROPN	SP	_	28	flat:name	_	_
+30	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 24
+# text = Anche qui la situazione da alcune settimane è critica.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	qui	qui	ADV	B	_	9	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	critica	critico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 25
+# text = "In questi giorni le presenze sono aumentate - ci spiega Loredana, volontaria del progetto Arca, che incontriamo sul posto -.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	presenze	presenza	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	aumentate	aumentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	-	-	PUNCT	FB	_	11	punct	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+12	Loredana	Loredana	PROPN	SP	_	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	volontaria	volontario	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	Arca	arca	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	incontriamo	incontrare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	posto	posto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	-	-	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 26
+# text = Sono arrivate numerose persone dall'Eritrea e ci sono anche dei bambini , cosa che non era mai accaduta".
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivate	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	numerose	numeroso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Eritrea	Eritrea	PROPN	SP	_	2	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	appos	_	_
+17	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	mai	mai	ADV	B	_	21	advmod	_	_
+21	accaduta	accadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = In quel lembo di prato tra via Città di Fiume e i binari del tram in viale Vittorio Veneto, trovano riparo centinaia di ragazzi poco più che maggiorenni provenienti dal Corno d'Africa.
+1	In	in	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	lembo	lembo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	prato	prato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	tra	tra	ADP	E	_	7	case	_	_
+7	via	via	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	Città	Città	PROPN	SP	_	7	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Fiume	Fiume	PROPN	SP	_	8	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	binari	binario	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tram	tram	NOUN	S	Gender=Masc	13	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	viale	viale	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+19	Vittorio	Vittorio	PROPN	SP	_	18	nmod	_	_
+20	Veneto	Veneto	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	riparo	riparo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	poco	poco	ADV	B	_	28	advmod	_	_
+28	più	più	ADV	B	_	30	advmod	_	_
+29	che	che	SCONJ	CS	_	30	mark	_	_
+30	maggiorenni	maggiorenne	ADJ	A	Number=Plur	26	amod	_	_
+31	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	30	acl	_	_
+32-33	dal	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Corno	Corno	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	d'	di	ADP	E	_	36	case	_	SpaceAfter=No
+36	Africa	Africa	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 28
+# text = Tra loro anche diverse famiglie con bimbi piccoli.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	bimbi	bimbo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = "Noi distribuiamo dei panini e del the caldo oltre che materiali di prima necessità, come fazzoletti e spazzolini - racconta la volontaria -.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	distribuiamo	distribuire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	panini	panino	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	the	the	DET	RD	Definite=Def|PronType=Art	11	det	_	_
+11	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+12	oltre	oltre	ADV	B	_	14	cc	_	_
+13	che	che	SCONJ	CS	_	12	fixed	_	_
+14	materiali	materiale	ADJ	A	Number=Plur	6	amod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
+17	necessità	necessità	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	6	punct	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	fazzoletti	fazzoletto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	spazzolini	spazzolino	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+23	-	-	PUNCT	FB	_	24	punct	_	_
+24	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	volontaria	volontario	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+27	-	-	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = Queste sono delle scuse per avvicinarli e per sapere se hanno bisogno.
+1	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	scuse	scusa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	avvicinarli	_	_	_	_	_	_	_	_
+7	avvicinar	avvicinare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	sapere	sapere	VERB	V	VerbForm=Inf	7	conj	_	_
+12	se	se	SCONJ	CS	_	13	mark	_	_
+13	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+14	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Dato che abbiamo visto dei bambini stiamo cercando di capire se per le donne e per i piccoli c'è la possibilità di ricovero in centro.
+1	Dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	capire	capire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	se	se	SCONJ	CS	_	21	mark	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	15	conj	_	_
+20	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	SpaceAfter=No
+21	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	possibilità	possibilità	NOUN	S	Gender=Fem	21	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	ricovero	ricovero	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	centro	centro	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 32
+# text = Spesso però si rifutano di venire con noi perché hanno paura di trovare la polizia e quindi passano la notte nei giardinetti".
+1	Spesso	spesso	ADV	B	_	4	advmod	_	_
+2	però	però	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	rifutano	rifutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	venire	venire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+9	perché	perché	SCONJ	CS	_	10	mark	_	_
+10	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	paura	paura	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	trovare	trovare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	quindi	quindi	ADV	B	_	18	advmod	_	_
+18	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	notte	notte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	nei	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	giardinetti	giardinetto	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 33
+# text = I controlli Dopo le denunce dei residenti della zona e di diverse parti politiche, ieri la polizia ha effettuato un'ispezione nella zona dei bastioni di Porta Venezia.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	Dopo	dopo	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	denunce	denuncia	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	residenti	residente	NOUN	S	Number=Plur	5	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	zona	zona	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	parti	parte	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+16	politiche	politico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	ieri	ieri	ADV	B	_	22	advmod	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	effettuato	effettuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+23	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ispezione	ispezione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	zona	zona	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	bastioni	bastione	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Porta	Porta	PROPN	SP	_	30	nmod	_	_
+33	Venezia	Venezia	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 34
+# text = Venti gli extracomunitari controllati, di cui 7 sono stati accompagnati in questura per accertamenti.
+1	Venti	venti	NUM	N	NumType=Card	3	nummod	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	extracomunitari	extracomunitario	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	controllati	controllare	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+8	7	7	NUM	N	NumType=Card	11	nsubj:pass	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	accompagnati	accompagnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	questura	questura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	accertamenti	accertamento	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = Il modello Milano dell'accoglienza, decantato con tanto di grandi abbuffate buoniste in Parco Sempione , sta mostrando tutte le sue crepe.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modello	modello	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+3	Milano	Milano	PROPN	SP	_	2	nmod	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	accoglienza	accoglienza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	decantato	decantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	tanto	tanto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	grandi	grande	ADJ	A	Number=Plur	13	amod	_	_
+13	abbuffate	abbuffare	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	buoniste	buonista	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Parco	Parco	PROPN	SP	_	13	nmod	_	_
+17	Sempione	Sempione	PROPN	SP	_	16	flat:name	_	_
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	mostrando	mostrare	VERB	V	VerbForm=Ger	0	root	_	_
+21	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	24	det:predet	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	crepe	crepa	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 36
+# text = Di nuovo .
+1	Di	di	ADP	E	_	2	case	_	_
+2	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

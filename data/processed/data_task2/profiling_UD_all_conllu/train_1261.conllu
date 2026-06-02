@@ -1,0 +1,377 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sergio Bonetto, il legale di parte civile nel processo Eternit, non ha perso il gusto dell'ironia né la voglia di combattere.
+1	Sergio	Sergio	PROPN	SP	_	16	nsubj	_	_
+2	Bonetto	Bonetto	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	legale	legale	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	civile	civile	ADJ	A	Number=Sing	7	amod	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	processo	processo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+12	Eternit	Eternit	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	né	né	CCONJ	CC	_	24	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	combattere	combattere	VERB	V	VerbForm=Inf	24	acl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 2
+# text = Tornando in treno a Torino da Roma si proietta già sulle battaglie future "Non sarà una sentenza reazionaria e brutale a piegarci.
+1	Tornando	tornare	VERB	V	VerbForm=Ger	9	advcl	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	treno	treno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Torino	Torino	PROPN	SP	_	3	nmod	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Roma	Roma	PROPN	SP	_	9	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	proietta	proiettare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+10	già	già	ADV	B	_	9	advmod	_	_
+11-12	sulle	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	battaglie	battaglia	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+14	future	futuro	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+16	Non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+20	reazionaria	reazionario	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	brutale	brutale	ADJ	A	Number=Sing	20	conj	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24-25	piegarci	_	_	_	_	_	_	_	SpaceAfter=No
+24	piegar	piegare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	obj	_	_
+26	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Noi non ci fermiamo, si riparte da un'altra via".
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	fermiamo	fermare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	riparte	ripartire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	altra	altro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	via	via	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Quale sono le strategie?
+1	Quale	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = "Se ci sarà il rinvio a giudizio per omicidio e lesioni ci costituiremo parte civile.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	6	mark	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+4	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rinvio	rinvio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	giudizio	giudizio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+14	costituiremo	costituire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	6	conj	_	_
+15	parte	parte	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+16	civile	civile	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Aspettiamo di vedere che tipologie di casi ha individuato Guariniello.
+1	Aspettiamo	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	che	che	DET	DQ	PronType=Int	5	det	_	_
+5	tipologie	tipologie	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	casi	caso	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	individuato	individuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+10	Guariniello	Guariniello	PROPN	SP	_	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = E poi anche la sentenza della Cassazione lascia aperti degli spiragli:
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Cassazione	Cassazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	aperti	aperto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	spiragli	spiraglio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 8
+# text = aspettiamo di vedere le motivazioni, ma se fosse riconosciuta la responsabilità di Schmidheiny potremmo comunque cercare di portare avanti le cause civili".
+1	aspettiamo	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	motivazioni	motivazione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:pass	_	_
+10	riconosciuta	riconoscere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	responsabilità	responsabilità	NOUN	S	Gender=Fem	10	nsubj:pass	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Schmidheiny	Schmidheiny	PROPN	SP	_	12	nmod	_	_
+15	potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	comunque	comunque	ADV	B	_	17	advmod	_	_
+17	cercare	cercare	VERB	V	VerbForm=Inf	1	conj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	portare	portare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	avanti	avanti	ADV	B	_	19	advmod	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	cause	causa	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+23	civili	civile	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Sui risarcimenti la scelta giusta è di chi ha accettato le offerte dell'imputato?
+1-2	Sui	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	risarcimenti	risarcimento	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	offerte	offerta	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	imputato	imputato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = "Sono stati tantissimi, la maggioranza delle vittime, ma ci sono più di mille che non l'hanno fatto.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	cop	_	_
+4	tantissimi	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	mille	mille	NUM	N	NumType=Card	14	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = E a loro ho detto di non demordere.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	demordere	demordere	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Non sono fuori dalla partita".
+1	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	fuori	fuori	ADV	B	_	6	case	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	partita	partita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = A mente fredda come giudica il verdetto?
+1	A	a	ADP	E	_	2	case	_	_
+2	mente	mente	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+3	fredda	freddo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	giudica	giudicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	verdetto	verdetto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = "C'è sempre meno interesse per i diritti dei lavoratori.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	meno	meno	ADV	B	_	3	advmod	_	_
+6	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = La norma da applicare è vecchia e i giudici si sono fermati alla questione formale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	norma	norma	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	da	da	ADP	E	_	4	mark	_	_
+4	applicare	applicare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fermati	fermare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	questione	questione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16	formale	formale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Resta la sostanza:
+1	Resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 17
+# text = Schmidheiny continua a negare la sua responsabilità, ma i morti non si possono nascondere e non è detto che non si arrivi a pene più pesanti.
+1	Schmidheiny	Schmidheiny	PROPN	SP	_	2	nsubj	_	_
+2	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	negare	negare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	responsabilità	responsabilità	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	ma	ma	CCONJ	CC	_	15	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	morti	morte	NOUN	S	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:pass	_	_
+14	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	nascondere	nascondere	VERB	V	VerbForm=Inf	2	conj	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+20	che	che	SCONJ	CS	_	23	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	arrivi	arrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	19	ccomp	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	pene	pena	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	pesanti	pesante	ADJ	A	Number=Plur	25	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Un modo per risparmiarsi tutto questo ce l'avrebbe".
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	risparmiarsi	_	_	_	_	_	_	_	_
+4	risparmiar	risparmiare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	iobj	_	_
+6	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+8	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+10	avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 19
+# text = Quale?
+1	Quale	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = "Proponga risarcimenti dignitosi e poi riconosca la responsabilità morale per le persone morte nelle sue fabbriche".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Proponga	Proponga	X	SW	Foreign=Yes	0	root	_	_
+3	risarcimenti	risarcimento	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4-5	dignitosi	_	_	_	_	_	_	_	_
+4	dignito	dignire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	poi	poi	ADV	B	_	8	advmod	_	_
+8	riconosca	riconoscere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	responsabilità	responsabilità	NOUN	S	Gender=Fem	8	obj	_	_
+11	morale	morale	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+15	morte	morto	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	fabbriche	fabbrica	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

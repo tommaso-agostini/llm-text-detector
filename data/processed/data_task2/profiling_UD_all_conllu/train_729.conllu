@@ -1,0 +1,1582 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2014-2015: 22.200.
+1	2014-2015	2014-2015	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	22.200	22.200	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Questi sono gli spettatori medi negli ultimi anni in serie A.
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	medi	medio	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	negli	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	serie	serie	NOUN	S	Gender=Fem	9	nmod	_	_
+12	A	A	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = E quest'ano probabilmente caleranno ancora perché sono arrivate piccole realtà come Carpi e Frosinone (ma lasciamo perdere Lotito...).
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	quest'	questo	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	ano	ano	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	probabilmente	probabilmente	ADV	B	_	5	advmod	_	_
+5	caleranno	calare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arrivate	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+11	realtà	realtà	NOUN	S	Gender=Fem	9	nsubj	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	Carpi	Carpi	PROPN	SP	_	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Frosinone	Frosinone	PROPN	SP	_	13	conj	_	_
+16	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	ma	ma	CCONJ	CC	_	18	cc	_	_
+18	lasciamo	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+19	perdere	perdere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+20	Lotito...	Lotito...	PROPN	SP	_	19	obj	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = La Lega Calcio ha le mani legate:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lega	Lega	PROPN	SP	_	4	nsubj	_	_
+3	Calcio	calcio	PROPN	SP	_	2	flat:name	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	mani	mano	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	legate	legato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 5
+# text = ha dovuto accettare che il Frosinone giocasse in uno stadio da 10.000 posti, è la conseguenza della "legge Treviso" voluta anni fa dalla Lega Nord per i capoluoghi di Provincia.
+1	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	accettare	accettare	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Frosinone	Frosinone	PROPN	SP	_	7	nsubj	_	_
+7	giocasse	giocare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	10.000	10.000	NUM	N	NumType=Card	13	nummod	_	_
+13	posti	posto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	legge	legge	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	Treviso	Treviso	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	21	punct	_	_
+24	voluta	volere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+25	anni	anno	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+26	fa	fa	ADV	B	_	25	advmod	_	_
+27-28	dalla	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Lega	lega	PROPN	SP	_	25	nmod	_	_
+30	Nord	Nord	PROPN	SP	_	29	flat:name	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	capoluoghi	capoluogo	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	Provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ora, comunque, in Ciociaria stanno facendo un nuovo impianto.
+1	Ora	ora	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	comunque	comunque	ADV	B	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Ciociaria	Ciociaria	PROPN	SP	_	8	obl	_	_
+7	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Carlo Tavecchio è contrario a spendere soldi (che non ci sono) per stadi nuovi, preferisce che si sistemino quelli già esistenti.
+1	Carlo	Carlo	PROPN	SP	_	4	nsubj	_	_
+2	Tavecchio	Tavecchio	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	spendere	spendere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+12	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+16	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	preferisce	preferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:pass	_	_
+21	sistemino	sistemare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+22	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	21	nsubj:pass	_	_
+23	già	già	ADV	B	_	24	advmod	_	_
+24	esistenti	esistere	ADJ	A	Number=Plur	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ma si riferisce soprattuti, che ha i suoi bei problemi con Tor di Valle, non certo alla Juventus, che col suo nuovo impianto ha fatto un affare, o all'Udinese oppure allo stesso Frosinone.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	soprattuti	soprattuto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	bei	bello	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	Tor	Tor	PROPN	SP	_	7	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Valle	Valle	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	certo	certo	ADV	B	_	21	advmod	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Juventus	Juventus	PROPN	SP	_	3	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+24-25	col	_	_	_	_	_	_	_	_
+24	con	con	ADP	E	_	28	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+26	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+27	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	affare	affare	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	37	punct	_	_
+34	o	o	CCONJ	CC	_	37	cc	_	_
+35-36	all'	_	_	_	_	_	_	_	SpaceAfter=No
+35	a	a	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	Udinese	Udinese	PROPN	SP	_	30	conj	_	_
+38	oppure	oppure	CCONJ	CC	_	42	cc	_	_
+39-40	allo	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	42	case	_	_
+40	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	Frosinone	Frosinone	PROPN	SP	_	37	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = I presidenti, comunque, dovrebbero spendere qualche soldino per rendere più confortevoli i loro impianti ma hanno l'alibi che gli stadi sono dei Comuni e così, sovente, preferiscono intascarsi i soldi dei diritti tv (o portarli all'estero, chissà perché..., e comprare stranieri inutili).
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	presidenti	presidente	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	comunque	comunque	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	spendere	spendere	VERB	V	VerbForm=Inf	0	root	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	soldino	soldino	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	rendere	rendere	VERB	V	VerbForm=Inf	7	advcl	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	confortevoli	confortevole	ADJ	A	Number=Plur	11	xcomp	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	impianti	impianto	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+17	ma	ma	CCONJ	CC	_	18	cc	_	_
+18	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	alibi	alibo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	27	nsubj	_	_
+24	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Comuni	comune	NOUN	S	Gender=Masc|Number=Plur	20	acl:relcl	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	così	così	ADV	B	_	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	sovente	sovente	ADJ	A	Number=Sing	27	conj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	7	punct	_	_
+33	preferiscono	preferire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+34-35	intascarsi	_	_	_	_	_	_	_	_
+34	intascar	intascare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+35	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+38-39	dei	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+41	tv	tv	NOUN	S	Gender=Masc	40	compound	_	_
+42	(	(	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+43	o	o	CCONJ	CC	_	44	cc	_	_
+44-45	portarli	_	_	_	_	_	_	_	_
+44	portar	portare	VERB	V	VerbForm=Inf	40	conj	_	_
+45	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	44	obj	_	_
+46-47	all'	_	_	_	_	_	_	_	SpaceAfter=No
+46	a	a	ADP	E	_	48	case	_	_
+47	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	estero	estero	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	44	punct	_	_
+50	chissà	chissà	INTJ	I	_	44	punct	_	_
+51	perché...	perché.	PUNCT	FF	_	50	punct	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	54	punct	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	comprare	comprare	VERB	V	VerbForm=Inf	44	conj	_	_
+55	stranieri	straniero	NOUN	S	Gender=Masc|Number=Plur	54	obj	_	_
+56	inutili	inutile	ADJ	A	Number=Plur	55	amod	_	SpaceAfter=No
+57	)	)	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+58	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Ma bisogna uscite da un'equivoco:
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uscite	uscita	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	equivoco	equivoco	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = quando San Siro, San Paolo oppure Olimpico (di Roma) erano pieni, di sicuro le condizioni degli impianti non erano migliori di adesso (anzi, in qualche caso erano peggiori).
+1	quando	quando	SCONJ	CS	_	14	mark	_	_
+2	San	San	PROPN	SP	_	14	nsubj	_	_
+3	Siro	Siro	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	San	San	PROPN	SP	_	2	appos	_	_
+6	Paolo	Paolo	PROPN	SP	_	5	flat:name	_	_
+7	oppure	oppure	CCONJ	CC	_	8	cc	_	_
+8	Olimpico	olimpico	PROPN	SP	_	5	conj	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	di	di	ADP	E	_	11	case	_	_
+11	Roma	Roma	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	_
+13	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	25	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	sicuro	sicurare	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	impianti	impianto	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	0	root	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	adesso	adesso	ADV	B	_	25	advmod	_	_
+28	(	(	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+29	anzi	anzi	ADV	B	_	35	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	33	det	_	_
+33	caso	caso	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+34	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
+35	peggiori	peggiore	ADJ	A	Degree=Cmp|Number=Plur	25	advcl	_	SpaceAfter=No
+36	)	)	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 12
+# text = Aurelio De Laurentiis sostiene che il San Paolo è "un cesso" (parole sue) ma lo fa per due semplici motivi:
+1	Aurelio	Aurelio	PROPN	SP	_	4	nsubj	_	_
+2	De	De	PROPN	SP	_	1	flat:name	_	_
+3	Laurentiis	Laurentiis	PROPN	SP	_	1	flat:name	_	_
+4	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	San	San	PROPN	SP	_	12	nsubj	_	_
+8	Paolo	Paolo	PROPN	SP	_	7	flat:name	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cesso	cesso	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	15	punct	_	_
+18	ma	ma	CCONJ	CC	_	20	cc	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	due	due	NUM	N	NumType=Card	24	nummod	_	_
+23	semplici	semplice	ADJ	A	Number=Plur	24	amod	_	_
+24	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+25	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 13
+# text = deve nascondere il fatto che i suoi tifosi, a cominciare dagli abbonati, sono calati vertiginosamente in questi ultimi anni e poi ha ingaggiato un braccio di ferro con il Comune perché vuole pagare il meno possibile l'affitto e l'eventuale ristrutturazione.
+1	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	nascondere	nascondere	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	che	che	SCONJ	CS	_	17	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	17	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	cominciare	cominciare	VERB	V	VerbForm=Inf	8	acl	_	_
+12-13	dagli	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	abbonati	abbonato	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	calati	calare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+18	vertiginosamente	vertiginoso	ADV	B	_	17	advmod	_	_
+19	in	in	ADP	E	_	22	case	_	_
+20	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
+21	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	22	amod	_	_
+22	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	poi	poi	ADV	B	_	26	advmod	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	ingaggiato	ingaggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	braccio	braccio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Comune	comune	PROPN	SP	_	26	obl	_	_
+34	perché	perché	SCONJ	CS	_	36	mark	_	_
+35	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	pagare	pagare	VERB	V	VerbForm=Inf	26	advcl	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	meno	meno	ADV	B	_	36	advmod	_	_
+39	possibile	possibile	ADJ	A	Number=Sing	38	amod	_	_
+40	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+42	e	e	CCONJ	CC	_	45	cc	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+44	eventuale	eventuale	ADJ	A	Number=Sing	45	amod	_	_
+45	ristrutturazione	ristrutturazione	NOUN	S	Gender=Fem|Number=Sing	41	conj	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Il San Paolo, caro De Laurentiis, era un "cesso" anche prima, ai tempi di Maradona, ma era pieno zeppo di entusiasmo, quell'entusiasmo che a Napoli, nonostante la (buona) classifica, ancora non si è visto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	San	San	PROPN	SP	_	12	nsubj	_	_
+3	Paolo	Paolo	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	caro	caro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	De	De	PROPN	SP	_	2	appos	_	_
+7	Laurentiis	Laurentiis	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	cesso	cesso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14	anche	anche	ADV	B	_	15	advmod	_	_
+15	prima	prima	ADV	B	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Maradona	Maradona	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	ma	ma	CCONJ	CC	_	25	cc	_	_
+24	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+25	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+26	zeppo	zeppo	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	quell'	quello	DET	DD	Number=Sing|PronType=Dem	31	det	_	SpaceAfter=No
+31	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	26	appos	_	_
+32	che	che	PRON	PR	PronType=Rel	47	obj	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	Napoli	Napoli	PROPN	SP	_	47	obl	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	nonostante	nonostante	ADP	E	_	41	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+38	(	(	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+39	buona	buono	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	39	punct	_	_
+41	classifica	classifica	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	41	punct	_	_
+43	ancora	ancora	ADV	B	_	47	advmod	_	_
+44	non	non	ADV	BN	PronType=Neg	47	advmod	_	_
+45	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	47	expl:impers	_	_
+46	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl:relcl	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 15
+# text = San Siro, poi, è migliorato molto, tanto che il prossimo anno ospiterà la finale di Champions League (speriamo con un'italiana, o Juve o Roma).
+1	San	San	PROPN	SP	_	7	nsubj	_	_
+2	Siro	Siro	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	poi	poi	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	migliorato	migliorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	molto	molto	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	tanto	tanto	ADV	B	_	7	advmod	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+15	ospiterà	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	ccomp	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	finale	finale	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Champions	Champions	PROPN	SP	_	17	nmod	_	_
+20	League	League	PROPN	SP	_	19	flat:name	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	italiana	italiano	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	o	o	CCONJ	CC	_	28	cc	_	_
+28	Juve	Juve	PROPN	SP	_	22	conj	_	_
+29	o	o	CCONJ	CC	_	30	cc	_	_
+30	Roma	Roma	PROPN	SP	_	28	conj	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 16
+# text = Inoltre adesso l'impianto è raggiunto anche dalla metropolitana.
+1	Inoltre	inoltre	ADV	B	_	6	advmod	_	_
+2	adesso	adesso	ADV	B	_	6	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	impianto	impianto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	10	advmod	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	metropolitana	metropolitano	ADJ	A	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Perché cambiare?
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	cambiare	cambiare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = E difatti sia Inter e che Milan hanno deciso di restare lì dopo molti dubbi.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	difatti	difatti	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Inter	Inter	PROPN	SP	_	0	root	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	Milan	Milan	PROPN	SP	_	9	nsubj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	restare	restare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	lì	lì	ADV	B	_	11	advmod	_	_
+13	dopo	dopo	ADP	E	_	15	case	_	_
+14	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = L'importante però è riempirlo:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	importante	importante	ADJ	A	Number=Sing	5	nsubj	_	_
+3	però	però	ADV	B	_	2	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	riempirlo	_	_	_	_	_	_	_	SpaceAfter=No
+5	riempir	riempire	VERB	V	VerbForm=Inf	0	root	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 20
+# text = è successo solo nel derby quest'anno, ma gli abbonati del Milan quest'anno sono crollati a 19.224.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	successo	successo	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	solo	solo	ADV	B	_	6	advmod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	derby	derby	NOUN	S	_	2	obl	_	_
+7	quest'	questo	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	19	punct	_	_
+10	ma	ma	CCONJ	CC	_	19	cc	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	abbonati	abbonato	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Milan	Milan	PROPN	SP	_	12	nmod	_	_
+16	quest'	questo	DET	DD	Number=Sing|PronType=Dem	17	det	_	SpaceAfter=No
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	crollati	crollare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	19.224	19.224	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Pochini.
+1	Pochini	Pochini	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Non c'è entusiamo e certo i risultati (4 gol rimediati in casa dal Napoli) non aiutano il club di Berlusconi che presto caccerà anche Mihajlovic.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	entusiamo	entusare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+5	e	e	CCONJ	CC	_	20	cc	_	_
+6	certo	certo	ADV	B	_	20	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	4	4	NUM	N	NumType=Card	11	nummod	_	_
+11	gol	gol	NOUN	S	Gender=Masc	8	nmod	_	_
+12	rimediati	rimediare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	casa	casa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Napoli	Napoli	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	11	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	aiutano	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	club	club	NOUN	S	Gender=Masc	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Berlusconi	Berlusconi	PROPN	SP	_	22	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	presto	presto	ADV	B	_	27	advmod	_	_
+27	caccerà	cacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	acl:relcl	_	_
+28	anche	anche	ADV	B	_	29	advmod	_	_
+29	Mihajlovic	Mihajlovic	PROPN	SP	_	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Anche l'Inter di Mancini non ha grande appeal.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Inter	Inter	PROPN	SP	_	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Mancini	Mancini	PROPN	SP	_	3	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	appeal	appeal	NOUN	S	Gender=Masc	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 24
+# text = La Juventus è, più o meno, sulle medie del passato:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Juventus	Juventus	PROPN	SP	_	11	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	più	più	ADV	B	_	3	advmod	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	meno	meno	ADV	B	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9-10	sulle	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	medie	media	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	passato	passato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 25
+# text = se si riprende, ritroverà anche i tifosi.
+1	se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	riprende	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ritroverà	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 26
+# text = La Fiorentina ha più abbonati del Milan, e il primo posto in classifica dopo oltre 16 anni sembra aver svegliato una città.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fiorentina	fiorentina	PROPN	SP	_	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	abbonati	abbonato	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Milan	Milan	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	20	punct	_	_
+10	e	e	CCONJ	CC	_	20	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	posto	posto	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	classifica	classifica	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	dopo	dopo	ADP	E	_	19	case	_	_
+17	oltre	oltre	ADV	B	_	18	advmod	_	_
+18	16	16	NUM	N	NumType=Card	19	nummod	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+20	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21	aver	avere	AUX	VA	VerbForm=Inf	22	aux	_	_
+22	svegliato	svegliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	città	città	NOUN	S	Gender=Fem	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Ma complessivamente si vedono stadi sempre più vuoti, sempre più tristi.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	complessivamente	complessivamente	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+6	sempre	sempre	ADV	B	_	5	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	vuoti	vuoto	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	sempre	sempre	ADV	B	_	11	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	tristi	triste	ADJ	A	Number=Plur	4	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 28
+# text = I motivi sono tanti e non credo che la bruttezza degli impianti possa essere decisiva ad allontare la gente:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	che	che	SCONJ	CS	_	16	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bruttezza	bruttezza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	impianti	impianto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+16	decisiva	decisivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+17	ad	a	ADP	E	_	18	mark	_	_
+18	allontare	allontare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	gente	gente	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 29
+# text = sono più influenti la crisi economica, l'avvento delle pay tv, il fatto che ora molta gente preferisce seguire la squadra del cuore a casa, o al pub, o con gli amici.
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	influenti	influente	ADJ	A	Number=Plur	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	crisi	crisi	NOUN	S	Gender=Fem	3	nsubj	_	_
+6	economica	economico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	avvento	avvento	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	pay	pay	NOUN	S	_	9	nmod	_	_
+13	tv	tv	NOUN	S	Gender=Fem	12	compound	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+17	che	che	SCONJ	CS	_	21	mark	_	_
+18	ora	ora	ADV	B	_	21	advmod	_	_
+19	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
+20	gente	gente	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+21	preferisce	preferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+22	seguire	seguire	VERB	V	VerbForm=Inf	21	xcomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	casa	casa	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	34	punct	_	_
+31	o	o	CCONJ	CC	_	34	cc	_	_
+32-33	al	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pub	pub	NOUN	S	Gender=Masc	21	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	39	punct	_	_
+36	o	o	CCONJ	CC	_	39	cc	_	_
+37	con	con	ADP	E	_	39	case	_	_
+38	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	amici	amico	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = Andare allo stadio costa caro, non sempre è comodo, e soprattutto non è più un rito come una volta.
+1	Andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+2-3	allo	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	sempre	sempre	ADV	B	_	11	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	comodo	comodo	ADJ	A	Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	19	punct	_	_
+13	e	e	CCONJ	CC	_	19	cc	_	_
+14	soprattutto	soprattutto	ADV	B	_	19	advmod	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	più	più	ADV	B	_	19	advmod	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	rito	rito	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+20	come	come	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	volta	volta	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Sono cambiate le abitudini degli appassionati di calcio (che peraltro non diminuiscono come si è visto dagli ultimi sondaggi).
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	cambiate	cambiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	abitudini	abitudine	NOUN	S	Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+5-6	degli	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	appassionati	appassionato	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+11	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+12	peraltro	peraltro	ADV	B	_	14	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	diminuiscono	diminuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+15	come	come	SCONJ	CS	_	18	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+19-20	dagli	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	22	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	22	amod	_	_
+22	sondaggi	sondaggio	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = Non parliamo poi delle trasferte:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	poi	poi	ADV	B	_	2	advmod	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	trasferte	trasferta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 33
+# text = lì non ci va quasi più nessuno.
+1	lì	lì	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quasi	quasi	ADV	B	_	6	advmod	_	_
+6	più	più	ADV	B	_	4	advmod	_	_
+7	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 34
+# text = Ma in questo caso incide anche la paura di incidenti, di agguati.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	incide	incidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	incidenti	incidente	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	agguati	agguato	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 35
+# text = Dovremo abituarci a questo nuovo calcio, anche se vedere certi stadi, molti stadi, così vuoti mette tristezza.
+1	Dovremo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2-3	abituarci	_	_	_	_	_	_	_	_
+2	abituar	abituare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	anche	anche	ADV	B	_	11	mark	_	_
+10	se	se	SCONJ	CS	_	9	fixed	_	_
+11	vedere	vedere	VERB	V	VerbForm=Inf	2	advcl	_	_
+12	certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	così	così	ADV	B	_	19	advmod	_	_
+19	vuoti	vuoto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+21	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = Ascolti tv: vola la Domenica Sportiva, male Novantesimo Grazie anche a due ottimi posticipi, la Domenica Sportiva, affidata quest'anno ad Alessandro Antinelli e Giusy Versace, ha fatto un ottimo ascolto ieri sera:
+1	Ascolti	Ascolto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	tv	tv	NOUN	S	Gender=Fem	4	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	vola	volare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Domenica	Domenica	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	Sportiva	sportivo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	male	male	ADV	B	_	10	advmod	_	_
+10	Novantesimo	Novantesimo	PROPN	SP	_	6	nmod	_	_
+11	Grazie	grazie	PROPN	SP	_	10	flat:name	_	_
+12	anche	anche	ADV	B	_	16	advmod	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	due	due	NUM	N	NumType=Card	16	nummod	_	_
+15	ottimi	ottimo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	posticipi	posticipio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Domenica	Domenica	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+20	Sportiva	sportivo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+23	quest'	questo	DET	DD	Number=Sing|PronType=Dem	24	det	_	SpaceAfter=No
+24	anno	anno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+25	ad	a	ADP	E	_	26	case	_	_
+26	Alessandro	Alessandro	PROPN	SP	_	22	obl	_	_
+27	Antinelli	Antinelli	PROPN	SP	_	26	flat:name	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	Giusy	Giusy	PROPN	SP	_	26	conj	_	_
+30	Versace	Versace	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+36	ascolto	ascolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	ccomp	_	_
+37	ieri	ieri	ADV	B	_	36	advmod	_	_
+38	sera	sera	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+39	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 37
+# text = 11,57% di share, 1.605.000 spettatori.
+1	11,57	11,57	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+2	%	%	SYM	SYM	_	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	share	share	VERB	V	VerbForm=Inf	2	acl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	1.605.000	1.605.000	NUM	N	NumType=Card	7	nummod	_	_
+7	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 38
+# text = Inoltre ha fatto un picco del 17,17% di share con 2 milioni 968.000 e oltre 7 milioni di spettatori unici.
+1	Inoltre	inoltre	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	picco	picco	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	17,17	17,17	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	SYM	_	5	nmod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	share	share	VERB	V	VerbForm=Inf	3	xcomp	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	2	2	NUM	N	NumType=Card	14	nummod	_	_
+14	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	968.000	968.000	NUM	N	NumType=Card	14	nummod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	oltre	oltre	ADV	B	_	18	advmod	_	_
+18	7	7	NUM	N	NumType=Card	19	nummod	_	_
+19	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	unici	unico	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 39
+# text = Dopo le prime sette puntate, fanno notare da Rai Sport, gli ascolti sono in crescita dell'1,72% rispetto all'anno scorso e migliori anche rispetto a due anni fa.
+1	Dopo	dopo	ADP	E	_	5	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+3	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	5	amod	_	_
+4	sette	sette	NUM	N	NumType=Card	5	nummod	_	_
+5	puntate	puntato	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	notare	notare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	Rai	Rai	PROPN	SP	_	8	obl	_	_
+11	Sport	Sport	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ascolti	ascolto	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	21	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+20	1,72	1,72	NUM	N	NumType=Card	21	nummod	_	SpaceAfter=No
+21	%	%	SYM	SYM	_	17	nmod	_	_
+22	rispetto	rispetto	ADV	B	_	25	case	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	22	fixed	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	anno	anno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+26	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	26	conj	_	_
+29	anche	anche	ADV	B	_	30	advmod	_	_
+30	rispetto	rispetto	ADV	B	_	33	case	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	due	due	NUM	N	NumType=Card	33	nummod	_	_
+33	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+34	fa	fa	ADV	B	_	33	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 40
+# text = "Ovviamente sono soddisfatto- ha dichiarato il direttore di Rai Sport Carlo Paris - ma considero la DS, come tutti i prodotti di Rai Sport, un laboratorio in continua evoluzione.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ovviamente	ovviamente	ADV	B	_	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	soddisfatto	soddisfatto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	FB	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Rai	Rai	PROPN	SP	_	9	nmod	_	_
+12	Sport	Sport	PROPN	SP	_	9	nmod	_	_
+13	Carlo	Carlo	PROPN	SP	_	12	flat:name	_	_
+14	Paris	Paris	PROPN	SP	_	12	flat:name	_	_
+15	-	-	PUNCT	FF	_	7	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	considero	considerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	DS	DS	PROPN	SP	_	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	come	come	ADP	E	_	24	case	_	_
+22	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	24	det:predet	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Rai	Rai	PROPN	SP	_	24	nmod	_	_
+27	Sport	Sport	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 41
+# text = Dobbiamo essere sempre alla ricerca di nuove idee senza aver paura di cambiare.
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+3	sempre	sempre	ADV	B	_	6	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	idee	idea	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	senza	senza	ADP	E	_	11	mark	_	_
+11	aver	avere	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	paura	paura	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	cambiare	cambiare	VERB	V	VerbForm=Inf	12	acl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 42
+# text = Quello fatto finora è irrilevante rispetto alle avventure che ci aspettano".
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	finora	finora	ADV	B	_	2	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	irrilevante	irrilevante	ADJ	A	Number=Sing	0	root	_	_
+6	rispetto	rispetto	ADV	B	_	9	case	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	avventure	avventura	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+12	aspettano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 43
+# text = Ascolti modesti invece per Novantesimo Minuto, anch'esso su Rai 2, e in calo rispetto al turno precedente:
+1	Ascolti	Ascolto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	modesti	modesto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	invece	invece	ADV	B	_	6	advmod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	Novantesimo	Novantesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	Minuto	minuto	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	anch'	anche	ADV	B	_	9	advmod	_	SpaceAfter=No
+9	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	conj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	Rai	Rai	PROPN	SP	_	9	nmod	_	_
+12	2	2	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	calo	calo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+17	rispetto	rispetto	ADV	B	_	20	case	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	turno	turno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+21	precedente	precedente	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 44
+# text = solo 7,83% di share, 1 milione 207.000.
+1	solo	solo	ADV	B	_	3	advmod	_	_
+2	7,83	7,83	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	share	share	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	1	1	NUM	N	NumType=Card	8	nummod	_	_
+8	milione	milione	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	207.000	207.000	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 45
+# text = La trasmissione così non funziona (vedi Spy Calcio del 28 settembre).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	così	così	ADV	B	_	2	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+8	Spy	Spy	PROPN	SP	_	7	obj	_	_
+9	Calcio	Calcio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	28	28	NUM	N	NumType=Card	9	nmod	_	_
+13	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 46
+# text = Paola Ferrari, in una recente intervista a Chi, ha detto:
+1	Paola	Paola	PROPN	SP	_	12	nsubj	_	_
+2	Ferrari	Ferrari	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	recente	recente	ADJ	A	Number=Sing	7	amod	_	_
+7	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Chi	chi	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 47
+# text = "L'addio a "La Domenica Sportiva" (lo scorso anno, ndr) l'ho vissuto come un'enorme ingiustizia, visti i risultati che ho sempre ottenuto.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	addio	addio	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+6	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	Sportiva	sportivo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	7	punct	_	_
+10	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	ndr	ndr	NOUN	S	_	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	13	punct	_	_
+17	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	come	come	ADP	E	_	23	case	_	_
+21	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+22	enorme	enorme	ADJ	A	Number=Sing	23	amod	_	_
+23	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+29	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	sempre	sempre	ADV	B	_	31	advmod	_	_
+31	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 48
+# text = Mi sono sentita schiaffeggiata e ci sono stata malissimo".
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sentita	sentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	schiaffeggiata	schiaffeggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+9	malissimo	male	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 49
+# text = Non cita il direttore di Rai Sport che la fece fuori (insieme con Franco Lauro, conduttore di Novantesimo):
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	cita	citare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Rai	Rai	PROPN	SP	_	4	nmod	_	_
+7	Sport	Sport	PROPN	SP	_	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+11	fuori	fuori	ADV	B	_	10	advmod	_	_
+12	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+13	insieme	insieme	ADV	B	_	15	case	_	_
+14	con	con	ADP	E	_	13	fixed	_	_
+15	Franco	Franco	PROPN	SP	_	10	obl	_	_
+16	Lauro	Lauro	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	conduttore	conduttore	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Novantesimo	Novantesimo	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 50
+# text = era Mauro Mazza.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	Mauro	Mauro	PROPN	SP	_	0	root	_	_
+3	Mazza	mazza	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 51
+# text = La Ferrari ha anche detto:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ferrari	Ferrari	PROPN	SP	_	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 52
+# text = "Quando poi ho ricevuto l'offerta di "90° Minuto", beh...
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Quando	quando	SCONJ	CS	_	5	mark	_	_
+3	poi	poi	ADV	B	_	5	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	offerta	offerta	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	90°	90°	NOUN	S	Gender=Masc	7	nmod	_	_
+11	Minuto	minuto	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	beh..	beh	NOUN	S	_	10	appos	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 53
+# text = Quella di tornare in video non è stata una scelta facile.
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	10	nsubj	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	tornare	tornare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	video	video	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	facile	facile	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 54
+# text = Ci ho pensato molto.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	molto	molto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 55
+# text = Non ho questa urgenza di apparire per forza.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	apparire	apparire	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	forza	forza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 56
+# text = Mi piace stare dietro le quinte.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	stare	stare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	dietro	dietro	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	quinte	quinto	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 57
+# text = Credo di avere altre priorità, adesso".
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	avere	avere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	altre	altro	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	priorità	priorità	NOUN	S	Gender=Fem	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	adesso	adesso	ADV	B	_	1	advmod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 58
+# text = Una è tenere a bada un Marco Mazzocchi sin troppo straripante.
+1	Una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	tenere	tenere	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	bada	bada	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Marco	Marco	PROPN	SP	_	3	obj	_	_
+8	Mazzocchi	Mazzocchi	PROPN	SP	_	7	flat:name	_	_
+9	sin	sino	ADP	E	_	11	case	_	_
+10	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	straripante.	straripante.	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+
+# sent_id = 59
+# text = ..
+1	.	.	PUNCT	FS	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 60
+# text = "Le partite pomeridiane su Premium Sport-fa sapere un comunicato di Mediaset- hanno realizzato un ascolto complessivo del 5.07%, pari a 782.000 spettatori totali; in particolare, benissimo "Diretta Premium" (2.74% di share e 423.000 spettatori) e "Palermo-Roma" (1.10% di share e 170.000 spettatori), che superano la concorrenza pay;
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	partite	partita	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+4	pomeridiane	pomeridiano	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	su	su	ADP	E	_	6	case	_	_
+6	Premium	Premium	PROPN	SP	_	3	nmod	_	_
+7	Sport	sport	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	-fa	-fare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Mediaset	Mediaset	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	FB	_	16	punct	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	realizzato	realizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ascolto	ascolto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	complessivo	complessivo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	5.07	5.07	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	SYM	_	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	pari	pari	ADJ	A	_	16	amod	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	782.000	782.000	NUM	N	NumType=Card	28	nummod	_	_
+28	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+29	totali	totale	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	;	;	PUNCT	FC	_	16	punct	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	16	punct	_	_
+34	benissimo	bene	ADV	B	Degree=Abs	16	advmod	_	_
+35	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	Diretta	diretta	PROPN	SP	_	16	obj	_	_
+37	Premium	Premium	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	36	punct	_	_
+39	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+40	2.74	2.74	NUM	N	NumType=Card	41	nummod	_	SpaceAfter=No
+41	%	%	SYM	SYM	_	36	nmod	_	_
+42	di	di	ADP	E	_	43	mark	_	_
+43	share	share	VERB	V	VerbForm=Inf	41	advcl	_	_
+44	e	e	CCONJ	CC	_	46	cc	_	_
+45	423.000	423.000	NUM	N	NumType=Card	46	nummod	_	_
+46	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	43	conj	_	SpaceAfter=No
+47	)	)	PUNCT	FB	_	41	punct	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	"	"	PUNCT	FB	_	50	punct	_	SpaceAfter=No
+50	Palermo	Palermo	PROPN	SP	_	36	conj	_	SpaceAfter=No
+51	-	-	PUNCT	FF	_	50	punct	_	SpaceAfter=No
+52	Roma	Roma	PROPN	SP	_	50	flat:name	_	SpaceAfter=No
+53	"	"	PUNCT	FB	_	50	punct	_	_
+54	(	(	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+55	1.10	1.10	NUM	N	NumType=Card	56	nummod	_	SpaceAfter=No
+56	%	%	SYM	SYM	_	50	nmod	_	_
+57	di	di	ADP	E	_	58	mark	_	_
+58	share	share	VERB	V	VerbForm=Inf	56	acl	_	_
+59	e	e	CCONJ	CC	_	61	cc	_	_
+60	170.000	170.000	NUM	N	NumType=Card	61	nummod	_	_
+61	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	58	conj	_	SpaceAfter=No
+62	)	)	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	50	punct	_	_
+64	che	che	PRON	PR	PronType=Rel	65	nsubj	_	_
+65	superano	superare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+66	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	65	obj	_	_
+68	pay	pay	NOUN	S	Gender=Fem	67	compound	_	SpaceAfter=No
+69	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 61
+# text = i match delle ore 18.00 ottengono un ascolto complessivo del 4.67%, pari a 820.000 spettatori totali; in particolare, benissimo "Lazio-Frosinone", che, con lo 0.93% di share e 163.000 spettatori, supera la concorrenza pay.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	match	match	NOUN	S	Gender=Masc	7	nsubj	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ore	ora	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	18.00	18.00	NUM	N	NumType=Card	5	nummod	_	_
+7	ottengono	ottenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ascolto	ascolto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	complessivo	complessivo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	4.67	4.67	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+14	%	%	SYM	SYM	_	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	pari	pari	ADJ	A	_	27	amod	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	820.000	820.000	NUM	N	NumType=Card	19	nummod	_	_
+19	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	totali	totale	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	16	punct	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	benissimo	bene	ADV	B	Degree=Abs	16	advmod	_	_
+26	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	Lazio	Lazio	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+29	Frosinone	Frosinone	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	27	punct	_	_
+32	che	che	PRON	PR	PronType=Rel	44	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	con	con	ADP	E	_	37	case	_	_
+35	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	0.93	0.93	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+37	%	%	SYM	SYM	_	44	obl	_	_
+38	di	di	ADP	E	_	39	mark	_	_
+39	share	share	VERB	V	VerbForm=Inf	37	acl	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	163.000	163.000	NUM	N	NumType=Card	42	nummod	_	_
+42	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	37	punct	_	_
+44	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	_
+47	pay	pay	NOUN	S	_	27	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 62
+# text = A seguire, le gare in prima serata registrano un ascolto complessivo di 1.048.000 spettatori, con il 3.94%;
+1	A	a	ADP	E	_	2	mark	_	_
+2	seguire	seguire	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	gare	gara	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	serata	serata	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	registrano	registrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ascolto	ascolto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	complessivo	complessivo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	1.048.000	1.048.000	NUM	N	NumType=Card	15	nummod	_	_
+15	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	3.94	3.94	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	SYM	SYM	_	9	obl	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 63
+# text = in particolare, benissimo "Fiorentina-Atalanta", che, con il 0.39% di share e 104.000 spettatori, supera la concorrenza pay".
+1	in	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	benissimo	bene	ADV	B	Degree=Abs	6	advmod	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Fiorentina-Atalanta	Fiorentina-Atalanta	PROPN	SP	_	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	21	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	con	con	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	0.39	0.39	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+14	%	%	SYM	SYM	_	21	obl	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	share	share	VERB	V	VerbForm=Inf	14	acl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	104.000	104.000	NUM	N	NumType=Card	19	nummod	_	_
+19	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	pay	pay	NOUN	S	_	21	xcomp	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 64
+# text = La concorrenza pay, ovviamente, si riferisce a Sky.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	pay	pay	ADJ	A	_	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ovviamente	ovviamente	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	riferisce	riferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Sky	Sky	PROPN	SP	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 65
+# text = La pay tv di Murdoch intanto ha fatto sapere che ha raccolto 4 milioni e 420.000 spettatori unici per i canali sport e calcio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pay	pay	NOUN	S	Gender=Fem	8	nsubj	_	_
+3	tv	tv	NOUN	S	Gender=Fem	2	compound	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Murdoch	Murdoch	PROPN	SP	_	2	nmod	_	_
+6	intanto	intanto	ADV	B	_	8	advmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	sapere	sapere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	raccolto	raccogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+13	4	4	NUM	N	NumType=Card	14	nummod	_	_
+14	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	420.000	420.000	NUM	N	NumType=Card	17	nummod	_	_
+17	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+18	unici	unico	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	canali	canale	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+22	sport	sport	NOUN	S	Gender=Masc	21	compound	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 66
+# text = Il posticipo Milan-Napoli è stato visto nel complesso, secondo lo Smart Panel Sky, da 1.243.356 spettatori medi mentre Juventus-Bologna ha sfiorato il milione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	posticipo	posticipo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	Milan	Milan	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	-Napoli	-Napoli	PROPN	SP	_	3	flat:name	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	complesso	complesso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	secondo	secondo	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Smart	Smart	PROPN	SP	_	7	obl	_	_
+15	Panel	Panel	PROPN	SP	_	14	flat:name	_	_
+16	Sky	Sky	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	1.243.356	1.243.356	NUM	N	NumType=Card	20	nummod	_	_
+20	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	_
+21	medi	medio	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	mentre	mentre	SCONJ	CS	_	25	mark	_	_
+23	Juventus-Bologna	Juventus-Bologna	PROPN	SP	_	25	nsubj	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	sfiorato	sfiorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	milione	milione	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

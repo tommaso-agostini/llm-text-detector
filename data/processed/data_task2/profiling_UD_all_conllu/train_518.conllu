@@ -1,0 +1,329 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non è un suono di paura, né di tristezza, almeno non nel senso che ci si aspetterebbe.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	suono	suono	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	né	né	CCONJ	CC	_	10	cc	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	almeno	almeno	ADV	B	_	16	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl:impers	_	_
+20	aspetterebbe	aspettare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = È, piuttosto, un suono di rassegnazione, di equazione assurda che la signora Emilia sta cercando disperatamente di accettare.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	piuttosto	piuttosto	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	suono	suono	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	rassegnazione	rassegnazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	equazione	equazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	assurda	assurdare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	che	che	SCONJ	CS	_	18	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	signora	signore	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	Emilia	Emilia	PROPN	SP	_	15	flat:name	_	_
+17	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	cercando	cercare	VERB	V	VerbForm=Ger	12	advcl	_	_
+19	disperatamente	disperatamente	ADV	B	_	18	advmod	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	accettare	accettare	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Emilia, 68 anni, ex presidente di una holding finanziaria, ereditaria, capace di chiudere affari con un gesto della mano, vive in una stanza per i poveri.
+1	Emilia	Emilia	PROPN	SP	_	26	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	68	68	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	ex	ex	ADJ	A	_	7	amod	_	_
+7	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	holding	holding	NOUN	S	Gender=Fem	7	nmod	_	_
+11	finanziaria	finanziario	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	ereditaria	ereditario	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	capace	capace	ADJ	A	Number=Sing	1	amod	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	chiudere	chiudere	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	affari	affare	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mano	mano	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 4
+# text = È un’ironia beffarda, un macigno che schiaccia la dignità di chi un tempo scendeva gli scalini in stivali di pelle e limosine nere.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	beffarda	beffardo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	macigno	macigno	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	schiaccia	schiacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	dignità	dignità	NOUN	S	Gender=Fem	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	chi	chi	PRON	PR	PronType=Rel	11	nmod	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+16	scendeva	scendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	scalini	scalino	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	stivali	stivale	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	limosine	limosina	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+25	nere	nero	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Un suicidio assistito adottato dallo Stato, una quarantena di possibilità in un appartamento con vista sul Colosseo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	suicidio	suicidio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	assistito	assistito	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	adottato	adottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	dallo	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Stato	stato	PROPN	SP	_	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	quarantena	quarantena	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	possibilità	possibilità	NOUN	S	Gender=Fem	10	nmod	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	vista	vista	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Colosseo	Colosseo	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Non ricordo quando l'avevo vista l’ultima volta, in un evento di beneficenza, vestita di seta e con un sorriso forzato.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quando	quando	SCONJ	CS	_	5	mark	_	_
+4	l'	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	avevo	avere	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	evento	evento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	beneficenza	beneficenza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	seta	seta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	19	conj	_	_
+24	forzato	forzato	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ricordo, però, la sua voce, netta, autorevole, capace di far tremare le azioni di interi mercati.
+1	Ricordo	ricordo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	netta	netto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	autorevole	autorevole	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	capace	capace	ADJ	A	Number=Sing	9	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	far	fare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	tremare	tremare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	interi	intero	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+21	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ricordo la sua ossessione per i numeri, per i bilanci, per il controllo.
+1	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	ossessione	ossessione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	numeri	numero	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	bilanci	bilancio	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Ricordo, finalmente, le storie che mi raccontava, a volte, di viaggi esotici, di yacht, di compleanni celebrati a St. Moritz.
+1	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	finalmente	finalmente	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	storie	storia	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	raccontava	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	volte	volte	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+16	esotici	esotico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	yacht	yacht	NOUN	S	Gender=Masc	1	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	compleanni	compleanno	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+23	celebrati	celebrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	St.	St.	PROPN	SP	_	23	obl	_	_
+26	Moritz	Moritz	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Oggi, il suo guardaroba è un cesto di maglioni sformati, la sua tavola è un piatto di minestra pronta, il suo giornale la Repubblica, che legge con nuova attenzione.
+1	Oggi	oggi	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	guardaroba	guardaroba	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cesto	cesto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	maglioni	maglione	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	sformati	sformato	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	minestra	minestra	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Repubblica	repubblica	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+31	con	con	ADP	E	_	33	case	_	_
+32	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Mi ha confessato, con una voce più fragile del solito, di aver perso tutto, un po’ alla volta, in un turbinio di scommesse avventate, di figli "difficili", di un matrimonio fall
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	fragile	fragile	ADJ	A	Number=Sing	7	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	solito	solito	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	di	di	ADP	E	_	16	mark	_	_
+15	aver	avere	AUX	VA	VerbForm=Inf	16	aux	_	_
+16	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+17	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	po’	poco	ADV	B	_	23	advmod	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	volta	volta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	16	punct	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	turbinio	turbinio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	scommesse	scommessa	NOUN	S	Gender=Fem|Number=Plur	27	nmod	_	_
+30	avventate	avventato	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+34	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	difficili	difficile	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+36	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	40	punct	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+41	fall	fall	ADJ	A	Number=Sing	16	xcomp	_	SpacesAfter=\n
+

@@ -1,0 +1,503 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Forse ora quei segreti verranno svelati".
+1	Forse	forse	ADV	B	_	6	advmod	_	_
+2	ora	ora	ADV	B	_	6	advmod	_	_
+3	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	segreti	segreto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+5	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	svelati	svelare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Larry Siems, ex direttore del Freedom to Write and International Programs del Pen, l'associazione degli scrittori americani per la libertà d'espressione, è il giornalista che ha editato ed aiutato a pubblicare 12 anni a Guantanamo (Piemme), rocambolescamente scritto nel carcere da Mohamedou Ould Slahi, detenuto mai accusato formalmente di alcun crimine eppure ancora prigioniero.
+1	Larry	Larry	PROPN	SP	_	32	nsubj	_	_
+2	Siems	Siems	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	ex	ex	ADJ	A	_	5	amod	_	_
+5	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Freedom	Freedom	PROPN	SP	_	5	nmod	_	_
+9	to	to	ADP	E	_	10	case	_	_
+10	Write	Writa	PROPN	SP	_	8	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	International	International	PROPN	SP	_	10	conj	_	_
+13	Programs	Programs	PROPN	SP	_	12	flat:name	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Pen	Pen	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	americani	americano	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	libertà	libertà	NOUN	S	Gender=Fem	22	nmod	_	_
+27	d'	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	1	punct	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	giornalista	giornalista	NOUN	S	Number=Sing	0	root	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	editato	editare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl:relcl	_	_
+36	ed	e	CCONJ	CC	_	37	cc	_	_
+37	aiutato	aiutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	conj	_	_
+38	a	a	ADP	E	_	39	mark	_	_
+39	pubblicare	pubblicare	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	12	12	NUM	N	NumType=Card	41	nummod	_	_
+41	anni	anno	NOUN	S	Gender=Masc|Number=Plur	39	obj	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	Guantanamo	guantanamo	PROPN	SP	_	39	obl	_	_
+44	(	(	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+45	Piemme	Piemme	PROPN	SP	_	43	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	32	punct	_	_
+48	rocambolescamente	rocambolescamente	ADV	B	_	49	advmod	_	_
+49	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+50-51	nel	_	_	_	_	_	_	_	_
+50	in	in	ADP	E	_	52	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	49	obl	_	_
+53	da	da	ADP	E	_	54	case	_	_
+54	Mohamedou	Mohamedou	PROPN	SP	_	49	obl:agent	_	_
+55	Ould	Ould	PROPN	SP	_	54	flat:name	_	_
+56	Slahi	Slahi	PROPN	SP	_	54	flat:name	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	54	punct	_	_
+58	detenuto	detenere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	60	aux	_	_
+59	mai	mai	ADV	B	_	60	advmod	_	_
+60	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	conj	_	_
+61	formalmente	formalmente	ADV	B	_	64	advmod	_	_
+62	di	di	ADP	E	_	64	case	_	_
+63	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	64	det	_	_
+64	crimine	crimine	NOUN	S	Gender=Masc|Number=Sing	60	obl	_	_
+65	eppure	eppure	CCONJ	CC	_	67	cc	_	_
+66	ancora	ancora	ADV	B	_	67	advmod	_	_
+67	prigioniero	prigioniero	ADJ	A	Gender=Masc|Number=Sing	60	conj	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 3
+# text = La chiusura di Guantanamo era fra gli obiettivi di Obama fin dalla sua prima elezione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Guantanamo	guantanamo	PROPN	SP	_	2	nmod	_	_
+5	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	fra	fra	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Obama	Obama	PROPN	SP	_	8	nmod	_	_
+11	fin	fino	ADP	E	_	16	case	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	11	fixed	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Perché pensa che questa volta ce la farà?
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+6	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = "Ci lavora da mesi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = E, lo ha appena ricordato lui stesso, non è il solo a volerne la chiusura:
+1	E	e	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	appena	appena	ADV	B	_	6	advmod	_	_
+6	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+8	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	solo	solo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15-16	volerne	_	_	_	_	_	_	_	_
+15	voler	volere	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	15	iobj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 7
+# text = anche fra i repubblicani c'è chi come John McCain concorda sull'inutilità di questa struttura costosa, che non garantisce la sicurezza di nessuno ed è una vergogna per l'America.
+1	anche	anche	ADV	B	_	4	advmod	_	_
+2	fra	fra	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	repubblicani	repubblicano	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	nsubj	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	John	John	PROPN	SP	_	11	obl	_	_
+10	McCain	McCain	PROPN	SP	_	9	flat:name	_	_
+11	concorda	concordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12-13	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+12	su	su	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	inutilità	inutilità	NOUN	S	Gender=Fem	11	obl	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	costosa	costoso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	garantisce	garantire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	nmod	_	_
+27	ed	e	CCONJ	CC	_	30	cc	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	America	America	PROPN	SP	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Certo, c'è il rischio di una battaglia legale con il Congresso.
+1	Certo	certo	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	legale	legale	ADJ	A	Number=Sing	9	amod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Congresso	Congresso	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Se non cambieranno la legge del 2011 che vietava di portare in America qualunque prigioniero di quel carcere Obama potrebbe forzare con una azione esecutiva.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	cambieranno	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	legge	legge	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	2011	2011	NUM	N	NumType=Card	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	vietava	vietare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	portare	portare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	America	America	PROPN	SP	_	12	obl	_	_
+15	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
+16	prigioniero	prigioniero	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Obama	Obama	PROPN	SP	_	19	nmod	_	_
+21	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	forzare	forzare	VERB	V	VerbForm=Inf	0	root	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	azione	azione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	esecutiva	esecutivo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 10
+# text = Una sfida importante".
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	importante	importante	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Qualcuno sostiene che chi ha vissuto l'esperienza di Guantanamo, anche se non era un terrorista prima, potrebbe diventarlo tornando libero.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	21	mark	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	21	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Guantanamo	guantanamo	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	anche	anche	ADV	B	_	17	mark	_	_
+13	se	se	SCONJ	CS	_	12	fixed	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	terrorista	terrorista	NOUN	S	Number=Sing	6	advcl	_	_
+18	prima	prima	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21-22	diventarlo	_	_	_	_	_	_	_	_
+21	diventar	diventare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tornando	tornando	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	libero	libero	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = È così?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = "È una domanda che mi pongono in molti:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+7	pongono	porre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 14
+# text = un segno della nostra coscienza sporca.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segno	segno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	sporca	sporco	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Abbiamo trattato questa gente in modo terribile e pensiamo che non possono che odiarci.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trattato	trattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	terribile	terribile	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	che	che	SCONJ	CS	_	14	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	che	che	SCONJ	CS	_	14	mark	_	_
+14-15	odiarci	_	_	_	_	_	_	_	SpaceAfter=No
+14	odiar	odiare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Ma già centinaia di detenuti sono stati rilasciati:
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	detenuti	detenuto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	rilasciati	rilasciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 17
+# text = e la percentuale di chi è tornato sul campo di battaglia è bassissima.
+1	e	e	CCONJ	CC	_	14	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	chi	chi	PRON	PR	PronType=Rel	3	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	campo	campo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	bassissima	basso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 18
+# text = I più vogliono solo tornare alla propria vita.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	più	più	ADV	B	_	5	nsubj	_	_
+3	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	tornare	tornare	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = E comunque non li rilasciano facilmente.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	comunque	comunque	ADV	B	_	5	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	rilasciano	rilasciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	facilmente	facilmente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = C'è un percorso da fare".
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	acl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = In cosa consiste?
+1	In	in	ADP	E	_	2	case	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obl	_	_
+3	consiste	consistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = "Audizioni legali per stabilire se questi uomini sono una minaccia.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Audizioni	Audizione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	legali	legale	ADJ	A	Number=Plur	2	amod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	stabilire	stabilire	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	se	se	SCONJ	CS	_	11	mark	_	_
+7	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	5	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = A molti sono state negate a lungo ma ora ne è stata notificata a tutti l'imminenza.
+1	A	a	ADP	E	_	2	case	_	_
+2	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	negate	negare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	ma	ma	CCONJ	CC	_	13	cc	_	_
+9	ora	ora	ADV	B	_	13	advmod	_	_
+10	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	notificata	notificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	imminenza	imminenza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = Il presidente vuole accelerare i tempi".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	accelerare	accelerare	VERB	V	VerbForm=Inf	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = Cosa le dà tanto ottimismo?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	3	iobj	_	_
+3	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	ottimismo	ottimismo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = "Sono convinto che la forza delle idee vincerà sulla politica.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	forza	forza	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	idee	idea	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	vincerà	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	politica	politica	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Non è finita, ma Obama ce la farà.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	ma	ma	CCONJ	CC	_	9	cc	_	_
+6	Obama	Obama	PROPN	SP	_	9	nsubj	_	_
+7	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+8	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 28
+# text = Chiuderà Guantanamo entro la fine del suo mandato".
+1	Chiuderà	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	Guantanamo	guantanamo	PROPN	SP	_	1	obj	_	_
+3	entro	entro	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	mandato	mandato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

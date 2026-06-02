@@ -1,0 +1,311 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Questo prodotto, infatti, è voormalato da molti come un'arma impropmedia, difficile da controllare e con effetti collaterali gravissimi.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	voormalato	voormalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obl:agent	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	arma	arma	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13	impropmedia	impropmedio	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	difficile	difficile	ADJ	A	Number=Sing	12	amod	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	controllare	controllare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+21	collaterali	collaterale	ADJ	A	Number=Plur	20	amod	_	_
+22	gravissimi	grave	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Il spray al peperoncino, o più correttamente gas lacrimogeno, è un sostanza químic che, una volta spruzzata, causà una irritazióne insopportabile agli occhi e alle vie respiratorie.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	spray	spray	NOUN	S	_	15	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	peperoncino	peperoncino	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	correttamente	correttamente	ADV	B	_	10	advmod	_	_
+10	gas	gas	NOUN	S	Gender=Masc	2	conj	_	_
+11	lacrimogeno	lacrimogeno	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+16	químic	químic	ADV	B	_	15	advmod	_	_
+17	che	che	SCONJ	CS	_	23	mark	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+21	spruzzata	spruzzare	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	causà	causà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	ccomp	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	irritazióne	irritazióne	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	insopportabile	insopportabile	ADJ	A	Number=Sing	25	amod	_	_
+27-28	agli	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31-32	alle	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	vie	via	NOUN	S	Gender=Fem|Number=Plur	29	conj	_	_
+34	respiratorie	respiratorio	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Questo può portare a una incapacitá total di muoveree riprodursi in sicurezza per un certo periodo di tempo.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	portare	portare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	incapacitá	incapacitá	PROPN	SP	_	3	obl	_	_
+7	total	total	ADJ	A	Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	muoveree	muoverea	VERB	V	VerbForm=Inf	3	xcomp	_	_
+10-11	riprodursi	_	_	_	_	_	_	_	_
+10	riprodur	riprodurre	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	certo	certo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Inoltre, la sostanza è difficile da rimuovere e può causare danni permanenti alla pelle e agli occhi.
+1	Inoltre	inoltre	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	rimuovere	rimuovere	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	causare	causare	VERB	V	VerbForm=Inf	8	conj	_	_
+12	danni	danno	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+13	permanenti	permanente	ADJ	A	Number=Plur	12	amod	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	agli	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Per questo motivo, molti comuni hanno deciso di introdurre il divieto di portare con sé spray al peperoncino durante i festeggiamenti di fine anno.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	comuni	comune	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	introdurre	introdurre	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	portare	portare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	spray	spray	NOUN	S	_	14	obj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	peperoncino	peperoncino	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+21	durante	durante	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	festeggiamenti	festeggiamento	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	fine	fine	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	anno	anno	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = La mappa dei divieti è vasta e variegata, e interessa soprattutto le grandi città e le aree più affollate.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mappa	mappa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	divieti	divieto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	vasta	vasto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	variegata	variegare	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	soprattutto	soprattutto	ADV	B	_	16	advmod	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	grandi	grande	ADJ	A	Number=Plur	16	amod	_	_
+16	città	città	NOUN	S	Gender=Fem	12	obj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	aree	area	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	affollate	affollato	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = A Roma, ad esempio, il sindaco Raggi ha annunciato il divieto di portare con sé spray al peperoncino in tutte le zone ricomprese nel cosiddetto "Area ZTLにも行き.objects = [i18n(dynamic=" Palazzo")], con l'obiettivo di garantire la sicurezza di tutti i cittadini.
+1	A	a	ADP	E	_	2	case	_	_
+2	Roma	Roma	PROPN	SP	_	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	Raggi	raggi	PROPN	SP	_	8	nmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	portare	portare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	spray	spray	NOUN	S	_	15	obj	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	peperoncino	peperoncino	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	25	det:predet	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	zone	zona	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+26	ricomprese	ricomprese	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+27-28	nel	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cosiddetto	cosiddetto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+31	Area	area	PROPN	SP	_	29	nmod	_	_
+32	ZTLにも行き.objects	ZTLにも行き.objects	PROPN	SP	_	31	flat:name	_	_
+33	=	=	PUNCT	FF	_	31	punct	_	_
+34	[	[	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+35	i18n(	i18n(	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+36	dynamic=	dynamic=	PUNCT	FF	_	31	punct	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	38	punct	_	_
+38	Palazzo	Palazzo	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+41	]	]	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	11	punct	_	_
+43	con	con	ADP	E	_	45	case	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+46	di	di	ADP	E	_	47	mark	_	_
+47	garantire	garantire	VERB	V	VerbForm=Inf	45	acl	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	47	obj	_	_
+50	di	di	ADP	E	_	53	case	_	_
+51	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	53	det:predet	_	_
+52	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
+53	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	49	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = National Park.
+1	National	National	PROPN	SP	_	0	root	_	_
+2	Park	Park	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Nelle zone non meglio specificate, invece, l'uso dello spray al peperoncino è soggetto a limitazioni e controlli rigorosi da parte delle forze dell'ordine.
+1-2	Nelle	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	zone	zona	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	meglio	meglio	ADV	B	_	6	advmod	_	_
+6	specificate	specificare	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	invece	invece	ADV	B	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	uso	uso	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+12-13	dello	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	spray	spray	NOUN	S	Gender=Masc	11	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	peperoncino	peperoncino	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	soggetto	soggetto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	limitazioni	limitazione	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	controlli	controlle	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+24	rigorosi	rigoroso	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	parte	parte	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27-28	delle	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	forze	forza	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+30-31	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+30	di	di	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 10
+# text = A Milano, il sindaco Sala ha decisionato di introdurre il divieto anche nelle aree del centro storico e nella
+1	A	a	ADP	E	_	2	case	_	_
+2	Milano	Milano	PROPN	SP	_	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Sala	Sala	PROPN	SP	_	5	nmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	decisionato	decisionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	introdurre	introdurre	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	anche	anche	ADV	B	_	16	advmod	_	_
+14-15	nelle	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	aree	area	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	centro	centro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	storico	storico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22-23	nella	_	_	_	_	_	_	_	SpacesAfter=\n
+22	in	in	ADP	E	_	23	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	conj	_	_
+

@@ -1,0 +1,438 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = O, volendo, dalla nostra.
+1	O	o	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	volendo	volere	VERB	V	VerbForm=Ger	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = A individuare l’opzione, evidentemente in fase di test, il sito TechCrunch attraverso l’imbeccata di un lettore che ha girato alcune schermate di questa specie di funzione di rilancio e condivisione.
+1	A	a	ADP	E	_	2	mark	_	_
+2	individuare	individuare	VERB	V	VerbForm=Inf	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	evidentemente	evidentemente	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	fase	fase	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	test	test	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sito	sito	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+14	TechCrunch	TechCrunch	PROPN	SP	_	13	nmod	_	_
+15	attraverso	attraverso	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	imbeccata	imbeccata	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	girato	girare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+24	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	schermate	schermata	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	specie	specie	NOUN	S	Gender=Fem	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	funzione	funzione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	rilancio	rilancio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	condivisione	condivisione	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Alla fine anche la piattaforma fondata da Kevin Systrom e controllata da Facebook ha confermato:
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	piattaforma	piattaforma	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+7	fondata	fondare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	Kevin	Kevin	PROPN	SP	_	7	obl:agent	_	_
+10	Systrom	Systrom	PROPN	SP	_	9	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	controllata	controllare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	Facebook	Facebook	PROPN	SP	_	12	obl:agent	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 4
+# text = “Sperimentiamo sempre nuovi modi che rendano più facile condividere ogni momento con gli amici su Instagram” ha spiegato un portavoce.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Sperimentiamo	Sperimentare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	modi	modo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	rendano	rendere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	facile	facile	ADJ	A	Number=Sing	7	xcomp	_	_
+10	condividere	condividere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	momento	momento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	amici	amico	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	Instagram	Instagram	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	2	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	portavoce	portavoce	NOUN	S	_	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Instagram, che ha appena lanciato Shopping in Italia, non ha mai introdotto una vera possibilità di condivisione dei contenuti altrui.
+1	Instagram	Instagram	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	appena	appena	ADV	B	_	6	advmod	_	_
+6	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+7	Shopping	shopping	PROPN	SP	_	6	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	mai	mai	ADV	B	_	14	advmod	_	_
+14	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	vera	vero	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	possibilità	possibilità	NOUN	S	Gender=Fem	14	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	condivisione	condivisione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	altrui	altrui	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = Un po’ come il pollice all’ingiù di Facebook, sembra uno di quei passaggi che difficilmente verranno superati.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	po’	poco	ADV	B	_	5	advmod	_	_
+3	come	come	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pollice	pollice	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ingiù	ingiù	NOUN	S	Gender=Masc	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Facebook	Facebook	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	xcomp	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+16	passaggi	passaggio	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	_
+18	difficilmente	difficilmente	ADV	B	_	20	advmod	_	_
+19	verranno	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	20	aux:pass	_	_
+20	superati	superare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Sì, attraverso una serie di applicazioni – come Repost – è possibile in modo un po’ macchinoso rilanciare una foto altrui sul proprio account.
+1	Sì	sì	INTJ	I	Polarity=Pos	13	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	attraverso	attraverso	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	serie	serie	NOUN	S	Gender=Fem	13	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	applicazioni	applicazione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	–	–	PUNCT	FB	_	10	punct	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	Repost	Repost	PROPN	SP	_	13	obl	_	_
+11	–	–	PUNCT	FB	_	10	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	modo	modo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	po’	poco	ADV	B	_	18	advmod	_	_
+18	macchinoso	macchinoso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	rilanciare	rilanciare	VERB	V	VerbForm=Inf	13	csubj	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	foto	foto	NOUN	S	Gender=Fem	19	obj	_	_
+22	altrui	altrui	DET	AP	Poss=Yes|PronType=Prs	21	det:poss	_	_
+23-24	sul	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	account	account	NOUN	S	_	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = L’introduzione di un’opzione simile tramite le Storie potrebbe tuttavia aprire la strada anche alla condivisione classica.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	introduzione	introduzione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	simile	simile	ADJ	A	Number=Sing	5	amod	_	_
+7	tramite	tramite	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Storie	storie	PROPN	SP	_	5	nmod	_	_
+10	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	tuttavia	tuttavia	ADV	B	_	12	advmod	_	_
+12	aprire	aprire	VERB	V	VerbForm=Inf	0	root	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	strada	strada	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	anche	anche	ADV	B	_	18	advmod	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	condivisione	condivisione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+19	classica	classico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = D’altronde gli utenti fanno spesso screenshot di foto tratte dalla bacheca per utilizzarle come contenuti a scomparsa aggiungendo testi, sticker e altri effetti.
+1	D’	D’	ADP	E	_	2	case	_	SpaceAfter=No
+2	altronde	altronde	ADV	B	_	5	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	utenti	utente	NOUN	S	Number=Plur	5	nsubj	_	_
+5	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	spesso	spesso	ADV	B	_	5	advmod	_	_
+7	screenshot	screenshot	NOUN	S	Gender=Masc	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	foto	foto	NOUN	S	Gender=Fem	7	nmod	_	_
+10	tratte	trarre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bacheca	bacheca	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15-16	utilizzarle	_	_	_	_	_	_	_	_
+15	utilizzar	utilizzare	VERB	V	VerbForm=Inf	10	advcl	_	_
+16	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	come	come	ADV	B	_	18	advmod	_	_
+18	contenuti	contenuto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	advcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	scomparsa	scomparsa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	aggiungendo	aggiungere	VERB	V	VerbForm=Ger	18	advcl	_	_
+22	testi	testo	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	sticker	sticker	NOUN	S	Gender=Masc	22	conj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	altri	altro	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+27	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Un "reshare" di questo genere aprirebbe a nuovi atteggiamenti, inediti tipi di contenuti e incroci prima impossibili fra la dimensione orizzontale dell’applicazione, quella delle Storie, e quella verticale, cioè dell’esperienza d’uso classica.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	reshare	reshare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	genere	genere	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	aprirebbe	aprire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	atteggiamenti	atteggiamente	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	inediti	inedire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+14	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	incroci	incroce	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+19	prima	prima	ADV	B	_	20	advmod	_	_
+20	impossibili	impossibile	ADJ	A	Number=Plur	13	xcomp	_	_
+21	fra	fra	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	dimensione	dimensione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	orizzontale	orizzontale	ADJ	A	Number=Sing	23	amod	_	_
+25-26	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+25	di	di	ADP	E	_	27	case	_	_
+26	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	8	punct	_	_
+29	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	obj	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	Storie	storie	PROPN	SP	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	32	conj	_	_
+36	verticale	verticale	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	41	punct	_	_
+38	cioè	cioè	CCONJ	CC	_	41	cc	_	_
+39-40	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+39	di	di	ADP	E	_	41	case	_	_
+40	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	36	conj	_	_
+42	d’	di	ADP	E	_	43	case	_	SpaceAfter=No
+43	uso	uso	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+44	classica	classico	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Anche per i brand, che potrebbero così mescolare i contenuti portando per esempio traffico sui post normali (questi “repost”, infatti, saranno linkabili).
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	brand	brand	NOUN	S	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	così	così	ADV	B	_	9	advmod	_	_
+9	mescolare	mescolare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	portando	portare	VERB	V	VerbForm=Ger	9	advcl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+15	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16-17	sui	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	post	post	NOUN	S	_	15	nmod	_	_
+19	normali	normale	ADJ	A	Number=Plur	18	amod	_	_
+20	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+21	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
+22	“	“	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	repost	repost	NOUN	S	Gender=Masc	15	appos	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	infatti	infatti	ADV	B	_	23	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	29	cop	_	_
+29	linkabili	linkabile	ADJ	A	Number=Plur	23	conj	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Il post incorporato può essere piazzato in primo o in secondo piano, spostato e ridimensionato all’interno della propria Storia, ci si può scrivere intorno o applicare qualsiasi altro strumento creativo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	post	post	NOUN	S	_	6	nsubj:pass	_	_
+3	incorporato	incorporato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	piazzato	piazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	obl	_	_
+9	o	o	CCONJ	CC	_	12	cc	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	piano	piano	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	spostato	spostato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	ridimensionato	ridimensionato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+17-18	all’	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	interno	interno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	Storia	storia	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	28	punct	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl:impers	_	_
+27	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	scrivere	scrivere	VERB	V	VerbForm=Inf	6	conj	_	_
+29	intorno	intorno	ADV	B	_	28	advmod	_	_
+30	o	o	CCONJ	CC	_	31	cc	_	_
+31	applicare	applicare	VERB	V	VerbForm=Inf	29	conj	_	_
+32	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+33	altro	altro	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+34	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+35	creativo	creativo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Se gli utenti ci cliccano sopra quando visualizzano la Storia, vengono portati al contenuto originale.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	utenti	utente	NOUN	S	Number=Plur	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+5	cliccano	cliccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+6	sopra	sopra	ADV	B	_	5	advmod	_	_
+7	quando	quando	SCONJ	CS	_	8	mark	_	_
+8	visualizzano	visualizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Storia	storia	PROPN	SP	_	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	portati	portare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contenuto	contenuto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	originale	originale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 14
+# text = Ovviamente chi non vuole che i propri post vengano utilizzati per questa operazione può indicarlo nelle impostazioni.
+1	Ovviamente	ovviamente	ADV	B	_	15	advmod	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	15	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	post	post	NOUN	S	_	10	nsubj:pass	_	_
+9	vengano	venire	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	utilizzati	utilizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	indicarlo	_	_	_	_	_	_	_	_
+15	indicar	indicare	VERB	V	VerbForm=Inf	0	root	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	impostazioni	impostazione	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 15
+# text = Non c’è ancora alcuna notizia sull’eventuale diffusione agli oltre 800 milioni di utenti attivi.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7-8	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+7	su	su	ADP	E	_	10	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	eventuale	eventuale	ADJ	A	Number=Sing	10	amod	_	_
+10	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11-12	agli	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	15	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+13	oltre	oltre	ADV	B	_	14	advmod	_	_
+14	800	800	NUM	N	NumType=Card	15	nummod	_	_
+15	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	utenti	utente	NOUN	S	Number=Plur	15	nmod	_	_
+18	attivi	attivo	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

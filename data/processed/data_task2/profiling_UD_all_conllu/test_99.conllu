@@ -1,0 +1,288 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = government agencies.
+1	government	government	NOUN	S	Gender=Masc	0	root	_	_
+2	agencies	agency	NOUN	S	Gender=Masc	1	compound	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = In addition to its other responsibilities, supplemental questions in Form I-765 ask about the applicant’s ongoing intention to pursue a course of study in the U.S., previous immigration history, and any criminal or immigration violations.
+1	In	in	ADP	E	_	2	case	_	_
+2	addition	addition	X	SW	Foreign=Yes	22	obl	_	_
+3	to	to	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	its	its	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	other	othere	X	SW	Foreign=Yes	2	flat:foreign	_	_
+6	responsibilities	responsibility	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	supplemental	supplementale	DET	DQ	Number=Sing|PronType=Int	9	det	_	_
+9	questions	questions	NOUN	S	Gender=Masc	22	nsubj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Form	Form	PROPN	SP	_	22	obl	_	_
+12	I-765	I-765	PROPN	SP	_	11	flat:name	_	_
+13	ask	ask	X	SW	Foreign=Yes	11	nmod	_	_
+14	about	about	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	the	the	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	applicant	applicant	X	SW	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+17	’	’	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+18	s	s	X	SW	Foreign=Yes	11	nmod	_	_
+19	ongoing	ongoing	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	intention	intention	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	to	to	X	SW	Foreign=Yes	18	flat:foreign	_	_
+22	pursue	pursue	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	course	courgere	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+25	of	of	ADP	E	_	26	case	_	_
+26	study	study	NOUN	S	_	24	nmod	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	U.S.	U.S.	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	previous	previous	X	SW	Foreign=Yes	22	appos	_	_
+32	immigration	immigration	X	SW	Foreign=Yes	31	flat:foreign	_	_
+33	history	history	X	SW	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	31	punct	_	_
+35	and	and	X	SW	Foreign=Yes	37	nsubj	_	_
+36	any	any	X	SW	Foreign=Yes	35	flat:foreign	_	_
+37	criminal	criminal	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	_
+38	or	or	X	SW	Foreign=Yes	37	obj	_	_
+39	immigration	immigration	X	SW	Foreign=Yes	38	flat:foreign	_	_
+40	violations	violations	X	SW	Foreign=Yes	38	flat:foreign	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 3
+# text = The form also includes sections for biographic information, such as full name, address, date and place of birth, and other personal details.
+1	The	The	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	form	form	NOUN	S	Gender=Masc	0	root	_	_
+3	also	also	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	includes	includi	X	SW	Foreign=Yes	2	nmod	_	_
+5	sections	sections	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	for	for	ADP	E	_	7	case	_	_
+7	biographic	biographic	X	SW	Foreign=Yes	4	flat:foreign	_	_
+8	information	information	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	such	such	X	SW	Foreign=Yes	13	nmod	_	_
+11	as	a	X	SW	Foreign=Yes	10	flat:foreign	_	_
+12	full	full	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	name	name	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	address	address	NOUN	S	Gender=Masc	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	date	dare	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	place	placere	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+20	of	of	ADP	E	_	21	case	_	_
+21	birth	birth	NOUN	S	Gender=Masc	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	26	punct	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	other	othere	ADP	E	_	26	case	_	_
+25	personal	personal	ADJ	A	_	26	amod	_	_
+26	details	details	NOUN	S	_	17	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = adjoiningembrane del corpo, picchiate efone submissions to U.S. government agencies.
+1	adjoiningembrane	adjoiningembrana	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	picchiate	picchiato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+7	efone	efone	X	SW	Foreign=Yes	6	xcomp	_	_
+8	submissions	submissions	X	SW	Foreign=Yes	7	flat:foreign	_	_
+9	to	to	X	SW	Foreign=Yes	7	flat:foreign	_	_
+10	U.S.	U.S.	PROPN	SP	_	7	flat:foreign	_	_
+11	government	government	X	SW	Foreign=Yes	7	flat:foreign	_	_
+12	agencies	agencies	X	SW	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = In addition to its other responsibilities, supplemental questions in Form I-765 ask about the applicant’s ongoing intention to pursue a course of study in the U.S., previous immigration history, and any criminal or immigration violations.
+1	In	in	ADP	E	_	2	case	_	_
+2	addition	addition	X	SW	Foreign=Yes	22	obl	_	_
+3	to	to	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	its	its	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	other	othere	X	SW	Foreign=Yes	2	flat:foreign	_	_
+6	responsibilities	responsibility	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	supplemental	supplementale	DET	DQ	Number=Sing|PronType=Int	9	det	_	_
+9	questions	questions	NOUN	S	Gender=Masc	22	nsubj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Form	Form	PROPN	SP	_	22	obl	_	_
+12	I-765	I-765	PROPN	SP	_	11	flat:name	_	_
+13	ask	ask	X	SW	Foreign=Yes	11	nmod	_	_
+14	about	about	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	the	the	X	SW	Foreign=Yes	13	flat:foreign	_	_
+16	applicant	applicant	X	SW	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+17	’	’	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+18	s	s	X	SW	Foreign=Yes	11	nmod	_	_
+19	ongoing	ongoing	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	intention	intention	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	to	to	X	SW	Foreign=Yes	18	flat:foreign	_	_
+22	pursue	pursue	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	course	courgere	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+25	of	of	ADP	E	_	26	case	_	_
+26	study	study	NOUN	S	_	24	nmod	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	the	the	DET	RD	Definite=Def|PronType=Art	29	det	_	_
+29	U.S.	U.S.	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	previous	previous	X	SW	Foreign=Yes	22	appos	_	_
+32	immigration	immigration	X	SW	Foreign=Yes	31	flat:foreign	_	_
+33	history	history	X	SW	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	31	punct	_	_
+35	and	and	X	SW	Foreign=Yes	37	nsubj	_	_
+36	any	any	X	SW	Foreign=Yes	35	flat:foreign	_	_
+37	criminal	criminal	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	_
+38	or	or	X	SW	Foreign=Yes	37	obj	_	_
+39	immigration	immigration	X	SW	Foreign=Yes	38	flat:foreign	_	_
+40	violations	violations	X	SW	Foreign=Yes	38	flat:foreign	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 6
+# text = The form also includes sections for biographic information, schiacciate con pali e spro кількість, according to an assembly of sources familiar with the matter who asked not to be identified for fear of retribution.
+1	The	The	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	form	form	NOUN	S	Gender=Masc	0	root	_	_
+3	also	also	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	includes	includi	X	SW	Foreign=Yes	2	nmod	_	_
+5	sections	sections	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	for	for	ADP	E	_	4	case	_	_
+7	biographic	biographic	X	SW	Foreign=Yes	4	flat:foreign	_	_
+8	information	information	X	SW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	schiacciate	schiacciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	pali	palo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	spro	spro	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	кількість	кількість	PROPN	SP	_	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	according	according	NOUN	S	_	12	conj	_	_
+18	to	to	ADP	E	_	19	case	_	_
+19	an	an	NOUN	S	_	20	nmod	_	_
+20	assembly	assembly	NOUN	S	_	17	nmod	_	_
+21	of	of	ADP	E	_	24	case	_	_
+22	sources	sources	DET	RD	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+23	familiar	familiare	ADJ	A	Number=Sing	24	amod	_	_
+24	with	with	NOUN	S	Gender=Masc	20	nmod	_	_
+25	the	the	DET	RD	Definite=Def|PronType=Art	26	det	_	_
+26	matter	matter	NOUN	S	Number=Sing	24	nmod	_	_
+27	who	who	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	asked	aske	X	SW	Foreign=Yes	31	nmod	_	_
+29	not	not	X	SW	Foreign=Yes	28	flat:foreign	_	_
+30	to	to	X	SW	Foreign=Yes	28	flat:foreign	_	_
+31	be	ba	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+32	identified	identifie	ADJ	A	_	31	amod	_	_
+33	for	for	ADP	E	_	34	case	_	_
+34	fear	fear	NOUN	S	Gender=Fem	31	nmod	_	_
+35	of	of	ADP	E	_	36	case	_	_
+36	retribution	retribution	NOUN	S	Gender=Masc	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Alcuni attached when they were taken addirittura sono morti bajo la tortura, mentre altri sono stati costretti a firmare false confessioni sotto tortura per essere accusati di collaborazione con il gruppo Stato Islamico (ISIS) durante l’occupazione della città tra il 2014 e il 2017.
+1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	attached	attached	X	SW	Foreign=Yes	9	nsubj	_	_
+3	when	when	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	they	they	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	were	were	X	SW	Foreign=Yes	2	flat:foreign	_	_
+6	taken	taken	X	SW	Foreign=Yes	2	flat:foreign	_	_
+7	addirittura	addirittura	ADV	B	_	9	advmod	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	morti	morire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	bajo	bajo	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	mentre	mentre	SCONJ	CS	_	18	mark	_	_
+15	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	nsubj:pass	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	firmare	firmare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	false	falso	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+22	confessioni	confessione	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	sotto	sotto	ADP	E	_	24	case	_	_
+24	tortura	tortura	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25	per	per	ADP	E	_	27	mark	_	_
+26	essere	essere	AUX	VA	VerbForm=Inf	27	aux:pass	_	_
+27	accusati	accusare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	advcl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33	Stato	Stato	PROPN	SP	_	32	nmod	_	_
+34	Islamico	islamico	PROPN	SP	_	33	flat:name	_	_
+35	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	ISIS	ISIS	PROPN	SP	_	29	appos	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	36	punct	_	_
+38	durante	durante	ADP	E	_	40	case	_	_
+39	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+40	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	città	città	NOUN	S	Gender=Fem	40	nmod	_	_
+44	tra	tra	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	2014	2014	NUM	N	NumType=Card	43	nmod	_	_
+47	e	e	CCONJ	CC	_	49	cc	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	2017	2017	NUM	N	NumType=Card	40	conj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Tra le vittime, anche giornalisti e attivisti che avevano denunciato abusi commessi dalle milizie stesse durante e dopo la liberazione di Mosul.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	attivisti	attivista	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+13	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14-15	dalle	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	milizie	milizia	NOUN	S	Gender=Fem|Number=Plur	13	obl:agent	_	_
+17	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	durante	durante	ADP	E	_	22	case	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	dopo	dopo	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Mosul	Mosul	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = “Le autorità locali e le forze di sicurezza non stanno facendo nulla per proteggere queste persone”,
+1	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	autorità	autorità	NOUN	S	Gender=Fem	12	nsubj	_	_
+4	locali	locale	ADJ	A	Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	forze	forza	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+13	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	12	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	proteggere	proteggere	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	”	”	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	SpacesAfter=\n
+

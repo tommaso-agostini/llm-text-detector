@@ -1,0 +1,688 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Buckingham Palace ha diramato la notizia, a Corte tutti piangono la scomparsa del corgi reale.
+1	Buckingham	Buckingham	PROPN	SP	_	4	nsubj	_	_
+2	Palace	Palace	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	diramato	diramare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Corte	Corte	PROPN	SP	_	11	obl	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	_
+11	piangono	piangere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scomparsa	scomparsa	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	corgi	corgio	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	reale	reale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Lo avevamo visto Monty, caracollare davanti a Elisabetta.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Monty	Monty	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	caracollare	caracollare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	davanti	davanti	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	Elisabetta	Elisabetta	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Felice e scodinzolante, le sue zampette corte e buffe trotterellavano vicino alla sua adorata padrona, co-star con Sua Maestà-Bond Girl e Daniel Craig del memorabile video che aveva aperto le Olimpiadi di Londra 2012.
+1	Felice	felice	ADJ	A	Number=Sing	11	amod	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	scodinzolante	scodinzolante	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	zampette	zampetta	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+8	corte	corto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	buffe	buffa	ADJ	A	Number=Sing	8	conj	_	_
+11	trotterellavano	trotterellare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	vicino	vicino	ADV	B	_	16	case	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	adorata	adorare	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	padrona	padrona	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	co-star	co-stare	NOUN	S	Gender=Masc	16	nmod	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	Sua	Sua	PROPN	SP	_	19	nmod	_	_
+22	Maestà-Bond	Maestà-Bond	PROPN	SP	_	21	flat:name	_	_
+23	Girl	Girl	PROPN	SP	_	22	flat:name	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	Daniel	Daniel	PROPN	SP	_	21	conj	_	_
+26	Craig	Craig	PROPN	SP	_	25	flat:name	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	memorabile	memorabile	ADJ	A	Number=Sing	30	amod	_	_
+30	video	video	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+33	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	Olimpiadi	Olimpiadi	PROPN	SP	_	33	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Londra	Londra	PROPN	SP	_	35	nmod	_	_
+38	2012	2012	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Ma quella era stata solo l'ultima di una lunga, lunghissima serie di apparizioni con sua Maestà.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	solo	solo	ADV	B	_	7	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ultima	ultimo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	13	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	lunghissima	lungo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	13	amod	_	_
+13	serie	serie	NOUN	S	Gender=Fem	7	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	apparizioni	apparizione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Maestà	Maestà	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = L'amore che Elisabetta nutre nei confronti della razza Corgi supera ogni etichetta di corte, legame familiare e sentimentale:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	Elisabetta	Elisabetta	PROPN	SP	_	5	nsubj	_	_
+5	nutre	nutrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	razza	razza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	Corgi	Corgi	PROPN	SP	_	11	nmod	_	_
+13	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	etichetta	etichetta	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	corte	corte	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	legame	legame	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20	familiare	familiare	ADJ	A	Number=Sing	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	sentimentale	sentimentale	ADJ	A	Number=Sing	20	conj	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 6
+# text = per loro c'è sempre posto, anche nelle occasioni ufficiali, che sia un viaggio di nozze, un giro in carrozza o una riunione privata all'interno delle stanze di Buckingham Palace.
+1	per	per	ADP	E	_	2	case	_	_
+2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sempre	sempre	ADV	B	_	4	advmod	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+12	ufficiali	ufficiale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	giro	giro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	carrozza	carrozza	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	o	o	CCONJ	CC	_	27	cc	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+28	privata	privato	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29-30	all'	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	interno	interno	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+32-33	delle	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	Buckingham	Buckingham	PROPN	SP	_	34	nmod	_	_
+37	Palace	Palace	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Monty era sempre con lei, con lui ha tagliato il traguardo dei sessantanni di regno.
+1	Monty	Monty	CCONJ	CC	_	3	cc	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	sempre	sempre	ADV	B	_	10	advmod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	tagliato	tagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	traguardo	traguardo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	sessantanni	sessantanno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	regno	regno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Da sempre, sin dall'infanzia, questa è stata la razza prediletta da Her Majesty.
+1	Da	da	ADP	E	_	2	case	_	_
+2	sempre	sempre	ADV	B	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sin	sino	ADV	B	_	7	case	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	4	fixed	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	razza	razza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	prediletta	predilettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	Her	Her	PROPN	SP	_	14	obl:agent	_	_
+17	Majesty	Majesty	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 9
+# text = Era importante Monty, un pezzo della sua vita, il prediletto, appartenuto in precedenza alla Regina Madre, un legame forte.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+3	Monty	Monty	PROPN	SP	_	2	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	prediletto	prediletto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	appartenuto	appartenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	precedenza	precedenza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Regina	Regina	PROPN	SP	_	15	obl	_	_
+21	Madre	Madre	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	legame	legame	NOUN	S	Gender=Masc|Number=Sing	20	appos	_	_
+25	forte	forte	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Da 13 anni compagno fidato, con un carattere un po' lunatico, tanto che si sospetta che qualche maggiordomo ha segretamente tirato un sospiro di sollievo ricordandone gli affilati dentini conficcati nei polpacci.
+1	Da	da	ADP	E	_	3	case	_	_
+2	13	13	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	_
+5	fidato	fidato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	carattere	carattere	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po'	poco	ADV	B	_	12	advmod	_	_
+12	lunatico	lunatico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	tanto	tanto	ADV	B	_	9	advmod	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	sospetta	sospettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	che	che	SCONJ	CS	_	23	mark	_	_
+19	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	maggiordomo	maggiordomo	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	segretamente	segreto	ADV	B	_	23	advmod	_	_
+23	tirato	tirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	sospiro	sospiro	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	sollievo	sollievo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28-29	ricordandone	_	_	_	_	_	_	_	_
+28	ricordando	ricordare	VERB	V	VerbForm=Ger	23	advcl	_	_
+29	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	28	iobj	_	_
+30	gli	gli	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	affilati	affilare	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+32	dentini	dentino	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+33	conficcati	conficcato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+34-35	nei	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	polpacci	polpaccio	NOUN	S	Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Nel comunicato della Casa Reale non si precisa quando il cagnolino, sia morto, o dove, e se le cause siano state naturali.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Casa	Casa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	Reale	reale	PROPN	SP	_	6	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	precisa	precisare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	quando	quando	SCONJ	CS	_	16	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cagnolino	cagnolino	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	dove	dove	ADV	B	_	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	27	punct	_	_
+21	e	e	CCONJ	CC	_	27	cc	_	_
+22	se	se	SCONJ	CS	_	27	mark	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	cause	causa	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+25	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	state	essere	AUX	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	cop	_	_
+27	naturali	naturale	ADJ	A	Number=Plur	16	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = Monty non è l'unico dei cani di Sua Maestà, secondo il comunicato del portavoce di Buckingham Palace, ad essere passato a miglior vita:
+1	Monty	Monty	PROPN	SP	_	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	unico	unico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	cani	cane	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Sua	Sua	PROPN	SP	_	8	nmod	_	_
+11	Maestà	Maestà	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	secondo	secondo	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	portavoce	portavoce	NOUN	S	_	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Buckingham	Buckingham	PROPN	SP	_	18	nmod	_	_
+21	Palace	Palace	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	5	punct	_	_
+23	ad	a	ADP	E	_	25	mark	_	_
+24	essere	essere	AUX	VA	VerbForm=Inf	25	aux	_	_
+25	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	miglior	miglior	ADJ	A	Number=Sing	28	amod	_	_
+28	vita	vita	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 13
+# text = è morto anche Cider, uno dei dorgi di Sua Maestà, incrocio tra corgi e dachsund.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	Cider	Cider	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	appos	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	dorgi	dorgio	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Sua	Sua	PROPN	SP	_	9	nmod	_	_
+12	Maestà	Maestà	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	incrocio	incrocio	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+15	tra	tra	ADP	E	_	16	case	_	_
+16	corgi	corgio	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	dachsund	dachsund	NOUN	S	Gender=Masc	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Tutti conoscono la passione della Regina per i corgi, nata quando il padre Giorgio VI le regalò il primo, Susan, per i suoi 18 anni.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	passione	passione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Regina	Regina	PROPN	SP	_	4	nmod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	corgi	corgio	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+13	quando	quando	SCONJ	CS	_	19	mark	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	padre	padre	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+16	Giorgio	Giorgio	PROPN	SP	_	15	nmod	_	_
+17	VI	VI	ADJ	NO	Number=Sing|NumType=Ord	16	amod	_	_
+18	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+19	regalò	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+21	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	Susan	Susan	PROPN	SP	_	19	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	per	per	ADP	E	_	29	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+27	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	29	det:poss	_	_
+28	18	18	NUM	N	NumType=Card	29	nummod	_	_
+29	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Monty, discendeva direttamente da Susan.
+1	Monty	Monty	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	discendeva	discendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	direttamente	direttamente	ADV	B	_	3	advmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Susan	Susan	PROPN	SP	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Con la morte di Monty i corgi reali restano due, Willow e Holly, anche loro nel video che aveva aperto le Olimpiadi di Londra 2012.
+1	Con	con	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	morte	morte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Monty	Monty	PROPN	SP	_	3	nmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	corgi	corgio	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	reali	reale	ADJ	A	Number=Plur	7	amod	_	_
+9	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	due	due	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Willow	Willow	PROPN	SP	_	10	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Holly	Holly	PROPN	SP	_	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	video	video	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	Olimpiadi	Olimpiadi	PROPN	SP	_	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Londra	Londra	PROPN	SP	_	25	nmod	_	_
+28	2012	2012	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 17
+# text = Ma Monty, Willow e Holly erano stati ultimamente protagonisti, assieme a Cider e agli altri dorgi, di un altro episodio più dark finito sui giornali.
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	Monty	Monty	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Willow	Willow	PROPN	SP	_	2	conj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Holly	Holly	PROPN	SP	_	2	conj	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+8	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
+9	ultimamente	ultimo	ADV	B	_	10	advmod	_	_
+10	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	assieme	assieme	ADV	B	_	14	case	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	Cider	Cider	PROPN	SP	_	10	nmod	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16-17	agli	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	altri	altro	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	dorgi	dorgio	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	altro	altro	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	dark	dark	ADJ	A	_	24	amod	_	_
+27	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+28-29	sui	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 18
+# text = E anche se Buckingham Palace non lo ha confermato, è legittimo sospettare che la morte dei due cani sia da collegare a questo fattaccio.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	anche	anche	ADV	B	_	9	advmod	_	_
+3	se	se	SCONJ	CS	_	9	mark	_	_
+4	Buckingham	Buckingham	PROPN	SP	_	9	nsubj	_	_
+5	Palace	Palace	PROPN	SP	_	4	flat:name	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	legittimo	legittimo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+13	sospettare	sospettare	VERB	V	VerbForm=Inf	12	csubj	_	_
+14	che	che	SCONJ	CS	_	23	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	morte	morte	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	cani	cane	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+21	sia	essere	CCONJ	CC	_	23	cc	_	_
+22	da	da	ADP	E	_	23	mark	_	_
+23	collegare	collegare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	fattaccio	fattaccio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 19
+# text = A fine agosto Sua Maestà aveva chiamato uno «strizzacervelli» degli animali per calmare i suoi cani che avevano azzannato il terrier della nipotina Beatrice.
+1	A	a	ADP	E	_	2	case	_	_
+2	fine	fine	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+4	Sua	Sua	PROPN	SP	_	7	nsubj	_	_
+5	Maestà	Maestà	PROPN	SP	_	4	flat:name	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	xcomp	_	_
+9	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	strizzacervelli	strizzacervello	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+11	»	»	PUNCT	FB	_	10	punct	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	animali	animale	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	calmare	calmare	VERB	V	VerbForm=Inf	8	acl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	cani	cane	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	azzannato	azzannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	terrier	terrier	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	nipotina	nipotina	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	Beatrice	Beatore	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 20
+# text = L'incidente era successo a Balmoral, negli stessi giorni in cui il principe Harry finiva in pasto ai media per le sue scorribande nude a Las Vegas e la sovrana era in ansia per la salute del marito Filippo in ospedale.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	successo	successo	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Balmoral	Balmoral	PROPN	SP	_	36	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8-9	negli	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	principe	principe	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	Harry	Harry	PROPN	SP	_	15	nmod	_	_
+17	finiva	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	pasto	pasto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	media	media	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+23	per	per	ADP	E	_	26	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	scorribande	scorribanda	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+27	nude	nudo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	Las	Las	PROPN	SP	_	27	obl	_	_
+30	Vegas	Vegas	PROPN	SP	_	29	flat:name	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	sovrana	sovrana	NOUN	S	Gender=Fem|Number=Sing	29	conj	_	_
+34	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	4	xcomp	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	salute	salute	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	marito	marito	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+43	Filippo	Filippo	PROPN	SP	_	42	nmod	_	_
+44	in	in	ADP	E	_	45	case	_	_
+45	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = Monty, Willow e Holly erano a passeggio con Max, il terrier di Beatrice, quando le dinamiche di gruppo hanno girato al peggio e il cagnolino vittima dell'attacco si è ritrovato sanguinante e con un orecchio mozzato.
+1	Monty	Monty	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Willow	Willow	PROPN	SP	_	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Holly	Holly	PROPN	SP	_	1	conj	_	_
+6	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	passeggio	passeggio	NOUN	S	Gender=Masc|Number=Sing	36	nsubj	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	Max	Max	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	terrier	terrier	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Beatrice	Beatore	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	quando	quando	SCONJ	CS	_	23	mark	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	dinamiche	dinamica	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	girato	girare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	peggio	peggio	NOUN	S	Gender=Masc	23	obl	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cagnolino	cagnolino	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+30	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	29	compound	_	_
+31-32	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+31	di	di	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	36	expl	_	_
+35	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	ritrovato	ritrovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+37	sanguinante	sanguinare	ADJ	A	Number=Sing	36	xcomp	_	_
+38	e	e	CCONJ	CC	_	41	cc	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	36	conj	_	_
+42	mozzato	mozzato	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	36	punct	_	_
+
+# sent_id = 22
+# text = Era allora che la Regina aveva chiamato lo psicologo, ma oggi, non ci è dato sapere se Monty era riuscito a guarire.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	allora	allora	ADV	B	_	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Regina	Regina	PROPN	SP	_	7	nsubj	_	_
+6	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	psicologo	psicologo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	17	punct	_	_
+11	ma	ma	CCONJ	CC	_	17	cc	_	_
+12	oggi	oggi	ADV	B	_	17	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+18	sapere	sapere	VERB	V	VerbForm=Inf	17	ccomp	_	_
+19	se	se	SCONJ	CS	_	22	mark	_	_
+20	Monty	Monty	PROPN	SP	_	22	nsubj	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	guarire	guarire	VERB	V	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

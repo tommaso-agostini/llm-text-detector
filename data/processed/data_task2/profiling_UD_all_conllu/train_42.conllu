@@ -1,0 +1,517 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un cuore spietato, centro economico e finanziario dei mercati finanziari mondiali.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	spietato	spietato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	centro	centro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	economico	economico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	finanziario	finanziario	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+12	finanziari	finanziario	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	mondiali	mondiale	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = E, proprio contro questo sistema di speculazioni e oscillazioni, gli indagnados hanno protestato.
+1	E	e	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	proprio	proprio	ADV	B	_	6	advmod	_	_
+4	contro	contro	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	speculazioni	speculazione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	oscillazioni	oscillazione	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	indagnados	indagnados	NOUN	S	_	15	nsubj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	protestato	protestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = C'era in po' di tutto a New York:
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	po'	poco	ADV	B	_	2	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	New	New	PROPN	SP	_	2	obl	_	_
+9	York	York	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = dai senza tetto ai neo hippy, dagli universitari a qualche membro di Anonymous.
+1-2	dai	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	senza	senza	ADP	E	_	4	case	_	_
+4	tetto	tettere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	neo	neo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	hippy	hippy	NOUN	S	Gender=Masc	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10-11	dagli	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	universitari	universitario	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	membro	membro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Anonymous	Anonymous	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Slogan e manifesti, bandiere colorate e trucco in volto.
+1	Slogan	slogan	NOUN	S	Gender=Masc	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	manifesti	manifesto	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+6	colorate	colorato	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	trucco	trucco	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	volto	volto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Solo una marcia pacifica in perfetto stile radica chic newyorkese?
+1	Solo	solo	ADV	B	_	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	marcia	marcia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	pacifica	pacifico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	stile	stile	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	radica	radicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	chic	chic	NOUN	S	Gender=Fem	8	obj	_	_
+10	newyorkese	newyorkese	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Macché.
+1	Macché	Macché	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La protesta è finita con violenti scontri tra le forze dell'ordine e diverse centinaia di dimostranti che da tre settimane occupano lo Zuccotti Park vicino a Wall Street.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	violenti	violento	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	scontri	scontro	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	tra	tra	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	forze	forza	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	dimostranti	dimostrante	NOUN	S	Number=Plur	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	tre	tre	NUM	N	NumType=Card	22	nummod	_	_
+22	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+23	occupano	occupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Zuccotti	Zuccotti	PROPN	SP	_	23	obj	_	_
+26	Park	Park	PROPN	SP	_	25	flat:name	_	_
+27	vicino	vicino	ADV	B	_	29	case	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	Wall	Wall	PROPN	SP	_	25	nmod	_	_
+30	Street	Street	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = We are the 99 percent (Noi siamo il 99 per cento) e This is what democracy looks like (Questa è la faccia della democrazia) gli slogan di una marcia che era cominciata pacificamente.
+1	We	we	ADV	B	_	2	advmod	_	_
+2	are	are	VERB	V	VerbForm=Inf	0	root	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	4	det	_	_
+4	99	99	NUM	N	NumType=Card	5	nummod	_	_
+5	percent	percent	NOUN	S	Number=Sing	2	obl	_	_
+6	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+7	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+8	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	99	99	NUM	N	NumType=Card	5	nummod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	cento	cento	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	10	punct	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	This	This	X	SW	Foreign=Yes	5	conj	_	_
+16	is	is	X	SW	Foreign=Yes	15	flat:foreign	_	_
+17	what	what	X	SW	Foreign=Yes	15	flat:foreign	_	_
+18	democracy	democracy	X	SW	Foreign=Yes	15	flat:foreign	_	_
+19	looks	looks	X	SW	Foreign=Yes	15	flat:foreign	_	_
+20	like	like	X	SW	Foreign=Yes	15	flat:foreign	_	_
+21	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+22	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	25	nsubj	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	15	appos	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	FB	_	25	punct	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	slogan	slogan	NOUN	S	Gender=Masc	2	obj	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	marcia	marcia	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	aux	_	_
+37	cominciata	cominciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	acl:relcl	_	_
+38	pacificamente	pacificamente	ADV	B	_	37	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Migliaia le persone presenti:
+1	Migliaia	Migliarire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	presenti	presente	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = almeno 10mila secondo i dimostranti, fino a 30mila secondo altre stime dei media.
+1	almeno	almeno	ADV	B	_	2	advmod	_	_
+2	10mila	10milare	NUM	N	NumType=Card	0	root	_	_
+3	secondo	secondo	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	dimostranti	dimostrante	NOUN	S	Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	fino	fino	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	30mila	30mila	NUM	N	NumType=Card	2	nummod	_	_
+10	secondo	secondo	ADP	E	_	12	case	_	_
+11	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	stime	stima	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	media	media	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = La banda dei ragazzi ha suonato, tra le altre canzoni, anche Bella Ciao .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	banda	banda	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	suonato	suonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	tra	tra	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	altre	altro	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	anche	anche	ADV	B	_	15	advmod	_	_
+15	Bella	bella	PROPN	SP	_	7	nmod	_	_
+16	Ciao	ciao	PROPN	SP	_	15	flat:name	_	_
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Ma non è stato un appuntamento pacifico.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	pacifico	pacifico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Tutt'altro.
+1	Tutt'	tutto	DET	DI	Number=Sing|PronType=Ind	2	det	_	SpaceAfter=No
+2	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = E la protesta si è conclusa con arresti e violenze.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	conclusa	concludere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	arresti	arresto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Quando la testa del corteo, dove c'era anche il regista premio Oscar Michael Moore, ha raggiunto la zona transennata intorno alla New York Stock Exchange, i dimostranti hanno tentato di abbattere le barriere per riuscire costringendo la polizia a intervenire ve respingere le continue cariche degli mindignados.
+1	Quando	quando	SCONJ	CS	_	20	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	testa	testa	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	dove	dove	ADV	B	_	10	advmod	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+11	anche	anche	ADV	B	_	10	advmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	regista	regista	NOUN	S	Number=Sing	10	nsubj	_	_
+14	premio	premio	NOUN	S	Gender=Masc|Number=Sing	13	compound	_	_
+15	Oscar	Oscar	PROPN	SP	_	14	nmod	_	_
+16	Michael	Michael	PROPN	SP	_	15	flat:name	_	_
+17	Moore	Moore	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	3	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	zona	zona	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	transennata	transennato	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	intorno	intorno	ADP	E	_	27	case	_	_
+25-26	alla	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	New	New	PROPN	SP	_	20	obl	_	_
+28	York	York	PROPN	SP	_	27	flat:name	_	_
+29	Stock	Stock	PROPN	SP	_	27	flat:name	_	_
+30	Exchange	Exchange	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	20	punct	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	dimostranti	dimostrante	NOUN	S	Number=Plur	35	nsubj	_	_
+34	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	abbattere	abbattere	VERB	V	VerbForm=Inf	35	xcomp	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	barriere	barriera	NOUN	S	Gender=Fem|Number=Plur	37	obj	_	_
+40	per	per	ADP	E	_	41	mark	_	_
+41	riuscire	riuscire	VERB	V	VerbForm=Inf	37	advcl	_	_
+42	costringendo	costringere	VERB	V	VerbForm=Ger	41	ccomp	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+45	a	a	ADP	E	_	46	mark	_	_
+46	intervenire	intervenire	VERB	V	VerbForm=Inf	42	xcomp	_	_
+47	ve	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	46	obj	_	_
+48	respingere	respingere	VERB	V	VerbForm=Inf	46	advcl	_	_
+49	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+50	continue	continuo	ADJ	A	Gender=Fem|Number=Plur	51	amod	_	_
+51	cariche	carica	NOUN	S	Gender=Fem|Number=Plur	48	obj	_	_
+52-53	degli	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	mindignados	mindignados	NOUN	S	Number=Plur	51	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 17
+# text = Diverse decine le persone arrestate, mentre la gran parte dei manifestanti ha fatto ritorno allo Zuccotti Park.
+1	Diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	decine	decina	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	arrestate	arrestare	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	mentre	mentre	SCONJ	CS	_	15	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	gran	gran	ADJ	A	Number=Sing	10	amod	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	manifestanti	manifestante	NOUN	S	Number=Plur	10	nmod	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+16	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17-18	allo	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Zuccotti	Zuccotti	PROPN	SP	_	16	nmod	_	_
+20	Park	Park	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Negli Stati Uniti le proteste del movimento Occupy Wall Street si stanno allargando a macchia d'olio.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Stati	Stati	PROPN	SP	_	15	obl	_	_
+4	Uniti	Uniti	PROPN	SP	_	3	flat:name	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Occupy	Occupy	PROPN	SP	_	9	nmod	_	_
+11	Wall	Wall	PROPN	SP	_	10	flat:name	_	_
+12	Street	Street	PROPN	SP	_	10	flat:name	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	allargando	allargare	VERB	V	VerbForm=Ger	0	root	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	macchia	macchia	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	olio	olio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 19
+# text = Oltre che a New York, ci sono state marce anche nei campus di altre città dello Stato di New York, come Albany, Buffalo, Binghamton e New Paltz.
+1	Oltre	oltre	ADV	B	_	4	case	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	a	a	ADP	E	_	1	fixed	_	_
+4	New	New	PROPN	SP	_	9	obl	_	_
+5	York	York	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	marce	marcia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	campus	campus	NOUN	S	Gender=Masc	9	obl	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	città	città	NOUN	S	Gender=Fem	14	nmod	_	_
+18-19	dello	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	New	New	PROPN	SP	_	17	nmod	_	_
+23	York	York	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	9	punct	_	_
+25	come	come	ADP	E	_	26	case	_	_
+26	Albany	Albany	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Buffalo	Buffalo	PROPN	SP	_	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	Binghamton	Binghamton	PROPN	SP	_	26	conj	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	New	New	PROPN	SP	_	26	conj	_	_
+33	Paltz	Paltz	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = A Los Angeles il Consiglio comunale ha approvato una risoluzione a sostegno del movimento e l'ufficio del sindaco Antonia Villaraigosa ha distribuito ai manifestanti un centinaio di mantelline contro la pioggia.
+1	A	a	ADP	E	_	2	case	_	_
+2	Los	Los	PROPN	SP	_	8	obl	_	_
+3	Angeles	Angeles	PROPN	SP	_	2	flat:name	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	comunale	comunale	ADJ	A	Number=Sing	5	amod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	approvato	approvare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	risoluzione	risoluzione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	Antonia	Antonia	PROPN	SP	_	21	nmod	_	_
+23	Villaraigosa	Villaraigosa	PROPN	SP	_	22	flat:name	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+26-27	ai	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	manifestanti	manifestante	NOUN	S	Number=Plur	25	obl	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	centinaio	centinaio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	mantelline	mantellina	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	contro	contro	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 21
+# text = A Boston, invece, infermieri e studenti della Northeastern University si sono radunati per condannare i costi troppo elevati dell'istruzione e hanno cantato slogan come "Le banche sono state salvate e noi siamo stati svenduti".
+1	A	a	ADP	E	_	2	case	_	_
+2	Boston	Boston	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	infermieri	infermiere	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Northeastern	Northeastern	PROPN	SP	_	8	nmod	_	_
+12	University	University	PROPN	SP	_	11	flat:name	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	radunati	radunare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	condannare	condannare	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	costi	costo	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	troppo	troppo	ADV	B	_	21	advmod	_	_
+21	elevati	elevato	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	cantato	cantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+28	slogan	slogan	NOUN	S	Gender=Masc	27	obj	_	_
+29	come	come	ADP	E	_	35	case	_	_
+30	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+31	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	banche	banca	NOUN	S	Gender=Fem|Number=Plur	35	nsubj:pass	_	_
+33	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	35	aux:pass	_	_
+35	salvate	salvare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	advcl	_	_
+36	e	e	CCONJ	CC	_	40	cc	_	_
+37	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	40	nsubj:pass	_	_
+38	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	40	aux	_	_
+39	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	40	aux:pass	_	_
+40	svenduti	svendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	35	conj	_	SpaceAfter=No
+41	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 22
+# text = E la protesta non si ferma.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

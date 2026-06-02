@@ -1,0 +1,324 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quaranta, si dice, ma forse sono molti di più, gli ospiti – la parola suona ormai profanata – che hanno occupato l'Hotel Giglio, trasformandolo in un campo di battaglia.
+1	Quaranta	quaranta	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	forse	forse	ADV	B	_	9	advmod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ospiti	ospite	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+15	–	–	PUNCT	FB	_	14	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	parola	parola	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+18	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+19	ormai	ormai	ADV	B	_	18	advmod	_	_
+20	profanata	profanato	ADJ	A	_	18	xcomp	_	_
+21	–	–	PUNCT	FB	_	4	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	Hotel	hotel	PROPN	SP	_	24	obj	_	_
+27	Giglio	Giglio	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	24	punct	_	_
+29-30	trasformandolo	_	_	_	_	_	_	_	_
+29	trasformando	trasformare	VERB	V	VerbForm=Ger	24	advcl	_	_
+30	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	campo	campo	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Non si tratta, ripetiamolo, di un semplice episodio di degrado, ma di un atto di violenza e di prevaricazione inaudita.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5-6	ripetiamolo	_	_	_	_	_	_	_	SpaceAfter=No
+5	ripetiamo	ripetere	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	semplice	semplice	ADJ	A	Number=Sing	11	amod	_	_
+11	episodio	episodio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	degrado	degrado	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	atto	atto	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	prevaricazione	prevaricazione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+24	inaudita	inaudita	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Arredamenti distrutti, stanze saccheggiate, danni ingenti alla struttura.
+1	Arredamenti	Arredamento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	distrutti	distrutto	NOUN	S	Gender=Masc|Number=Plur	1	compound	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+5	saccheggiate	saccheggiato	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	danni	danno	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+8	ingenti	ingente	ADJ	A	Number=Plur	7	amod	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Testimonianze dirette parlano di minacce rivolte al personale, di richieste assurde e inaccettabili, di un clima di terrore che ha costretto i proprietari a vivere rinchiusi in casa, con la paura di ritorsioni.
+1	Testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+2	dirette	diretto	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+6	rivolte	rivolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	personale	personale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+13	assurde	assurdere	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	inaccettabili	inaccettabile	ADJ	A	Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	clima	clima	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	proprietari	proprietario	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	vivere	vivere	VERB	V	VerbForm=Inf	26	acl	_	_
+29	rinchiusi	rinchiudere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	xcomp	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	casa	casa	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	24	punct	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	paura	paura	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	ritorsioni	ritorsione	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = E la risposta delle autorità?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	autorità	autorità	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Troppo lenta, troppo timida, quasi a giustificare l’ingiustificabile.
+1	Troppo	troppo	ADV	B	_	2	advmod	_	_
+2	lenta	lento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	troppo	troppo	ADV	B	_	5	advmod	_	_
+5	timida	timido	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	quasi	quasi	ADV	B	_	9	advmod	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	giustificare	giustificare	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	ingiustificabile	ingiustificabile	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Siamo stanchi di assistere a questo copione che si ripete in tutta Italia.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	stanchi	stanco	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	assistere	assistere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	copione	copione	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	13	det	_	_
+13	Italia	Italia	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Di sentire le solite litanie buoniste che ci vogliono raccontare di persone in fuga da guerre e persecuzioni, dimenticando che non tutti coloro che varcano i nostri confini hanno le mani pulite.
+1	Di	di	ADP	E	_	2	mark	_	_
+2	sentire	sentire	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	solite	solito	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	litanie	litania	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	buoniste	buonista	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	raccontare	raccontare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	guerre	guerra	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	persecuzioni	persecuzione	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	10	punct	_	_
+20	dimenticando	dimenticare	VERB	V	VerbForm=Ger	10	advcl	_	_
+21	che	che	SCONJ	CS	_	30	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	nmod	_	_
+24	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	30	nsubj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	varcano	varcare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	confini	confine	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+30	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	mani	mano	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	_
+33	pulite	pulito	ADJ	A	Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Che tra i migranti, purtroppo, si annidano anche elementi delinquenziali pronti a sfruttare la nostra generosità per compiere atti vili e criminali.
+1	Che	che	SCONJ	CS	_	9	mark	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	migranti	migrante	NOUN	S	Number=Plur	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	purtroppo	purtroppo	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	annidano	annidare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+12	delinquenziali	delinquenziale	ADJ	A	Number=Plur	11	amod	_	_
+13	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	sfruttare	sfruttare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	generosità	generosità	NOUN	S	Gender=Fem	15	obj	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	compiere	compiere	VERB	V	VerbForm=Inf	15	advcl	_	_
+21	atti	atto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	vili	vile	ADJ	A	Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	criminali	criminale	ADJ	A	Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Fiuggi è solo l’ultima tessera di un mosaico preoccupante.
+1	Fiuggi	Fiuggi	ADV	B	_	6	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	solo	solo	ADV	B	_	6	advmod	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	tessera	tessera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mosaico	mosaico	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	preoccupante	preoccupante	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Un mosaico che ci dimostra come l’attuale politica migratoria, acritica e ideologica, sia un fallimento totale.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mosaico	mosaico	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	come	come	ADP	E	_	9	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	attuale	attuale	ADJ	A	Number=Sing	9	amod	_	_
+9	politica	politica	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	migratoria	migratorio	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	acritica	acritico	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	ideologica	ideologico	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+19	totale	totale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 12
+# text = Basta con il buonismo a tutti i costi, che trasforma i nostri cittadini in ostaggi e le nostre città in zone di guerra.
+1	Basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	buonismo	buonismo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	8	det:predet	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	costi	costo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	ostaggi	ostaggio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	città	città	NOUN	S	Gender=Fem	16	conj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	zone	zona	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Occorre una svolta radicale, un controllo rigoroso delle frontiere, espulsioni rapide per chi si mac
+1	Occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	radicale	radicale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	rigoroso	rigoroso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	frontiere	frontiera	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	espulsioni	espulsioni	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+14	rapide	rapido	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	obl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	mac	mac	X	X	_	16	nmod	_	SpacesAfter=\n
+

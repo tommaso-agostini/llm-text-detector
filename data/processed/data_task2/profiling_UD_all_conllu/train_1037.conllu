@@ -1,0 +1,972 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Maria Sole Tognazzi tra le partecipanti.
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Sole	sole	PROPN	SP	_	1	flat:name	_	_
+3	Tognazzi	Tognazzi	PROPN	SP	_	1	flat:name	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	partecipanti	partecipante	NOUN	S	Number=Plur	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = L’iniziativa vedrà la partecipazione della regista Maria Sole Tognazzi, del critico cinematografico Alberto Barbera e dell’attrice Giulia Bevilacqua che proveranno in prima persona l’esperienza di realtà virtuale.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	vedrà	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	regista	regista	NOUN	S	Number=Sing	5	nmod	_	_
+9	Maria	Maria	PROPN	SP	_	8	nmod	_	_
+10	Sole	sole	PROPN	SP	_	9	flat:name	_	_
+11	Tognazzi	Tognazzi	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	critico	critico	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+16	cinematografico	cinematografico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	Alberto	Alberto	PROPN	SP	_	15	nmod	_	_
+18	Barbera	Barbero	PROPN	SP	_	17	flat:name	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+23	Giulia	Giulia	PROPN	SP	_	22	nmod	_	_
+24	Bevilacqua	Bevilacquo	PROPN	SP	_	23	flat:name	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	proveranno	provare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	acl:relcl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	_
+29	persona	persona	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	virtuale	virtuale	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Interverranno, inoltre, Pierfrancesco Majorino, Assessore Politiche Sociali, Salute e Diritti del Comune di Milano e Beatrice Costa, Responsabile del Dipartimento Programmi di ActionAid Italia.
+1	Interverranno	Interverranno	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	inoltre	inoltre	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Pierfrancesco	Pierfrancesco	PROPN	SP	_	1	nmod	_	_
+6	Majorino	Majorino	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Assessore	assessore	PROPN	SP	_	5	conj	_	_
+9	Politiche	Politiche	PROPN	SP	_	8	flat:name	_	_
+10	Sociali	sociale	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	Salute	salute	PROPN	SP	_	8	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Diritti	diritto	PROPN	SP	_	5	conj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Comune	Comune	PROPN	SP	_	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Milano	Milano	PROPN	SP	_	17	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	Beatrice	Beatore	PROPN	SP	_	17	conj	_	_
+22	Costa	Costa	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24	Responsabile	responsabile	PROPN	SP	_	1	appos	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	Programmi	programma	PROPN	SP	_	27	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	ActionAid	ActionAid	PROPN	SP	_	27	nmod	_	_
+31	Italia	Italia	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La subiscono 44 milioni di bambine nel mondo.
+1	La	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	subiscono	subire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	44	44	NUM	N	NumType=Card	4	nummod	_	_
+4	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	bambine	bambino	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ancora oggi, almeno 200milioni di donne e bambine subiscono mutilazioni genitali femminili in 30 paesi del mondo.
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	oggi	oggi	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	almeno	almeno	ADV	B	_	5	advmod	_	_
+5	200milioni	200milione	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	bambine	bambino	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	_
+10	subiscono	subire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12	genitali	genitale	ADJ	A	Number=Plur	11	amod	_	_
+13	femminili	femminili	ADJ	A	Number=Plur	11	amod	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	30	30	NUM	N	NumType=Card	16	nummod	_	_
+16	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Di queste, circa 44 milioni sono bambine e adolescenti con meno di 14 anni.
+1	Di	di	ADP	E	_	2	case	_	_
+2	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	circa	circa	ADV	B	_	5	advmod	_	_
+5	44	44	NUM	N	NumType=Card	6	nummod	_	_
+6	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bambine	bambino	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	adolescenti	adolescere	ADJ	A	Number=Plur	8	conj	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	meno	meno	PRON	PI	PronType=Ind	10	obl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	14	14	NUM	N	NumType=Card	15	nummod	_	_
+15	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Le zone più interessate da questo fenomeno sono l’Africa sub-sahariana, alcune parti del Medioriente e dell’Asia.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	zone	zona	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	interessate	interessato	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Africa	Africo	PROPN	SP	_	0	root	_	_
+11	sub	sub	ADJ	A	_	10	amod	_	SpaceAfter=No
+12	-sahariana	-sahariano	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	parti	parte	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Medioriente	Medioriente	PROPN	SP	_	15	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20-21	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	Asia	Asia	PROPN	SP	_	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Sebbene molti Stati abbiano varato leggi nazionali che vietano la pratica e dal 2008 oltre 15mila comunità abbiano dichiarato di averla accantonata, l'attuale tasso di abbandono delle mutilazioni genitali femminili non è abbastanza elevato da controbilanciare la crescita della popolazione, con il rischio che i casi assoluti di MGF possano aumentare nei prossimi anni.
+1	Sebbene	sebbene	SCONJ	CS	_	5	mark	_	_
+2	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	Stati	Stati	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	varato	varare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	nazionali	nazionale	ADJ	A	Number=Plur	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	vietano	vietare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	e	e	CCONJ	CC	_	20	cc	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	2008	2008	NUM	N	NumType=Card	20	obl	_	_
+16	oltre	oltre	ADP	E	_	18	case	_	_
+17	15mila	15mila	NUM	N	NumType=Card	18	nummod	_	_
+18	comunità	comunità	NOUN	S	Gender=Fem	20	obl	_	_
+19	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+21	di	di	ADP	E	_	39	mark	_	_
+22-23	averla	_	_	_	_	_	_	_	_
+22	aver	avere	AUX	VA	VerbForm=Inf	39	aux	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	accantonata	accantonata	NOUN	S	Gender=Fem|Number=Sing	39	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+27	attuale	attuale	ADJ	A	Number=Sing	28	amod	_	_
+28	tasso	tasso	NOUN	S	Gender=Masc|Number=Sing	39	nsubj:pass	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	genitali	genitale	ADJ	A	Number=Plur	33	amod	_	_
+35	femminili	femminili	ADJ	A	Number=Plur	33	amod	_	_
+36	non	non	ADV	BN	PronType=Neg	39	advmod	_	_
+37	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
+38	abbastanza	abbastanza	ADV	B	_	39	advmod	_	_
+39	elevato	elevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	_
+40	da	da	ADP	E	_	41	mark	_	_
+41	controbilanciare	controbilanciare	VERB	V	VerbForm=Inf	39	xcomp	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44-45	della	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	41	punct	_	_
+48	con	con	ADP	E	_	50	case	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+51	che	che	SCONJ	CS	_	58	mark	_	_
+52	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
+53	casi	caso	NOUN	S	Gender=Masc|Number=Plur	58	nsubj	_	_
+54	assoluti	assoluto	ADJ	A	Gender=Masc|Number=Plur	53	amod	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	MGF	MGF	PROPN	SP	_	53	nmod	_	_
+57	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
+58	aumentare	aumentare	VERB	V	VerbForm=Inf	50	advcl	_	_
+59-60	nei	_	_	_	_	_	_	_	_
+59	in	in	ADP	E	_	62	case	_	_
+60	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
+61	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	62	amod	_	_
+62	anni	anno	NOUN	S	Gender=Masc|Number=Plur	58	obl	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	39	punct	_	_
+
+# sent_id = 9
+# text = Nessuna religione la prescrive:
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	religione	religione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	prescrive	prescriva	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 10
+# text = resta il mito della purezza.
+1	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mito	mito	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	purezza	purezza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Si tratta di una violazione dei diritti delle donne diffusa in tutto il mondo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Le mutilazioni vengono praticate per preservare la “purezza” ma hanno gravissime conseguenze fisiche e psicologiche.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	praticate	praticare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	preservare	preservare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	purezza	purezza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	12	punct	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	gravissime	grave	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	14	amod	_	_
+14	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	fisiche	fisico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	psicologiche	psicologico	ADJ	A	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Per combattere le mutilazioni genitali femminili, bisogna lavorare sul piano culturale.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	combattere	combattere	VERB	V	VerbForm=Inf	8	advcl	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	genitali	genitale	ADJ	A	Number=Plur	4	amod	_	_
+6	femminili	femminili	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	lavorare	lavorare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	piano	piano	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	culturale	culturale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = Sono un fenomeno globale, che coinvolge bambine, ragazze e donne in 30 Paesi e costituiscono una violazione dei loro diritti fondamentali.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	globale	globale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	coinvolge	coinvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	bambine	bambino	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	30	30	NUM	N	NumType=Card	15	nummod	_	_
+15	Paesi	Paesi	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	costituiscono	costituire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20-21	dei	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+24	fondamentali	fondamentale	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = La vera motivazione delle mutilazioni genitali femminili non è ancora stata del tutto accertata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	vera	vero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	motivazione	motivazione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	genitali	genitale	ADJ	A	Number=Plur	6	amod	_	_
+8	femminili	femminile	ADJ	A	Number=Plur	6	amod	_	_
+9	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+11	ancora	ancora	ADV	B	_	16	advmod	_	_
+12	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obl	_	_
+16	accertata	accertato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 16
+# text = Talvolta la tradizione viene portata avanti perché si crede che sia un precetto religioso, sebbene nessuna religione prescrive di mutilare gli organi genitali di una femmina.
+1	Talvolta	talvolta	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	avanti	avanti	ADV	B	_	5	advmod	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	precetto	precetto	NOUN	S	Gender=Masc|Number=Sing	9	ccomp	_	_
+14	religioso	religioso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	sebbene	sebbene	SCONJ	CS	_	19	mark	_	_
+17	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+18	religione	religione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	prescrive	prescrivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	mutilare	mutilare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	organi	organo	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+24	genitali	genitale	ADJ	A	Number=Plur	23	amod	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	femmina	femmina	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Più frequentemente, si tratta di un insieme di fattori culturali.
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	frequentemente	frequentemente	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	insieme	insieme	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	fattori	fattore	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	culturali	culturale	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Il denominatore comune, dunque, sembra essere appunto l'elemento della "purezza":
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	denominatore	denominatore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	comune	comune	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	dunque	dunque	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	7	xcomp	_	_
+9	appunto	appunto	ADV	B	_	7	advmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	purezza	purezza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 19
+# text = essere mutilate vuol dire essere integre, caste, senza colpa e le bambine e le donne che si sottraggono a questa pratica, rischiano di non essere accettate dalle loro comunità.
+1	essere	essere	AUX	V	VerbForm=Inf	2	cop	_	_
+2	mutilate	mutilare	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+3	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	6	aux	_	_
+6	integre	integre	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	caste	casta	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	bambine	bambina	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	donne	donna	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	sottraggono	sottrarre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	4	punct	_	_
+25	rischiano	rischiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	di	di	ADP	E	_	29	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	essere	essere	AUX	VA	VerbForm=Inf	29	aux:pass	_	_
+29	accettate	accettare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	xcomp	_	_
+30-31	dalle	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	33	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	loro	loro	DET	AP	Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	comunità	comunità	NOUN	S	Gender=Fem	29	obl:agent	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Nel mondo e in Italia: il primato della Somalia.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	3	conj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	primato	primato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Somalia	Somalia	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 21
+# text = Le mutilazioni genitali femminili sono principalmente praticate in Africa, Medio Oriente e Asia.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+3	genitali	genitale	ADJ	A	Number=Plur	2	amod	_	_
+4	femminili	femminile	ADJ	A	Number=Plur	2	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	principalmente	principalmente	ADV	B	_	7	advmod	_	_
+7	praticate	praticare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Africa	Africa	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Medio	Medio	PROPN	SP	_	9	conj	_	_
+12	Oriente	Oriente	PROPN	SP	_	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	Asia	Asia	PROPN	SP	_	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 22
+# text = Il Paese più colpito è la Somalia, dove la percentuale di bambine e donne con i genitali mutilati supera il 98%.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	colpito	colpito	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Somalia	Somalia	PROPN	SP	_	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dove	dove	ADV	B	_	20	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	bambine	bambino	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	genitali	genitale	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+19	mutilati	mutilato	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+20	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	98	98	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	SYM	_	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = Con il fenomeno globale delle migrazioni inoltre i confini geografici dei Paesi impattati dalla mutilazioni genitali femminili si amplia.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+4	globale	globale	ADJ	A	Number=Sing	3	amod	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	migrazioni	migrazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+8	inoltre	inoltre	ADV	B	_	10	advmod	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	confini	confine	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	geografici	geografico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+15	impattati	impattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	15	obl:agent	_	_
+19	genitali	genitale	ADJ	A	Number=Plur	18	amod	_	_
+20	femminili	femminili	ADJ	A	Number=Plur	18	amod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	amplia	ampliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 24
+# text = Per quanto in Italia queste pratiche siano vietate, il rischio per bambine e donne migranti torna alto in caso di viaggi per vacanze o festività nei loro Paesi di origine.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Italia	Italia	PROPN	SP	_	8	obl	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+7	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	vietate	vietare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	bambine	bambino	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	donne	donna	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+16	migranti	migrante	ADJ	A	Number=Plur	15	amod	_	_
+17	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	alto	alto	ADV	B	_	17	advmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	caso	caso	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+25	o	o	CCONJ	CC	_	26	cc	_	_
+26	festività	festività	NOUN	S	Gender=Fem	22	conj	_	_
+27-28	nei	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	30	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	origine	origine	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 25
+# text = Le conseguenze .
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = La mutilazione, di cui esistono diverse tipologie e che vengono fatte a età diverse a seconda delle comunità e dei Paesi, hanno un impatto grave sulla salute fisica (gravi emorragie, problemi urinari, infezioni vaginali) e psicologica delle donne.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mutilazione	mutilazione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+6	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	tipologie	tipologie	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj:pass	_	_
+11	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	fatte	fare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	età	età	NOUN	S	Gender=Fem	12	obl	_	_
+15	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	seconda	seconda	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	comunità	comunità	NOUN	S	Gender=Fem	17	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Paesi	Paesi	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	2	punct	_	_
+26	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	grave	grave	ADJ	A	Number=Sing	28	amod	_	_
+30-31	sulla	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	salute	salute	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+33	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+35	gravi	grave	ADJ	A	Number=Plur	36	amod	_	_
+36	emorragie	emorragia	NOUN	S	Gender=Fem|Number=Plur	32	appos	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	36	conj	_	_
+39	urinari	urinario	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	41	punct	_	_
+41	infezioni	infezione	NOUN	S	Gender=Fem|Number=Plur	36	conj	_	_
+42-43	vaginali	_	_	_	_	_	_	_	SpaceAfter=No
+42	vagina	vaginare	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+43	li	li	ADJ	A	Number=Plur	42	amod	_	_
+44	)	)	PUNCT	FB	_	36	punct	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	psicologica	psicologico	ADJ	A	Gender=Fem|Number=Sing	32	conj	_	_
+47-48	delle	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	donne	donna	NOUN	S	Gender=Fem|Number=Plur	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 27
+# text = Estremamente pericolose anche le conseguenze sulla salute riproduttiva:
+1	Estremamente	estremamente	ADV	B	_	2	advmod	_	_
+2	pericolose	pericoloso	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+6-7	sulla	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	salute	salute	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	riproduttiva	riproduttivo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 28
+# text = i rapporti sono difficoltosi e dolorosi, il parto può comportare il rischio di morte sia per la madre che per il nascituro, al punto che talvolta il cesareo è l’unica soluzione.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	difficoltosi	difficoltoso	ADJ	A	Number=Plur	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	dolorosi	doloroso	ADJ	A	Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	parto	parto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	comportare	comportare	VERB	V	VerbForm=Inf	4	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	morte	morte	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	sia	sia	CCONJ	CC	_	19	cc	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	madre	madre	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	nascituro	nascituro	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	27	punct	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	punto	punto	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	talvolta	talvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	cesareo	cesareo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+33	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+34	unica	unico	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	19	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = L'impegno di ActionAid.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	ActionAid	ActionAid	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Le cose però stanno cambiando.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	però	però	ADV	B	_	5	advmod	_	_
+4	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cambiando	cambiare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Da anni lavoriamo con le comunità dove le mutilazioni genitali femminili sono considerate una tradizione.
+1	Da	da	ADP	E	_	2	case	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+3	lavoriamo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	comunità	comunità	NOUN	S	Gender=Fem	3	obl	_	_
+7	dove	dove	ADV	B	_	13	advmod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	mutilazioni	mutilazione	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+10	genitali	genitale	ADJ	A	Number=Plur	9	amod	_	_
+11	femminili	femminili	ADJ	A	Number=Plur	9	amod	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	considerate	considerare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = ActionAid organizza incontri e percorsi di "empowerment" (come si legge nel documento di ActioAid, ma noi che amiamo la lingua italiana preferiamo tradurre in emancipazione) quindi:
+1	ActionAid	ActionAid	CCONJ	CC	_	2	cc	_	_
+2	organizza	organizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	incontri	incontro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	percorsi	percorso	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	empowerment	empowerment	NOUN	S	_	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	_
+10	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11	come	come	SCONJ	CS	_	13	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	documento	documento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	ActioAid	ActioAid	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	27	punct	_	_
+20	ma	ma	CCONJ	CC	_	27	cc	_	_
+21	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	amiamo	amare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	preferiamo	preferire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+28	tradurre	tradurre	VERB	V	VerbForm=Inf	27	ccomp	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	emancipazione	emancipazione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	13	punct	_	_
+32	quindi	quindi	ADV	B	_	2	advmod	_	SpaceAfter=No
+33	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 33
+# text = percorsi di emancipazione con donne e uomini, per far capire i rischi, spesso non del tutto conosciuti, di queste pratiche.
+1	percorsi	percorso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	emancipazione	emancipazione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	donne	donna	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	far	fare	VERB	V	VerbForm=Inf	1	acl	_	_
+11	capire	capire	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	spesso	spesso	ADV	B	_	20	advmod	_	_
+16	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	tutto	tutto	ADV	B	_	20	advmod	_	_
+20	conosciuti	conosciuto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	24	det	_	_
+24	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 34
+# text = Il lavoro si estende anche ai capi religiosi e delle comunità, che possono avere un forte impatto sulla scelta delle famiglie di proseguire o meno queste tradizioni, che comportano una violazione al diritto all’integrità fisica di bambine e donne.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	estende	estendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	capi	capo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	religiosi	religioso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	comunità	comunità	NOUN	S	Gender=Fem	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avere	avere	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	forte	forte	ADJ	A	Number=Sing	20	amod	_	_
+20	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21-22	sulla	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	proseguire	proseguire	VERB	V	VerbForm=Inf	17	acl	_	_
+29	o	o	CCONJ	CC	_	32	cc	_	_
+30	meno	meno	ADV	B	_	32	advmod	_	_
+31	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	32	det	_	_
+32	tradizioni	tradizione	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	comportano	comportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+41-42	all’	_	_	_	_	_	_	_	SpaceAfter=No
+41	a	a	ADP	E	_	43	case	_	_
+42	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	integrità	integrità	NOUN	S	Gender=Fem	40	nmod	_	_
+44	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	bambine	bambino	NOUN	S	Gender=Fem|Number=Plur	43	nmod	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	donne	donna	NOUN	S	Gender=Fem|Number=Plur	46	conj	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 35
+# text = L'Ong lavora con progetti di sensibilizzazione anche in Italia, con le comunità originarie di Paesi a tradizione mutilatoria.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Ong	Ong	PROPN	SP	_	3	nsubj	_	_
+3	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	sensibilizzazione	sensibilizzazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Italia	Italia	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	comunità	comunità	NOUN	S	Gender=Fem	3	obl	_	_
+15	originarie	originario	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Paesi	Paesi	PROPN	SP	_	14	nmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+20	mutilatoria	mutilatorio	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 36
+# text = Si organizzano Campagne di informazione per far conoscere il fenomeno ancora poco compreso e far sì che anche istituzioni e servizi sul territorio siano in grado di rispondere alle esigenze delle donne a rischio di MGF o che già stanno vivendo le conseguenze di esservi state sottoposte.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	organizzano	organizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Campagne	campagne	PROPN	SP	_	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	far	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+8	conoscere	conoscere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	poco	poco	ADV	B	_	13	advmod	_	_
+13	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	far	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+16	sì	sì	ADV	B	_	15	advmod	_	_
+17	che	che	SCONJ	CS	_	27	mark	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	grado	grado	NOUN	S	Gender=Masc|Number=Sing	15	ccomp	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	rispondere	rispondere	VERB	V	VerbForm=Inf	27	acl	_	_
+30-31	alle	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	donne	donna	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	MGF	MGF	PROPN	SP	_	35	nmod	_	_
+40	o	o	CCONJ	CC	_	44	cc	_	_
+41	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+42	già	già	ADV	B	_	44	advmod	_	_
+43	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	vivendo	vivire	VERB	V	VerbForm=Ger	39	conj	_	_
+45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	44	obj	_	_
+47	di	di	ADP	E	_	51	mark	_	_
+48-49	esservi	_	_	_	_	_	_	_	_
+48	esser	essere	AUX	VA	VerbForm=Inf	51	aux	_	_
+49	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	51	expl	_	_
+50	state	stare	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	51	aux:pass	_	_
+51	sottoposte	sottoporre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	46	acl	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

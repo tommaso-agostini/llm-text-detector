@@ -1,0 +1,319 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Si parla di 25 milioni di euro, cifre che, ammettiamolo, sono state rilanciate con arroganza dai rossoneri.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	25	25	NUM	N	NumType=Card	5	nummod	_	_
+5	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	euro	euro	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	cifre	cifra	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12-13	ammettiamolo	_	_	_	_	_	_	_	SpaceAfter=No
+12	ammettiamo	ammettere	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	rilanciate	rilanciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	arroganza	arroganza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	rossoneri	rossonero	NOUN	S	Gender=Masc|Number=Plur	17	obl:agent	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ma siamo davvero sicuri che questa, in fondo, sia una mossa saggia e lungimirante?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	davvero	davvero	ADV	B	_	4	advmod	_	_
+4	sicuri	sicuro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	4	csubj	_	_
+14	saggia	saggio	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	lungimirante	lungimirante	ADJ	A	Number=Sing	14	conj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = L’età di Suso, ormai non più giovanissimo, è un fattore da non sottovalutare.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	età	età	NOUN	S	Gender=Fem	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Suso	Suso	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ormai	ormai	ADV	B	_	8	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	giovanissimo	giovane	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	da	da	ADP	E	_	16	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	sottovalutare	sottovalutare	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Un attaccante, anche se dotato di talento e di un’esperienza che il settore giovanile non può offrire, ha bisogno di una dinamica fisica e mentale apposita.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	attaccante	attaccante	NOUN	S	Number=Sing	21	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anche	anche	ADV	B	_	6	mark	_	_
+5	se	se	SCONJ	CS	_	4	fixed	_	_
+6	dotato	dotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	talento	talento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	settore	settore	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+16	giovanile	giovanile	ADJ	A	Number=Sing	15	amod	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	offrire	offrire	VERB	V	VerbForm=Inf	12	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	dinamica	dinamica	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	mentale	mentale	ADJ	A	Number=Sing	26	conj	_	_
+29	apposita	apposito	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 5
+# text = Il Milan, con le sue divisioni in conflitto e la mancanza di una chiara identità tattica, non è il contesto ideale per un giocatore di questo tipo, uno che ha bisogno di giocare e di sentirsi parte di un gruppo coeso e determinato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Milan	Milan	PROPN	SP	_	22	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	divisioni	divisione	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	conflitto	conflitto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	identità	identità	NOUN	S	Gender=Fem	12	nmod	_	_
+17	tattica	tattico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+23	ideale	ideale	ADJ	A	Number=Sing	22	amod	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	26	appos	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+34	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	giocare	giocare	VERB	V	VerbForm=Inf	34	acl	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	di	di	ADP	E	_	39	mark	_	_
+39-40	sentirsi	_	_	_	_	_	_	_	_
+39	sentir	sentire	VERB	V	VerbForm=Inf	36	conj	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+41	parte	parte	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45	coeso	coeso	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	_
+46	e	e	CCONJ	CC	_	47	cc	_	_
+47	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	45	conj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 6
+# text = L'Inter, d'altra parte, ha dimostrato di saper costruire un progetto solido e ambizioso.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Inter	Inter	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	d'	d'	ADP	E	_	6	case	_	SpaceAfter=No
+5	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dimostrato	dimostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	saper	sapere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	costruire	costruire	VERB	V	VerbForm=Inf	11	ccomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	solido	solido	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	ambizioso	ambizioso	ADJ	A	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Spalletti ha riorganizzato la squadra, ha portato nuova energia e, soprattutto, ha vinto.
+1	Spalletti	Spalletti	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	riorganizzato	riorganizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+9	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	energia	energia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	soprattutto	soprattutto	ADV	B	_	16	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Un'Inter competitiva, in grado di lottare per lo scudetto e la Champions League, è l'ambiente perfetto per valorizzare le qualità di Suso, in grado di accendere segnali d'allarme per il Milan che evidentemente fatica a trovare alternative valide.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Inter	Inter	PROPN	SP	_	19	nsubj	_	_
+3	competitiva	competitivo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	grado	grado	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	lottare	lottare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	scudetto	scudetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Champions	Champions	PROPN	SP	_	8	conj	_	_
+15	League	League	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+20	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	valorizzare	valorizzare	VERB	V	VerbForm=Inf	19	acl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	qualità	qualità	NOUN	S	Gender=Fem	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Suso	Suso	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	grado	grado	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31	accendere	accendere	VERB	V	VerbForm=Inf	29	acl	_	_
+32	segnali	segnale	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+33	d'	di	ADP	E	_	34	case	_	SpaceAfter=No
+34	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	per	per	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Milan	Milan	PROPN	SP	_	31	obl	_	_
+38	che	che	PRON	PR	PronType=Rel	40	case	_	_
+39	evidentemente	evidentemente	ADV	B	_	40	advmod	_	_
+40	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	37	acl:relcl	_	_
+41	a	a	ADP	E	_	42	mark	_	_
+42	trovare	trovare	VERB	V	VerbForm=Inf	40	acl	_	_
+43	alternative	alternativa	NOUN	S	Gender=Fem|Number=Plur	42	obj	_	_
+44	valide	valido	ADJ	A	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 9
+# text = Questo affare, se concretizzato, non è solo una questione di mercato.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	affare	affare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	concretizzato	concretizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	questione	questione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = È un segnale.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Un segnale che l’Inter, con una gestione più pragmatica e orientata al risultato, sta lasciando alle spalle le illusioni di un Milan dilaniato da interessi personali e da una cultura dell'attrattiva che più che a giocare lo porta
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	45	nsubj	_	_
+3	che	che	SCONJ	CS	_	19	mark	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Inter	Inter	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	pragmatica	pragmatico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	orientata	orientare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	lasciando	lasciare	VERB	V	VerbForm=Ger	2	advcl	_	_
+20-21	alle	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	illusioni	illusione	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Milan	Milan	PROPN	SP	_	24	nmod	_	_
+28	dilaniato	dilaniare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	28	obl:agent	_	_
+31	personali	personale	ADJ	A	Number=Plur	30	amod	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	da	da	ADP	E	_	35	case	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+36-37	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+36	di	di	ADP	E	_	38	case	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	attrattiva	attrattiva	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
+39	che	che	PRON	PR	PronType=Rel	43	obj	_	_
+40	più	più	ADV	B	_	43	advmod	_	_
+41	che	che	SCONJ	CS	_	43	mark	_	_
+42	a	a	ADP	E	_	43	mark	_	_
+43	giocare	giocare	VERB	V	VerbForm=Inf	38	acl:relcl	_	_
+44	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+45	porta	porta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

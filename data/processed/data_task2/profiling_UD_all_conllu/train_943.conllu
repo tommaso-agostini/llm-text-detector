@@ -1,0 +1,293 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Iniziamo da una delle più diffuse e conosciute:
+1	Iniziamo	Inizare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	1	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	diffuse	diffuso	ADJ	A	Gender=Fem|Number=Plur	3	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	conosciute	conoscere	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = la San Pellegrino Terme, prodotta dalla storica azienda bergamasca.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	San	San	PROPN	SP	_	0	root	_	_
+3	Pellegrino	pellegrino	PROPN	SP	_	2	flat:name	_	_
+4	Terme	Terme	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	storica	storico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	_
+11	bergamasca	bergamasco	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Questa birra analcolica, Légère, è createda appositamente per chi cerca un'alternativa dissetante e leggera al vino e alle altre bevande alcoliche.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	birra	birra	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	analcolica	analcolico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	Légère	Légère	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	createda	createdere	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+9	appositamente	appositamente	ADV	B	_	11	advmod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	obl	_	_
+12	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+13	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	dissetante	dissetante	ADJ	A	Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	leggera	leggero	ADJ	A	Gender=Fem|Number=Sing	15	conj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vino	vino	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22-23	alle	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	altre	altro	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	bevande	bevanda	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+26	alcoliche	alcolico	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Il suo gusto delicato e frizzante, ottenuto grazie all'impiego di acqua minerale naturale delle sorgenti di San Pellegrino, fa di Légère la scelta ideale per un'estate all'insegna del benessere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+4	delicato	delicato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	frizzante	frizzante	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	grazie	grazie	NOUN	S	_	12	case	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	9	fixed	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	minerale	minerale	ADJ	A	Number=Sing	14	amod	_	_
+16	naturale	naturale	ADJ	A	Number=Sing	14	amod	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	sorgenti	sorgente	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	San	San	PROPN	SP	_	19	nmod	_	_
+22	Pellegrino	pellegrino	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Légère	Légère	PROPN	SP	_	24	obl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+29	ideale	ideale	ADJ	A	Number=Sing	28	amod	_	_
+30	per	per	ADP	E	_	32	case	_	_
+31	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	estate	estate	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33-34	all'	_	_	_	_	_	_	_	SpaceAfter=No
+33	a	a	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	insegna	insegna	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	benessere	benessere	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 5
+# text = Non meno apprezzata è la Joya de América, prodotta in Cile e distribuita in Italia dalla Joya Group.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	meno	meno	ADV	B	_	3	advmod	_	_
+3	apprezzata	apprezzato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Joya	Joya	PROPN	SP	_	3	nsubj	_	_
+7	de	de	ADP	E	_	8	case	_	_
+8	América	América	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Cile	Cile	PROPN	SP	_	10	obl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	distribuita	distribuire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Italia	Italia	PROPN	SP	_	14	obl	_	_
+17-18	dalla	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Joya	Joya	PROPN	SP	_	14	obl:agent	_	_
+20	Group	Group	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Questa birra analcolica a base di mais, malto d'orzo e lievito, è disponibile in diverse varianti, come la classica Joya, la pesca e fragola Joya Passione e la delicata Joya Light.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	birra	birra	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	analcolica	analcolicare	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	base	base	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	mais	mais	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	malto	malto	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	orzo	orzo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	lievito	lievitare	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	disponibile	disponibile	ADJ	A	Number=Sing	0	root	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+19	varianti	variante	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	come	come	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	classica	classico	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+24	Joya	Joya	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pesca	pesca	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	fragola	fragola	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+30	Joya	Joya	PROPN	SP	_	29	nmod	_	_
+31	Passione	passione	PROPN	SP	_	30	flat:name	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	delicata	delicato	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	Joya	Joya	PROPN	SP	_	19	conj	_	_
+36	Light	Light	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 7
+# text = Ideale sia da sola che come ingrediente per cocktail estivi, Joya è un'alternativa alla birra alcolica che conquesta il palato dei più esigenti.
+1	Ideale	ideale	ADJ	A	Number=Sing	4	nsubj	_	_
+2	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	sola	solo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	ingrediente	ingrediente	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	cocktail	cocktail	NOUN	S	Gender=Masc	7	nmod	_	_
+10	estivi	estivo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	Joya	Joya	PROPN	SP	_	15	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	4	acl:relcl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	birra	birra	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	alcolica	alcolico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	conquesta	conquestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	palato	palato	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	esigenti	esigente	ADJ	A	Number=Plur	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Proseguiamo con la italiana Fritz, prodotta dalla Birra Moretti._lowcorealtà_ Fritz Kю, prodotta dalla Birra Moretti, è una birra analcolica dal sapore versatile, che si accompagna perfettamente a tutti i piatti della tradizione, dal pesce alle carni bianche.
+1	Proseguiamo	Proseguare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	italiana	italiano	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	Fritz	Fritz	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Birra	birra	PROPN	SP	_	7	obl:agent	_	_
+11	Moretti._lowcorealtà_	Moretti._lowcorealtà-	PROPN	SP	_	10	flat:name	_	_
+12	Fritz	Fritz	PROPN	SP	_	10	flat:name	_	_
+13	Kю	Kю	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Birra	birra	PROPN	SP	_	15	obl:agent	_	_
+19	Moretti	Moretti	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	birra	birra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+24	analcolica	analcolicare	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25-26	dal	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	sapore	sapore	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	versatile	versatile	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	23	punct	_	_
+30	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	accompagna	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+33	perfettamente	perfettamente	ADV	B	_	32	advmod	_	_
+34	a	a	ADP	E	_	37	case	_	_
+35	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	37	det:predet	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+38-39	della	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	23	punct	_	_
+42-43	dal	_	_	_	_	_	_	_	_
+42	da	da	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+45-46	alle	_	_	_	_	_	_	_	_
+45	a	a	ADP	E	_	47	case	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	carni	carni	NOUN	S	Gender=Fem|Number=Plur	44	nmod	_	_
+48	bianche	bianco	ADJ	A	Gender=Fem|Number=Plur	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 9
+# text = Ricca di aromi e con una spuma morbida e persistente, Fritz Kü è una scelta ideale per chi cerca un'alternativa leggera all
+1	Ricca	ricca	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	aromi	aromo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	spuma	spuma	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+8	morbida	morbido	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	persistente	persistente	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	Fritz	Fritz	PROPN	SP	_	16	nsubj	_	_
+13	Kü	Kü	PROPN	SP	_	12	flat:name	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	ideale	ideale	ADJ	A	Number=Sing	16	amod	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	chi	chi	PRON	PR	Number=Sing|PronType=Rel	17	obl	_	_
+20	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+21	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	leggera	leggero	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	all	all	ADJ	A	_	22	amod	_	SpacesAfter=\n
+

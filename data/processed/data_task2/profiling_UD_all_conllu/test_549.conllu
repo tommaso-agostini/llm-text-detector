@@ -1,0 +1,377 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Matteo Boe, 59 anni, ha terminato di scontare 25 anni di carcere.
+1	Matteo	Matteo	PROPN	SP	_	8	nsubj	_	_
+2	Boe	Boe	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	59	59	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	terminato	terminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	scontare	scontare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	25	25	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Boe divenne negli anni '80 la primula rossa del banditismo sardo, per un'impresa che in precedenza (e in seguito) non era riuscita a nessuno:
+1	Boe	Boe	ADV	B	_	2	advmod	_	_
+2	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	'80	'80	NUM	N	NumType=Card	5	nummod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	primula	primulo	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+9	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	banditismo	banditismo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	sardo	sardo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	precedenza	precedenza	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+21	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	_
+26	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+27	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obl	_	SpaceAfter=No
+31	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = evadere dall' Asinara.
+1	evadere	evadere	VERB	V	VerbForm=Inf	0	root	_	_
+2-3	dall'	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	Asinara	Asinara	PROPN	SP	_	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Cosa che fece, insieme con un complice, Salvatore Duras, il primo settembre 1986, fuggendo a bordo di un gommone.
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	18	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	insieme	insieme	ADV	B	_	3	advmod	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	complice	complice	NOUN	S	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	Salvatore	Salvatore	PROPN	SP	_	8	nmod	_	_
+11	Duras	Duras	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+16	1986	1986	NUM	N	NumType=Card	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	fuggendo	fuggire	VERB	V	VerbForm=Ger	0	root	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	gommone	gommone	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 5
+# text = Venne bloccato anni dopo, il 13 ottobre 1993, dalla polizia francese di Porto Vecchio, in Corsica, dove si trovava da alcuni giorni insieme con la sua convivente, Laura Manfredi, all'epoca incinta, e i loro due figlioletti, Luisa e Andrea.
+1	Venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	13	13	NUM	N	NumType=Card	3	nmod	_	_
+8	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	_
+9	1993	1993	NUM	N	NumType=Card	7	flat	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+14	francese	francese	ADJ	A	Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Porto	Porto	PROPN	SP	_	13	nmod	_	_
+17	Vecchio	Vecchio	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Corsica	Corsica	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	dove	dove	ADV	B	_	24	advmod	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	27	det	_	_
+27	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+28	insieme	insieme	ADV	B	_	32	case	_	_
+29	con	con	ADP	E	_	28	fixed	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	convivente	convivente	NOUN	S	Number=Sing	24	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	Laura	Laura	PROPN	SP	_	32	nmod	_	_
+35	Manfredi	Manfrede	PROPN	SP	_	34	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	24	punct	_	_
+37-38	all'	_	_	_	_	_	_	_	SpaceAfter=No
+37	a	a	ADP	E	_	39	case	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+39	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+40	incinta	incinto	ADJ	A	Gender=Fem|Number=Sing	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	46	punct	_	_
+42	e	e	CCONJ	CC	_	46	cc	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+44	loro	loro	DET	AP	Poss=Yes|PronType=Prs	46	det:poss	_	_
+45	due	due	NUM	N	NumType=Card	46	nummod	_	_
+46	figlioletti	figlioletto	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	46	punct	_	_
+48	Luisa	Luisa	PROPN	SP	_	46	nmod	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50	Andrea	Andrea	PROPN	SP	_	48	conj	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Furono proprio loro a portare i gendarmi dal bandito sardo:
+1	Furono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	proprio	proprio	ADV	B	_	3	advmod	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	portare	portare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7-8	gendarmi	_	_	_	_	_	_	_	_
+7	gendar	gendar	NOUN	S	Gender=Masc	5	obj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bandito	bandito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	sardo	sardo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = la polizia francese li aveva seguiti da Santa Teresa di Gallura, dove moglie e figli si erano imbarcati sul traghetto per Bonifacio.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	francese	francese	ADJ	A	Number=Sing	2	amod	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	seguiti	seguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Santa	Santa	PROPN	SP	_	6	obl	_	_
+9	Teresa	Teresa	PROPN	SP	_	8	flat:name	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Gallura	Gallura	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	dove	dove	ADV	B	_	19	advmod	_	_
+14	moglie	moglie	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+18	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	imbarcati	imbarcare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	traghetto	traghetto	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	Bonifacio	Bonifacio	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Matteo Boe ha figurato a lungo ai primissimi posti nell'elenco dei 200 ricercati più pericolosi d'Italia.
+1	Matteo	Matteo	PROPN	SP	_	4	nsubj	_	_
+2	Boe	Boe	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	figurato	figurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	primissimi	primo	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	10	amod	_	_
+10	posti	posto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+11-12	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	in	in	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	200	200	NUM	N	NumType=Card	17	nummod	_	_
+17	ricercati	ricercato	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	pericolosi	pericoloso	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	Italia	Italia	PROPN	SP	_	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = L'operazione che aveva portato alla cattura era scattata subito dopo la liberazione del piccolo Farouk Kassam, per il cui sequestro l'ex latitante è stato condannato a 20 anni di reclusione.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cattura	cattura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	scattata	scattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	subito	subito	ADV	B	_	10	advmod	_	_
+12	dopo	dopo	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	liberazione	liberazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	Farouk	Farouk	PROPN	SP	_	14	nmod	_	_
+19	Kassam	Kassam	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	cui	cui	DET	DR	PronType=Rel	24	det:poss	_	_
+24	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+26	ex	ex	ADJ	A	_	27	amod	_	_
+27	latitante	latitante	NOUN	S	Gender=Masc|Number=Sing	30	nsubj:pass	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	aux:pass	_	_
+30	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	20	20	NUM	N	NumType=Card	33	nummod	_	_
+33	anni	anno	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	reclusione	reclusione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Oltre che per questo rapimento è stato coinvolto nel sequestro dell'imprenditore romano Giulio De Angelis, prelevato dalla sua villa di Romazzino, in Costa Smeralda, il 12 giugno 1988 e liberato il 31 ottobre successivo dopo il pagamento di un riscatto di 3 miliardi di lire.
+1	Oltre	oltre	ADV	B	_	8	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	rapimento	rapimento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	sequestro	sequestro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	imprenditore	imprenditore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	romano	romano	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	Giulio	Giulio	PROPN	SP	_	14	nmod	_	_
+17	De	De	PROPN	SP	_	16	flat:name	_	_
+18	Angelis	Angelis	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	prelevato	prelevare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+21-22	dalla	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	villa	villa	NOUN	S	Gender=Fem|Number=Sing	20	obl:agent	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Romazzino	Romazzino	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	Costa	Costa	PROPN	SP	_	24	nmod	_	_
+30	Smeralda	Smeralda	PROPN	SP	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	12	12	NUM	N	NumType=Card	29	nmod	_	_
+34	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	33	flat	_	_
+35	1988	1988	NUM	N	NumType=Card	33	flat	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	liberato	liberare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	31	31	NUM	N	NumType=Card	37	obl	_	_
+40	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	39	flat	_	_
+41	successivo	successivo	ADJ	A	Gender=Masc|Number=Sing	39	flat	_	_
+42	dopo	dopo	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	riscatto	riscatto	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	3	3	NUM	N	NumType=Card	50	nummod	_	_
+50	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	lire	lira	NOUN	S	Gender=Fem|Number=Plur	50	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Non si sa ancora se deciderà di tornare nel suo paese natio, ma la notizia della sua imminente scarcerazione ha già fatto il giro dell'Isola.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	deciderà	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	tornare	tornare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	paese	paese	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	natio	natio	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	25	punct	_	_
+15	ma	ma	CCONJ	CC	_	25	cc	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	22	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+21	imminente	imminente	ADJ	A	Number=Sing	22	amod	_	_
+22	scarcerazione	scarcerazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	già	già	ADV	B	_	25	advmod	_	_
+25	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	giro	giro	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	Isola	isola	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Dopo Graziano Mesina, infatti, è lui il bandito sardo più famoso.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	Graziano	Graziano	PROPN	SP	_	10	nmod	_	_
+3	Mesina	Mesina	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	infatti	infatti	ADV	B	_	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bandito	bandito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+11	sardo	sardo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+

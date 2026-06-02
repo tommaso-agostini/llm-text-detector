@@ -1,0 +1,281 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Critiche anche dal punto di vista turistico-commerciale.
+1	Critiche	critico	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	vista	vista	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	turistico	turistico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	commerciale	commerciale	ADJ	A	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = "Il 17 marzo il Comune di Brescia è militarizzato", esclama il sindaco Del Bono, "Ma noi non facciamo resistenza, non siamo mica il Südtirol.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	17	17	NUM	N	NumType=Card	10	nummod	_	_
+4	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Comune	Comune	PROPN	SP	_	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Brescia	Brescia	PROPN	SP	_	6	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	militarizzato	militarizzato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	esclama	esclamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+16-17	Del	_	_	_	_	_	_	_	_
+16	Di	Di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Bono	bere	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+21	Ma	ma	CCONJ	CC	_	24	cc	_	_
+22	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+25	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	31	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+28	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	mica	mica	ADV	BN	PronType=Neg	31	advmod	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Südtirol	Südtirol	PROPN	SP	_	24	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = C'è inflazione dell'identità.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	inflazione	inflazione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	identità	identità	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La Lombardia ci ha messo un po' del suo, con l'Unità d'Italia che risale al 1860.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lombardia	Lombardia	PROPN	SP	_	5	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po'	poco	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	14	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	Unità	Unità	PROPN	SP	_	7	nmod	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	Italia	Italia	PROPN	SP	_	14	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	risale	risalire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	1860	1860	NUM	N	NumType=Card	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Evitiamo gli interventi coraggiosi della storia, per favore".
+1	Evitiamo	evitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	interventi	intervento	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	coraggiosi	coraggioso	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	storia	storia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	favore	favore	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = I cinesi, che il 17 marzo venivano tutti a Brescia per l'Expo (proprio come i catalani a gennaio) cercheranno ora di raggiungere questa nuova alternativa culturale italica del 1861:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	cinesi	cinese	NOUN	S	Number=Plur	23	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	SCONJ	CS	_	23	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	17	17	NUM	N	NumType=Card	11	obl	_	_
+7	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	venivano	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Brescia	Brescia	PROPN	SP	_	23	nsubj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	Expo	expo	PROPN	SP	_	11	nmod	_	_
+15	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+16	proprio	proprio	ADV	B	_	19	advmod	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	catalani	catalani	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	19	punct	_	_
+23	cercheranno	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+24	ora	ora	ADV	B	_	23	advmod	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	raggiungere	raggiungere	VERB	V	VerbForm=Inf	23	xcomp	_	_
+27	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+28	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	alternativa	alternativa	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+30	culturale	culturale	ADJ	A	Number=Sing	29	amod	_	_
+31	italica	italico	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	1861	1861	NUM	N	NumType=Card	31	nummod	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 7
+# text = basterà cambiare i loro dollari in keynesiane lire.
+1	basterà	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	cambiare	cambiare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	loro	loro	DET	AP	Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	keynesiane	keynesiano	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	lire	lira	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = "Sono tanti i cinesi che oggi mostrano più entusiasmo dei Cosa Nostra, vediamo quanti italiani in meno voteranno Lega, sabato alle urne (prevedo un certo exploit di Grande Sud, ndr)".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	tanti	tanto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cinesi	cinese	NOUN	S	Number=Plur	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	oggi	oggi	ADV	B	_	8	advmod	_	_
+8	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	entusiasmo	entusiasmo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Cosa	cosa	PROPN	SP	_	10	nmod	_	_
+14	Nostra	nostra	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	parataxis	_	_
+17	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	18	det	_	_
+18	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	meno	meno	ADV	B	_	21	advmod	_	_
+21	voteranno	votare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+22	Lega	lega	PROPN	SP	_	21	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+25-26	alle	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	urne	urna	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	prevedo	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	certo	certo	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	exploit	exploit	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	Grande	grande	ADJ	A	Number=Sing	35	amod	_	_
+35	Sud	sud	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	ndr	ndr	NOUN	S	_	35	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = L'unico a difendere la decisione, legge storica e convenzionale, è il consigliere comunale leghista prenditore Sergio Persico (tra l'altro proprietario dell'unico bar del centro di Brescia):
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	unico	unico	ADJ	A	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	difendere	difendere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	legge	legge	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+9	storica	storico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	convenzionale	convenzionale	ADJ	A	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16	comunale	comunale	ADJ	A	Number=Sing	15	amod	_	_
+17	leghista	leghista	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+18	prenditore	prenditore	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	Sergio	Sergio	PROPN	SP	_	18	nmod	_	_
+20	Persico	Persico	PROPN	SP	_	19	flat:name	_	_
+21	(	(	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+22	tra	tra	ADP	E	_	25	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+24	altro	altro	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	proprietario	proprietario	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+26-27	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+26	di	di	ADP	E	_	29	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+28	unico	unico	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	bar	bar	NOUN	S	Gender=Masc	25	nmod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	centro	centro	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	Brescia	Brescia	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 10
+# text = "Nessun apartheid o divisione razzista, ma difesa storica del territorio e della storia del Nord Italia".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	apartheid	apartheid	NOUN	S	Gender=Masc	0	root	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+6	razzista	razzista	NOUN	S	Number=Sing	5	compound	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+10	storica	storico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	storia	storia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Nord	Nord	PROPN	SP	_	17	nmod	_	_
+21	Italia	Italia	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = '#AttilaPadano' il suo
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	#AttilaPadano	#AttilaPadare	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	'	'	PUNCT	FB	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	SpacesAfter=\n
+

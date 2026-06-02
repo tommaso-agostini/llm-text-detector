@@ -1,0 +1,327 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E, come prevedibile, è arrivato a celebrare la mediocrità.
+1	E	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	come	come	ADV	B	_	4	advmod	_	_
+4	prevedibile	prevedibile	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	celebrare	celebrare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mediocrità	mediocrità	NOUN	S	Gender=Fem	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Sylvester Stallone, un uomo che ha incarnato il coraggio e la forza in un’epoca in cui questi valori sono stati sistematicamente abbandonati, si vede ignorato mentre Michael Keaton, alias il "Birdman" (un nome che fa già un’impressione negativa) si porta a casa ben sette candidature.
+1	Sylvester	Sylvester	ADP	E	_	2	case	_	_
+2	Stallone	Stallone	PROPN	SP	_	27	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	incarnato	incarnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	forza	forza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	24	obl	_	_
+19	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+20	valori	valore	NOUN	S	Gender=Masc|Number=Plur	24	nsubj:pass	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+23	sistematicamente	sistematicamente	ADV	B	_	24	advmod	_	_
+24	abbandonati	abbandonare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	2	punct	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl:impers	_	_
+27	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	ignorato	ignorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
+29	mentre	mentre	SCONJ	CS	_	49	mark	_	_
+30	Michael	Michael	PROPN	SP	_	49	nsubj	_	_
+31	Keaton	Keaton	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	30	punct	_	_
+33	alias	alias	NOUN	S	Gender=Masc	30	appos	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	"	"	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	Birdman	Birdman	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	36	punct	_	_
+38	(	(	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	nome	nome	NOUN	S	Gender=Masc|Number=Sing	33	appos	_	_
+41	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+42	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+43	già	già	ADV	B	_	42	advmod	_	_
+44	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+46	negativa	negativo	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
+47	)	)	PUNCT	FB	_	40	punct	_	_
+48	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	49	expl	_	_
+49	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+50	a	a	ADP	E	_	51	case	_	_
+51	casa	casa	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	_
+52	ben	bene	ADV	B	_	54	advmod	_	_
+53	sette	sette	NUM	N	NumType=Card	54	nummod	_	_
+54	candidature	candidatura	NOUN	S	Gender=Fem|Number=Plur	49	obj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 3
+# text = Sette!
+1	Sette	sette	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Un numero che grida non talento, ma manipolazione mediatica.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	numero	numero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	grida	gridare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	talento	talento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	manipolazione	manipolazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+10	mediatica	mediatico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Keaton, un attore che ha scelto una carriera da mecenate artistico e che si atteggia a intellettuale con un’aria di superiorità, è stato inquadrato da un’operazione di marketing di livello, spinta da una produzione che ha capitalizzato sul suo passato come Batman.
+1	Keaton	Keaton	PROPN	SP	_	27	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	attore	attore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	mecenate	mecenata	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	artistico	artistico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	atteggia	atteggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	intellettuale	intellettuale	ADJ	A	Number=Sing	16	obl	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	aria	aria	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	superiorità	superiorità	NOUN	S	Gender=Fem	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	1	punct	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	inquadrato	inquadrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	27	obl:agent	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	marketing	marketing	NOUN	S	Gender=Masc	30	nmod	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	livello	livello	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	spinta	spingere	NOUN	S	Gender=Fem|Number=Sing	32	appos	_	_
+37	da	da	ADP	E	_	39	case	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+41	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	capitalizzato	capitalizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
+43-44	sul	_	_	_	_	_	_	_	_
+43	su	su	ADP	E	_	46	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	46	det:poss	_	_
+46	passato	passato	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+47	come	come	ADP	E	_	48	case	_	_
+48	Batman	Batman	PROPN	SP	_	42	obl	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 6
+# text = Il film, inutile dirlo, è un’altra schifezza di quel genere di produzioni teatrali-cinematografiche che pretendono di essere arte, ma che finiscono per essere un’occasione per espandere la propria presunta importanza a scapito della fruizione genuina.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	film	film	NOUN	S	Gender=Masc	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	inutile	inutile	ADJ	A	Number=Sing	2	amod	_	_
+5-6	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+5	dir	dire	VERB	V	VerbForm=Inf	4	advcl	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	altra	altro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	schifezza	schifezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	genere	genere	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	produzioni	produzione	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+17	teatrali	teatrale	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+19	cinematografiche	cinematografica	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	pretendono	pretendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+22	di	di	ADP	E	_	24	mark	_	_
+23	essere	essere	AUX	V	VerbForm=Inf	24	cop	_	_
+24	arte	artire	ADJ	A	Gender=Fem|Number=Plur	21	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	ma	ma	CCONJ	CC	_	28	cc	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	finiscono	finire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+29	per	per	ADP	E	_	32	mark	_	_
+30	essere	essere	AUX	V	VerbForm=Inf	32	cop	_	_
+31	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	28	advcl	_	_
+33	per	per	ADP	E	_	34	mark	_	_
+34	espandere	espandere	VERB	V	VerbForm=Inf	32	advcl	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+36	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	38	det:poss	_	_
+37	presunta	presunto	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	_
+38	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	scapito	scapito	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	fruizione	fruizione	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+44	genuina	genuino	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = Vediamo, allora, la normalità, il buon cinema, il cinema che racconta storie vere, che celebra il patriottismo e i valori che ci hanno reso una nazione.
+1	Vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	allora	allora	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	normalità	normalità	NOUN	S	Gender=Fem	1	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	buon	buono	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	cinema	cinema	NOUN	S	Gender=Masc	1	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cinema	cinema	NOUN	S	Gender=Masc	10	appos	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	storie	storia	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+17	vere	vero	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	celebra	celebrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	patriottismo	patriottismo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	valori	valore	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	_
+26	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+27	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	29	iobj	_	_
+28	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Troppo magari impegnativo per i gusti della categoria.
+1	Troppo	troppo	ADV	B	_	3	advmod	_	_
+2	magari	magari	ADV	B	_	3	advmod	_	_
+3	impegnativo	impegnativo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = La premiazione a questi Golden Globe è una conferma.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	premiazione	premiazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	Golden	Golden	PROPN	SP	_	2	nmod	_	_
+6	Globe	Globe	PROPN	SP	_	5	flat:name	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Il cinema americano, una volta sinonimo di eroismo e ideali, si è lasciato corrompere da una mentalità globalista, da un’attenzione spasmodica al politicamente corretto, da una preferenza per figure che non hanno nulla da dire, ma tanto da mostrare.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cinema	cinema	NOUN	S	Gender=Masc	15	nsubj	_	_
+3	americano	americano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	sinonimo	sinonimo	NOUN	S	Gender=Masc|Number=Sing	6	compound	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	eroismo	eroismo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	ideali	ideale	ADJ	A	Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	corrompere	corrompere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	mentalità	mentalità	NOUN	S	Gender=Fem	16	obl	_	_
+20	globalista	globalista	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	16	obl:agent	_	_
+25	spasmodica	spasmodicare	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	politicamente	politicamente	ADV	B	_	29	advmod	_	_
+29	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	16	punct	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	preferenza	preferenza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+34	per	per	ADP	E	_	35	case	_	_
+35	figure	figura	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	_
+36	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+37	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+38	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+39	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	38	obj	_	_
+40	da	da	ADP	E	_	41	mark	_	_
+41	dire	dire	VERB	V	VerbForm=Inf	39	acl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	46	punct	_	_
+43	ma	ma	CCONJ	CC	_	46	cc	_	_
+44	tanto	tanto	ADV	B	_	46	advmod	_	_
+45	da	da	ADP	E	_	46	mark	_	_
+46	mostrare	mostrare	VERB	V	VerbForm=Inf	16	conj	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 11
+# text = Stallone, con la sua carriera costruita sull'onore e la ded
+1	Stallone	Stallone	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	costruita	costruire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8-9	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+8	su	su	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	onore	onore	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ded	ded	NOUN	S	Gender=Fem	10	conj	_	SpacesAfter=\n
+

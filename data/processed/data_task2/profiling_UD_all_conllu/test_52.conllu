@@ -1,0 +1,391 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fogli, cosa risponde?
+1	Fogli	Fogli	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+4	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = "Ma cosa ne sanno di cosa sono stato a fare?
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	Ma	CCONJ	CC	_	5	cc	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	expl:impers	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = È come accusare di comunismo chi va con la bandiera rossa in Piazza del Popolo.
+1	È	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3	accusare	accusare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	comunismo	comunismo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	chi	chi	PRON	PR	PronType=Rel	3	nsubj	_	_
+7	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bandiera	bandiera	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Popolo	Popolo	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = A Sebastopoli in piazza non c'era la polizia ma libero accesso, c'erano bandiere ucraine e bandiere russe, e nessuno mi ha obbligato a dire nulla".
+1	A	a	ADP	E	_	2	case	_	_
+2	Sebastopoli	Sebastopoli	PROPN	SP	_	7	obl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	libero	libero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+16	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+17	ucraine	ucraino	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+20	russe	russo	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	e	e	CCONJ	CC	_	26	cc	_	_
+23	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	26	nsubj	_	_
+24	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	iobj	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	obbligato	obbligare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	dire	dire	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	28	obj	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Cosa pensa del referendum?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	referendum	referendum	NOUN	S	Gender=Masc	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = "L'hanno votato soprattutto i ragazzi:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	soprattutto	soprattutto	ADV	B	_	7	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = attraverso Internet vedono ciò che vorrebbero avere e che nella situazione in cui vivevano non avrebbero mai raggiunto.
+1	attraverso	attraverso	ADP	E	_	2	case	_	_
+2	Internet	Internet	PROPN	SP	_	3	obl	_	_
+3	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	vorrebbero	vorere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	avere	avere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	e	e	CCONJ	CC	_	19	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+15	vivevano	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	mai	mai	ADV	B	_	19	advmod	_	_
+19	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Io sono stato invitato a cantare le mie canzoni degli anni 80, allora c'era ancora il muro di Berlino e ascoltandole riuscivano a sognare".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	cantare	cantare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	canzoni	canzone	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	80	80	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	allora	allora	ADV	B	_	17	advmod	_	_
+16	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	SpaceAfter=No
+17	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+18	ancora	ancora	ADV	B	_	17	advmod	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	muro	muro	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Berlino	Berlino	PROPN	SP	_	20	nmod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	ascoltandole	_	_	_	_	_	_	_	_
+24	ascoltando	ascoltare	VERB	V	VerbForm=Ger	26	advcl	_	_
+25	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	24	obj	_	_
+26	riuscivano	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	sognare	sognare	VERB	V	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Lei conosce bene la realtà ucraina?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	realtà	realtà	NOUN	S	Gender=Fem	2	obj	_	_
+6	ucraina	ucraino	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = "Mi informo ma i giornali non hanno fatto molta chiarezza:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	informo	informo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ma	ma	CCONJ	CC	_	9	cc	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+10	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
+11	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 11
+# text = chi c'era dietro le barricate a Kiev?
+1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+4	dietro	dietro	ADV	B	_	6	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	barricate	barricata	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Kiev	Kiev	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Lo sanno tutti che i manifestanti erano manipolati.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	manifestanti	manifestante	NOUN	S	Number=Plur	8	nsubj:pass	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+8	manipolati	manipolare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = E visto che la Crimea ha rinnovato il contratto per le basi russe per altri 50 anni, e che per l'80% sono russi, probabilmente qualcuno che inizia con la P ha spinto per un referendum.
+1	E	e	CCONJ	CC	_	36	cc	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Crimea	Crimea	PROPN	SP	_	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	rinnovato	rinnovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	basi	base	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	russe	russo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	altri	altro	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+16	50	50	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	26	punct	_	_
+19	e	e	CCONJ	CC	_	26	cc	_	_
+20	che	che	SCONJ	CS	_	26	mark	_	_
+21	per	per	ADP	E	_	24	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+23	80	80	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+24	%	%	SYM	SYM	_	26	obl	_	_
+25	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	russi	russo	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	probabilmente	probabilmente	ADV	B	_	29	advmod	_	_
+29	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	36	nsubj	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	P	P	PROPN	SP	_	31	obl	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	referendum	referendum	NOUN	S	Gender=Masc	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	36	punct	_	_
+
+# sent_id = 14
+# text = Mi risulta però che percontrollarne la regolarità siano arrivati osservatori stranieri".
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	però	però	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5-6	percontrollarne	_	_	_	_	_	_	_	_
+5	percontrollar	percontrollare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	regolarità	regolarità	NOUN	S	Gender=Fem	5	obj	_	_
+9	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+11	osservatori	osservatore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+12	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = L'Europa e Obama criticano il referendum.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Europa	Europa	PROPN	SP	_	5	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Obama	Obama	PROPN	SP	_	2	conj	_	_
+5	criticano	criticare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	referendum	referendum	NOUN	S	Gender=Masc	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = "Nella Costituzione russa è contemplata l'annessione di altri paesi e in Crimea la maggioranza è voluta tornare da dove veniva.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2-3	Nella	_	_	_	_	_	_	_	_
+2	In	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+5	russa	russo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	contemplata	contemplare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	annessione	annessione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	altri	altro	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	e	e	CCONJ	CC	_	19	cc	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Crimea	Crimea	PROPN	SP	_	19	obl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	voluta	volere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+20	tornare	tornare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	dove	dove	ADV	B	_	23	advmod	_	_
+23	veniva	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Le sanzioni sono un errore, ci rimetteremo tutti.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	errore	errore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	rimetteremo	rimettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	5	conj	_	_
+9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Anche la minoranza in Crimea si convincerà:
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	minoranza	minoranza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Crimea	Crimea	PROPN	SP	_	3	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	convincerà	convincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 19
+# text = vedrete che il 6% di crescita del Pil diventerà presto il 26%, qui è già pieno di alberghi".
+1	vedrete	vedere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	11	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	6	6	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	SYM	_	11	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Pil	Pil	PROPN	SP	_	7	nmod	_	_
+11	diventerà	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+12	presto	presto	ADV	B	_	11	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	26	26	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	SYM	SYM	_	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	qui	qui	ADV	B	_	20	advmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	già	già	ADV	B	_	20	advmod	_	_
+20	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	alberghi	albergo	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = La Crimea ora può sognare con Putin?
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Crimea	Crimea	PROPN	SP	_	5	nsubj	_	_
+3	ora	ora	ADV	B	_	5	advmod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sognare	sognare	VERB	V	VerbForm=Inf	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	Putin	Putin	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = "Putin ha reso la Russia più libera, non è più un regime".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Putin	Putin	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Russia	Russia	PROPN	SP	_	4	obj	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	libera	libero	ADJ	A	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	più	più	ADV	B	_	14	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	regime	regime	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,705 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Così Brendan Iribe, al TechCrunch Disrupt di New York di martedì.
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	Brendan	Brendan	PROPN	SP	_	0	root	_	_
+3	Iribe	Iribe	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	TechCrunch	TechCrunch	PROPN	SP	_	2	nmod	_	_
+8	Disrupt	Disrupt	PROPN	SP	_	7	flat:name	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	New	New	PROPN	SP	_	7	nmod	_	_
+11	York	York	PROPN	SP	_	10	flat:name	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	martedì	martedì	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Trentacinque anni, felpa grigia e camicia bianca indossate sotto una giacca scura, è l'amministratore delegato della Oculus Vr di Irvine, California.
+1	Trentacinque	trentacinque	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	felpa	felpare	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	grigia	grigia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	camicia	camicia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+8	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	indossate	indossare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+10	sotto	sotto	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	giacca	giacca	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	scura	scuro	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	amministratore	amministratore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	delegato	delegato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Oculus	Oculus	PROPN	SP	_	17	nmod	_	_
+22	Vr	Vr	PROPN	SP	_	21	flat:name	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Irvine	Irvine	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	California	California	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = La stessa comprata da Facebook per due miliardi di dollari poco più di un mese fa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	comprata	comprare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Facebook	Facebook	PROPN	SP	_	3	nmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	poco	poco	ADV	B	_	12	advmod	_	_
+12	più	più	ADV	B	_	8	advmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mese	mese	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	fa	fa	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = L'azienda fece la sua apparizione nel 2012 su Kickstarter, il sito di crowdfunding, con un visore dotato di schermi in hd capace di far immergere le persone in ambienti digitali, principalmente quelli dei videogame.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	apparizione	apparizione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2012	2012	NUM	N	NumType=Card	3	obl	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	Kickstarter	Kickstarter	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sito	sito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	crowdfunding	crowdfunding	NOUN	S	Gender=Masc	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	visore	visore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+21	dotato	dotato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	schermi	schermo	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	hd	hd	NOUN	S	Gender=Masc	23	nmod	_	_
+26	capace	capace	ADJ	A	Number=Sing	25	amod	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	far	fare	VERB	V	VerbForm=Inf	26	advcl	_	_
+29	immergere	immergere	VERB	V	VerbForm=Inf	28	ccomp	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	persone	persona	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+34	digitali	digitale	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	14	punct	_	_
+36	principalmente	principalmente	ADV	B	_	37	advmod	_	_
+37	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	14	nmod	_	_
+38-39	dei	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	videogame	videogame	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Rispetto alla realtà aumentata dei Google Glass, che sovrappone informazioni prese dal Web a quel che guardiamo, siamo quindi all'estremo opposto.
+1	Rispetto	rispetto	ADV	B	_	4	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	realtà	realtà	NOUN	S	Gender=Fem	28	obl	_	_
+5	aumentata	aumentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Google	Google	PROPN	SP	_	5	obl	_	_
+9	Glass	Glass	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	sovrappone	sovrapporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	prese	prendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Web	web	PROPN	SP	_	14	obl:agent	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+21	guardiamo	guardare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	4	punct	_	_
+23	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	cop	_	_
+24	quindi	quindi	ADV	B	_	28	advmod	_	_
+25-26	all'	_	_	_	_	_	_	_	SpaceAfter=No
+25	a	a	ADP	E	_	28	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+27	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	opposto	opposto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 6
+# text = Il traguardo di Irbe&Co.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	traguardo	traguardo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Irbe&Co	Irbe&Co	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = era ottenere donazioni per 250 mila dollari e iniziare a produrre il visore.
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	ottenere	ottenere	VERB	V	VerbForm=Inf	0	root	_	_
+3	donazioni	donazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	250	250	NUM	N	NumType=Card	7	nummod	_	_
+6	mila	mila	NUM	N	NumType=Card	5	flat	_	_
+7	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	iniziare	iniziare	VERB	V	VerbForm=Inf	2	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	produrre	produrre	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	visore	visore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Nel giro di una manciata di giorni si ritrovarono per le mani due milioni e mezzo di dollari.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giro	giro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	manciata	manciata	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	ritrovarono	ritrovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	mani	mano	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Che fosse la strada da seguire l'hanno capito quasi tutti.
+1	Che	che	PRON	PQ	PronType=Int	0	root	_	_
+2	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	strada	strada	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	seguire	seguire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+10	quasi	quasi	ADV	B	_	11	advmod	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Sony si è messa a lavorare sul suo Project Morpheus, la software house Valve ha anche lei un apparecchio del genere, mentre voci di corridoio danno per certo lo sviluppo di dispositivi identici in casa Microsoft ed Apple.
+1	Sony	Sony	PROPN	SP	_	4	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	lavorare	lavorare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+7-8	sul	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Project	Project	PROPN	SP	_	17	obl	_	_
+11	Morpheus	Morpheus	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	software	software	NOUN	S	Gender=Masc	17	nsubj	_	_
+15	house	houso	NOUN	S	Gender=Fem	14	compound	_	_
+16	Valve	Valvo	PROPN	SP	_	14	nmod	_	_
+17	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	apparecchio	apparecchio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	genere	genere	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	mentre	mentre	SCONJ	CS	_	30	mark	_	_
+27	voci	voce	NOUN	S	Gender=Fem|Number=Plur	30	nsubj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	corridoio	corridoio	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+30	danno	danno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	certo	certo	ADV	B	_	30	advmod	_	_
+33	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	dispositivi	dispositivo	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+37	identici	identico	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	casa	casa	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+40	Microsoft	Microsoft	PROPN	SP	_	39	nmod	_	_
+41	ed	e	CCONJ	CC	_	42	cc	_	_
+42	Apple	Apple	PROPN	SP	_	40	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 11
+# text = In palio c'è un mercato di esperienze digitali che va dal settore dei giochi elettronici e dai suoi 50 miliardi di dollari a quello dei social network.
+1	In	in	ADP	E	_	2	case	_	_
+2	palio	palio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	digitali	digitale	ADJ	A	Number=Plur	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	settore	settore	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+18	elettronici	elettronico	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	CC	_	24	cc	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	24	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+22	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+23	50	50	NUM	N	NumType=Card	24	nummod	_	_
+24	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	social	social	ADJ	A	Number=Sing	32	amod	_	_
+32	network	network	NOUN	S	Gender=Masc	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Sulla carta, la gallina dalle uova d'oro.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	carta	carta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gallina	gallina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	uova	uovo	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	oro	oro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = E pensare che si tratta di un sogno antico che ha sedotto scrittori e registi ma che nella sua declinazione merceologica in passato è stato un fallimento.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	antico	antico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sedotto	sedurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	registi	regista	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	ma	ma	CCONJ	CC	_	28	cc	_	_
+17	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	declinazione	declinazione	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+22	merceologica	merceologico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	passato	passato	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+26	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	cop	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Il Sensorama, 1957, era una sorta di macchina da sala giochi dove si infilava il volto per vedere film in tre dimensioni e in grado di riprodurre vibrazioni e odori.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sensorama	Sensorama	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	1957	1957	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	sala	sala	NUM	N	NumType=Card	13	nummod	_	_
+13	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+14	dove	dove	ADV	B	_	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	infilava	infilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	volto	volto	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	vedere	vedere	VERB	V	VerbForm=Inf	16	advcl	_	_
+21	film	film	NOUN	S	Gender=Masc	20	obj	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	tre	tre	NUM	N	NumType=Card	24	nummod	_	_
+24	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	grado	grado	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	riprodurre	riprodurre	VERB	V	VerbForm=Inf	27	acl	_	_
+30	vibrazioni	vibrazione	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	odori	odore	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = Costava troppo, non uscì mai dalla fase sperimentale.
+1	Costava	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	troppo	troppo	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	uscì	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+6	mai	mai	ADV	B	_	5	advmod	_	_
+7-8	dalla	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fase	fase	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	sperimentale	sperimentale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Poi arrivò Jaron Lanier, il "padre" del termine "realtà virtuale".
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	arrivò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Jaron	Jaron	PROPN	SP	_	2	nsubj	_	_
+4	Lanier	Lanier	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	padre	padre	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	termine	termine	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+14	realtà	realtà	NOUN	S	Gender=Fem	8	nmod	_	_
+15	virtuale	virtuale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = È sempre stato un marziano nella Silicon Valley e non solo per i capelli da rasta e per quella passione sfrenata per strumenti musicali di sua invenzione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	sempre	sempre	ADV	B	_	5	advmod	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	marziano	marziano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Silicon	Silicon	PROPN	SP	_	5	nmod	_	_
+9	Valley	Valley	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	15	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	solo	solo	ADV	B	_	15	advmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	capelli	capello	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	rasta	rasta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	passione	passione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+22	sfrenata	sfrenare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+25	musicali	musicale	ADJ	A	Number=Plur	24	amod	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	invenzione	invenzione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Ma prima che passasse dall'altra parte della barricata, con saggi infuocati contro il mondo dell'hi-tech come Tu non sei un gadget (Mondadori, 2010), Lanier ha immaginato (e costruito) il nostro presente prossimo quando era ancora futuro remoto.
+1	Ma	ma	CCONJ	CC	_	36	cc	_	_
+2	prima	prima	ADV	B	_	4	mark	_	_
+3	che	che	SCONJ	CS	_	2	fixed	_	_
+4	passasse	passare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	advcl	_	_
+5-6	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	8	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	altra	altro	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	barricata	barricata	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	saggi	saggio	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+15	infuocati	infuocato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	contro	contro	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	hi-tech	hi-tech	NOUN	S	Gender=Masc	18	nmod	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	Tu	tu	PROPN	SP	_	15	obl	_	_
+24	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+25	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	gadget	gadget	NOUN	S	Gender=Masc	4	advcl	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	Mondadori	Mondadori	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	29	punct	_	_
+31	2010	2010	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	4	punct	_	_
+34	Lanier	Lanier	PROPN	SP	_	36	nsubj	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	immaginato	immaginare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+37	(	(	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	conj	_	SpaceAfter=No
+40	)	)	PUNCT	FB	_	39	punct	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+42	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+43	presente	presente	ADJ	A	Number=Sing	44	amod	_	_
+44	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	36	obj	_	_
+45	quando	quando	SCONJ	CS	_	48	mark	_	_
+46	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
+47	ancora	ancora	ADV	B	_	48	advmod	_	_
+48	futuro	futuro	ADJ	A	Gender=Masc|Number=Sing	36	advcl	_	_
+49	remoto	remoto	NOUN	S	Gender=Masc|Number=Sing	48	nsubj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	36	punct	_	_
+
+# sent_id = 19
+# text = Peccato che il suo visore collegato a un guanto, parliamo dei primi anni Novanta, aveva costi proibitivi.
+1	Peccato	peccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	18	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	visore	visore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+6	collegato	collegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	guanto	guanto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	appos	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	15	amod	_	_
+15	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+16	Novanta	novanta	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+19	costi	costo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	proibitivi	proibitivo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Nel '95 ci provò anche la Nintendo con il Virtual Boy.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	'95	'95	NUM	N	NumType=Card	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	provò	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Nintendo	Nintendo	PROPN	SP	_	5	nsubj	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Virtual	virtual	PROPN	SP	_	8	nmod	_	_
+12	Boy	Boy	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Un altro buco nell'acqua, stavolta perché faceva venire il mal di testa.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	buco	buco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	stavolta	stavolta	ADV	B	_	10	advmod	_	_
+9	perché	perché	SCONJ	CS	_	10	mark	_	_
+10	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+11	venire	venire	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mal	male	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	testa	testa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = "Il futuro è una questione complicata.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	complicata	complicato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = Bisogna fare i conti con diversi finali possibili e ognuno di loro possiede tutte le variabili del presente", rispondeva Lanier quando gli chiedevano una previsione.
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	conti	conto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	finali	finale	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+8	possibili	possibile	ADJ	A	Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
+13	possiede	possedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	variabili	variabile	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	presente	presente	ADJ	A	Number=Sing	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	rispondeva	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+23	Lanier	Lanier	PROPN	SP	_	22	nsubj	_	_
+24	quando	quando	SCONJ	CS	_	26	mark	_	_
+25	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	_
+26	chiedevano	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	advcl	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	previsione	previsione	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 24
+# text = Ma mai avrebbe immaginato che sarebbero serviti venti anni perché la sua idea arrivasse al successo.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	mai	mai	ADV	B	_	4	advmod	_	_
+3	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	immaginato	immaginare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	serviti	servire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+8	venti	venti	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+10	perché	perché	SCONJ	CS	_	13	mark	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	idea	idea	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	arrivasse	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	successo	successo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = O quasi.
+1	O	o	CCONJ	CC	_	3	cc	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 26
+# text = Nessuno di questi dispositivi, dall'Oculus a Morpheus, è in vendita.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	dispositivi	dispositivo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6-7	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Oculus	Oculus	PROPN	SP	_	1	nmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Morpheus	Morpheus	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	vendita	vendita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 27
+# text = Il primo però dovrebbe uscire a Natale o a inizio 2015 attorno ai 300 euro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	nsubj	_	_
+3	però	però	ADV	B	_	5	advmod	_	_
+4	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	uscire	uscire	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Natale	Natale	PROPN	SP	_	5	obl	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	2015	2015	NUM	N	NumType=Card	10	nummod	_	_
+12	attorno	attorno	ADV	B	_	16	case	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	300	300	NUM	N	NumType=Card	16	nummod	_	_
+16	euro	euro	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Poco, considerando che apre le porte alla fantascienza.
+1	Poco	poco	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	considerando	considerare	VERB	V	VerbForm=Ger	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	porte	porta	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fantascienza	fantascienza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,355 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel corso di un'intervista, Mastelloni ha dichiarato:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Mastelloni	Mastelloni	PROPN	SP	_	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = "Meglio frocio che gay".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Meglio	meglio	ADJ	A	_	3	amod	_	_
+3	frocio	frocio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	case	_	_
+5	gay	gay	PROPN	SW	Foreign=Yes	3	acl:relcl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Una frase che ha sconcertato non solo gli esperti di politica, ma anche il pubblico generico.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sconcertato	sconcertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	solo	solo	ADV	B	_	5	advmod	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	politica	politica	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	anche	anche	ADV	B	_	16	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+17	generico	generico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Eppure, purtroppo, non si tratta di un'eccezione.
+1	Eppure	eppure	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	purtroppo	purtroppo	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Siamo costretti a constatare che, in Italia, il tema dell'omofobia è ancora tristemente presente.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	constatare	constatare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	che	che	SCONJ	CS	_	18	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	18	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	18	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tema	tema	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	omofobia	omofobia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	ancora	ancora	ADV	B	_	18	advmod	_	_
+17	tristemente	tristemente	ADV	B	_	18	advmod	_	_
+18	presente	presente	ADJ	A	Number=Sing	4	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ma perché Mastelloni ha pronunciato queste parole?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	perché	perché	SCONJ	CS	_	5	mark	_	_
+3	Mastelloni	Mastelloni	PROPN	SP	_	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pronunciato	pronunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	parole	parola	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Per chi lo conosce, queste dichiarazioni non rappresentano certo una sorpresa.
+1	Per	per	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PQ	PronType=Int	9	obl	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	certo	certo	ADV	B	_	9	advmod	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	9	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = Da anni, infatti, il consigliere comunale è noto per le sue posizioni retrograde e chauvinistiche.
+1	Da	da	ADP	E	_	2	case	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	comunale	comunale	ADJ	A	Number=Sing	7	amod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	noto	noto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+15	retrograde	retrograda	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	chauvinistiche	chauvinistica	ADJ	A	Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 9
+# text = Tuttavia, ciò non giustifica in alcun modo il lenguaje omofobo che ha utilizzato.
+1	Tuttavia	tuttavia	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	giustifica	giustificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lenguaje	lenguaje	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+11	omofobo	omofobo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Dobbiamo essere così chiari:
+1	Dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	chiari	chiaro	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = le parole di Mastelloni non rappresentano in alcun modo la posizione del nostro giornale.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Mastelloni	Mastelloni	PROPN	SP	_	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Il Giornale, come noto, si impegna costantemente per la promozione dei diritti civili e per la lotta contro ogni forma di discriminazione.ięks poca importa l'orientamento sessuale o l'identità di genere di una persona.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADV	B	_	5	advmod	_	_
+5	noto	noto	ADJ	A	Gender=Masc|Number=Sing	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	impegna	impegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	costantemente	costantemente	ADV	B	_	8	advmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	promozione	promozione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	civili	civile	ADJ	A	Number=Plur	15	amod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+21	contro	contro	ADP	E	_	23	case	_	_
+22	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	23	det	_	_
+23	forma	forma	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	discriminazione.ięks	discriminazione.ięks	NOUN	S	Gender=Fem	23	nmod	_	_
+26	poca	poco	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	orientamento	orientamento	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	sessuale	sessuale	ADJ	A	Number=Sing	29	amod	_	_
+31	o	o	CCONJ	CC	_	33	cc	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	identità	identità	NOUN	S	Gender=Fem	29	conj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	genere	genere	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	persona	persona	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Tutti meritano rispetto e uguaglianza.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	meritano	meritano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rispetto	rispetto	ADV	B	_	2	advmod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	uguaglianza	uguaglianza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Purtroppo, le dichiarazioni di Mastelloni rappresentano solo l'ultima di una serie di gaffe che hanno macchiato l'immagine della politica italiana e hanno influito negativamente sull'opinione pubblica.
+1	Purtroppo	purtroppo	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Mastelloni	Mastelloni	PROPN	SP	_	4	nmod	_	_
+7	rappresentano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	ultima	ultima	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	serie	serie	NOUN	S	Gender=Fem	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	gaffe	gaffa	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	macchiato	macchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	politica	politica	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	influito	influire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+28	negativamente	negativamente	ADV	B	_	27	advmod	_	_
+29-30	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+29	su	su	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+32	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Siamo stati testimoni di unsubstring di proposte assurde e dichiarazioni offensivi che hanno portato solo confusione e divisione.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	cop	_	_
+3	testimoni	testimonio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	unsubstring	unsubstring	NOUN	S	Gender=Fem	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	proposte	proposta	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	assurde	assurda	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+11	offensivi	offensivo	ADJ	A	Number=Plur	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	solo	solo	ADV	B	_	16	advmod	_	_
+16	confusione	confusione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = È il momento di dire basta.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	3	acl	_	_
+6	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Siamo chiamati a lottare per un'Italia più giusta, più equa e più civile.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	lottare	lottare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Italia	Italia	PROPN	SP	_	4	obl	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	equa	equo	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	civile	civile	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Questo significa proclamare a gran voce il diritto alla libertà e alla dignità per tutti, indipendentemente dalle loro preferenze sessuali.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	proclamare	proclamare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	gran	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	voce	voce	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	libertà	libertà	NOUN	S	Gender=Fem	8	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dignità	dignità	NOUN	S	Gender=Fem	2	conj	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	indipendentemente	indipendentemente	ADV	B	_	2	conj	_	_
+20-21	dalle	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+24	sessuali	sessuale	ADJ	A	Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = E
+1	E	e	CCONJ	CC	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,416 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Pesa oltre 300 chili e non riesce neanche a uscire di casa o lavarsi.
+1	Pesa	pesare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	oltre	oltre	ADP	E	_	4	case	_	_
+3	300	300	NUM	N	NumType=Card	4	nummod	_	_
+4	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	neanche	neanche	ADV	BN	PronType=Neg	7	advmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	uscire	uscire	VERB	V	VerbForm=Inf	7	xcomp	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14-15	lavarsi	_	_	_	_	_	_	_	SpaceAfter=No
+14	lavar	lavare	VERB	V	VerbForm=Inf	1	conj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tutto quello che fa, oltre a mangiare, è passare la giornata davanti al computer, prendendo in giro e dando fastidio alle altre persone, protetto dallo schermo del pc.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	oltre	oltre	ADV	B	_	8	mark	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	mangiare	mangiare	VERB	V	VerbForm=Inf	2	acl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	davanti	davanti	ADV	B	_	17	case	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	computer	computer	NOUN	S	Gender=Masc	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	prendendo	prendere	VERB	V	VerbForm=Ger	11	advcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	giro	giro	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	dando	dare	VERB	V	VerbForm=Ger	19	conj	_	_
+24	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25-26	alle	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	28	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	altre	altro	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+28	persone	persona	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	23	punct	_	_
+30	protetto	protetto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+31-32	dallo	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	schermo	schermo	NOUN	S	Gender=Masc|Number=Sing	30	obl:agent	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	pc	pc	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Come scrive nel suo sito: " La negatività era tutto ciò che avevo e tutto ciò che ero ".
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	sito	sito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	13	punct	_	_
+8	"	"	PUNCT	FB	_	13	punct	_	_
+9	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	negatività	negatività	NOUN	S	Gender=Fem	13	nsubj	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+15	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
+18	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+20	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E così, l'ultima idea di Jesse è quella di iscriversi ad un forum online di bodybuilding per cominciare a infastidire e insultare gli utenti.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	così	così	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	idea	idea	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Jesse	Jessa	PROPN	SP	_	6	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	iscriversi	_	_	_	_	_	_	_	_
+12	iscriver	iscrivere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	ad	a	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	forum	forum	NOUN	S	Gender=Masc	12	obl	_	_
+17	online	online	NOUN	S	Gender=Fem|Number=Plur	16	compound	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	bodybuilding	bodybuilding	NOUN	S	_	17	nmod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	cominciare	cominciare	VERB	V	VerbForm=Inf	12	advcl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	infastidire	infastidire	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	insultare	insultare	VERB	V	VerbForm=Inf	23	conj	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	utenti	utente	NOUN	S	Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Dopo aver pubblicato un annuncio in cui spiega quanto sia grasso, si aspetta che i fanatici della forma fisica e dell'esercizio in palestra comincino ad insultarlo.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+8	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+10	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	grasso	grasso	NOUN	S	Gender=Masc|Number=Sing	9	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	che	che	SCONJ	CS	_	28	mark	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	fanatici	fanatico	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	forma	forma	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	fisica	fisico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	palestra	palestra	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	comincino	cominciare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+29	ad	a	ADP	E	_	30	mark	_	_
+30-31	insultarlo	_	_	_	_	_	_	_	SpaceAfter=No
+30	insultar	insultare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = E invece, il ragazzo viene sommerso da una valanga di consigli, incitamenti, pacche virtuali sulla spalla e infinite forme di incoraggiamento.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	invece	invece	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+6	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	sommerso	sommergere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	valanga	valanga	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	consigli	consiglio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	incitamenti	incitamento	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	pacche	pacca	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+17	virtuali	virtuale	ADJ	A	Number=Plur	16	amod	_	_
+18-19	sulla	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	spalla	spalla	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	infinite	infinito	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	forme	forma	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	incoraggiamento	incoraggiamento	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Qualcosa nel ragazzo cambia e, travolto da un simile affetto da parte degli sconosciuti, rinasce in lui la voglia di rivincita sulla vita.
+1	Qualcosa	Qualcosa	PRON	PI	Number=Sing|PronType=Ind	5	nsubj	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	e	e	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	travolto	travolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	simile	simile	ADJ	A	Number=Sing	12	amod	_	_
+12	affetto	affetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	sconosciuti	sconosciuto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	rinasce	rinascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	rivincita	rivincita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26-27	sulla	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Piccoli accorgimenti alla sua dieta, piccoli esercizi fisici per cominciare.
+1	Piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	accorgimenti	accorgimento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	esercizi	esercizio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+10	fisici	fisico	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	cominciare	cominciare	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Jesse perde peso con estrema facilità, fino a sentirsi pronto per iniziare di nuovo ad uscire di casa.
+1	Jesse	Jere	PROPN	SP	_	2	nsubj	_	_
+2	perde	perde	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	peso	peso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	facilità	facilità	NOUN	S	Gender=Fem	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	fino	fino	ADV	B	_	10	mark	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10-11	sentirsi	_	_	_	_	_	_	_	_
+10	sentir	sentire	VERB	V	VerbForm=Inf	2	advcl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	pronto	pronto	ADJ	A	Gender=Masc|Number=Sing	10	xcomp	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	iniziare	iniziare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	14	obl	_	_
+17	ad	a	ADP	E	_	18	mark	_	_
+18	uscire	uscire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	casa	casa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Si iscrive in palestra , registra su un quaderno le calorie ingerite, i pasti, gli esercizi, tutto sotto la supervisione dei suoi amici bodybuilder, contenti di poter cambiare la vita di chi si è trovato in difficoltà.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	iscrive	iscrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	palestra	palestra	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	registra	registrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	quaderno	quaderno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	calorie	caloria	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+12	ingerite	ingerito	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	pasti	pasto	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	esercizi	esercizio	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	conj	_	_
+21	sotto	sotto	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	supervisione	supervisione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	amici	amico	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+28	bodybuilder	bodybuilder	NOUN	S	_	27	compound	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	contenti	contento	NOUN	S	Gender=Masc|Number=Plur	27	appos	_	_
+31	di	di	ADP	E	_	33	mark	_	_
+32	poter	potere	AUX	VM	VerbForm=Inf	33	aux	_	_
+33	cambiare	cambiare	VERB	V	VerbForm=Inf	30	acl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	vita	vita	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	chi	chi	PRON	PR	PronType=Rel	35	nmod	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	40	expl	_	_
+39	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl:relcl	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	difficoltà	difficoltà	NOUN	S	Gender=Fem	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Oggi Jesse ha perso più di 150 chili, è praticamente irriconoscibile rispetto a prima.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	Jesse	Jesso	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	più	più	ADV	B	_	4	obj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	150	150	NUM	N	NumType=Card	8	nummod	_	_
+8	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	praticamente	praticamente	ADV	B	_	12	advmod	_	_
+12	irriconoscibile	irriconoscibile	ADJ	A	Number=Sing	4	conj	_	_
+13	rispetto	rispetto	ADV	B	_	15	case	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	prima	prima	ADV	B	_	12	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Il suo problema principale adesso è l'enorme quantità di pelle in eccesso che, oltre a creare fastidiosi inestetismi, non gli permette di proseguire come vorrebbe nel raggiungimento del suo obiettivo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	principale	principale	ADJ	A	Number=Sing	3	amod	_	_
+5	adesso	adesso	ADV	B	_	9	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	enorme	enorme	ADJ	A	Number=Sing	9	amod	_	_
+9	quantità	quantità	NOUN	S	Gender=Fem	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	24	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	oltre	oltre	ADV	B	_	18	mark	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	creare	creare	VERB	V	VerbForm=Inf	24	advcl	_	_
+19	fastidiosi	fastidioso	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	inestetismi	inestetismo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	_
+24	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	proseguire	proseguire	VERB	V	VerbForm=Inf	24	ccomp	_	_
+27	come	come	SCONJ	CS	_	28	mark	_	_
+28	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	raggiungimento	raggiungimento	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Per questo motivo, postando le foto del prima e dopo su internet, ha avviato una campagna di raccolta fondi per riuscire a permettersi un'operazione chirurgica che costerà 20mila dollari.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	postando	postare	VERB	V	VerbForm=Ger	17	advcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	foto	foto	NOUN	S	Gender=Fem	17	nsubj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	prima	primo	ADV	B	_	7	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	dopo	dopo	ADV	B	_	7	advmod	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	internet	internet	NOUN	S	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avviato	avviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	raccolta	raccolgere	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	fondi	fondo	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	riuscire	riuscire	VERB	V	VerbForm=Inf	17	advcl	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26-27	permettersi	_	_	_	_	_	_	_	_
+26	permetter	permettere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+30	chirurgica	chirurgico	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	costerà	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	acl:relcl	_	_
+33	20mila	20mila	NUM	N	NumType=Card	34	nummod	_	_
+34	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

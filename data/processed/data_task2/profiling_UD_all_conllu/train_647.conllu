@@ -1,0 +1,496 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Simeone, proprio oggi compie 46 anni, è ancora molto giovane ma è già uno degli allenatori più vincenti in circolazione.
+1	Simeone	Simeone	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	proprio	proprio	ADV	B	_	4	advmod	_	_
+4	oggi	oggi	ADV	B	_	5	advmod	_	_
+5	compie	compiere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	46	46	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	ancora	ancora	ADV	B	_	12	advmod	_	_
+11	molto	molto	ADV	B	_	12	advmod	_	_
+12	giovane	giovane	ADJ	A	Number=Sing	5	conj	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	già	già	ADV	B	_	16	advmod	_	_
+16	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	allenatori	allenatorio	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	vincenti	vincente	ADJ	A	Number=Plur	19	amod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Alla vigilia del match contro il Bayern, l’ex Catania e San Lorenzo, aveva fatto sognare i tifosi dell’Inter con la sua dichiarazione d’amore nei confronti del club nerazzurro:
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	match	match	NOUN	S	Gender=Masc	3	nmod	_	_
+7	contro	contro	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Bayern	Bayern	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	ex	ex	ADJ	A	_	13	amod	_	_
+13	Catania	Catania	PROPN	SP	_	19	nsubj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	San	San	PROPN	SP	_	13	conj	_	_
+16	Lorenzo	Lorenzo	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	sognare	sognare	VERB	V	VerbForm=Inf	19	ccomp	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23-24	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Inter	Inter	PROPN	SP	_	22	nmod	_	_
+26	con	con	ADP	E	_	29	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+30	d’	di	ADP	E	_	31	case	_	SpaceAfter=No
+31	amore	amore	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32-33	nei	_	_	_	_	_	_	_	_
+32	in	in	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	club	club	NOUN	S	Gender=Masc	34	nmod	_	_
+38	nerazzurro	nerazzurro	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
+39	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 3
+# text = “ Con Javier Zanetti mi sento al telefono e non ho paura di dirlo:
+1	“	“	PUNCT	FB	_	6	punct	_	_
+2	Con	con	ADP	E	_	3	case	_	_
+3	Javier	Javier	PROPN	SP	_	6	obl	_	_
+4	Zanetti	Zanetti	PROPN	SP	_	3	flat:name	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+6	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	paura	paura	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	dirlo	_	_	_	_	_	_	_	SpaceAfter=No
+15	dir	dire	VERB	V	VerbForm=Inf	13	acl	_	_
+16	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 4
+# text = un giorno tornerò all’Inter perché ho lasciato un bel ricordo come giocatore.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	tornerò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	all’	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Inter	Inter	PROPN	SP	_	3	obl	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	bel	bello	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = L’obiettivo di allenare l'Inter ce l'ho" . Simeone ha giocato per due stagioni all’Inter mettendo insieme 85 presenze e 14 reti all’attivo, conquistando una Coppa Uefa nel 1998 e sfiorando un Scudetto nello stesso anno.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	allenare	allenare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Inter	Inter	PROPN	SP	_	4	obj	_	_
+7	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+8	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+9	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	_
+11	.	.	PUNCT	FS	_	9	punct	_	_
+12	Simeone	Simeone	PROPN	SP	_	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	due	due	NUM	N	NumType=Card	17	nummod	_	_
+17	stagioni	stagione	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+18-19	all’	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Inter	Inter	PROPN	SP	_	14	obl	_	_
+21	mettendo	mettere	VERB	V	VerbForm=Ger	14	advcl	_	_
+22	insieme	insieme	ADV	B	_	21	advmod	_	_
+23	85	85	NUM	N	NumType=Card	24	nummod	_	_
+24	presenze	presenze	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	14	14	NUM	N	NumType=Card	27	nummod	_	_
+27	reti	rete	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+28-29	all’	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	30	case	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	conquistando	conquistare	VERB	V	VerbForm=Ger	30	advcl	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Coppa	Coppa	PROPN	SP	_	32	obj	_	_
+35	Uefa	Uefa	PROPN	SP	_	34	flat:name	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	1998	1998	NUM	N	NumType=Card	32	obl	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	sfiorando	sfiorare	VERB	V	VerbForm=Ger	32	conj	_	_
+41	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Scudetto	scudetto	PROPN	SP	_	40	obj	_	_
+43-44	nello	_	_	_	_	_	_	_	_
+43	in	in	ADP	E	_	46	case	_	_
+44	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	_
+46	anno	anno	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Non contento delle sue dichiarazioni della vigilia, il tecnico dell’Atletico Madrid ha voluto ribadire il concetto, ai microfoni di Mediaset Premium, al termine del match contro il Bayern Monaco:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	contento	contento	ADJ	A	Gender=Masc|Number=Sing	19	advcl	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+13-14	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Atletico	Atletico	PROPN	SP	_	12	nmod	_	_
+16	Madrid	Madrid	PROPN	SP	_	15	flat:name	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux	_	_
+19	ribadire	ribadire	VERB	V	VerbForm=Inf	0	root	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23-24	ai	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	microfoni	microfone	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Mediaset	Mediaset	PROPN	SP	_	25	nmod	_	_
+28	Premium	Premium	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	19	punct	_	_
+30-31	al	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	termine	termine	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	match	match	NOUN	S	Gender=Masc	32	nmod	_	_
+36	contro	contro	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Bayern	Bayern	PROPN	SP	_	35	nmod	_	_
+39	Monaco	Monaco	PROPN	SP	_	38	flat:name	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 7
+# text = “Il mio futuro?
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Sono contento e orgoglioso di dove sto, ma sono un allenatore giovane e un giorno andrò a Milano.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	orgoglioso	orgoglioso	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	dove	dove	ADV	B	_	7	advmod	_	_
+7	sto	stare	ADJ	A	Gender=Masc|Number=Sing	4	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	allenatore	allenatore	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+13	giovane	giovane	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+17	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Milano	Milano	PROPN	SP	_	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Il calcio italiano, nel mio gioco ideale, mi ha insegnato molto:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+9	ideale	ideale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	molto	molto	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 10
+# text = i tanti allenatori che ho avuto mi hanno fatto pensare al tipo di gioco che faccio.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	tanti	tanto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	allenatori	allenatore	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	pensare	pensare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+17	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Ma non è un gioco italiano il mio:
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mio	mio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 12
+# text = ho preso il meglio da ogni posto in cui sono stato, a cominciare dal mio paese che è l'Argentina” . Mancini ha il contratto in scadenza il 30 giugno del 2017, gode della stima del Presidente Thohir ed è saldo al suo timone ma nel calcio, si sa, mai dire mai.
+1	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	posto	posto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	cominciare	cominciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+15-16	dal	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	paese	paese	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	Argentina	Argentina	PROPN	SP	_	18	acl:relcl	_	SpaceAfter=No
+23	”	”	PUNCT	FB	_	18	punct	_	_
+24	.	.	PUNCT	FS	_	2	punct	_	_
+25	Mancini	Mancini	PROPN	SP	_	26	nsubj	_	_
+26	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	scadenza	scadenza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	30	30	NUM	N	NumType=Card	26	obl	_	_
+33	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	32	flat	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	2017	2017	NUM	N	NumType=Card	32	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	38	punct	_	_
+38	gode	gode	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	stima	stima	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	Presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45	Thohir	Thohir	PROPN	SP	_	44	nmod	_	_
+46	ed	e	CCONJ	CC	_	48	cc	_	_
+47	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+48	saldo	saldo	ADJ	A	Gender=Masc|Number=Sing	38	conj	_	_
+49-50	al	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	52	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	52	det:poss	_	_
+52	timone	timone	NOUN	S	Gender=Masc|Number=Sing	48	obl	_	_
+53	ma	ma	CCONJ	CC	_	59	cc	_	_
+54-55	nel	_	_	_	_	_	_	_	_
+54	in	in	ADP	E	_	56	case	_	_
+55	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	59	obl	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	56	punct	_	_
+58	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	59	expl:impers	_	_
+59	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	conj	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	59	punct	_	_
+61	mai	mai	ADV	B	_	59	advmod	_	_
+62	dire	dire	VERB	V	VerbForm=Inf	59	ccomp	_	_
+63	mai	mai	ADV	B	_	62	advmod	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Il tecnico nerazzurro ha commentato così le voci sul possibile approdo di Simeone sulla panchina dell’Inter:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	nerazzurro	nerazzurro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	commentato	commentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	voci	voce	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	possibile	possibile	ADJ	A	Number=Sing	12	amod	_	_
+12	approdo	approdo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Simeone	Simeone	PROPN	SP	_	12	nmod	_	_
+15-16	sulla	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+18-19	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Inter	Inter	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 14
+# text = "Simeone all’Inter?
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Simeone	Simeorre	PROPN	SP	_	0	root	_	_
+3-4	all’	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Inter	Inter	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Quando andrò via io, non possiamo allenare in due.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
+3	via	via	ADV	B	_	2	advmod	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	allenare	allenare	VERB	V	VerbForm=Inf	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	due	due	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Io resto anche l'anno prossimo".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	resto	redere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = I tifosi della Beneamata sognano, un giorno non troppo lontano, di vedere Simeone sulla panchina nerazzurra per ripetere le grandi gesta di Madrid anche a Milano.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Beneamata	Beneamata	PROPN	SP	_	2	nmod	_	_
+6	sognano	sognano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	lontano	lontano	ADV	B	_	9	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	vedere	vedere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+16	Simeone	Simeone	PROPN	SP	_	15	obj	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	panchina	panchina	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20	nerazzurra	nerazzurro	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	ripetere	ripetere	VERB	V	VerbForm=Inf	15	advcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	grandi	grande	ADJ	A	Number=Plur	25	amod	_	_
+25	gesta	gesta	NOUN	S	Number=Sing	22	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Madrid	Madrid	PROPN	SP	_	25	nmod	_	_
+28	anche	anche	ADV	B	_	30	advmod	_	_
+29	a	a	ADP	E	_	30	case	_	_
+30	Milano	Milano	PROPN	SP	_	22	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = La stagione 2017-2018 potrebbe essere il momento giusto:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	2017	2017	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	2018	2018	NUM	N	NumType=Card	3	compound	_	_
+6	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 19
+# text = Mancini permettendo.
+1	Mancini	Mancini	PROPN	SP	_	0	root	_	_
+2	permettendo	permettere	VERB	V	VerbForm=Ger	1	advcl	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

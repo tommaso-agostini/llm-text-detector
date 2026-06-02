@@ -1,0 +1,291 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per Vizzi, mussulmano a modo suo, c'è qualcosa che non quadra in questa manovra:
+1	Per	per	ADP	E	_	2	case	_	_
+2	Vizzi	Vizzi	PROPN	SP	_	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	mussulmano	mussulmare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	10	nsubj	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	quadra	quadrare	ADV	B	_	11	advmod	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	manovra	manovra	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 2
+# text = "Estraballe!
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Estraballe	Estraballe	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = I francesi che vengono a comprarsi la nostra televisione!
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	francesi	francese	NOUN	S	Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	comprarsi	_	_	_	_	_	_	_	_
+6	comprar	comprare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	televisione	televisione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E.passwordo che Berlusconi, che dio benedica la sua memoria, si turningerebbe_MAI_nel sepolcro!".
+1	E.passwordo	E.passwordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	Berlusconi	Berlusconi	PROPN	SP	_	1	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	dio	diare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	benedica	benedire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	turningerebbe_MAI_nel	turningerebbe_MAI_nel	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	sepolcro	sepolcro	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E lui, Vizzi, ne sa qualcosa di Mediaset, avendo lavorato per anni come tecnico di manutenzione negli studi televisivi di Cologno Monzese.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Vizzi	Vizzi	PROPN	SP	_	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Mediaset	Mediaset	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	avendo	avere	AUX	VA	VerbForm=Ger	13	aux	_	_
+13	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	come	come	ADP	E	_	17	case	_	_
+17	tecnico	tecnico	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	manutenzione	manutenzione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20-21	negli	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	studi	studio	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	televisivi	televisivo	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Cologno	Cologno	PROPN	SP	_	22	nmod	_	_
+26	Monzese	Monzese	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = E così, tra un caffè e una sigaretta, si lascia andare in una drivenza nostalgia per i tempi passati, quelli di Canale 5, dell'olio d'oliva Berlusconi e dell'audience da.Formica“.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	così	così	ADV	B	_	12	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caffè	caffè	NOUN	S	Gender=Masc	12	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sigaretta	sigaretta	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	andare	andare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	drivenza	drivenza	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	nostalgia	nostalgio	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+21	passati	passato	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	12	punct	_	_
+23	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	12	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Canale	Canale	PROPN	SP	_	23	nmod	_	_
+26	5	5	NUM	N	NumType=Card	25	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	olio	olio	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+31	d'	di	ADP	E	_	32	case	_	SpaceAfter=No
+32	oliva	oliva	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+33	Berlusconi	Berlusconi	PROPN	SP	_	32	nmod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35-36	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+35	di	di	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	audience	audience	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+38	da.Formica	da.Formico	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Ma torniamo alla notizia.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	torniamo	tornare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Vivendi, già azionista di minoranza di Mediaset con il 29%, starebbe valutando l'opzione di aumentare la sua quota di partecipazione fino al 30%.
+1	Vivendi	Vivendio	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	già	già	ADV	B	_	4	advmod	_	_
+4	azionista	azionista	NOUN	S	Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	minoranza	minoranza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Mediaset	Mediaset	PROPN	SP	_	4	nmod	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	29	29	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	starebbe	stare	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	valutando	valutare	VERB	V	VerbForm=Ger	1	advcl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	aumentare	aumentare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	quota	quota	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	fino	fino	ADV	B	_	29	case	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	30	30	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	19	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Un'insidia, secondo Vizzi e altri nostalgici di Mediaset, per l'integrità della società italiana.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	insidia	insidia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	Vizzi	Vizzi	PROPN	SP	_	2	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	conj	_	_
+8	nostalgici	nostalgico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Mediaset	Mediaset	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	integrità	integrità	NOUN	S	Gender=Fem	2	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	società	società	NOUN	S	Gender=Fem	14	nmod	_	_
+18	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = "Estraballe! - esclamano in coro - I francesi che vengono a dettarci legge in casa nostra!".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Estraballe	Estraballe	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+4	-	-	PUNCT	FF	_	2	punct	_	_
+5	esclamano	esclamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	coro	coro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	-	-	PUNCT	FB	_	5	punct	_	_
+9	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	francesi	francese	NOUN	S	Number=Plur	2	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	dettarci	_	_	_	_	_	_	_	_
+14	dettar	dettare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+16	legge	leggere	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	casa	casa	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = E, mentre Vizzi e i suoi compari si chiedono cosa mai potrà succedere alla loro amata TV, in libertà di Vivendi di raggiungere il suo obiettivo, una cosa è certa:
+1	E	e	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	10	punct	_	_
+3	mentre	mentre	SCONJ	CS	_	10	mark	_	_
+4	Vizzi	Vizzi	PROPN	SP	_	10	nsubj	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	compari	comparo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+11	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	nsubj	_	_
+12	mai	mai	ADV	B	_	11	advmod	_	_
+13	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
+14	succedere	succedere	VERB	V	VerbForm=Inf	34	advcl	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	amata	amato	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	TV	TV	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	14	punct	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	libertà	libertà	NOUN	S	Gender=Fem	14	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Vivendi	Vivendi	PROPN	SP	_	22	nmod	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	raggiungere	raggiungere	VERB	V	VerbForm=Inf	22	acl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	14	punct	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	certa	certo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+35	:	:	PUNCT	FC	_	34	punct	_	_
+
+# sent_id = 12
+# text = l'eco della polemica si sentirà fin_family nei Tiempocellence di Mediaset.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	eco	eco	NOUN	S	Gender=Fem	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	sentirà	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	fin_family	fin_family	NOUN	S	Gender=Masc	7	xcomp	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Tiempocellence	Tiempocellence	PROPN	SP	_	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Mediaset	Mediaset	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

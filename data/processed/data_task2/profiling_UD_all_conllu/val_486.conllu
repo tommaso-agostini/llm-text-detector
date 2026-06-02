@@ -1,0 +1,342 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E così, l 'Idv , che n el 2009 con la lista "Di Pietro Italia dei Valori" aveva raccolto l'8% dei voti e portato a casa 7 parlamentari europei, quest'anno si ferma a una percentuale da prefisso telefonico:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	l	l	X	X	_	0	root	_	_
+5	'	'	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	Idv	Idv	PROPN	SP	_	4	flat:name	_	_
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+9	n	n	NOUN	S	Gender=Masc	24	nsubj	_	_
+10	el	el	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	2009	2009	NUM	N	NumType=Card	9	nummod	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lista	lista	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+15	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	Di	Di	ADP	E	_	17	case	_	_
+17	Pietro	Pietro	PROPN	SP	_	14	nmod	_	_
+18	Italia	Italia	PROPN	SP	_	17	flat:name	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Valori	valori	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	17	punct	_	_
+23	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	raccolto	raccogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+26	8	8	NUM	N	NumType=Card	27	nummod	_	SpaceAfter=No
+27	%	%	SYM	SYM	_	24	obj	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	voti	voto	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	casa	casa	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+35	7	7	NUM	N	NumType=Card	36	nummod	_	_
+36	parlamentari	parlamentare	NOUN	S	Number=Plur	42	nsubj	_	_
+37	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	quest'	questo	DET	DD	Number=Sing|PronType=Dem	40	det	_	SpaceAfter=No
+40	anno	anno	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	_	_
+42	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+43	a	a	ADP	E	_	45	case	_	_
+44	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+46	da	da	ADP	E	_	47	case	_	_
+47	prefisso	prefisso	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+48	telefonico	telefonico	ADJ	A	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
+49	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = 0,6%.
+1	0,6	0,6	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+2	%	%	SYM	SYM	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Non ce l'ha fatta nemmeno Fratelli d'Italia , partito esordiente alle Europee capeggiato da Giorgia Meloni, Guido Crosetto e Ignazio La Russa.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	nemmeno	nemmeno	ADV	BN	PronType=Neg	7	advmod	_	_
+7	Fratelli	fratelli	PROPN	SP	_	5	nsubj	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	Italia	Italia	PROPN	SP	_	7	nmod	_	_
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	partito	partito	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+12	esordiente	esordiente	ADJ	A	Number=Sing	11	amod	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	Europee	europee	PROPN	SP	_	12	obl	_	_
+16	capeggiato	capeggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	Giorgia	Giorgia	PROPN	SP	_	16	obl:agent	_	_
+19	Meloni	Meloni	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	Guido	Guido	PROPN	SP	_	18	appos	_	_
+22	Crosetto	Crosetto	PROPN	SP	_	21	flat:name	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	Ignazio	Ignazio	PROPN	SP	_	21	conj	_	_
+25	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Russa	Russa	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Flop anche per i Verdi, attestati intorno allo 0,8%.
+1	Flop	Flop	NOUN	S	Gender=Masc	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Verdi	Verdi	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	attestati	attestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+8	intorno	intorno	ADV	B	_	12	case	_	_
+9-10	allo	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	0,8	0,8	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il partito di Angelo Bonelli può consolarsi dal momento che ha preso più voti dell'Idv e di Scelta Europea .
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	partito	partito	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Angelo	Angelo	PROPN	SP	_	2	nmod	_	_
+5	Bonelli	Bonelli	PROPN	SP	_	4	flat:name	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7-8	consolarsi	_	_	_	_	_	_	_	_
+7	consolar	consolare	VERB	V	VerbForm=Inf	0	root	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	momento	momento	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	voti	voto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17-18	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Idv	Idv	PROPN	SP	_	16	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+23	Europea	Europea	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = La formazione dei montiani non arriva neanche allo 0,8%.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	montiani	montiano	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	neanche	neanche	ADV	BN	PronType=Neg	12	advmod	_	_
+9-10	allo	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	0,8	0,8	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	SYM	_	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Infine, misero 0,17% per la lista Io cambio.
+1	Infine	infine	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	misero	midere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	0,17	0,17	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	SYM	_	3	obl	_	_
+6	per	per	ADP	E	_	5	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lista	lista	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+9	Io	Io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Tra gli esclusi eccellenti, politici navigati come Giorgia Meloni di Fratelli d'Italia e Bruno Tabacci di Scelta Europea, ma anche volti noti dello spettacolo e del giornalismo.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	esclusi	escluso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	eccellenti	eccellente	ADJ	A	Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	politici	politico	NOUN	S	Gender=Masc|Number=Plur	3	appos	_	_
+7	navigati	navigare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	Giorgia	Giorgia	PROPN	SP	_	7	obl	_	_
+10	Meloni	Meloni	PROPN	SP	_	9	flat:name	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Fratelli	fratelli	PROPN	SP	_	9	nmod	_	_
+13	d'	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	Italia	Italia	PROPN	SP	_	12	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Bruno	Bruno	PROPN	SP	_	9	conj	_	_
+17	Tabacci	Tabacci	PROPN	SP	_	16	flat:name	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	Europea	Europea	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	ma	ma	CCONJ	CC	_	24	cc	_	_
+23	anche	anche	ADV	B	_	24	advmod	_	_
+24	volti	volto	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+25	noti	noto	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26-27	dello	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	giornalismo	giornalismo	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Non sono stati eletti, tra gli altri, Magdi Cristiano Allam e il fondatore di Stamina Davide Vannoni .
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	eletti	eleggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	Magdi	Magdi	PROPN	SP	_	4	nsubj:pass	_	_
+11	Cristiano	cristiano	PROPN	SP	_	10	flat:name	_	_
+12	Allam	Allam	PROPN	SP	_	10	flat:name	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Stamina	Stamina	PROPN	SP	_	15	nmod	_	_
+18	Davide	Davide	PROPN	SP	_	17	flat:name	_	_
+19	Vannoni	Vannoni	PROPN	SP	_	17	flat:name	_	_
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Resterebbero fuori anche Gianfranco Micicchè, Iva Zanicchi e Alessandro Cecchi Paone.
+1	Resterebbero	Resteere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fuori	fuori	ADV	B	_	1	advmod	_	_
+3	anche	anche	ADV	B	_	1	advmod	_	_
+4	Gianfranco	Gianfranco	PROPN	SP	_	1	nsubj	_	_
+5	Micicchè	Micicché	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Iva	Iva	PROPN	SP	_	4	conj	_	_
+8	Zanicchi	Zanicchi	PROPN	SP	_	7	flat:name	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Alessandro	Alessandro	PROPN	SP	_	4	conj	_	_
+11	Cecchi	Cecchi	PROPN	SP	_	10	flat:name	_	_
+12	Paone	Paone	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Non è stato eletto nemmeno Fabrizio Bracconeri, ex usciere di Forum, che si era candidato con Fdi.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	eletto	eleggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	nemmeno	nemmeno	ADV	BN	PronType=Neg	6	advmod	_	_
+6	Fabrizio	Fabrizio	PROPN	SP	_	4	nsubj:pass	_	_
+7	Bracconeri	Bracconeri	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	ex	ex	ADJ	A	_	10	amod	_	_
+10	usciere	usciere	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Forum	Forum	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	candidato	candidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	Fdi	Fdi	PROPN	SP	_	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Niente da fare pure per Syusy Blady, nome d’arte di Maurizia Giusti, conduttrice tv e capolista della circoscrizione Italia nord-orientale con i Verdi Europei - Green Italia.
+1	Niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	nsubj	_	_
+2	da	da	ADP	E	_	3	mark	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	pure	pure	ADV	B	_	6	advmod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	Syusy	Syusy	PROPN	SP	_	3	obl	_	_
+7	Blady	Blady	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	nome	nome	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	arte	arte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Maurizia	Maurizia	PROPN	SP	_	9	nmod	_	_
+14	Giusti	giusti	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	conduttrice	conduttore	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	tv	tv	NOUN	S	Gender=Fem	16	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	capolista	capolista	NOUN	S	Number=Sing	17	conj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	circoscrizione	circoscrizione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	Italia	Italia	PROPN	SP	_	22	nmod	_	_
+24	nord-orientale	nord-orientale	ADJ	A	Number=Sing	23	amod	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Verdi	Verdi	PROPN	SP	_	16	obl	_	_
+28	Europei	europei	PROPN	SP	_	27	flat:name	_	_
+29	-	-	PUNCT	FF	_	27	punct	_	_
+30	Green	Green	PROPN	SP	_	27	nmod	_	_
+31	Italia	Italia	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = Ylenia Citino, passata da “Uomini e donne” a Forza Italia, dovrebbe anche lei fuori.
+1	Ylenia	Ylenia	PROPN	SP	_	17	nsubj	_	_
+2	Citino	Citino	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	passata	passare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Uomini	uomini	PROPN	SP	_	4	obl:agent	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	donne	donna	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	7	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Forza	Forza	PROPN	SP	_	4	obl	_	_
+13	Italia	Italia	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	1	punct	_	_
+15	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	_
+18	fuori	fuori	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 14
+# text = Non è andata bene nemmeno a GianPiero Samorì.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	_
+5	nemmeno	nemmeno	ADV	BN	PronType=Neg	3	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	GianPiero	GianPiero	PROPN	SP	_	3	obl	_	_
+8	Samorì	Samorì	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

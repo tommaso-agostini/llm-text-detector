@@ -1,0 +1,381 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'uomo, condannato per perpetrare la strage di piazza della Loggia del 1974, era stato considerato malato e quindi scarcerato.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	perpetrare	perpetrare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	strage	strage	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Loggia	Loggia	PROPN	SP	_	8	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	1974	1974	NUM	N	NumType=Card	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+19	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	malato	malato	ADJ	A	Gender=Masc|Number=Sing	20	xcomp	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	quindi	quindi	ADV	B	_	24	advmod	_	_
+24	scarcerato	scarcerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 2
+# text = Ora dovrà scontare gli ultimi mesi di pena in regime di libertà vigilata.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	scontare	scontare	VERB	V	VerbForm=Inf	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	pena	pena	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	regime	regime	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	libertà	libertà	NOUN	S	Gender=Fem	10	nmod	_	_
+13	vigilata	vigilato	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il suo nome era legato al "grande vecchio" di Ordine Nuovo: Giovanni Ventura.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	nome	nome	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	grande	grande	ADJ	A	Number=Sing	5	obl	_	_
+10	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	9	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Ordine	ordine	PROPN	SP	_	9	nmod	_	_
+14	Nuovo	nuovo	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	13	punct	_	_
+16	Giovanni	Giovanni	PROPN	SP	_	13	appos	_	_
+17	Ventura	Ventura	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Stiamo parlando della strage compiuta in piazza della Loggia a Brescia 75 anni fa il 28 maggio 1974 che provocò otto morti e oltre cento feriti.
+1	Stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	parlando	parlare	VERB	V	VerbForm=Ger	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	strage	strage	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	compiuta	compiere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Loggia	Loggia	PROPN	SP	_	8	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Brescia	Brescia	PROPN	SP	_	11	nmod	_	_
+14	75	75	NUM	N	NumType=Card	15	nummod	_	_
+15	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	fa	fa	ADV	B	_	15	advmod	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	28	28	NUM	N	NumType=Card	6	obl	_	_
+19	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	18	flat	_	_
+20	1974	1974	NUM	N	NumType=Card	18	flat	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	provocò	provocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+23	otto	otto	NUM	N	NumType=Card	24	nummod	_	_
+24	morti	morto	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	oltre	oltre	ADV	B	_	27	advmod	_	_
+27	cento	cento	NUM	N	NumType=Card	28	nummod	_	_
+28	feriti	ferito	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Una serie di attentati neofascisti, per cui sono stati assolti i neofascisti dell'Ndb, dopo che già si era vista l'assoluzione di Tramonte condannato il 12 dicembre 2015 dalla Corte d'Assise di appello di Milano al termine del processo d'appello bis.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	serie	serie	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	attentati	attentato	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	neofascisti	neofascista	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	PronType=Rel	11	obl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	assolti	assolvere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	neofascisti	neofascista	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Ndb	Ndb	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	dopo	dopo	ADV	B	_	23	mark	_	_
+19	che	che	SCONJ	CS	_	18	fixed	_	_
+20	già	già	ADV	B	_	23	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+22	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	assoluzione	assoluzione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	Tramonte	Tramonte	PROPN	SP	_	25	nmod	_	_
+28	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	12	12	NUM	N	NumType=Card	28	obl	_	_
+31	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	30	flat	_	_
+32	2015	2015	NUM	N	NumType=Card	30	flat	_	_
+33-34	dalla	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Corte	Corte	PROPN	SP	_	28	obl:agent	_	_
+36	d'	di	ADP	E	_	37	case	_	SpaceAfter=No
+37	Assise	assise	PROPN	SP	_	35	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	appello	appello	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	Milano	Milano	PROPN	SP	_	39	nmod	_	_
+42-43	al	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	termine	termine	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+45-46	del	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	processo	processo	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+48	d'	di	ADP	E	_	49	case	_	SpaceAfter=No
+49	appello	appello	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+50	bis	bis	NOUN	S	Gender=Masc	49	compound	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La Cassazione ha accolto l'istanza della Procura Generale di Milano per il riconoscimento delle prove prodotte nell'inchiesta sui sostegni inglesi dell'Ndb.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Cassazione	cassazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	istanza	istanza	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Procura	Procura	PROPN	SP	_	6	nmod	_	_
+10	Generale	Generale	ADJ	A	Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Milano	Milano	PROPN	SP	_	9	nmod	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	prove	prova	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	prodotte	produrre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23-24	sui	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	sostegni	sostegno	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	inglesi	inglese	ADJ	A	Number=Plur	25	amod	_	_
+27-28	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+27	di	di	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	Ndb	Ndb	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Nella strage sono state accusate cavalieri neri come Delfo Zorzi, Franco Freda Carlo Maria Maggi e Maurizio Tramonte che è stato un uomo dei servizi segreti.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	strage	strage	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	accusate	accusare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	cavalieri	cavaliere	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+8	neri	nero	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	Delfo	Delfo	PROPN	SP	_	7	nmod	_	_
+11	Zorzi	Zorzi	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	Franco	Franco	PROPN	SP	_	10	conj	_	_
+14	Freda	Freda	PROPN	SP	_	13	flat:name	_	_
+15	Carlo	Carlo	PROPN	SP	_	13	flat:name	_	_
+16	Maria	Maria	PROPN	SP	_	13	flat:name	_	_
+17	Maggi	Maggi	PROPN	SP	_	13	flat:name	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Maurizio	Maurizio	PROPN	SP	_	10	conj	_	_
+20	Tramonte	Tramonte	PROPN	SP	_	19	flat:name	_	_
+21	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+23	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	cop	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	19	acl:relcl	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Tramonte è stato indicato dalla difesa Zorzi come colui che ha tirato la valigetta contenente l'ordigno.
+1	Tramonte	Tramonte	PROPN	SP	_	4	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	indicato	indicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dalla	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	_
+8	Zorzi	Zorzi	PROPN	SP	_	7	nmod	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	colui	colui	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	tirato	tirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	valigetta	valigetta	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	contenente	contenere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	15	acl	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ordigno	ordigno	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Tramonte era stato arrestato il 4 luglio 1974 e condannato a 11 anni il 2 luglio 1979 da una Corte d'assise di Appello di Venezia.
+1	Tramonte	Tramonte	PROPN	SP	_	4	nsubj:pass	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	4	4	NUM	N	NumType=Card	4	obl	_	_
+7	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	1974	1974	NUM	N	NumType=Card	6	flat	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	11	11	NUM	N	NumType=Card	13	nummod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	2	2	NUM	N	NumType=Card	10	obl	_	_
+16	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	15	flat	_	_
+17	1979	1979	NUM	N	NumType=Card	15	flat	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Corte	corte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+21	d'	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	assise	assise	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Appello	appello	PROPN	SP	_	20	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Venezia	Venezia	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Traduzione automatica: il 28 maggio 1974, una bomba è esplosa in piazza della Loggia a Brescia, uccidendo otto persone e ferendone 102.
+1	Traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+2	automatica	automatico	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	28	28	NUM	N	NumType=Card	1	nmod	_	_
+6	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	1974	1974	NUM	N	NumType=Card	5	flat	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	bomba	bomba	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	esplosa	esplodere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Loggia	Loggia	PROPN	SP	_	14	nmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Brescia	Brescia	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	uccidendo	uccidere	VERB	V	VerbForm=Ger	12	advcl	_	_
+22	otto	otto	NUM	N	NumType=Card	23	nummod	_	_
+23	persone	persona	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25-26	ferendone	_	_	_	_	_	_	_	_
+25	ferendo	ferire	VERB	V	VerbForm=Ger	21	conj	_	_
+26	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	25	iobj	_	_
+27	102	102	NUM	N	NumType=Card	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = Questa strage era legata a un quattordicente blackout e alla P 2, una loggia "deviata" di piduista.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	strage	strage	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	quattordicente	quattordicente	ADJ	A	Number=Sing	8	amod	_	_
+8	blackout	blackout	NOUN	S	Gender=Masc	4	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	P	P	PROPN	SP	_	8	conj	_	_
+13	2	2	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	loggia	loggia	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	deviata	deviare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	piduista	piduista	NOUN	S	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = L'ultimo atto nel caso era datato 19 maggio scorso, quando la cassazione ha fatto rientrare Bruno sulla libertà vigilata, una decisione che il
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	atto	atto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	caso	caso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+8	datato	datato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+9	19	19	NUM	N	NumType=Card	8	obl	_	_
+10	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	9	flat	_	_
+11	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	quando	quando	SCONJ	CS	_	17	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cassazione	cassazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+18	rientrare	rientrare	VERB	V	VerbForm=Inf	17	ccomp	_	_
+19	Bruno	Bruno	PROPN	SP	_	18	obj	_	_
+20-21	sulla	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	libertà	libertà	NOUN	S	Gender=Fem	18	obl	_	_
+23	vigilata	vigilato	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	SpacesAfter=\n
+

@@ -1,0 +1,448 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ".
+1	"	"	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Percival Everett sceglie con cura le parole.
+1	Percival	Percival	PROPN	SP	_	3	nsubj	_	_
+2	Everett	Everett	PROPN	SP	_	1	flat:name	_	_
+3	sceglie	scegliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	cura	cura	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	parole	parola	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La discriminazione, anche nel linguaggio, è da sempre uno dei temi dei suoi romanzi:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	discriminazione	discriminazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	sempre	sempre	ADV	B	_	12	advmod	_	_
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	temi	tema	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 4
+# text = come in Io non sono Sidney Poitier dove ha raccontato quanto è ormai diventato sottile il razzismo nella società americana.
+1	come	come	ADV	B	_	6	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	Sidney	Sidney	PROPN	SP	_	0	root	_	_
+7	Poitier	Poitier	PROPN	SP	_	6	flat:name	_	_
+8	dove	dove	ADV	B	_	10	advmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	10	obj	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	ormai	ormai	ADV	B	_	14	advmod	_	_
+14	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	sottile	sottile	ADJ	A	Number=Sing	14	xcomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	società	società	NOUN	S	Gender=Fem	17	nmod	_	_
+21	americana	americano	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = "Quel che si può dire, semmai, è che se neri e latini voteranno in massa, sì che faranno la differenza".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	semmai	semmai	ADV	B	_	2	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	che	che	SCONJ	CS	_	22	mark	_	_
+12	se	se	SCONJ	CS	_	16	mark	_	_
+13	neri	nero	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	latini	latino	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	voteranno	votare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	advcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	massa	massa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	16	punct	_	_
+20	sì	sì	ADV	B	_	22	mark	_	_
+21	che	che	SCONJ	CS	_	20	fixed	_	_
+22	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	ccomp	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Eppure Hillary ha fatto breccia nelle comunità afroamericane.
+1	Eppure	eppure	CCONJ	CC	_	4	cc	_	_
+2	Hillary	Hillary	PROPN	SP	_	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	breccia	breccia	ADV	B	_	4	advmod	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	comunità	comunità	NOUN	S	Gender=Fem	4	obl	_	_
+9	afroamericane	afroamericano	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = E attacca Sanders dicendo che riduce tutto all'ineguaglianza economica invece di affrontare il tema del razzismo...
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Sanders	Sanders	PROPN	SP	_	2	obj	_	_
+4	dicendo	dire	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	riduce	ridurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ineguaglianza	ineguaglianza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	economica	economico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	invece	invece	ADV	B	_	14	mark	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14	affrontare	affrontare	VERB	V	VerbForm=Inf	6	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tema	tema	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	razzismo...	razzismo...	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+
+# sent_id = 8
+# text = "A determinare le scelte delle persone sono sempre le condizioni economiche.
+1	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	3	mark	_	_
+3	determinare	determinare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	sempre	sempre	ADV	B	_	12	advmod	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+13	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = La questione di classe è prioritaria rispetto a quella razziale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	questione	questione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	classe	classe	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	prioritaria	prioritario	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	rispetto	rispetto	ADV	B	_	9	case	_	_
+8	a	a	ADP	E	_	7	fixed	_	_
+9	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	obl	_	_
+10	razziale	razziale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = In America i poveri sono trattati male:
+1	In	in	ADP	E	_	2	case	_	_
+2	America	America	PROPN	SP	_	6	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	trattati	trattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	male	male	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 11
+# text = Bernie se ne è occupato più di Hillary.
+1	Bernie	Bernie	ADV	B	_	5	advmod	_	_
+2	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	più	più	ADV	B	_	8	advmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Hillary	Hillary	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Ma la Clinton incassa il sostegno dell'establishment nero e delle chiese locali.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Clinton	Clinton	PROPN	SP	_	4	nsubj	_	_
+4	incassa	incassare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	establishment	establishment	NOUN	S	Gender=Masc	6	nmod	_	_
+10	nero	nero	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	chiese	chiese	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+15	locali	locale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = È la candidata della borghesia nera.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	candidata	candidato	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	borghesia	borghesia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	nera	nero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = È a loro che parla di razzismo".
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Che intende?
+1	Che	che	PRON	PR	PronType=Rel	2	obj	_	_
+2	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = "In America il razzismo è radicato nelle istituzioni e prescinde dalle classi sociali.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	America	America	PROPN	SP	_	7	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	radicato	radicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	prescinde	prescindere	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	classi	classe	NOUN	S	Gender=Fem|Number=Plur	7	obl:agent	_	_
+16	sociali	sociale	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Ma la questione della povertà va affrontata prima:
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	povertà	povertà	NOUN	S	Gender=Fem	3	nmod	_	_
+7	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	affrontata	esaffronere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	prima	prima	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 18
+# text = più si risolveranno i problemi dei poveri, più questo inciderà sul razzismo".
+1	più	più	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	risolveranno	risolvere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+12	inciderà	incidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Lei chi voterebbe?
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+3	voterebbe	votare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = "Mi piace Sanders e il suo essere di sinistra.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Sanders	Sanders	PROPN	SP	_	3	nsubj	_	_
+5	e	e	CCONJ	CC	_	10	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Hillary ha troppe banche alle spalle.
+1	Hillary	Hillary	PROPN	SP	_	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	banche	banca	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Ma sono qualificati entrambi: migliori di qualunque repubblicano".
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	qualificati	qualificare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj:pass	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+6	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	4	amod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	repubblicano	repubblicano	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Nessun repubblicano la convince?
+1	Nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	repubblicano	repubblicano	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	convince	convincia	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = "In gara ci sono le peggiori persone al mondo:
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	gara	gara	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	peggiori	peggiore	ADJ	A	Degree=Cmp|Number=Plur	8	amod	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 25
+# text = un catalogo di razzismo illustrato.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	catalogo	catalogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	illustrato	illustrato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = La loro campagna è una farsa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	farsa	farsa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 27
+# text = Si attaccano a vicenda senza discutere di nulla.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	attaccano	attaccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6	discutere	discutere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Donald Trump, poi, mi ricorda il vostro Berlusconi.
+1	Donald	Donald	PROPN	SP	_	7	nsubj	_	_
+2	Trump	Trump	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	poi	poi	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Berlusconi	Berlusconi	PROPN	SP	_	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 29
+# text = Solo che quello ha fatto male all'Italia.
+1	Solo	solo	ADV	B	_	5	advmod	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	male	male	ADV	B	_	5	obj	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Italia	Italia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = Trump presidente potrebbe fare del male a tutto il mondo ".
+1	Trump	Trump	NOUN	S	Number=Sing	4	nsubj	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	1	compound	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	male	male	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

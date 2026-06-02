@@ -1,0 +1,398 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dove il caffè costi 4 minuti e nei discount si venda tutto a 99 secondi.
+1	Dove	dove	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caffè	caffè	NOUN	S	Gender=Masc	0	root	_	_
+4	costi	corre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5	4	4	NUM	N	NumType=Card	6	nummod	_	_
+6	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	discount	discount	NOUN	S	Gender=Masc	12	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	venda	vendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	99	99	NUM	N	NumType=Card	16	nummod	_	_
+16	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Do­ve lavori per guadagnarti il diritto a rimanere in vita qualche istante di più.
+1	Do­ve	Do­vere	NUM	N	NumType=Card	2	nummod	_	_
+2	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	guadagnarti	_	_	_	_	_	_	_	_
+4	guadagnar	guadagnarre	VERB	V	VerbForm=Inf	2	acl	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	rimanere	rimanere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	istante	istante	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	più	più	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È il futuro distopico creato dal geniale Andrew Niccol (lo sceneggia­tore di The Truman Show ) e tradotto sul grande schermo con questo (sul­la carta) interessante In Time.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	distopico	distopico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	geniale	geniala	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	Andrew	Andrew	PROPN	SP	_	8	nmod	_	_
+10	Niccol	Niccol	PROPN	SP	_	9	flat:name	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sceneggia­tore	sceneggia­tore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	The	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Truman	Truman	PROPN	SP	_	13	nmod	_	_
+17	Show	Show	PROPN	SP	_	16	flat:name	_	_
+18	)	)	PUNCT	FB	_	13	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	tradotto	tradurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	grande	grande	ADJ	A	Number=Sing	24	amod	_	_
+24	schermo	schermo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	24	nmod	_	_
+27	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+28	sul­la	sul­la	DET	RD	Gender=Fem|Number=Sing	29	det	_	_
+29	carta	carta	NOUN	S	Gender=Fem|Number=Sing	24	appos	_	SpaceAfter=No
+30	)	)	PUNCT	FB	_	29	punct	_	_
+31	interessante	interessante	ADJ	A	Number=Sing	24	amod	_	_
+32	In	in	ADP	E	_	33	case	_	_
+33	Time	Time	PROPN	SP	_	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Nel mondo creato da Niccol, il genere umano smette improvvisamen­te di invecchiare a 25 anni.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Niccol	Niccol	PROPN	SP	_	4	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	genere	genere	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	umano	umano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	smette	smetto	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	improvvisamen­te	improvvisamen­to	ADJ	A	Number=Sing	0	root	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	invecchiare	invecchiare	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	25	25	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 5
+# text = Compiuta questa età, ad ogni abitante si atti­va automaticamente un orologio, tatuato sull’avambraccio, che elargi­sce ancora un anno di vita.
+1	Compiuta	compiere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	età	età	NOUN	S	Gender=Fem	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	ad	a	ADP	E	_	7	case	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	abitante	abitante	NOUN	S	Number=Sing	9	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	atti­va	atti­re	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	automaticamente	automaticamente	ADV	B	_	9	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	tatuato	tatuare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15-16	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+15	su	su	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	avambraccio	avambraccio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	elargi­sce	elargi­re	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	ancora	ancora	ADV	B	_	20	advmod	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	anno	anno	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Per sopravvivere, ognuno dovrà cercare di non azzerare mai il proprio tempo a disposizione altrimenti morirà.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+5	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	azzerare	azzerare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	mai	mai	ADV	B	_	9	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+16	altrimenti	altrimenti	ADV	B	_	17	advmod	_	_
+17	morirà	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Chi è ricco non ha problemi e rasenta l’immortalità;chi è povero,invece,de­ve fare di necessità virtù.
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	rasenta	rasentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	immortalità	immortalità	NOUN	S	Gender=Fem	8	obj	_	SpaceAfter=No
+11	;chi	;co	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	povero	povero	ADJ	A	Gender=Masc|Number=Sing	8	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+15	invece	invece	ADV	B	_	17	advmod	_	SpaceAfter=No
+16	,de­ve	,de­vo	SCONJ	CS	_	17	mark	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	13	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	necessità	necessità	NOUN	S	Gender=Fem	17	obl	_	_
+20	virtù	virtù	NOUN	S	Gender=Fem	19	compound	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Altro che settimana corta e sindacati.
+1	Altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	che	che	ADP	E	_	3	case	_	_
+3	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	corta	corto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = L’allego­ria fantascientifica dell’oggi è evidente:
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	allego­ria	allego­ria	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	fantascientifica	fantascientifico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	oggi	oggi	ADV	B	_	8	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	evidente	evidente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 10
+# text = molti uomini devono morire per­ché pochi ricchi possano sopravvivere più a lungo.
+1	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	morire	morire	VERB	V	VerbForm=Inf	0	root	_	_
+5	per­ché	per­ché	SCONJ	CS	_	9	mark	_	_
+6	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	più	più	ADV	B	_	12	advmod	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Un giovanotto (Tim­berlake completamente fuori parte) del ghetto, grazie ad una donazione improvvisa e sostanziosa (anni di vita), si ritrova nella zona ricca dove conoscerà la figlia ribelle (la più convincente Seyfried) di un ricchissimo banchiere.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giovanotto	giovanotto	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Tim­berlake	Tim­berlake	PROPN	SP	_	2	nmod	_	_
+5	completamente	completamente	ADV	B	_	4	advmod	_	_
+6	fuori	fuori	ADP	E	_	7	case	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	4	punct	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ghetto	ghetto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	grazie	grazie	NOUN	S	_	16	case	_	_
+14	ad	a	ADP	E	_	13	fixed	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	donazione	donazione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+17	improvvisa	improvviso	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	sostanziosa	sostanzioso	ADJ	A	Gender=Fem|Number=Sing	17	conj	_	_
+20	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	vita	vita	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	16	punct	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	ritrova	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28-29	nella	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	zona	zona	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	dove	dove	ADV	B	_	33	advmod	_	_
+33	conoscerà	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	acl:relcl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	_
+36	ribelle	ribelle	ADJ	A	Number=Sing	35	amod	_	_
+37	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+39	più	più	ADV	B	_	40	advmod	_	_
+40	convincente	convincente	ADJ	A	Number=Sing	41	amod	_	_
+41	Seyfried	Seyfried	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	41	punct	_	_
+43	di	di	ADP	E	_	46	case	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	ricchissimo	ricchissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	46	amod	_	_
+46	banchiere	banchiere	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 12
+# text = Diventeranno dei banditi ma a fin di bene, rubando tempo per elargirlo a chi non ce l’ha;
+1	Diventeranno	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	banditi	bandito	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	fin	fine	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	bene	bene	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	rubando	rubare	VERB	V	VerbForm=Ger	1	advcl	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	elargirlo	_	_	_	_	_	_	_	_
+14	elargir	elargire	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
+20	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+21	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 13
+# text = Custodi del Tempo permettendo.
+1	Custodi	custode	NOUN	S	Number=Plur	0	root	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	permettendo	permettere	VERB	V	VerbForm=Ger	1	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Detto così sembra tutto molto intrigante.
+1	Detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	intrigante	intrigante	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Vuoi però per la scelta sba­gliata del protagonista, vuoi per forzature esagerate (lei che corre come una pazza con i tacchi alti o i suoi collant che non si smagliano mai), il film,dopo una partenza carica di aspettative,naufraga nella noia.Il risul­tato è un thriller che non crea suspence.
+1	Vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	51	advcl	_	_
+2	però	però	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	sba­gliata	sba­gliato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	protagonista	protagonista	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	forzature	forzatura	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+14	esagerate	esagerato	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	13	appos	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	corre	correre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	come	come	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	pazza	pazzo	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	tacchi	tacco	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25	alti	alto	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	o	o	CCONJ	CC	_	29	cc	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	collant	collant	NOUN	S	Gender=Masc	24	conj	_	_
+30	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+33	smagliano	smagliare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+34	mai	mai	ADV	B	_	33	advmod	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	1	punct	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	film,dopo	film,dopo	NOUN	S	Gender=Masc|Number=Sing	51	nsubj	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	carica	carico	ADJ	A	Gender=Fem|Number=Sing	40	amod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	aspettative	aspettativa	NOUN	S	Gender=Fem|Number=Plur	40	nmod	_	SpaceAfter=No
+44	,naufraga	,naufragare	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+45-46	nella	_	_	_	_	_	_	_	_
+45	in	in	ADP	E	_	47	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	noia.Il	noia.Il	PROPN	SP	_	48	obl	_	_
+48	risul­tato	risul­tare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+49	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
+50	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	thriller	thriller	NOUN	S	Number=Sing	0	root	_	_
+52	che	che	PRON	PR	PronType=Rel	54	nsubj	_	_
+53	non	non	ADV	BN	PronType=Neg	54	advmod	_	_
+54	crea	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	acl:relcl	_	_
+55	suspence	suspence	ADJ	A	Gender=Fem|Number=Plur	54	xcomp	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	51	punct	_	_
+
+# sent_id = 16
+# text = Se il tempo è prezioso, pensateci bene se sprecarlo per vedere questa pellicola.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	prezioso	prezioso	ADJ	A	Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7-8	pensateci	_	_	_	_	_	_	_	_
+7	pensate	pensare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+9	bene	bene	ADV	B	_	7	advmod	_	_
+10	se	se	SCONJ	CS	_	11	mark	_	_
+11	sprecarlo	sprecarlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	vedere	vedere	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	pellicola	pellicola	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,441 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una ventina di minuti prima della mezzanotte, un adolescente di 16 anni ha imbracciato un fucile semiautomatico custodito in casa, evidentemente senza troppe precauzioni, e ha fatto fuoco sui propri famigliari, uccidendone tre:
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ventina	ventina	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	prima	prima	ADV	B	_	8	case	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mezzanotte	mezzanotte	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	adolescente	adolescente	NOUN	S	Number=Sing	16	nsubj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	16	16	NUM	N	NumType=Card	14	nummod	_	_
+14	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	imbracciato	imbracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fucile	fucile	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	semiautomatico	semiautomatico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	custodito	custodire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	casa	casa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	16	punct	_	_
+24	evidentemente	evidentemente	ADV	B	_	27	advmod	_	_
+25	senza	senza	ADP	E	_	27	case	_	_
+26	troppe	troppo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	27	det	_	_
+27	precauzioni	precauzione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+32	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+33-34	sui	_	_	_	_	_	_	_	_
+33	su	su	ADP	E	_	36	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+35	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	famigliari	famigliario	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	31	punct	_	_
+38-39	uccidendone	_	_	_	_	_	_	_	_
+38	uccidendo	uccidere	VERB	V	VerbForm=Ger	31	advcl	_	_
+39	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	38	iobj	_	_
+40	tre	tre	NUM	N	NumType=Card	38	obj	_	SpaceAfter=No
+41	:	:	PUNCT	FC	_	16	punct	_	_
+
+# sent_id = 2
+# text = il padre, Steven Kologi, 44 anni, la madre Linda (42) e la sorella maggiore Brittany (18).
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Steven	Steven	PROPN	SP	_	2	appos	_	_
+5	Kologi	Kologi	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	44	44	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	madre	madre	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+12	Linda	Linda	PROPN	SP	_	11	nmod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	42	42	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+19	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+20	Brittany	Brittany	PROPN	SP	_	18	nmod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	18	18	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Vittima della sparatoria anche Maria Schultz, una donna di 70 anni che viveva con loro.
+1	Vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sparatoria	sparatoria	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	Maria	Maria	PROPN	SP	_	1	nsubj	_	_
+7	Schultz	Schultz	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	donna	donna	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	70	70	NUM	N	NumType=Card	13	nummod	_	_
+13	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sono invece stati risparmiati il nonno e il fratello, che sono riusciti a scappare.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	risparmiati	risparmiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nonno	nonno	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	scappare	scappare	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Il giovane si è consegnato senza opporre resistenza alla polizia, arrivata dopo una chiamata dai vicini che avevano udito una serie di colpi d'arma da fuoco.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	consegnato	consegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	senza	senza	ADP	E	_	7	mark	_	_
+7	opporre	opporre	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+14	dopo	dopo	ADP	E	_	15	case	_	_
+15	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	obl	_	_
+16	chiamata	chiamata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17-18	dai	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	vicini	vicino	NOUN	S	Gender=Masc|Number=Plur	16	obl:agent	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	udito	udire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	serie	serie	NOUN	S	Gender=Fem	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+27	d'	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	arma	arma	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ancora ignoto il motivo del gesto:
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	ignoto	ignotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = forse una futile lite, o un follia premeditata.
+1	forse	forse	ADV	B	_	4	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	futile	futile	ADJ	A	Number=Sing	4	amod	_	_
+4	lite	lite	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	o	o	CCONJ	CC	_	8	cc	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	follia	follia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9	premeditata	premeditato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = L'arma era regolarmente detenuta da un componente della famiglia ma custodita in un luogo di facile accesso.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	arma	arma	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+4	regolarmente	regolarmente	ADV	B	_	5	advmod	_	_
+5	detenuta	detenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	componente	componente	NOUN	S	Number=Sing	5	obl:agent	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	custodita	custodire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	facile	facile	ADJ	A	Number=Sing	19	amod	_	_
+19	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Il ragazzo sarà accusato di quattro omicidi e di possesso d'arma per uso illegale.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	quattro	quattro	NUM	N	NumType=Card	7	nummod	_	_
+7	omicidi	omicidio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	possesso	possesso	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	arma	arma	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	uso	uso	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	illegale	illegale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Domani comparirà in tribunale per una prima udienza.
+1	Domani	Domani	ADV	B	_	2	advmod	_	_
+2	comparirà	comparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = "E' una cosa terribile, una tragedia", ha commentato Christ Gramiccioni, procuratore della Contea di Monmouth.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	terribile	terribile	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	commentato	commentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+13	Christ	Christ	PROPN	SP	_	12	nsubj	_	_
+14	Gramiccioni	Gramiccioni	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	13	appos	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Contea	Contea	PROPN	SP	_	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Monmouth	Monmouth	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Il dramma di Long Branch rinfocolerà le polemiche sulla diffusione delle armi da fuoco negli Stati Uniti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Long	Long	PROPN	SP	_	2	nmod	_	_
+5	Branch	Branch	PROPN	SP	_	4	flat:name	_	_
+6	rinfocolerà	rinfocolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	diffusione	diffusione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	armi	arma	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	negli	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Stati	Stati	PROPN	SP	_	6	obl	_	_
+20	Uniti	Uniti	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Se le stragi di massa che fanno più notizia sono quelle che avvengono in luoghi pubblici come una chiesa, una scuola, un cinema, un'arena da concerto, un nightclub, quelle più frequenti si verificano proprio tra le mura di casa e sono legate alla violenza domestica.
+1	Se	se	SCONJ	CS	_	11	mark	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	stragi	strage	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	massa	massa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	più	più	ADV	B	_	7	advmod	_	_
+9	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	39	advcl	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	avvengono	avvenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	come	come	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	cinema	cinema	NOUN	S	Gender=Masc	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	arena	arena	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	nightclub	nightclub	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	11	punct	_	_
+35	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	39	nsubj	_	_
+36	più	più	ADV	B	_	37	advmod	_	_
+37	frequenti	frequente	ADJ	A	Number=Plur	35	amod	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+39	verificano	verificare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+40	proprio	proprio	ADV	B	_	39	advmod	_	_
+41	tra	tra	ADP	E	_	43	case	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	mura	muro	NOUN	S	Gender=Fem|Number=Plur	39	obl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	casa	casa	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+46	e	e	CCONJ	CC	_	48	cc	_	_
+47	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	legate	legare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	39	conj	_	_
+49-50	alla	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	48	obl	_	_
+52	domestica	domestico	ADJ	A	Gender=Fem|Number=Sing	51	amod	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	39	punct	_	_
+
+# sent_id = 14
+# text = Dal 2015 al novembre del 2017 negli Usa ci sono state 46 sparatorie di massa, intese come episodi in cui sono state uccise quattro o più persone, escluso l'assalitore.
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2015	2015	NUM	N	NumType=Card	15	nummod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2017	2017	NUM	N	NumType=Card	6	nummod	_	_
+10-11	negli	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Usa	Usa	PROPN	SP	_	6	nmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	46	46	NUM	N	NumType=Card	17	nummod	_	_
+17	sparatorie	sparatoria	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	massa	massa	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	intese	intendere	NOUN	S	Gender=Fem|Number=Plur	15	appos	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	aux:pass	_	_
+28	uccise	uccidere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+29	quattro	quattro	NUM	N	NumType=Card	32	nummod	_	_
+30	o	o	CCONJ	CC	_	31	cc	_	_
+31	più	più	DET	DI	PronType=Ind	29	conj	_	_
+32	persone	persona	NOUN	S	Gender=Fem|Number=Plur	28	nsubj:pass	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	21	punct	_	_
+34	escluso	escludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	assalitore	assalitore	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 15
+# text = Stando ai dati raccolti dall'organizzazione Everytown for Gun Safety, in 27 casi, pari al 59%, l'omicida ammazza un partner o un membro della famiglia, o ha alle spalle una storia di violenza domestica.
+1	Stando	stare	VERB	V	VerbForm=Ger	0	root	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	dati	dato	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	Everytown	Everytown	PROPN	SP	_	8	nmod	_	_
+10	for	for	ADP	E	_	11	case	_	_
+11	Gun	Gun	PROPN	SP	_	9	nmod	_	_
+12	Safety	Safety	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	27	27	NUM	N	NumType=Card	16	nummod	_	_
+16	casi	caso	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	pari	pari	ADJ	A	_	16	amod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	59	59	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	SYM	_	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	omicida	omicida	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+26	ammazza	ammazzare	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	partner	partner	NOUN	S	_	25	nmod	_	_
+29	o	o	CCONJ	CC	_	31	cc	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	membro	membro	NOUN	S	Gender=Masc|Number=Sing	28	conj	_	_
+32-33	della	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	o	o	CCONJ	CC	_	37	cc	_	_
+37	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+38-39	alle	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	37	obl	_	_
+41	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	storia	storia	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+45	domestica	domestico	ADJ	A	Gender=Fem|Number=Sing	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

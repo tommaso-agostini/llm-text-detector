@@ -1,0 +1,751 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ieri quella "non promessa" è diventata realtà.
+1	Ieri	ieri	ADV	B	_	2	advmod	_	_
+2	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
+3	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	promessa	promesso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Cleveland ha battuto i campioni in carica dei Golden State Warriors 93-89 in gara 7 di una delle finali più belle di sempre.
+1	Cleveland	Cleveland	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	battuto	battere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	campioni	campione	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	carica	carica	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Golden	Golden	PROPN	SP	_	7	nmod	_	_
+11	State	State	PROPN	SP	_	10	flat:name	_	_
+12	Warriors	Warriors	PROPN	SP	_	10	flat:name	_	_
+13	93	93	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+14	-89	-89	NUM	N	NumType=Card	13	flat	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	gara	gara	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+17	7	7	NUM	N	NumType=Card	3	nummod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	17	nmod	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	finali	finale	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	belle	bello	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	sempre	sempre	ADV	B	_	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = "Cleveland questa è per te" ha urlato LeBron alla fine di una partita che lo ha visto protagonista assoluto, al termine di una serie che è già storia.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Cleveland	Cleveland	CCONJ	CC	_	6	cc	_	_
+3	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	urlato	urlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	LeBron	LeBron	PROPN	SP	_	9	nsubj	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fine	fine	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	partita	partita	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	protagonista	protagonista	NOUN	S	Number=Sing	20	obl	_	_
+22	assoluto	assoluto	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	termine	termine	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	serie	serie	NOUN	S	Gender=Fem	26	nmod	_	_
+30	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+31	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	già	già	ADV	B	_	33	advmod	_	_
+33	storia	storia	NOUN	S	Gender=Fem|Number=Sing	29	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Mai infatti una squadra era riuscita a vincere il titolo dopo essere stata in svantaggio per 3-1.
+1	Mai	mai	ADV	B	_	6	advmod	_	_
+2	infatti	infatti	ADV	B	_	6	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	vincere	vincere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	dopo	dopo	SCONJ	CS	_	15	mark	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	15	aux	_	_
+13	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	svantaggio	svantaggio	NOUN	S	Gender=Masc|Number=Sing	6	advcl	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	3	3	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+18	-1	-1	NUM	N	NumType=Card	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Una vittoria che il sapore dell'impresa.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sapore	sapore	NOUN	S	Gender=Masc|Number=Sing	2	advcl	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Anche perché davanti c'erano i campioni in carica, i Golden State Warriors, che un anno fa superarono proprio i Cleveland Cavaliers di LeBron alle Finals.
+1	Anche	anche	ADV	B	_	5	advmod	_	_
+2	perché	perché	SCONJ	CS	_	5	mark	_	_
+3	davanti	davanti	ADV	B	_	5	advmod	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	campioni	campione	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	carica	carica	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Golden	Golden	PROPN	SP	_	5	nsubj	_	_
+13	State	State	PROPN	SP	_	12	flat:name	_	_
+14	Warriors	Warriors	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	anno	anno	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+19	fa	fa	ADV	B	_	18	advmod	_	_
+20	superarono	superare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+21	proprio	proprio	ADV	B	_	20	advmod	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Cleveland	Cleveland	PROPN	SP	_	20	obj	_	_
+24	Cavaliers	Cavaliers	PROPN	SP	_	23	flat:name	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	LeBron	LeBron	PROPN	SP	_	23	nmod	_	_
+27-28	alle	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	Finals	Finals	PROPN	SP	_	20	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = La squadra di Stephen Curry chiude la stagione nel peggiore dei modi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Stephen	Stephen	PROPN	SP	_	2	nmod	_	_
+5	Curry	Curry	PROPN	SP	_	4	flat:name	_	_
+6	chiude	chiudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	peggiore	peggiore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	modi	modo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = I Warriors erano i grandi favoriti della vigilia.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Warriors	Warriors	PROPN	SP	_	6	nsubj	_	_
+3	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	grandi	grande	ADJ	A	Number=Plur	6	amod	_	_
+6	favoriti	favorite	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vigilia	vigilia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Avevano dominato la regular season, stabilendo il nuovo record di vittorie.
+1	Avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	dominato	dominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	regular	regulare	ADJ	A	Number=Sing	5	amod	_	_
+5	season	season	NOUN	S	Gender=Fem	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	stabilendo	stabilire	VERB	V	VerbForm=Ger	2	advcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	record	record	NOUN	S	Gender=Masc	7	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vittorie	vittorie	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = 73, con solo 9 sconfitte.
+1	73	73	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	solo	solo	ADV	B	_	5	advmod	_	_
+5	9	9	NUM	N	NumType=Card	6	nummod	_	_
+6	sconfitte	sconfitta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Il record precedente apparteneva a una squadra che qualche pagina nella storia del basket Nba l'aveva scritta:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	record	record	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	precedente	precedente	ADJ	A	Number=Sing	2	amod	_	_
+4	apparteneva	appartenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	basket	basket	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	Nba	Nba	PROPN	SP	_	16	nmod	_	_
+18	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+19	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = i Chicago Bulls di Michael Jordan.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Chicago	Chicago	PROPN	SP	_	0	root	_	_
+3	Bulls	Bulls	PROPN	SP	_	2	flat:name	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Michael	Michael	PROPN	SP	_	2	nmod	_	_
+6	Jordan	Jordan	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma 20 anni fa (era la stagione 1995-1996) i Bulls non fallirono l'obiettivo principale e portarono a casa il titolo.
+1	Ma	ma	CCONJ	CC	_	16	cc	_	_
+2	20	20	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+4	fa	fa	ADV	B	_	3	advmod	_	_
+5	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+9	1995	1995	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+11	1996	1996	NUM	N	NumType=Card	9	compound	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	8	punct	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Bulls	Bulls	PROPN	SP	_	16	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	fallirono	fallire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	principale	principale	ADJ	A	Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	portarono	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 14
+# text = LeBron trascina Cleveland alla vittoria
+1	LeBron	LeBron	ADP	E	_	2	case	_	_
+2	trascina	trascinare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Cleveland	Cleveland	PROPN	SP	_	2	nmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+
+# sent_id = 15
+# text = La sintesi della partita sta tutta in un'immagine.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sintesi	sintesi	NOUN	S	Gender=Fem	7	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	partita	partita	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tutta	tutto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 16
+# text = Ultimo quarto della partita, 1 minuto e 50 secondi dalla fine, punteggio fermo sull'89-89.
+1	Ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	partita	partita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	1	1	NUM	N	NumType=Card	8	nummod	_	_
+8	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	50	50	NUM	N	NumType=Card	11	nummod	_	_
+11	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fine	fine	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	punteggio	punteggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+17	fermo	fermo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+18	su	su	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	89	89	NUM	N	NumType=Card	16	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	89	89	NUM	N	NumType=Card	20	compound	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 17
+# text = Iguodala sta per schiacciare a canestra, ma arriva LeBron che con una stoppata maestosa ferma i Warriors e permette alla sua squadra di ripartire.
+1	Iguodala	Iguodala	PROPN	SP	_	2	nsubj	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	schiacciare	schiacciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	canestra	canestra	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	LeBron	LeBron	PROPN	SP	_	9	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	stoppata	stoppata	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+15	maestosa	maestoso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Warriors	Warriors	PROPN	SP	_	16	obj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	ripartire	ripartire	VERB	V	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Ma il capolavoro aveva inziato a prendere forma già nella ripresa del match.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	capolavoro	capolavoro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	inziato	inziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	prendere	prendere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	forma	forma	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9	già	già	ADV	B	_	12	advmod	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	match	match	NOUN	S	Gender=Masc	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Sotto di 7 all'intervallo, i Cavs si accendono con Kyrie Irving (26 punti) e funzionano alla grande in difesa.
+1	Sotto	sotto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	7	7	NUM	N	NumType=Card	1	nummod	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	intervallo	intervallo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Cavs	Cavs	PROPN	SP	_	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	accendono	accendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	Kyrie	Kyrie	PROPN	SP	_	11	obl	_	_
+14	Irving	Irving	PROPN	SP	_	13	flat:name	_	_
+15	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	26	26	NUM	N	NumType=Card	17	nummod	_	_
+17	punti	punto	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	funzionano	funzionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	grande	grande	ADJ	A	Number=Sing	20	obl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 20
+# text = A Golden State non basta il monumentale Draymond Green (32 punti, 15 rimbalzi e 9 assist).
+1	A	a	ADP	E	_	2	case	_	_
+2	Golden	Golden	PROPN	SP	_	5	obl	_	_
+3	State	essere	PROPN	SP	_	2	flat:name	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	monumentale	monumentale	ADJ	A	Number=Sing	8	amod	_	_
+8	Draymond	Draymond	PROPN	SP	_	5	nsubj	_	_
+9	Green	Green	PROPN	SP	_	8	flat:name	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	32	32	NUM	N	NumType=Card	12	nummod	_	_
+12	punti	punto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	15	15	NUM	N	NumType=Card	15	nummod	_	_
+15	rimbalzi	rimbalzo	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	9	9	NUM	N	NumType=Card	18	nummod	_	_
+18	assist	assist	NOUN	S	Gender=Masc	15	conj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Tra i padroni di casa, invece, steccano Stephen Curry (17 punti) e Klay Thompson (14).
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	padroni	padrone	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	invece	invece	ADV	B	_	9	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	steccano	steccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Stephen	Stephen	PROPN	SP	_	9	nsubj	_	_
+11	Curry	Curry	PROPN	SP	_	10	flat:name	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	17	17	NUM	N	NumType=Card	14	nummod	_	_
+14	punti	punto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Klay	Klay	PROPN	SP	_	10	conj	_	_
+18	Thompson	Thompson	PROPN	SP	_	17	flat:name	_	_
+19	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	14	14	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 22
+# text = I guerrieri allungano anche a +8 (54-46) ma i Cavs hanno le risorse per ricucire lo strappo, per mettere il naso avanti (59-60) a metà del terzo periodo e allungare (61-68) con i lampi di Irving.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	guerrieri	guerriero	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	allungano	allungare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	14	advmod	_	_
+5	a	a	ADP	E	_	14	case	_	_
+6	+8	+8	NUM	N	NumType=Card	14	nummod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	54	54	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	46	46	NUM	N	NumType=Card	8	compound	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	8	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Cavs	Cavs	PROPN	SP	_	3	obl	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	ricucire	ricucire	VERB	V	VerbForm=Inf	15	advcl	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	strappo	strappo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	mettere	mettere	VERB	V	VerbForm=Inf	3	advcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	naso	naso	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	avanti	avanti	ADV	B	_	24	advmod	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	59	59	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+30	-	-	PUNCT	FF	_	29	punct	_	SpaceAfter=No
+31	60	60	NUM	N	NumType=Card	29	compound	_	SpaceAfter=No
+32	)	)	PUNCT	FB	_	29	punct	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	metà	metà	NOUN	S	Gender=Fem	3	obl	_	_
+35-36	del	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	38	amod	_	_
+38	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	allungare	allungare	VERB	V	VerbForm=Inf	38	conj	_	_
+41	(	(	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+42	61	61	NUM	N	NumType=Card	40	nummod	_	SpaceAfter=No
+43	-	-	PUNCT	FF	_	42	punct	_	SpaceAfter=No
+44	68	68	NUM	N	NumType=Card	42	compound	_	SpaceAfter=No
+45	)	)	PUNCT	FB	_	42	punct	_	_
+46	con	con	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	lampi	lampo	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	Irving	Irving	PROPN	SP	_	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = I Warriors si aggrappano a Green e a Shaun Livingston per tornare in carreggiata e riprendere la leadership (76-75) alla fine della terza frazione.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Warriors	Warriors	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	aggrappano	aggrappare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Green	Green	PROPN	SP	_	4	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Shaun	Shaun	PROPN	SP	_	6	conj	_	_
+10	Livingston	Livingston	PROPN	SP	_	9	flat:name	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	tornare	tornare	VERB	V	VerbForm=Inf	4	advcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	carreggiata	carreggiata	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	riprendere	riprendere	VERB	V	VerbForm=Inf	12	conj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	leadership	leadership	NOUN	S	Gender=Fem	16	obj	_	_
+19	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	76	76	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	75	75	NUM	N	NumType=Card	20	compound	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	20	punct	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	fine	fine	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	30	amod	_	_
+30	frazione	frazione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Le energie scarseggiano, tutta un'annata si decide nell'ultimo minuto che le squadre cominciano sull'89-89.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	energie	energia	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3	scarseggiano	scarseggiano	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	7	det:predet	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	annata	annata	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+9	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	in	in	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+17	cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+18-19	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+18	su	su	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	89	89	NUM	N	NumType=Card	17	obl	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	89	89	NUM	N	NumType=Card	20	compound	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 25
+# text = LeBron con la sua stoppata fa crollare i Warriors.
+1	LeBron	LeBron	PROPN	SP	_	6	nsubj	_	_
+2	con	con	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	stoppata	stoppata	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	crollare	crollare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Warriors	Warriors	PROPN	SP	_	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 26
+# text = Poi ci pensa Irving che infila una tripla di platino.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Irving	Irving	PROPN	SP	_	3	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	infila	infilare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tripla	tripla	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	platino	platino	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = L'ultimo punto non può essere che di James.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	essere	essere	VERB	V	VerbForm=Inf	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	James	James	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 28
+# text = Rimane dolorante a terra per quasi un minuto all'altezza della lunetta nella metà campo dei Cavs, dopo un fallo subito.
+1	Rimane	rimanere	PROPN	SP	_	0	root	_	_
+2	dolorante	dolorante	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	1	acl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	terra	terra	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	quasi	quasi	ADV	B	_	8	advmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lunetta	lunetta	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	metà	metà	NOUN	S	Gender=Fem	14	nmod	_	_
+18	campo	campo	NOUN	S	Gender=Masc|Number=Sing	17	compound	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Cavs	Cavs	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	1	punct	_	_
+23	dopo	dopo	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	fallo	fallo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+26	subito	subito	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = Due tiri liberi per Cleveland.
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	tiri	tiro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	Cleveland	Cleveland	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Sulla lunetta si presenta LeBron.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lunetta	lunetta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	LeBron	LeBron	PROPN	SP	_	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Fallisce il primo, realizza il secondo.
+1	Fallisce	Fallire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	realizza	realizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 32
+# text = È questione di secondi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	secondi	secondo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = Poi può scoppiare la festa.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scoppiare	scoppiare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	festa	festa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = Il figliol prodigo è riuscito nell'impresa:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	figliol	figliol	NOUN	S	Gender=Masc	5	nsubj	_	_
+3	prodigo	prodigo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	in	in	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 35
+# text = ha portato il titolo a casa.
+1	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	titolo	titolo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = Le immagini della partita (Fotogallery) Cleveland campione.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	partita	partita	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Fotogallery	Fotogallery	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	_
+9	Cleveland	Cleveland	PROPN	SP	_	5	nmod	_	_
+10	campione	campione	NOUN	S	Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = LeBron ora è leggenda
+1	LeBron	LeBron	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	leggenda	leggendo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+

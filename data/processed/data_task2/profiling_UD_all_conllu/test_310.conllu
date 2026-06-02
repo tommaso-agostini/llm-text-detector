@@ -1,0 +1,292 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non è questione di semplice polvere e pratiche burocratiche ingiallite, signori.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	questione	questione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	_
+6	polvere	polvere	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+9	burocratiche	burocratico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	ingiallite	ingiallito	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	signori	signore	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Qui si va ben oltre.
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ben	bene	ADV	B	_	3	advmod	_	_
+5	oltre	oltre	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Tra scatoloni di documenti che raccontano storie di piccole beghe condominiali e richieste di permessi edilizi risalenti al boom economico, sono stati ritrovati, per esempio, un manichino da sarta in gesso parzialmente scheggiato – evidentemente relitto di un corso di moda popolare negli anni ’60 – e un acquario sgonfio, con traccia di ghiaietto rosa e, inspiegabilmente, un singolo pesciolino di plastica arancione.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	scatoloni	scatolone	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	storie	storia	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	beghe	bega	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	condominiali	condominiale	ADJ	A	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	permessi	permesso	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	edilizi	edilizio	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	risalenti	risalere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	boom	boom	NOUN	S	Gender=Masc	17	obl	_	_
+21	economico	economico	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	aux:pass	_	_
+25	ritrovati	ritrovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	17	punct	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	17	punct	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	manichino	manichino	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+32	da	da	ADP	E	_	33	case	_	_
+33	sarta	sarta	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	gesso	gesso	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+36	parzialmente	parzialmente	ADV	B	_	37	advmod	_	_
+37	scheggiato	scheggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+38	–	–	PUNCT	FB	_	37	punct	_	_
+39	evidentemente	evidentemente	ADV	B	_	40	advmod	_	_
+40	relitto	relitto	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	corso	corso	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	moda	moda	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+46	popolare	popolare	ADJ	A	Number=Sing	45	amod	_	_
+47-48	negli	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	anni	anno	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+50	’60	’60	NUM	N	NumType=Card	49	nummod	_	_
+51	–	–	PUNCT	FF	_	54	punct	_	_
+52	e	e	CCONJ	CC	_	54	cc	_	_
+53	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	acquario	acquario	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	_
+55	sgonfio	sgonfio	ADJ	A	Gender=Masc|Number=Sing	54	amod	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	54	punct	_	_
+57	con	con	ADP	E	_	58	case	_	_
+58	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	54	nmod	_	_
+59	di	di	ADP	E	_	60	case	_	_
+60	ghiaietto	ghiaietto	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	_
+61	rosa	rosa	ADJ	A	Gender=Fem|Number=Sing	60	amod	_	_
+62	e	e	CCONJ	CC	_	68	cc	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	68	punct	_	_
+64	inspiegabilmente	inspiegabilmente	ADV	B	_	68	advmod	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	64	punct	_	_
+66	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+67	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	68	amod	_	_
+68	pesciolino	pesciolino	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	_
+69	di	di	ADP	E	_	70	case	_	_
+70	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	68	nmod	_	_
+71	arancione	arancione	ADJ	A	Number=Sing	70	amod	_	SpaceAfter=No
+72	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 4
+# text = Ma i veri colpi di scena sono arrivati dopo.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	veri	vero	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	scena	scena	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	dopo	dopo	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Un grammofono a manovella, ancora in discrete condizioni, suggerisce la presenza di un’anima nostalgica che amava ascoltare le voci del passato tra le mura di quell’ufficio.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	grammofono	grammofono	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	manovella	manovella	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	ancora	ancora	ADV	B	_	9	advmod	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	discrete	discreto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	suggerisce	suggerire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	anima	anima	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	nostalgica	nostalgico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+20	ascoltare	ascoltare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	voci	voce	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	passato	passato	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	tra	tra	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	mura	muro	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30-31	quell’	_	_	_	_	_	_	_	SpaceAfter=No
+30	qui	qui	ADV	B	_	28	advmod	_	_
+31	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Accanto a questo, una collezione completa di statuette da presepe napoletane, chiaramente frutto di un appassionato locale.
+1	Accanto	accanto	ADV	B	_	3	case	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	collezione	collezione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	completa	completo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	statuette	statuetta	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	presepe	presepe	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+12	napoletane	napoletano	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	chiaramente	chiaro	ADV	B	_	15	advmod	_	_
+15	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	appassionato	appassionato	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	locale	locale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = E poi, una cassa di vecchi dischi in vinile, quasi tutti di musica leggera italiana, con alcune rarità che potrebbero interessare i collezionisti.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	poi	poi	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	dischi	disco	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	vinile	vinile	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	quasi	quasi	ADV	B	_	13	advmod	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	musica	musica	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+16	leggera	leggero	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	rarità	rarità	NOUN	S	Gender=Fem	5	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	interessare	interessare	VERB	V	VerbForm=Inf	21	acl:relcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	collezionisti	collezionista	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = La scoperta più singolare, però, è stata senza dubbio una vecchia radio a galena, completa di cuffie e antenne, accanto a una pila di giornali risalenti agli anni '50.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scoperta	scoperta	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	singolare	singolare	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	però	però	ADV	B	_	14	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	radio	radio	NOUN	S	Gender=Fem	0	root	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	galena	galena	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	completa	completa	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	cuffie	cuffia	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	antenne	antenna	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	14	punct	_	_
+24	accanto	accanto	ADV	B	_	27	case	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pila	pila	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30	risalenti	risalere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	29	acl	_	_
+31-32	agli	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	anni	anno	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+34	'50	'50	NUM	N	NumType=Card	33	nummod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 9
+# text = Chi si dilettava di ascoltare le trasmissioni clandestine o, semplicemente, amava l’epoca pionieristica della radiodiffusione?
+1	Chi	chi	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	dilettava	dilettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	ascoltare	ascoltare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	trasmissioni	trasmissione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	clandestine	clandestino	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	semplicemente	semplicemente	ADV	B	_	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	amava	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	pionieristica	pionieristico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	radiodiffusione	radiodiffusione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Mistero.
+1	Mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Questi ritrovamenti, lungi dall’essere un semplice esercizio di arche
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	ritrovamenti	ritrovamento	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lungi	lungi	ADV	B	_	10	advmod	_	_
+5-6	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+5	da	da	ADP	E	_	10	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	semplice	semplice	ADJ	A	Number=Sing	10	amod	_	_
+10	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	arche	arca	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpacesAfter=\n
+

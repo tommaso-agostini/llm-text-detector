@@ -1,0 +1,446 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ognuna ha reagito in modo diverso".
+1	Ognuna	ognuno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	reagito	reagire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Massimo Giovannini, direttore del Dipartimento Materno-infantile dell'Asl Roma B, di cui fa parte il centro di Pma del Pertini, vuole rassicurare le sue pazienti.
+1	Massimo	Massimo	PROPN	SP	_	30	nsubj	_	_
+2	Giovannini	Giovannini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Materno	Materno	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+10	infantile	infantile	ADJ	A	Number=Sing	7	amod	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Asl	Asl	PROPN	SP	_	7	nmod	_	_
+14	Roma	Roma	PROPN	SP	_	13	flat:name	_	_
+15	B	B	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+19	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	centro	centro	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Pma	Pma	PROPN	SP	_	22	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Pertini	Pertini	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	1	punct	_	_
+29	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	rassicurare	rassicurare	VERB	V	VerbForm=Inf	0	root	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+32	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	pazienti	paziente	NOUN	S	Number=Plur	30	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 3
+# text = E vuole andare fino in fondo per scoprire se in passato ci siano stati altri casi analoghi.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	fino	fino	ADV	B	_	6	case	_	_
+5	in	in	ADP	E	_	4	fixed	_	_
+6	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	scoprire	scoprire	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	se	se	SCONJ	CS	_	14	mark	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	passato	passato	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+13	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+15	altri	altro	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	casi	caso	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+17	analoghi	analogo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ha paura che la vicenda dello scambio di embrioni possa essersi ripetuta altre volte?
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	paura	paura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	che	che	SCONJ	CS	_	14	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	embrioni	embrioni	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12-13	essersi	_	_	_	_	_	_	_	_
+12	esser	essere	AUX	VA	VerbForm=Inf	14	aux	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:pass	_	_
+14	ripetuta	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+15	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	volte	volta	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = "Lo escluderei.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	escluderei	escludere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Qualora fosse confermata l'ipotesi di uno scambio di embrioni sarebbe da intendersi come un evento rarissimo o addirittura unico ".
+1	Qualora	qualora	SCONJ	CS	_	3	mark	_	_
+2	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
+3	confermata	confermare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ipotesi	ipotesi	NOUN	S	Gender=Fem	3	nsubj:pass	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	embrioni	embrioni	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+11	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13-14	intendersi	_	_	_	_	_	_	_	_
+13	intender	intendere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	come	come	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	evento	evento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	rarissimo	raro	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	17	amod	_	_
+19	o	o	CCONJ	CC	_	21	cc	_	_
+20	addirittura	addirittura	ADV	B	_	21	advmod	_	_
+21	unico	unico	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	_
+22	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = Il centro è stato chiuso?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centro	centro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = "Al momento non accettiamo nuove pazienti, ma il centro è aperto:
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2-3	Al	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	accettiamo	accettare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	pazienti	paziente	NOUN	S	Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	ma	ma	CCONJ	CC	_	14	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	centro	centro	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	aperto	aperto	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 9
+# text = molte donne hanno già cominciato la stimolazione ormonale per la fecondazione assistita, un iter che non può essere interrotto.
+1	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	stimolazione	stimolazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	ormonale	ormonale	ADJ	A	Number=Sing	7	amod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fecondazione	fecondazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	assistita	assistere	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	iter	iter	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj:pass	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	essere	essere	AUX	VA	VerbForm=Inf	20	aux:pass	_	_
+20	interrotto	interrompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Non c'è alcun motivo per cui nei prossimi giorni non si possa ricominciare a lavorare a pieno regime ".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	alcun	alcun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+14	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	ricominciare	ricominciare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	lavorare	lavorare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	regime	regime	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Come si sentono le donne che ha incontrato?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	donne	donna	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = "La maggior parte era serena.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	serena	serenare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Qualcuna voleva avere informazioni più precise sulle procedure di sicurezza.
+1	Qualcuna	Qualcuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+4	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	precise	preciso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	procedure	procedura	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Qualcuna è scoppiata a piangere.
+1	Qualcuna	Qualcuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scoppiata	scoppiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	piangere	piangere	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Qualcuna ha detto che anche se scoprisse di essere vittima di un errore sarebbe comunque felice di aver dato alla luce un figlio, dopo tanta attesa".
+1	Qualcuna	Qualcuna	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	16	mark	_	_
+5	anche	anche	ADV	B	_	7	mark	_	_
+6	se	se	SCONJ	CS	_	5	fixed	_	_
+7	scoprisse	scoprire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+10	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	errore	errore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	comunque	comunque	ADV	B	_	16	advmod	_	_
+16	felice	felice	ADJ	A	Number=Sing	3	ccomp	_	_
+17	di	di	ADP	E	_	19	mark	_	_
+18	aver	avere	AUX	VA	VerbForm=Inf	19	aux	_	_
+19	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+20-21	alla	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	luce	luce	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	19	punct	_	_
+26	dopo	dopo	ADP	E	_	28	case	_	_
+27	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	28	det	_	_
+28	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Nessuna le ha detto di avere paura?
+1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	avere	avere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	paura	paura	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = "Una paziente già incinta mi ha detto:
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	paziente	paziente	NOUN	S	Number=Sing	8	nsubj	_	_
+4	già	già	ADV	B	_	5	advmod	_	_
+5	incinta	incinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 18
+# text = "Dottore mi ridia la serenità".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Dottore	dottora	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	ridia	ridiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	serenità	serenità	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Per questo voglio che tutte le coppie che si sono affidate a noi nell'ultimo anno possano togliersi ogni dubbio con un esame del Dna non invasivo e indolore".
+1	Per	per	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	voglio	volere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+5	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	affidate	affidare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+14-15	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	in	in	ADP	E	_	17	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19-20	togliersi	_	_	_	_	_	_	_	_
+19	toglier	togliere	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	22	det	_	_
+22	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	esame	esame	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Dna	Dna	PROPN	SP	_	25	nmod	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	invasivo	invasivo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	indolore	indolore	ADJ	A	Number=Sing	30	conj	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Quante sono queste coppie?
+1	Quante	quanto	PRON	PQ	Gender=Fem|Number=Plur|PronType=Int	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = "Negli ultimi mesi circa trecento ".
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2-3	Negli	_	_	_	_	_	_	_	_
+2	In	in	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+5	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+6	circa	circa	ADV	B	_	7	advmod	_	_
+7	trecento	trecento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 22
+# text = Le chiamerete tutte?
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	chiamerete	chiamerete	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	tutte	tutto	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = "Le contatteremo tutte, ma l'esame sarà volontario.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	3	expl	_	_
+3	contatteremo	contattare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	10	punct	_	_
+6	ma	ma	CCONJ	CC	_	10	cc	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	esame	esame	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
+10	volontario	volontario	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Non si tratta di uno screening sugli eventuali errori commessi, ma di un'operazione di trasparenza.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	screening	screening	NOUN	S	Gender=Masc	3	obl	_	_
+7-8	sugli	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	10	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	eventuali	eventuale	ADJ	A	Number=Plur	10	amod	_	_
+10	errori	errore	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	commessi	commesso	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Così rivedremo anche le attuali procedure per eliminare ogni possibile fattore di rischio".
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	rivedremo	rivedre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	attuali	attuale	ADJ	A	Number=Plur	6	amod	_	_
+6	procedure	procedura	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	eliminare	eliminare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+10	possibile	possibile	ADJ	A	Number=Sing	11	amod	_	_
+11	fattore	fattore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

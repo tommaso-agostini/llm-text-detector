@@ -1,0 +1,957 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il Tribunale del Vaticano, infatti, ha fatto crollare l'accusa di associazione per delinquere per tutti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Vaticano	Vaticano	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	infatti	infatti	ADV	B	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	crollare	crollare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	delinquere	delinquere	VERB	V	VerbForm=Inf	15	acl	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Sia mons.
+1	Sia	essere	CCONJ	CC	_	2	cc	_	_
+2	mons	mons	PROPN	SW	Foreign=Yes	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Vallejo che Francesca Chaouqui dovranno rifondere le spese processuali.
+1	Vallejo	Vallejo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	Francesca	Francesca	PROPN	SP	_	6	nsubj	_	_
+4	Chaouqui	Chaouqui	PROPN	SP	_	3	flat:name	_	_
+5	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+6	rifondere	rifondere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	processuali	processuale	ADJ	A	Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Assolto invece Nicola Maio , il funzionario della Cosea, dal concorso e dall'istigazione (anche se non contestata) nella divulgazione di documenti "per non aver commesso il fatto", e prosciolti giornalisti Gianluigi Nuzzi e Emiliano Fittipaldi per incompetenza del Tribunale, essendo essi cittadini italiani che mai hanno compiuto azioni di nessun tipo in Vaticano.
+1	Assolto	assolvere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	invece	invece	ADV	B	_	1	advmod	_	_
+3	Nicola	Nicola	PROPN	SP	_	1	nsubj	_	_
+4	Maio	Maio	PROPN	SP	_	3	flat:name	_	_
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	funzionario	funzionario	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Cosea	Cosea	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	1	obl:agent	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+16	da	da	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	istigazione	istigazione	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+19	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+20	anche	anche	ADV	B	_	23	advmod	_	_
+21	se	se	SCONJ	CS	_	23	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	contestata	contestare	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	23	punct	_	_
+25-26	nella	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	divulgazione	divulgazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+30	"	"	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+31	per	per	ADP	E	_	34	mark	_	_
+32	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+33	aver	avere	AUX	VA	VerbForm=Inf	34	aux	_	_
+34	commesso	commettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	acl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	41	punct	_	_
+39	e	e	CCONJ	CC	_	41	cc	_	_
+40	prosciolti	prosciolgere	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	41	det	_	_
+41	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	34	conj	_	_
+42	Gianluigi	Gianluigi	PROPN	SP	_	41	nmod	_	_
+43	Nuzzi	Nuzzi	PROPN	SP	_	42	flat:name	_	_
+44	e	e	CCONJ	CC	_	45	cc	_	_
+45	Emiliano	Emiliano	PROPN	SP	_	42	conj	_	_
+46	Fittipaldi	Fittipaldi	PROPN	SP	_	45	flat:name	_	_
+47	per	per	ADP	E	_	48	case	_	_
+48	incompetenza	incompetenza	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+49-50	del	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	34	punct	_	_
+53	essendo	essere	AUX	V	VerbForm=Ger	55	cop	_	_
+54	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	55	nsubj	_	_
+55	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+56	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	55	amod	_	_
+57	che	che	PRON	PR	PronType=Rel	60	nsubj	_	_
+58	mai	mai	ADV	B	_	60	advmod	_	_
+59	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
+60	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	acl:relcl	_	_
+61	azioni	azione	NOUN	S	Gender=Fem|Number=Plur	60	obj	_	_
+62	di	di	ADP	E	_	64	case	_	_
+63	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	64	det	_	_
+64	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	_
+65	in	in	ADP	E	_	66	case	_	_
+66	Vaticano	Vaticano	PROPN	SP	_	64	nmod	_	SpaceAfter=No
+67	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Nel loro caso, prosciogliendoli da ogni accusa "in nome di Sua Santità Papa Francesco", il Tribunale Vaticano si è richiamato al diritto di espressione del pensiero, "garantito dal diritto divino", che fonda la libertà di stampa.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	prosciogliendoli	_	_	_	_	_	_	_	_
+6	prosciogliendo	prosciogliere	VERB	V	VerbForm=Ger	0	root	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	in	in	ADP	E	_	13	case	_	_
+13	nome	nome	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Sua	Sua	PROPN	SP	_	13	nmod	_	_
+16	Santità	Santità	PROPN	SP	_	15	flat:name	_	_
+17	Papa	Papa	PROPN	SP	_	15	nmod	_	_
+18	Francesco	Francesco	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	15	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+23	Vaticano	Vaticano	PROPN	SP	_	22	nmod	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	richiamato	richiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	26	punct	_	_
+36	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	garantito	garantire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+38-39	dal	_	_	_	_	_	_	_	_
+38	da	da	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	37	obl:agent	_	_
+41	divino	divino	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+42	"	"	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	41	punct	_	_
+44	che	che	PRON	PR	PronType=Rel	45	nsubj	_	_
+45	fonda	fondare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	libertà	libertà	NOUN	S	Gender=Fem	45	obj	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Assoltiiiiii — Gianluigi Nuzzi (@GianluigiNuzzi) 7 luglio 2016
+1	Assoltiiiiii	Assoltiiiiio	PROPN	SP	_	0	root	_	_
+2	—	—	PUNCT	FF	_	1	punct	_	_
+3	Gianluigi	Gianluigi	PROPN	SP	_	1	flat:name	_	_
+4	Nuzzi	Nuzzi	PROPN	SP	_	1	flat:name	_	_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	@GianluigiNuzzi	@GianluigiNuzzi	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	7	7	NUM	N	NumType=Card	1	nmod	_	_
+9	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	8	flat	_	_
+10	2016	2016	NUM	N	NumType=Card	8	flat	_	_
+
+# sent_id = 7
+# text = L'udienza di oggi è durata in tutto circa 15 minuti, dalle 11:40 alle 11:55.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	oggi	oggi	ADV	B	_	2	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	durata	durare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	_
+9	circa	circa	ADV	B	_	10	advmod	_	_
+10	15	15	NUM	N	NumType=Card	11	nummod	_	_
+11	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	11:40	11:40	NUM	N	NumType=Card	6	obl	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	11:55	11:55	NUM	N	NumType=Card	6	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Il Tribunale presieduto da Giuseppe Dalla Torre, ha pronunciato la sentenza alle 17:20 "in nome di Sua Santità Papa Francesco".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	presieduto	presiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Giuseppe	Giuseppe	PROPN	SP	_	3	obl:agent	_	_
+6-7	Dalla	_	_	_	_	_	_	_	_
+6	Da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Torre	Torre	PROPN	SP	_	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	pronunciato	pronunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	17:20	17:20	NUM	N	NumType=Card	11	obl	_	_
+17	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+18	in	in	ADP	E	_	19	case	_	_
+19	nome	nome	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Sua	Sua	PROPN	SP	_	19	nmod	_	_
+22	Santità	Santità	PROPN	SP	_	21	flat:name	_	_
+23	Papa	Papa	PROPN	SP	_	21	nmod	_	_
+24	Francesco	Francesco	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Francesca Chaouqui si è presentata anche oggi in Tribunale col piccolo figlio Pietro Elijah Antonio, nato il 14 giugno scorso, e col marito Corrado Lanino, che poi ha tenuto il bimbo nella saletta d'attesa accanto all'aula delle udienze.
+1	Francesca	Francesca	PROPN	SP	_	5	nsubj	_	_
+2	Chaouqui	Chaouqui	PROPN	SP	_	1	flat:name	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	oggi	oggi	ADV	B	_	9	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10-11	col	_	_	_	_	_	_	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14	Pietro	Pietro	PROPN	SP	_	13	nmod	_	_
+15	Elijah	Elijah	PROPN	SP	_	14	flat:name	_	_
+16	Antonio	Antonio	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	nato	nato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	14	14	NUM	N	NumType=Card	18	obl	_	_
+21	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	20	flat	_	_
+22	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25-26	col	_	_	_	_	_	_	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	marito	marito	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+28	Corrado	Corrado	PROPN	SP	_	27	nmod	_	_
+29	Lanino	Lanino	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	27	punct	_	_
+31	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+32	poi	poi	ADV	B	_	34	advmod	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	tenuto	tenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37-38	nella	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	saletta	saletta	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+40	d'	di	ADP	E	_	41	case	_	SpaceAfter=No
+41	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+42	accanto	accanto	ADV	B	_	45	case	_	_
+43-44	all'	_	_	_	_	_	_	_	SpaceAfter=No
+43	a	a	ADP	E	_	42	fixed	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+45	aula	aula	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+46-47	delle	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	udienze	udienza	NOUN	S	Gender=Fem|Number=Plur	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Il suo avvocato, Laura Sgrò, si è detta "parzialmente soddisfatta", perché la sua cliente "è stata assolta per l'associazione a delinquere, ma non per il concorso".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Laura	Laura	PROPN	SP	_	3	appos	_	_
+6	Sgrò	sgrò	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	parzialmente	parzialmente	ADV	B	_	13	advmod	_	_
+13	soddisfatta	soddisfatto	ADJ	A	Gender=Fem|Number=Sing	10	xcomp	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	perché	perché	SCONJ	CS	_	23	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	cliente	cliente	NOUN	S	Number=Sing	23	nsubj:pass	_	_
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	assolta	assolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	a	a	ADP	E	_	28	mark	_	_
+28	delinquere	delinquere	VERB	V	VerbForm=Inf	26	acl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	34	punct	_	_
+30	ma	ma	CCONJ	CC	_	34	cc	_	_
+31	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Ora, afferma, "valuteremo se fare o meno appello".
+1	Ora	ora	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	valuteremo	valutare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+7	se	se	SCONJ	CS	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	meno	meno	ADV	B	_	11	advmod	_	_
+11	appello	appello	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = LEGGI Le quattro condanne richieste dal pm "Oggi è giornata storica, non solo per i cronisti ma per lo Stato Vaticano, la Corte ha espresso riconoscimento come abbiamo detto fin dall'inizio.
+1	LEGGI	legge	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+4	condanne	condanne	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5	richieste	richiedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pm	pm	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	_
+9	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	Oggi	Oggi	ADV	B	_	12	advmod	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	giornata	giornata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+13	storica	storico	ADJ	A	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	solo	solo	ADV	B	_	19	advmod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	cronisti	cronista	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+20	ma	ma	CCONJ	CC	_	29	cc	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+24	Vaticano	Vaticano	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Corte	Corte	PROPN	SP	_	29	nsubj	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+30	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+31	come	come	SCONJ	CS	_	33	mark	_	_
+32	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	_
+34	fin	fin	ADV	B	_	37	advmod	_	_
+35-36	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+35	da	da	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = È un momento importante, sono emozionato.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	importante	importante	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	emozionato	emozionato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Questa è la base della democrazia.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	base	base	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = La libertà di stampa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	libertà	libertà	NOUN	S	Gender=Fem	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Questo segna con forza la svolta del Pontificato di Papa Francesco", ha detto Nuzzi lasciando l'aula del processo.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	segna	segnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	forza	forza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	svolta	svolta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Pontificato	Pontificato	PROPN	SP	_	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Papa	Papa	PROPN	SP	_	9	nmod	_	_
+12	Francesco	Francesco	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+17	Nuzzi	Nuzzi	PROPN	SP	_	16	nsubj	_	_
+18	lasciando	lasciare	VERB	V	VerbForm=Ger	16	advcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	aula	aula	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	processo	processo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = E Emiliano Fittipaldi ha aggiunto:
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	Emiliano	Emiliano	PROPN	SP	_	5	nsubj	_	_
+3	Fittipaldi	Fittipaldi	PROPN	SP	_	2	flat:name	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 18
+# text = "Il Vaticano è stato coraggioso.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vaticano	Vaticano	PROPN	SP	_	6	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	coraggioso	coraggioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = Questo è stato un processo kafkiano per l'accusa, ma la sentenza è la dimostrazione di un passo indietro intelligente, il buon giornalismo se viene fatto rispettando regole deontologiche viene riconosciuto - ha proseguito - non mi aspettavo la piena assoluzione, la conclusione è stata molto positiva".
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	processo	processo	NOUN	S	Gender=Masc|Number=Sing	33	nsubj:pass	_	_
+6	kafkiano	kafkiare	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	ma	ma	CCONJ	CC	_	16	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	passo	passo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	indietro	indietro	ADV	B	_	21	advmod	_	_
+21	intelligente	intelligente	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	buon	buono	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	giornalismo	giornalismo	NOUN	S	Gender=Masc|Number=Sing	19	appos	_	_
+26	se	se	SCONJ	CS	_	28	mark	_	_
+27	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+29	rispettando	rispettare	VERB	V	VerbForm=Ger	28	advcl	_	_
+30	regole	regola	NOUN	S	Gender=Fem|Number=Plur	29	obj	_	_
+31	deontologiche	deontologico	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+33	riconosciuto	riconoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+34	-	-	PUNCT	FF	_	36	punct	_	_
+35	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	proseguito	proseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	parataxis	_	_
+37	-	-	PUNCT	FB	_	36	punct	_	_
+38	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+39	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	40	iobj	_	_
+40	aspettavo	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	33	conj	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+42	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+43	assoluzione	assoluzione	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	50	punct	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	50	nsubj	_	_
+47	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+48	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	50	cop	_	_
+49	molto	molto	ADV	B	_	50	advmod	_	_
+50	positiva	positivo	ADJ	A	Gender=Fem|Number=Sing	33	conj	_	SpaceAfter=No
+51	"	"	PUNCT	FB	_	50	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	33	punct	_	_
+
+# sent_id = 20
+# text = Prima che l'udienza fosse sospesa solo Francesca Immacolata Chaouqui ha approfittato della possibilità di prendere la parola per una dichiarazione finale.
+1	Prima	prima	ADV	B	_	6	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	sospesa	sospendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	solo	solo	ADV	B	_	8	advmod	_	_
+8	Francesca	Francesca	PROPN	SP	_	6	obj	_	_
+9	Immacolata	Immacolato	PROPN	SP	_	8	flat:name	_	_
+10	Chaouqui	Chaouqui	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	approfittato	approfittare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	possibilità	possibilità	NOUN	S	Gender=Fem	12	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	prendere	prendere	VERB	V	VerbForm=Inf	15	acl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	parola	parola	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+23	finale	finale	ADJ	A	Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Hanno rinunciato invece a questa opportunità gli altri 4 imputati: monsignor Vallejo Balda, Nicola Maio, Gianluigi Nuzzi ed Emiliano Fittipaldi .
+1	Hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	rinunciato	rinunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	invece	invece	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	opportunità	opportunità	NOUN	S	Gender=Fem	2	obl	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	altri	altro	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+9	4	4	NUM	N	NumType=Card	10	nummod	_	_
+10	imputati	imputato	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+12	monsignor	monsignore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	Vallejo	Vallejo	PROPN	SP	_	12	nmod	_	_
+14	Balda	Balda	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	Nicola	Nicola	PROPN	SP	_	12	appos	_	_
+17	Maio	Maio	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	Gianluigi	Gianluigi	PROPN	SP	_	16	appos	_	_
+20	Nuzzi	Nuzzi	PROPN	SP	_	19	flat:name	_	_
+21	ed	e	CCONJ	CC	_	22	cc	_	_
+22	Emiliano	Emiliano	PROPN	SP	_	19	conj	_	_
+23	Fittipaldi	Fittipaldi	PROPN	SP	_	22	flat:name	_	_
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = "Se la Corte chiederà all'Italia di eseguire la sentenza io e mio figlio passeremo i suoi primi anni in galera", ha detto Chaouqui ai giudici del Tribunale Vaticano.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	5	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Corte	corte	PROPN	SP	_	5	nsubj	_	_
+5	chiederà	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Italia	Italia	PROPN	SP	_	5	obl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	eseguire	eseguire	VERB	V	VerbForm=Inf	5	ccomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	xcomp	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+17	passeremo	passare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	5	parataxis	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+19	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+20	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	21	amod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	galera	galera	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	5	punct	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+28	Chaouqui	Chaouqui	ADV	B	_	27	advmod	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+35	Vaticano	Vaticano	PROPN	SP	_	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 23
+# text = La signora, che si è interrotta più volte per l'impossibilità di trattenere le lacrime, ha voluto prima di tutto chiedere scusa ai giudici per gli eccessi nel suo comportamento processuale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	signora	signore	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	interrotta	interrompere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	volte	volta	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	impossibilità	impossibilità	NOUN	S	Gender=Fem	7	obl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	trattenere	trattenere	VERB	V	VerbForm=Inf	12	acl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	lacrime	lacrima	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	voluto	volere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	prima	prima	ADV	B	_	22	case	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	obl	_	_
+23	chiedere	chiedere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+24	scusa	scusare	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+25-26	ai	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	eccessi	eccesso	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	34	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35	processuale	processuale	ADJ	A	Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 24
+# text = Il giornalista Gianluigi Nuzzi, è arrivato mostrando ai giornalisti e fotografi all'entrata del Vaticano con una copia del suo libro, Via Crucis, e una della Costituzione italiana.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giornalista	giornalista	NOUN	S	Number=Sing	7	nsubj	_	_
+3	Gianluigi	Gianluigi	PROPN	SP	_	2	nmod	_	_
+4	Nuzzi	Nuzzi	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	mostrando	mostrando	VERB	V	VerbForm=Ger	7	advcl	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	fotografi	fotografo	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Vaticano	Vaticano	PROPN	SP	_	16	nmod	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	copia	copia	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	libro	libro	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Via	via	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+29	Crucis	Crucis	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	7	conj	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	_
+36	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 25
+# text = "Ho portato il mio libro e la Costituzione italiana - ha detto Nuzzi - dove all'articolo 21 si dice che la stampa non può essere soggetta ad autorizzazioni e censure.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	-	-	PUNCT	FF	_	13	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+14	Nuzzi	Nuzzi	PROPN	SP	_	13	nsubj	_	_
+15	-	-	PUNCT	FF	_	13	punct	_	_
+16	dove	dove	ADV	B	_	22	advmod	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+20	21	21	NUM	N	NumType=Card	19	nummod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+23	che	che	SCONJ	CS	_	29	mark	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+26	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+27	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	essere	essere	AUX	V	VerbForm=Inf	29	cop	_	_
+29	soggetta	soggetto	ADJ	A	Gender=Fem|Number=Sing	22	ccomp	_	_
+30	ad	a	ADP	E	_	31	case	_	_
+31	autorizzazioni	autorizzazione	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	censure	censura	NOUN	S	Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Per quanto riguarda ciò di cui sono accusato e cioè il concorso morale sono convinto che la Corte non potrà accettarlo perché semplicemente non si può contestare ai giornalisti di essere disponibili a pubblicare documenti.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	15	obl	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	cioè	cioè	ADV	B	_	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+13	morale	morale	ADJ	A	Number=Sing	12	amod	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+16	che	che	SCONJ	CS	_	21	mark	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Corte	Corte	PROPN	SP	_	21	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	aux	_	_
+21-22	accettarlo	_	_	_	_	_	_	_	_
+21	accettar	accettare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	perché	perché	SCONJ	CS	_	28	mark	_	_
+24	semplicemente	semplicemente	ADV	B	_	28	advmod	_	_
+25	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl:impers	_	_
+27	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	contestare	contestare	VERB	V	VerbForm=Inf	21	advcl	_	_
+29-30	ai	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+32	di	di	ADP	E	_	34	mark	_	_
+33	essere	essere	AUX	V	VerbForm=Inf	34	cop	_	_
+34	disponibili	disponibile	ADJ	A	Number=Plur	28	xcomp	_	_
+35	a	a	ADP	E	_	36	mark	_	_
+36	pubblicare	pubblicare	VERB	V	VerbForm=Inf	34	advcl	_	_
+37	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	36	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 27
+# text = È un diritto e un dovere del nostro mestiere".
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	mestiere	mestiere	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 28
+# text = "Sono fiducioso nell'assoluzione - si è limitato a dire all'ingresso l'altro giornalista imputato, Emiliano Fittipaldi -, il giornalismo non è reato".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	fiducioso	fiducioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4-5	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	in	in	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	assoluzione	assoluzione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	-	-	PUNCT	FB	_	10	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	dire	dire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+17	altro	altro	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	giornalista	giornalista	NOUN	S	Number=Sing	10	nsubj	_	_
+19	imputato	imputato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	Emiliano	Emiliano	PROPN	SP	_	18	appos	_	_
+22	Fittipaldi	Fittipaldi	PROPN	SP	_	21	flat:name	_	_
+23	-	-	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	29	punct	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	giornalismo	giornalismo	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	reato	reato	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = In attesa della sentenza, monsignor Lucio Vallejo Balda si è invece affidato alla protezione di San Giovanni Paolo II.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	monsignor	monsignore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+8	Lucio	Lucio	PROPN	SP	_	7	nmod	_	_
+9	Vallejo	Vallejo	PROPN	SP	_	8	flat:name	_	_
+10	Balda	Balda	PROPN	SP	_	8	flat:name	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	invece	invece	ADV	B	_	14	advmod	_	_
+14	affidato	affidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	San	San	PROPN	SP	_	17	nmod	_	_
+20	Giovanni	Giovanni	PROPN	SP	_	19	nmod	_	_
+21	Paolo	Paolo	PROPN	SP	_	20	flat:name	_	_
+22	II	II	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 30
+# text = Ai giornalisti presenti al pool questa mattina per le dichiarazioni spontanee prima della camera di consiglio, il prelato spagnolo ha infatti consegnato un'immagine-reliquia di Karol Wojtyla con le parole:
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+4	presenti	presente	ADJ	A	Number=Plur	3	amod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pool	pool	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	spontanee	spontaneo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	prima	prima	ADV	B	_	17	case	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	camera	camera	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	9	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	prelato	prelato	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+23	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	infatti	infatti	ADV	B	_	26	advmod	_	_
+26	consegnato	consegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	-	-	PUNCT	FF	_	28	punct	_	SpaceAfter=No
+30	reliquia	reliquia	NOUN	S	Gender=Fem|Number=Sing	28	compound	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Karol	Karol	PROPN	SP	_	28	nmod	_	_
+33	Wojtyla	Wojtyla	PROPN	SP	_	32	flat:name	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	parole	parola	NOUN	S	Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
+37	:	:	PUNCT	FC	_	26	punct	_	_
+
+# sent_id = 31
+# text = "Me l'hanno data i penitenzieri", cioè i religiosi del convento all'interno del Vaticano dove Vallejo ha trascorso gli arresti domiciliari.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	penitenzieri	penitenziere	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	cioè	cioè	CCONJ	CC	_	12	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	religiosi	religioso	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	convento	convento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	interno	interno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Vaticano	Vaticano	PROPN	SP	_	18	nmod	_	_
+22	dove	dove	ADV	B	_	25	advmod	_	_
+23	Vallejo	Vallejo	PROPN	SP	_	25	nsubj	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	trascorso	trascorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	arresti	arresto	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	domiciliari	domiciliare	ADJ	A	Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

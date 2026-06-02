@@ -1,0 +1,334 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Con il club abbiamo cominciato le discussioni la stagione passata.
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	club	club	NOUN	S	Gender=Masc	5	obl	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	discussioni	discussione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	passata	passato	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Anche se in seguito si sono interrotte e non so perché.
+1	Anche	anche	ADV	B	_	7	advmod	_	_
+2	se	se	SCONJ	CS	_	7	mark	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	interrotte	interrurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	perché	perché	SCONJ	CS	_	10	mark	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = In ogni caso dobbiamo discutere col presidente ma io voglio rimanere”.
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	discutere	discutere	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	col	_	_	_	_	_	_	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	rimanere	rimanere	VERB	V	VerbForm=Inf	5	conj	_	SpaceAfter=No
+13	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Thiago Silva ha messo insieme 158 presenze complessive con 9 reti al suo attivo ed è alla sua quinta stagione con la maglia dei transalpini, di cui ne è anche capitano.
+1	Thiago	Thiago	PROPN	SP	_	4	nsubj	_	_
+2	Silva	Silva	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	insieme	insieme	ADV	B	_	4	advmod	_	_
+6	158	158	NUM	N	NumType=Card	7	nummod	_	_
+7	presenze	presenze	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8	complessive	complessivo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	9	9	NUM	N	NumType=Card	11	nummod	_	_
+11	reti	rete	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	11	nmod	_	_
+16	ed	e	CCONJ	CC	_	22	cc	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	22	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+21	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
+22	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	maglia	maglia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	transalpini	transalpino	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	cui	cui	PRON	PR	PronType=Rel	35	obl	_	_
+32	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	35	iobj	_	_
+33	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	anche	anche	ADV	B	_	35	advmod	_	_
+35	capitano	capitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = L'ex Fluminense è anche nel giro della nazionale brasiliana con cui ha messo insieme 59 presenze e 4 reti.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ex	ex	ADJ	A	_	3	amod	_	_
+3	Fluminense	Fluminense	PROPN	SP	_	8	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giro	giro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	nazionale	nazionale	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	brasiliana	brasiliano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	insieme	insieme	ADV	B	_	16	advmod	_	_
+18	59	59	NUM	N	NumType=Card	19	nummod	_	_
+19	presenze	presenze	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	4	4	NUM	N	NumType=Card	22	nummod	_	_
+22	reti	rete	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = L'amministratore delegato della Juventus Giuseppe Marotta, qualche giorno fa, ha aperto a Thiago Silva : "Thiago Silva è un difensore eccezionale, ma non conosciamo la volontà del Psg: secondo me se lo vogliono tenere stretto.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amministratore	amministratore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	delegato	delegato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Juventus	Juventus	PROPN	SP	_	2	nmod	_	_
+7	Giuseppe	Giuseppe	PROPN	SP	_	6	flat:name	_	_
+8	Marotta	Marotto	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+12	fa	fa	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	parataxis	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Thiago	Thiago	PROPN	SP	_	15	obl	_	_
+18	Silva	Silva	PROPN	SP	_	17	flat:name	_	_
+19	:	:	PUNCT	FC	_	15	punct	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Thiago	Thiago	PROPN	SP	_	25	nsubj	_	_
+22	Silva	Silva	PROPN	SP	_	21	flat:name	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	difensore	difensore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+26	eccezionale	eccezionale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	ma	ma	CCONJ	CC	_	30	cc	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	conj	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	volontà	volontà	NOUN	S	Gender=Fem	30	obj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Psg	Psg	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	30	punct	_	_
+37	secondo	secondo	ADP	E	_	38	case	_	_
+38	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	30	obl	_	_
+39	se	si	SCONJ	CS	_	42	mark	_	_
+40	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
+41	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	tenere	tenere	VERB	V	VerbForm=Inf	30	ccomp	_	_
+43	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	42	xcomp	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 7
+# text = Potrebbe crearsi un'opportunità come avvenuto per Pirlo, considerato da tanti un giocatore finito, ma poi qui da noi trovò gli stimoli e la voglia per fare molto bene”.
+1	Potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	crearsi	_	_	_	_	_	_	_	_
+2	crear	creare	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	opportunità	opportunità	NOUN	S	Gender=Fem	2	nsubj	_	_
+6	come	come	ADV	B	_	7	advmod	_	_
+7	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9-10	Pirlo	_	_	_	_	_	_	_	SpaceAfter=No
+9	Pir	Pir	PROPN	SP	_	7	obl	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	12	xcomp	_	_
+17	finito	finito	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	24	punct	_	_
+19	ma	ma	CCONJ	CC	_	24	cc	_	_
+20	poi	poi	ADV	B	_	24	advmod	_	_
+21	qui	qui	ADV	B	_	24	advmod	_	_
+22	da	da	ADP	E	_	23	case	_	_
+23	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	24	obl	_	_
+24	trovò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26-27	stimoli	_	_	_	_	_	_	_	_
+26	stimo	stimo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	obj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	_
+31	per	per	ADP	E	_	32	mark	_	_
+32	fare	fare	VERB	V	VerbForm=Inf	26	acl	_	_
+33	molto	molto	ADV	B	_	34	advmod	_	_
+34	bene	bene	ADV	B	_	32	advmod	_	SpaceAfter=No
+35	”	”	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Lo sceicco Nasser Al-Khelaifi, dopo aver perso un fuoriclasse come Ibrahimovic non vuole farsi scappare, a parametro zero, l'ennesimo campione.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sceicco	sceicco	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	Nasser	Nasser	PROPN	SP	_	2	nmod	_	_
+4	Al-Khelaifi	Al-Khelaifi	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	dopo	dopo	SCONJ	CS	_	8	mark	_	_
+7	aver	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fuoriclasse	fuoriclassa	NOUN	S	_	8	obj	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	Ibrahimovic	Ibrahimovic	PROPN	SP	_	8	obl	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	farsi	_	_	_	_	_	_	_	_
+15	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	scappare	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	parametro	parametro	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	zero	zero	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	25	punct	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+24	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	25	amod	_	_
+25	campione	campione	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 9
+# text = In tutto questo, però, anche il Milan resta vigile visto che Thiago Silva non ha mai nascosto il suo amore per il club rossonero, con cui ha giocato per tre stagioni mettendo insieme 119 presenze e 6 reti al suo attivo.
+1	In	in	ADP	E	_	3	case	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Milan	Milan	PROPN	SP	_	10	nsubj	_	_
+10	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	vigile	vigile	ADJ	A	Number=Sing	10	xcomp	_	_
+12	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14	Thiago	Thiago	PROPN	SP	_	19	nsubj	_	_
+15	Silva	Silva	PROPN	SP	_	14	flat:name	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	mai	mai	ADV	B	_	19	advmod	_	_
+19	nascosto	nascondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	amore	amore	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	club	club	NOUN	S	Gender=Masc	22	nmod	_	_
+26	rossonero	rossonero	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	22	punct	_	_
+28	con	con	ADP	E	_	29	case	_	_
+29	cui	cui	PRON	PR	PronType=Rel	31	obl	_	_
+30	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	giocato	giocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	tre	tre	NUM	N	NumType=Card	34	nummod	_	_
+34	stagioni	stagioni	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+35	mettendo	mettere	VERB	V	VerbForm=Ger	31	advcl	_	_
+36	insieme	insieme	ADV	B	_	35	advmod	_	_
+37	119	119	NUM	N	NumType=Card	38	nummod	_	_
+38	presenze	presenze	NOUN	S	Gender=Fem|Number=Plur	35	obj	_	_
+39	e	e	CCONJ	CC	_	41	cc	_	_
+40	6	6	NUM	N	NumType=Card	41	nummod	_	_
+41	reti	rete	NOUN	S	Gender=Fem|Number=Plur	38	conj	_	_
+42-43	al	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	45	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	attivo	attivo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Le prossime settimane, però, potrebbero essere quelle decisive per il suo rinnovo con il Psg che ha tutte le intenzioni di blindare il 32enne dagli attacchi del Diavolo e della Vecchia Signora.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	9	cop	_	_
+9	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+10	decisive	decisivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+11	per	per	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	rinnovo	rinnovo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Psg	Psg	PROPN	SP	_	10	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	22	det:predet	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	blindare	blindare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	32enne	32enne	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	dagli	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Diavolo	Diavolo	PROPN	SP	_	29	nmod	_	_
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Vecchia	vecchia	PROPN	SP	_	32	conj	_	_
+37	Signora	signore	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

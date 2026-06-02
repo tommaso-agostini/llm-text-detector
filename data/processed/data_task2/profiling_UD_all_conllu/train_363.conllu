@@ -1,0 +1,443 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gaetano Azzariti, costituzionalista alla Sapienza di Roma, allontana ogni dubbio:
+1	Gaetano	gaetano	PROPN	SP	_	11	nsubj	_	_
+2	Azzariti	Azzarito	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	costituzionalista	costituzionaledere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Sapienza	sapienza	PROPN	SP	_	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Roma	Roma	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	allontana	allontanare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 2
+# text = "La Consulta ha escluso il vuoto normativo e riaffermato una libertà fondamentale".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Consulta	Consulta	PROPN	SP	_	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	escluso	escludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	normativo	normativo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	riaffermato	riaffermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	libertà	libertà	NOUN	S	Gender=Fem	10	obj	_	_
+13	fondamentale	fondamentale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Torniamo a quella sentenza, allora.
+1	Torniamo	tornare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	allora	allora	ADV	B	_	1	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = "La sentenza 162 del 2014 ha bocciato il divieto di fecondazione eterologa introdotto dalla legge 40 e ha affermato la libertà fondamentale, che si deduce dal diritto alla procreazione.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	162	162	NUM	N	NumType=Card	3	nummod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2014	2014	NUM	N	NumType=Card	3	nmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	bocciato	bocciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	fecondazione	fecondazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	eterologa	eterologo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	legge	legge	NOUN	S	Gender=Fem|Number=Sing	15	obl:agent	_	_
+19	40	40	NUM	N	NumType=Card	18	nummod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	libertà	libertà	NOUN	S	Gender=Fem	22	obj	_	_
+25	fondamentale	fondamentale	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+29	deduce	dedurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33-34	alla	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	procreazione	procreazione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Per far questo, ha messo in gioco tre principi fondamentali costituzionali:
+1	Per	per	ADP	E	_	2	mark	_	_
+2	far	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	tre	tre	NUM	N	NumType=Card	10	nummod	_	_
+10	principi	principio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+11	fondamentali	fondamentale	ADJ	A	Number=Plur	10	amod	_	_
+12	costituzionali	costituzionale	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 6
+# text = l'articolo 2 sui diritti della persona, il 3 sull'uguaglianza e il 31 sulla protezione della maternità ".
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	2	2	NUM	N	NumType=Card	2	nummod	_	_
+4-5	sui	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	3	3	NUM	N	NumType=Card	6	nummod	_	_
+13-14	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+13	su	su	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	uguaglianza	uguaglianza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	31	31	NUM	N	NumType=Card	15	conj	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	maternità	maternità	NOUN	S	Gender=Fem	21	nmod	_	_
+25	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ma per procedere all'eterologa non bisognava aspettare le nuove linee guida del ministero della Salute?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	procedere	procedere	VERB	V	VerbForm=Inf	8	advcl	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	eterologa	eterologo	NOUN	S	Gender=Masc	3	obl	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	bisognava	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	aspettare	aspettare	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	linee	linea	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+13	guida	guida	NOUN	S	Gender=Fem|Number=Sing	12	compound	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Salute	Salute	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = "Dalla sentenza si deduce che non è ammissibile alcun comportamento né del legislatore, né tantomeno del ministro, che voglia reintrodurre il divieto dichiarato illegittimo.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2-3	Dalla	_	_	_	_	_	_	_	_
+2	Da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	deduce	dedurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	ammissibile	ammissibile	ADJ	A	Number=Sing	6	ccomp	_	_
+11	alcun	alcun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	comportamento	comportamento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	né	né	CCONJ	CC	_	16	cc	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	legislatore	legislatore	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	né	né	CCONJ	CC	_	19	cc	_	_
+19	tantomeno	tantomeno	PRON	PI	PronType=Ind	16	conj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	reintrodurre	reintrodurre	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	divieto	divieto	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	dichiarato	dichiarare	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	illegittimo	illegittimo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = C'è un unico riferimento alle linee guida".
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	unico	unico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	linee	linea	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	guida	guida	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Quale?
+1	Quale	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = "È relativo alla questione del numero delle donazioni, ma la Corte ha specificato che l'auspicabile aggiornamento delle linee guida fosse formulato "entro un limite ragionevolmente ridotto".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	relativo	relativo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	donazioni	donazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Corte	corte	PROPN	SP	_	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	specificato	specificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+19	che	che	SCONJ	CS	_	28	mark	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+21	auspicabile	auspicabile	ADJ	A	Number=Sing	22	amod	_	_
+22	aggiornamento	aggiornamento	NOUN	S	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	linee	linea	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26	guida	guida	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux:pass	_	_
+28	formulato	formulare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
+29	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+30	entro	entro	ADP	E	_	32	case	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	limite	limite	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+33	ragionevolmente	ragionevolmente	ADV	B	_	34	advmod	_	_
+34	ridotto	ridurre	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Voglio aggiungere un principio generale:
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aggiungere	aggiungere	VERB	V	VerbForm=Inf	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	principio	principio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	generale	generale	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = la violazione di una libertà fondamentale non può essere giustificata dall'inerzia del legislatore o della politica".
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	libertà	libertà	NOUN	S	Gender=Fem	2	nmod	_	_
+6	fondamentale	fondamentale	ADJ	A	Number=Sing	5	amod	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	essere	essere	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	giustificata	giustificare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	inerzia	inerzia	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	legislatore	legislatore	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	o	o	CCONJ	CC	_	20	cc	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	politica	politica	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = L'intervento della Consulta non ha lasciato dunque un vuoto normativo?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Consulta	consulta	PROPN	SP	_	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	dunque	dunque	ADV	B	_	8	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	normativo	normativo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 15
+# text = "La Corte ha esplicitamente affrontato la questione del vuoto normativo e ha negato esplicitamente che ci fosse.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Corte	corte	PROPN	SP	_	6	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	esplicitamente	esplicitamente	ADV	B	_	6	advmod	_	_
+6	affrontato	affrontato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	questione	questione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	normativo	normativo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	negato	negare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+16	esplicitamente	esplicitamente	ADV	B	_	15	advmod	_	_
+17	che	che	SCONJ	CS	_	19	mark	_	_
+18	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	_
+19	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Facendo valere sia la normativa preesistente, sia la stessa normativa della legge 40 relativamente alle norme per la fecondazione omologa.
+1	Facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+2	valere	valere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	preesistente	preesistente	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	sia	essere	CCONJ	CC	_	11	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	normativa	normativa	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	legge	legge	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	40	40	NUM	N	NumType=Card	14	nummod	_	_
+16	relativamente	relativo	ADV	B	_	19	case	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	16	fixed	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	norme	norma	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fecondazione	fecondazione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	omologa	omologo	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Non solo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Per un ulteriore scrupolo, la Corte costituzionale ha dichiarato che si possono usare anche strumenti interpretativi, più in generale.
+1	Per	per	ADP	E	_	4	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	ulteriore	ulteriore	ADJ	A	Number=Sing	4	amod	_	_
+4	scrupolo	scrupolo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Corte	corte	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	costituzionale	costituzionale	ADJ	A	Number=Sing	7	amod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	che	che	SCONJ	CS	_	14	mark	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:pass	_	_
+13	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	usare	usare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+17	interpretativi	interpretativo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	16	punct	_	_
+19	più	più	ADV	B	_	21	advmod	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	generale	generale	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 19
+# text = E per finire la Consulta ha escluso che ci sia alcuna violazione di convenzioni internazionali, compresa quella di Oviedo che vieta solo la fecondazione ai fini selettivi e di eugenetica".
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	finire	finire	VERB	V	VerbForm=Inf	7	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Consulta	consulta	PROPN	SP	_	3	obj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	escluso	escludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+12	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	convenzioni	convenzione	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	internazionali	internazionale	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	compresa	comprendere	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Oviedo	Oviedo	PROPN	SP	_	18	nmod	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	vieta	vietare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	solo	solo	ADV	B	_	22	advmod	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	fecondazione	fecondazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+26-27	ai	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	fini	fine	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+29	selettivi	selettivo	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	eugenetica	eugenetica	ADJ	A	Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
+33	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+

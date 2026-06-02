@@ -1,0 +1,348 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ieri c'è stata un'altra udienza.
+1	Ieri	ieri	ADV	B	_	0	root	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	altra	altro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Così, in un'intervista esclusiva rilasciata alle telecamere di Storie Italiane, condotto da Eleonora Daniele, Nina Moric ha commentato:
+1	Così	così	ADV	B	_	23	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+6	esclusiva	esclusivo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	rilasciata	rilasciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	telecamere	telecamera	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Storie	storie	PROPN	SP	_	10	nmod	_	_
+13	Italiane	italiane	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	condotto	condurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	Eleonora	Eleonore	PROPN	SP	_	15	obl:agent	_	_
+18	Daniele	Daniele	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	Nina	Nina	PROPN	SP	_	17	nsubj	_	_
+21	Moric	Moric	PROPN	SP	_	20	flat:name	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	commentato	commentato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	23	punct	_	_
+
+# sent_id = 3
+# text = "Non si devono guardare i nostri interessi.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+4	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	guardare	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Si deve guardare per la prima volta agli interessi del minore perché non è un pacco regalo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	guardare	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	agli	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	minore	minore	ADJ	A	Degree=Cmp|Number=Sing	10	nmod	_	_
+14	perché	perché	SCONJ	CS	_	19	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	pacco	pacco	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = È un sedicenne che purtroppo ha avuto una vita abbastanza difficile, perciò credo che sia il momento che ognuno posi l’ascia da guerra.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sedicenne	sedicenne	NOUN	S	Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	purtroppo	purtroppo	ADV	B	_	7	advmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	abbastanza	abbastanza	ADV	B	_	11	advmod	_	_
+11	difficile	difficile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	perciò	perciò	SCONJ	CS	_	14	mark	_	_
+14	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	momento	momento	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obl	_	_
+21	posi	posare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	ascia	ascia	NOUN	S	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Io l’ho posata tempo fa, alcuni no:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	posata	posare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+6	fa	fa	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	no	no	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 7
+# text = cominciano a farlo adesso".
+1	cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3-4	farlo	_	_	_	_	_	_	_	_
+3	far	fare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	adesso	adesso	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La modella croata, poi, fa anche riferimento a quei lontani giorni del 2015, quando fu accusata di aver tentato il suicidio .
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	modella	modella	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	croata	croato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	poi	poi	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	a	a	ADP	E	_	13	case	_	_
+11	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+12	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	2015	2015	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	7	punct	_	_
+18	quando	quando	SCONJ	CS	_	20	mark	_	_
+19	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	accusata	accusare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+21	di	di	ADP	E	_	23	mark	_	_
+22	aver	avere	AUX	VA	VerbForm=Inf	23	aux	_	_
+23	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	suicidio	suicidio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = "È stata fatta un’ingiustizia nei miei confronti - continua -.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+11	-	-	PUNCT	FF	_	12	punct	_	_
+12	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+13	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Si è parlato di tutto invece di parlare di che cosa veramente sia accaduto quella famosa notte".
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+6	invece	invece	ADV	B	_	3	advmod	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	parlare	parlare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	che	che	DET	DQ	PronType=Int	11	det	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	veramente	veramente	ADV	B	_	14	advmod	_	_
+13	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+15	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+16	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	notte	notte	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Adesso è giunto il momento di "recuperare il tempo perso".
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	recuperare	recuperare	VERB	V	VerbForm=Inf	5	acl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	perso	perso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Intanto, la prossima udienza è attesa per il 15 novembre.
+1	Intanto	intanto	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prossima	proo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	attesa	attendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	15	15	NUM	N	NumType=Card	7	obl	_	_
+11	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Ad annunciarlo, in collegamento telefonico durante la diretta, l’avvocato della Moric, Solange Marchignoli, che ha spiegato:
+1	Ad	a	ADP	E	_	2	mark	_	_
+2-3	annunciarlo	_	_	_	_	_	_	_	SpaceAfter=No
+2	annunciar	annunciare	VERB	V	VerbForm=Inf	0	root	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	collegamento	collegamento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	telefonico	telefonico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	durante	durante	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Moric	Moric	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	Solange	Solange	PROPN	SP	_	13	appos	_	_
+19	Marchignoli	Marchignoli	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = "Finalmente si vede luce in questa storia.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Finalmente	finalmente	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	luce	luce	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Ieri è stata depositata una relazione all’attenzione della corte d’Appello.
+1	Ieri	ieri	ADV	B	_	4	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	depositata	depositare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+7-8	all’	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	corte	corte	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	d’	di	ADP	E	_	14	case	_	SpaceAfter=No
+14	Appello	appello	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Alla prossima udienza i servizi sociali depositeranno una loro relazione.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prossima	proo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	udienza	udienza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	sociali	sociale	ADJ	A	Number=Plur	6	amod	_	_
+8	depositeranno	depositare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = Sarà data voce alle parti e la corte d’Appello deciderà".
+1	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	data	dare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	parti	parte	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corte	corte	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	d’	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	Appello	appello	PROPN	SP	_	9	nmod	_	_
+12	deciderà	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Fabrizio Corona , Nina Moric, ma soprattutto Carlos Maria riusciranno a trovare un po' di pace?
+1	Fabrizio	Fabrizio	PROPN	SP	_	0	root	_	_
+2	Corona	corona	PROPN	SP	_	1	flat:name	_	_
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Nina	Nina	PROPN	SP	_	1	conj	_	_
+5	Moric	Moric	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	soprattutto	soprattutto	ADV	B	_	11	advmod	_	_
+9	Carlos	Carlos	PROPN	SP	_	11	nsubj	_	_
+10	Maria	Maria	PROPN	SP	_	9	flat:name	_	_
+11	riusciranno	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	trovare	trovare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	po'	poco	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	pace	pace	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

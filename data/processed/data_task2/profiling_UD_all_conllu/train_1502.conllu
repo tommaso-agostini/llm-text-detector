@@ -1,0 +1,368 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = C’è chi, invece, cerca di scavare in profondità, di capire di cosa siamo veramente capaci, di cosa possiamo dare.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	invece	invece	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	scavare	scavare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	profondità	profondità	NOUN	S	Gender=Fem	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	capire	capire	VERB	V	VerbForm=Inf	9	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	obl	_	_
+17	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	veramente	veramente	ADV	B	_	19	advmod	_	_
+19	capaci	capace	ADJ	A	Number=Plur	14	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	24	obl	_	_
+23	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	dare	dare	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = C’è Gigi Barzagli, naturalmente.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Gigi	Gigi	PROPN	SP	_	2	nsubj	_	_
+4	Barzagli	Barzaglio	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	naturalmente	naturalmente	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = “Noi brutti e sporchi, ma alla Spagna possiamo far male,” ha detto l’ex difensore juventino in un’intervista concessa a questo giornale, con la schiettezza che lo contraddistingueva.
+1	“	“	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+3	brutti	brutto	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	sporchi	sporco	ADJ	A	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	12	punct	_	_
+7	ma	ma	CCONJ	CC	_	12	cc	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Spagna	Spagna	PROPN	SP	_	12	obl	_	_
+11	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	far	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+13	male	male	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	2	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+19	ex	ex	ADJ	A	_	20	amod	_	_
+20	difensore	difensore	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+21	juventino	juventino	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+25	concessa	concedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	17	punct	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	schiettezza	schiettezza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+35	contraddistingueva	contraddistinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 4
+# text = Non una dichiarazione di intenti che promette meraviglie, ma un’osservazione, una constatazione amara e, allo stesso tempo, stimolante.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	intenti	intento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	promette	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	meraviglie	meraviglie	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	osservazione	osservazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	constatazione	constatazione	NOUN	S	Gender=Fem|Number=Sing	12	appos	_	_
+16	amara	amaro	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19-20	allo	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	stimolante	stimolante	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = “Lo dico perché è la verità.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	perché	perché	SCONJ	CS	_	7	mark	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	verità	verità	NOUN	S	Gender=Fem	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Abbiamo passato anni di eccesso, di individualismo, di ricerca di facili popolarità a scapito del gioco di squadra, della disciplina, del sacrificio.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	eccesso	eccesso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	individualismo	individualismo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	facili	facile	ADJ	A	Number=Plur	14	amod	_	_
+14	popolarità	popolarità	NOUN	S	Gender=Fem	11	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	scapito	scapito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	disciplina	disciplina	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	sacrificio	sacrificio	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ci siamo adunati a fare spettacolo, a farci guardare, e non abbiamo più fatto squadra per vincere.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	adunati	adunare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	farci	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+11	guardare	guardare	VERB	V	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+18	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	vincere	vincere	VERB	V	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 9
+# text = Non una difesa del passato, ma un’analisi lucida.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passato	passato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	analisi	analisi	NOUN	S	Gender=Fem	3	conj	_	_
+11	lucida	lucido	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Barzagli non nega le ombre, le scelte discutibili, le passaggi di consegne bui che hanno segnato la storia recente del calcio italiano.
+1	Barzagli	Barzagli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	nega	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ombre	ombra	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+9	discutibili	discutibile	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	passaggi	passaggio	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	consegne	consegna	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	bui	buo	PRON	PR	PronType=Rel	12	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	segnato	segnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	storia	storia	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	recente	recente	ADJ	A	Number=Sing	20	amod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = “Non voglio fare i buoni, non voglio minimizzare le cose.
+1	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	Non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	minimizzare	minimizzare	VERB	V	VerbForm=Inf	4	conj	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Abbiamo fatto errori.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	errori	errore	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Abbiamo preso decisioni sbagliate.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	decisioni	decisione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	sbagliate	sbagliato	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Ma il passato non ci può paralizzare.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	passato	passato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	paralizzare	paralizzare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 15
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 16
+# text = E qui arriva il punto cruciale:
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	qui	qui	ADV	B	_	3	advmod	_	_
+3	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	cruciale	cruciale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 17
+# text = “Alla Spagna possiamo far male.
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2-3	Alla	_	_	_	_	_	_	_	_
+2	A	a	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Spagna	Spagna	PROPN	SP	_	6	obl	_	_
+5	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	male	male	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Perché la Spagna gioca un calcio spettacolare, è senza dubbio, ma non ha una mentalità vincente.
+1	Perché	perché	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Spagna	Spagna	PROPN	SP	_	4	nsubj	_	_
+4	gioca	giocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	spettacolare	spettacolare	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	senza	senza	ADP	E	_	11	case	_	_
+11	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mentalità	mentalità	NOUN	S	Gender=Fem	15	obj	_	_
+18	vincente	vincente	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Non ha quella fame, quella determinazione, quella spietatezza che a volte abbiamo noi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	fame	fame	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	determinazione	determinazione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	spietatezza	spietatezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	volte	volta	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+14	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = E noi, nonostante tutto, abbiamo ancora qualcosa da dire.”
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	nonostante	nonostante	ADP	E	_	5	case	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ancora	ancora	ADV	B	_	7	advmod	_	_
+9	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	dire.	dire.	NOUN	S	_	9	nmod	_	SpaceAfter=No
+12	”	”	PUNCT	FB	_	7	punct	_	_
+
+# sent_id = 21
+# text = C’è una differenza fondamentale, secondo Barzagli, che
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	fondamentale	fondamentale	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	secondo	secondo	ADP	E	_	8	case	_	_
+8	Barzagli	Barzaglio	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	2	nsubj	_	SpacesAfter=\n
+

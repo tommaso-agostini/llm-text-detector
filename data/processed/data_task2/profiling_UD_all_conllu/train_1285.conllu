@@ -1,0 +1,646 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dove, non si sa.
+1	Dove	dove	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Proviamo a immaginarlo.
+1	Proviamo	Provare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3-4	immaginarlo	_	_	_	_	_	_	_	SpaceAfter=No
+3	immaginar	immaginare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = La notizia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Svelato il mistero dei cerchi che compaiono nelle coltivazioni controllate di papaveri da oppio in Tasmania (Australia).
+1	Svelato	svelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cerchi	cerchio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	compaiono	comparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	coltivazioni	coltivazione	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+12	controllate	controllato	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	papaveri	papavero	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	oppio	oppio	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Tasmania	Tasmania	PROPN	SP	_	14	nmod	_	_
+19	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	Australia	Australia	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Il fenomeno è causato dai wallaby, piccoli canguri locali, che sotto l'effetto della droga saltano in cerchio prima di stramazzare al suolo.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	causato	causare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dai	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	wallaby	wallaby	NOUN	S	Gender=Masc	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	canguri	cangurio	NOUN	S	Gender=Masc|Number=Plur	7	appos	_	_
+11	locali	locale	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+14	sotto	sotto	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	droga	droga	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	saltano	saltare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cerchio	cerchio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+23	prima	prima	ADV	B	_	25	mark	_	_
+24	di	di	ADP	E	_	23	fixed	_	_
+25	stramazzare	stramazzare	VERB	V	VerbForm=Inf	20	advcl	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Lo ha spiegato al parlamento dello stato-isola australiano il ministro della giustizia Lara Giddings, rispondendo a una domanda sulla sicurezza della produzione legale di oppio per il mercato farmaceutico, di cui la Tasmania è la principale fornitrice.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	parataxis	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	parlamento	parlamento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	stato	stato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+11	isola	isola	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	australiano	australiano	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	Lara	Lara	PROPN	SP	_	14	nmod	_	_
+19	Giddings	Giddings	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	12	punct	_	_
+21	rispondendo	rispondere	VERB	V	VerbForm=Ger	12	advcl	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	sulla	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	legale	legale	ADJ	A	Number=Sing	30	amod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	oppio	oppio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+37	farmaceutico	farmaceutico	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	33	punct	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	cui	cui	PRON	PR	PronType=Rel	46	obl	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Tasmania	Tasmania	PROPN	SP	_	46	nsubj	_	_
+43	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	principale	principale	ADJ	A	Number=Sing	46	amod	_	_
+46	fornitrice	fornitore	NOUN	S	Gender=Fem|Number=Sing	33	acl:relcl	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 7
+# text = Giddings ha detto che sono i wallaby, una varietà di canguri di media grandezza, che in numero crescente si introducono nei campi coltivati per brucare, creando così i misteriosi cerchi di papaveri schiacciati.
+1	Giddings	Giddings	PROPN	SP	_	3	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	wallaby	wallaby	NOUN	S	Gender=Masc	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	varietà	varietà	NOUN	S	Gender=Fem	7	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	canguri	cangurio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	media	medio	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	grandezza	grandezzo	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	numero	numero	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+20	crescente	crescere	ADJ	A	Number=Sing	19	amod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	introducono	introdurre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+23-24	nei	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	campi	campo	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+26	coltivati	coltivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	brucare	brucare	VERB	V	VerbForm=Inf	26	advcl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	creando	creare	VERB	V	VerbForm=Ger	28	advcl	_	_
+31	così	così	ADV	B	_	30	advmod	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	misteriosi	misterioso	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	_
+34	cerchi	cerchio	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	papaveri	papavero	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+37	schiacciati	schiacciato	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = «Ho anche appreso dai responsabili delle coltivazioni che altre specie animali, sia selvatiche che di allevamento, dopo aver mangiato i papaveri si comportano stranamente, e tendono a girare in tondo», ha aggiunto.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	appreso	apprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dai	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	responsabili	responsabile	NOUN	S	Number=Plur	4	obl	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	coltivazioni	coltivazione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	28	obj	_	_
+12	altre	altro	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	specie	specie	NOUN	S	Gender=Fem	28	obl	_	_
+14	animali	animale	NOUN	S	Gender=Masc|Number=Plur	13	compound	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	sia	essere	CCONJ	CC	_	17	cc	_	_
+17	selvatiche	selvatico	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+18	che	che	CCONJ	CC	_	20	cc	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	allevamento	allevamento	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	dopo	dopo	SCONJ	CS	_	24	mark	_	_
+23	aver	avere	AUX	VA	VerbForm=Inf	24	aux	_	_
+24	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	papaveri	papavero	NOUN	S	Gender=Masc|Number=Plur	28	nsubj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	comportano	comportare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+29	stranamente	strano	ADV	B	_	28	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	32	punct	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	tendono	tendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+33	a	a	ADP	E	_	34	mark	_	_
+34	girare	girare	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	tondo	tondo	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+37	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	4	punct	_	_
+39	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Circa 500 agricoltori coltivano papaveri da oppio in Tasmania e forniscono circa il 50 per cento del mercato mondiale di materiale di base per la morfina e altri oppiacei.
+1	Circa	circa	ADV	B	_	2	advmod	_	_
+2	500	500	NUM	N	NumType=Card	3	nummod	_	_
+3	agricoltori	agricoltore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	coltivano	coltivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	papaveri	papavero	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	oppio	oppio	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Tasmania	Tasmania	PROPN	SP	_	5	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	forniscono	fornire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	circa	circa	ADV	B	_	11	advmod	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	50	50	NUM	N	NumType=Card	11	obj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	cento	cento	NUM	N	NumType=Card	14	nummod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+20	mondiale	mondiale	ADJ	A	Number=Sing	19	amod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	base	base	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	morfina	morfina	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	altri	altro	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+30	oppiacei	oppiaceo	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Molti credono che i cerchi tracciati nei campi coltivati, che compaiono improvvisamente in varie regioni del mondo, siano creati da extraterrestri.
+1	Molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	23	mark	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cerchi	cerchio	NOUN	S	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+6	tracciati	tracciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	campi	campo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	coltivati	coltivare	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	compaiono	comparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+14	improvvisamente	improvvisamente	ADV	B	_	13	advmod	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	5	punct	_	_
+22	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	creati	creare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	extraterrestri	extraterrestro	NOUN	S	Gender=Masc|Number=Plur	23	obl:agent	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Almeno in Australia, per ora, è accertato che gli autori sono totalmente terrestri.
+1	Almeno	almeno	ADV	B	_	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Australia	Australia	PROPN	SP	_	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	ora	ora	ADV	B	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	accertato	accertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	che	che	SCONJ	CS	_	15	mark	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	autori	autore	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	totalmente	totalmente	ADV	B	_	15	advmod	_	_
+15	terrestri	terrestro	ADJ	A	Gender=Masc|Number=Plur	9	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = (fonte:
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	fonte	fonta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ansa, 25 giugno 2009) Fuori dalla notizia.
+1	Ansa	Ansa	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	25	25	NUM	N	NumType=Card	1	nmod	_	_
+4	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	_
+5	2009	2009	NUM	N	NumType=Card	3	flat	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	1	punct	_	_
+7	Fuori	fuori	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Un migliaio di wallaby, i simpatici piccoli canguri australiani, sono spariti nel giro di una decina di giorni in Tasmania.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	migliaio	migliaio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	wallaby	wallaby	NOUN	S	Gender=Masc	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	simpatici	simpatico	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	canguri	canguro	ADJ	A	Number=Plur	10	amod	_	_
+10	australiani	australiano	NOUN	S	Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	spariti	sparire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	giro	giro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	decina	decina	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Tasmania	Tasmania	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 15
+# text = A darne notizia è Lou Crocodile, presidente dell'associazione ambientalista «ZooPeace» di Hobart, la capitale dell'isola-stato.
+1	A	a	ADP	E	_	2	case	_	_
+2	darne	darno	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+3	notizia	notizia	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Lou	Lou	PROPN	SP	_	0	root	_	_
+6	Crocodile	Crocodile	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	ambientalista	ambientalista	ADJ	A	Number=Sing	11	amod	_	_
+13	«	«	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	ZooPeace	ZooPeace	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	»	»	PUNCT	FB	_	14	punct	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Hobart	Hobart	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	capitale	capitale	NOUN	S	Number=Sing	5	appos	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	isola-stato	isola-stato	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = «Non sappiamo che fine abbiano fatto - lamenta Crocodile - e temiamo che siano stati catturati da qualche malintenzionato che vuole immetterli sul mercato nero europeo ed americano delle specie esotiche».
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	-	-	PUNCT	FB	_	9	punct	_	_
+9	lamenta	lamentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	Crocodile	Crocodile	PROPN	SP	_	9	nsubj	_	_
+11	-	-	PUNCT	FF	_	9	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	temiamo	temere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	catturati	catturare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	malintenzionato	malintenzionato	NOUN	S	Gender=Masc|Number=Sing	17	obl:agent	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23-24	immetterli	_	_	_	_	_	_	_	_
+23	immetter	immettere	VERB	V	VerbForm=Inf	20	acl:relcl	_	_
+24	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+25-26	sul	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+28	nero	nero	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+30	ed	e	CCONJ	CC	_	31	cc	_	_
+31	americano	americano	ADJ	A	Gender=Masc|Number=Sing	29	conj	_	_
+32-33	delle	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	specie	specie	NOUN	S	Gender=Fem	27	nmod	_	_
+35	esotiche	esotico	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+36	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Ma qualcuno avanza un'ipotesi ancor più inquietante:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	avanza	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ipotesi	ipotesi	NOUN	S	Gender=Fem	3	obj	_	_
+6	ancor	ancora	ADV	B	_	8	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	inquietante	inquietante	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 18
+# text = gli animali sarebbero stati rapiti dagli alieni.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	animali	animale	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	rapiti	rapire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dagli	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	alieni	alieno	NOUN	S	Gender=Masc|Number=Plur	5	obl:agent	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = Con questo gesto, i nostri lontani parenti dello spazio vorrebbero protestare per la relazione, proposta da alcuni, fra i wallaby, appunto, e i cerchi nei campi di papaveri da oppio.
+1	Con	con	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+6	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	lontani	lontano	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	parenti	parente	NOUN	S	Number=Plur	12	nsubj	_	_
+9-10	dello	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	vorrebbero	vorere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	protestare	protestare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	proposta	proporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	obl:agent	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	12	punct	_	_
+22	fra	fra	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	wallaby	wallaby	NOUN	S	Gender=Masc	12	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	appunto	appunto	ADV	B	_	24	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	cerchi	cerchio	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+31-32	nei	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	campi	campo	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	papaveri	papavero	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+36	da	da	ADP	E	_	37	case	_	_
+37	oppio	oppio	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 20
+# text = Lo strano fenomeno che si vorrebbe causato dallo stato di eccitazione dei marsupiali dopo aver brucato i papaveri, si verifica anche in altre aree della Terra, in particolare fra le coltivazioni di grano.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	strano	strano	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj:pass	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+6	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	causato	causare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8-9	dallo	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	stato	stato	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	eccitazione	eccitazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	marsupiali	marsupiale	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	dopo	dopo	SCONJ	CS	_	18	mark	_	_
+17	aver	avere	AUX	VA	VerbForm=Inf	18	aux	_	_
+18	brucato	brucare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	papaveri	papavero	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:pass	_	_
+23	verifica	verificare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	anche	anche	ADV	B	_	27	advmod	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	27	det	_	_
+27	aree	area	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Terra	Terra	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	fra	fra	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	coltivazioni	coltivazione	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	grano	grano	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 21
+# text = E anche in quei casi è stato messo in relazione con presenze aliene.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	casi	caso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	presenze	presenze	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+13	aliene	alenere	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = «Loro - afferma un noto ufologo australiano che preferisce mantenere l'anonimato - non ci stanno a esser presi per il naso, confondendoli con quelle bestiacce pelose.
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+3	-	-	PUNCT	FF	_	2	punct	_	_
+4	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	noto	noto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	ufologo	ufologo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+8	australiano	australiano	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	preferisce	preferire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	mantenere	mantenere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	anonimato	anonimato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	-	-	PUNCT	FB	_	4	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
+17	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	20	mark	_	_
+19	esser	essere	AUX	VA	VerbForm=Inf	20	aux	_	_
+20	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	advcl	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	naso	naso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	17	punct	_	_
+25-26	confondendoli	_	_	_	_	_	_	_	_
+25	confondendo	confondere	VERB	V	VerbForm=Ger	17	advcl	_	_
+26	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	29	det	_	_
+29	bestiacce	bestiaccia	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+30	pelose	peloso	ADJ	A	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 23
+# text = E vi posso assicurare che apprezzano molto l'oppio terrestre, molto migliore di quello lunare.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	vi	vi	ADV	B	_	4	advmod	_	_
+3	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	assicurare	assicurare	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	apprezzano	apprezzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	molto	molto	ADV	B	_	6	advmod	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	oppio	oppio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+10	terrestre	terrestre	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	_
+16	lunare	lunare	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Capisco il loro gesto, anche se non lo giustifico.
+1	Capisco	Capisco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	anche	anche	ADV	B	_	9	mark	_	_
+7	se	se	SCONJ	CS	_	6	fixed	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	advcl	_	_
+10	giustifico	giustifico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = Io sono contro la violenza».
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	contro	contro	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

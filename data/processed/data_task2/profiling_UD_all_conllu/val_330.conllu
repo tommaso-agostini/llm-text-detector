@@ -1,0 +1,329 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Auto bloccate, strade interrotte, danni a case e aziende:
+1	Auto	auto	NOUN	S	Gender=Fem	0	root	_	_
+2	bloccate	bloccare	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	strade	strada	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+5	interrotte	interrotto	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	danni	danno	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	case	casa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = la situazione è critica e richiede un intervento urgente e massiccio da parte delle autorità.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	critica	critico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	urgente	urgente	ADJ	A	Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	massiccio	massiccio	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	autorità	autorità	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = È evidente che il clima che stiamo vivendo è anomalistico e non può essere imputato, come spesso accade, a semplici capricci della natura.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	evidente	evidente	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	clima	clima	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	vivendo	vivere	VERB	V	VerbForm=Ger	5	acl:relcl	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	anomalistico	anomalistico	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	imputato	imputare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	come	come	ADP	E	_	19	mark	_	_
+18	spesso	spesso	ADV	B	_	19	advmod	_	_
+19	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	semplici	semplice	ADJ	A	Number=Plur	23	amod	_	_
+23	capricci	capriccio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	natura	natura	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = L'eccessiva enfasi sulle cause climatiche, promossa da una sinistra incapace di affrontare i problemi reali del Paese, distrae dai veri responsabili:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	eccessiva	eccessivo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	enfasi	enfasi	NOUN	S	Gender=Fem	0	root	_	_
+4-5	sulle	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cause	causa	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	climatiche	climatiche	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	promossa	promuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
+13	incapace	incapace	ADJ	A	Number=Sing	12	amod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	affrontare	affrontare	VERB	V	VerbForm=Inf	12	acl	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	reali	reale	ADJ	A	Number=Plur	17	amod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	distrae	distrarre	VERB	V	VerbForm=Inf	15	conj	_	_
+24-25	dai	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	veri	vero	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+27	responsabili	responsabile	NOUN	S	Number=Plur	23	obl	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = un'urbanistica inadeguata, una gestione delle risorse idriche inefficiente e una mancanza di rispetto per le tradizioni e le caratteristiche del territorio.
+1	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	urbanistica	urbanistica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	inadeguata	inadeguato	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	idriche	idrico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	inefficiente	inefficiente	ADJ	A	Number=Sing	9	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	tradizioni	tradizione	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Il Centro-Sud, invece, gode di una tregua, con ampie schiarite e temperature miti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Centro-Sud	Centro-Sud	PROPN	SP	_	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	gode	godere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tregua	tregua	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	ampie	ampio	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	schiarite	schiarita	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+16	miti	mite	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Un sollievo benvenuto, certo, ma che non può farci dimenticare la gravità della situazione del Nord.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sollievo	sollievo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	benvenuto	benvenuto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	certo	certo	ADV	B	_	11	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-12	farci	_	_	_	_	_	_	_	_
+11	far	fare	VERB	V	VerbForm=Inf	2	conj	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	_
+13	dimenticare	dimenticare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	gravità	gravità	NOUN	S	Gender=Fem	13	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Nord	Nord	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Il governo, anziché continuare a spendere ingenti somme in politiche di “green” demagogiche, dovrebbe concentrarsi sulla ricostruzione dei danni, sulla ripristino delle infrastrutture e sulla prevenzione di futuri disastri.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anziché	anziché	ADV	B	_	5	advmod	_	_
+5	continuare	continuare	VERB	V	VerbForm=Inf	2	acl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	spendere	spendere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	ingenti	ingente	ADJ	A	Number=Plur	9	amod	_	_
+9	somme	somma	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	di	di	ADP	E	_	19	mark	_	_
+13	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+14	green	green	INTJ	I	_	19	discourse	_	SpaceAfter=No
+15	”	”	PUNCT	FB	_	14	punct	_	_
+16	demagogiche	demagogico	ADV	B	_	19	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19-20	concentrarsi	_	_	_	_	_	_	_	_
+19	concentrar	concentrare	VERB	V	VerbForm=Inf	9	acl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21-22	sulla	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	ricostruzione	ricostruzione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	danni	danno	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	19	punct	_	_
+28-29	sulla	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	ripristino	ripristino	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+31-32	delle	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35-36	sulla	_	_	_	_	_	_	_	_
+35	su	su	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	futuri	futuro	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	_
+40	disastri	disastro	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = E, soprattutto, dovrebbe ragionare con la realtà e non con le previsioni di modelli satellitari sempre più inaffidabili.
+1	E	e	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	soprattutto	soprattutto	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ragionare	ragionare	VERB	V	VerbForm=Inf	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem	6	obl	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	satellitari	satellitare	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	sempre	sempre	ADV	B	_	19	advmod	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	inaffidabili	inaffidabile	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = La natura, come spesso ci insegna la storia, ha i suoi ritmi e le sue logiche, e non può essere forzata a seguire le direttive di chi, ignorando i feedback positivi del bene economico e della tradizione, antepone ideologie astratte a salubri pratiche.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	natura	natura	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	spesso	spesso	ADV	B	_	7	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	storia	storia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	ritmi	ritmo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+17	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	logiche	logica	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	_	_
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+22	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	essere	essere	AUX	VA	VerbForm=Inf	24	aux:pass	_	_
+24	forzata	forzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	seguire	seguire	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	direttive	direttiva	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	chi	chi	PRON	PR	Number=Sing|PronType=Rel	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	30	punct	_	_
+32	ignorando	ignorare	VERB	V	VerbForm=Ger	30	acl:relcl	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	feedback	feedback	NOUN	S	Gender=Masc	32	obj	_	_
+35	positivi	positivo	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	bene	bene	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+39	economico	economico	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	43	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	43	punct	_	_
+45	antepone	anteporre	ADJ	A	Gender=Fem|Number=Plur	46	amod	_	_
+46	ideologie	ideologia	NOUN	S	Gender=Fem|Number=Plur	43	appos	_	_
+47	astratte	astratto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	46	acl	_	_
+48	a	a	ADP	E	_	49	case	_	_
+49	salubri	salubro	NOUN	S	Gender=Fem|Number=Plur	47	obl	_	_
+50	pratiche	pratico	ADJ	A	Gender=Fem|Number=Plur	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Si teme che la tregua attuale sia solo temporanea.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	teme	temere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tregua	tregua	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	attuale	attuale	ADJ	A	Number=Sing	5	amod	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	temporanea	temporaneo	ADJ	A	Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Le
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	0	root	_	SpacesAfter=\n
+

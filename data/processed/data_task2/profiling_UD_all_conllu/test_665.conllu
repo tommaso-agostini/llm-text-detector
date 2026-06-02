@@ -1,0 +1,735 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecco dieci trucchi per evitarle.
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	dieci	dieci	NUM	N	NumType=Card	3	nummod	_	_
+3	trucchi	trucco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	evitarle	_	_	_	_	_	_	_	SpaceAfter=No
+5	evitar	evitare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = 1.
+1	1	1	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = L'abitazione principale Per ogni contribuente, solo una casa può essere definita "principale".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	abitazione	abitazione	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	principale	principale	ADJ	A	Number=Sing	2	amod	_	_
+4	Per	per	ADP	E	_	6	case	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	contribuente	contribuente	NOUN	S	Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	definita	definire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	principale	principale	ADJ	A	Number=Sing	13	xcomp	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Come riporta Il Sole 24 ore :
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	riporta	riportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Sole	Sole	PROPN	SP	_	2	nsubj	_	_
+5	24	24	NUM	N	NumType=Card	6	nummod	_	_
+6	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 5
+# text = "Anche nel caso di due coniugi residenti in due immobili dello stesso Comune, o in immobili contigui ma separati dal Catasto".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Anche	anche	ADV	B	_	5	advmod	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caso	caso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	coniugi	coniuge	NOUN	S	Number=Plur	5	nmod	_	_
+9	residenti	residente	ADJ	A	Number=Plur	8	amod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+13-14	dello	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	Comune	comune	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	o	o	CCONJ	CC	_	20	cc	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+21	contigui	contiguo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	ma	ma	CCONJ	CC	_	23	cc	_	_
+23	separati	separato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	conj	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Catasto	Catasto	PROPN	SP	_	23	obl:agent	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = 2.
+1	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Le detrazioni dimenticate Ogni Comune può decidere le detrazioni:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	detrazioni	detrazione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	dimenticate	dimenticare	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+4	Ogni	ogni	PROPN	SP	_	2	nmod	_	_
+5	Comune	comune	PROPN	SP	_	4	flat:name	_	_
+6	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	decidere	decidere	VERB	V	VerbForm=Inf	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	detrazioni	detrazioni	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 8
+# text = "Fisse (come per l'Imu) o variabili", come scrive Il Sole 24 ore . Tuttavia, a volte i contribuenti se ne dimenticano oppure le applicano male.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Fisse	fisse	PROPN	SP	_	0	root	_	_
+3	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+4	come	come	ADP	E	_	7	case	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Imu	Imu	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	variabili	variabile	ADJ	A	Number=Plur	7	conj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	come	come	ADV	B	_	14	advmod	_	_
+14	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+15	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Sole	sole	PROPN	SP	_	14	nsubj	_	_
+17	24	24	NUM	N	NumType=Card	18	nummod	_	_
+18	ore	ora	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+19	.	.	PUNCT	FS	_	14	punct	_	_
+20	Tuttavia	tuttavia	ADV	B	_	28	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	volte	volte	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	contribuenti	contribuente	NOUN	S	Number=Plur	28	nsubj	_	_
+26	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+27	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	28	iobj	_	_
+28	dimenticano	dimenticare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+29	oppure	oppure	CCONJ	CC	_	31	cc	_	_
+30	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	iobj	_	_
+31	applicano	applicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+32	male	male	ADV	B	_	31	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = In questi casi "la correzione è possibile con sanzioni e interessi di mora".
+1	In	in	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	casi	caso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	correzione	correzione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	mora	mora	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 10
+# text = 3.
+1	3	3	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Pertinenze dimenticate Da non trascurare un fatto, come sottolinea Il Sole 24 ore :
+1	Pertinenze	Pertinenza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	dimenticate	dimenticare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	Da	Da	ADP	E	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	trascurare	trascurare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	come	come	SCONJ	CS	_	10	mark	_	_
+10	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Sole	Sole	PROPN	SP	_	10	nsubj	_	_
+13	24	24	NUM	N	NumType=Card	14	nummod	_	_
+14	ore	ora	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 12
+# text = "Una sola pertinenza di categoria C/2 (cantine, soffitte, magazzini), C/6 (box auto) e C/7 (tettoie) può essere 'abbinata' a un immobile, fino a un massimo di tre pertinenze, anche se il box o la cantina è accatastato insieme all'abitazione".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sola	solo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	pertinenza	pertinenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	categoria	categoria	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	C	C	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	/	/	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	2	2	NUM	N	NumType=Card	7	nummod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	cantine	cantina	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	soffitte	soffitta	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	magazzini	magazzino	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	C	C	PROPN	SP	_	4	conj	_	SpaceAfter=No
+19	/	/	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+20	6	6	NUM	N	NumType=Card	4	nummod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	box	box	NOUN	S	Gender=Masc	35	nsubj	_	_
+23	auto	auto	ADJ	A	_	22	amod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	22	punct	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	C	C	PROPN	SP	_	22	conj	_	SpaceAfter=No
+27	/	/	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+28	7	7	PROPN	SP	_	22	nmod	_	_
+29	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	tettoie	tettoia	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	30	punct	_	_
+32	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+33	essere	essere	AUX	VA	VerbForm=Inf	35	cop	_	_
+34	'	'	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	abbinata	abbinare	ADJ	A	_	4	amod	_	SpaceAfter=No
+36	'	'	PUNCT	FB	_	35	punct	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	4	punct	_	_
+41	fino	fino	ADV	B	_	44	case	_	_
+42	a	a	ADP	E	_	41	fixed	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	tre	tre	NUM	N	NumType=Card	47	nummod	_	_
+47	pertinenze	pertinenza	NOUN	S	Gender=Fem|Number=Plur	44	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	4	punct	_	_
+49	anche	anche	ADV	B	_	57	advmod	_	_
+50	se	se	SCONJ	CS	_	57	mark	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	box	box	NOUN	S	Gender=Masc	57	nsubj	_	_
+53	o	o	CCONJ	CC	_	55	cc	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	cantina	cantina	NOUN	S	Gender=Fem|Number=Sing	52	conj	_	_
+56	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
+57	accatastato	accatastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+58	insieme	insieme	ADV	B	_	61	case	_	_
+59-60	all'	_	_	_	_	_	_	_	SpaceAfter=No
+59	a	a	ADP	E	_	58	fixed	_	_
+60	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	61	det	_	_
+61	abitazione	abitazione	NOUN	S	Gender=Fem|Number=Sing	57	obl	_	SpaceAfter=No
+62	"	"	PUNCT	FB	_	61	punct	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = 4.
+1	4	4	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = I versamenti minimi Non è necessario pagare Tasi e Imu se il loro importo è inferiore ai 12 euro "ma il calcolo va fatto sull'intero anno e sul contribuente, non sui singoli beni".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	versamenti	versamento	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	minimi	minimo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	pagare	pagare	VERB	V	VerbForm=Inf	6	csubj	_	_
+8	Tasi	Tase	PROPN	SP	_	7	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Imu	Imu	PROPN	SP	_	8	conj	_	_
+11	se	se	SCONJ	CS	_	16	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	importo	importo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	7	advcl	_	_
+17-18	ai	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	12	12	NUM	N	NumType=Card	20	nummod	_	_
+20	euro	euro	NOUN	S	Gender=Masc	16	obl	_	_
+21	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+22	ma	ma	CCONJ	CC	_	26	cc	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+25	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+27-28	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+27	su	su	ADP	E	_	30	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+29	intero	intero	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	anno	anno	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32-33	sul	_	_	_	_	_	_	_	_
+32	su	su	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	contribuente	contribuente	NOUN	S	Number=Sing	30	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	40	punct	_	_
+36	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+37-38	sui	_	_	_	_	_	_	_	_
+37	su	su	ADP	E	_	40	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	singoli	singolo	ADJ	A	Gender=Masc|Number=Plur	40	amod	_	_
+40	beni	bene	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+41	"	"	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = 5.
+1	5	5	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = La caccia alle aliquote Come spiega il Sole 24 ore , "l'unico sito con valore legale per le delibere con le aliquote Imu-Tasi è quello delle Finanze.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	aliquote	aliquota	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	Come	come	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Sole	sole	PROPN	SP	_	7	obj	_	_
+10	24	24	NUM	N	NumType=Card	11	nummod	_	_
+11	ore	ora	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	unico	unico	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	sito	sito	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	valore	valore	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	legale	legale	ADJ	A	Number=Sing	18	amod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	delibere	delibere	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	aliquote	aliquota	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+26-27	Imu-Tasi	_	_	_	_	_	_	_	_
+26	Imu-ta	Imu-to	PROPN	SP	_	25	nmod	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+30-31	delle	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	Finanze	finanza	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 17
+# text = Nel saldo c'è chi replica l'importo in acconto, dimenticandosi di nuove delibere.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	saldo	saldo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nsubj	_	_
+7	replica	replicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	importo	importo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	acconto	acconto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13-14	dimenticandosi	_	_	_	_	_	_	_	_
+13	dimenticando	dimenticare	VERB	V	VerbForm=Ger	7	advcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	delibere	delibere	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Attenti alle case concesse in prestito o affittate a canone concordato, per le quali nel 2015 spesso sono state introdotte agevolazioni".
+1	Attenti	attento	NOUN	S	Number=Plur	0	root	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	case	casa	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+5	concesse	concedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	prestito	prestito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	affittate	affittare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	canone	canone	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	concordato	concordato	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	quali	quale	PRON	PR	Number=Plur|PronType=Rel	23	obl	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	2015	2015	NUM	N	NumType=Card	23	obl	_	_
+20	spesso	spesso	ADV	B	_	19	advmod	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	introdotte	introdurre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+24	agevolazioni	agevolazioni	NOUN	S	Gender=Fem|Number=Plur	23	nsubj:pass	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = 6.
+1	6	6	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = La Tasi negli affitti Nel caso in cui il Comune non ha azzerato la Tasi, la quota compresa tra il 10 e il 30% del tributo deve essere pagata da chi occupa l'immobile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Tasi	Tase	PROPN	SP	_	34	nsubj	_	_
+3-4	negli	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	affitti	affitto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6-7	Nel	_	_	_	_	_	_	_	_
+6	In	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	PronType=Rel	15	obl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Comune	comune	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	azzerato	azzerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Tasi	Tase	PROPN	SP	_	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	quota	quota	NOUN	S	Gender=Fem|Number=Sing	34	nsubj:pass	_	_
+21	compresa	compreso	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	tra	tra	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	10	10	NUM	N	NumType=Card	21	nummod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	30	30	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	SYM	_	24	conj	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	tributo	tributo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	essere	essere	AUX	VA	VerbForm=Inf	34	aux:pass	_	_
+34	pagata	pagare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+35	da	da	ADP	E	_	36	case	_	_
+36	chi	chi	PRON	PR	Number=Sing|PronType=Rel	34	obl:agent	_	_
+37	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+38	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	34	punct	_	_
+
+# sent_id = 21
+# text = 7.
+1	7	7	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 22
+# text = Il codice tributo Spiega Il Sole 24 ore :
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	codice	codice	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	tributo	tribire	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	Spiega	Spiega	PROPN	SP	_	2	nmod	_	_
+5	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sole	Sole	PROPN	SP	_	4	nmod	_	_
+7	24	24	NUM	N	NumType=Card	8	nummod	_	_
+8	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 23
+# text = "Se dopo aver eseguito il versamento Imu o Tasi il contribuente si accorge di avere usato codici tributo sbagliati o di aver distribuito in modo errato l'imposta per i diversi immobili, ma il totale versato corrisponde a quanto dovuto, potrà correggere l'errore con una comunicazione all'ufficio comunale".
+1	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	14	mark	_	_
+3	dopo	dopo	SCONJ	CS	_	5	mark	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	eseguito	eseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	versamento	versamento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	Imu	Imu	PROPN	SP	_	7	nmod	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	Tasi	Tanere	PROPN	SP	_	8	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	contribuente	contribuente	NOUN	S	Number=Sing	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	accorge	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	di	di	ADP	E	_	17	mark	_	_
+16	avere	avere	AUX	VA	VerbForm=Inf	17	aux	_	_
+17	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+18	codici	codici	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	tributo	tributo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	sbagliati	sbagliato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+21	o	o	CCONJ	CC	_	24	cc	_	_
+22	di	di	ADP	E	_	24	mark	_	_
+23	aver	avere	AUX	VA	VerbForm=Inf	24	aux	_	_
+24	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	modo	modo	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+27	errato	errato	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+30	per	per	ADP	E	_	33	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+32	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	33	det	_	_
+33	immobili	immobile	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	39	punct	_	_
+35	ma	ma	CCONJ	CC	_	39	cc	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	totale	totale	ADJ	A	Number=Sing	38	amod	_	_
+38	versato	versato	NOUN	S	Gender=Masc|Number=Sing	39	nsubj	_	_
+39	corrisponde	corrispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+40	a	a	ADP	E	_	41	case	_	_
+41	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	39	obl	_	_
+42	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	aux	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	42	punct	_	_
+44	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	45	aux	_	_
+45	correggere	correggere	VERB	V	VerbForm=Inf	41	acl:relcl	_	_
+46	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
+47	errore	errore	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	_
+48	con	con	ADP	E	_	50	case	_	_
+49	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	_
+51-52	all'	_	_	_	_	_	_	_	SpaceAfter=No
+51	a	a	ADP	E	_	53	case	_	_
+52	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	53	det	_	_
+53	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	50	nmod	_	_
+54	comunale	comunale	ADJ	A	Number=Sing	53	amod	_	SpaceAfter=No
+55	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 24
+# text = 8.
+1	8	8	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 25
+# text = Il codice del Comune Se uno sbaglia a indicare il codice del Comune - e a sbagliare è il contribuente - "dovrà correggere la violazione con un'istanza di rettifica.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	codice	codice	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Comune	Comune	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Se	se	SCONJ	CS	_	8	mark	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	indicare	indicare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	codice	codice	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Comune	comune	PROPN	SP	_	12	nmod	_	_
+16	-	-	PUNCT	FF	_	8	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	sbagliare	sbagliare	VERB	V	VerbForm=Inf	8	conj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	contribuente	contribuente	NOUN	S	Number=Sing	26	obl	_	_
+23	-	-	PUNCT	FB	_	22	punct	_	_
+24	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	aux	_	_
+26	correggere	correggere	VERB	V	VerbForm=Inf	0	root	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	istanza	istanza	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	rettifica	rettifica	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 26
+# text = Se l'errore è dell'intermediario (banca o posta) bisogna rivolgersi a quest'ultimo".
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	errore	errore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	intermediario	intermediario	NOUN	S	Gender=Masc|Number=Sing	13	advcl	_	_
+8	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	banca	banca	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	posta	posta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	9	punct	_	_
+13	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14-15	rivolgersi	_	_	_	_	_	_	_	_
+14	rivolger	rivolgere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	quest'	questo	DET	DD	Number=Sing|PronType=Dem	18	det	_	SpaceAfter=No
+18	ultimo	ultimo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 27
+# text = 9.
+1	9	9	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = L'errore di calcolo Spiega Il Sole 24 ore :
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	errore	errore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+5	Spiega	Spiega	PROPN	SP	_	2	nmod	_	_
+6	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sole	Sole	PROPN	SP	_	2	nmod	_	_
+8	24	24	NUM	N	NumType=Card	9	nummod	_	_
+9	ore	ora	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 29
+# text = "L'errore nel calcolo del tributo che determina un versamento inferiore a quello dovuto va sanato pagando l'Imu o la Tasi ancora a debito ma anche le sanzioni e gli interessi moratori che maturano giorno per giorno.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	errore	errore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tributo	tributo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	determina	determinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	versamento	versamento	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	13	amod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	obl	_	_
+17	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux	_	_
+18	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	sanato	sanare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+20	pagando	pagare	VERB	V	VerbForm=Ger	19	advcl	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	Imu	Imu	PROPN	SP	_	20	obj	_	_
+23	o	o	CCONJ	CC	_	25	cc	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Tasi	Tase	PROPN	SP	_	22	conj	_	_
+26	ancora	ancora	ADV	B	_	28	advmod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	debito	debito	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	ma	ma	CCONJ	CC	_	32	cc	_	_
+30	anche	anche	ADV	B	_	32	advmod	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	sanzioni	sanzione	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	_
+36	moratori	moratorio	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	maturano	maturare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+39	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+40	per	per	ADP	E	_	41	case	_	_
+41	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 30
+# text = Anche chi a giugno ha pagato un acconto errato deve fare il ravvedimento".
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	chi	chi	PRON	PQ	PronType=Int	11	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	acconto	acconto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	errato	errato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ravvedimento	ravvedimento	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 31
+# text = 10.
+1	10	10	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 32
+# text = Gli errori formali
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	errori	errore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	formali	formale	ADJ	A	Number=Plur	2	amod	_	_
+
+# sent_id = 33
+# text = Nel modello F24 potrebbero esserci alcuni errori formali (che, comunque, non incidono sul pagamento del tributo).
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	modello	modello	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	F24	F24	PROPN	SP	_	3	nmod	_	_
+5	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6-7	esserci	_	_	_	_	_	_	_	_
+6	esser	essere	VERB	V	VerbForm=Inf	0	root	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+8	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	errori	errore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+10	formali	formale	ADJ	A	Number=Plur	9	amod	_	_
+11	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+12	che	che	PRON	PR	PronType=Rel	17	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	comunque	comunque	ADV	B	_	17	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	incidono	incidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tributo	tributo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 34
+# text = In questi casi basta comunicare gli errori al Comune.
+1	In	in	ADP	E	_	3	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	casi	caso	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	comunicare	comunicare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	errori	errore	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Comune	comune	PROPN	SP	_	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

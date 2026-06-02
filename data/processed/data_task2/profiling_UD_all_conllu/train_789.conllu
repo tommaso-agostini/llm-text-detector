@@ -1,0 +1,473 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per la Farnesina si tratta di una novita' assoluta, in quanto finora l'incarico era stato ricoperto solo da uomini.
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Farnesina	Farnesina	PROPN	SP	_	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	novita	novita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	'	'	PUNCT	FB	_	10	punct	_	_
+10	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	in	in	ADP	E	_	19	mark	_	_
+13	quanto	quanto	ADV	B	_	12	fixed	_	_
+14	finora	finora	ADV	B	_	19	advmod	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+17	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+18	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	ricoperto	ricoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+20	solo	solo	ADV	B	_	22	advmod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sostituisce Michele Valensise.
+1	Sostituisce	sostituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Michele	Michele	PROPN	SP	_	1	nsubj	_	_
+3	Valensise	Valensise	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = L'ambasciatrice Belloni, romana, e' stata un'apripista fin da ragazza.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ambasciatrice	ambasciatore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Belloni	Belloni	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	romana	romano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	11	punct	_	_
+9	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	apripista	apripista	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+12	fin	fino	ADV	B	_	14	case	_	_
+13	da	da	ADP	E	_	12	fixed	_	_
+14	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Infatti, fu la prima studente di sesso femminile a essere ammessa, insieme a un'altra ragazza, all'Istituto Massimiliano Massimo dei Gesuiti, scuola fino a quel momento esclusivamente maschile.
+1	Infatti	infatti	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	studente	studente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	femminile	femminile	ADJ	A	Number=Sing	8	amod	_	_
+10	a	a	ADP	E	_	12	mark	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	ammessa	ammettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	insieme	insieme	ADV	B	_	18	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+17	altra	altro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20-21	all'	_	_	_	_	_	_	_	SpaceAfter=No
+20	a	a	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	Istituto	Istituto	PROPN	SP	_	12	obl	_	_
+23	Massimiliano	Massimiliano	PROPN	SP	_	22	flat:name	_	_
+24	Massimo	Massimo	PROPN	SP	_	22	flat:name	_	_
+25-26	dei	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Gesuiti	gesuita	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	22	punct	_	_
+29	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	12	xcomp	_	_
+30	fino	fino	ADV	B	_	33	case	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+33	momento	momento	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+34	esclusivamente	esclusivamente	ADV	B	_	35	advmod	_	_
+35	maschile	maschile	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Lo ha fatto anche successivamente, durante la sua carriera al ministero degli Esteri:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	successivamente	successivamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	durante	durante	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+14-15	degli	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Esteri	estero	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = dall'Unita' di crisi (Udc) alla direzione generale per la Cooperazione allo sviluppo (Dgcs) fino all'ultimo incarico ricoperto prima della nomina a segretario generale:
+1-2	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+1	da	da	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Unita	unita	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	'	'	PUNCT	FB	_	3	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	crisi	crisi	NOUN	S	Gender=Fem	3	nmod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Udc	Udc	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+13	generale	generale	ADJ	A	Number=Sing	12	amod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Cooperazione	Cooperazione	PROPN	SP	_	12	nmod	_	_
+17-18	allo	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	Dgcs	Dgcs	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	21	punct	_	_
+23	fino	fino	ADV	B	_	27	case	_	_
+24-25	all'	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	23	fixed	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+26	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+28	ricoperto	ricoprire	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	prima	prima	ADV	B	_	32	case	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	29	fixed	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	nomina	nomina	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	generale	generale	ADJ	A	Number=Sing	34	amod	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = quello di capo di gabinetto del ministro Paolo Gentiloni.
+1	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	capo	capo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	gabinetto	gabinetto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+9	Paolo	Paolo	PROPN	SP	_	8	nmod	_	_
+10	Gentiloni	Gentiloni	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Tutte queste posizioni, infatti, sono state coperte per la prima volta da una donna con l'ambasciatore Belloni.
+1	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	3	det:predet	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	coperte	coprire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	volta	volta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	donna	donna	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	ambasciatore	ambasciatore	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+20	Belloni	Belloni	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Gi studi e la carriera.
+1	Gi	Go	ADV	B	_	2	advmod	_	_
+2	studi	studio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Nel 1982 Elisabetta Belloni si è laureata in Scienze Politiche presso l'Universita' Luiss di Roma.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1982	1982	NUM	N	NumType=Card	8	obl	_	_
+4	Elisabetta	Elisabetta	PROPN	SP	_	8	nsubj	_	_
+5	Belloni	Belloni	PROPN	SP	_	4	flat:name	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	laureata	laureare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Scienze	Scienze	PROPN	SP	_	8	obl	_	_
+11	Politiche	Politiche	PROPN	SP	_	10	flat:name	_	_
+12	presso	presso	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	Universita	Universita	PROPN	SP	_	8	obl	_	SpaceAfter=No
+15	'	'	PUNCT	FB	_	16	punct	_	_
+16	Luiss	Luiss	PROPN	SP	_	14	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Roma	Roma	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 11
+# text = Nel 1985 in seguito ad esame di concorso, e' stata nominata Volontario nella carriera diplomatica.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1985	1985	NUM	N	NumType=Card	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	esame	esame	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+12	'	'	PUNCT	FB	_	14	punct	_	_
+13	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	nominata	nominare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+15	Volontario	volontario	PROPN	SP	_	14	nsubj:pass	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	diplomatica	diplomatico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Nel 2000 e' stata capo della segreteria della Direzione Generale dei Paesi dell'Europa e dal 2001 al 2002 ha guidato l'ufficio per i Paesi dell'Europa centro orientale.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2000	2000	NUM	N	NumType=Card	7	nummod	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	7	punct	_	_
+6	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	capo	capo	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	segreteria	segreteria	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	Generale	generale	ADJ	A	Number=Sing	13	amod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Europa	Europa	PROPN	SP	_	17	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	dal	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	2001	2001	NUM	N	NumType=Card	7	conj	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	2002	2002	NUM	N	NumType=Card	29	obl	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
+31	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	Paesi	Paesi	PROPN	SP	_	31	nmod	_	_
+35-36	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+35	di	di	ADP	E	_	37	case	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	Europa	Europa	PROPN	SP	_	31	nmod	_	_
+38	centro	centro	ADJ	A	Number=Sing	37	amod	_	_
+39	orientale	orientale	ADJ	A	Number=Sing	37	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 13
+# text = Lo stesso anno, peraltro, e' stata promossa Consigliere d'Ambasciata.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	peraltro	peraltro	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	10	punct	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	promossa	promuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+11	Consigliere	consigliere	PROPN	SP	_	10	nsubj:pass	_	_
+12	d'	d'	ADP	E	_	13	case	_	SpaceAfter=No
+13	Ambasciata	ambasciata	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Fino al 2004 e' stata a capo della segretaria del Sottosegretario di Stato e poi nominata a dirigere l'Unita' di crisi (promossa nel 2007 Ministro Plenipotenziario).
+1	Fino	fino	ADV	B	_	4	case	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	2004	2004	NUM	N	NumType=Card	9	nummod	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+6	'	'	PUNCT	FB	_	9	punct	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	capo	capo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	segretaria	segretaria	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Sottosegretario	Sottosegretario	PROPN	SP	_	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Stato	stato	PROPN	SP	_	15	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	poi	poi	ADV	B	_	20	advmod	_	_
+20	nominata	nominare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	dirigere	dirigere	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	Unita	unita	PROPN	SP	_	22	obj	_	SpaceAfter=No
+25	'	'	PUNCT	FB	_	24	punct	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	crisi	crisi	NOUN	S	Gender=Fem	24	nmod	_	_
+28	(	(	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	promossa	promuovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	2007	2007	NUM	N	NumType=Card	29	obl	_	_
+33	Ministro	ministro	PROPN	SP	_	32	nmod	_	_
+34	Plenipotenziario	Plenipotenziario	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 15
+# text = Promossa ambasciatrice nel 2014.
+1	Promossa	promuovere	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	ambasciatrice	ambasciatore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	2014	2014	NUM	N	NumType=Card	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Dal 2008 al 2012 ha guidato la direzione Generale per la Cooperazione allo Sviluppo e nel 2013 e' stata nominata al vertice della direzione generale per le Risorse e l'Innovazione (Personale e bilancio).
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2008	2008	NUM	N	NumType=Card	8	nummod	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2012	2012	NUM	N	NumType=Card	8	obl	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	guidato	guidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	Generale	generale	ADJ	A	Number=Sing	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Cooperazione	cooperazione	PROPN	SP	_	10	nmod	_	_
+15-16	allo	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Sviluppo	Sviluppo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	2013	2013	NUM	N	NumType=Card	17	conj	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	SpaceAfter=No
+23	'	'	PUNCT	FB	_	25	punct	_	_
+24	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	aux:pass	_	_
+25	nominata	nominare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	vertice	vertice	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	generale	generale	ADJ	A	Number=Sing	31	amod	_	_
+33	per	per	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	Risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	Innovazione	innovazione	PROPN	SP	_	35	conj	_	_
+39	(	(	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+40	Personale	personale	PROPN	SP	_	38	nmod	_	_
+41	e	e	CCONJ	CC	_	42	cc	_	_
+42	bilancio	bilancio	NOUN	S	Gender=Masc|Number=Sing	40	conj	_	SpaceAfter=No
+43	)	)	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 17
+# text = Dopo la sua promozione ad Ambasciatore nel 2014, l'anno successivo e' stata scelta come Capo di Gabinetto del ministero degli Esteri e della Cooperazione Internazionale (Maeci).
+1	Dopo	dopo	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	promozione	promozione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	ad	a	ADP	E	_	6	case	_	_
+6	Ambasciatore	ambasciatore	PROPN	SP	_	4	nmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	2014	2014	NUM	N	NumType=Card	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+13	successivo	successivo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	SpaceAfter=No
+15	'	'	PUNCT	FB	_	17	punct	_	_
+16	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	scelta	scegliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+18	come	come	ADP	E	_	19	case	_	_
+19	Capo	Capo	PROPN	SP	_	17	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Gabinetto	Gabinetto	PROPN	SP	_	24	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+25-26	degli	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Esteri	estero	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Cooperazione	cooperazione	PROPN	SP	_	19	conj	_	_
+32	Internazionale	internazionale	ADJ	A	Number=Sing	31	amod	_	_
+33	(	(	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+34	Maeci	Maeci	PROPN	SP	_	31	appos	_	SpaceAfter=No
+35	)	)	PUNCT	FB	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

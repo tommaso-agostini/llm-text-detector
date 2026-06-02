@@ -1,0 +1,398 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E sembra che anche隂 Jadvaj, giovane promessa dell'Inter, non sia immune al fascino della Vecchia Signora.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	15	mark	_	_
+4	anche隂	anche隂	PROPN	SP	_	15	nsubj	_	_
+5	Jadvaj	Jadvaj	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	giovane	giovane	ADJ	A	Number=Sing	8	amod	_	_
+8	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Inter	Inter	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	immune	immune	ADJ	A	Number=Sing	2	ccomp	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Vecchia	vecchia	PROPN	SP	_	18	nmod	_	_
+22	Signora	signore	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Secondo quanto riportato da alcune fonti giornalistiche, infatti, il calciatore avrebbe espresso il desiderio di vestire la maglia bianconera nella prossima stagione.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
+3	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	3	obl:agent	_	_
+7	giornalistiche	giornalistico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	infatti	infatti	ADV	B	_	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	calciatore	calciatore	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	vestire	vestire	VERB	V	VerbForm=Inf	16	acl	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	maglia	maglia	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	bianconera	bianconero	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Ma non tutti i tifosi dell'Inter vedrebbero di buon occhio un simile Scenario.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Inter	Inter	PROPN	SP	_	5	nmod	_	_
+9	vedrebbero	vedre	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	buon	buono	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	simile	simile	ADJ	A	Number=Sing	15	amod	_	_
+15	Scenario	scenario	PROPN	SP	_	9	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Per molti, infatti, un italiano che passa alla Juve è un tradimento alla causa nerazzurra.
+1	Per	per	ADP	E	_	2	case	_	_
+2	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	15	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Juve	Juve	PROPN	SP	_	9	obl	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	tradimento	tradimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	causa	causa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	nerazzurra	nerazzurro	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 5
+# text = E allora ecco che spunta fuori il motto "Mai alla Juve!
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	allora	allora	ADV	B	_	3	advmod	_	_
+3	ecco	ecco	ADV	B	_	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	spunta	spungere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	fuori	fuori	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	motto	motto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+9	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+10	Mai	mai	ADV	B	_	13	advmod	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Juve	Juve	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = ",come un grido di guerra contro ogni eventuale tentsativo di rottura da parte di Guarin e soci.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	,come	,come	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	grido	grido	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	contro	contro	ADP	E	_	10	case	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+9	eventuale	eventuale	ADJ	A	Number=Sing	10	amod	_	_
+10	tentsativo	tentsativo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	rottura	rottura	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Guarin	Guarin	PROPN	SP	_	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	soci	socio	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = "Per me l'Inter è come andare sulla Luna", ha dichiarato il calciatore in una recente intervista, "Non c'è'évêque Nothing che possa farmi cambiare idea.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Inter	Inter	PROPN	SP	_	6	nsubj	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	come	come	ADP	E	_	8	mark	_	_
+8	andare	andare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Luna	Luna	PROPN	SP	_	8	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	calciatore	calciatore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	recente	recente	ADJ	A	Number=Sing	21	amod	_	_
+21	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	15	punct	_	_
+23	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+24	Non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+25	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	28	expl	_	SpaceAfter=No
+26	è'	èo	ADP	E	_	28	case	_	SpaceAfter=No
+27	évêque	évêque	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+28	Nothing	Nothing	PROPN	SP	_	6	nsubj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	farmi	arma|farme	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	cambiare	cambiare	VERB	V	VerbForm=Inf	31	xcomp	_	_
+33	idea	idea	NOUN	S	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Sono nerazzurro nel cuore e lo sarò per sempre".
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	nerazzurro	nerazzurro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	conj	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	sempre	sempre	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Parole che, naturalmente, hanno fatto felici i tifosi dell'Inter, ma che allo stesso tempo hanno acceso i riflettori sul futuro del giocatore.
+1	Parole	parola	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	naturalmente	naturalmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+8	felici	felice	ADJ	A	Number=Plur	7	xcomp	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Inter	Inter	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	22	punct	_	_
+15	ma	ma	CCONJ	CC	_	22	cc	_	_
+16	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+17-18	allo	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	20	case	_	_
+18	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	acceso	accendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	riflettori	riflettore	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25-26	sul	_	_	_	_	_	_	_	_
+25	su	su	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Certo è che, se Guarin dovesse decidere di restare all'Inter, per lui si prospetta un futuro luminoso.
+1	Certo	certo	ADV	B	_	2	advmod	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	18	mark	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	se	se	SCONJ	CS	_	8	mark	_	_
+6	Guarin	Guarin	PROPN	SP	_	8	nsubj	_	_
+7	dovesse	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	decidere	decidere	VERB	V	VerbForm=Inf	18	advcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	restare	restare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11-12	all'	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Inter	Inter	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	prospetta	prospettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	18	xcomp	_	_
+21	luminoso	luminoso	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Il calciatore, infatti, sta crescendo a vista d'occhio e sta già diventando uno dei punti di riferimento dell'attacco nerazzurro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	calciatore	calciatore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	crescendo	crescere	VERB	V	VerbForm=Ger	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	vista	vista	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	già	già	ADV	B	_	15	advmod	_	_
+15	diventando	diventare	VERB	V	VerbForm=Ger	7	conj	_	_
+16	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obj	_	_
+17-18	dei	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	punti	punto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	nerazzurro	nerazzurro	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Ma la maligna curiosità dei tifosi della Juventus - e di tutti gli altri club che potrebbero essere interessati al calciatore - è: riuscirà Guarin a resistere alla tentazione della maglia bianconera?
+1	Ma	ma	CCONJ	CC	_	28	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maligna	maligno	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	curiosità	curiosità	NOUN	S	Gender=Fem	28	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Juventus	Juventus	PROPN	SP	_	7	nmod	_	_
+11	-	-	PUNCT	FB	_	17	punct	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	di	di	ADP	E	_	17	case	_	_
+14	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	17	det:predet	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	altri	altro	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	club	club	NOUN	S	Gender=Masc	4	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj:pass	_	_
+19	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	essere	essere	AUX	VA	VerbForm=Inf	21	aux:pass	_	_
+21	interessati	interessati	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	calciatore	calciatore	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	-	-	PUNCT	FB	_	17	punct	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	26	punct	_	_
+28	riuscirà	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+29	Guarin	Guarin	PROPN	SP	_	28	obj	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	resistere	resistere	VERB	V	VerbForm=Inf	28	xcomp	_	_
+32-33	alla	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	tentazione	tentazione	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	maglia	maglia	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+38	bianconera	bianconero	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	?	?	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 13
+# text = Solo il futuro ce lo dirà.
+1	Solo	solo	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	dirà	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Intanto, la rivalità tra l'Inter e la Juventus - e tra i rispettivi tifosi - sembra destiny a restare una delle più accese del calcio italiano.
+1	Intanto	intanto	ADV	B	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rivalità	rivalità	NOUN	S	Gender=Fem	18	nsubj	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Inter	Inter	PROPN	SP	_	4	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Juventus	Juventus	PROPN	SP	_	7	conj	_	_
+11	-	-	PUNCT	FF	_	16	punct	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	tra	tra	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	rispettivi	rispettivo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	tifosi	tifosi	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+17	-	-	PUNCT	FB	_	16	punct	_	_
+18	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	destiny	destiny	NOUN	S	_	18	xcomp	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	restare	restare	VERB	V	VerbForm=Inf	19	acl	_	_
+22	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	21	obj	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	accese	acceso	ADJ	A	Gender=Fem|Number=Plur	22	nmod	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 15
+# text = E gli episodi come questo non fanno
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

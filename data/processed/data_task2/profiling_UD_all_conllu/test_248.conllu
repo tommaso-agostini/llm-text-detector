@@ -1,0 +1,346 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sentito queste parole, Veronica Satti è rimasta parecchio delusa:
+1	Sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	parataxis	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Veronica	Veronica	PROPN	SP	_	8	nsubj	_	_
+6	Satti	Satti	PROPN	SP	_	5	flat:name	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	parecchio	parecchio	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
+10	delusa	delusa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 2
+# text = "Lui non mi ha mai cercato.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ora dicono una cosa che non avrei mai voluto dire.
+1	Ora	ora	ADV	B	_	2	advmod	_	_
+2	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+7	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	mai	mai	ADV	B	_	10	advmod	_	_
+9	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+10	dire	dire	VERB	V	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Lui mi mandava delle eltterine verdi, delle diffide, quelle erano le mie cartoline di Natale.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	mandava	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	eltterine	eltterina	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	verdi	verde	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	diffide	diffida	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	14	nsubj	_	_
+14	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	cartoline	cartolina	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Natale	Natale	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Avevo 16/17 anni questo mi è arrivato.
+1	Avevo	avere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	16	16	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+3	/	/	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	17	17	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Io non ho niente da dire.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	4	acl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Queste sono tutte bugie per mettere in mezzo mia madre.
+1	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
+4	bugie	bugia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Questo è il mio Gf , io lo rispetto come artista e credo ci possa essere ancora un riavvicinamento.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Gf	Gf	PROPN	SP	_	0	root	_	_
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+9	rispetto	rispettere	ADV	B	_	13	advmod	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	artista	artista	NOUN	S	Number=Sing	9	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+15	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	essere	essere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+17	ancora	ancora	ADV	B	_	19	advmod	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	riavvicinamento	riavvicinamento	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = E i soldi li ho rifutati, ho vinto una causa".
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	rifutati	rifutare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	causa	causa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Veronica Satti, quindi, nonostante tutto non abbandona il desiderio di poter riabbracciare suo padre.
+1	Veronica	Veronica	PROPN	SP	_	9	nsubj	_	_
+2	Satti	Satti	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	quindi	quindi	ADV	B	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	nonostante	nonostante	ADP	E	_	7	case	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	abbandona	abbandonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	14	mark	_	_
+13	poter	potere	AUX	VM	VerbForm=Inf	14	aux	_	_
+14	riabbracciare	riabbracciare	VERB	V	VerbForm=Inf	11	acl	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	padre	padre	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = E questa sera, durante la diretta del Gf Nip , la conduttrice ha una bella notizia da darle.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	durante	durante	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Gf	Gf	PROPN	SP	_	7	nmod	_	_
+11	Nip	Nip	PROPN	SP	_	10	flat:name	_	_
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	conduttrice	conduttore	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	bella	bello	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	da	da	ADP	E	_	20	mark	_	_
+20-21	darle	_	_	_	_	_	_	_	SpaceAfter=No
+20	dar	dare	VERB	V	VerbForm=Inf	15	advcl	_	_
+21	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+22	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 12
+# text = " Bobby Solo sa molto bene che tu hai detto che rinunci a qualunque tipo di appello, anche a un solo euro - rivela Barbara -.
+1	"	"	PUNCT	FB	_	4	punct	_	_
+2	Bobby	Bobby	PROPN	SP	_	4	nsubj	_	_
+3	Solo	solo	PROPN	SP	_	2	flat:name	_	_
+4	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	bene	bene	ADV	B	_	4	advmod	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+9	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+11	che	che	SCONJ	CS	_	12	mark	_	_
+12	rinunci	rinunco	NOUN	S	Gender=Masc|Number=Plur	10	ccomp	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	qualunque	qualunque	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
+15	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	appello	appello	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	anche	anche	ADV	B	_	23	advmod	_	_
+20	a	a	ADP	E	_	23	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	solo	solo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	euro	euro	NOUN	S	Gender=Masc	12	nmod	_	_
+24	-	-	PUNCT	FF	_	25	punct	_	_
+25	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+26	Barbara	Barbara	PROPN	SP	_	25	nsubj	_	_
+27	-	-	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Bobby sa molto bene che nessuno mai, io soprattutto, gli ha detto di venire in trasmissione, di fare un ricongiungimento davanti alle telecamere.
+1	Bobby	Bobby	CCONJ	CC	_	2	cc	_	_
+2	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	bene	bene	ADV	B	_	2	advmod	_	_
+5	che	che	SCONJ	CS	_	14	mark	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nsubj	_	_
+7	mai	mai	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	appos	_	_
+10	soprattutto	soprattutto	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	venire	venire	VERB	V	VerbForm=Inf	14	ccomp	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	16	conj	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ricongiungimento	ricongiungimento	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+24	davanti	davanti	ADV	B	_	27	case	_	_
+25-26	alle	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	telecamere	telecamera	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Detto questo io posso dirti che poche ore fa lui ha fatto un comunicato sempre molto duro, però finisce con una frase 'auspico di riappacificarmi con mia figlia in privato'".
+1	Detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	dirti	_	_	_	_	_	_	_	_
+5	dir	dire	VERB	V	VerbForm=Inf	21	csubj	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+7	che	che	SCONJ	CS	_	13	mark	_	_
+8	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	ore	ora	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+10	fa	fa	ADV	B	_	9	advmod	_	_
+11	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comunicato	comunicato	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	sempre	sempre	ADV	B	_	17	advmod	_	_
+17	molto	molto	ADV	B	_	18	advmod	_	_
+18	duro	duro	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	5	punct	_	_
+20	però	però	ADV	B	_	21	advmod	_	_
+21	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	frase	frase	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	'	'	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	auspico	auspico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28-29	riappacificarmi	_	_	_	_	_	_	_	_
+28	riappacificar	riappacificare	VERB	V	VerbForm=Inf	24	acl	_	_
+29	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	obj	_	_
+30	con	con	ADP	E	_	32	case	_	_
+31	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	privato	privato	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	'	'	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+36	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 15
+# text = Sentite queste parole, Veronica è scoppiata a piangere:
+1	Sentite	sentire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	Veronica	Veronica	PROPN	SP	_	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	scoppiata	scoppiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	piangere	piangere	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 16
+# text = "Grazie Barbara, ci ho creduto anche perché la storia di Maradona mi ci ha fatto credere.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Grazie	grazie	INTJ	I	_	7	discourse	_	_
+3	Barbara	Barbara	PROPN	SP	_	2	vocative	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	creduto	credere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	anche	anche	ADV	B	_	17	advmod	_	_
+9	perché	perché	SCONJ	CS	_	17	mark	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	storia	storia	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Maradona	Maradona	PROPN	SP	_	11	nmod	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+18	credere	credere	VERB	V	VerbForm=Inf	17	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Io ti ringrazio perché sai che io mi sono affidata a te".
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+3	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	perché	perché	SCONJ	CS	_	5	mark	_	_
+5	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	affidata	affidare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

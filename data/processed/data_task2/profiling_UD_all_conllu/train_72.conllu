@@ -1,0 +1,301 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma non è certo stata l'unica protagonista della serata.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	certo	certo	ADV	B	_	8	advmod	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	unica	unico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	protagonista	protagonista	NOUN	S	Number=Sing	0	root	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	serata	serata	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Anche altri artisti hanno portato sul palcoscenico di Dusseldorf tutta la loro verve e originalità, offrendo uno spettacolo vario e coinvolgente.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	altri	altro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	palcoscenico	palcoscenico	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Dusseldorf	Dusseldorf	PROPN	SP	_	8	nmod	_	_
+11	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	14	det:predet	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	loro	loro	DET	AP	Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	verve	verva	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	originalità	originalità	NOUN	S	Gender=Fem	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	offrendo	offrire	VERB	V	VerbForm=Ger	5	advcl	_	_
+19	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	vario	vario	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	coinvolgente	coinvolgente	ADJ	A	Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Tra questi spicca la performance del duo azero, Eldar e Nigar, che ha dichiarato di voler portare un messaggio di pace e amore attraverso la loro canzone "Running Scared".
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+3	spicca	spiccare	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	performance	performance	NOUN	S	Gender=Fem	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	duo	duo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	azero	azero	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Eldar	Eldar	PROPN	SP	_	9	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	Nigar	Nigar	PROPN	SP	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	di	di	ADP	E	_	20	mark	_	_
+19	voler	volere	AUX	VM	VerbForm=Inf	20	aux	_	_
+20	portare	portare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	pace	pace	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	amore	amore	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+27	attraverso	attraverso	ADP	E	_	30	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+31	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+32	Running	running	PROPN	SP	_	30	nmod	_	_
+33	Scared	Scared	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il loro stile pop-elettronico ha senz'altro conquistato il pubblico, che ha decretato la loro vittoria e la loro partecipazione alla finale del prossimo weekend.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	stile	stile	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	pop	pop	NOUN	S	Gender=Masc	3	compound	_	SpaceAfter=No
+5	-elettronico	-elettronico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	senz'	senza	ADP	E	_	9	case	_	SpaceAfter=No
+8	altro	altro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	conquistato	conquistare	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	decretato	decretare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	loro	loro	DET	AP	Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+23-24	alla	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	finale	finale	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	weekend	weekend	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Non sono mancati gli artisti che hanno voluto sfidare le convenzioni e proporre qualcosa di diverso dal solito.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mancati	mancare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux	_	_
+9	sfidare	sfidare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	convenzioni	convenzione	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	proporre	proporre	VERB	V	VerbForm=Inf	9	conj	_	_
+14	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	13	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	diverso	diverso	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	nmod	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	solito	solito	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Tra questi, il gruppo תשן da Serbia, che ha portato sul palco un genere musicaleτηльнихemente ignoto al pubblico dell'Eurovision, suscitando curiosità e-Smithes.
+1	Tra	tra	ADP	E	_	2	case	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	תשן	תשן	PROPN	SP	_	5	nmod	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Serbia	Serbia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	palco	palco	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	genere	genere	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+18	musicaleτηльнихemente	musicaleτηльнихemente	ADV	B	_	19	advmod	_	_
+19	ignoto	ignoto	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Eurovision	Eurovision	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	12	punct	_	_
+27	suscitando	suscitare	VERB	V	VerbForm=Ger	12	advcl	_	_
+28	curiosità	curiosità	NOUN	S	Gender=Fem	27	obj	_	_
+29	e-Smithes	e-Smithes	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = La loro performance, tuttavia, non è stati sufficiente per passare alla finale, ma senza dubbio conquisteranno altri palchi in futuro.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	performance	performance	NOUN	S	Gender=Fem	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tuttavia	tuttavia	ADV	B	_	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stati	essere	AUX	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	cop	_	_
+10	sufficiente	sufficiente	ADJ	A	Number=Sing	0	root	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	passare	passare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	finale	finale	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	20	punct	_	_
+17	ma	ma	CCONJ	CC	_	20	cc	_	_
+18	senza	senza	ADP	E	_	19	case	_	_
+19	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+20	conquisteranno	conquistare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	conj	_	_
+21	altri	altro	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+22	palchi	palco	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = E' stata una serata ricca di emozioni, dyesprove di talento e di originalità, insomma, tutto quello che ci si aspetta da uno spettacolo come l'Eurovision.
+1	E'	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	serata	serata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	dyesprove	dyesprova	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	talento	talento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	originalità	originalità	NOUN	S	Gender=Fem	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	insomma	insomma	ADV	B	_	4	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	come	come	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	Eurovision	Eurovision	PROPN	SP	_	23	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ora non ci resta che aspettare la finalissima di sabato per scoprire quale sarà il verdetto del pubblico e della giuria.
+1	Ora	ora	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	aspettare	aspettare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	finalissima	finale	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	scoprire	scoprire	VERB	V	VerbForm=Inf	6	advcl	_	_
+13	quale	quale	PRON	PR	Number=Sing|PronType=Rel	16	nsubj	_	_
+14	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	verdetto	verdetto	NOUN	S	Gender=Masc|Number=Sing	12	ccomp	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	giuria	giuria	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Un evento che, ancora una volta, dimostra come la musica sia un---urdo di pace e di unione tra i popoli.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	evento	evento	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ancora	ancora	ADV	B	_	7	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	musica	musica	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	18	punct	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	15	punct	_	SpaceAfter=No
+18	urdo	urdo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	pace	pace	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	unione	unione	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+24	tra	tra	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,355 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sì, avete capito bene, signori.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	signori	signore	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Pagare per portare la barba.
+1	Pagare	pagare	VERB	V	VerbForm=Inf	0	root	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	portare	portare	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	barba	barba	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = La motivazione, come al solito quando si parla di progressismo estremo, è declinata in termini di "equità" e "sostenibilità ambientale".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	motivazione	motivazione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	come	come	ADV	B	_	7	case	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	solito	solito	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+8	quando	quando	SCONJ	CS	_	10	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	progressismo	progressismo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	declinata	declinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	termini	termine	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+21	equità	equità	NOUN	S	Gender=Fem	18	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	sostenibilità	sostenibilità	NOUN	S	Gender=Fem	16	conj	_	_
+26	ambientale	ambientale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = Si sostiene che la barba, consumando risorse idriche durante la rasatura (anche se si parla di un consumo marginale rispetto ad altre attività quotidiane) e contribuendo all'inquinamento tramite i prodotti utilizzati, rappresenti un peso per l'ambiente.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	17	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	barba	barba	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	consumando	consumare	VERB	V	VerbForm=Ger	17	advcl	_	_
+8	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	idriche	idriche	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	durante	durante	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	rasatura	rasatura	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+14	anche	anche	ADV	B	_	17	advmod	_	_
+15	se	se	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	consumo	consumo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	marginale	marginale	ADJ	A	Number=Sing	20	amod	_	_
+22	rispetto	rispetto	ADV	B	_	25	case	_	_
+23	ad	a	ADP	E	_	22	fixed	_	_
+24	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	attività	attività	NOUN	S	Gender=Fem	17	obl	_	_
+26	quotidiane	quotidiano	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	17	punct	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	contribuendo	contribuire	VERB	V	VerbForm=Ger	2	conj	_	_
+30-31	all'	_	_	_	_	_	_	_	SpaceAfter=No
+30	a	a	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	inquinamento	inquinamento	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	tramite	tramite	ADP	E	_	35	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+36	utilizzati	utilizzato	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	29	punct	_	_
+38	rappresenti	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	peso	peso	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+41	per	per	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+43	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E, naturalmente, l'argomento dell'equità si chiama fuori:
+1	E	e	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	naturalmente	naturalmente	ADV	B	_	11	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	equità	equità	NOUN	S	Gender=Fem	6	nmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	fuori	fuori	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 6
+# text = se gli uomini barbuti risparmiano tempo e denaro sulla rasatura, devono compensare la società con una tassa.
+1	se	se	SCONJ	CS	_	5	mark	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	barbuti	barbuto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	risparmiano	risparmiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rasatura	rasatura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	compensare	compensare	VERB	V	VerbForm=Inf	0	root	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	società	società	NOUN	S	Gender=Fem	14	obj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = Si tratta di una misura illogica, vessatoria e profondamente liberticida.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	misura	misura	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	illogica	illogico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	vessatoria	vessatorio	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	profondamente	profondo	ADV	B	_	11	advmod	_	_
+11	liberticida	liberticida	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un'imposizione statale su una scelta personale, un simbolo di identità maschile che risale a secoli di storia.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	imposizione	imposizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	statale	statale	ADJ	A	Number=Sing	2	amod	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	personale	personale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	simbolo	simbolo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	identità	identità	NOUN	S	Gender=Fem	10	nmod	_	_
+13	maschile	maschile	ADJ	A	Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	risale	risalire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	storia	storia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Un attacco alla libertà individuale mascherato da preoccupazione ecologica.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	libertà	libertà	NOUN	S	Gender=Fem	2	nmod	_	_
+6	individuale	individuale	ADJ	A	Number=Sing	5	amod	_	_
+7	mascherato	mascherare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+10	ecologica	ecologico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Non ci sarà certo una tassa sulla treggiatura delle sopracciglia, o sul trucco delle signore, che consumano ben più risorse e prodotti inquinanti.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	certo	certo	ADV	B	_	3	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	treggiatura	treggiatura	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	sopracciglia	sopracciglia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	o	o	CCONJ	CC	_	17	cc	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	trucco	trucco	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+18-19	delle	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	signore	signore	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	6	punct	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	consumano	consumare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+24	ben	bene	ADV	B	_	23	advmod	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	26	conj	_	_
+29	inquinanti	inquinante	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = No, il bersaglio è sempre lo stesso:
+1	No	no	INTJ	I	Polarity=Neg	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bersaglio	bersaglio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sempre	sempre	ADV	B	_	8	advmod	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 12
+# text = l'uomo occidentale, la sua tradizione, la sua virilità.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	occidentale	occidentale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	virilità	virilità	NOUN	S	Gender=Fem	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Questa proposta, seppur al momento in fase embrionale, è esemplare di un certo modo di fare politica, tipico di una sinistra ormai completamente scollegata dalla realtà e ossessionata da guerre culturali senza senso.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	seppur	seppure	ADV	B	_	7	advmod	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	momento	momento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	fase	fase	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	embrionale	embrionale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	esemplare	esemplare	ADJ	A	Number=Sing	0	root	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	certo	certo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	modo	modo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	politica	politica	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	tipico	tipico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	ormai	ormai	ADV	B	_	25	advmod	_	_
+27	completamente	completamente	ADV	B	_	28	advmod	_	_
+28	scollegata	scollegare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+29-30	dalla	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	realtà	realtà	NOUN	S	Gender=Fem	33	obl	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	ossessionata	ossessionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+34	da	da	ADP	E	_	35	case	_	_
+35	guerre	guerra	NOUN	S	Gender=Fem|Number=Plur	33	obl:agent	_	_
+36	culturali	culturale	ADJ	A	Number=Plur	35	amod	_	_
+37	senza	senza	ADP	E	_	38	case	_	_
+38	senso	senso	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 14
+# text = Un'agenda che non si ferma di fronte all'assurdo pur di colpire ciò che ritiene “obsoleto” e “non conforme”.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	agenda	agenda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	fronte	fronte	NOUN	S	Number=Sing	6	obl	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	assurdo	assurdo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	pur	pure	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	colpire	colpire	VERB	V	VerbForm=Inf	11	acl	_	_
+15	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	obsoleto	obsoleto	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	19	punct	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	conforme	conforme	ADJ	A	Number=Sing	19	conj	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Proviamo a immaginare le conseguenze pratiche:
+1	Proviamo	Provare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	immaginare	immaginare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	pratiche	pratico	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 16
+# text = controlli della lunghezza della
+1	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lunghezza	lunghezza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5-6	della	_	_	_	_	_	_	_	SpacesAfter=\n
+5	di	di	ADP	E	_	6	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	nmod	_	_
+

@@ -1,0 +1,514 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Secondo un sondaggio realizzato da Eurodap (Associazione europea disturbi attacchi di panico) per aerofobia non si intende solo il disagio derivante dal trovarsi sospesi in aria che è innaturale nell’uomo, ma il vero è proprio terrore di prendere l’aereo.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sondaggio	sondaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	realizzato	realizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Eurodap	Eurodap	PROPN	SP	_	4	obl:agent	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+9	europea	europeo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	disturbi	disturbo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+11	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	10	advcl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	panico	panico	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	11	punct	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	aerofobia	aerofobia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl:impers	_	_
+19	intende	intendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+20	solo	solo	ADV	B	_	19	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+23	derivante	derivare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	22	acl	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26-27	trovarsi	_	_	_	_	_	_	_	_
+26	trovar	trovar	VERB	V	VerbForm=Inf	23	obl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	sospesi	sospendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	advcl	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	aria	aria	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	innaturale	innaturale	ADJ	A	Number=Sing	30	acl:relcl	_	_
+34-35	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+34	in	in	ADP	E	_	36	case	_	_
+35	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	43	punct	_	_
+38	ma	ma	CCONJ	CC	_	43	cc	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	vero	vero	ADJ	A	Gender=Masc|Number=Sing	43	nsubj	_	_
+41	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	proprio	proprio	ADV	B	_	43	advmod	_	_
+43	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	33	conj	_	_
+44	di	di	ADP	E	_	45	mark	_	_
+45	prendere	prendere	VERB	V	VerbForm=Inf	43	acl	_	_
+46	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
+47	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	45	obj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = I motivi che scatenano questo disagio sono: i potenziali problemi meccanici durante il volo (73%), le fastidiose turbolenze (62%), i problemi meccanici sul suolo (36%).
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	scatenano	scatenare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	potenziali	potenziale	ADJ	A	Number=Plur	11	amod	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+12	meccanici	meccanico	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	durante	durante	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	volo	volo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+17	73	73	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	SYM	_	11	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	11	punct	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	fastidiose	fastidioso	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	turbolenze	turbolenza	NOUN	S	Gender=Fem|Number=Plur	11	appos	_	_
+24	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	62	62	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+26	%	%	SYM	SYM	_	23	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	23	punct	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+31	meccanici	meccanico	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+32-33	sul	_	_	_	_	_	_	_	_
+32	su	su	ADP	E	_	34	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	suolo	suolo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+35	(	(	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+36	36	36	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+37	%	%	SYM	SYM	_	30	obl	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = L’aerofobia è considerata una paura irrazionale perché l’aereo è il mezzo di trasporto più sicuro.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aerofobia	aerofobia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	considerata	considerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	xcomp	_	_
+7	irrazionale	irrazionale	ADJ	A	Number=Sing	6	amod	_	_
+8	perché	perché	SCONJ	CS	_	13	mark	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	4	advcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Lo conferma anche l’ Economist che dichiara che una persona ha 180 possibilità in più di morire in un incidente d’auto che in volo.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Economist	Economist	PROPN	SP	_	2	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	180	180	NUM	N	NumType=Card	13	nummod	_	_
+13	possibilità	possibilità	NOUN	S	Gender=Fem	11	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	più	più	ADV	B	_	11	advmod	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	morire	morire	VERB	V	VerbForm=Inf	11	advcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	d’	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	auto	auto	NOUN	S	Gender=Fem	20	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	volo	volo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = L’ansia da aerofobia si manifesta già qualche giorno prima della partenza.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	aerofobia	aerofobia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	manifesta	manifestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	già	già	ADV	B	_	6	advmod	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	prima	prima	ADV	B	_	13	case	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = I sintomi sono accompagnati da tachicardia, tensione muscolare, nausea, diarrea.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sintomi	sintomo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	accompagnati	accompagnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	tachicardia	tachicardia	NOUN	S	Gender=Fem|Number=Sing	4	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+9	muscolare	muscolare	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	nausea	nauseo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	diarrea	diarreo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Il tutto può sfociare in seri attacchi di panico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sfociare	sfociare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	seri	serio	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	panico	panico	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Gli esperti sostengono che per guarire dall’aerofobia bisognerebbe prendere più spesso l’aereo in modo da abituarsi a volare.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sostengono	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	10	mark	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	guarire	guarire	VERB	V	VerbForm=Inf	10	advcl	_	_
+7-8	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	aerofobia	aerofobia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	bisognerebbe	bisognare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	prendere	prendere	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	spesso	spesso	ADV	B	_	11	advmod	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18	da	da	ADP	E	_	19	mark	_	_
+19-20	abituarsi	_	_	_	_	_	_	_	_
+19	abituar	abituare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	volare	volare	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ecco i nostri pratici e utili suggerimenti per affrontare al meglio l’esperienza di volare:
+1	Ecco	ecco	ADV	B	_	4	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	pratici	pratico	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	utili	utile	ADJ	A	Number=Plur	7	amod	_	_
+7	suggerimenti	suggerimente	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	affrontare	affrontare	VERB	V	VerbForm=Inf	7	acl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	meglio	meglio	NOUN	S	Gender=Masc	9	obl	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	volare	volare	VERB	V	VerbForm=Inf	14	acl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 10
+# text = - Arrivare in anticipo in aeroporto: fare il check- in con calma senza il terrore di perdere l’aereo trasmette serenità e consente di abituarsi all’idea di dover volare;
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	Arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	anticipo	anticipo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	4	punct	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	4	acl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	check	check	NOUN	S	Gender=Masc	8	obj	_	SpaceAfter=No
+11	-	-	PUNCT	FB	_	8	punct	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	calma	calma	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+15	senza	senza	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	perdere	perdere	VERB	V	VerbForm=Inf	17	acl	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	trasmette	trasmettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+23	serenità	serenità	NOUN	S	Gender=Fem	22	obj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	consente	consentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27-28	abituarsi	_	_	_	_	_	_	_	_
+27	abituar	abituare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29-30	all’	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	31	case	_	_
+30	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	idea	idea	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+32	di	di	ADP	E	_	34	mark	_	_
+33	dover	dovere	AUX	VM	VerbForm=Inf	34	aux	_	_
+34	volare	volare	VERB	V	VerbForm=Inf	31	acl	_	SpaceAfter=No
+35	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = - Evitare bevande eccitanti : prima e durante il volo non bere caffè o energizzanti che amplificherebbero di più l’ansia e la tensione;
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	Evitare	evitare	VERB	V	VerbForm=Inf	0	root	_	_
+3	bevande	bevanda	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	eccitanti	eccitante	ADJ	A	Number=Plur	3	amod	_	_
+5	:	:	PUNCT	FC	_	3	punct	_	_
+6	prima	prima	ADV	B	_	10	case	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	durante	durante	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	volo	volo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	bere	bere	VERB	V	VerbForm=Inf	3	acl	_	_
+13	caffè	caffè	NOUN	S	Gender=Masc	12	obj	_	_
+14	o	o	CCONJ	CC	_	15	cc	_	_
+15	energizzanti	energizzante	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	amplificherebbero	amplifichare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	più	più	ADV	B	_	17	advmod	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+25	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = - Affidarsi al personale in volo : hostess e steward comunicano tranquillità;
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2-3	Affidarsi	_	_	_	_	_	_	_	_
+2	Affidar	Affidare	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	personale	personale	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	volo	volo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	:	:	PUNCT	FC	_	2	punct	_	_
+10	hostess	hostess	NOUN	S	Gender=Masc	13	nsubj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	steward	steward	NOUN	S	Gender=Masc	10	conj	_	_
+13	comunicano	comunicare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	tranquillità	tranquillità	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 13
+# text = esprimere il proprio disagio e le proprie perplessità ha un effetto liberatorio e consente di sentirsi capiti e supportati psicologicamente;
+1	esprimere	esprimere	VERB	V	VerbForm=Inf	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	disagio	disagio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	perplessità	perplessità	NOUN	S	Gender=Fem	9	nsubj	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	liberatorio	liberatorio	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	consente	consentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16-17	sentirsi	_	_	_	_	_	_	_	_
+16	sentir	sentire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	capiti	capire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	xcomp	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	supportati	supportare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+21	psicologicamente	psicologicamente	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = - Scegliere un posto adatto alle proprie esigenze : l’ideale è scegliere un posto distante dai motori in modo da evitare il rumore e le sue vibrazioni.
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	Scegliere	scegliere	VERB	V	VerbForm=Inf	14	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	adatto	adatto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	esigenze	esigenza	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	:	:	PUNCT	FC	_	2	punct	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ideale	ideale	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	scegliere	scegliere	VERB	V	VerbForm=Inf	0	root	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	posto	posto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	distante	distante	ADJ	A	Number=Sing	16	amod	_	_
+18-19	dai	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	motori	motore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	modo	modo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	da	da	ADP	E	_	24	mark	_	_
+24	evitare	evitare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+29	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	vibrazioni	vibrazione	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 15
+# text = Evitare anche la vista delle ali che in alcuni soggetti alimenta l’ansia; - Frequentare un corso : per aiutare i passeggeri che soffrono di aerofobia alcune compagnie aeree organizzano seminari e corsi anche on line sulla tematica.
+1	Evitare	evitare	VERB	V	VerbForm=Inf	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vista	vista	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ali	ala	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	soggetti	soggetto	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+12	alimenta	alimentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	_
+16	-	-	PUNCT	FF	_	17	punct	_	_
+17	Frequentare	frequentare	VERB	V	VerbForm=Inf	1	parataxis	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	corso	corso	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	:	:	PUNCT	FC	_	17	punct	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	aiutare	aiutare	VERB	V	VerbForm=Inf	17	advcl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	passeggeri	passeggero	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	soffrono	soffrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	aerofobia	aerofobia	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+30	compagnie	compagnia	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+31	aeree	aereo	ADJ	A	Gender=Fem|Number=Plur	30	amod	_	_
+32	organizzano	organizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+33	seminari	seminario	NOUN	S	Gender=Masc|Number=Plur	32	obj	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	33	conj	_	_
+36	anche	anche	ADV	B	_	37	advmod	_	_
+37	on	on	ADV	BN	PronType=Neg	38	advmod	_	_
+38	line	lina	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	_
+39-40	sulla	_	_	_	_	_	_	_	_
+39	su	su	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	tematica	tematica	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = La compagnia low cost Easy Jet, ad esempio, organizza il corso “Fearless Flyer” costituito da video interattivi preparati da psicologi e piloti d’aerei; - Ascoltare musica : è stato provato scientificamente che ascoltare musica durante un volo rilassa e diffonde serenità.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	compagnia	compagnia	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	low	low	NOUN	S	_	4	nmod	_	_
+4	cost	cost	NOUN	S	_	2	nmod	_	_
+5	Easy	Easy	PROPN	SP	_	4	nmod	_	_
+6	Jet	jet	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	ad	a	ADP	E	_	9	case	_	_
+9	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	organizza	organizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	corso	corso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	“	“	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Fearless	Fearless	PROPN	SP	_	13	nmod	_	_
+16	Flyer	Flyer	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	”	”	PUNCT	FB	_	15	punct	_	_
+18	costituito	costituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	video	video	NOUN	S	Gender=Masc	18	obl:agent	_	_
+21	interattivi	interattivo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	preparati	preparare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	psicologi	psicologo	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	piloti	pilota	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+27	d’	di	ADP	E	_	28	case	_	SpaceAfter=No
+28	aerei	aereo	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	31	punct	_	_
+30	-	-	PUNCT	FB	_	31	punct	_	_
+31	Ascoltare	ascoltare	VERB	V	VerbForm=Inf	11	conj	_	_
+32	musica	musica	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+33	:	:	PUNCT	FC	_	31	punct	_	_
+34	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	aux:pass	_	_
+36	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	ccomp	_	_
+37	scientificamente	scientifico	ADV	B	_	36	advmod	_	_
+38	che	che	SCONJ	CS	_	39	mark	_	_
+39	ascoltare	ascoltare	VERB	V	VerbForm=Inf	36	advcl	_	_
+40	musica	musica	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	_
+41	durante	durante	ADP	E	_	43	case	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	volo	volo	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+44	rilassa	rilasso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	diffonde	diffondo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	conj	_	_
+47	serenità	serenità	NOUN	S	Gender=Fem	46	obj	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = Si consiglia di non dimenticare di inserire il lettore mp3 nel bagaglio a mano.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	consiglia	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	dimenticare	dimenticare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	inserire	inserire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	mp3	mp3	NUM	N	NumType=Card	9	nummod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bagaglio	bagaglio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	mano	mano	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,555 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Mi sembrava strano che Forza Italia rimanesse in silenzio, ora vedo che finalmente ha messo sul tavolo la sua posizione".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	strano	strano	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	Forza	Forza	PROPN	SP	_	8	nsubj	_	_
+7	Italia	Italia	PROPN	SP	_	6	flat:name	_	_
+8	rimanesse	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	ora	ora	ADV	B	_	13	advmod	_	_
+13	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	finalmente	finalmente	ADV	B	_	17	advmod	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Per la verità, Berlusconi sostiene di essere in contatto quasi quotidiano con lei.
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	verità	verità	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Berlusconi	Berlusconi	PROPN	SP	_	6	nsubj	_	_
+6	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	10	mark	_	_
+8	essere	essere	AUX	V	VerbForm=Inf	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	6	ccomp	_	_
+11	quasi	quasi	ADV	B	_	12	advmod	_	_
+12	quotidiano	quotidiano	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = "Per me, il presidenzialismo non è un tabù.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Per	per	X	SW	Foreign=Yes	0	root	_	_
+3	me	me	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	presidenzialismo	presidenzialismo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tabù	tabù	NOUN	S	Gender=Masc	2	appos	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Non mi crea problemi parlarne, semmai li crea al Pd.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	crea	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5-6	parlarne	_	_	_	_	_	_	_	SpaceAfter=No
+5	parlar	parlare	VERB	V	VerbForm=Inf	3	csubj	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	semmai	semmai	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	crea	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Pd	Pd	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ma sono un pragmatico.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pragmatico	pragmatico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = A me interessa portare a casa le riforme.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	portare	portare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	riforme	riforma	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Se il presidenzialismo diventasse una pregiudiziale per qualcuno, mettiamolo da parte.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidenzialismo	presidenzialismo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	diventasse	diventare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pregiudiziale	pregiudiziale	ADJ	A	Number=Sing	4	xcomp	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10-11	mettiamolo	_	_	_	_	_	_	_	_
+10	mettiamo	mettere	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Preferisco portare a casa quel pezzo di riforma che si può fare".
+1	Preferisco	preferisco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	portare	portare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	pezzo	pezzo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj:pass	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:pass	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Dunque, lei che è della Lega, non è d'accordo con Berlusconi.
+1	Dunque	dunque	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Lega	Lega	PROPN	SP	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	d'	di	ADP	E	_	13	case	_	SpaceAfter=No
+13	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	Berlusconi	Berlusconi	PROPN	SP	_	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 10
+# text = "A suo tempo avevamo votato un testo che non lo escludeva.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	4	case	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	votato	votare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	testo	testo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	escludeva	escludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Si tratta di mettersi d'accordo:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	mettersi	_	_	_	_	_	_	_	_
+4	metter	mettere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = introdurre il premierato, il cancellierato o il vero presidenzialismo.
+1	introdurre	introdurre	VERB	V	VerbForm=Inf	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	premierato	premierato	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cancellierato	cancellierato	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vero	vero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	presidenzialismo	presidenzialismo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Ma il problema non è questo".
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Qual è?
+1	Qual	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = "Lei è così sicuro che Berlusconi e Renzi non ne abbiano parlato nel patto del Nazareno?
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	così	così	ADV	B	_	5	advmod	_	_
+5	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	13	mark	_	_
+7	Berlusconi	Berlusconi	PROPN	SP	_	13	nsubj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Renzi	Renzi	PROPN	SP	_	7	conj	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	iobj	_	_
+12	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	patto	patto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Nazareno	Nazareno	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = Ne sarei molto sorpreso".
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+2	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	sorpreso	sorpreso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Sta dicendo che in realtà Renzi sapeva già tutto?
+1	Sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dicendo	dire	VERB	V	VerbForm=Ger	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	Renzi	Renzi	PROPN	SP	_	7	nsubj	_	_
+7	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+8	già	già	ADV	B	_	9	advmod	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = "Berlusconi è da sempre un sostenitore del presidenzialismo.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Berlusconi	Berlusconi	PROPN	SP	_	7	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	sempre	sempre	ADV	B	_	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sostenitore	sostenitore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	presidenzialismo	presidenzialismo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = Nessuno ha mai visto il testo di quel patto.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	testo	testo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	patto	patto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Anzi sarei curioso di poterlo leggere.
+1	Anzi	anzi	ADV	B	_	3	advmod	_	_
+2	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	curioso	curioso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	7	mark	_	_
+5-6	poterlo	_	_	_	_	_	_	_	_
+5	poter	potere	AUX	VM	VerbForm=Inf	7	aux	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	leggere	leggere	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Tutti ne parlano, ma nessuno lo ha mai visto.
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ma	ma	CCONJ	CC	_	10	cc	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	mai	mai	ADV	B	_	10	advmod	_	_
+10	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = E a quel confronto hanno partecipato solo loro due".
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	due	due	NUM	N	NumType=Card	6	nsubj	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = E se Berlusconi le chiedesse di sostenere la sua posizione?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	Berlusconi	Berlusconi	PROPN	SP	_	0	root	_	_
+4	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	chiedesse	chiedere	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	sostenere	sostenere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = "Posso capire Berlusconi.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	capire	capire	VERB	V	VerbForm=Inf	0	root	_	_
+4	Berlusconi	Berlusconi	PROPN	SP	_	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Visto che si cambia sul ruolo del Senato, che non voterà più la fiducia, perché non mettere sul piatto anche il presidenzialismo?
+1	Visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Senato	Senato	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	voterà	votare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	acl:relcl	_	_
+15	più	più	ADV	B	_	14	advmod	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	perché	perché	SCONJ	CS	_	21	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	mettere	mettere	VERB	V	VerbForm=Inf	14	advcl	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	anche	anche	ADV	B	_	27	advmod	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	presidenzialismo	presidenzialismo	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 26
+# text = Ma non sarò io a fare questa proposta.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	cop	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 27
+# text = Anche se non nego che ce ne sarebbe bisogno".
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	se	se	SCONJ	CS	_	1	fixed	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	nego	negare	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+6	ce	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	9	iobj	_	_
+8	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 28
+# text = Perché?
+1	Perché	perché	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = "Basterebbe pensare a quanto è avvenuto durante l'ultima elezione del capo dello Stato, ai franchi tiratori che hanno portato a dover rieleggere Napolitano.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Basterebbe	Basteere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pensare	pensare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	3	obl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+8	durante	durante	ADP	E	_	11	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	elezione	elezione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	capo	capo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	dello	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19-20	ai	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	franchi	franco	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+22	tiratori	tiratore	NOUN	S	Gender=Masc|Number=Plur	21	compound	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	a	a	ADP	E	_	28	mark	_	_
+27	dover	dovere	AUX	VM	VerbForm=Inf	28	aux	_	_
+28	rieleggere	rieleggere	VERB	V	VerbForm=Inf	25	xcomp	_	_
+29	Napolitano	Napolitano	PROPN	SP	_	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Se si cambia la forma di Stato non vedo perché non si possa cambiare anche quella di governo.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:pass	_	_
+3	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forma	forma	NOUN	S	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	perché	perché	SCONJ	CS	_	14	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+13	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	cambiare	cambiare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	anche	anche	ADV	B	_	16	advmod	_	_
+16	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	governo	governo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 31
+# text = Altrimenti il rischio è che la riforma sia monca".
+1	Altrimenti	altrimenti	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	9	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	monca	moncare	ADJ	A	Gender=Fem|Number=Sing	4	ccomp	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 32
+# text = Per quale motivo allora non è disposto a sostenere la proposta del leader di Forza Italia?
+1	Per	per	ADP	E	_	3	case	_	_
+2	quale	quale	DET	DQ	Number=Sing|PronType=Int	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	allora	allora	ADV	B	_	7	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	disposto	disposto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	sostenere	sostenere	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	leader	leader	NOUN	S	_	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Forza	Forza	PROPN	SP	_	14	nmod	_	_
+17	Italia	Italia	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 33
+# text = "Perché quella proposta può essere la buccia di banana su cui scivola tutta la riforma.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	8	advmod	_	_
+3	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
+4	proposta	proposta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	buccia	buccia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	banana	banano	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	su	su	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+13	scivola	scivolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 34
+# text = Non dimentichiamoci che nella scorsa legislatura saltò tutto proprio quando qualcuno propose di discutere di presidenzialismo".
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	dimentichiamoci	dimentichiamoci	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	legislatura	legislatura	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+8	saltò	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10	proprio	proprio	ADV	B	_	13	advmod	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+13	propose	proporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	discutere	discutere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	presidenzialismo	presidenzialismo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

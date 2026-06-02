@@ -1,0 +1,381 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = La donna, chiamiamola Anna, è una persona riservata, dalla parola sottile e i gesti misurati.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	chiamiamola	_	_	_	_	_	_	_	_
+4	chiamiamo	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Anna	Anna	PROPN	SP	_	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	riservata	riservato	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	parola	parola	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+16	sottile	sottile	ADJ	A	Number=Sing	15	amod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	gesti	gesto	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+20	misurati	misurato	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Non ha mai cercato la ribalta, ma la dura verità che è stata costretta a vivere non può più essere taciuta.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ribalta	ribalta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ma	ma	CCONJ	CC	_	11	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	dura	duro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	verità	verità	NOUN	S	Gender=Fem	4	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj:pass	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	costretta	costringere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	vivere	vivere	VERB	V	VerbForm=Inf	22	xcomp	_	_
+18	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+19	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+20	più	più	ADV	B	_	22	advmod	_	_
+21	essere	essere	AUX	VA	VerbForm=Inf	22	aux:pass	_	_
+22	taciuta	tacere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Suo figlio, un ragazzo di vent'anni, è accusato di un grave reato e attende il suo processo in carcere.
+1	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	vent'	venti	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	grave	grave	ADJ	A	Number=Sing	15	amod	_	_
+15	reato	reato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	attende	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	processo	processo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Anna non ha mai nascosto la sua preoccupazione per il futuro del figlio, ma dietro quella preoccupazione si cela una paura ancora più profonda:
+1	Anna	Anna	PROPN	SP	_	5	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	nascosto	nascondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	21	punct	_	_
+16	ma	ma	CCONJ	CC	_	21	cc	_	_
+17	dietro	dietro	ADP	E	_	19	case	_	_
+18	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	preoccupazione	preoccupazione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:pass	_	_
+21	cela	celare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	paura	paura	NOUN	S	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+24	ancora	ancora	ADV	B	_	25	advmod	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = la paura di incontrarlo.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	paura	paura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	incontrarlo	_	_	_	_	_	_	_	SpaceAfter=No
+4	incontrar	incontrare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = "Se lo mandano via almeno non avrò più paura di incontrarlo" queste sono le parole pronunciate da Anna durante una recente intervista.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	4	mark	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	mandano	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	via	via	ADV	B	_	4	advmod	_	_
+6	almeno	almeno	ADV	B	_	8	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	avrò	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	advcl	_	_
+9	più	più	ADV	B	_	8	advmod	_	_
+10	paura	paura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	incontrarlo	_	_	_	_	_	_	_	SpaceAfter=No
+12	incontrar	incontrare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	"	"	PUNCT	FB	_	18	punct	_	_
+15	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	18	nsubj	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	parole	parola	NOUN	S	Gender=Fem|Number=Plur	12	xcomp	_	_
+19	pronunciate	pronunciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	Anna	Anna	PROPN	SP	_	19	obl:agent	_	_
+22	durante	durante	ADP	E	_	25	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	recente	recente	ADJ	A	Number=Sing	25	amod	_	_
+25	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Parole dure, che nascondono un dramma ancora più grande.
+1	Parole	parola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	dure	duro	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	nascondono	nascondere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	ancora	ancora	ADV	B	_	10	advmod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	grande	grande	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Anna ha paura del suo figlio carcerato, paura che lui possa farle del male o peggio ancora, che possa minacciarla per costringerla a fare qualcosa contro la sua volontà.
+1	Anna	Anna	PROPN	SP	_	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	carcerato	carcerato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	paura	paura	NOUN	S	Gender=Fem|Number=Sing	7	appos	_	_
+11	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+12	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14-15	farle	_	_	_	_	_	_	_	_
+14	far	fare	VERB	V	VerbForm=Inf	10	acl:relcl	_	_
+15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	14	iobj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	male	male	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	o	o	CCONJ	CC	_	25	cc	_	_
+20	peggio	peggio	ADV	B	_	21	advmod	_	_
+21	ancora	ancora	ADV	B	_	25	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25-26	minacciarla	_	_	_	_	_	_	_	_
+25	minacciar	minacciare	VERB	V	VerbForm=Inf	18	conj	_	_
+26	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28-29	costringerla	_	_	_	_	_	_	_	_
+28	costringer	costringere	VERB	V	VerbForm=Inf	25	advcl	_	_
+29	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	fare	fare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+32	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	31	obj	_	_
+33	contro	contro	ADP	E	_	36	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	volontà	volontà	NOUN	S	Gender=Fem	31	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Questa è una storia di violenza, è una storia di paura, è una storia di un sistema che non ha riuscito a proteggere una donna e il suo figlio minorenne.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	storia	storia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	storia	storia	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	paura	paura	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+24	a	a	ADP	E	_	25	mark	_	_
+25	proteggere	proteggere	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	donna	donna	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	e	e	CCONJ	CC	_	31	cc	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	_
+32	minorenne	minorenne	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 10
+# text = Questo ragazzo non è stato protetto dalle tentazioni, dalle pessime compagnie, dalle seduzioni del crimine.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	protetto	protettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	tentazioni	tentazione	NOUN	S	Gender=Fem|Number=Plur	6	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11-12	dalle	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	pessime	pessimo	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+14	compagnie	compagnia	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16-17	dalle	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	seduzioni	seduzione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	crimine	crimine	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = E ora, sua madre, la stessa donna che lo ha cresciuto, ha paura di lui.
+1	E	e	CCONJ	CC	_	15	cc	_	_
+2	ora	ora	ADV	B	_	15	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	madre	madre	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	cresciuto	crescere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	paura	paura	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 12
+# text = Anna è una donna sola, senza il sostegno di una famiglia o di un compagno che la possa aiutare ad affrontare questa situazione difficile.
+1	Anna	Anna	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	sola	solo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	senza	senza	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	o	o	CCONJ	CC	_	16	cc	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+18	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+19	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	aiutare	aiutare	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22	affrontare	affrontare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+24	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	difficile	difficile	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Non ha mai chiesto aiuto, non ha mai gridato aiuto, ma ora le sue parole sono un grido di aiuto per tutti noi.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	mai	mai	ADV	B	_	10	advmod	_	_
+10	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+11	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	20	punct	_	_
+13	ma	ma	CCONJ	CC	_	20	cc	_	_
+14	ora	ora	ADV	B	_	20	advmod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	parole	parola	NOUN	S	Gender=Fem|Number=Plur	20	nsubj	_	_
+18	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	grido	grido	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Il carcere dovrebbe essere il lugar dove si pagano le conseguenze dei propri errori, non un lugar dove si impar
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lugar	lugar	NOUN	S	Gender=Masc	0	root	_	_
+7	dove	dove	ADV	B	_	9	advmod	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+9	pagano	paere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	errori	errore	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	6	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	lugar	lugar	NOUN	S	Gender=Masc	6	appos	_	_
+20	dove	dove	ADV	B	_	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	impar	impare	VERB	V	VerbForm=Inf	19	acl:relcl	_	SpacesAfter=\n
+

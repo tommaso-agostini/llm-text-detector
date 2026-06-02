@@ -1,0 +1,981 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I libri per le vacanze fanno quasi genere a sé - e pesano nel bagaglio estivo:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	libri	libro	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quasi	quasi	ADV	B	_	8	advmod	_	_
+8	genere	genere	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	sé	sé	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	obl	_	_
+11	-	-	PUNCT	FB	_	6	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	pesano	pesare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bagaglio	bagaglio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	estivo	estivo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 2
+# text = tanto per chi sbadiglia, quanto per chi si appassiona e scopre di essere un lettore.
+1	tanto	tanto	ADV	B	_	3	advmod	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+4	sbadiglia	sbadigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quanto	quanto	ADV	B	_	8	advmod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	chi	chi	PRON	PR	Number=Sing|PronType=Rel	3	conj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	appassiona	appassionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	di	di	ADP	E	_	16	mark	_	_
+14	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	12	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma pesano anche per le librerie: nelle classifiche di vendita di giugno, i titoli assegnati per compito creano un movimento insolito e non trascurabile.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	pesano	pesare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+3	anche	anche	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	librerie	libreria	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+8-9	nelle	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	classifiche	classifica	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	vendita	vendita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+18	assegnati	assegnare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	compito	compito	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	creano	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	21	xcomp	_	_
+24	insolito	insolito	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	trascurabile	trascurabile	ADJ	A	Number=Sing	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	21	punct	_	_
+
+# sent_id = 4
+# text = L'amico ritrovato - il classico di Fred Uhlman con cui si sono confrontate generazioni di studenti - ha venduto 1.709 copie solo nella prima settimana senza scuola.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	ritrovato	ritrovato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	-	-	PUNCT	FF	_	2	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	classico	classico	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Fred	Fred	PROPN	SP	_	6	nmod	_	_
+9	Uhlman	Uhlman	PROPN	SP	_	8	flat:name	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	confrontate	confrontare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+15	generazioni	generazione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+18	-	-	PUNCT	FB	_	8	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	venduto	vendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+21	1.709	1.709	NUM	N	NumType=Card	22	nummod	_	_
+22	copie	copia	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	solo	solo	ADV	B	_	27	advmod	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	27	amod	_	_
+27	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+28	senza	senza	ADP	E	_	29	case	_	_
+29	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = Da decenni, Italo Calvino fa la parte del leone, con i suoi tre romanzi più "scolastici":
+1	Da	da	ADP	E	_	2	case	_	_
+2	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Italo	Italo	PROPN	SP	_	6	nsubj	_	_
+5	Calvino	Calvino	PROPN	SP	_	4	flat:name	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	leone	leone	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	con	con	ADP	E	_	17	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	tre	tre	NUM	N	NumType=Card	17	nummod	_	_
+17	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+18	più	più	ADV	B	_	17	advmod	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	scolastici	scolastico	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 6
+# text = Il sentiero dei nidi di ragno, che sfiora le 1.400 copie vendute in una settimana;
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sentiero	sentiero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	nidi	nidio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	ragno	ragno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	sfiora	sfiorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	1.400	1.400	NUM	N	NumType=Card	13	nummod	_	_
+13	copie	copia	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+14	vendute	vendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = Il barone rampante e Il cavaliere inesistente, entrambi intorno alle mille.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	barone	barone	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	rampante	rampante	ADJ	A	Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cavaliere	cavaliere	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7	inesistente	inesistente	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nmod	_	_
+10	intorno	intorno	ADV	B	_	13	case	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	mille	mille	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = D'altra parte, suonata l'ultima campanella, la corsa in libreria - con l'elenco scritto su un foglietto - è un rito intramontabile.
+1	D'	da	ADP	E	_	3	case	_	SpaceAfter=No
+2	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	suonata	suonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	campanella	campanella	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	corsa	corsa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	libreria	libreria	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	-	-	PUNCT	FB	_	5	punct	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+18	scritto	scrivere	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	foglietto	foglietto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+22	-	-	PUNCT	FF	_	5	punct	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	rito	rito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+26	intramontabile	intramontabile	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = 9
+# text = E il "canone" si muove a fatica:
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	canone	canone	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 10
+# text = restano in cima alle preferenze dei docenti i classici del secondo Novecento, con Se questo è un uomo che tallona Calvino (1.352 copie vendute tra il 12 e il 18 giugno).
+1	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	cima	cima	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	docenti	docente	NOUN	S	Number=Plur	6	nmod	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	classici	classico	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	Novecento	novecento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	con	con	ADP	E	_	22	case	_	_
+18	Se	se	SCONJ	CS	_	22	mark	_	_
+19	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	nsubj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+23	che	che	PRON	PR	PronType=Rel	25	cc	_	_
+24	tallona	tallonare	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+25	Calvino	Calvino	PROPN	SP	_	22	acl:relcl	_	_
+26	(	(	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+27	1.352	1.352	NUM	N	NumType=Card	28	nummod	_	_
+28	copie	copia	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	vendute	vendere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30	tra	tra	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	12	12	NUM	N	NumType=Card	29	nummod	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	18	18	NUM	N	NumType=Card	32	conj	_	_
+36	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	35	flat	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Non so se lasciare soli gli adolescenti con l'imprescindibile romanzo di Levi sia saggio:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	CS	_	4	mark	_	_
+4	lasciare	lasciare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	soli	solo	ADJ	A	Gender=Masc|Number=Plur	4	xcomp	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	adolescenti	adolescenti	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+10	imprescindibile	imprescindibile	ADJ	A	Number=Sing	11	amod	_	_
+11	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Levi	levi	PROPN	SP	_	11	nmod	_	_
+14	sia	essere	CCONJ	CC	_	15	cc	_	_
+15	saggio	saggio	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = la pretesa pedagogica può generare effetti collaterali, soprattutto nel cuore dell'estate.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pretesa	pretesa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	pedagogica	pedagogico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	generare	generare	VERB	V	VerbForm=Inf	0	root	_	_
+6	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	collaterali	collaterale	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	soprattutto	soprattutto	ADV	B	_	12	advmod	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	estate	estate	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = I romanzi distopici di George Orwell - 1984 e La fattoria degli animali, rispettivamente a 1.333 e 1.062 copie - forse funzionano meglio;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+3	distopici	distopico	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	George	George	PROPN	SP	_	2	nmod	_	_
+6	Orwell	Orwell	PROPN	SP	_	5	flat:name	_	_
+7	-	-	PUNCT	FF	_	5	punct	_	_
+8	1984	1984	NUM	N	NumType=Card	11	nummod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fattoria	fattoria	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+12-13	degli	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	animali	animale	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	rispettivamente	rispettivamente	ADV	B	_	21	advmod	_	_
+17	a	a	ADP	E	_	21	case	_	_
+18	1.333	1.333	NUM	N	NumType=Card	21	nummod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	1.062	1.062	NUM	N	NumType=Card	18	conj	_	_
+21	copie	copia	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+22	-	-	PUNCT	FB	_	11	punct	_	_
+23	forse	forse	ADV	B	_	24	advmod	_	_
+24	funzionano	funzionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	meglio	meglio	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	;	;	PUNCT	FC	_	24	punct	_	_
+
+# sent_id = 14
+# text = difficile dire se Il giovane Holden (1.227 copie), benché in nuova traduzione, appaia più tanto giovane;
+1	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	1	advcl	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giovane	giovane	NOUN	S	Number=Sing	2	obl	_	_
+6	Holden	Holden	PROPN	SP	_	5	nmod	_	_
+7	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	1.227	1.227	NUM	N	NumType=Card	9	nummod	_	_
+9	copie	copia	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	17	punct	_	_
+12	benché	benché	CCONJ	CC	_	17	cc	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	appaia	apparire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+18	più	più	ADV	B	_	17	advmod	_	_
+19	tanto	tanto	ADV	B	_	20	advmod	_	_
+20	giovane	giovane	ADJ	A	Number=Sing	17	xcomp	_	SpaceAfter=No
+21	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 15
+# text = e se nel Buio oltre la siepe di Harper Lee (1.293 copie) la siepe non diventi infine uno scoglio.
+1	e	e	CCONJ	CC	_	19	cc	_	_
+2	se	se	SCONJ	CS	_	19	mark	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Buio	buio	PROPN	SP	_	19	obl	_	_
+6	oltre	oltre	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	siepe	siepe	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Harper	Harper	PROPN	SP	_	8	nmod	_	_
+11	Lee	Lee	PROPN	SP	_	10	flat:name	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	1.293	1.293	NUM	N	NumType=Card	14	nummod	_	_
+14	copie	copia	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	siepe	siepe	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	diventi	diventare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	infine	infine	ADV	B	_	19	advmod	_	_
+21	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	scoglio	scoglio	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 16
+# text = I viventi che lampeggiano in questa classifica sono pochissimi:
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	viventi	vivente	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	lampeggiano	lampeggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	classifica	classifica	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	pochissimi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 17
+# text = si è scavato uno spazio nel canone l'Ammaniti di Io non ho paura e Nel mare ci sono i coccodrilli di Fabio Geda, ormai un vero e proprio classico tra i banchi.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scavato	scavare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	canone	canone	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Ammaniti	Ammaniti	PROPN	SP	_	14	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	paura	paura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17-18	Nel	_	_	_	_	_	_	_	_
+17	In	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mare	mare	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
+21	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	coccodrilli	coccodrille	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Fabio	Fabio	PROPN	SP	_	23	nmod	_	_
+26	Geda	Geda	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	ormai	ormai	ADV	B	_	30	advmod	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	vero	vero	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	proprio	proprio	ADV	B	_	33	advmod	_	_
+33	classico	classico	ADJ	A	Gender=Masc|Number=Sing	30	conj	_	_
+34	tra	tra	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = In ogni caso, solo sommando la prima decina di titoli movimentati dalle consegne scolastiche si superano largamente le 12mila copie in una settimana, traguardo ormai lontano - in sette giorni - dalla portata di chiunque (a parte Camilleri).
+1	In	in	ADP	E	_	3	case	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	solo	solo	ADV	B	_	6	advmod	_	_
+6	sommando	sommare	VERB	V	VerbForm=Ger	18	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	decina	decina	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	movimentati	movimentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	consegne	consegna	NOUN	S	Gender=Fem|Number=Plur	12	obl:agent	_	_
+16	scolastiche	scolastico	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	superano	superare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	largamente	largo	ADV	B	_	18	advmod	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+21	12mila	12mila	NUM	N	NumType=Card	22	nummod	_	_
+22	copie	copia	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	traguardo	traguardo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	conj	_	_
+28	ormai	ormai	ADV	B	_	27	advmod	_	_
+29	lontano	lontano	ADV	B	_	27	advmod	_	_
+30	-	-	PUNCT	FB	_	27	punct	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	sette	sette	NUM	N	NumType=Card	33	nummod	_	_
+33	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+34	-	-	PUNCT	FB	_	18	punct	_	_
+35-36	dalla	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	portata	portata	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	37	nmod	_	_
+40	(	(	PUNCT	FB	_	42	punct	_	SpaceAfter=No
+41	a	a	ADP	E	_	42	case	_	_
+42	parte	parte	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+43	Camilleri	Camilleri	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+44	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 19
+# text = Scorrendo fino in fondo le classifiche, accanto all'ultimo tassello della trilogia di Calvino ( Il visconte dimezzato), compare anche il Bradbury di Fahrenheit 451 (733 copie) e il grande Fenoglio di Una questione privata (641).
+1	Scorrendo	Scorrere	VERB	V	VerbForm=Ger	24	advcl	_	_
+2	fino	fino	ADV	B	_	4	case	_	_
+3	in	in	ADP	E	_	2	fixed	_	_
+4	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	classifiche	classifica	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	accanto	accanto	ADV	B	_	12	case	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	8	fixed	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	tassello	tassello	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	trilogia	trilogia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Calvino	Calvino	PROPN	SP	_	15	nmod	_	_
+18	(	(	PUNCT	FB	_	20	punct	_	_
+19	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	visconte	visconte	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+21	dimezzato	dimezzato	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24	compare	compare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	anche	anche	ADV	B	_	27	advmod	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Bradbury	Bradbury	PROPN	SP	_	24	nsubj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Fahrenheit	Fahrenheit	PROPN	SP	_	27	nmod	_	_
+30	451	451	NUM	N	NumType=Card	29	flat:name	_	_
+31	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+32	733	733	NUM	N	NumType=Card	33	nummod	_	_
+33	copie	copia	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	33	punct	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	grande	grande	ADJ	A	Number=Sing	38	amod	_	_
+38	Fenoglio	Fenoglio	PROPN	SP	_	24	conj	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	questione	questione	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+42	privata	privato	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	_
+43	(	(	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	641	641	NUM	N	NumType=Card	41	nummod	_	SpaceAfter=No
+45	)	)	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 20
+# text = Il bellissimo GGG di Roald Dahl supera le 1.000 e scavalca il venerato (dai dodicenni) Diario di una schiappa, ma in questo caso è difficile dire se si tratti di scelte coatte o di preferenze più appassionate e più libere.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	3	amod	_	_
+3	GGG	GGg	PROPN	SP	_	7	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Roald	Roald	PROPN	SP	_	3	nmod	_	_
+6	Dahl	Dahl	PROPN	SP	_	5	flat:name	_	_
+7	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	1.000	1.000	NUM	N	NumType=Card	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	scavalca	scavalcare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	venerato	venerato	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+15-16	dai	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	dodicenni	dodicenne	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	Diario	diario	PROPN	SP	_	7	nmod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	schiappa	schiappa	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	29	punct	_	_
+24	ma	ma	CCONJ	CC	_	29	cc	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	caso	caso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	difficile	difficile	ADJ	A	Number=Sing	19	conj	_	_
+30	dire	dire	VERB	V	VerbForm=Inf	29	csubj	_	_
+31	se	se	SCONJ	CS	_	33	mark	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	33	expl	_	_
+33	tratti	trattare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	33	obl	_	_
+36	coatte	coatto	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+37	o	o	CCONJ	CC	_	39	cc	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	preferenze	preferenza	NOUN	S	Gender=Fem|Number=Plur	35	conj	_	_
+40	più	più	ADV	B	_	41	advmod	_	_
+41	appassionate	appassionato	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	più	più	ADV	B	_	44	advmod	_	_
+44	libere	libero	ADJ	A	Gender=Fem|Number=Plur	41	conj	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = A Italia appena unita, i ministri raccomandavano ai professori - oltre a un astratto "riguardo didattico ed anche politico " - che i libri prescritti fossero inappuntabili sul piano "intellettuale e morale".
+1	A	a	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	8	obl	_	_
+3	appena	appena	ADV	B	_	4	advmod	_	_
+4	unita	unire	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	raccomandavano	raccomandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	professori	professore	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	-	-	PUNCT	FB	_	8	punct	_	_
+13	oltre	oltre	ADV	B	_	16	case	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	astratto	astratto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	16	compound	_	_
+19	didattico	didattico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	ed	e	CCONJ	CC	_	22	cc	_	_
+21	anche	anche	ADV	B	_	22	advmod	_	_
+22	politico	politico	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	_
+23	"	"	PUNCT	FB	_	18	punct	_	_
+24	-	-	PUNCT	FB	_	18	punct	_	_
+25	che	che	SCONJ	CS	_	30	mark	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	libri	libro	NOUN	S	Gender=Masc|Number=Plur	30	nsubj	_	_
+28	prescritti	prescrivere	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+30	inappuntabili	inappuntabile	ADJ	A	Number=Plur	18	advcl	_	_
+31-32	sul	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	piano	piano	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+35	intellettuale	intellettuale	ADJ	A	Number=Sing	33	amod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	morale	morale	ADJ	A	Number=Sing	35	conj	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	35	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = La bellezza, la verità, la bontà:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	verità	verità	NOUN	S	Gender=Fem	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bontà	bontà	NOUN	S	Gender=Fem	5	appos	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 23
+# text = l'imperativo dell'istruzione cattolica si travasa nei princìpi civili, laici e patriottici della nazione.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	imperativo	imperativo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	cattolica	cattolico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	travasa	travadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	princìpi	principio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	civili	civile	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	laici	laico	ADJ	A	Gender=Masc|Number=Plur	12	conj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	patriottici	patriottico	ADJ	A	Number=Plur	12	conj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 24
+# text = Siamo ancora in quei dintorni?
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ancora	ancora	ADV	B	_	5	advmod	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	dintorni	dintorni	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = Non esageriamo.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	esageriamo	esagerare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Tuttavia, azzardare qualcosa di diverso, un secolo e mezzo dopo, non sembra comunque facile.
+1	Tuttavia	tuttavia	ADV	B	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	azzardare	azzardare	VERB	V	VerbForm=Inf	15	csubj	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+12	dopo	dopo	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	comunque	comunque	ADV	B	_	15	advmod	_	_
+17	facile	facile	ADJ	A	Number=Sing	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 27
+# text = Un po' perché si suppone che l'estate debba essere immolata a un "classico", un po' per l'effetto rassicurante che ha l'usato sicuro, un po' per l'ansia che destano genitori sempre e comunque in vena di polemiche.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	po'	poco	ADV	B	_	5	advmod	_	_
+3	perché	perché	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	suppone	supporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	estate	estate	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+9	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	VA	VerbForm=Inf	11	aux:pass	_	_
+11	immolata	immolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	classico	classico	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	11	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	po'	poco	ADV	B	_	22	advmod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+23	rassicurante	rassicurante	ADJ	A	Number=Sing	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	usato	usato	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	5	punct	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	po'	poco	ADV	B	_	34	advmod	_	_
+32	per	per	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+35	che	che	PRON	PR	PronType=Rel	36	nsubj	_	_
+36	destano	destare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+37	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	36	obj	_	_
+38	sempre	sempre	ADV	B	_	37	advmod	_	_
+39	e	e	CCONJ	CC	_	42	cc	_	_
+40	comunque	comunque	ADV	B	_	42	advmod	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	vena	vena	NOUN	S	Gender=Fem|Number=Sing	38	conj	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Così, ci si appoggia a Calvino come a una stampella, o all'indiscutibile Levi.
+1	Così	così	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	appoggia	appoggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Calvino	Calvino	PROPN	SP	_	5	obl	_	_
+8	come	come	ADP	E	_	11	case	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	stampella	stampella	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	o	o	CCONJ	CC	_	17	cc	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	17	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	indiscutibile	indiscutibile	ADJ	A	Number=Sing	17	amod	_	_
+17	Levi	levi	PROPN	SP	_	11	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = Rischiando però di lasciare indietro - una volta inserito il pilota automatico - qualche domanda.
+1	Rischiando	Rischiare	VERB	V	VerbForm=Ger	0	root	_	_
+2	però	però	ADV	B	_	1	advmod	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	lasciare	lasciare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	indietro	indietro	ADV	B	_	4	advmod	_	_
+6	-	-	PUNCT	FF	_	8	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+9	inserito	inserire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pilota	pilota	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	automatico	automatico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	-	-	PUNCT	FF	_	9	punct	_	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = Per esempio: a sessant'anni esatti dalla pubblicazione, Il barone rampante cosa dice a un diciassettenne del 2017 (sotto l'ombrellone)?
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	sessant'	sessanta	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7-8	esatti	_	_	_	_	_	_	_	_
+7	esat	esare	ADV	B	_	6	advmod	_	_
+8	ti	ti	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pubblicazione	pubblicazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	barone	barone	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+15	rampante	rampante	ADJ	A	Number=Sing	14	amod	_	_
+16	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	17	obj	_	_
+17	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	diciassettenne	diciassettenne	NOUN	S	Number=Sing	17	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	2017	2017	NUM	N	NumType=Card	20	nmod	_	_
+24	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+25	sotto	sotto	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	ombrellone	ombrellone	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 31
+# text = Magari tanto, magari niente.
+1	Magari	magari	ADV	B	_	5	advmod	_	_
+2	tanto	tanto	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	magari	magari	ADV	B	_	5	advmod	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 32
+# text = Però è importante chiederselo - e ripartire da lì.
+1	Però	però	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+4-6	chiederselo	_	_	_	_	_	_	_	_
+4	chieder	chiedere	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	se	se	SCONJ	CS	_	9	mark	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	ripartire	ripartire	VERB	V	VerbForm=Inf	4	ccomp	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	lì	lì	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 33
+# text = Perché se poi il "lettore coatto" scappa sugli alberi come Cosimo Piovasco di Rondò, e anziché rifiutare le lumache rifiuta i libri, non è certo colpa di Calvino.
+1	Perché	perché	ADV	B	_	31	advmod	_	_
+2	se	se	SCONJ	CS	_	9	mark	_	_
+3	poi	poi	ADV	B	_	6	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	lettore	lettore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	coatto	coatto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	6	punct	_	_
+9	scappa	scappare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+10-11	sugli	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	Cosimo	Cosimo	PROPN	SP	_	12	nmod	_	_
+15	Piovasco	Piovasco	PROPN	SP	_	14	flat:name	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Rondò	Rondò	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	anziché	anziché	ADV	B	_	21	advmod	_	_
+21	rifiutare	rifiutare	VERB	V	VerbForm=Inf	14	conj	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	lumache	lumaca	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	rifiuta	rifiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	libri	libro	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	9	punct	_	_
+28	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	certo	certo	ADV	B	_	31	advmod	_	_
+31	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Calvino	Calvino	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 34
+# text = Qualcuno dirà che detestare un romanzo è comunque un modo di conoscerlo.
+1	Qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	dirà	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	detestare	detestare	VERB	V	VerbForm=Inf	10	csubj	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	comunque	comunque	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	conoscerlo	_	_	_	_	_	_	_	SpaceAfter=No
+12	conoscer	conoscere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 35
+# text = Vero.
+1	Vero	vero	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 36
+# text = Ma c'è tempo nove mesi l'anno;
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	nove	nove	NUM	N	NumType=Card	6	nummod	_	_
+6	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 37
+# text = per i tre che restano - con un patto trasparente - si potrebbe anche lasciare campo libero.
+1	per	per	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	tre	tre	NUM	N	NumType=Card	15	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	-	-	PUNCT	FF	_	5	punct	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	patto	patto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	trasparente	trasparente	ADJ	A	Number=Sing	9	amod	_	_
+11	-	-	PUNCT	FB	_	3	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+13	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	anche	anche	ADV	B	_	15	advmod	_	_
+15	lasciare	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+16	campo	campo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	libero	libero	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 38
+# text = E vedere a settembre che succede.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 39
+# text = Ho l'impressione che Calvino - o almeno il suo Cosimo Piovasco - non avrebbe da ridire.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	che	che	SCONJ	CS	_	15	mark	_	_
+5	Calvino	Calvino	PROPN	SP	_	15	obl	_	_
+6	-	-	PUNCT	FF	_	5	punct	_	_
+7	o	o	CCONJ	CC	_	11	cc	_	_
+8	almeno	almeno	ADV	B	_	11	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Cosimo	Cosimo	PROPN	SP	_	5	conj	_	_
+12	Piovasco	Piovasco	PROPN	SP	_	11	flat:name	_	_
+13	-	-	PUNCT	FF	_	5	punct	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	ridire	ridire	VERB	V	VerbForm=Inf	15	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

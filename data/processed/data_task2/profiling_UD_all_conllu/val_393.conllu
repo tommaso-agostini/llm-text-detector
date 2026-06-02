@@ -1,0 +1,394 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anzi, ritorna.
+1	Anzi	anzi	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ritorna	ritornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Eh già, perché questo è uno dei grandi ritorni di quest'anno:
+1	Eh	eh	INTJ	I	_	7	punct	_	_
+2	già	già	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	perché	perché	SCONJ	CS	_	7	mark	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	grandi	grande	ADJ	A	Number=Plur	11	amod	_	_
+11	ritorni	ritorno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	quest'	questo	DET	DD	Number=Sing|PronType=Dem	14	det	_	SpaceAfter=No
+14	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 3
+# text = programma fenomeno degli anni '90, antenato di tutti i talent show.
+1	programma	programma	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	'90	'90	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	antenato	antenato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	talent	talent	NOUN	S	_	8	obl	_	_
+13	show	show	NOUN	S	Gender=Masc	12	compound	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ma fortemente anti-talent: Karaoke, infatti, invita chiunque ad esibirsi.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	fortemente	fortemente	ADV	B	_	3	advmod	_	_
+3	anti-talent	anti-talent	ADV	B	_	9	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	Karaoke	Karaoke	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	invita	invitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+11	ad	a	ADP	E	_	12	mark	_	_
+12-13	esibirsi	_	_	_	_	_	_	_	SpaceAfter=No
+12	esibir	esibire	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Stonati, personaggi strani o veri e propri talenti, ce n'è per tutti i gusti.
+1	Stonati	Stonato	PROPN	SP	_	13	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+4	strani	strano	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	o	o	CCONJ	CC	_	9	cc	_	_
+6	veri	vero	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	propri	proprio	ADJ	A	Gender=Masc|Number=Plur	6	conj	_	_
+9	talenti	talento	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Certo, mancherà l'ingrediente fondamentale del successo di vent'anni fa, ossia, Fiorello .
+1	Certo	certo	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	mancherà	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ingrediente	ingrediente	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	fondamentale	fondamentale	ADJ	A	Number=Sing	5	amod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	successo	successo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	vent'	venti	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13	fa	fa	ADV	B	_	9	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ossia	ossia	CCONJ	CC	_	17	cc	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	Fiorello	Fiorello	PROPN	SP	_	9	conj	_	_
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = L'allora conduttore stregò le piazze di tutta Italia con una simpatia itinerante che suggellò l'inizio della sua carriera televisiva.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	allora	allora	ADV	B	_	3	advmod	_	_
+3	conduttore	conduttore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	stregò	stregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	piazze	piazza	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	Italia	Italia	PROPN	SP	_	6	nmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	simpatia	simpatia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	itinerante	itinerante	ADJ	A	Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	suggellò	suggellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+22	televisiva	televisivo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Al suo posto ci sarà il comico Angelo Pintus , reduce dal clamoroso tonfo sul palco dell'Ariston.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	comico	comico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	Angelo	Angelo	PROPN	SP	_	6	nsubj	_	_
+10	Pintus	Pintus	PROPN	SP	_	9	flat:name	_	_
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	reduce	redurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	clamoroso	clamoroso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	tonfo	tonfo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	palco	palco	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	di	di	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	Ariston	Ariston	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Resta da chiedersi: ne sarà all'altezza?
+1	Resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+2	da	da	ADP	E	_	3	mark	_	_
+3-4	chiedersi	_	_	_	_	_	_	_	SpaceAfter=No
+3	chieder	chiedere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	:	:	PUNCT	FC	_	1	punct	_	_
+6	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+7	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Pintus, infatti, è stato il secondo comico chiamato da Carlo Conti per il suo Festival di Sanremo .
+1	Pintus	Pintus	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	comico	comico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	Carlo	Carlo	PROPN	SP	_	10	obl:agent	_	_
+13	Conti	Conti	PROPN	SP	_	12	flat:name	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	Festival	Festival	PROPN	SP	_	10	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Sanremo	Sanremo	PROPN	SP	_	17	nmod	_	_
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Esperienza non proprio felice, e, di certo, poco divertente, quella che il comico ha regalato al pubblico della kermesse canora.
+1	Esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	proprio	proprio	ADV	B	_	4	advmod	_	_
+4	felice	felice	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	12	punct	_	_
+6	e	e	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	di	di	ADP	E	_	12	case	_	_
+9	certo	certo	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	poco	poco	ADV	B	_	12	advmod	_	_
+12	divertente	divertente	ADJ	A	Number=Sing	1	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	1	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	comico	comico	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	kermesse	kermesso	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+26	canora	canore	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Si può parlare, senza aver paura di smentite, dei quindici minuti più agghiaccianti delle cinque serate.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	senza	senza	ADP	E	_	6	mark	_	_
+6	aver	avere	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	paura	paura	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	smentite	smentita	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	quindici	quindici	NUM	N	NumType=Card	14	nummod	_	_
+14	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	agghiaccianti	agghiacciante	ADV	B	_	14	advmod	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	cinque	cinque	NUM	N	NumType=Card	20	nummod	_	_
+20	serate	serata	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Gli applausi, che si sono contati su una mano (anche mezza), erano tiepidi e forzati.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	applausi	applauso	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	contati	contare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mano	mano	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	tiepidi	tiepido	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	forzati	forzato	ADJ	A	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 14
+# text = Per il resto, oltre a Pintus e Conti, sul palco era solo un lungo e tremendo silenzio imbarazzante.
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	oltre	oltre	ADV	B	_	7	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	Pintus	Pintus	PROPN	SP	_	20	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Conti	Conti	PROPN	SP	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	20	punct	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	palco	palco	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+15	solo	solo	ADV	B	_	20	advmod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+17	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	tremendo	tremendo	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	_
+20	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+21	imbarazzante	imbarazzante	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 15
+# text = Insomma, uno di quei momenti mortificanti, soprattutto se l'intento era quello di far ridere.
+1	Insomma	insomma	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	mortificanti	mortificante	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	soprattutto	soprattutto	ADV	B	_	14	advmod	_	_
+10	se	se	SCONJ	CS	_	14	mark	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	intento	intento	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	conj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	far	fare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	ridere	ridere	VERB	V	VerbForm=Inf	16	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = All'Ariston aveva esordito:
+1-2	All'	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Ariston	Ariston	PROPN	SP	_	5	obl	_	_
+4	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	esordito	esordire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 17
+# text = "Voi non sapete chi sono, non mi conoscete ma i vostri figli invece mi amano.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	chi	chi	PRON	PQ	PronType=Int	4	nsubj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	conoscete	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	ma	ma	CCONJ	CC	_	17	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	invece	invece	ADV	B	_	17	advmod	_	_
+16	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 19
+# text = Beh, ora sappiamo chi è.
+1	Beh	beh	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ora	ora	ADV	B	_	4	advmod	_	_
+4	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = Quindi cosa ci sarà da aspettarsi da questo Karaoke in salsa Pintus?
+1	Quindi	quindi	ADV	B	_	4	advmod	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6-7	aspettarsi	_	_	_	_	_	_	_	_
+6	aspettar	aspettare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	Karaoke	Karaoke	PROPN	SP	_	6	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	salsa	salsa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	Pintus	Pintus	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

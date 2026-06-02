@@ -1,0 +1,231 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lo scenario è quello di un messaggio che afferma:
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	scenario	scenario	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 2
+# text = "Non andate a scuola".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Il messaggio è semplice, ma il suo effetto è devastante.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	semplice	semplice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	ma	ma	CCONJ	CC	_	11	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	devastante	devastante	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Per molti genitori, per molti cittadini dei quartieri residenziali, per tanti giovani che ancora credono in un futuro civile e educativo, questo annuncio ha avuto un impatto talmente profondo che sembra quasi un disastro annunciato prima della sua verità.
+1	Per	per	ADP	E	_	3	case	_	_
+2	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	quartieri	quartiere	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	residenziali	residenziale	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	giovani	giovane	NOUN	S	Number=Plur	29	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ancora	ancora	ADV	B	_	18	advmod	_	_
+18	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	civile	civile	ADJ	A	Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	educativo	educativo	ADJ	A	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	15	punct	_	_
+26	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	talmente	talmente	ADV	B	_	33	advmod	_	_
+33	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+34	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+35	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+36	quasi	quasi	ADV	B	_	38	advmod	_	_
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	disastro	disastro	NOUN	S	Gender=Masc|Number=Sing	35	obj	_	_
+39	annunciato	annunciare	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40	prima	prima	ADV	B	_	44	case	_	_
+41-42	della	_	_	_	_	_	_	_	_
+41	di	di	ADP	E	_	40	fixed	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	verità	verità	NOUN	S	Gender=Fem	38	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 5
+# text = Succede che, in diverse regioni del paese, i giovani che non frequentano le scuole, o che si rifugiano sulle pagine dei social media, apparecchino un dramma che non si concretizza con un evento reale, ma attraverso un'immagine, un post, un film di animazione con voce forte e truce che dice:
+1	Succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	31	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	31	punct	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	giovani	giovane	NOUN	S	Number=Plur	31	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+15	frequentano	frequentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	o	o	CCONJ	CC	_	22	cc	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	rifugiano	rifugiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+23-24	sulle	_	_	_	_	_	_	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	social	social	ADJ	A	Number=Sing	29	amod	_	_
+29	media	medio	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	12	punct	_	_
+31	apparecchino	appareccare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+35	non	non	ADV	BN	PronType=Neg	37	advmod	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	37	expl	_	_
+37	concretizza	concretizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+38	con	con	ADP	E	_	40	case	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	evento	evento	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+41	reale	reale	ADJ	A	Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	46	punct	_	_
+43	ma	ma	CCONJ	CC	_	46	cc	_	_
+44	attraverso	attraverso	ADP	E	_	46	case	_	_
+45	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	1	punct	_	_
+48	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	post	post	NOUN	S	_	1	nsubj	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	film	film	NOUN	S	Gender=Masc	49	appos	_	_
+53	di	di	ADP	E	_	54	case	_	_
+54	animazione	animazione	NOUN	S	Gender=Fem|Number=Sing	52	nmod	_	_
+55	con	con	ADP	E	_	56	case	_	_
+56	voce	voce	NOUN	S	Gender=Fem|Number=Sing	52	nmod	_	_
+57	forte	forte	ADJ	A	Number=Sing	56	amod	_	_
+58	e	e	CCONJ	CC	_	59	cc	_	_
+59	truce	truce	ADJ	A	Number=Sing	57	conj	_	_
+60	che	che	PRON	PR	PronType=Rel	61	nsubj	_	_
+61	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	acl:relcl	_	SpaceAfter=No
+62	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = "Non andate a scuola".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = È un appello, sì, ma uno che sembra essere calcolato, che sembra avere uno scopo.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	appello	appello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sì	sì	INTJ	I	Polarity=Pos	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux	_	_
+12	calcolato	calcolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+16	avere	avere	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = L'elemento più preoccupante è che chi lo diffonde non ha il controllo della realtà, ma anzi la manipola, la strumentalizza, la trasforma in una minaccia.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	preoccupante	preoccupante	ADJ	A	Number=Sing	2	amod	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	chi	chi	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	diffonde	diffondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	realtà	realtà	NOUN	S	Gender=Fem	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	ma	ma	CCONJ	CC	_	21	cc	_	_
+19	anzi	anzi	ADV	B	_	21	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	manipola	manipola	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	strumentalizza	strumentalizza	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	trasforma	trasforma	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = È un nuovo
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+

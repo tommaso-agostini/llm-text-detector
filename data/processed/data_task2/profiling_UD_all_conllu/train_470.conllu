@@ -1,0 +1,379 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Certi stati d’animo alla lunga ti portano a gesti estremi.
+1	Certi	certo	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	stati	stato	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3	d’	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	animo	animo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	9	obl	_	_
+8	ti	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	portano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	gesti	gesto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+12	estremi	estremio	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Avevo tirato cocaina due giorni prima di partire per Roma".
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	tirato	tirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	cocaina	cocainare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	prima	prima	ADV	B	_	8	mark	_	_
+7	di	di	ADP	E	_	6	fixed	_	_
+8	partire	partire	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	Roma	Roma	PROPN	SP	_	8	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Si racconta dal carcere di Rebibbia Luigi Preiti , l’uomo che il 28 aprile 2013 sparò a due carabinieri davanti a Palazzo Chigi durante l’insediamento del governo Letta.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Rebibbia	Rebibbia	PROPN	SP	_	5	nmod	_	_
+8	Luigi	Luigi	PROPN	SP	_	7	flat:name	_	_
+9	Preiti	Preito	PROPN	SP	_	7	flat:name	_	_
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+13	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	28	28	NUM	N	NumType=Card	18	obl	_	_
+16	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	15	flat	_	_
+17	2013	2013	NUM	N	NumType=Card	15	flat	_	_
+18	sparò	sparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	due	due	NUM	N	NumType=Card	21	nummod	_	_
+21	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	davanti	davanti	ADV	B	_	24	case	_	_
+23	a	a	ADP	E	_	22	fixed	_	_
+24	Palazzo	palazzo	PROPN	SP	_	18	obl	_	_
+25	Chigi	Chigi	PROPN	SP	_	24	flat:name	_	_
+26	durante	durante	ADP	E	_	28	case	_	_
+27	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	insediamento	insediamento	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	governo	governo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+32	Letta	letta	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = "Ero un'altra vittima della crisi", spiega a Repubblica , " La mia vita era un disastro:
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Repubblica	repubblica	PROPN	SP	_	11	obl	_	_
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	"	"	PUNCT	FB	_	21	punct	_	_
+16	La	La	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	vita	vita	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+19	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	disastro	disastro	NOUN	S	Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 5
+# text = senza lavoro, senza soldi, non potevo vedere mio figlio.
+1	senza	senza	ADP	E	_	2	case	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	senza	senza	ADP	E	_	5	case	_	_
+5	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Quello che ho fatto è assurdo, la disperazione ti porta a fare cose pazzesche.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	assurdo	assurdo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	obj	_	_
+11	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	pazzesche	pazzesco	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ho agito da solo, senza indicazioni di nessuno.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	agito	agire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	solo	solo	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	indicazioni	indicazione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Sono pentito ".
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pentito	pentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Al giornalista che gli chiede quali erano le sue intenzioni risponde:
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giornalista	giornalista	NOUN	S	Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	quali	quali	PRON	PR	Number=Plur|PronType=Rel	12	nsubj	_	_
+8	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+12	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 10
+# text = " Li volevo colpire anche se non sapevo bene in che modo.
+1	"	"	PUNCT	FB	_	4	punct	_	_
+2	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+3	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	colpire	colpire	VERB	V	VerbForm=Inf	0	root	_	_
+5	anche	anche	ADV	B	_	8	mark	_	_
+6	se	se	SCONJ	CS	_	5	fixed	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	che	che	DET	DQ	PronType=Int	12	det	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Non avevo un piano.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	piano	piano	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = I nomi?
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Berlusconi, Bersani e Monti .
+1	Berlusconi	Berlusconi	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Bersani	Bersani	PROPN	SP	_	1	conj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	Monti	Monti	PROPN	SP	_	1	conj	_	_
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Ognuno aveva delle colpe.
+1	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	colpe	colpa	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = La destra poteva cambiare le cose e non l’ha fatto.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	destra	destra	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	cambiare	cambiare	VERB	V	VerbForm=Inf	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = La sinistra non faceva altro che litigare".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	litigare	litigare	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = In carcere Preiti ha ricevuto diverse lettere di solidarietà "da ogni parte d’Italia: anche da liberi professionisti, medici, avvocati, imprenditori strozzati dalla crisi ", dice, chiedendo perdono.
+1	In	in	ADP	E	_	2	case	_	_
+2	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	Preiti	Preito	PROPN	SP	_	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	solidarietà	solidarietà	NOUN	S	Gender=Fem	7	nmod	_	_
+10	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+14	d’	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	Italia	Italia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	5	punct	_	_
+17	anche	anche	ADV	B	_	20	advmod	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	professionisti	professionista	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	medici	medico	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+27	strozzati	strozzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	_
+28-29	dalla	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	crisi	crisi	NOUN	S	Gender=Fem	27	obl:agent	_	_
+31	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	5	punct	_	_
+33	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	parataxis	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	chiedendo	chiedere	VERB	V	VerbForm=Ger	36	advcl	_	_
+36	perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Perdono che "non è mai stato preso in considerazione" da Martina Giangrande, figlia del brigadiere Giuseppe ferito durante la sparatoria e reso invalido a vita.
+1	Perdono	perdere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	mai	mai	ADV	B	_	8	advmod	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	13	punct	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Martina	Martina	PROPN	SP	_	8	obl:agent	_	_
+14	Giangrande	Giangrande	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	13	appos	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	brigadiere	brigadiere	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Giuseppe	Giuseppe	PROPN	SP	_	19	nmod	_	_
+21	ferito	ferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+22	durante	durante	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sparatoria	sparatoria	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	reso	reso	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+27	invalido	invalido	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	vita	vita	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = " Una persona si può dare tutte le giustificazioni che vuole, ma poi rimane l’atto che uno ha fatto", dice oggi la ragazza, "Per colpa di Preiti, io da 16 mesi vivo in ospedale con mio padre, a lottare assieme per una vita quanto meno dignitosa ".
+1	"	"	PUNCT	FB	_	6	punct	_	_
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+7	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	giustificazioni	giustificazione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	poi	poi	ADV	B	_	15	advmod	_	_
+15	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	atto	atto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	21	obj	_	_
+19	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	_
+20	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	6	punct	_	_
+24	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+25	oggi	oggi	ADV	B	_	24	advmod	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	6	punct	_	_
+29	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+30	Per	per	ADP	E	_	31	case	_	_
+31	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Preiti	Preito	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	31	punct	_	_
+35	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	16	16	NUM	N	NumType=Card	38	nummod	_	_
+38	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	41	obl	_	_
+39	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+42	con	con	ADP	E	_	44	case	_	_
+43	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	44	det:poss	_	_
+44	padre	padre	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	41	punct	_	_
+46	a	a	ADP	E	_	47	mark	_	_
+47	lottare	lottare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+48	assieme	assieme	ADV	B	_	51	advmod	_	_
+49	per	per	ADP	E	_	51	case	_	_
+50	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	vita	vita	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	_
+52	quanto	quanto	ADV	B	_	54	advmod	_	_
+53	meno	meno	ADV	B	_	54	advmod	_	_
+54	dignitosa	dignitoso	ADJ	A	Gender=Fem|Number=Sing	51	amod	_	_
+55	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

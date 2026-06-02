@@ -1,0 +1,349 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le accuse, pesanti, parlano di omertà, di consapevolezza taciuta riguardo a presunti abusi che sarebbero avvenuti in una vicina casa di riposo gestita da suore.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	pesanti	pesante	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	omertà	omertà	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	consapevolezza	consapevolezza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	taciuta	tacere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+13	riguardo	riguardo	ADV	B	_	16	case	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	presunti	presunto	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+18	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	avvenuti	avvenire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	vicina	vicino	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+26	gestita	gestire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	suore	suore	NOUN	S	Gender=Masc|Number=Sing	26	obl:agent	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ma don Giancarlo scuote la testa, con un gesto lento e stanco.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	don	don	PROPN	SP	_	4	nsubj	_	_
+3	Giancarlo	Giancarlo	PROPN	SP	_	2	flat:name	_	_
+4	scuote	scuotere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	testa	testa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	lento	lento	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = “Nessuno scandalo,” ripete più volte, quasi a voler convincere se stesso prima che noi.
+1	“	“	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Nessuno	nessuno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scandalo	scandalo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	3	punct	_	_
+6	ripete	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	volte	volta	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	quasi	quasi	ADV	B	_	13	advmod	_	_
+11	a	a	ADP	E	_	13	mark	_	_
+12	voler	volere	AUX	VM	VerbForm=Inf	13	aux	_	_
+13	convincere	convincere	VERB	V	VerbForm=Inf	6	advcl	_	_
+14	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	_
+16	prima	prima	ADV	B	_	18	case	_	_
+17	che	che	SCONJ	CS	_	16	fixed	_	_
+18	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = “In chiesa stavano tutti in silenzio.
+1	“	“	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	stavano	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nsubj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = La gente è impaurita, non si fida.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	impaurita	impaurire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	fida	fidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = E quando la gente ha paura, non parla”.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	quando	quando	SCONJ	CS	_	5	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gente	gente	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	”	”	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Il silenzio, appunto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	appunto	appunto	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un silenzio che aleggia sulle testimonianze raccolte nei giorni scorsi, che si sovrappone alle voci flebili e spezzate di alcune anziane ospiti della struttura, che denunciano violenze fisiche e psicologiche.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	aleggia	aleggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	sulle	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	raccolte	raccogliere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	sovrappone	sovrapporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+17-18	alle	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	voci	voce	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	flebili	flebile	ADJ	A	Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	spezzate	spezzate	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	26	det	_	_
+25	anziane	anziano	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	_
+26	ospiti	ospite	NOUN	S	Number=Plur	22	obl	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	26	punct	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	denunciano	denunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+33	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	32	obj	_	_
+34	fisiche	fisico	ADJ	A	Gender=Fem|Number=Plur	33	amod	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	psicologiche	psicologico	ADJ	A	Gender=Fem|Number=Plur	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Un silenzio che, secondo alcune associazioni che si occupano del caso, sarebbe stato alimentato anche dalla vicinanza e dalla conoscenza – se non dalla copertura – delle autorità ecclesiastiche locali.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	17	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	7	case	_	_
+6	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	occupano	occupare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	caso	caso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	alimentato	alimentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+18	anche	anche	ADV	B	_	21	advmod	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vicinanza	vicinanza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+26	–	–	PUNCT	FF	_	25	punct	_	_
+27	se	se	SCONJ	CS	_	31	mark	_	_
+28	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+29-30	dalla	_	_	_	_	_	_	_	_
+29	da	da	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	copertura	copertura	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+32	–	–	PUNCT	FB	_	31	punct	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	autorità	autorità	NOUN	S	Gender=Fem	31	nmod	_	_
+36	ecclesiastiche	ecclesiastico	ADJ	A	Gender=Fem|Number=Plur	35	amod	_	_
+37	locali	locale	ADJ	A	Number=Plur	35	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Don Giancarlo nega categoricamente qualsiasi tentativo di insabbiamento.
+1	Don	don	PROPN	SP	_	3	nsubj	_	_
+2	Giancarlo	Giancarlo	PROPN	SP	_	1	flat:name	_	_
+3	nega	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	categoricamente	categoricamente	ADV	B	_	6	advmod	_	_
+5	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	insabbiamento	insabbiamento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = “Io sono un prete, non un investigatore,” afferma.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	prete	prete	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	investigatore	investigatore	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	5	punct	_	_
+12	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = “La mia porta è sempre stata aperta, e se qualcuno mi avesse parlato di queste cose, mi sarei subito attivato.
+1	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	porta	porta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	sempre	sempre	ADV	B	_	8	advmod	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	23	punct	_	_
+10	e	e	CCONJ	CC	_	23	cc	_	_
+11	se	se	SCONJ	CS	_	15	mark	_	_
+12	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	15	punct	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+21	sarei	essere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	subito	subito	ADV	B	_	23	advmod	_	_
+23	attivato	attivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Ma nessuno mi ha detto nulla, mai.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	mai	mai	ADV	B	_	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Certo, si parlava di difficoltà economiche della casa di riposo, di personale insufficiente, ma mai di abusi.
+1	Certo	certo	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	parlava	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	difficoltà	difficoltà	NOUN	S	Gender=Fem	4	obl	_	_
+7	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	riposo	riposo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	personale	personale	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+16	insufficiente	insufficiente	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	ma	ma	CCONJ	CC	_	21	cc	_	_
+19	mai	mai	ADV	B	_	21	advmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = E chi sa, ha paura di esporsi, di essere giudicato, di perdere la propria posizione”.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nsubj	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	paura	paura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	esporsi	_	_	_	_	_	_	_	SpaceAfter=No
+8	espor	esporre	VERB	V	VerbForm=Inf	6	acl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	di	di	ADP	E	_	13	mark	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux	_	_
+13	giudicato	giudicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	perdere	perdere	VERB	V	VerbForm=Inf	13	conj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	”	”	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 16
+# text = La sua difesa, però, suona tiepida, quasi un'ammissione di impotenza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	tiepida	tiepida	ADJ	A	Gender=Fem|Number=Sing	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	quasi	quasi	ADV	B	_	12	advmod	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ammissione	ammissione	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	impotenza	impotenza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = L’acc
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	acc	acc	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\n
+

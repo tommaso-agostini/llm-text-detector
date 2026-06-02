@@ -1,0 +1,756 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E stessa città:
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	città	città	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 2
+# text = Sestri Levante.
+1	Sestri	Sestro	PROPN	SP	_	0	root	_	_
+2	Levante	Levante	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Nonostante la crisi, avete lanciato un'idea...
+1	Nonostante	nonostante	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	crisi	crisi	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lanciato	lanciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	idea..	idea..	NOUN	S	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = «Non nonostante la crisi - precisa Matteo, classe 1987 - ma proprio a causa della crisi.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	nonostante	nonostante	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	crisi	crisi	NOUN	S	Gender=Fem	0	root	_	_
+6	-	-	PUNCT	FB	_	5	punct	_	_
+7	precisa	precisare	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+8	Matteo	Matteo	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	classe	classe	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+11	1987	1987	NUM	N	NumType=Card	10	nummod	_	_
+12	-	-	PUNCT	FF	_	5	punct	_	_
+13	ma	ma	CCONJ	CC	_	16	cc	_	_
+14	proprio	proprio	ADV	B	_	16	advmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	causa	causa	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	crisi	crisi	NOUN	S	Gender=Fem	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Un'idea nata un po' per caso, vedendo in tv i programmi di cucina.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	ADV	B	_	3	advmod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	caso	caso	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	vedendo	vedere	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	tv	tv	NOUN	S	Gender=Fem	9	obl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ad Alessandro (classe 1986) piaceva cucinare, io ho scoperto da poco questa passione.
+1	Ad	a	ADP	E	_	2	case	_	_
+2	Alessandro	Alessandro	PROPN	SP	_	7	obl	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	classe	classe	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	1986	1986	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	4	punct	_	_
+7	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	cucinare	cucinare	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	poco	poco	ADV	B	_	12	advmod	_	_
+15	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	passione	passione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Ci siamo detti:
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	detti	dire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = ma perché non proviamo anche noi a metterci in gioco?».
+1	ma	ma	CCONJ	CC	_	4	cc	_	_
+2	perché	perché	SCONJ	CS	_	4	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	proviamo	provare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8-9	metterci	_	_	_	_	_	_	_	_
+8	metter	mettere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Non è un passo da poco, Matteo...
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	poco	poco	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	Matteo..	Matteo..	PROPN	SP	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = «Ci vuole preparazione e non improvvisazione.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	improvvisazione	improvvisazione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Io ed Alessandro abbiamo una formazione scolastica e professionale differente e prima di lanciarci in questa cosa, abbiamo frequentato e frequentiamo tuttora corsi di cucina».
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ed	e	CCONJ	CC	_	3	cc	_	_
+3	Alessandro	Alessandro	PROPN	SP	_	1	conj	_	_
+4	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	scolastica	scolastico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	professionale	professionale	ADJ	A	Number=Sing	7	conj	_	_
+10	differente	differente	ADJ	A	Number=Sing	6	amod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	prima	prima	ADV	B	_	14	mark	_	_
+13	di	di	ADP	E	_	12	fixed	_	_
+14-15	lanciarci	_	_	_	_	_	_	_	_
+14	lanciar	lanciare	VERB	V	VerbForm=Inf	10	conj	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	frequentato	frequentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	frequentiamo	frequentare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	_
+24	tuttora	tuttora	ADV	B	_	23	advmod	_	_
+25	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	»	»	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Ingredienti: amicizia, intuizione e... «Tanta passione e tanto lavoro.
+1	Ingredienti	Ingrediento	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	intuizione	intuizione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+6	e...	e.	NOUN	S	_	5	compound	_	_
+7	«	«	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	Tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Soprattutto la passione:
+1	Soprattutto	soprattutto	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	passione	passione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 14
+# text = avevamo sentito parlare di cucina a domicilio e ci eravamo informati e documentati.
+1	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	domicilio	domicilio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	informati	informare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	documentati	documentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Dalle nostre parti, nel Tigullio, è una cosa un po' nuova, in altre parti d'Italia è una realtà collaudata».
+1-2	Dalle	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	parti	parte	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Tigullio	Tigullio	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	ADV	B	_	15	advmod	_	_
+15	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	altre	altro	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+19	parti	parte	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	Italia	Italia	PROPN	SP	_	19	nmod	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+25	collaudata	collaudato	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 16
+# text = Quale servizio svolgete?
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	svolgete	svolgeto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = «Cuciniamo a domicilio, offriamo spesa, servizio e pulizia.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Cuciniamo	Cucinare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	domicilio	domicilio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	offriamo	offrire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	pulizia	pulizia	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Io e Ale mettiamo in gioco il nostro saper cucinare, gli ingredienti, e un minimo di utensili».
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Ale	Ale	PROPN	SP	_	1	conj	_	_
+4	mettiamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	obj	_	_
+9	saper	saper	VERB	V	VerbForm=Inf	8	acl	_	_
+10	cucinare	cucinare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	4	punct	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	ingredienti	ingrediento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	minimo	minimo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	utensili	utensile	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = A chi è rivolto?
+1	A	a	ADP	E	_	2	case	_	_
+2	chi	chi	PRON	PQ	PronType=Int	4	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rivolto	rivolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = «A chiunque voglia fare una insolita e gradita sorpresa.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	3	case	_	_
+3	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	5	obl	_	_
+4	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	insolita	insolita	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	gradita	gradita	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+10	sorpresa	sorpresa	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 21
+# text = Non solo a chi voglia celebrare un compleanno o un anniversario importante».
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+5	voglia	volere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	celebrare	celebrare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	compleanno	compleanno	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	anniversario	anniversario	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	importante	importante	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Quindi?
+1	Quindi	quindi	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = «Anche a chi desidera, per una volta, sollevare il coniuge, la fidanzata o il fidanzato, o, perché no, gli anziani genitori dall'incombenza dei fornelli».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Anche	anche	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+5	desidera	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	sollevare	sollevare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	coniuge	coniuge	NOUN	S	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+17	o	o	CCONJ	CC	_	19	cc	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	o	o	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	perché	perché	SCONJ	CS	_	24	mark	_	_
+24	no	no	ADV	BN	PronType=Neg	16	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	anziani	anziano	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+29-30	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+29	da	da	ADP	E	_	31	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	incombenza	incombenza	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	fornelli	fornello	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	»	»	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = Com'è stata accolta l'iniziativa?
+1	Com'	come	SCONJ	CS	_	4	advmod	_	SpaceAfter=No
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	accolta	accogliere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 25
+# text = «La gente sulle prime è un po' restìa, come spesso succede dinanzi alle novità.
+1	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4-5	sulle	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	prime	prime	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	3	obl	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	ADV	B	_	10	advmod	_	_
+10	restìa	restìo	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	spesso	spesso	ADV	B	_	14	advmod	_	_
+14	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	dinanzi	dinanzi	ADV	B	_	18	case	_	_
+16-17	alle	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	novità	novità	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 26
+# text = Poi, però, restano soddisfatti.
+1	Poi	poi	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	soddisfatti	soddisfare	ADJ	A	Gender=Masc|Number=Plur	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 27
+# text = Una volta, al termine di un pranzo, siamo stati invitati al brindisi finale».
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	termine	termine	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	invitati	invitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	brindisi	brindisi	NOUN	S	Number=Sing	13	obl	_	_
+17	finale	finale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 28
+# text = Operativamente, come agite?
+1	Operativamente	Operativamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	agite	agire	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = «Abbiamo una pagina su Facebook, attraverso la quale è possibile contattarci, chiamata con i rispettivi soprannomi diminutivi.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	su	su	ADP	E	_	6	case	_	_
+6	Facebook	Facebook	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	attraverso	attraverso	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	quale	quale	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	possibile	possibile	ADJ	A	Number=Sing	2	acl:relcl	_	_
+13-14	contattarci	_	_	_	_	_	_	_	SpaceAfter=No
+13	contattar	contattare	VERB	V	VerbForm=Inf	12	csubj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	_
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	rispettivi	rispettivo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	soprannomi	soprannome	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+21	diminutivi	diminutivo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Oggi quasi tutto è in rete e ci siamo adeguati - sorride -.
+1	Oggi	oggi	ADV	B	_	6	advmod	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	rete	rete	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	adeguati	adeguare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+11	-	-	PUNCT	FB	_	12	punct	_	_
+12	sorride	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+13	-	-	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 31
+# text = Abbiamo fatto un po' di campagna pubblicitaria tradizionale.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	pubblicitaria	pubblicitario	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	tradizionale	tradizionale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 32
+# text = Sia in rete che sulla pubblicità c'è il recapito telefonico.
+1	Sia	sia	CCONJ	CC	_	3	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	rete	rete	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pubblicità	pubblicità	NOUN	S	Gender=Fem	9	obl	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	recapito	recapito	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	telefonico	telefonico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 33
+# text = Comunque, sono convinto che la qualità sia il miglior veicolo promozionale.
+1	Comunque	comunque	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	convinto	convinto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	qualità	qualità	NOUN	S	Gender=Fem	11	nsubj	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	miglior	migliore	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	veicolo	veicolo	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+12	promozionale	promozionale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 34
+# text = Fa partire il passaparola».
+1	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	partire	partire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	passaparola	passaparola	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 35
+# text = Dopo essere stati contattati?
+1	Dopo	dopo	SCONJ	CS	_	4	mark	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	4	aux	_	_
+3	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	contattati	contattare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 36
+# text = «Verifichiamo la location, le caratteristiche della cucina, del forno e degli ambienti e concordiamo i piatti.
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Verifichiamo	Verifichare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	location	location	NOUN	S	Gender=Fem	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	forno	forno	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	concordiamo	concordire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 37
+# text = Noi interagiamo sempre con chi ci ospita».
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	interagiamo	interagare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	obl	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	ospita	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 38
+# text = E fate voi la spesa...
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	spesa...	spesa...	NOUN	S	_	2	nsubj	_	_
+
+# sent_id = 39
+# text = «Certo!
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Certo	certo	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = E usiamo ingredienti freschi e di prima qualità, nulla di congelato, precotto, o preconfezionato».
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	usiamo	usare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ingredienti	ingrediento	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	freschi	fresco	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	qualità	qualità	NOUN	S	Gender=Fem	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	2	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	congelato	congelato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	precotto	precotto	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	preconfezionato	preconfezionare	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+18	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 41
+# text = Per esempio?
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 42
+# text = «Se dobbiamo fare il brodo non usiamo il dado.
+1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	4	mark	_	_
+3	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	8	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	brodo	brodo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	usiamo	usare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dado	dado	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 43
+# text = Cuciniamo il brodo di carne, all'antica.
+1	Cuciniamo	Cucinare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	brodo	brodo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	carne	carne	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	antica	antica	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 44
+# text = Facciamo anche il pane.
+1	Facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pane	pane	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 45
+# text = Cuciniamo secondo la dieta mediterranea.
+1	Cuciniamo	Cucinare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	secondo	secondo	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	mediterranea	mediterraneo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 46
+# text = Ma siamo in grado anche di preparare piatti esotici come il sushi».
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	grado	grado	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	preparare	preparare	VERB	V	VerbForm=Inf	4	csubj	_	_
+8	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	esotici	esotico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	come	come	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sushi	sushi	PRON	PR	Number=Sing|PronType=Rel	7	obl	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 47
+# text = Progetti futuri?
+1	Progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	futuri	futuro	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 48
+# text = «Ci piacerebbe interagire con chi già rende questo servizio, per uno scambio di esperienze e sinergie.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	interagire	interagire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	obl	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	sinergie	sinergia	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 49
+# text = Cucinare a domicilio da queste parti è una cosa nuova, non c'è ancora la mentalità, però i tempi stanno cambiando».
+1	Cucinare	cucinare	VERB	V	VerbForm=Inf	9	csubj	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	domicilio	domicilio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	parti	parte	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	ancora	ancora	ADV	B	_	14	advmod	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mentalità	mentalità	NOUN	S	Gender=Fem	14	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	23	punct	_	_
+19	però	però	ADV	B	_	23	advmod	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+22	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	cambiando	cambiare	VERB	V	VerbForm=Ger	9	conj	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

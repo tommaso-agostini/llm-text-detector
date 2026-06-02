@@ -1,0 +1,384 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un’ondata di immagini, spesso sgranate, a volte sfuocate, talvolta scioccanti, che documentano la realtà più cruda, ferita e spesso ignorata.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	spesso	spesso	ADV	B	_	7	advmod	_	_
+7	sgranate	sgranare	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	volte	volte	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+11	sfuocate	sfuocato	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	talvolta	talvolta	ADV	B	_	14	advmod	_	_
+14	scioccanti	scioccante	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	documentano	documentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	realtà	realtà	NOUN	S	Gender=Fem	17	obj	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	cruda	crudo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	ferita	ferire	ADJ	A	Gender=Fem|Number=Sing	21	conj	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	spesso	spesso	ADV	B	_	26	advmod	_	_
+26	ignorata	ignorare	ADJ	A	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Non sono i magistrati a servirsi di esse, non sono le forze dell’ordine a controllarne l’uso.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6-7	servirsi	_	_	_	_	_	_	_	_
+6	servir	servire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	esse	esso	PRON	PE	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	forze	forza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+15-16	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19-20	controllarne	_	_	_	_	_	_	_	_
+19	controllar	controllare	VERB	V	VerbForm=Inf	14	acl	_	_
+20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	uso	uso	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 3
+# text = Sono i cittadini.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = E questo, a dire il vero, è il motivo per cui queste immagini stanno tornando ad avere un peso, un’urgenza che lo sguardo istituzionale, troppo spesso obnubilato da protocolli e burocrazia, fatica a raggiungere.
+1	E	e	CCONJ	CC	_	11	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	dire	dire	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vero	vero	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	cui	cui	PRON	PR	PronType=Rel	17	obl	_	_
+14	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+16	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	tornando	tornare	VERB	V	VerbForm=Ger	11	acl:relcl	_	_
+18	ad	a	ADP	E	_	19	mark	_	_
+19	avere	avere	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	peso	peso	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	21	appos	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	24	acl:relcl	_	_
+28	istituzionale	istituzionale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	troppo	troppo	ADV	B	_	31	advmod	_	_
+31	spesso	spesso	ADV	B	_	32	advmod	_	_
+32	obnubilato	obnubilare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+33	da	da	ADP	E	_	34	case	_	_
+34	protocolli	protocollo	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	27	punct	_	_
+38	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+39	a	a	ADP	E	_	40	mark	_	_
+40	raggiungere	raggiungere	VERB	V	VerbForm=Inf	38	acl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Si parla di “foto anonime” anche se la forma di consegna spesso è ben precisa:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	foto	foto	NOUN	S	Gender=Fem	2	obl	_	_
+6	anonime	anonimo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	”	”	PUNCT	FB	_	5	punct	_	_
+8	anche	anche	ADV	B	_	17	mark	_	_
+9	se	se	SCONJ	CS	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	forma	forma	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	consegna	consegna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	spesso	spesso	ADV	B	_	17	advmod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	ben	bene	ADV	B	_	17	advmod	_	_
+17	precisa	preciso	ADJ	A	Gender=Fem|Number=Sing	2	advcl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = messaggi privati, canali Telegram dedicati, gruppi di WhatsApp, email criptate.
+1	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	privati	privato	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	canali	canale	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+5	Telegram	Telegram	PROPN	SP	_	4	nmod	_	_
+6	dedicati	dedicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	WhatsApp	WhatsApp	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	email	email	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	criptate	criptato	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ogni fornitore è anonimo, ogni immagine può celare un’intera storia, un’intera vita.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	fornitore	fornitore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	anonimo	anonimo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	celare	celare	VERB	V	VerbForm=Inf	4	conj	_	_
+10	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	intera	intero	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	storia	storia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	intera	intero	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = E non si tratta necessariamente di crimini efferati, sebbene questi siano, senza dubbio, tra i più frequenti.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	necessariamente	necessariamente	ADV	B	_	4	advmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	crimini	crimine	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	efferati	efferato	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	sebbene	sebbene	SCONJ	CS	_	12	mark	_	_
+11	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	12	nsubj	_	_
+12	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	tra	tra	ADP	E	_	20	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	frequenti	frequente	ADJ	A	Number=Plur	12	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Spesso sono testimonianze di abusi, di sfruttamento, di maltrattamenti in famiglia, di ingiustizie ambientali, di disparità sociali che gravano sulle fasce più deboli.
+1	Spesso	spesso	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	maltrattamenti	maltrattamento	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	ingiustizie	ingiustizia	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+17	ambientali	ambientale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	disparità	disparità	NOUN	S	Gender=Fem	5	conj	_	_
+21	sociali	sociale	ADJ	A	Number=Plur	20	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	gravano	gravare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+24-25	sulle	_	_	_	_	_	_	_	_
+24	su	su	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	fasce	fascia	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+27	più	più	ADV	B	_	28	advmod	_	_
+28	deboli	debole	ADJ	A	Number=Plur	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Sono le foto che mostrano il lavoro degli immigrati, invisibili nelle statistiche, bauste nei ristoranti, marginali negli affitti, che tramando la loro dignità con la fatica.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	foto	foto	NOUN	S	Gender=Fem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	invisibili	invisibile	ADJ	A	Number=Plur	10	amod	_	_
+13-14	nelle	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	statistiche	statistica	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	bauste	bausta	NOUN	S	Gender=Fem|Number=Plur	10	appos	_	_
+18-19	nei	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	ristoranti	ristorante	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	marginali	marginale	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+23-24	negli	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	affitti	affitto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	3	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	tramando	tramare	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	dignità	dignità	NOUN	S	Gender=Fem	28	obj	_	_
+32	con	con	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Sono le immagini che documentano la piaga della violenza di genere, spesso silenziata dalla cultura del “non voglio vedere”, dal ‘non è affare mio”.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	documentano	documentere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	piaga	piaga	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	genere	genere	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	spesso	spesso	ADV	B	_	15	advmod	_	_
+15	silenziata	silenziare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	15	obl:agent	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	“	“	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	vedere	vedere	VERB	V	VerbForm=Inf	18	acl	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27-28	dal	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	‘non	‘non	NOUN	S	Gender=Masc	31	obl	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	affare	affare	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+32	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	SpaceAfter=No
+33	”	”	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = C’è un ritrovato interesse, certo, ma non si tratta di una nuova ondata di “moralismo giudicante”.
+1	C’	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	ritrovato	ritrovato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	certo	certo	ADV	B	_	2	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	di	di	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	ondata	ondata	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	“	“	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	moralismo	moralismo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	giudicante	giudicante	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Si tratta, invece, di un’attenzione calibrata, una presa di coscienza che la narrazione ufficiale, quella prodotta dalle istituzioni e dai media tradizionali, è spesso parziale, distorta, orientata a proteggere gli interessi di chi ha
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	calibrata	calibrare	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	presa	presa	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	che	che	SCONJ	CS	_	33	mark	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	33	nsubj	_	_
+18	ufficiale	ufficiale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	17	nmod	_	_
+21	prodotta	produrre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22-23	dalle	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	21	obl:agent	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	dai	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	media	media	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	_
+29	tradizionali	tradizionale	ADJ	A	Number=Plur	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	17	punct	_	_
+31	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	spesso	spesso	ADV	B	_	33	advmod	_	_
+33	parziale	parziale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	distorta	distortare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	conj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	33	punct	_	_
+37	orientata	orientare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	_
+38	a	a	ADP	E	_	39	mark	_	_
+39	proteggere	proteggere	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	39	obj	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	chi	chi	PRON	PR	Number=Sing|PronType=Rel	41	nmod	_	_
+44	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+

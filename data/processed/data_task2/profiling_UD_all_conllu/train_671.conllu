@@ -1,0 +1,632 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il culmine di questa crisi è avvenuto con l’arresto di Umberto Tanzi, ex presidente del gruppo, il quale è ora condannato all’incarico carcerario.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	culmine	culmine	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	crisi	crisi	NOUN	S	Gender=Fem	2	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	arresto	arresto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Umberto	Umberto	PROPN	SP	_	10	nmod	_	_
+13	Tanzi	Tanzi	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	ex	ex	ADJ	A	_	16	amod	_	_
+16	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	12	appos	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	quale	quale	PRON	PR	Number=Sing|PronType=Rel	25	nsubj:pass	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+24	ora	ora	ADV	B	_	25	advmod	_	_
+25	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+26-27	all’	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+29	carcerario	carcerario	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Questa decisione, secondo gli esperti di diritto societario e di analisi finanziaria, è non soltanto giustificata, ma necessaria per ristabilire fiducia e per chiarire che situazioni di corruzione e di negligenza non devono essere gettate nel profondo dell’interesse collettivo.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	secondo	secondo	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	societario	societario	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	analisi	analisi	NOUN	S	Gender=Fem	8	conj	_	_
+13	finanziaria	finanziario	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	soltanto	soltanto	ADV	B	_	18	advmod	_	_
+18	giustificata	giustificato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	ristabilire	ristabilire	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	chiarire	chiarire	VERB	V	VerbForm=Inf	23	conj	_	_
+28	che	che	DET	DQ	PronType=Int	29	det	_	_
+29	situazioni	situazione	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	corruzione	corruzione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	negligenza	negligenza	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+35	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+36	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	essere	essere	AUX	VA	VerbForm=Inf	38	aux:pass	_	_
+38	gettate	gettare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+39-40	nel	_	_	_	_	_	_	_	_
+39	in	in	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	profondo	profondo	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42-43	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+42	di	di	ADP	E	_	44	case	_	_
+43	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+44	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45	collettivo	collettivo	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 3
+# text = Il nostro centro di studio ha appena pubblicato un sondaggio a cui hanno partecipato più di 1.000 cittadini italiani.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	centro	centro	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	studio	studio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	appena	appena	ADV	B	_	8	advmod	_	_
+8	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sondaggio	sondaggio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	cui	cui	PRON	PR	PronType=Rel	14	obl	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	partecipato	partecipare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	più	più	ADV	B	_	18	advmod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	1.000	1.000	NUM	N	NumType=Card	18	nummod	_	_
+18	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+19	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Il risultato evidenzia una forte appoggio:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	evidenzia	evidenziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	forte	forte	ADJ	A	Number=Sing	6	amod	_	_
+6	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = il 68% dei partecipanti ha risposto “sì” alla domanda “Sei d’accordo con l’incarcerazione di Tanzi?
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	68	68	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+3	%	%	SYM	SYM	_	8	nsubj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	partecipanti	partecipante	NOUN	S	Number=Plur	3	nmod	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	“	“	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	sì	sì	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	”	”	PUNCT	FB	_	10	punct	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+15	“	“	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+16	Sei	sei	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	d’	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	8	xcomp	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	incarcerazione	incarcerazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Tanzi	Tanzi	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 7
+# text = Non solo è un dato convincente ma conferma anche la nostra convinzione che la legge deve essere giornovalmente inviata a chi, pur aver raggiunto positioni di potere, ha abusato del proprio ruolo.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	solo	solo	ADV	B	_	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dato	dato	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+6	convincente	convincente	ADJ	A	Number=Sing	5	amod	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	convinzione	convinzione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+13	che	che	SCONJ	CS	_	19	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	legge	legge	NOUN	S	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+16	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	essere	essere	AUX	V	VerbForm=Inf	19	aux:pass	_	_
+18	giornovalmente	giornovalmente	ADV	B	_	19	advmod	_	_
+19	inviata	inviare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	chi	chi	PRON	PR	Number=Sing|PronType=Rel	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	pur	pure	ADV	B	_	25	advmod	_	_
+24	aver	avere	AUX	VA	VerbForm=Inf	25	aux	_	_
+25	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	positioni	positione	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	potere	potere	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	5	punct	_	_
+30	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	abusato	abusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+32-33	del	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	35	case	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 8
+# text = Nella stessa analisi, il 81% degli intervistati crede che la condanna di Tanzi sia un passo necessario verso la normalizzazione della libera impresa e verso la prevenzione di futuri casi di phishing e terrorismo economico.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	analisi	analisi	NOUN	S	Gender=Fem	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	81	81	NUM	N	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	SYM	_	12	nsubj	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	intervistati	intervistato	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	che	che	SCONJ	CS	_	20	mark	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Tanzi	Tanzi	PROPN	SP	_	15	nmod	_	_
+18	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	passo	passo	NOUN	S	Gender=Masc|Number=Sing	12	advcl	_	_
+21	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	verso	verso	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	normalizzazione	normalizzazione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	libera	libero	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	verso	verso	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	prevenzione	prevenzione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	futuri	futuro	ADJ	A	Gender=Masc|Number=Plur	35	amod	_	_
+35	casi	caso	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	phishing	phishing	NOUN	S	_	35	nmod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	terrorismo	terrorismo	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	_
+40	economico	economico	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 9
+# text = Gli argomenti principali che hanno spinto gli opinivisti a questa opinione sono: (i) la mano politica e societaria di Tanzi ha tracciato un patrimonio di circa 250 milioni di euro “in sospetto” durante i sette anni di amministrazione del gruppo;
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	25	nsubj	_	_
+3	principali	principale	ADJ	A	Number=Plur	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	opinivisti	opinivista	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	i	i	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mano	mano	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+19	politica	politico	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	societaria	societario	ADJ	A	Gender=Fem|Number=Sing	19	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Tanzi	Tanzi	PROPN	SP	_	18	nmod	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	tracciato	tracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	circa	circa	ADV	B	_	30	advmod	_	_
+30	250	250	NUM	N	NumType=Card	31	nummod	_	_
+31	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	euro	euro	NOUN	S	Gender=Masc	31	nmod	_	_
+34	“	“	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+35	in	in	ADP	E	_	36	case	_	_
+36	sospetto	sospetto	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+37	”	”	PUNCT	FB	_	25	punct	_	_
+38	durante	durante	ADP	E	_	41	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+40	sette	sette	NUM	N	NumType=Card	41	nummod	_	_
+41	anni	anno	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+44-45	del	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+47	;	;	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 10
+# text = (ii) l’assenza di un adeguato controllo interno in azienda;
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	ii	ii	ADJ	NO	Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	assenza	assenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	adeguato	adeguato	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+10	interno	interno	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 11
+# text = (iii) la mancanza di un principio di trasparenza necessaria alla tutela degli azionisti, soprattutto quelli piccoli.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	iii	iii	ADJ	NO	Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	principio	principio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	degli	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	azionisti	azionista	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	5	punct	_	_
+19	soprattutto	soprattutto	ADV	B	_	20	advmod	_	_
+20	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nmod	_	_
+21	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Il nostro “VOTA” ci chiede di riflettere su come le istituzioni debbano proteggere le economie nazionali.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	“	“	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	VOTA	vota	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+5	”	”	PUNCT	FB	_	4	punct	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	riflettere	riflettere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	su	su	ADV	B	_	9	advmod	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+14	debbano	dovere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	proteggere	proteggere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	economie	economia	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	nazionali	nazionale	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = In un paesaggio globale dove le multinazionali sono cresciute con iniziative aggressive di arbitraggio fiscale, la corretta gestione delle crisi provvedute in chiara normativa è l’elemento che determina l’efficacia delle politiche integri.
+1	In	in	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paesaggio	paesaggio	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+4	globale	globale	ADJ	A	Number=Sing	3	amod	_	_
+5	dove	dove	ADV	B	_	9	advmod	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	multinazionali	multinazionale	NOUN	S	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	cresciute	crescere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+12	aggressive	aggressivo	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	arbitraggio	arbitraggio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	fiscale	fiscale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	gestione	gestione	NOUN	S	Gender=Fem|Number=Sing	29	nsubj	_	_
+20-21	delle	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	crisi	crisi	NOUN	S	Gender=Fem	19	nmod	_	_
+23	provvedute	provvedere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	chiara	chiara	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	normativa	normativo	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	elemento	elemento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	determina	determinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34-35	delle	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	politiche	politica|politico	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	_
+37	integri	integro	ADJ	A	Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 14
+# text = Siamo convinti che la narrazione di questo caso debba rimanere all’inferno e non si sospetti il telone di un futuro eccessivo:
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	convinti	convinto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	narrazione	narrazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	debba	dovere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rimanere	rimanere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+11-12	all’	_	_	_	_	_	_	_	SpaceAfter=No
+11	a	a	ADP	E	_	13	case	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	inferno	inferno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	sospetti	sospeggere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	conj	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	telone	telone	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 15
+# text = il peso della reclusione di Tanzi è la prova che le leggi italiane non sostengono per niente l'abuso del potere.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	peso	peso	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	reclusione	reclusione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Tanzi	Tanzi	PROPN	SP	_	5	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	prova	prova	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+14	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	sostengono	sostenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	16	obl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	abuso	abuso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	potere	potere	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 16
+# text = Il nostro obiettivo è quello di promuovere un racconto di rigore e di immagine di nuova confidenza e relativa conservazione dei principi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	promuovere	promuovere	VERB	V	VerbForm=Inf	5	acl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	rigore	rigore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	confidenza	confidenza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	relativa	relativo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	conservazione	conservazione	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	principi	principio	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = **Nel frattempo**:
+1	**Nel	**Nel	PROPN	SP	_	0	root	_	_
+2	frattempo**	frattempo**	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 18
+# text = se eccessivamente siamo in grado di fare un passo avanti nella redenzione dello stato, la nostra politica pubblica dovrà essere vigilata da un nuovo codice di legge, in grado di stimolare i rapporti di cui il consiglio d’azienda condividiamo prima di evitare la dipendenza di coloro che hanno alimentato le truffe del passato.
+1	se	se	SCONJ	CS	_	5	mark	_	_
+2	eccessivamente	eccessivo	ADV	B	_	5	advmod	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	grado	grado	NOUN	S	Gender=Masc|Number=Sing	24	advcl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	passo	passo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	avanti	avanti	ADV	B	_	9	advmod	_	_
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	redenzione	redenzione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	stato	stato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	politica	politica	NOUN	S	Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+21	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	aux	_	_
+23	essere	essere	AUX	VA	VerbForm=Inf	24	aux:pass	_	_
+24	vigilata	vigilare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	da	da	ADP	E	_	28	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	codice	codice	NOUN	S	Gender=Masc|Number=Sing	24	obl:agent	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	legge	legge	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	28	punct	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	grado	grado	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	stimolare	stimolare	VERB	V	VerbForm=Inf	33	acl	_	_
+36	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	35	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	cui	cui	PRON	PR	PronType=Rel	44	obl	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	44	nsubj	_	_
+42	d’	di	ADP	E	_	43	case	_	SpaceAfter=No
+43	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+44	condividiamo	condividere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+45	prima	prima	ADV	B	_	47	mark	_	_
+46	di	di	ADP	E	_	45	fixed	_	_
+47	evitare	evitare	VERB	V	VerbForm=Inf	44	advcl	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	dipendenza	dipendenza	NOUN	S	Gender=Fem|Number=Sing	47	obj	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	49	nmod	_	_
+52	che	che	PRON	PR	PronType=Rel	54	nsubj	_	_
+53	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	aux	_	_
+54	alimentato	alimentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	acl:relcl	_	_
+55	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	56	det	_	_
+56	truffe	truffa	NOUN	S	Gender=Fem|Number=Plur	54	obj	_	_
+57-58	del	_	_	_	_	_	_	_	_
+57	di	di	ADP	E	_	59	case	_	_
+58	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	passato	passato	NOUN	S	Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 19
+# text = L'incarcerazione di Tanzi non è soltanto un punto finale al caso, ma un segnale per la ripresa dell'ordine economico grazie al ricrearsi di una società che potrà rialzarsi con la memoria e la responsabilità.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incarcerazione	incarcerazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Tanzi	Tanzi	PROPN	SP	_	2	nmod	_	_
+5	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	soltanto	soltanto	ADV	B	_	9	advmod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	finale	finale	ADJ	A	Number=Sing	9	amod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	caso	caso	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+24	economico	economico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	grazie	grazie	NOUN	S	_	28	case	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	25	fixed	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28-29	ricrearsi	_	_	_	_	_	_	_	_
+28	ricrear	ricreare	VERB	V	VerbForm=Inf	9	acl	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	società	società	NOUN	S	Gender=Fem	28	obl	_	_
+33	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+34	potrà	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux	_	_
+35-36	rialzarsi	_	_	_	_	_	_	_	_
+35	rialzar	rialzarre	VERB	V	VerbForm=Inf	32	acl:relcl	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+37	con	con	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+40	e	e	CCONJ	CC	_	42	cc	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	responsabilità	responsabilità	NOUN	S	Gender=Fem	39	conj	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 20
+# text = In questo modo la Parola dei nostri cittadini avrà un senso pieno:
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Parola	parola	PROPN	SP	_	10	nsubj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	avrà	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	senso	senso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 21
+# text = la giustizia.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

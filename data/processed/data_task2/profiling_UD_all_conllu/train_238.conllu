@@ -1,0 +1,315 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nove vite spezzate, nove famiglie in lutto, nove storie finite bruscamente, tutte inghiottite dalla violenza della natura che si conferma ancora una volta come un nemico implacabile capace di rivelare le fragilità del nostro sistema e, soprattutto, le diseguaglianze che lo affliggono.
+1	Nove	nove	NUM	N	NumType=Card	2	nummod	_	_
+2	vite	vita	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	spezzate	spezzate	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	nove	nove	NUM	N	NumType=Card	6	nummod	_	_
+6	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	nove	nove	NUM	N	NumType=Card	11	nummod	_	_
+11	storie	storia	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+12	finite	finire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	bruscamente	bruscamente	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	2	nmod	_	_
+16	inghiottite	inghiottire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+17-18	dalla	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	16	obl:agent	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	natura	natura	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	ancora	ancora	ADV	B	_	25	advmod	_	_
+27	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	volta	volta	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	come	come	ADP	E	_	31	case	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+32	implacabile	implacabile	ADJ	A	Number=Sing	31	amod	_	_
+33	capace	capace	ADJ	A	Number=Sing	31	amod	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	rivelare	rivelare	VERB	V	VerbForm=Inf	33	advcl	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	fragilità	fragilità	NOUN	S	Gender=Fem	35	obj	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	41	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+42	e	e	CCONJ	CC	_	47	cc	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	47	punct	_	_
+44	soprattutto	soprattutto	ADV	B	_	47	advmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	diseguaglianze	diseguaglianze	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	_
+48	che	che	PRON	PR	PronType=Rel	50	nsubj	_	_
+49	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	obj	_	_
+50	affliggono	affliggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	acl:relcl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = La situazione è particolarmente grave nelle regioni del Sud, con la Calabria e la Sicilia che subiscono gli effetti più devastanti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	particolarmente	particolarmente	ADV	B	_	5	advmod	_	_
+5	grave	grave	ADJ	A	Number=Sing	0	root	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Sud	sud	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Calabria	Calabria	PROPN	SP	_	5	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Sicilia	Sicilia	PROPN	SP	_	15	conj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	subiscono	subire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	devastanti	devastante	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Intere frazioni sono state rimosse dalle mappe, strade interrotte, ferrovie crollate, intere campagne agricole distrutte.
+1	Intere	Intero	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+2	frazioni	frazione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	rimosse	rimosso	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dalle	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	mappe	mappa	NOUN	S	Gender=Fem|Number=Plur	5	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	strade	strada	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	interrotte	interrotto	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	ferrovie	ferrovie	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+14	crollate	crollato	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	intere	intere	VERB	V	VerbForm=Inf	5	conj	_	_
+17	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+18	agricole	agricolo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+19	distrutte	distrutto	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ma non va dimenticato il Lazio, con i danni ingenti e costosi segnalati soprattutto lungo la dorsia, tra l’alta e la media valle del Tevere.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Lazio	Lazio	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	danni	danno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+11	ingenti	ingente	ADJ	A	Number=Plur	10	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	costosi	costoso	ADJ	A	Gender=Masc|Number=Plur	11	conj	_	_
+14	segnalati	segnalare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+15	soprattutto	soprattutto	ADV	B	_	18	advmod	_	_
+16	lungo	lungo	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	dorsia	dorsia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	tra	tra	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	alta	alto	ADJ	A	Gender=Fem|Number=Sing	4	obl	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	media	media	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	valle	valle	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Tevere	Tevere	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = E il Piemonte, colpita da allagamenti e frane, che costringe al ricorso a misure di emergenza preventivi.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Piemonte	Piemonte	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	colpita	colpire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	allagamenti	allagamento	NOUN	S	Gender=Masc|Number=Plur	5	obl:agent	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	frane	frana	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	costringe	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	misure	misura	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	preventivi	preventivo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ma cosa stiamo osservando?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	osservando	osservare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Oltre alla purtroppo inevitabile perdita di vite umane, il maltempo Xaver è una denuncia lampante della nostra incapacità di affrontare in modo efficace i rischi idrogeologici e climatici.
+1	Oltre	oltre	ADV	B	_	6	case	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	purtroppo	purtroppo	ADV	B	_	5	advmod	_	_
+5	inevitabile	inevitabile	ADJ	A	Number=Sing	6	amod	_	_
+6	perdita	perdita	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	vite	vite	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	umane	umano	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	maltempo	maltempo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+13	Xaver	Xaver	PROPN	SP	_	12	nmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	denuncia	denuncia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+17	lampante	lampante	ADJ	A	Number=Sing	16	amod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	incapacità	incapacità	NOUN	S	Gender=Fem	16	nmod	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	affrontare	affrontare	VERB	V	VerbForm=Inf	21	acl	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	modo	modo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+26	efficace	efficace	ADJ	A	Number=Sing	25	amod	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+29	idrogeologici	idrogeologico	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	climatici	climatico	ADJ	A	Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 8
+# text = La questione non è solo meteo, ma una crisi strutturale che va ben oltre il semplice evento atmosferico.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	questione	questione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	solo	solo	ADV	B	_	6	advmod	_	_
+6	meteo	meteo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	crisi	crisi	NOUN	S	Gender=Fem	6	conj	_	_
+11	strutturale	strutturale	ADJ	A	Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	ben	bene	ADV	B	_	13	advmod	_	_
+15	oltre	oltre	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	semplice	semplice	ADJ	A	Number=Sing	18	amod	_	_
+18	evento	evento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	atmosferico	atmosferico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Anni di negligenza, di tagli alla manutenzione delle infrastrutture, di una pianificazione urbanistica superficiale e miope, hanno reso la regione vulnerabile a uno shock di queste proporzioni.
+1	Anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	negligenza	negligenza	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tagli	taglio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	manutenzione	manutenzione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pianificazione	pianificazione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+17	urbanistica	urbanistico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	superficiale	superficiale	ADJ	A	Number=Sing	16	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	miope	miope	ADJ	A	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	regione	regione	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	vulnerabile	vulnerabile	ADJ	A	Number=Sing	25	amod	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	shock	shock	NOUN	S	Gender=Masc	23	obl	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	32	det	_	_
+32	proporzioni	proporzione	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 10
+# text = È inaccettabile constatare come, ancora oggi, le zone più colpite siano quelle di minore ricchezza, quelle che storicamente hanno ricevuto meno investimenti, quelle dove la protezione civile è un'entità
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	inaccettabile	inaccettabile	ADJ	A	Number=Sing	34	nsubj	_	_
+3	constatare	constatare	VERB	V	VerbForm=Inf	34	csubj	_	_
+4	come	come	SCONJ	CS	_	14	mark	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	14	punct	_	_
+6	ancora	ancora	ADV	B	_	7	advmod	_	_
+7	oggi	oggi	ADV	B	_	14	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	zone	zona	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	colpite	colpite	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+13	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	34	advcl	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	minore	minore	ADJ	A	Degree=Cmp|Number=Sing	17	amod	_	_
+17	ricchezza	ricchezza	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	34	nsubj	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+21	storicamente	storicamente	ADV	B	_	23	advmod	_	_
+22	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl:relcl	_	_
+24	meno	meno	ADV	B	_	25	advmod	_	_
+25	investimenti	investimento	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	34	nmod	_	_
+28	dove	dove	ADV	B	_	34	advmod	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+31	civile	civile	ADJ	A	Number=Sing	30	amod	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	entità	entità	NOUN	S	Gender=Fem	0	root	_	SpacesAfter=\n
+

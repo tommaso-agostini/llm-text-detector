@@ -1,0 +1,316 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Il generale Giuseppe Cuccioli, comandante del Corpo, ha parlato a La Repubblica di un’escalation preoccupante:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	generale	generale	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	Giuseppe	Giuseppe	PROPN	SP	_	2	nmod	_	_
+4	Cuccioli	cuccioli	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	comandante	comandante	NOUN	S	Number=Sing	2	appos	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Corpo	Corpo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Repubblica	Repubblica	PROPN	SP	_	12	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	escalation	escalation	NOUN	S	_	15	nmod	_	_
+19	preoccupante	preoccupante	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Il traffico illegale di cuccioli, soprattutto di razze pregiate, è in crescita esponenziale.
+1	“	“	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+4	illegale	illegale	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cuccioli	cucciolo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	soprattutto	soprattutto	ADV	B	_	10	advmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	razze	razza	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+11	pregiate	pregiato	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+16	esponenziale	esponenziale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 3
+# text = Stiamo assistendo a un’evoluzione inquietante, non più relegata ai margini della criminalità organizzata, ma che si infiltra e si appropria di meccanismi di business sempre più sofisticati.
+1	Stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	assistendo	assistere	VERB	V	VerbForm=Ger	0	root	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	inquietante	inquietante	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	relegata	relegato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+11-12	ai	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	margini	margine	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	criminalità	criminalità	NOUN	S	Gender=Fem	13	nmod	_	_
+17	organizzata	organizzato	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	22	punct	_	_
+19	ma	ma	CCONJ	CC	_	22	cc	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	infiltra	infiltro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+25	appropria	appropria	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	meccanismi	meccanismo	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	business	business	NOUN	S	Gender=Masc	27	nmod	_	_
+30	sempre	sempre	ADV	B	_	32	advmod	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	sofisticati	sofisticato	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ”
+1	”	”	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 5
+# text = Non si tratta solamente di allevamenti clandestini, spesso in condizioni deplorevoli, dove i cuccioli vengono allevati in ambienti sporchi, sovraffollati e privi di qualsiasi cura veterinaria, ma di una rete complessa che coinvolge anche allevatori legali che, per profitto, cedono cuccioli prima del previsto, spesso commettendo reati di allevamento illecito e commercio di animali.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	solamente	solo	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	allevamenti	allevamente	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	clandestini	clandestino	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	spesso	spesso	ADV	B	_	11	advmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+12	deplorevoli	deplorevole	ADJ	A	Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	dove	dove	ADV	B	_	18	advmod	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	cuccioli	cucciolo	NOUN	S	Gender=Masc|Number=Plur	18	nsubj:pass	_	_
+17	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	allevati	allevare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+21	sporchi	sporco	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	sovraffollati	sovraffollato	ADJ	A	Gender=Masc|Number=Plur	21	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	privi	privo	ADJ	A	Gender=Masc|Number=Plur	21	conj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	28	det	_	_
+28	cura	cura	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	veterinaria	veterinario	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	34	punct	_	_
+31	ma	ma	CCONJ	CC	_	34	cc	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	rete	rete	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+35	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+37	coinvolge	coinvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+38	anche	anche	ADV	B	_	37	advmod	_	_
+39	allevatori	allevatore	NOUN	S	Gender=Masc|Number=Plur	37	obj	_	_
+40	legali	legale	ADJ	A	Number=Plur	39	amod	_	_
+41	che	che	PRON	PR	PronType=Rel	46	nsubj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	41	punct	_	_
+43	per	per	ADP	E	_	44	case	_	_
+44	profitto	profitto	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	44	punct	_	_
+46	cedono	cedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+47	cuccioli	cucciolo	NOUN	S	Gender=Masc|Number=Plur	46	obj	_	_
+48	prima	prima	ADV	B	_	51	case	_	_
+49-50	del	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	48	fixed	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	previsto	prevedere	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	37	punct	_	_
+53	spesso	spesso	ADV	B	_	54	advmod	_	_
+54	commettendo	commettere	VERB	V	VerbForm=Ger	37	advcl	_	_
+55	reati	reato	NOUN	S	Gender=Masc|Number=Plur	54	obj	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	allevamento	allevamento	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	_
+58	illecito	illecito	ADJ	A	Gender=Masc|Number=Sing	57	amod	_	_
+59	e	e	CCONJ	CC	_	60	cc	_	_
+60	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	58	conj	_	_
+61	di	di	ADP	E	_	62	case	_	_
+62	animali	animale	NOUN	S	Gender=Masc|Number=Plur	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Le razze più richieste sono quelle di lusso:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	razze	razza	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	richieste	richiesto	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lusso	lusso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 7
+# text = Golden Retriever, Labrador, Cavalier King Charles, ma anche cani da caccia e pastori, tutti “sfruttati” per un mercato nero che alimenta una domanda insaziabile, soprattutto da parte di collezionisti privati e persone che desiderano un animale da regalare o da utilizzare per competizioni.
+1	Golden	Golden	PROPN	SP	_	0	root	_	_
+2	Retriever	Retriever	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Labrador	Labrador	PROPN	SP	_	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	Cavalier	Cavalier	PROPN	SP	_	1	conj	_	_
+7	King	King	PROPN	SP	_	6	flat:name	_	_
+8	Charles	Charles	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	anche	anche	ADV	B	_	12	advmod	_	_
+12	cani	cane	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	caccia	caccia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	pastori	pastore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	nsubj:pass	_	_
+19	“	“	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	sfruttati	sfruttare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+21	”	”	PUNCT	FB	_	20	punct	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	nero	nero	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+27	alimenta	alimentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+30	insaziabile	insaziabile	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	1	punct	_	_
+32	soprattutto	soprattutto	ADV	B	_	34	advmod	_	_
+33	da	da	ADP	E	_	34	case	_	_
+34	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	collezionisti	collezionista	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+37	privati	privato	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	persone	persona	NOUN	S	Gender=Fem|Number=Plur	36	conj	_	_
+40	che	che	PRON	PR	PronType=Rel	41	nsubj	_	_
+41	desiderano	desiderare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	animale	animale	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+44	da	da	ADP	E	_	45	mark	_	_
+45	regalare	regalare	VERB	V	VerbForm=Inf	41	xcomp	_	_
+46	o	o	CCONJ	CC	_	48	cc	_	_
+47	da	da	ADP	E	_	48	mark	_	_
+48	utilizzare	utilizzare	VERB	V	VerbForm=Inf	45	conj	_	_
+49	per	per	ADP	E	_	50	case	_	_
+50	competizioni	competizione	NOUN	S	Gender=Fem|Number=Plur	48	obl	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = “La peggior notizia è che i cuccioli vengono spesso rubati direttamente dai Rifugi e dalle Associazioni di Protezione Animali,” sottolinea il generale Cuccioli, “un’azione che aggrava ulteriormente una situazione già drammatica, creando un circolo vizioso che depaupera il patrimonio genetico delle razze e alimenta la sofferenza di migliaia di animali abbandonati e maltrattati.
+1	“	“	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	peggior	peggiore	ADJ	A	_	4	amod	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	cuccioli	cucciolo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+9	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	spesso	spesso	ADV	B	_	11	advmod	_	_
+11	rubati	rubare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	ccomp	_	_
+12	direttamente	direttamente	ADV	B	_	11	advmod	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	Rifugi	Rifugi	PROPN	SP	_	11	obl:agent	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17-18	dalle	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	Animali	animali	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+24	”	”	PUNCT	FB	_	25	punct	_	_
+25	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	generale	generale	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+28	Cuccioli	cuccioli	PROPN	SP	_	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	27	punct	_	_
+30	“	“	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	azione	azione	NOUN	S	Gender=Fem|Number=Sing	27	appos	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	aggrava	aggravare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	ulteriormente	ulteriormente	ADV	B	_	34	advmod	_	_
+36	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+38	già	già	ADV	B	_	39	advmod	_	_
+39	drammatica	drammatico	ADJ	A	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	34	punct	_	_
+41	creando	creare	VERB	V	VerbForm=Ger	34	advcl	_	_
+42	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	circolo	circolo	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+44	vizioso	vizioso	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+45	che	che	PRON	PR	PronType=Rel	46	nsubj	_	_
+46	depaupera	depauperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	acl:relcl	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	46	obj	_	_
+49	genetico	genetico	ADJ	A	Gender=Masc|Number=Sing	48	amod	_	_
+50-51	delle	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	det	_	_
+52	razze	razza	NOUN	S	Gender=Fem|Number=Plur	48	nmod	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	alimenta	alimentare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	conj	_	_
+55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	sofferenza	sofferenza	NOUN	S	Gender=Fem|Number=Sing	54	obj	_	_
+57	di	di	ADP	E	_	58	case	_	_
+58	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	56	nmod	_	_
+59	di	di	ADP	E	_	60	case	_	_
+60	animali	animale	NOUN	S	Gender=Masc|Number=Plur	58	nmod	_	_
+61	abbandonati	abbandonato	ADJ	A	Gender=Masc|Number=Plur	60	amod	_	_
+62	e	e	CCONJ	CC	_	63	cc	_	_
+63	maltrattati	maltrattato	ADJ	A	Gender=Masc|Number=Plur	61	conj	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 9
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 10
+# text = Ma la vera, e forse più grave, crisi è organica.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+3	vera	vero	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	forse	forse	ADV	B	_	8	advmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	grave	grave	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	crisi	crisi	NOUN	S	Gender=Fem	12	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	organica	organico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 11
+# text = L'aumento
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+

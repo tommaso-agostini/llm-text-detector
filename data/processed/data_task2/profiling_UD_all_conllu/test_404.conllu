@@ -1,0 +1,423 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Abbiamo introdotto importanti novità per combattere la precarietà e stabilizzare l'occupazione:
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	importanti	importante	ADJ	A	Number=Plur	4	amod	_	_
+4	novità	novità	NOUN	S	Gender=Fem	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	combattere	combattere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	precarietà	precarietà	NOUN	S	Gender=Fem	6	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	stabilizzare	stabilizzare	VERB	V	VerbForm=Inf	6	conj	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = tutele crescenti e salario minimo per chi non ha contratto a tempo indeterminato".
+1	tutele	tutela	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	crescenti	crescente	ADJ	A	Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	salario	salario	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+5	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nmod	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	contratto	contrarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	indeterminato	indeterminato	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Così il presidente del consiglio Mario Renzi in una conferenza stampa al termine del Consiglio dei Ministri.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Mario	Mario	PROPN	SP	_	6	nmod	_	_
+8	Renzi	Renzi	PROPN	SP	_	7	flat:name	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+12	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	11	compound	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	termine	termine	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Ministri	ministro	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = "Viene introdotto - ha spiegato Renzi - il compenso orario minimo garantito per tutti i lavoratori per ridurre il precariato e estendere le tutele".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	-	-	PUNCT	FB	_	6	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	spiegato	spiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+7	Renzi	Renzi	PROPN	SP	_	6	nsubj	_	_
+8	-	-	PUNCT	FF	_	6	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	compenso	compenso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+11	orario	orario	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+13	garantito	garantire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+14	per	per	ADP	E	_	17	case	_	_
+15	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	ridurre	ridurre	VERB	V	VerbForm=Inf	13	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	precariato	precariato	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	estendere	estendere	VERB	V	VerbForm=Inf	19	conj	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	tutele	tutela	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Una proposta, quella di Renzi, che ha trovato l'appoggio anche dei sindacati che più volte avevano detto no a una platea indeterminata di contratti.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Renzi	Renzi	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	anche	anche	ADV	B	_	16	advmod	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+18	più	più	ADV	B	_	19	det	_	_
+19	volte	volta	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+20	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22	no	no	ADV	BN	PronType=Neg	21	advmod	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	platea	platea	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26	indeterminata	indeterminato	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	contratti	contratto	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Il presidente del Consiglio ha aggiunto inoltre che il Mef stima che si aprirà tra i 9 e i 10 miliardi di euro il finanziamento per il nuovo sussidio di disoccupazione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Consiglio	consiglio	PROPN	SP	_	2	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	inoltre	inoltre	ADV	B	_	11	advmod	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Mef	Mef	PROPN	SP	_	7	obj	_	_
+12	stima	stima	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	aprirà	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	_
+16	tra	tra	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	9	9	NUM	N	NumType=Card	15	obl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	10	10	NUM	N	NumType=Card	22	nummod	_	_
+22	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	euro	euro	NOUN	S	Gender=Masc	22	nmod	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	finanziamento	finanziamento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+27	per	per	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	sussidio	sussidio	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = "Il mio impegno personale è quello di continuare a portare avanti politiche di crescita per far ripartire il Paese".
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	personale	personale	ADJ	A	Number=Sing	4	amod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	continuare	continuare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	portare	portare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	avanti	avanti	ADV	B	_	13	advmod	_	_
+13	politiche	politica	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	far	fare	VERB	V	VerbForm=Inf	11	advcl	_	_
+18	ripartire	ripartire	VERB	V	VerbForm=Inf	17	ccomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Ha concluso Renzi.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	concluso	concludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	Renzi	Renzi	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Continua a leggere
+1	Continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	leggere	leggere	VERB	V	VerbForm=Inf	1	xcomp	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 10
+# text = Con il Jobs act contro la precarietà, Renzi raccoglie i consensi di sindacati e imprese:
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Jobs	Jobs	PROPN	SP	_	10	obl	_	_
+4	act	act	NOUN	S	_	3	nmod	_	_
+5	contro	contro	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	precarietà	precarietà	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	Renzi	Renzi	PROPN	SP	_	10	nsubj	_	_
+10	raccoglie	raccogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	consensi	consenso	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sindacati	sindacato	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 11
+# text = nessun pasticcio come partito d'opposizione, il Mef calcola in 9-10 miliardi le risorse che si libereranno per il nuovo sussidio di disoccupazione.
+1	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	pasticcio	pasticcio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	partito	partito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Mef	Mef	PROPN	SP	_	10	nsubj	_	_
+10	calcola	calcolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	9-10	9-10	NUM	N	NumType=Card	13	nummod	_	_
+13	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	libereranno	liberare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	acl:relcl	_	_
+19	per	per	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	sussidio	sussidio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = Però la minoranza democratici accusa Renzi di compromesso:
+1	Però	però	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	minoranza	minoranza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	democratici	democratico	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	accusa	accusare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Renzi	Renzi	PROPN	SP	_	5	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	compromesso	compromesso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 13
+# text = è difficile fare la rivoluzione senza forzature, è colpa del sindaco di Firenze non aver lasciato Renzi segretario e premier nel 2012
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	forzature	forzatura	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Firenze	Firenze	PROPN	SP	_	13	nmod	_	_
+16	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+17	aver	avere	AUX	VA	VerbForm=Inf	18	aux	_	_
+18	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+19	Renzi	Renzi	PROPN	SP	_	18	obj	_	_
+20	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	premier	premier	NOUN	S	_	20	conj	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	2012	2012	NUM	N	NumType=Card	18	obl	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 14
+# text = Disoccupazione al 44,2%, ai minimi dal 2000.
+1	Disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	44,2	44,2	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	SYM	_	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7-8	ai	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	minimi	minimo	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	2000	2000	NUM	N	NumType=Card	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Le misure del Jobs Act hanno già inciso retroattivamente, con effetti già visibili nell’andamento dei dati dei primi mesi, soprattutto nella modifica della composizione della geografia dei voucher.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	misure	misura	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Jobs	Jobs	PROPN	SP	_	2	nmod	_	_
+6	Act	Act	PROPN	SP	_	5	flat:name	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	già	già	ADV	B	_	9	advmod	_	_
+9	inciso	incidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	retroattivamente	retroattivamente	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+14	già	già	ADV	B	_	15	advmod	_	_
+15	visibili	visibili	ADJ	A	Number=Plur	13	amod	_	_
+16-17	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+16	in	in	ADP	E	_	18	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	andamento	andamento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	dati	dato	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	25	amod	_	_
+25	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	9	punct	_	_
+27	soprattutto	soprattutto	ADV	B	_	30	advmod	_	_
+28-29	nella	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	modifica	modifica	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	composizione	composizione	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	geografia	geografia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37-38	dei	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	voucher	voucher	NOUN	S	Gender=Masc	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = Nel 2015 sono infatti più che quadruplicati (da 427mila a 2 milioni e 748mila), un dato che rappresenta la crescente precarietà dei contratti di lavoro.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2015	2015	NUM	N	NumType=Card	6	nummod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	infatti	infatti	ADV	B	_	6	advmod	_	_
+6	più	più	ADV	B	_	0	root	_	_
+7	che	che	SCONJ	CS	_	20	fixed	_	_
+8	quadruplicati	quadruplicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+9	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+10	da	da	ADP	E	_	14	case	_	_
+11	427mila	427mila	NUM	N	NumType=Card	14	nummod	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	2	2	NUM	N	NumType=Card	14	nummod	_	_
+14	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	748mila	748mila	NUM	N	NumType=Card	14	conj	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dato	dato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	crescente	crescente	ADJ	A	Number=Sing	25	amod	_	_
+25	precarietà	precarietà	NOUN	S	Gender=Fem	22	obj	_	_
+26-27	dei	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	contratti	contratto	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 17
+# text = Renzi ha ragione nel riconoscere le insufficienze del passato proprio dal punto di
+1	Renzi	Renzi	ADV	B	_	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	riconoscere	riconoscere	VERB	V	VerbForm=Inf	2	obl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	insufficienze	insufficienza	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	passato	passato	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	proprio	proprio	ADV	B	_	11	advmod	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+16	di	di	ADP	E	_	15	case	_	SpacesAfter=\n
+

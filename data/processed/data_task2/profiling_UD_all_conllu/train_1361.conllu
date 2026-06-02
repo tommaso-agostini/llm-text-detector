@@ -1,0 +1,643 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma se invece di trovarlo, lo perdessimo, e senza spostarci di un centimetro?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	invece	invece	ADV	B	_	5	mark	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5-6	trovarlo	_	_	_	_	_	_	_	SpaceAfter=No
+5	trovar	trovare	VERB	V	VerbForm=Inf	0	root	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	perdessimo	perdessimo	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	senza	senza	ADP	E	_	13	mark	_	_
+13-14	spostarci	_	_	_	_	_	_	_	_
+13	spostar	spostare	VERB	V	VerbForm=Inf	5	conj	_	_
+14	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	centimetro	centimetro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Seduti davanti al computer o con il nostro smartphone in mano, abbiamo appena scoperto di avere un amico in meno su Facebook.
+1	Seduti	sedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	davanti	davanti	ADV	B	_	5	case	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	computer	computer	NOUN	S	Gender=Masc	1	obl	_	_
+6	o	o	CCONJ	CC	_	10	cc	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	smartphone	smartphone	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	1	punct	_	_
+14	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	appena	appena	ADV	B	_	16	advmod	_	_
+16	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	avere	avere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	amico	amico	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	meno	meno	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+23	su	su	ADP	E	_	24	case	_	_
+24	Facebook	Facebook	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = La possibilità di sapere chi ci ha tolto l'amicizia dal social network è già realtà:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	possibilità	possibilità	NOUN	S	Gender=Fem	17	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	sapere	sapere	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	chi	chi	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	tolto	togliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	social	social	ADJ	A	Number=Sing	14	amod	_	_
+14	network	network	NOUN	S	Gender=Masc	10	nmod	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	già	già	ADV	B	_	17	advmod	_	_
+17	realtà	realtà	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 4
+# text = si chiama "Who deleted me" ed è un'applicazione per iOS e Android oppure è disponibile come estensione di Google Chrome.
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Who	Who	PROPN	SP	_	2	xcomp	_	_
+5	deleted	delete	CCONJ	CC	_	6	cc	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	conj	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	ed	e	CCONJ	CC	_	11	cc	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	iOS	iOS	PROPN	SP	_	11	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Android	Android	PROPN	SP	_	13	conj	_	_
+16	oppure	oppure	CCONJ	CC	_	18	cc	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	disponibile	disponibile	ADJ	A	Number=Sing	2	conj	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	estensione	estensione	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Google	Google	PROPN	SP	_	20	nmod	_	_
+23	Chrome	Chrome	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = "Chi mi ha cancellato" tiene traccia delle nostre amicizie su Facebook e proprio come il suo parente stretto "Who unfollowed me" (Chi ha smesso di seguirmi) su Twitter, ci dice chi ci ha cancellato dalle amicizie o chi ha disattivato il suo account.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Chi	chi	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cancellato	cancellare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	_
+7	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	traccia	traccia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	Facebook	Facebook	PROPN	SP	_	12	nmod	_	_
+15	e	e	CCONJ	CC	_	20	cc	_	_
+16	proprio	proprio	ADV	B	_	20	advmod	_	_
+17	come	come	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	parente	parente	NOUN	S	Number=Sing	12	conj	_	_
+21	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	Who	Who	PROPN	SP	_	20	nmod	_	_
+24	unfollowed	unfollowe	CCONJ	CC	_	25	cc	_	_
+25	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	23	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	23	punct	_	_
+27	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+28	Chi	chi	PRON	PR	PronType=Rel	30	nsubj	_	_
+29	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	smesso	smettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32-33	seguirmi	_	_	_	_	_	_	_	SpaceAfter=No
+32	seguir	seguire	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	32	iobj	_	_
+34	)	)	PUNCT	FB	_	30	punct	_	_
+35	su	su	ADP	E	_	36	case	_	_
+36	Twitter	Twitter	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	7	punct	_	_
+38	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	39	obj	_	_
+39	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+40	chi	chi	PRON	PR	Number=Sing|PronType=Rel	39	nsubj	_	_
+41	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	43	expl	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	cancellato	cancellare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+44-45	dalle	_	_	_	_	_	_	_	_
+44	da	da	ADP	E	_	46	case	_	_
+45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	43	obl	_	_
+47	o	o	CCONJ	CC	_	48	cc	_	_
+48	chi	chi	PRON	PR	Number=Sing|PronType=Rel	46	conj	_	_
+49	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+50	disattivato	disattivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl:relcl	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+52	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	53	det:poss	_	_
+53	account	account	NOUN	S	_	50	obj	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Soprattutto, lo fa da solo e ci evita di scorrere centinaia di profili alla ricerca degli amici perduti.
+1	Soprattutto	soprattutto	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	solo	solo	ADV	B	_	4	advmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	9	iobj	_	_
+9	evita	evitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	scorrere	scorrere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	profili	profilo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	amici	amico	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	perduti	perduto	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Estensioni dei browser per ricevere notifiche su chi ci ha tolto dalla sua lista girano in rete da un po', ma questa è la prima applicazione dedicata e sviluppata appositamente per smartphone.
+1	Estensioni	estensione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	browser	browser	NOUN	S	_	1	nmod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	ricevere	ricevere	VERB	V	VerbForm=Inf	1	acl	_	_
+7	notifiche	notifica	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obl	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	tolto	togliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	nsubj	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	lista	lista	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+17	girano	girare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	rete	rete	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	po'	poco	ADV	B	_	19	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	29	punct	_	_
+24	ma	ma	CCONJ	CC	_	29	cc	_	_
+25	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	29	nsubj	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	_
+29	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+30	dedicata	dedicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	sviluppata	sviluppare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	_
+33	appositamente	appositamente	ADV	B	_	32	advmod	_	_
+34	per	per	ADP	E	_	35	case	_	_
+35	smartphone	smartphone	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ovunque siamo, possiamo scoprire in tempo reale e senza troppa fatica chi sono i 'cattivelli' che non ci vogliono più tra i loro collegamenti.
+1	Ovunque	ovunque	ADV	B	_	5	advmod	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scoprire	scoprire	VERB	V	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	reale	reale	ADJ	A	Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	senza	senza	ADP	E	_	12	case	_	_
+11	troppa	troppo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+13	chi	chi	PRON	PR	PronType=Rel	17	nsubj	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	'	'	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	cattivelli	cattivello	NOUN	S	Gender=Masc|Number=Plur	12	acl:relcl	_	SpaceAfter=No
+18	'	'	PUNCT	FB	_	17	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+22	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+23	più	più	ADV	B	_	22	advmod	_	_
+24	tra	tra	ADP	E	_	27	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	collegamenti	collegamento	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = L'app si usa in modo semplice e gratuito.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	app	app	NOUN	S	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Una volta aperta, ci si collega tramite il proprio account Facebook.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	collega	collegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	tramite	tramite	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	account	account	NOUN	S	_	7	obl	_	_
+12	Facebook	Facebook	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = A questo punto abbiamo davanti la lista completa degli amici, in diverse sezioni:
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	davanti	davanti	ADV	B	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lista	lista	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	completa	completo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	sezioni	sezione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = quelli attuali che abbiamo, i nuovi aggiunti, quelli che hanno disattivato l'account Facebook e se ne sono proprio andati dal social network quindi non troveremo più il loro profilo (mentre se qualcuno ci ha bloccato vediamo l'iconcina non cliccabile), e, ecco qui la novità, ci sono anche gli amici che ci hanno cancellato.
+1	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	29	nsubj	_	_
+2	attuali	attuale	ADJ	A	Number=Plur	1	amod	_	_
+3	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+4	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	aggiunti	aggiunto	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	1	appos	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	disattivato	disattivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	account	account	NOUN	S	_	13	obj	_	_
+16	Facebook	Facebook	PROPN	SP	_	15	nmod	_	_
+17	e	e	CCONJ	CC	_	22	cc	_	_
+18	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+19	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+20	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	proprio	proprio	ADV	B	_	22	advmod	_	_
+22	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	_
+23-24	dal	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	26	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	social	social	ADJ	A	Number=Sing	26	amod	_	_
+26	network	network	NOUN	S	Gender=Masc	22	obl	_	_
+27	quindi	quindi	ADV	B	_	29	advmod	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	troveremo	trovare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+30	più	più	ADV	B	_	29	advmod	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	loro	loro	DET	AP	Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+34	(	(	PUNCT	FB	_	56	punct	_	SpaceAfter=No
+35	mentre	mentre	SCONJ	CS	_	56	mark	_	_
+36	se	se	SCONJ	CS	_	40	mark	_	_
+37	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	40	nsubj	_	_
+38	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	40	expl	_	_
+39	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	advcl	_	_
+41	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	40	advcl	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+43	iconcina	iconcina	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+44	non	non	ADV	BN	PronType=Neg	45	advmod	_	_
+45	cliccabile	cliccabile	ADJ	A	Number=Sing	43	amod	_	SpaceAfter=No
+46	)	)	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	51	punct	_	_
+48	e	e	CCONJ	CC	_	51	cc	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	51	punct	_	_
+50	ecco	ecco	ADV	B	_	51	advmod	_	_
+51	qui	qui	ADV	B	_	40	conj	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	novità	novità	NOUN	S	Gender=Fem	51	nsubj	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	40	punct	_	_
+55	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	56	expl	_	_
+56	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+57	anche	anche	ADV	B	_	59	advmod	_	_
+58	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+59	amici	amico	NOUN	S	Gender=Masc|Number=Plur	56	nsubj	_	_
+60	che	che	PRON	PR	PronType=Rel	63	nsubj	_	_
+61	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	63	obj	_	_
+62	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	aux	_	_
+63	cancellato	cancellare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	acl:relcl	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	29	punct	_	_
+
+# sent_id = 13
+# text = Quelli che hanno voluto togliere proprio noi dalla loro lista compariranno in rosso, vicino all'iconcina con la croce che compare a sinistra di quella dedicata alle richieste di amicizia.
+1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	12	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+5	togliere	togliere	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+6	proprio	proprio	ADV	B	_	7	advmod	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	lista	lista	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	compariranno	comparire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	rosso	rosso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	vicino	vicino	ADV	B	_	19	case	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	16	fixed	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	iconcina	iconcina	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	croce	croce	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	compare	comparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	26	nmod	_	_
+29	dedicata	dedicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+30-31	alle	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 14
+# text = Il monitoraggio degli amici non è retroattivo:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	monitoraggio	monitoraggio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	amici	amico	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	retroattivo	retroattivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 15
+# text = inizia dal momento in cui scarichiamo l'applicazione.
+1	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	dal	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	momento	momento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+7	scarichiamo	scarichare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Impossibile, dunque, risalire alle amicizie perse prima del suo utilizzo, ma certezza assoluta su quelle perse (e guadagnate) in futuro.
+1	Impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dunque	dunque	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	risalire	risalire	VERB	V	VerbForm=Inf	1	advcl	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	perse	perso	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	prima	prima	ADV	B	_	14	case	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	10	fixed	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	21	punct	_	_
+16	ma	ma	CCONJ	CC	_	21	cc	_	_
+17	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+18	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	su	su	ADP	E	_	20	case	_	_
+20	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	21	obl	_	_
+21	perse	perso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+22	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	guadagnate	guadagnascere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	conj	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 17
+# text = Gli utenti con cui siamo in contatto vengono registrati dall'app, che non se li scorda più.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	utenti	utente	NOUN	S	Number=Plur	9	nsubj:pass	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+5	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+8	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	registrati	registrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+10	da	da	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	app	app	NOUN	S	_	9	obl:agent	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+18	scorda	scordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+19	più	più	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 18
+# text = Vengono schedati e non avranno scampo per il futuro.
+1	Vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	schedati	schedare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	avranno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+6	scampo	scampo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Altri tempi rispetto a quando si poteva sgattaiolare indisturbati (e inosservati) dalle feste di amici che a malapena si conoscono.
+1	Altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	rispetto	rispetto	ADV	B	_	8	mark	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	quando	quando	SCONJ	CS	_	3	fixed	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	sgattaiolare	sgattaiolare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	indisturbati	indisturbare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+10	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	inosservati	inosservato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14-15	dalle	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	feste	festa	NOUN	S	Gender=Fem|Number=Plur	9	obl:agent	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	amici	amico	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	malapena	malapena	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Adesso chiunque decida di allontanarsi da noi, almeno virtualmente parlando, viene beccato.
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	3	nsubj	_	_
+3	decida	decidere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	allontanarsi	_	_	_	_	_	_	_	_
+5	allontanar	allontanare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	almeno	almeno	ADV	B	_	11	advmod	_	_
+11	virtualmente	virtualmente	ADV	B	_	12	advmod	_	_
+12	parlando	parlare	VERB	V	VerbForm=Ger	5	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	beccato	beccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 21
+# text = La curiosità è tanta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	curiosità	curiosità	NOUN	S	Gender=Fem	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	tanta	tanta	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 22
+# text = Al punto che i server di "Who deleted me" sono già sovraccarichi .
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+4	che	che	SCONJ	CS	_	15	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	server	server	NOUN	S	Gender=Masc	15	nsubj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Who	Who	PROPN	SP	_	6	nmod	_	_
+10	deleted	delete	X	SW	Foreign=Yes	9	nmod	_	_
+11	me	me	X	SW	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	9	punct	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	già	già	ADV	B	_	15	advmod	_	_
+15	sovraccarichi	sovraccaricare	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 23
+# text = Ci sono un miliardo e mezzo di persone al mondo - tanti gli iscritti a Facebook - che potenzialmente potrebbero scaricare questa app.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	miliardo	miliardo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	-	-	PUNCT	FF	_	2	punct	_	_
+13	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	iscritti	iscritto	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Facebook	Facebook	PROPN	SP	_	15	nmod	_	_
+18	-	-	PUNCT	FB	_	22	punct	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+20	potenzialmente	potenzialmente	ADV	B	_	22	advmod	_	_
+21	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	scaricare	scaricare	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+23	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+24	app	app	NOUN	S	_	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Ognuno con la sua lista di amici, ognuno con i suoi "nemici" da scoprire.
+1	Ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	_
+2	con	con	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	lista	lista	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	amici	amico	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	_
+10	con	con	ADP	E	_	14	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+12	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	nemici	nemico	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	17	punct	_	_
+16	da	da	ADP	E	_	17	mark	_	_
+17	scoprire	scoprire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
+

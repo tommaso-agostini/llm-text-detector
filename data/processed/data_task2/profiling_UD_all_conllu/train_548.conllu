@@ -1,0 +1,373 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sì, avete capito bene, hanno deciso di pagare un'altra donna per portare avanti una gravidanza per loro.
+1	Sì	sì	INTJ	I	Polarity=Pos	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	pagare	pagare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	altra	altro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	portare	portare	VERB	V	VerbForm=Inf	10	advcl	_	_
+16	avanti	avanti	ADV	B	_	15	advmod	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = È una pratica che fino a poco tempo fa era considerata tabù, ma che ora sta diventando sempre più comune.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	11	nsubj:pass	_	_
+5	fino	fino	ADV	B	_	8	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	poco	poco	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+9	fa	fa	ADV	B	_	8	advmod	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux:pass	_	_
+11	considerata	considerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+12	tabù	tabù	NOUN	S	Gender=Fem	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	18	punct	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	ora	ora	ADV	B	_	18	advmod	_	_
+17	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	diventando	diventare	VERB	V	VerbForm=Ger	11	conj	_	_
+19	sempre	sempre	ADV	B	_	20	advmod	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	comune	comune	ADJ	A	Number=Sing	18	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = E non solo tra le donne single o lavoratrici che non possono permettersi di abbandonare il lavoro per maternità, ma anche tra le coppie eterosessuali che faticano ad avere figli.
+1	E	e	CCONJ	CC	_	16	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	solo	solo	ADV	B	_	6	advmod	_	_
+4	tra	tra	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	donne	donna	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+7	single	single	ADJ	A	_	6	amod	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	lavoratrici	lavoratore	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13-14	permettersi	_	_	_	_	_	_	_	_
+13	permetter	permettere	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	abbandonare	abbandonare	VERB	V	VerbForm=Inf	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	maternità	maternità	NOUN	S	Gender=Fem	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	26	punct	_	_
+22	ma	ma	CCONJ	CC	_	26	cc	_	_
+23	anche	anche	ADV	B	_	26	advmod	_	_
+24	tra	tra	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+27	eterosessuali	eterosessuali	ADJ	A	Number=Plur	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	faticano	faticare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	ad	a	ADP	E	_	31	mark	_	_
+31	avere	avere	VERB	V	VerbForm=Inf	29	xcomp	_	_
+32	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 4
+# text = Ma cosa c'è dietro questa scelta?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dietro	dietro	ADV	B	_	4	advmod	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Cosa spinge una donna a diventare madre attraverso l'utero in affitto?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	_
+2	spinge	spingere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	donna	donna	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	diventare	diventare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+7	madre	madre	NOUN	S	Gender=Fem|Number=Sing	6	xcomp	_	_
+8	attraverso	attraverso	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	utero	utero	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = E cosa ne pensa la società italiana di questa pratica?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	_
+3	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+4	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	società	società	NOUN	S	Gender=Fem	4	obj	_	_
+7	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Le donne che ho intervistato mi hanno raccontato che la scelta di ricorrere all'utero in affitto è stata dettata dai più svariati motivi.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	intervistato	intervistato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	che	che	SCONJ	CS	_	21	mark	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	ricorrere	ricorrere	VERB	V	VerbForm=Inf	11	acl	_	_
+14-15	all'	_	_	_	_	_	_	_	SpaceAfter=No
+14	a	a	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	utero	utero	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	dettata	dettare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+22-23	dai	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	26	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	svariati	svariato	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+26	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	21	obl:agent	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = C'è chi non ha mai trovato un compagno con cui costruire una famiglia, chi ha faticato ad avere figli naturali e chi, semplicemente, non si sentiva pronta per diventare madre.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+12	costruire	costruire	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	7	punct	_	_
+16	chi	chi	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	faticato	faticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+19	ad	a	ADP	E	_	20	mark	_	_
+20	avere	avere	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	naturali	naturale	ADJ	A	Number=Plur	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	chi	chi	PRON	PR	PronType=Rel	2	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	semplicemente	semplicemente	ADV	B	_	24	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl:impers	_	_
+30	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
+31	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	30	xcomp	_	_
+32	per	per	ADP	E	_	33	mark	_	_
+33	diventare	diventare	VERB	V	VerbForm=Inf	31	advcl	_	_
+34	madre	madre	NOUN	S	Gender=Fem|Number=Sing	33	xcomp	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ma c'è anche chi lo ha fatto per motivi economici.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	3	advmod	_	_
+5	chi	chi	PRON	PR	PronType=Rel	3	nsubj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	economici	economico	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = 'hui, infatti, la maternità surrogata può costare anche più di 50.000 euro, un prezzo che molte donne non possono permettersi.
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	hui	hui	PRON	PE	Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	10	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maternità	maternità	NOUN	S	Gender=Fem	10	nsubj	_	_
+8	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	costare	costare	VERB	V	VerbForm=Inf	2	conj	_	_
+11	anche	anche	ADV	B	_	12	advmod	_	_
+12	più	più	ADV	B	_	10	advmod	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	50.000	50.000	NUM	N	NumType=Card	15	nummod	_	_
+15	euro	euro	NOUN	S	Gender=Masc	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+19	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+20	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	donne	donna	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24-25	permettersi	_	_	_	_	_	_	_	SpaceAfter=No
+24	permetter	permettere	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = La questione etica poi, è둘러bile:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	etica	etica	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	poi	poi	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	è둘러bile	è둘러bile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = si tratta di un Descart acquisitions e di sfruttamento delle donne più povere, o semplicemente di una scelta personale e consapevole?
+1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Descart	Descart	PROPN	SP	_	2	obl	_	_
+6	acquisitions	acquisitions	PROPN	Sw	_	5	flat:name	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	donne	donna	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	povere	povero	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	o	o	CCONJ	CC	_	20	cc	_	_
+17	semplicemente	semplicemente	ADV	B	_	20	advmod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	scelta	scelta	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	_
+21	personale	personale	ADJ	A	Number=Sing	20	amod	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	consapevole	consapevole	ADJ	A	Number=Sing	21	conj	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = In Italia la maternità surrogata è lease permessa solo se gratuita e se viene effettuata all'estero.
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	7	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	maternità	maternità	NOUN	S	Gender=Fem	7	nsubj	_	_
+5	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	lease	lease	ADJ	A	Number=Sing	0	root	_	_
+8	permessa	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	se	se	SCONJ	CS	_	11	mark	_	_
+11	gratuita	gratuito	ADJ	A	Gender=Fem|Number=Sing	8	xcomp	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	se	se	SCONJ	CS	_	15	mark	_	_
+14	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	effettuata	effettuare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	estero	estero	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = Ma la legge è pur sempre soggetta a interpretazioni e dynasty non mancano, come dimostrano i recenti casi di alcune coppie italiane che hanno adottato figli nati da uteri in affitto all'estero.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	legge	legge	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	pur	pure	ADV	B	_	7	advmod	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	soggetta	soggetto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	interpretazioni	interpretazioni	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	dynasty	dynasty	NOUN	S	Gender=Masc	9	conj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	mancano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	come	come	SCONJ	CS	_	16	mark	_	_
+16	dimostrano	dimostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	recenti	recente	ADJ	A	Number=Plur	19	amod	_	_
+19	casi	caso	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	22	det	_	_
+22	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+25	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	adottato	adottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+27	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+28	nati	nascere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	uteri	utero	NOUN	S	Gender=Masc|Number=Plur	28	obl:agent	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+33-34	all'	_	_	_	_	_	_	_	SpaceAfter=No
+33	a	a	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	estero	estero	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = C'è chi parla di una vera e propria abitudine dei)}, TBS di ricorrere alla maternità surrogata per
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	di	di	ADP	E	_	10	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	vera	vero	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	propria	proprio	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	_
+10	abitudine	abitudine	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	16	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+13	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	}	}	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	TBS	TBS	PROPN	SP	_	10	nmod	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	ricorrere	ricorrere	VERB	V	VerbForm=Inf	16	acl	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	maternità	maternità	NOUN	S	Gender=Fem	22	obl	_	_
+22	surrogata	surrogare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	obl	_	_
+23	per	per	ADP	E	_	22	case	_	SpacesAfter=\n
+

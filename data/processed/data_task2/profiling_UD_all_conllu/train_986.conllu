@@ -1,0 +1,967 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Hanno due figli e il terzo in arrivo.
+1	Hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	1	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Un’altra bocca da sfamare.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	sfamare	sfamare	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma come si fa a mettere al mondo un altro figlio quando non si hanno soldi per pagare il mutuo o si stenta a fare la spesa al fine settimana?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	come	come	ADV	B	_	4	advmod	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+13	quando	quando	SCONJ	CS	_	16	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
+16	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+17	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	pagare	pagare	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	mutuo	mutuo	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	o	o	CCONJ	CC	_	24	cc	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl:impers	_	_
+24	stenta	stentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	fare	fare	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	fine	fine	ADJ	A	Number=Sing	32	amod	_	_
+32	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+33	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Così Angela si è presentata in ospedale, per abortire.
+1	Così	così	ADV	B	_	5	advmod	_	_
+2	Angela	Angela	PROPN	SP	_	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	presentata	presentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	abortire	abortire	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Elena invece è una ragazza extracomunitaria, sulla trentina, ha già un figlio, è incinta ma il compagno l’ha abbandonata.
+1	Elena	Eleno	PROPN	SP	_	5	nsubj	_	_
+2	invece	invece	ADV	B	_	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+6	extracomunitaria	extracomunitario	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8-9	sulla	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	trentina	trentina	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	già	già	ADV	B	_	12	advmod	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	incinta	incincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+19	ma	ma	CCONJ	CC	_	24	cc	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+22	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	abbandonata	abbandonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 6
+# text = E lei si trova in una grossissima difficoltà, le sue condizioni economiche sono disastrose.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	grossissima	grosso	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	8	amod	_	_
+8	difficoltà	difficoltà	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+13	economiche	economico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	disastrose	disastroso	ADJ	A	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Altra storia.
+1	Altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Due minorenni, lei incinta e lui che vorrebbe fare il papà.
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	minorenni	minorenne	NOUN	S	Number=Plur	5	obj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	incinta	incincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	papà	papà	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Ma i genitori della ragazzina l’hanno già portata in ospedale:
+1	Ma	ma	CCONJ	CC	_	10	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ragazzina	ragazzino	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+7	l’	il	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	già	già	ADV	B	_	10	advmod	_	_
+10	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 10
+# text = non ce la fanno a crescere un altro bimbo.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	crescere	crescere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	altro	altro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	bimbo	bimbo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = La lista è lunga ma le storie di vita drammatiche si ripetono.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lista	lista	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	ma	ma	CCONJ	CC	_	12	cc	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	storie	storia	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	drammatiche	drammatico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	ripetono	ripetere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Un fenomeno che fa paura perché è in continuo aumento, complice anche la crisi.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	paura	paura	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	perché	perché	SCONJ	CS	_	12	mark	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	aumento	aumento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	complice	complice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	crisi	crisi	NOUN	S	Gender=Fem	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 13
+# text = Protagoniste donne che vorrebbero tenersi il bambino, ma rinunciano per far quadrare i conti.
+1	Protagoniste	protagonista	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	vorrebbero	volere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	tenersi	_	_	_	_	_	_	_	_
+5	tener	tenere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	rinunciano	rinunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	quadrare	quadrare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	conti	conto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = A volte.
+1	A	a	ADP	E	_	2	case	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = A volte no.
+1	A	a	ADP	E	_	2	case	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+3	no	no	ADV	BN	PronType=Neg	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = Quando riescono a trovare una mano tesa che fa intravedere uno spiraglio.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	tesa	teso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	intravedere	intravedere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	spiraglio	spiraglio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Nei Cav, i centri di aiuto alla vita, per esempio, ci sono operatori che ascoltano i guai ma tentano anche di risolverli.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Cav	Cav	PROPN	SP	_	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	centri	centro	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	ascoltano	ascoltare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	guai	guaio	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	ma	ma	CCONJ	CC	_	24	cc	_	_
+24	tentano	tentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+25	anche	anche	ADV	B	_	27	advmod	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27-28	risolverli	_	_	_	_	_	_	_	SpaceAfter=No
+27	risolver	risolvere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+28	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
+29	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 18
+# text = E dove non arriva lo Stato ci sono loro.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	dove	dove	ADV	B	_	4	advmod	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Stato	Stato	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 19
+# text = Una donna che rinuncia all’aborto, per esempio, viene aiutata in diversi modi.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	donna	donna	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	rinuncia	rinunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5-6	all’	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	aborto	aborto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	aiutata	aiutare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	modi	modo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 20
+# text = Economicamente, intanto.
+1	Economicamente	Economicamente	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	intanto	intanto	ADV	B	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Almeno 160 euro al mese per 18 mesi, sei mesi prima e un anno dopo la nascita del bambino.
+1	Almeno	almeno	ADV	B	_	3	advmod	_	_
+2	160	160	NUM	N	NumType=Card	3	nummod	_	_
+3	euro	euro	NOUN	S	Gender=Masc	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	18	18	NUM	N	NumType=Card	9	nummod	_	_
+9	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	sei	sei	NUM	N	NumType=Card	12	nummod	_	_
+12	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+13	prima	prima	ADV	B	_	12	advmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+17	dopo	dopo	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Ma viene aiutata anche per la spesa, i vestiti, i corsi per lo sport se ha altri bambini, l’assistenza legale per un matrimonio fallito.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	aiutata	aiutare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sport	sport	NOUN	S	Gender=Masc	13	nmod	_	_
+17	se	se	SCONJ	CS	_	18	mark	_	_
+18	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+19	altri	altro	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+24	legale	legale	ADJ	A	Number=Sing	23	amod	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	fallito	fallito	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Una rete di protezione che ha fatto nascere la speranza a 330mila donne che sono state assistite in 30 anni di attività.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rete	rete	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	nascere	nascere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	330mila	330mila	NUM	N	NumType=Card	13	nummod	_	_
+13	donne	donna	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj:pass	_	_
+15	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	assistite	assistire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	30	30	NUM	N	NumType=Card	20	nummod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	attività	attività	NOUN	S	Gender=Fem	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = I bambini salvati da aborti della disperazione sono 105mila: 11mila solo in Mangiagalli, ospedale di eccellenza per l’ostetricia di Milano.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	salvati	salvare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	aborti	aborto	NOUN	S	Gender=Masc|Number=Plur	3	obl:agent	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	disperazione	disperazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	105mila	105mila	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+12	11mila	11mila	NUM	N	NumType=Card	15	nummod	_	_
+13	solo	solo	ADV	B	_	15	advmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Mangiagalli	Mangiagalli	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	eccellenza	eccellenza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	ostetricia	ostetricia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Milano	Milano	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 25
+# text = Paola Bonzi, fondatrice del Cav dell’ospedale milanese è soddisfatta del lavoro svolto.
+1	Paola	Paola	PROPN	SP	_	13	nsubj:pass	_	_
+2	Bonzi	Bonzi	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	fondatrice	fondatore	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Cav	Cav	PROPN	SP	_	4	nmod	_	_
+8-9	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	milanese	milanese	ADJ	A	Number=Sing	10	amod	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	soddisfatta	soddisfatto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	svolto	svolto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 26
+# text = Ma ammette:
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 27
+# text = «Ogni giorno qualcuno si presenta da noi con la morte nel cuore.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	presenta	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	morte	morte	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 28
+# text = Ha scelto l’aborto perché non si può permettere di sostenere un bambino ma aspetta qualcuno che le faccia cambiare idea.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	aborto	aborto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	perché	perché	SCONJ	CS	_	9	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	permettere	permettere	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	sostenere	sostenere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	ma	ma	CCONJ	CC	_	15	cc	_	_
+15	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+16	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obj	_	_
+17	che	che	SCONJ	CS	_	19	mark	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	faccia	faccia	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+20	cambiare	cambiare	VERB	V	VerbForm=Inf	19	acl	_	_
+21	idea	idea	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = E sono aumentati gli aborti delle italiane che rinunciano a mettere al mondo un figlio perché non hanno soldi per mantenerlo.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	aumentati	aumentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	aborti	aborto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	italiane	italiano	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	rinunciano	rinunciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	mettere	mettere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+18	perché	perché	SCONJ	CS	_	20	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+21	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	mantenerlo	_	_	_	_	_	_	_	SpaceAfter=No
+23	mantener	mantenere	VERB	V	VerbForm=Inf	20	advcl	_	_
+24	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = Inoltre in termini assoluti tempi di attesa per abortire sono saliti da sette a dodici e probabilmente molte donne si rivolgono altrove per non aspettare».
+1	Inoltre	inoltre	ADV	B	_	11	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	termini	termine	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+4	assoluti	assoluto	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	abortire	abortire	VERB	V	VerbForm=Inf	11	advcl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	saliti	salire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	sette	sette	NUM	N	NumType=Card	11	nummod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	dodici	dodici	NUM	N	NumType=Card	11	obl	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	probabilmente	probabilmente	ADV	B	_	21	advmod	_	_
+18	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+19	donne	donna	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	rivolgono	rivolgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+22	altrove	altrove	ADV	B	_	21	advmod	_	_
+23	per	per	ADP	E	_	25	mark	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	aspettare	aspettare	VERB	V	VerbForm=Inf	21	advcl	_	SpaceAfter=No
+26	»	»	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 31
+# text = Anche Basilio Tiso, direttore della Mangiagalli ammette che i problemi finanziari sono ormai il motivo prevalente per cui una donna decide di interrompere la gravidanza.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	Basilio	Basilio	PROPN	SP	_	9	obl	_	_
+3	Tiso	Tiso	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Mangiagalli	Mangiagalli	PROPN	SP	_	5	nmod	_	_
+9	ammette	ammettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	17	mark	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+13	finanziari	finanziario	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	ormai	ormai	ADV	B	_	17	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	9	ccomp	_	_
+18	prevalente	prevalente	ADJ	A	Number=Sing	17	amod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	cui	cui	PRON	PR	PronType=Rel	23	obl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	donna	donna	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+23	decide	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	interrompere	interrompere	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	gravidanza	gravidanza	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 32
+# text = «Da noi non sono aumentati gli aborti in assoluto – tiene a precisare – ma sono triplicate le donne italiane che chiedono aiuto ai centri di sostegno».
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Da	da	ADP	E	_	3	case	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aumentati	aumentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	aborti	aborto	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	assoluto	assoluto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	–	–	PUNCT	FB	_	6	punct	_	_
+12	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	precisare	precisare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	–	–	PUNCT	FF	_	6	punct	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	triplicate	triplicare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	donne	donna	NOUN	S	Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+21	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25-26	ai	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	centri	centro	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 33
+# text = Ubaldo Camilotti, che cura il rapporto annuale dei Cav spiega:
+1	Ubaldo	Ubaldo	PROPN	SP	_	12	nsubj	_	_
+2	Camilotti	Camilotti	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	cura	curare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	annuale	annuale	ADJ	A	Number=Sing	7	amod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Cav	Cav	PROPN	SP	_	7	nmod	_	_
+12	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 34
+# text = «Le richieste di aiuto per problemi di soldi quest’anno sono vicine al 50%, negli anni ’90 non superavano il 20-30%.
+1	«	«	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	quest’	questo	DET	DD	Number=Sing|PronType=Dem	11	det	_	SpaceAfter=No
+11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	50	50	NUM	N	NumType=Card	17	nummod	_	SpaceAfter=No
+17	%	%	SYM	SYM	_	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19-20	negli	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+22	’90	’90	NUM	N	NumType=Card	21	nummod	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	superavano	superare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+26	20	20	NUM	N	NumType=Card	29	nummod	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+28	30	30	NUM	N	NumType=Card	26	compound	_	SpaceAfter=No
+29	%	%	SYM	SYM	_	24	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 35
+# text = Ma noi siamo un’associazione di volontariato e avremmo bisogno di aiuto, dallo Stato e dalle Regioni.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	volontariato	volontariato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	avremmo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14-15	dallo	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Stato	Stato	PROPN	SP	_	5	nmod	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	Regioni	regione	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 36
+# text = Non si tratta di erogare soldi a pioggia a chiunque si presenti, noi non siamo un distributore automatico, siamo prudenti e useremmo questi fondi con cautela.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	erogare	erogare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	5	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	presenti	presentare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+16	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	distributore	distributore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+19	automatico	automatico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	prudenti	prudente	ADJ	A	Number=Plur	3	conj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	useremmo	useere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	_
+25	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	26	det	_	_
+26	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	24	obj	_	_
+27	con	con	ADP	E	_	28	case	_	_
+28	cautela	cautela	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = Ma ne avremmo bisogno».
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_
+3	avremmo	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 38
+# text = Stessa richiesta viene anche da Erica Vitale, che da anni si occupa del «Progetto Gemma».
+1	Stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Erica	Erica	PROPN	SP	_	3	obl	_	_
+7	Vitale	vitale	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	occupa	occupare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	«	«	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	Progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	Gemma	Gemma	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 39
+# text = Un tentativo concreto che dal 1994 tenta di aiutare, a livello nazionale, le donne in difficoltà.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	concreto	concreto	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	1994	1994	NUM	N	NumType=Card	8	obl	_	_
+8	tenta	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	aiutare	aiutare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	livello	livello	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	nazionale	nazionale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	donne	donna	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	difficoltà	difficoltà	NOUN	S	Gender=Fem	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 40
+# text = Con un contributo minimo mensile di 160 euro, si può «adottare» per 18 mesi una mamma e aiutare così il suo bambino a nascere.
+1	Con	con	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	mensile	mensile	ADJ	A	Number=Sing	3	amod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	160	160	NUM	N	NumType=Card	8	nummod	_	_
+8	euro	euro	NOUN	S	Gender=Masc	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	«	«	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	adottare	adottare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	»	»	PUNCT	FB	_	13	punct	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	18	18	NUM	N	NumType=Card	17	nummod	_	_
+17	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	aiutare	aiutare	VERB	V	VerbForm=Inf	19	conj	_	_
+22	così	così	ADV	B	_	21	advmod	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	nascere	nascere	VERB	V	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 41
+# text = «Ma siamo sempre più a corto di persone che vogliono adottare, lavoriamo sodo per risolvere i problemi concreti di una famiglia».
+1	«	«	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	7	cc	_	_
+3	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	sempre	sempre	ADV	B	_	7	advmod	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	corto	corto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	adottare	adottare	VERB	V	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	lavoriamo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+15	sodo	sodo	SCONJ	CS	_	14	conj	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	risolvere	risolvere	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	concreti	concreto	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	»	»	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 42
+# text = Come il progetto «Riscaldiamo i nostri bambini», presentato dalla Federvita Lombardia alla Regione Lombardia in base alla legge 23.
+1	Come	come	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	Riscaldiamo	Riscaldare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Federvita	Federvita	PROPN	SP	_	11	obl:agent	_	_
+15	Lombardia	Lombardia	PROPN	SP	_	14	flat:name	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Regione	regione	PROPN	SP	_	11	nmod	_	_
+19	Lombardia	Lombardia	PROPN	SP	_	18	flat:name	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	base	base	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	legge	legge	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	23	23	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 43
+# text = Un’idea che parte da una necessità reale:
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	parte	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	necessità	necessità	NOUN	S	Gender=Fem	4	obl	_	_
+8	reale	reale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 44
+# text = pagare le bollette del riscaldamento.
+1	pagare	pagare	VERB	V	VerbForm=Inf	0	root	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	bollette	bolletta	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	riscaldamento	riscaldamento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 45
+# text = «E la Regione, continua Erica Vailati, ha già provveduto a stanziare 65mila euro.
+1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	E	e	CCONJ	CC	_	6	cc	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Erica	Erica	PROPN	SP	_	6	obj	_	_
+8	Vailati	Vailato	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	già	già	ADV	B	_	12	advmod	_	_
+12	provveduto	provvedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	stanziare	stanziare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	65mila	65mila	NUM	N	NumType=Card	16	nummod	_	_
+16	euro	euro	NOUN	S	Gender=Masc	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 46
+# text = Una battaglia che riusciamo a vincere solo insieme».
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	riusciamo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	vincere	vincere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	solo	solo	ADV	B	_	8	advmod	_	_
+8	insieme	insieme	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,818 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ai fianchi della bara, rose e garofani rossi.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	fianchi	fianco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	bara	bara	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	garofani	garofano	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+11	rossi	rosso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Migliaia hanno sfilato per rendergli omaggio.
+1	Migliaia	migliaio	PROPN	SP	_	3	nsubj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sfilato	sfilare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5-6	rendergli	_	_	_	_	_	_	_	_
+5	render	rendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Tra di loro anche Matteo Renzi e Laura Boldrini, l'ex presidente della Repubblica, Giorgio Napolitano, che ha abbracciato Emma Bonino e il capo dello Stato Sergio Mattarella.
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	Matteo	Matteo	PROPN	SP	_	0	root	_	_
+6	Renzi	Renzi	PROPN	SP	_	5	flat:name	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Laura	Laura	PROPN	SP	_	5	conj	_	_
+9	Boldrini	Boldrini	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	ex	ex	ADJ	A	_	13	amod	_	_
+13	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Repubblica	Repubblica	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	Giorgio	Giorgio	PROPN	SP	_	13	appos	_	_
+19	Napolitano	Napolitano	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	abbracciato	abbracciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+24	Emma	Emma	PROPN	SP	_	23	obj	_	_
+25	Bonino	Bonino	PROPN	SP	_	24	flat:name	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	capo	capo	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+29-30	dello	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Stato	Stato	PROPN	SP	_	28	nmod	_	_
+32	Sergio	Sergio	PROPN	SP	_	28	nmod	_	_
+33	Mattarella	Mattarella	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Dalle 22 la salma è nella sede del partito a largo Argentina per una veglia, è stato accolto da un lungo applauso.
+1-2	Dalle	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	22	22	NUM	N	NumType=Card	9	nummod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	salma	salma	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sede	sede	NOUN	S	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	partito	partito	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	largo	largo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	Argentina	Argentina	PROPN	SP	_	14	nmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	veglia	veglia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	9	punct	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	da	da	ADP	E	_	26	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+26	applauso	applauso	NOUN	S	Gender=Masc|Number=Sing	22	obl:agent	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 5
+# text = Domenica il funerale laico, con una cerimonia pubblica in piazza Navona.
+1	Domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	funerale	funerale	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	laico	laico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+12	Navona	Navona	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Infine, Marco Pannella sarà sepolto a Teramo, sua città natale.
+1	Infine	infine	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Marco	Marco	PROPN	SP	_	6	nsubj:pass	_	_
+4	Pannella	Pannella	PROPN	SP	_	3	flat:name	_	_
+5	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	sepolto	seppellire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Teramo	Teramo	PROPN	SP	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	città	città	NOUN	S	Gender=Fem	8	appos	_	_
+12	natale	natale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = La lettera al Papa.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Papa	Papa	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Intanto sono state pubblicate sul sito di Famiglia Cristiana (e sul profilo Twitter del settimanale, che riportiamo sotto) le prime righe della lettera scritta a mano e inviata da Marco Pannella al Pontefice il 22 aprile scorso, dopo il viaggio a Lesbo:
+1	Intanto	intanto	ADV	B	_	4	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	pubblicate	pubblicare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sito	sito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Famiglia	famiglia	PROPN	SP	_	7	nmod	_	_
+10	Cristiana	cristiana	PROPN	SP	_	9	flat:name	_	_
+11	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+16	Twitter	Twitter	PROPN	SP	_	15	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	settimanale	settimanale	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+22	riportiamo	riportare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	sotto	sotto	ADV	B	_	22	advmod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	15	punct	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	27	amod	_	_
+27	righe	riga	NOUN	S	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	scritta	scrivere	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	mano	mano	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	inviata	inviare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+36	da	da	ADP	E	_	37	case	_	_
+37	Marco	Marco	PROPN	SP	_	35	obl:agent	_	_
+38	Pannella	Pannella	PROPN	SP	_	37	flat:name	_	_
+39-40	al	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Pontefice	Pontefice	PROPN	SP	_	35	obl	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	22	22	NUM	N	NumType=Card	35	obl	_	_
+44	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	43	flat	_	_
+45	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	35	punct	_	_
+47	dopo	dopo	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+50	a	a	ADP	E	_	51	case	_	_
+51	Lesbo	Lesbo	PROPN	SP	_	49	nmod	_	SpaceAfter=No
+52	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 9
+# text = "Caro Papa Francesco, ti scrivo dalla mia stanza all'ultimo piano, vicino al cielo, per dirti che in realtà ti stavo vicino a Lesbo quando abbracciavi la carne martoriata di quelle donne, di quei bambini, e di quegli uomini che nessuno vuole accogliere in Europa.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Caro	Caro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	Papa	Papa	PROPN	SP	_	0	root	_	_
+4	Francesco	Francesco	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	expl	_	_
+7	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	15	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+14	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	piano	piano	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	vicino	vicino	ADV	B	_	20	case	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	17	fixed	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	7	punct	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	dirti	_	_	_	_	_	_	_	_
+23	dir	dire	VERB	V	VerbForm=Inf	7	advcl	_	_
+24	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	23	iobj	_	_
+25	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	realtà	realtà	NOUN	S	Gender=Fem	29	obl	_	_
+28	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	29	expl	_	_
+29	stavo	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	23	ccomp	_	_
+30	vicino	vicino	ADV	B	_	32	case	_	_
+31	a	a	ADP	E	_	30	fixed	_	_
+32	Lesbo	Lesbo	PROPN	SP	_	29	obl	_	_
+33	quando	quando	SCONJ	CS	_	36	mark	_	_
+34	abbracciavi	abbracciavo	ADV	B	_	36	advmod	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	carne	carne	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+37	martoriata	martoriato	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	40	det	_	_
+40	donne	donna	NOUN	S	Gender=Fem|Number=Plur	36	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	44	det	_	_
+44	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	40	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	36	punct	_	_
+46	e	e	CCONJ	CC	_	49	cc	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	49	det	_	_
+49	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	36	conj	_	_
+50	che	che	PRON	PR	PronType=Rel	53	obj	_	_
+51	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	53	nsubj	_	_
+52	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
+53	accogliere	accogliere	VERB	V	VerbForm=Inf	49	acl:relcl	_	_
+54	in	in	ADP	E	_	55	case	_	_
+55	Europa	Europa	PROPN	SP	_	53	obl	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Questo è il Vangelo che io amo e che voglio continuare a vivere accanto agli ultimi, quelli che tutti scartano".
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Vangelo	Vangelo	PROPN	SP	_	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+10	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	continuare	continuare	VERB	V	VerbForm=Inf	7	conj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	vivere	vivere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	accanto	accanto	ADV	B	_	17	case	_	_
+15-16	agli	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	appos	_	_
+20	che	che	PRON	PR	PronType=Rel	22	obj	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	22	nsubj	_	_
+22	scartano	scartare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = La missiva si conclude con i saluti in maiuscolo:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	missiva	missiva	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+4	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	maiuscolo	maiuscolo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 12
+# text = "TI VOGLIO BENE DAVVERO, TUO MARCO".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	TI	ti	PROPN	SP	_	0	root	_	_
+3	VOGLIO	volere	PROPN	SP	_	2	flat:name	_	_
+4	BENE	Bene	PROPN	SP	_	2	flat:name	_	_
+5	DAVVERO	davvero	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	TUO	tuo	PROPN	SP	_	2	conj	_	_
+8	MARCO	Marco	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Nel post scriptum della lettera c'è un accenno alla croce di monsignor Romero, assassinato il 24 marzo 1980 a El Salvador dagli squadroni della morte mentre celebrava messa:
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	post	post	NOUN	S	_	9	obl	_	_
+4	scriptum	scriptum	NOUN	S	Gender=Masc	3	compound	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	accenno	accenno	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	croce	croce	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	monsignor	monsignore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	Romero	Romero	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19	assassinato	assassinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	24	24	NUM	N	NumType=Card	19	obl	_	_
+22	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	21	flat	_	_
+23	1980	1980	NUM	N	NumType=Card	21	flat	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	El	El	PROPN	SP	_	19	obl	_	_
+26	Salvador	Salvador	PROPN	SP	_	25	flat:name	_	_
+27-28	dagli	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	squadroni	squadrone	NOUN	S	Gender=Masc|Number=Plur	19	obl:agent	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	morte	morte	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	mentre	mentre	SCONJ	CS	_	34	mark	_	_
+34	celebrava	celebrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+35	messa	messa	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 14
+# text = "Ho preso in mano la croce che portava mons.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	croce	croce	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	portava	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	mons	mons	PROPN	SW	Foreign=Yes	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Romero, e non riesco a staccarmene".
+1	Romero	Romero	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-9	staccarmene	_	_	_	_	_	_	_	SpaceAfter=No
+7	staccar	staccarre	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+10	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = La lettera di Pannella venne al Papa da monsignor Paglia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Pannella	Pannella	PROPN	SP	_	2	nmod	_	_
+5	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Papa	Papa	PROPN	SP	_	5	obl	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	monsignor	monsignore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	Paglia	paglia	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Il 2 maggio, giorno del compleanno di Pannella, Francesco mandò in regalo il suo libro sulla Misericordia e una medaglia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	2	2	NUM	N	NumType=Card	13	obl	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	compleanno	compleanno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Pannella	Pannella	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	Francesco	Francesco	PROPN	SP	_	13	nsubj	_	_
+13	mandò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	libro	libro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Misericordia	misericordia	PROPN	SP	_	18	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	medaglia	medaglia	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 18
+# text = Ecco la lettera scritta da #Pannella a #PapaFrancesco :
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	#Pannella	#Pannella	PROPN	SP	_	4	obl:agent	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	#PapaFrancesco	#PapaFrancesco	PROPN	SP	_	4	obl	_	_
+9	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 19
+# text = "Amo il tuo Vangelo degli ultimi" https://t.co/roiD2sKZzk pic.twitter.com/t9x723nues — Famiglia Cristiana (@fam_cristiana) 20 maggio 2016 Il ricordo del Dalai Lama .
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Amo	amare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Vangelo	Vangelo	PROPN	SP	_	2	obj	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	10	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	10	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	10	punct	_	_
+10	https://t.co/roiD2sKZzk	https://t.co/roiD2sKZzk	X	SW	Foreign=Yes	2	obl	_	_
+11	pic.twitter.com/t9x723nues	pic.twitter.com/t9x723nues	X	SW	Foreign=Yes	10	flat:foreign	_	_
+12	—	—	PUNCT	FF	_	10	punct	_	_
+13	Famiglia	Famiglia	PROPN	SP	_	10	nmod	_	_
+14	Cristiana	cristiana	PROPN	SP	_	13	flat:name	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	@fam_cristiana	@fam_cristiano	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	_
+18	20	20	NUM	N	NumType=Card	2	obl	_	_
+19	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	18	flat	_	_
+20	2016	2016	NUM	N	NumType=Card	18	flat	_	_
+21	Il	Il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Dalai	Dalai	PROPN	SP	_	22	nmod	_	_
+26	Lama	lama	PROPN	SP	_	25	flat:name	_	_
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Dopo i numerosissimi messaggi di cordoglio arrivati da tutta la politica italiana (e non solo), oggi a ricordarlo è il Dalai Lama:
+1	Dopo	dopo	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	numerosissimi	numeroso	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	4	amod	_	_
+4	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cordoglio	cordoglio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8	da	da	ADP	E	_	11	case	_	_
+9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	det:predet	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	politica	politica	NOUN	S	Gender=Fem|Number=Sing	7	obl:agent	_	_
+12	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	solo	solo	ADV	B	_	11	conj	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	4	punct	_	_
+19	oggi	oggi	ADV	B	_	21	advmod	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21-22	ricordarlo	_	_	_	_	_	_	_	_
+21	ricordar	ricordare	VERB	V	VerbForm=Inf	0	root	_	_
+22	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Dalai	Dalai	PROPN	SP	_	21	nsubj	_	_
+26	Lama	lama	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	21	punct	_	_
+
+# sent_id = 21
+# text = "Ha espresso profondo dispiacere, si è rattristato e ha pregato per lui", ha detto Tenzin Taklha, segretario del premio Nobel per la pace.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	espresso	espresso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	dispiacere	dispiacere	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rattristato	rattristare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	pregato	pregare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+19	Tenzin	Tenzin	PROPN	SP	_	18	nsubj	_	_
+20	Taklha	Taklha	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	19	appos	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	premio	premio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	Nobel	Nobel	PROPN	SP	_	25	nmod	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	pace	pace	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 22
+# text = Il leader spirituale del popolo tibetano il 14 marzo scorso aveva inviato un messaggio a Pannella nel quale esprimeva il suo dispiacere per l'aggravarsi delle sue condizioni di salute.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	leader	leader	NOUN	S	_	7	nsubj	_	_
+3	spirituale	spirituale	ADJ	A	Number=Sing	2	amod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	tibetano	tibetare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	14	14	NUM	N	NumType=Card	7	obl	_	_
+10	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	9	flat	_	_
+11	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	inviato	inviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Pannella	Pannella	PROPN	SP	_	13	obl	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	quale	quale	PRON	PR	Number=Sing|PronType=Rel	21	obl	_	_
+21	esprimeva	esprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	dispiacere	dispiacere	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27-28	aggravarsi	_	_	_	_	_	_	_	_
+27	aggravar	aggravar	VERB	V	VerbForm=Inf	24	acl	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+31	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	salute	salute	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 23
+# text = "Come sai, ti considero un amico personale e un inamovibile amico del popolo tibetano di lunga data - aveva scritto nel messaggio - Ho molto apprezzato il tuo interesse e supporto per la causa tibetana, come ho avuto modo di dirti ogni volta che ne ho avuto l'occasione".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Come	come	SCONJ	CS	_	3	mark	_	_
+3	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	expl	_	_
+6	considero	considerare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	amico	amico	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	personale	personale	ADJ	A	Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	inamovibile	inamovibile	ADJ	A	Number=Sing	13	amod	_	_
+13	amico	amico	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	tibetano	tibetano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	data	data	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	-	-	PUNCT	FF	_	23	punct	_	_
+22	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	-	-	PUNCT	FF	_	23	punct	_	_
+28	Ho	Ho	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	molto	molto	ADV	B	_	30	advmod	_	_
+30	apprezzato	apprezzato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	supporto	supporto	NOUN	S	Gender=Masc|Number=Sing	33	conj	_	_
+36	per	per	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	causa	causa	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+39	tibetana	tibetano	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	30	punct	_	_
+41	come	come	SCONJ	CS	_	43	mark	_	_
+42	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	_
+44	modo	modo	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+45	di	di	ADP	E	_	46	mark	_	_
+46-47	dirti	_	_	_	_	_	_	_	_
+46	dir	dire	VERB	V	VerbForm=Inf	44	acl	_	_
+47	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	46	iobj	_	_
+48	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	49	det	_	_
+49	volta	volta	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	_
+50	che	che	SCONJ	CS	_	53	mark	_	_
+51	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	53	iobj	_	_
+52	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	53	aux	_	_
+53	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	acl	_	_
+54	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
+55	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	53	obj	_	SpaceAfter=No
+56	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Marco Pannella, una vita da radicale - la fotostoria Segni:
+1	Marco	Marco	PROPN	SP	_	0	root	_	_
+2	Pannella	Pannella	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	radicale	radicale	NOUN	S	Number=Sing	5	nmod	_	_
+8	-	-	PUNCT	FB	_	10	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fotostoria	fotostoria	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	Segni	segni	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 25
+# text = "Combattente indomabile" . Mario Segni commenta così da San Francisco:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Combattente	Combattente	NOUN	S	Number=Sing	8	nsubj	_	_
+3	indomabile	indomabile	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5	.	.	PUNCT	FF	_	2	punct	_	_
+6	Mario	Mario	PROPN	SP	_	2	nmod	_	_
+7	Segni	segni	PROPN	SP	_	6	flat:name	_	_
+8	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	così	così	ADV	B	_	8	advmod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	San	San	PROPN	SP	_	8	obl	_	_
+12	Francisco	Francisco	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 26
+# text = "È morto un combattente indomabile e per me un amico.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	combattente	combattente	NOUN	S	Number=Sing	3	nsubj	_	_
+6	indomabile	indomabile	ADJ	A	Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	nmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Abbiamo fatto assieme le grandi battaglie per la riforma elettorale e dello stato e ci siamo scontrati almeno mille volte, ma di politici come lui ne ho conosciuti pochi.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	assieme	assieme	ADV	B	_	2	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	grandi	grande	ADJ	A	Number=Plur	6	amod	_	_
+6	battaglie	battaglia	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	elettorale	elettorale	ADJ	A	Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	dello	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	stato	stato	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+17	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	scontrati	scontrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+19	almeno	almeno	ADV	B	_	20	advmod	_	_
+20	mille	mille	NUM	N	NumType=Card	21	nummod	_	_
+21	volte	volta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	30	punct	_	_
+23	ma	ma	CCONJ	CC	_	30	cc	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	politici	politico	NOUN	S	Gender=Masc|Number=Plur	30	obl	_	_
+26	come	come	ADP	E	_	27	case	_	_
+27	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+28	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	30	iobj	_	_
+29	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	conosciuti	conoscere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+31	pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Mi mancherà e soprattutto mancherà all'italia.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	mancherà	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	soprattutto	soprattutto	ADV	B	_	5	advmod	_	_
+5	mancherà	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	italia	italia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Ciao Marco!".
+1	Ciao	ciao	PROPN	SP	_	0	root	_	_
+2	Marco	Marco	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 30
+# text = Addio a Marco Pannella, da Vasco a Renzi e a Berlusconi:
+1	Addio	Addio	INTJ	I	_	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Marco	Marco	PROPN	SP	_	1	obl	_	_
+4	Pannella	Pannella	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Vasco	Vasco	PROPN	SP	_	3	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Renzi	Renzi	PROPN	SP	_	3	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Berlusconi	Berlusconi	PROPN	SP	_	3	conj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 31
+# text = le ultime visite al leader radicale Bordin a Radio Radicale .
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	3	amod	_	_
+3	visite	visita	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	leader	leader	NOUN	S	_	3	nmod	_	_
+7	radicale	radicale	ADJ	A	Number=Sing	6	amod	_	_
+8	Bordin	Bordin	PROPN	SP	_	6	nmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Radio	radio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	Radicale	radicale	ADJ	A	Number=Sing	10	amod	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 32
+# text = Questa mattina Massimo Boldrin, sto Pannella, Bordin (Radio Radicale):
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	Massimo	Massimo	PROPN	SP	_	2	nmod	_	_
+4	Boldrin	Boldrin	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	sto	stare	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+7	Pannella	Pannella	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	Bordin	Bordin	PROPN	SP	_	6	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Radio	radio	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+12	Radicale	radicale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 33
+# text = ''Doveva morire per ottenere attenzione''.
+1	''	''	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	Doveva	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	morire	morire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	ottenere	ottenere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	''	''	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

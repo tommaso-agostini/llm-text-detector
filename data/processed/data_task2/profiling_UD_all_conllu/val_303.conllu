@@ -1,0 +1,403 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E' un'iniziativa di Dynamo Camp , organizzazione che offre esperienze di terapia ricreativa.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Dynamo	dynamo	PROPN	SP	_	3	nmod	_	_
+6	Camp	Camp	PROPN	SP	_	5	flat:name	_	_
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	5	appos	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	offre	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	ricreativa	ricreativo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Per partecipare alla raccolta.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	partecipare	partecipare	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E' sufficiente inviare un SMS al numero solidale 45501 o chiamare da rete fissa.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sufficiente	sufficiente	ADJ	A	Number=Sing	0	root	_	_
+3	inviare	inviare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	SMS	SMS	NOUN	S	_	3	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	numero	numero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9	solidale	solidale	ADJ	A	Number=Sing	8	amod	_	_
+10	45501	45501	NUM	N	NumType=Card	8	nummod	_	_
+11	o	o	CCONJ	CC	_	12	cc	_	_
+12	chiamare	chiamare	VERB	V	VerbForm=Inf	10	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	rete	rete	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	fissa	fisso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La campagna ruota intorno all'hashtag #piccoloeroe , a ricordare che un bambino malato è un eroe capace di grandi imprese.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	ruota	ruotare	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	_
+4	intorno	intorno	ADV	B	_	7	case	_	_
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	4	fixed	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	hashtag	hashtag	NOUN	S	Gender=Masc	2	nmod	_	_
+8	#piccoloeroe	#piccoloeroe	ADJ	A	Number=Sing	7	amod	_	_
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	ricordare	ricordare	VERB	V	VerbForm=Inf	2	acl	_	_
+12	che	che	SCONJ	CS	_	18	mark	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+15	malato	malato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	eroe	eroe	NOUN	S	Gender=Masc|Number=Sing	11	ccomp	_	_
+19	capace	capace	ADJ	A	Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	grandi	grande	ADJ	A	Number=Plur	22	amod	_	_
+22	imprese	impresa	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = E l'avventura Dynamo lo aiuterà a diventare ancora più forte.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	avventura	avventura	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	Dynamo	dynamo	PROPN	SP	_	3	nmod	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	aiuterà	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	diventare	diventare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	ancora	ancora	ADV	B	_	10	advmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	forte	forte	ADJ	A	Number=Sing	8	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Sul sito dell'organizzazione chiunque può "metterci la faccia", raccontando e personalizzando il proprio impegno a favore di Dynamo Camp e condividendo sui propri profili social.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sito	sito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	10	nsubj	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10-11	metterci	_	_	_	_	_	_	_	_
+10	metter	mettere	VERB	V	VerbForm=Inf	0	root	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	expl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	raccontando	raccontare	VERB	V	VerbForm=Ger	10	advcl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	personalizzando	personalizzare	VERB	V	VerbForm=Ger	16	conj	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	favore	favore	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Dynamo	dynamo	PROPN	SP	_	23	nmod	_	_
+26	Camp	Camp	PROPN	SP	_	25	flat:name	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	condividendo	condividere	VERB	V	VerbForm=Ger	25	conj	_	_
+29-30	sui	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	32	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	profili	profilo	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+33	social	social	ADJ	A	Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = La campagna su Radio Capital.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	su	su	ADP	E	_	4	case	_	_
+4	Radio	radio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	Capital	Capital	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Da lunedì 2 a domenica 8 marzo la campagna è sostenuta anche da Radio Capial , con richiami e ospiti in numerose trasmissioni.
+1	Da	da	ADP	E	_	2	case	_	_
+2	lunedì	lunedì	NOUN	S	Gender=Masc	11	obl	_	_
+3	2	2	NUM	N	NumType=Card	2	nummod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	8	8	NUM	N	NumType=Card	5	nmod	_	_
+7	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	sostenuta	sostenere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	anche	anche	ADV	B	_	14	advmod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	Radio	radio	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	_
+15	Capial	Capial	PROPN	SP	_	14	nmod	_	_
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	richiami	richiamo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	ospiti	ospite	NOUN	S	Number=Plur	18	conj	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	numerose	numeroso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	trasmissioni	trasmissione	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 9
+# text = Ad esempio, martedì 3 marzo nel programma "Il geco e la farfalla" , collegamento con lo staff di Radio Dynamo impegnato a Verona a portare la terapia ricreativa in ospedale e case famiglia.
+1	Ad	a	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	martedì	martedì	NOUN	S	Gender=Masc	0	root	_	_
+5	3	3	NUM	N	NumType=Card	4	nmod	_	_
+6	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	programma	programma	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	geco	geco	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	farfalla	farfalla	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	12	punct	_	_
+17	,	,	PUNCT	FF	_	9	punct	_	_
+18	collegamento	collegamento	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	staff	staff	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Radio	radio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+24	Dynamo	dynamo	PROPN	SP	_	23	nmod	_	_
+25	impegnato	impegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	Verona	Verona	PROPN	SP	_	25	obl	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	portare	portare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	ricreativa	ricreativo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	case	casa	NOUN	S	Gender=Fem|Number=Plur	34	conj	_	_
+37	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	36	compound	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Sabato 7 marzo a Capital Week end testimonianza di un artista volontario di Art Factory, progetto che impegna i bambini nella realizzazione di opere uniche.
+1	Sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	7	7	NUM	N	NumType=Card	1	nmod	_	_
+3	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Capital	Capital	PROPN	SP	_	1	nmod	_	_
+6	Week	Week	PROPN	SP	_	5	flat:name	_	_
+7	end	end	CCONJ	CC	_	8	cc	_	_
+8	testimonianza	testimonianza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	artista	artista	NOUN	S	Number=Sing	8	nmod	_	_
+12	volontario	volontario	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Art	Art	PROPN	SP	_	11	nmod	_	_
+15	Factory	Factory	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	impegna	impegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	realizzazione	realizzazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	opere	opera	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+27	uniche	unico	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Nell'oasi del WWF.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	oasi	oasi	NOUN	S	Gender=Fem	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	WWF	WWF	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = I programmi estivi di Dynamo Camp sono sette e ognuno accoglie circa 85 bambini e ragazzi, provenienti da tutta Italia, affetti da patologie gravi e croniche.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	estivi	estivo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Dynamo	dynamo	PROPN	SP	_	2	nmod	_	_
+6	Camp	Camp	PROPN	SP	_	5	flat:name	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	sette	sette	NUM	N	NumType=Card	0	root	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	ognuno	ognuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+11	accoglie	accogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	circa	circa	ADV	B	_	11	advmod	_	_
+13	85	85	NUM	N	NumType=Card	14	nummod	_	_
+14	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	8	conj	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	tutta	tutto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	Italia	Italia	PROPN	SP	_	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	affetti	affetto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	patologie	patologia	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+26	gravi	grave	ADJ	A	Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	croniche	cronico	ADJ	A	Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Un programma specifico è dedicato a loro fratelli e sorelle sani (Siblings).
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programma	programma	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	specifico	specifico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	dedicato	dedicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	fratelli	fratello	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	sorelle	sorella	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	_
+11	sani	sano	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Siblings	Siblings	PROPN	SP	_	10	appos	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Il periodo a Dynamo Camp, che dura 9 giorni, è più di una semplice vacanza:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Dynamo	dynamo	PROPN	SP	_	2	nmod	_	_
+5	Camp	Camp	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	dura	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	9	9	NUM	N	NumType=Card	10	nummod	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+13	più	più	ADV	B	_	17	advmod	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	semplice	semplice	ADJ	A	Number=Sing	17	amod	_	_
+17	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	17	punct	_	_
+
+# sent_id = 15
+# text = è un'esperienza basata sull'approccio scientifico della terapia ricreativa:
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	basata	basato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+5	su	su	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	scientifico	scientifico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+12	ricreativa	ricreativo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 16
+# text = attraverso attività divertenti ed emozionanti si contribuisce a rinnovare in questi bambini e ragazzi la fiducia in se stessi e nelle proprie possibilità, aiutandoli nell'affrontare la vita e la malattia.
+1	attraverso	attraverso	ADP	E	_	2	case	_	_
+2	attività	attività	NOUN	S	Gender=Fem	7	obl	_	_
+3	divertenti	divertente	ADJ	A	Number=Plur	2	amod	_	_
+4	ed	e	CCONJ	CC	_	5	cc	_	_
+5	emozionanti	emozionante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	conj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	contribuisce	contribuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	rinnovare	rinnovare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	se	se	NOUN	S	Gender=Masc	9	obl	_	_
+19	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21-22	nelle	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	24	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	possibilità	possibilità	NOUN	S	Gender=Fem	18	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	7	punct	_	_
+26-27	aiutandoli	_	_	_	_	_	_	_	_
+26	aiutando	aiutare	VERB	V	VerbForm=Ger	7	advcl	_	_
+27	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+28-29	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	in	in	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	affrontare	affrontare	VERB	V	VerbForm=Inf	26	obl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	vita	vita	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Dynamo Camp è situato in un'oasi affiliata WWF in provincia di Pistoia.
+1	Dynamo	dynamo	PROPN	SP	_	4	nsubj:pass	_	_
+2	Camp	Camp	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	situato	situare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	oasi	oasi	NOUN	S	Gender=Fem	4	obl	_	_
+8	affiliata	affiliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	WWF	WWF	PROPN	SP	_	8	xcomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Pistoia	Pistoia	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

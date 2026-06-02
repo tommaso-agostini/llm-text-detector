@@ -1,0 +1,297 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È un ruolo di tutto rispetto, a lui infatti l'arduo compito di coordinarli e tenerli d'occhio.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	rispetto	rispetto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+10	infatti	infatti	ADV	B	_	13	advmod	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	arduo	arduo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	compito	compito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	coordinarli	_	_	_	_	_	_	_	_
+15	coordinar	coordinare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18-19	tenerli	_	_	_	_	_	_	_	_
+18	tener	tenere	VERB	V	VerbForm=Inf	15	conj	_	_
+19	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Luciano Casamonica è nipote del defunto boss Vittorio Casamonica che aveva ricevuto funerali reali (non a caso era chiamato Re di Roma) appena tre anni fa.
+1	Luciano	Luciano	PROPN	SP	_	4	nsubj	_	_
+2	Casamonica	Casamonica	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	nipote	nipote	NOUN	S	Number=Sing	0	root	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	defunto	defunto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	boss	boss	NOUN	S	Gender=Masc	4	nmod	_	_
+9	Vittorio	Vittorio	PROPN	SP	_	8	nmod	_	_
+10	Casamonica	Casamonica	PROPN	SP	_	9	flat:name	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	funerali	funerale	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	reali	reale	ADJ	A	Number=Plur	14	amod	_	_
+16	(	(	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	caso	caso	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux:pass	_	_
+21	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+22	Re	re	PROPN	SP	_	21	xcomp	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Roma	Roma	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	21	punct	_	_
+26	appena	appena	ADV	B	_	28	advmod	_	_
+27	tre	tre	NUM	N	NumType=Card	28	nummod	_	_
+28	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+29	fa	fa	ADV	B	_	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Un carro nero con tanto di cocchiere, petali gettati da un elicottero e la colonna sonora scritta da Nino Rota per Il Padrino ad accompagnare il corteo.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	carro	carro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	nero	nero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	tanto	tanto	ADV	B	_	2	advmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cocchiere	cocchiere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	petali	petale	ADJ	A	Number=Plur	7	amod	_	_
+10	gettati	gettare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	elicottero	elicottero	NOUN	S	Gender=Masc|Number=Sing	10	obl:agent	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	colonna	colonna	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+17	sonora	sonoro	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	Nino	nino	PROPN	SP	_	18	obl:agent	_	_
+21	Rota	Rota	PROPN	SP	_	20	flat:name	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Padrino	Padrino	PROPN	SP	_	18	obl	_	_
+25	ad	a	ADP	E	_	26	mark	_	_
+26	accompagnare	accompagnare	VERB	V	VerbForm=Inf	24	acl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	corteo	corteo	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = "Lucky Luciano" ha 61 anni ed è stato arrestato in passato per spaccio di sostanze stupefacenti.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Lucky	Lucky	PROPN	SP	_	5	nsubj	_	_
+3	Luciano	Luciano	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	61	61	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+8	ed	e	CCONJ	CC	_	11	cc	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	passato	passato	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	spaccio	spaccio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	sostanze	sostanza	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	stupefacenti	stupefacente	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Cattleya, la società che si è occupata dell'ingaggio ha confermato la presenza del Casamonica in Suburra spiegando che lo stesso ha avuto " esperienze pregresse nell'industria cinematografica ".
+1	Cattleya	Cattleya	PROPN	SP	_	13	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	società	società	NOUN	S	Gender=Fem	13	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	occupata	occupare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	ingaggio	ingaggio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Casamonica	Casamonica	PROPN	SP	_	15	nmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Suburra	Suburra	PROPN	SP	_	13	obl	_	_
+21	spiegando	spiegare	VERB	V	VerbForm=Ger	13	advcl	_	_
+22	che	che	SCONJ	CS	_	26	mark	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	26	nsubj	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	_	_
+27	"	"	PUNCT	FB	_	28	punct	_	_
+28	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	pregresse	pregresso	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+30-31	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+30	in	in	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	industria	industria	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+33	cinematografica	cinematografico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Recitò da bambino in un western con Orson Welles e Tomas Milian, quindi questa potrebbe essere una buona opportunità per riscattarsi e ottenere un ingaggio onesto.
+1	Recitò	recitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	western	western	NOUN	S	Gender=Masc	1	obl	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Orson	Orson	PROPN	SP	_	6	nmod	_	_
+9	Welles	Welles	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Tomas	Tomas	PROPN	SP	_	8	conj	_	_
+12	Milian	Milian	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	quindi	quindi	CCONJ	CC	_	17	cc	_	_
+15	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	17	nsubj	_	_
+16	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	essere	essere	VERB	V	VerbForm=Inf	1	conj	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	buona	buono	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	opportunità	opportunità	NOUN	S	Gender=Fem	17	xcomp	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22-23	riscattarsi	_	_	_	_	_	_	_	_
+22	riscattar	riscattare	VERB	V	VerbForm=Inf	20	acl	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	ottenere	ottenere	VERB	V	VerbForm=Inf	22	conj	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ingaggio	ingaggio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	onesto	onesto	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Quanti soldi guadagnerà non ci è dato sapere, lui ha rilasciato queste frasi a L'Espresso :"
+1	Quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	2	det	_	_
+2	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+3	guadagnerà	guadagnere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	sapere	sapere	VERB	V	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+13	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	frasi	frase	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	Espresso	espresso	PROPN	SP	_	12	obl	_	_
+18	:	:	PUNCT	FC	_	3	punct	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sì è vero, sto lavorando alle riprese di Suburra 2 con un ruolo che mi hanno dato e che ho accettato volentieri.
+1	Sì	sì	INTJ	I	Polarity=Pos	3	discourse	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lavorando	lavorare	VERB	V	VerbForm=Ger	3	csubj	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	riprese	ripresa	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Suburra	Suburra	PROPN	SP	_	9	nmod	_	_
+12	2	2	NUM	N	NumType=Card	11	flat:name	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+18	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+22	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+24	volentieri	volentieri	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Sa, qui mi pagano bene… ".
+1	Sa	sapere	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	qui	qui	ADV	B	_	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	pagano	paere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bene…	bene…	PUNCT	FF	_	5	punct	_	_
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Luciano Casamonica ha ribadito più volte che non esiste la mafia a Roma, e che nonostante i giornali dicano il contrario non c'è alcun collegamento del suo clan con i forti poteri che gestiscono la capitale.
+1	Luciano	Luciano	PROPN	SP	_	4	nsubj	_	_
+2	Casamonica	Casamonica	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ribadito	ribadire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mafia	mafia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Roma	Roma	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	e	e	CCONJ	CC	_	20	cc	_	_
+16	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+17	nonostante	nonostante	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+20	dicano	dicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+23	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+24	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	25	expl	_	SpaceAfter=No
+25	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+26	alcun	alcun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	collegamento	collegamento	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	clan	clan	NOUN	S	Gender=Masc	27	nmod	_	_
+32	con	con	ADP	E	_	35	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	forti	forte	ADJ	A	Number=Plur	35	amod	_	_
+35	poteri	potere	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+36	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+37	gestiscono	gestire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

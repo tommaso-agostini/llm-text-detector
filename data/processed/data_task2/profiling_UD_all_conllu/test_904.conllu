@@ -1,0 +1,831 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Originario di Marostica, il giovane si sarebbe laureato in ingegneria energetica a Padova appena un anno fa.
+1	Originario	Originario	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Marostica	Marostica	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giovane	giovane	NOUN	S	Number=Sing	9	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	ingegneria	ingegneria	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	energetica	energetico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Padova	Padova	PROPN	SP	_	9	obl	_	_
+15	appena	appena	ADV	B	_	17	advmod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+18	fa	fa	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 2
+# text = Era in vacanza nella città catalana con la fidanzata, Marta Scomazzon : anche la ragazza sarebbe stata travolta dal furgone ed è ferita in modo non grave.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	città	città	NOUN	S	Gender=Fem	3	obl	_	_
+7	catalana	catalano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	Marta	Marta	PROPN	SP	_	6	nmod	_	_
+13	Scomazzon	Scomazzon	PROPN	SP	_	12	flat:name	_	_
+14	:	:	PUNCT	FC	_	3	punct	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+18	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	travolta	travolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	furgone	furgone	NOUN	S	Gender=Masc|Number=Sing	20	obl:agent	_	_
+24	ed	e	CCONJ	CC	_	26	cc	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	ferita	ferire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	modo	modo	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	grave	grave	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = I due prestavano insieme servizio di volontariato presso la Croce Verde di Bassano.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nsubj	_	_
+3	prestavano	prestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	insieme	insieme	ADP	E	_	5	case	_	_
+5	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	volontariato	volontariato	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	presso	presso	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Croce	croce	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+11	Verde	verde	ADJ	A	Number=Sing	10	amod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Bassano	Bassano	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Marta si trova in un ospedale della città spagnola con un piede e un gomito fratturati.
+1	Marta	Marta	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	6	nmod	_	_
+10	spagnola	spagnolo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	piede	piede	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	gomito	gomito	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+17	fratturati	fratturato	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Lo riferiscono fonti vicine alla famiglia.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	riferiscono	riferire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	fonti	fonte	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+4	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = I genitori di Marta sono già partiti per Barcellona.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Marta	Marta	PROPN	SP	_	2	nmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	già	già	ADV	B	_	7	advmod	_	_
+7	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	Barcellona	Barcellona	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = "Stavamo camminando assieme poi ci è venuto addosso il pulmino:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Stavamo	Stare	PROPN	SP	_	0	root	_	_
+3	camminando	camminare	VERB	V	VerbForm=Ger	2	acl	_	_
+4	assieme	assieme	ADV	B	_	8	advmod	_	_
+5	poi	poi	ADV	B	_	8	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+9	addosso	addosso	ADV	B	_	8	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pulmino	pulmino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 8
+# text = io sono caduta e mi sono accorta che Luca non c'era più, non l'ho più visto da quel momento, il suo corpo è stato spazzato via".
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	accorta	accorgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+8	che	che	SCONJ	CS	_	12	mark	_	_
+9	Luca	Luca	PROPN	SP	_	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+13	più	più	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+17	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	momento	momento	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	29	punct	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	29	nsubj:pass	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	spazzato	spazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+30	via	via	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Questo il racconto di Marta in ospedale.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Marta	Marta	PROPN	SP	_	3	nmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = La conferma della morte di Luca Russo e dell'altro giovane italiano, Bruno Gulotta, è arrivata intorno alle 13.30.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	morte	morte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Luca	Luca	PROPN	SP	_	5	nmod	_	_
+8	Russo	russo	PROPN	SP	_	7	flat:name	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	13	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	altro	altro	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	giovane	giovane	NOUN	S	Number=Sing	7	conj	_	_
+14	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	Bruno	Bruno	PROPN	SP	_	13	appos	_	_
+17	Gulotta	Gulotto	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	intorno	intorno	ADV	B	_	24	case	_	_
+22-23	alle	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	21	fixed	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	13.30	13.30	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 11
+# text = Con il capo dell'Unità di crisi della Farnesina che ai microfoni del Tg1 ha detto:
+1	Con	con	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	capo	capo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Unità	unità	NOUN	S	Gender=Fem	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem	6	nmod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Farnesina	Farnesina	PROPN	SP	_	6	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	microfoni	microfone	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Tg1	Tg1	PROPN	SP	_	15	nmod	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = "Confermo le due vittime italiane.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Confermo	Confermo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Siamo in contatto con i loro familiari e li stiamo assistendo.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	familiari	familiare	NOUN	S	Number=Plur	3	nmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+10	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	assistendo	assistere	VERB	V	VerbForm=Ger	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Ci sono stati anche tre feriti, due dei quali sono stati dimessi.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	feriti	ferito	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	due	due	NUM	N	NumType=Card	14	nsubj:pass	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	quali	quale	PRON	PR	Number=Plur|PronType=Rel	8	nmod	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	dimessi	dimettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = La terza, Marta, è la fidanzata di Luca Russo, ed è ancora ricoverata in ospedale".
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Marta	Marta	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Luca	Luca	PROPN	SP	_	8	nmod	_	_
+11	Russo	russo	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ed	e	CCONJ	CC	_	16	cc	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	ancora	ancora	ADV	B	_	16	advmod	_	_
+16	ricoverata	ricoverare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 16
+# text = Intanto sul profilo Facebook della sorella è apparso un appello:
+1	Intanto	intanto	ADV	B	_	10	advmod	_	_
+2-3	sul	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5	Facebook	Facebook	PROPN	SP	_	4	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	apparso	apparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	appello	appello	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 17
+# text = "Aiutatemi a riportarlo a casa".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2-3	Aiutatemi	_	_	_	_	_	_	_	_
+2	Aiutate	Aiutare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	riportarlo	_	_	_	_	_	_	_	_
+5	riportar	riportare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Un messaggio che ha scosso tanti:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scosso	scuotere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 19
+# text = fra le molte dichiarazioni di cordogliom anche quella di Roberta Capelli, nuora dei coniugi di Voghera uccisi nell'attentato di Nizza, che ha scritto:
+1	fra	fra	ADP	E	_	4	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	dichiarazioni	dichiarazione	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	cordogliom	cordogliom	NOUN	S	Gender=Masc	4	nmod	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Roberta	Roberta	PROPN	SP	_	8	nmod	_	_
+11	Capelli	capelli	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	nuora	nuora	ADV	B	_	16	case	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	13	fixed	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	coniugi	coniuge	NOUN	S	Number=Plur	10	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Voghera	Voghera	PROPN	SP	_	16	nmod	_	_
+19	uccisi	uccidere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+20-21	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+20	in	in	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Nizza	Nizza	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	22	punct	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 20
+# text = "Mi dispiace tanto.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Io e la mia famiglia vi siamo vicini e capiamo il vostro dolore.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+7	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	vicini	vicino	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	capiamo	capire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = Vi abbraccio forte anche a nome di mio marito e degli altri italiani coinvolti a Nizza".
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+2	abbraccio	abbrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	forte	forte	ADJ	A	Number=Sing	2	xcomp	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	nome	nome	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	marito	marito	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11-12	degli	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	altri	altro	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+15	coinvolti	coinvolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Nizza	Nizza	PROPN	SP	_	15	obl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Un attentanto, quello francese, che aveva molto colpito Luca.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	attentanto	attentanto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	_
+5	francese	francese	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11	Luca	Luca	PROPN	SP	_	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Tanto che quel giorno aveva postato una foto:
+1	Tanto	tanto	ADV	B	_	6	mark	_	_
+2	che	che	SCONJ	CS	_	1	fixed	_	_
+3	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	postato	postare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	foto	foto	NOUN	S	Gender=Fem	6	obj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 25
+# text = quella della bambola di una delle giovani vittime scrivendo:
+1	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	bambola	bambola	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	nmod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	giovani	giovane	ADJ	A	Number=Plur	10	amod	_	_
+10	vittime	vittima	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+11	scrivendo	scrivere	VERB	V	VerbForm=Ger	1	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 26
+# text = "Don't pray: think! ", non pregare, pensa.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Don	Don	X	SW	Foreign=Yes	0	root	_	SpaceAfter=No
+3	't	't	X	SW	Foreign=Yes	2	flat:foreign	_	_
+4	pray	pray	X	SW	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+6	think	think	NOUN	S	Gender=Masc	2	appos	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	_
+8	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	pregare	pregare	VERB	V	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Luca Russo il giorno della laurea Numerosi amici stanno invece lasciando un ultimo saluto sotto quello che è invece l'ultimo messaggio che il ragazzo aveva postato sul suo profilo Facebook e che oggi suona sinistramente profetico:
+1	Luca	Luca	PROPN	SP	_	12	nsubj	_	_
+2	Russo	ruttere	PROPN	SP	_	1	flat:name	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\s\s
+8	Numerosi	numeroso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	amici	amico	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	invece	invece	ADV	B	_	12	advmod	_	_
+12	lasciando	lasciare	VERB	V	VerbForm=Ger	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	sotto	sotto	ADP	E	_	17	case	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	invece	invece	ADV	B	_	19	advmod	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+22	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+24	che	che	PRON	PR	PronType=Rel	28	obj	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+27	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	postato	postare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+29-30	sul	_	_	_	_	_	_	_	_
+29	su	su	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+33	Facebook	Facebook	PROPN	SP	_	32	nmod	_	_
+34	e	e	CCONJ	CC	_	37	cc	_	_
+35	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+36	oggi	oggi	ADV	B	_	37	advmod	_	_
+37	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+38	sinistramente	sinistramente	ADV	B	_	39	advmod	_	_
+39	profetico	profetico	ADJ	A	Gender=Masc|Number=Sing	37	xcomp	_	SpaceAfter=No
+40	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 28
+# text = "Nasciamo senza portare nulla, moriamo senza portare via nulla.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Nasciamo	Nascare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	senza	senza	ADP	E	_	4	mark	_	_
+4	portare	portare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	moriamo	morire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	senza	senza	ADP	E	_	9	mark	_	_
+9	portare	portare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	via	via	ADV	B	_	9	advmod	_	_
+11	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 29
+# text = Ed in mezzo litighiamo per possedere qualcosa".
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	litighiamo	litighare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	possedere	possedere	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	6	obj	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Anche il Presidente della regione veneto Luca Zaia, ha ricordato il giovane postando un messaggio su Facebook:
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Presidente	Presidente	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	regione	regione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	veneto	veneto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	Luca	Luca	PROPN	SP	_	6	nmod	_	_
+9	Zaia	Zaia	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	giovane	giovane	NOUN	S	Number=Sing	12	obj	_	_
+15	postando	postare	VERB	V	VerbForm=Ger	12	advcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	su	su	ADP	E	_	19	case	_	_
+19	Facebook	Facebook	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	12	punct	_	_
+
+# sent_id = 31
+# text = "Il Veneto perde uno dei suoi figli e la memoria non può che ritornare all'attentato del Bataclan, in cui è stata barbaramente uccisa la nostra Valeria Solesin".Aggiungendo:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Veneto	Veneto	PROPN	SP	_	4	nsubj	_	_
+4	perde	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	e	e	CCONJ	CC	_	16	cc	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	ritornare	ritornare	VERB	V	VerbForm=Inf	4	conj	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Bataclan	Bataclan	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	16	punct	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+26	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+27	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
+28	barbaramente	barbaro	ADV	B	_	29	advmod	_	_
+29	uccisa	uccidere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	Valeria	Valeria	PROPN	SP	_	29	nsubj:pass	_	_
+33	Solesin	Solesin	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+35	.Aggiungendo	.aggiungendo	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	29	punct	_	_
+
+# sent_id = 32
+# text = "Ho dato disposizioni affinché le bandiere dei palazzi regionali siano poste a mezz'asta in segno di lutto per Luca, alla cui famiglia ci stringiamo con sincero affetto, assicurando che la Regione è a disposizione per qualsiasi necessità".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	disposizioni	disposizione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+5	affinché	affinché	SCONJ	CS	_	13	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	bandiere	bandiera	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	palazzi	palazzo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	regionali	regionale	ADJ	A	Number=Plur	10	amod	_	_
+12	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	poste	porre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	mezz'	mezzo	DET	DD	Number=Sing|PronType=Dem	16	det	_	SpaceAfter=No
+16	asta	asta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	segno	segno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	per	per	ADP	E	_	22	case	_	_
+22	Luca	Luca	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	3	punct	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	27	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	cui	cui	DET	DR	PronType=Rel	27	det:poss	_	_
+27	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+28	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	29	expl	_	_
+29	stringiamo	stringere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+30	con	con	ADP	E	_	31	case	_	_
+31	sincero	sincero	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+32	affetto	affetto	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	29	punct	_	_
+34	assicurando	assicurare	VERB	V	VerbForm=Ger	29	advcl	_	_
+35	che	che	SCONJ	CS	_	40	mark	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	40	nsubj	_	_
+38	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	a	a	ADP	E	_	40	case	_	_
+40	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	34	ccomp	_	_
+41	per	per	ADP	E	_	43	case	_	_
+42	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	43	det	_	_
+43	necessità	necessità	NOUN	S	Gender=Fem	40	obl	_	SpaceAfter=No
+44	"	"	PUNCT	FB	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 33
+# text = L'intera comunità di Bassano del Grappa, dove si sta già organizzando per stasera una fiaccolata in onore del ragazzo, si stringe intorno alla sua famiglia.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	intera	intero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	comunità	comunità	NOUN	S	Gender=Fem	26	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Bassano	Bassano	PROPN	SP	_	3	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Grappa	Grappa	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	dove	dove	ADV	B	_	14	advmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+12	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	già	già	ADV	B	_	14	advmod	_	_
+14	organizzando	organizzare	VERB	V	VerbForm=Ger	26	advcl	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	stasera	stasera	ADV	B	_	14	advmod	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	fiaccolata	fiaccolata	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	onore	onore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	14	punct	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+26	stringe	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	intorno	intorno	ADV	B	_	31	case	_	_
+28-29	alla	_	_	_	_	_	_	_	_
+28	a	a	ADP	E	_	27	fixed	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 34
+# text = "Non conoscevo direttamente Luca ma quello che mi stanno raccontando i suoi amici è toccante" dice il sindaco Riccardo Poletto.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	direttamente	direttamente	ADV	B	_	3	advmod	_	_
+5	Luca	Luca	PROPN	SP	_	3	obj	_	_
+6	ma	ma	CCONJ	CC	_	16	cc	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	raccontando	raccontare	VERB	V	VerbForm=Ger	7	acl:relcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	amici	amico	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	toccante	toccare	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	3	punct	_	_
+18	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+21	Riccardo	Riccardo	PROPN	SP	_	20	nmod	_	_
+22	Poletto	Poletto	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = "Tutti me lo descrivono come un ragazzo eccezionale che aveva veramente voglia di fare e di fare bene".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	obl	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	descrivono	descrivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	come	come	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	eccezionale	eccezionale	ADJ	A	Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12	veramente	veramente	ADV	B	_	13	advmod	_	_
+13	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	15	conj	_	_
+19	bene	bene	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 36
+# text = La città, racconta il primo cittadino, è incredula:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	cittadino	cittadino	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	incredula	incredulare	ADJ	A	Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 37
+# text = "Lo sbigottimento e l'incredulità erano già grandi ieri quando non ci si capacitava di quello che era accaduto.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sbigottimento	sbigottimento	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	incredulità	incredulità	NOUN	S	Gender=Fem	3	conj	_	_
+7	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	già	già	ADV	B	_	9	advmod	_	_
+9	grandi	grande	ADJ	A	Number=Plur	0	root	_	_
+10	ieri	ieri	ADV	B	_	9	advmod	_	_
+11	quando	quando	SCONJ	CS	_	15	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl:impers	_	_
+15	capacitava	capacitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 38
+# text = Apprendere ora che la cosa ha toccato un nostro figlio, ci lascia senza parole".
+1	Apprendere	apprendere	VERB	V	VerbForm=Inf	0	root	_	_
+2	ora	ora	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	parole	parola	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

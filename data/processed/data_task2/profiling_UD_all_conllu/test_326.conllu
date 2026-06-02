@@ -1,0 +1,863 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We said a little prayer and reunited the cast of #MyBestFriendsWedding ! Get the story behind the classic rom-com straight from Julia Roberts, Cameron Diaz, Dermot Mulroney, and Rupert Everett https://t.co/VoR8l6QJtS #LoveEWStyle pic.twitter.com/iPNeyh8lHd — Entertainment Weekly (@EW) 8 febbraio 2019 Julia Roberts è Julianne, giornalista, critica gastronomica, che cerca di mandare all'aria il matrimonio del suo migliore amico Michael (Mulroney) con la fidanzata Kimmy (Diaz), ricca ragazza che Michael aveva incontrato durante gli anni del college, a Chicago, e con la quale aveva avuto una storia.
+1	We	We	ADV	B	_	2	advmod	_	_
+2	said	said	X	SW	Foreign=Yes	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	little	little	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	prayer	prayer	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	and	and	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	reunited	reunite	X	SW	Foreign=Yes	2	flat:foreign	_	_
+8	the	the	X	SW	Foreign=Yes	2	flat:foreign	_	_
+9	cast	cast	X	SW	Foreign=Yes	2	flat:foreign	_	_
+10	of	of	X	SW	Foreign=Yes	2	flat:foreign	_	_
+11	#MyBestFriendsWedding	#MyBestFriendsWedding	X	SW	Foreign=Yes	2	flat:foreign	_	_
+12	!	!	PUNCT	FS	_	13	punct	_	_
+13	Get	Get	X	SW	Foreign=Yes	2	flat:foreign	_	_
+14	the	the	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	story	Story	X	SW	Foreign=Yes	2	flat:foreign	_	_
+16	behind	behind	X	SW	Foreign=Yes	2	flat:foreign	_	_
+17	the	the	X	SW	Foreign=Yes	2	flat:foreign	_	_
+18	classic	classic	X	SW	Foreign=Yes	2	flat:foreign	_	_
+19	rom-com	rom-com	X	SW	Foreign=Yes	2	flat:foreign	_	_
+20	straight	straight	X	SW	Foreign=Yes	2	flat:foreign	_	_
+21	from	from	X	SW	Foreign=Yes	2	flat:foreign	_	_
+22	Julia	Julia	PROPN	SP	_	2	nmod	_	_
+23	Roberts	Roberts	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	Cameron	Cameron	PROPN	SP	_	22	conj	_	_
+26	Diaz	Diaz	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Dermot	Dermot	PROPN	SP	_	22	conj	_	_
+29	Mulroney	Mulroney	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	and	and	X	SW	Foreign=Yes	49	appos	_	_
+32	Rupert	Rupert	X	SW	Foreign=Yes	31	flat:foreign	_	_
+33	Everett	Everett	X	SW	Foreign=Yes	31	flat:foreign	_	_
+34	https://t.co/VoR8l6QJtS	https://t.co/VoR8l6QJtS	X	SW	Foreign=Yes	31	flat:foreign	_	_
+35	#LoveEWStyle	#LoveEWStyle	X	SW	Foreign=Yes	31	flat:foreign	_	_
+36	pic.twitter.com/iPNeyh8lHd	pic.twitter.com/iPNeyh8lHd	X	SW	Foreign=Yes	31	flat:foreign	_	_
+37	—	—	PUNCT	FF	_	31	punct	_	_
+38	Entertainment	Entertainment	PROPN	SP	_	31	nmod	_	_
+39	Weekly	Weekly	PROPN	SP	_	38	flat:name	_	_
+40	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+41	@EW	@EW	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	41	punct	_	_
+43	8	8	NUM	N	NumType=Card	31	flat:name	_	_
+44	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	31	flat	_	_
+45	2019	2019	NUM	N	NumType=Card	46	nummod	_	_
+46	Julia	Julia	PROPN	SP	_	49	nsubj	_	_
+47	Roberts	Roberts	PROPN	SP	_	46	flat:name	_	_
+48	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+49	Julianne	Julianne	PROPN	SP	_	2	appos	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	giornalista	giornalista	NOUN	S	Number=Sing	49	appos	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	51	punct	_	_
+53	critica	critico	NOUN	S	Gender=Fem|Number=Sing	51	nmod	_	_
+54	gastronomica	gastronomico	ADJ	A	Gender=Fem|Number=Sing	53	amod	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	49	punct	_	_
+56	che	che	PRON	PR	PronType=Rel	57	nsubj	_	_
+57	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+58	di	di	ADP	E	_	59	mark	_	_
+59	mandare	mandare	VERB	V	VerbForm=Inf	57	xcomp	_	_
+60-61	all'	_	_	_	_	_	_	_	SpaceAfter=No
+60	a	a	ADP	E	_	62	case	_	_
+61	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	62	det	_	_
+62	aria	aria	NOUN	S	Gender=Fem|Number=Sing	59	obl	_	_
+63	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	59	obj	_	_
+65-66	del	_	_	_	_	_	_	_	_
+65	di	di	ADP	E	_	69	case	_	_
+66	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+67	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	69	det:poss	_	_
+68	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	69	amod	_	_
+69	amico	amico	NOUN	S	Gender=Masc|Number=Sing	64	nmod	_	_
+70	Michael	Michael	PROPN	SP	_	69	nmod	_	_
+71	(	(	PUNCT	FB	_	72	punct	_	SpaceAfter=No
+72	Mulroney	Mulroney	PROPN	SP	_	59	appos	_	SpaceAfter=No
+73	)	)	PUNCT	FB	_	72	punct	_	_
+74	con	con	ADP	E	_	76	case	_	_
+75	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
+76	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	59	obl	_	_
+77	Kimmy	Kimmy	PROPN	SP	_	76	nmod	_	_
+78	(	(	PUNCT	FB	_	79	punct	_	SpaceAfter=No
+79	Diaz	Diaz	PROPN	SP	_	76	appos	_	SpaceAfter=No
+80	)	)	PUNCT	FB	_	79	punct	_	SpaceAfter=No
+81	,	,	PUNCT	FF	_	76	punct	_	_
+82	ricca	ricco	ADJ	A	Gender=Fem|Number=Sing	83	amod	_	_
+83	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	76	appos	_	_
+84	che	che	PRON	PR	PronType=Rel	87	obj	_	_
+85	Michael	Michael	PROPN	SP	_	87	nsubj	_	_
+86	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	87	aux	_	_
+87	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	83	acl:relcl	_	_
+88	durante	durante	ADP	E	_	90	case	_	_
+89	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	90	det	_	_
+90	anni	anno	NOUN	S	Gender=Masc|Number=Plur	87	obl	_	_
+91-92	del	_	_	_	_	_	_	_	_
+91	di	di	ADP	E	_	93	case	_	_
+92	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	93	det	_	_
+93	college	college	NOUN	S	Gender=Masc	90	nmod	_	SpaceAfter=No
+94	,	,	PUNCT	FF	_	76	punct	_	_
+95	a	a	ADP	E	_	96	case	_	_
+96	Chicago	Chicago	PROPN	SP	_	76	nmod	_	SpaceAfter=No
+97	,	,	PUNCT	FF	_	103	punct	_	_
+98	e	e	CCONJ	CC	_	103	cc	_	_
+99	con	con	ADP	E	_	101	case	_	_
+100	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	101	det	_	_
+101	quale	quale	PRON	PR	Number=Sing|PronType=Rel	103	obl	_	_
+102	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	103	aux	_	_
+103	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	76	conj	_	_
+104	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	105	det	_	_
+105	storia	storia	NOUN	S	Gender=Fem|Number=Sing	103	obj	_	SpaceAfter=No
+106	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Julianne si rende conto di provare qualcosa di più di un sentimento di amicizia solo quando Michael le rivela di essersi innamorato e di volersi sposare.
+1	Julianne	Julianne	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	conto	conto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	provare	provare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	più	più	ADV	B	_	7	advmod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sentimento	sentimento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	solo	solo	ADV	B	_	19	advmod	_	_
+16	quando	quando	SCONJ	CS	_	19	mark	_	_
+17	Michael	Michael	PROPN	SP	_	19	nsubj	_	_
+18	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	iobj	_	_
+19	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+20	di	di	ADP	E	_	23	mark	_	_
+21-22	essersi	_	_	_	_	_	_	_	_
+21	esser	essere	AUX	VA	VerbForm=Inf	23	aux	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	innamorato	innamorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	di	di	ADP	E	_	28	mark	_	_
+26-27	volersi	_	_	_	_	_	_	_	_
+26	voler	volere	AUX	VM	VerbForm=Inf	28	aux	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+28	sposare	sposare	VERB	V	VerbForm=Inf	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Per mettere in atto i suoi piani però Julianne ha bisogno dell'appoggio del suo amico gay George.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	mettere	mettere	VERB	V	VerbForm=Inf	10	advcl	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	atto	atto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	piani	piano	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+8	però	però	ADV	B	_	10	advmod	_	_
+9	Julianne	Julianne	PROPN	SP	_	10	nsubj	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	amico	amico	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	gay	gay	PROPN	SW	Foreign=Yes	18	nmod	_	_
+20	George	George	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = 'Il matrimonio del mio migliore amico', la scena cult:
+1	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	amico'	amicoco	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	scena	scena	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+12	cult	cult	NOUN	S	_	11	compound	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 5
+# text = 'I say a little prayer'.
+1	'I	'o	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	say	say	NOUN	S	Gender=Masc	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	little	little	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	prayer'	prayero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Una delle scene più famose del film cult è proprio quella in cui George e i protagonisti cantano il brano di Dionne Warwick e reso celebre da Aretha Franklin.
+1	Una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	nsubj	_	_
+2-3	delle	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	scene	scena	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	famose	famoso	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	film	film	NOUN	S	Gender=Masc	4	nmod	_	_
+10	cult	cult	NOUN	S	Gender=Masc	9	compound	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	proprio	proprio	ADV	B	_	13	advmod	_	_
+13	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	cui	cui	PRON	PR	PronType=Rel	20	obl	_	_
+16	George	George	PROPN	SP	_	20	nsubj	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+20	cantano	cantare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	brano	brano	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Dionne	Dionne	PROPN	SP	_	22	nmod	_	_
+25	Warwick	Warwick	PROPN	SP	_	24	flat:name	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	reso	rendere	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+28	celebre	celebre	ADJ	A	Number=Sing	27	amod	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	Aretha	Aretha	PROPN	SP	_	28	obl	_	_
+31	Franklin	Franklin	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 7
+# text = Per il servizio su Entertainment Weekly , Rupert Everett è tornato su quel momento rivelando che:
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	su	su	ADP	E	_	5	case	_	_
+5	Entertainment	Entertainment	PROPN	SP	_	3	nmod	_	_
+6	Weekly	Weekly	PROPN	SP	_	5	flat:name	_	_
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Rupert	Rupert	PROPN	SP	_	11	nsubj	_	_
+9	Everett	Everett	PROPN	SP	_	8	flat:name	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	tornato	tornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	momento	momento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	rivelando	rivelare	VERB	V	VerbForm=Ger	11	advcl	_	_
+16	che	che	SCONJ	CS	_	15	mark	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 8
+# text = "Quella scena è stata scritta quando sono iniziate le riprese, non c'era nel copione".
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	scena	scena	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	scritta	scrivere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	iniziate	iniziare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	riprese	ripresa	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	SpaceAfter=No
+15	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	copione	copione	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Senza immaginare che sarebbe poi diventata una delle sequenze cult del film, il regista P.J. Hogan decise di aggiungerla per dare più spazio proprio al personaggio di Everett.
+1	Senza	senza	ADP	E	_	2	case	_	_
+2	immaginare	immaginare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	poi	poi	ADV	B	_	6	advmod	_	_
+6	diventata	diventare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	20	nsubj	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	sequenze	sequenza	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+11	cult	cult	CCONJ	CC	_	14	cc	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	film	film	NOUN	S	Gender=Masc	20	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	regista	regista	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+18	P.J.	P.J.	PROPN	SP	_	17	nmod	_	_
+19	Hogan	Hogan	PROPN	SP	_	18	flat:name	_	_
+20	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	aggiungerla	_	_	_	_	_	_	_	_
+22	aggiunger	aggiungere	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	dare	dare	VERB	V	VerbForm=Inf	22	advcl	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	proprio	proprio	ADV	B	_	31	advmod	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	Everett	Everett	PROPN	SP	_	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 10
+# text = L'attore, sempre nel servizio celebrativo, ha raccontato di aver esitato ad accettare la parte:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	attore	attore	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sempre	sempre	ADV	B	_	7	advmod	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	celebrativo	celebrativo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	14	mark	_	_
+13	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	esitato	esitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+15	ad	a	ADP	E	_	16	mark	_	_
+16	accettare	accettare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	parte	parte	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 11
+# text = "Quando ho ricevuto l'offerta, avevo letteralmente solo due battute in tutto il film.
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	Quando	quando	SCONJ	CS	_	4	mark	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	offerta	offerta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	letteralmente	letteralmente	ADV	B	_	8	advmod	_	_
+10	solo	solo	ADV	B	_	8	advmod	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	battute	battuta	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	film	film	NOUN	S	Gender=Masc	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = Quindi non ero ben disposto.
+1	Quindi	quindi	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Mi chiedevo:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	chiedevo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = a che serve?".
+1	a	a	ADP	E	_	3	case	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Poi attore e regista hanno lavorato insieme per sviluppare il personaggio in corso d'opera.
+1	Poi	poi	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	attore	attore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	regista	regista	NOUN	S	Number=Sing	2	conj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	insieme	insieme	ADV	B	_	9	mark	_	_
+8	per	per	ADP	E	_	7	fixed	_	_
+9	sviluppare	sviluppare	VERB	V	VerbForm=Inf	6	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	corso	corso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	d'	di	ADP	E	_	15	case	_	SpaceAfter=No
+15	opera	opera	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = We said a little prayer and reunited the cast of #MyBestFriendsWedding ! Get the story behind the classic rom-com straight from Julia Roberts, Cameron Diaz, Dermot Mulroney, and Rupert Everett https://t.co/VoR8l6QJtS #LoveEWStyle pic.twitter.com/iPNeyh8lHd — Entertainment Weekly (@EW) 8 febbraio 2019 Anche gli altri protagonisti, tutti inevitabilmente invecchiati - Julia Roberts ha ora 51 anni, Cameron Diaz 46, Ruper Everett 59 e Dermot Mulroney 55 - ma sorridenti e evidentemente divertiti, hanno rivelato e confessato aneddoti legati al set. Roberts, ad esempio, è stata subito entusiasta della parte, Julianne le è sembrata immediatamente "intelligente e divertente.
+1	We	We	ADV	B	_	2	advmod	_	_
+2	said	said	X	SW	Foreign=Yes	81	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	little	little	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	prayer	prayer	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	and	and	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	reunited	reunite	X	SW	Foreign=Yes	2	flat:foreign	_	_
+8	the	the	X	SW	Foreign=Yes	2	flat:foreign	_	_
+9	cast	cast	X	SW	Foreign=Yes	2	flat:foreign	_	_
+10	of	of	X	SW	Foreign=Yes	2	flat:foreign	_	_
+11	#MyBestFriendsWedding	#MyBestFriendsWedding	X	SW	Foreign=Yes	2	flat:foreign	_	_
+12	!	!	PUNCT	FS	_	13	punct	_	_
+13	Get	Get	X	SW	Foreign=Yes	2	flat:foreign	_	_
+14	the	the	X	SW	Foreign=Yes	13	flat:foreign	_	_
+15	story	Story	X	SW	Foreign=Yes	2	flat:foreign	_	_
+16	behind	behind	X	SW	Foreign=Yes	2	flat:foreign	_	_
+17	the	the	X	SW	Foreign=Yes	2	flat:foreign	_	_
+18	classic	classic	X	SW	Foreign=Yes	2	flat:foreign	_	_
+19	rom-com	rom-com	X	SW	Foreign=Yes	2	flat:foreign	_	_
+20	straight	straight	X	SW	Foreign=Yes	2	flat:foreign	_	_
+21	from	from	X	SW	Foreign=Yes	2	flat:foreign	_	_
+22	Julia	Julia	PROPN	SP	_	2	nmod	_	_
+23	Roberts	Roberts	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	Cameron	Cameron	PROPN	SP	_	22	conj	_	_
+26	Diaz	Diaz	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Dermot	Dermot	PROPN	SP	_	22	conj	_	_
+29	Mulroney	Mulroney	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	and	and	X	SW	Foreign=Yes	2	conj	_	_
+32	Rupert	Rupert	X	SW	Foreign=Yes	31	flat:foreign	_	_
+33	Everett	Everett	X	SW	Foreign=Yes	31	flat:foreign	_	_
+34	https://t.co/VoR8l6QJtS	https://t.co/VoR8l6QJtS	X	SW	Foreign=Yes	31	flat:foreign	_	_
+35	#LoveEWStyle	#LoveEWStyle	X	SW	Foreign=Yes	31	flat:foreign	_	_
+36	pic.twitter.com/iPNeyh8lHd	pic.twitter.com/iPNeyh8lHd	X	SW	Foreign=Yes	31	flat:foreign	_	_
+37	—	—	PUNCT	FF	_	31	punct	_	_
+38	Entertainment	Entertainment	PROPN	SP	_	57	nsubj	_	_
+39	Weekly	Weekly	PROPN	SP	_	38	flat:name	_	_
+40	(	(	PUNCT	FB	_	41	punct	_	SpaceAfter=No
+41	@EW	@EW	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+42	)	)	PUNCT	FB	_	41	punct	_	_
+43	8	8	NUM	N	NumType=Card	57	obl	_	_
+44	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	43	flat	_	_
+45	2019	2019	NUM	N	NumType=Card	43	flat	_	_
+46	Anche	anche	ADV	B	_	49	advmod	_	_
+47	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	altri	altro	ADJ	A	Gender=Masc|Number=Plur	49	amod	_	_
+49	protagonisti	protagonista	NOUN	S	Gender=Masc|Number=Plur	57	nsubj	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	49	punct	_	_
+51	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	53	obl	_	_
+52	inevitabilmente	inevitabilmente	ADV	B	_	53	advmod	_	_
+53	invecchiati	invecchiare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	49	acl	_	_
+54	-	-	PUNCT	FB	_	53	punct	_	_
+55	Julia	Julia	PROPN	SP	_	49	nmod	_	_
+56	Roberts	Roberts	PROPN	SP	_	55	flat:name	_	_
+57	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis	_	_
+58	ora	ora	ADV	B	_	31	advmod	_	_
+59	51	51	NUM	N	NumType=Card	60	nummod	_	_
+60	anni	anno	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+61	,	,	PUNCT	FF	_	31	punct	_	_
+62	Cameron	Cameron	PROPN	SP	_	31	appos	_	_
+63	Diaz	Diaz	PROPN	SP	_	62	flat:name	_	_
+64	46	46	NUM	N	NumType=Card	62	nummod	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	2	punct	_	_
+66	Ruper	Ruper	PROPN	SP	_	2	appos	_	_
+67	Everett	Everett	PROPN	SP	_	66	flat:name	_	_
+68	59	59	NUM	N	NumType=Card	66	flat:name	_	_
+69	e	e	CCONJ	CC	_	70	cc	_	_
+70	Dermot	Dermot	PROPN	SP	_	66	conj	_	_
+71	Mulroney	Mulroney	PROPN	SP	_	70	flat:name	_	_
+72	55	55	NUM	N	NumType=Card	70	nummod	_	_
+73	-	-	PUNCT	FF	_	75	punct	_	_
+74	ma	ma	CCONJ	CC	_	75	cc	_	_
+75	sorridenti	sorridere	NOUN	S	Gender=Masc|Number=Plur	70	conj	_	_
+76	e	e	CCONJ	CC	_	78	cc	_	_
+77	evidentemente	evidentemente	ADV	B	_	78	advmod	_	_
+78	divertiti	divertito	ADJ	A	Gender=Masc|Number=Plur	75	conj	_	SpaceAfter=No
+79	,	,	PUNCT	FF	_	2	punct	_	_
+80	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	81	aux	_	_
+81	rivelato	rivelare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	97	advcl	_	_
+82	e	e	CCONJ	CC	_	83	cc	_	_
+83	confessato	confessare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	81	conj	_	_
+84	aneddoti	aneddoto	NOUN	S	Gender=Masc|Number=Plur	83	obj	_	_
+85	legati	legare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	84	acl	_	_
+86-87	al	_	_	_	_	_	_	_	_
+86	a	a	ADP	E	_	88	case	_	_
+87	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	88	det	_	_
+88	set.	set.	NOUN	S	Gender=Masc|Number=Sing	85	obl	_	_
+89	Roberts	Roberts	PROPN	SP	_	88	nmod	_	SpaceAfter=No
+90	,	,	PUNCT	FF	_	88	punct	_	_
+91	ad	a	ADP	E	_	92	case	_	_
+92	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	88	nmod	_	SpaceAfter=No
+93	,	,	PUNCT	FF	_	81	punct	_	_
+94	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	97	aux	_	_
+95	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	97	cop	_	_
+96	subito	subito	ADV	B	_	97	advmod	_	_
+97	entusiasta	entusiasta	ADJ	A	Number=Sing	0	root	_	_
+98-99	della	_	_	_	_	_	_	_	_
+98	di	di	ADP	E	_	100	case	_	_
+99	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	100	det	_	_
+100	parte	parte	NOUN	S	Gender=Fem|Number=Sing	97	obl	_	SpaceAfter=No
+101	,	,	PUNCT	FF	_	97	punct	_	_
+102	Julianne	Julianne	PROPN	SP	_	105	nsubj	_	_
+103	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	105	iobj	_	_
+104	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	105	aux	_	_
+105	sembrata	sembrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	97	advcl	_	_
+106	immediatamente	immediato	ADV	B	_	105	advmod	_	_
+107	"	"	PUNCT	FB	_	108	punct	_	SpaceAfter=No
+108	intelligente	intelligente	ADJ	A	Number=Sing	105	xcomp	_	_
+109	e	e	CCONJ	CC	_	110	cc	_	_
+110	divertente	divertente	ADJ	A	Number=Sing	108	conj	_	SpaceAfter=No
+111	.	.	PUNCT	FS	_	97	punct	_	_
+
+# sent_id = 17
+# text = E le parti di commedia 'fisica' le adoravo.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	parti	parte	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	commedia	commedia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	fisica	fisica	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	FB	_	7	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	adoravo	adoravo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Un sacco di cadute e crolli emotivi, per me e per Dermot".
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cadute	caduta	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	crolli	crollo	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+7	emotivi	emotivo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	Dermot	Dermot	PROPN	SP	_	10	conj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Cameron Diaz, invece, ha parlato di sua cognata, Nicole Richie, e della sua ossessione per quel film:
+1	Cameron	Cameron	PROPN	SP	_	7	nsubj	_	_
+2	Diaz	Diaz	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	invece	invece	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	cognata	cognata	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	Nicole	Nicole	PROPN	SP	_	7	appos	_	_
+13	Richie	Richie	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	ossessione	ossessione	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	film	film	NOUN	S	Gender=Masc	19	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 20
+# text = "Un anno e mezzo fa circa siamo andate a Chicago e lei mi ha riportato su tutte le location", ha detto l'attrice.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+6	fa	fa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	circa	circa	ADV	B	_	6	advmod	_	_
+8	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	ccomp	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Chicago	Chicago	PROPN	SP	_	9	obl	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+17	su	su	ADP	E	_	20	case	_	_
+18	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	20	det:predet	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	location	location	NOUN	S	Gender=Fem	16	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	24	punct	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	attrice	attore	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Per Mulroney una delle parti più difficile da girare è stata quando lui e Julia Roberts dovevano fare il tour della città con il battello:
+1	Per	per	ADP	E	_	2	case	_	_
+2	Mulroney	Mulroney	PROPN	SP	_	19	obl	_	_
+3	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	19	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	parti	parte	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	difficile	difficile	ADJ	A	Number=Sing	6	amod	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10	girare	girare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+12	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	_
+13	quando	quando	SCONJ	CS	_	19	mark	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Julia	Julia	PROPN	SP	_	14	conj	_	_
+17	Roberts	Roberts	PROPN	SP	_	16	flat:name	_	_
+18	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tour	tour	NOUN	S	Gender=Masc	19	obj	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	città	città	NOUN	S	Gender=Fem	21	nmod	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	battello	battello	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 22
+# text = "Tutti i fan di Julia si erano raccolti e gridavano il suo nome e la salutavano.
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	Tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fan	fan	NOUN	S	_	9	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Julia	Julia	PROPN	SP	_	4	nmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	gridavano	gridare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	nome	nome	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	salutavano	salutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 23
+# text = Abbiamo dovuto fare parecchie pause".
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	parecchie	parecchio	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	pause	pausa	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Quando poi finalmente qualcuno ha gridato anche il suo di nome, "ho alzato la testa entusiasta e mi sono reso conto che era un mio vecchio amico".
+1	Quando	quando	SCONJ	CS	_	6	mark	_	_
+2	poi	poi	ADV	B	_	6	advmod	_	_
+3	finalmente	finalmente	ADV	B	_	6	advmod	_	_
+4	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	gridato	gridare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+7	anche	anche	ADV	B	_	11	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	nome	nome	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	alzato	alzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	testa	testa	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	entusiasta	entusiasta	ADJ	A	Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	iobj	_	_
+21	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+23	conto	conto	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+25	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+27	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+28	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+29	amico	amico	NOUN	S	Gender=Masc|Number=Sing	23	acl:relcl	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 25
+# text = "Il matrimonio del mio migliore amico", l'amico gay è Rupert Everett.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	8	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	amico	amico	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	gay	gay	ADJ	A	_	12	amod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	Rupert	Rupert	PROPN	SP	_	0	root	_	_
+16	Everett	Everett	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 26
+# text = La reunion è stata anche l'occasione per rivelare che originariamente il film avrebbe dovuto avere un finale diverso, al matrimonio anche Julianne avrebbe trovato l'amore in uno degli invitati (John Corbett).
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reunion	reunion	NOUN	S	Gender=Fem	7	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	rivelare	rivelare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	originariamente	originariamente	ADV	B	_	16	advmod	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	film	film	NOUN	S	Gender=Masc	16	nsubj	_	_
+14	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+16	avere	avere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	finale	finale	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+24	anche	anche	ADV	B	_	25	advmod	_	_
+25	Julianne	Julianne	PROPN	SP	_	16	obj	_	_
+26	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	amore	amore	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	29	nmod	_	_
+32-33	degli	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	invitati	invitare	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+35	(	(	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+36	John	John	PROPN	SP	_	34	nmod	_	_
+37	Corbett	Corbett	PROPN	SP	_	36	flat:name	_	SpaceAfter=No
+38	)	)	PUNCT	FB	_	36	punct	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 27
+# text = La versione però non piacque e allora furono investiti altri soldi per girare il finale che conosciamo tutti, altra scena memorabile in cui Julia Roberts e Rupert Everett ballano insieme.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	versione	versione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	però	però	ADV	B	_	5	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	piacque	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	allora	allora	ADV	B	_	9	advmod	_	_
+8	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	investiti	investire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+10	altri	altro	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+11	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	girare	girare	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	finale	finale	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	scena	scena	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+22	memorabile	memorabile	ADJ	A	Number=Sing	21	amod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	cui	cui	PRON	PR	PronType=Rel	30	obl	_	_
+25	Julia	Julia	PROPN	SP	_	30	nsubj	_	_
+26	Roberts	Roberts	PROPN	SP	_	25	flat:name	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	Rupert	Rupert	PROPN	SP	_	25	conj	_	_
+29	Everett	Everett	PROPN	SP	_	28	flat:name	_	_
+30	ballano	ballare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+31	insieme	insieme	ADV	B	_	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = Ha detto Hogan, il regista:
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	Hogan	Hogan	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	regista	regista	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 29
+# text = "Gli spettatori non volevano che Julianne avesse un lieto fine.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	spettatori	spettatore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	volevano	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	Julianne	Julianne	PROPN	SP	_	8	nsubj	_	_
+8	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	lieto	lieto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	fine	fine	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = Non l'avevano ancora perdonata.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+3	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	ancora	ancora	ADV	B	_	5	advmod	_	_
+5	perdonata	perdonare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 31
+# text = Non erano pronti a vederla tra le braccia di un altro".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	vederla	_	_	_	_	_	_	_	_
+5	veder	vedere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	altro	altro	ADJ	A	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

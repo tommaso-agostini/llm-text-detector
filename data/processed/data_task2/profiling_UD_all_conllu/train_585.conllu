@@ -1,0 +1,544 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poi due mesi a voucher per mascherare un part-time.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	voucher	voucher	VERB	V	VerbForm=Inf	3	acl	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	mascherare	mascherare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	part-time	part-tima	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Poi un contratto vero a tempo a determinato.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	determinato	determinato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma poi, da gennaio, di nuovo voucher:
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	poi	poi	ADV	B	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	voucher	voucher	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 4
+# text = "Quando mi hanno detto che era l'unica possibilità per continuare ho lasciato", dice Sabrina, 32 anni, di Verona.
+1	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2	Quando	quando	SCONJ	CS	_	5	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+9	unica	unico	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	possibilità	possibilità	NOUN	S	Gender=Fem	14	nsubj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	continuare	continuare	VERB	V	VerbForm=Inf	14	advcl	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+18	Sabrina	Sabrina	PROPN	SP	_	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	32	32	NUM	N	NumType=Card	21	nummod	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Verona	Verona	PROPN	SP	_	14	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = Nel bar in cui prestava servizio, al centro della città, ha sperimentato tutti i possibili abusi del buono lavoro.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bar	bar	NOUN	S	Gender=Masc	17	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+6	prestava	prestare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+7	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	centro	centro	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	città	città	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	sperimentato	sperimentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	21	det:predet	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	possibili	possibile	ADJ	A	Number=Plur	21	amod	_	_
+21	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	buono	buono	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 6
+# text = E ora che cerca un nuovo locale, ha capito che è difficile liberarsene:
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	ora	ora	ADV	B	_	10	advmod	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	locale	locale	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	10	ccomp	_	_
+14-16	liberarsene	_	_	_	_	_	_	_	SpaceAfter=No
+14	liberar	liberare	VERB	V	VerbForm=Inf	13	csubj	_	_
+15	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+17	:	:	PUNCT	FC	_	10	punct	_	_
+
+# sent_id = 7
+# text = "Qui sono la regola in molti bar e ristoranti, vanno aboliti".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Qui	qui	ADV	B	_	5	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	regola	regola	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	bar	bar	NOUN	S	Gender=Masc	5	nmod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	ristoranti	ristorante	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	vanno	andare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	aboliti	abolire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Quando hai saputo che ti avrebbero pagato in voucher?
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+6	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	in	in	ADP	E	_	9	mark	_	_
+9	voucher	voucher	VERB	V	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = "Dopo il colloquio mi hanno assicurato che sarebbe stato solo per i primi giorni, una sorta di periodo di prova per conoscersi, poi mi avrebbero fatto un contratto regolare.
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Dopo	dopo	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+6	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	assicurato	assicurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	che	che	SCONJ	CS	_	15	mark	_	_
+9	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+10	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	cop	_	_
+11	solo	solo	ADV	B	_	15	advmod	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	15	amod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	prova	prova	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	conoscersi	conoscerso	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	29	punct	_	_
+26	poi	poi	ADV	B	_	29	advmod	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+28	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	regolare	regolare	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = E invece sono andati avanti per due mesi.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	avanti	avanti	ADV	B	_	4	advmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Anche molti degli altri ragazzi erano pagati così".
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	altri	altro	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+7	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	pagati	pagare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	così	così	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 12
+# text = E i limiti per l'utilizzo dei buoni?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	buoni	buono	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = "C'è il trucco.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	trucco	trucco	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Io lavoravo 5 o 6 ore al giorno, dal lunedì al venerdì, un totale di 30 ore a settimana.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lavoravo	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	5	5	NUM	N	NumType=Card	6	nummod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	6	6	NUM	N	NumType=Card	3	conj	_	_
+6	ore	ora	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	lunedì	lunedì	NOUN	S	Gender=Masc	2	obl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	venerdì	venerdì	NOUN	S	Gender=Masc	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	totale	totale	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	30	30	NUM	N	NumType=Card	22	nummod	_	_
+22	ore	ora	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+23	a	a	ADP	E	_	24	case	_	_
+24	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Alla fine però mi davano tre, al massimo cinque voucher, uno per giornata:
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	però	però	ADV	B	_	6	advmod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+6	davano	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	tre	tre	NUM	N	NumType=Card	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	13	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+12	cinque	cinque	NUM	N	NumType=Card	13	nummod	_	_
+13	voucher	voucher	NOUN	S	Gender=Masc	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	appos	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 16
+# text = il resto era pagato in nero".
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	resto	resto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	pagato	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	nero	nero	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Finché...?
+1	Finché...	Finché...	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 18
+# text = "A maggio ho detto loro che non ero più disposta ad andare avanti così.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	A	a	ADP	E	_	3	case	_	_
+3	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+7	che	che	SCONJ	CS	_	11	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	disposta	disposto	ADJ	A	Gender=Fem|Number=Sing	5	ccomp	_	_
+12	ad	a	ADP	E	_	13	mark	_	_
+13	andare	andare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	avanti	avanti	ADV	B	_	13	advmod	_	_
+15	così	così	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 19
+# text = E siccome avevano bisogno di personale per l'estate mi hanno fatto un contratto fino alla fine dell'anno.
+1	E	e	CCONJ	CC	_	12	cc	_	_
+2	siccome	siccome	SCONJ	CS	_	3	mark	_	_
+3	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+4	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	personale	personale	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	estate	estate	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	fino	fino	ADV	B	_	18	case	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	fine	fine	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	anno	anno	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 20
+# text = Era un part-time, anche se lavoravo nove ore al giorno.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	part-	_	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	time	time	NOUN	S	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	se	se	SCONJ	CS	_	8	mark	_	_
+8	lavoravo	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+9	nove	nove	NUM	N	NumType=Card	10	nummod	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 21
+# text = A gennaio però, al ritorno dalle vacanze natalizie, mi hanno detto che non potevano permettersi di rinnovarlo:
+1	A	a	ADP	E	_	2	case	_	_
+2	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+3	però	però	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+8-9	dalle	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	natalizie	natalizio	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19-20	permettersi	_	_	_	_	_	_	_	_
+19	permetter	permettere	VERB	V	VerbForm=Inf	15	ccomp	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22-23	rinnovarlo	_	_	_	_	_	_	_	SpaceAfter=No
+22	rinnovar	rinnovarre	VERB	V	VerbForm=Inf	19	xcomp	_	_
+23	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	:	:	PUNCT	FC	_	15	punct	_	_
+
+# sent_id = 22
+# text = per continuare avrei dovuto essere assunta da una cooperativa, che però non si è mai vista, oppure tornare di nuovo al pagamento in voucher".
+1	per	per	ADP	E	_	2	mark	_	_
+2	continuare	continuare	VERB	V	VerbForm=Inf	6	advcl	_	_
+3	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux:pass	_	_
+6	assunta	assumere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cooperativa	cooperativa	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+12	però	però	ADV	B	_	17	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	mai	mai	ADV	B	_	17	advmod	_	_
+17	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	oppure	oppure	CCONJ	CC	_	20	cc	_	_
+20	tornare	tornare	VERB	V	VerbForm=Inf	17	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	20	obl	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pagamento	pagamento	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	voucher	voucher	NOUN	S	Gender=Masc	25	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 23
+# text = Mai visti controlli?
+1	Mai	mai	ADV	B	_	2	advmod	_	_
+2	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	controlli	controllo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = "Mai.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Mai	Mai	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = Ora sto cercando un altro bar dove lavorare".
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercando	cercare	VERB	V	VerbForm=Ger	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	bar	bar	NOUN	S	Gender=Masc	3	obj	_	_
+7	dove	dove	ADV	B	_	8	advmod	_	_
+8	lavorare	lavorare	VERB	V	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Uno che non paghi con i buoni...
+1	Uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	paghi	pagare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	buoni...	buoni...	NOUN	S	_	4	obl	_	_
+
+# sent_id = 27
+# text = "Difficile, ai colloqui te li propongono in molti".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Difficile	difficile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	colloqui	colloquio	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+7	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+9	propongono	proporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = E se fossero aboliti?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	fossero	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	aboliti	abolire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = "Sarebbe giusto, almeno nel settore della ristorazione le alternative esistono.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	almeno	almeno	ADV	B	_	8	advmod	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	settore	settore	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ristorazione	ristorazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	alternative	alternativa	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	_
+14	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 30
+# text = C'è tanto lavoro?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tanto	tanto	ADV	B	_	4	advmod	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 31
+# text = Possono chiedere a noi dipendenti di fare gli straordinari, saremmo ben contenti".
+1	Possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	obl	_	_
+5	dipendenti	dipendente	NOUN	S	Number=Plur	13	nsubj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	straordinari	straordinario	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	saremmo	essere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	ben	bene	ADV	B	_	13	advmod	_	_
+13	contenti	contento	ADJ	A	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

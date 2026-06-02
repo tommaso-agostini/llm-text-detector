@@ -1,0 +1,766 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A dare la notizia è la stessa al-Jazeera.
+1	A	a	ADP	E	_	2	mark	_	_
+2	dare	dare	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+8	al-	_	PUNCT	FC	_	9	punct	_	SpaceAfter=No
+9	Jazeera	Jazeera	PROPN	SP	_	7	appos	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ad assistere alla sentenza di condanna a tre anni di reclusione per i tre giornalisti anche Amal Alamuddin Clooney, moglie della star americana e legale di Mohammed Fahmy.
+1	Ad	a	ADP	E	_	2	mark	_	_
+2	assistere	assistere	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	tre	tre	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	reclusione	reclusione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	tre	tre	NUM	N	NumType=Card	16	nummod	_	_
+16	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+17	anche	anche	ADV	B	_	16	advmod	_	_
+18	Amal	Amal	PROPN	SP	_	16	nmod	_	_
+19	Alamuddin	Alamuddin	PROPN	SP	_	18	flat:name	_	_
+20	Clooney	Clooney	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	18	appos	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	star	star	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	americana	americano	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	legale	legale	ADJ	A	Number=Sing	26	conj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Mohammed	Mohammed	PROPN	SP	_	25	nmod	_	_
+31	Fahmy	Fahmy	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E' la prima volta che la legale appare in tribunale in Egitto.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	legale	legale	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Egitto	Egitto	PROPN	SP	_	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Fahmi e Mohammed sono stati presi in consegna dalla polizia e con tutta probabilità condotti in carcere subito dopo la sentenza.
+1	Fahmi	Fahmi	PROPN	SP	_	6	nsubj:pass	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Mohammed	Mohammed	PROPN	SP	_	1	conj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	presi	prendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	consegna	consegna	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	tutta	tutta	DET	T	Gender=Fem|Number=Sing|PronType=Tot	15	det	_	_
+15	probabilità	probabilità	NOUN	S	Gender=Fem	11	conj	_	_
+16	condotti	condurre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+19	subito	subito	ADV	B	_	22	advmod	_	_
+20	dopo	dopo	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Greste, il terzo reporter anche condannato, si trova invece in Australia.
+1	Greste	Gresta	PROPN	SP	_	10	obl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	reporter	reporter	NOUN	S	Gender=Masc	10	nsubj	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	condannato	condannato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	invece	invece	ADV	B	_	10	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Australia	Australia	PROPN	SP	_	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = I giornalisti erano stati arrestati il 29 dicembre 2013 in un hotel dove soggiornavano al Cairo e il processo era iniziato il 20 febbraio del 2014.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	arrestati	arrestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	29	29	NUM	N	NumType=Card	5	obl	_	_
+8	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	7	flat	_	_
+9	2013	2013	NUM	N	NumType=Card	7	flat	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	hotel	hotel	NOUN	S	Gender=Masc	5	obl	_	_
+13	dove	dove	ADV	B	_	14	advmod	_	_
+14	soggiornavano	soggiornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Cairo	Cairo	PROPN	SP	_	14	obl	_	_
+18	e	e	CCONJ	CC	_	22	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	processo	processo	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+21	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	20	20	NUM	N	NumType=Card	22	obl	_	_
+25	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	24	flat	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	2014	2014	NUM	N	NumType=Card	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Il 23 giugno dello scorso anno la Corte d'assise aveva condannato - per aver diffuso "false informazioni" a favore dei Fratelli Musulmani e del deposto presidente Mohamed Morsi - Peter Grestie e Mohamed Fahmi a 7 anni di reclusione, mentre Mohamed Baher a 10 anni di prigione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	23	23	NUM	N	NumType=Card	13	obl	_	_
+3	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4-5	dello	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Corte	corte	PROPN	SP	_	13	nsubj	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	assise	assise	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	-	-	PUNCT	FB	_	13	punct	_	_
+15	per	per	ADP	E	_	17	mark	_	_
+16	aver	avere	AUX	VA	VerbForm=Inf	17	aux	_	_
+17	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+18	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+19	false	falso	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	favore	favore	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	Fratelli	fratelli	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+27	Musulmani	musulmani	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	e	e	CCONJ	CC	_	32	cc	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	deposto	deposto	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+32	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	26	conj	_	_
+33	Mohamed	Mohamed	PROPN	SP	_	32	nmod	_	_
+34	Morsi	morso	NOUN	S	Gender=Masc|Number=Plur	33	flat:name	_	_
+35	-	-	PUNCT	FF	_	32	punct	_	_
+36	Peter	Peter	PROPN	SP	_	32	nmod	_	_
+37	Grestie	Grestie	PROPN	SP	_	36	flat:name	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	Mohamed	Mohamed	PROPN	SP	_	26	conj	_	_
+40	Fahmi	Fahmi	PROPN	SP	_	39	flat:name	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	7	7	NUM	N	NumType=Card	43	nummod	_	_
+43	anni	anno	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	reclusione	reclusione	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	17	punct	_	_
+47	mentre	mentre	SCONJ	CS	_	48	mark	_	_
+48	Mohamed	Mohamed	PROPN	SP	_	17	advcl	_	_
+49	Baher	Baher	PROPN	SP	_	48	flat:name	_	_
+50	a	a	ADP	E	_	52	case	_	_
+51	10	10	NUM	N	NumType=Card	52	nummod	_	_
+52	anni	anno	NOUN	S	Gender=Masc|Number=Plur	48	nmod	_	_
+53	di	di	ADP	E	_	54	case	_	_
+54	prigione	prigione	NOUN	S	Gender=Fem|Number=Sing	52	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Più dura la condanna a Baher perché trovato in possesso, secondo l'accusa, di un proiettile.
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	dura	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Baher	Baher	PROPN	SP	_	4	nmod	_	_
+7	perché	perché	SCONJ	CS	_	8	mark	_	_
+8	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	possesso	possesso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	secondo	secondo	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	proiettile	proiettile	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = La sentenza aveva scatenato critiche e polemiche da parte di associazioni che difendono la libertà di stampa e attivisti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	polemiche	polemica	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	associazioni	associazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	difendono	difendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	libertà	libertà	NOUN	S	Gender=Fem	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	attivisti	attivista	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Per Amnesty International quel processo era stata una "totale farsa" e le sentenze rappresentavano "un feroce attacco alla libertà dei media".
+1	Per	per	ADP	E	_	2	case	_	_
+2	Amnesty	Amnesty	PROPN	SP	_	10	obl	_	_
+3	International	International	PROPN	SP	_	2	flat:name	_	_
+4	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	processo	processo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+7	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	totale	totale	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+11	farsa	farsa	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	10	punct	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	sentenze	sentenza	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	_
+16	rappresentavano	rappresentare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+17	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	feroce	feroce	ADJ	A	Number=Sing	20	amod	_	_
+20	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	libertà	libertà	NOUN	S	Gender=Fem	20	nmod	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	media	media	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 11
+# text = Il 1 gennaio 2015 la Corte di Cassazione ha annullato il processo di giugno e ha disposto che venisse rifatto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	1	1	NUM	N	NumType=Card	10	obl	_	_
+3	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	2015	2015	NUM	N	NumType=Card	2	flat	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Corte	Corte	PROPN	SP	_	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Cassazione	cassazione	PROPN	SP	_	6	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	annullato	annullare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	processo	processo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	disposto	disporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+18	che	che	SCONJ	CS	_	19	mark	_	_
+19	venisse	venire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	_	_
+20	rifatto	rifare	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = Il primo febbraio 2015 le autorità egiziane hanno rilasciato l'australiano Greste e lo hanno espulso dal Paese.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	2015	2015	NUM	N	NumType=Card	3	flat	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	autorità	autorità	NOUN	S	Gender=Fem	9	nsubj	_	_
+7	egiziane	egiziano	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rilasciato	rilasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	australiano	australiano	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	Greste	Gresto	PROPN	SP	_	11	nmod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	espulso	espellere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Gli altri due reporter erano invece stati scarcerati su cauzione, ma erano rimasti in regime di libertà vigilata.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	reporter	reporter	NOUN	S	Gender=Masc	8	nsubj:pass	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux:pass	_	_
+6	invece	invece	ADV	B	_	8	advmod	_	_
+7	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	scarcerati	scarcerare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	cauzione	cauzione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	regime	regime	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	libertà	libertà	NOUN	S	Gender=Fem	16	nmod	_	_
+19	vigilata	vigilato	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = Giornalisti di al-Jazeera condannati in Egitto:
+1	Giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	al-Jazeera	al-Jazeera	PROPN	SP	_	1	nmod	_	_
+4	condannati	condannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Egitto	Egitto	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 15
+# text = Amal Clooney in aula li difende "La sentenza odierna è un altro attacco deliberato alla libertà di stampa".
+1	Amal	Amal	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	Clooney	Clooney	PROPN	SP	_	6	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	aula	aula	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	difende	difendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+8	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+10	odierna	odierno	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	altro	altro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	_
+15	deliberato	deliberare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	libertà	libertà	NOUN	S	Gender=Fem	15	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Lo ha affermato il direttore generale di Al Jazeera Media Network, Mostefa Souag, dopo la condanna in Egitto di tre giornalisti della tv satellitare del Qatar.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	affermato	affermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	generale	generale	ADJ	A	Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8-9	Al	_	_	_	_	_	_	_	_
+8	A	a	PROPN	SP	_	5	nmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Jazeera	Jazeera	PROPN	SP	_	3	nsubj	_	_
+11	Media	media	PROPN	SP	_	10	flat:name	_	_
+12	Network	network	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	Mostefa	Mostefa	PROPN	SP	_	10	appos	_	_
+15	Souag	Souag	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	dopo	dopo	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Egitto	Egitto	PROPN	SP	_	19	nmod	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	tre	tre	NUM	N	NumType=Card	24	nummod	_	_
+24	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	tv	tv	NOUN	S	Gender=Fem	24	nmod	_	_
+28	satellitare	satellitare	ADJ	A	Number=Sing	27	amod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Qatar	Qatar	PROPN	SP	_	24	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = "È un brutto giorno per la magistratura egiziana - ha detto Souag - invece di difendere le libertà e un'informazione libera e corretta hanno sacrificato la loro indipendenza per motivi politici".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	magistratura	magistratura	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	egiziana	egiziano	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	-	-	PUNCT	FF	_	12	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+13	Souag	Souag	PROPN	SP	_	12	nsubj	_	_
+14	-	-	PUNCT	FF	_	12	punct	_	_
+15	invece	invece	ADV	B	_	17	mark	_	_
+16	di	di	ADP	E	_	15	fixed	_	_
+17	difendere	difendere	VERB	V	VerbForm=Inf	27	advcl	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	libertà	libertà	NOUN	S	Gender=Fem	17	obj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	19	conj	_	_
+23	libera	libero	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	corretta	corretto	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	sacrificato	sacrificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	indipendenza	indipendenza	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	_
+31	per	per	ADP	E	_	32	case	_	_
+32	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+33	politici	politico	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = "Scioccato.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Scioccato	Scioccato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = Offeso.
+1	Offeso	offeso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 20
+# text = Arrabbiato.
+1	Arrabbiato	Arrabbiato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 21
+# text = Niente di tutto ciò descrive come mi sento adesso.
+1	Niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	nmod	_	_
+5	descrive	descrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	come	come	ADP	E	_	8	mark	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+8	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	adesso	adesso	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 22
+# text = Una condanna a tre anni per @bahrooz, @MFFahmy11 e me è totalmente sbagliata", ha scritto su Twitter Peter Greste.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	tre	tre	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	@bahrooz	@bahrooz	NOUN	S	Gender=Masc	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	@MFFahmy11	@MFFahmy11	PROPN	SP	_	2	conj	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	totalmente	totalmente	ADV	B	_	14	advmod	_	_
+14	sbagliata	sbagliato	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19	su	su	ADP	E	_	20	case	_	_
+20	Twitter	Twitter	PROPN	SP	_	18	obl	_	_
+21	Peter	Peter	PROPN	SP	_	20	flat:name	_	_
+22	Greste	Gresto	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 23
+# text = "Un affronto alla giustizia, la campana suona a morto per la libertà di espressione in Egitto, è un verdetto ridicolo che colpisce al cuore la libertà di espressione in Egitto.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	affronto	affronto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	campana	campana	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	morto	morto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	libertà	libertà	NOUN	S	Gender=Fem	10	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Egitto	Egitto	PROPN	SP	_	10	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	verdetto	verdetto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	ridicolo	ridicolo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	colpisce	colpire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	libertà	libertà	NOUN	S	Gender=Fem	26	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	Egitto	Egitto	PROPN	SP	_	26	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Le accuse contro Mohamed Fahmy, Peter Greste e Baher Mohamed sono state sempre prive di fondamento e politicizzate, non avrebbero mai dovuto essere arrestati e processati", ha detto Philip Luther, direttore per il Medio Oriente e il Nord Africa di Amnesty International, "la sentenza odierna va immediatamente ribaltata, a Mohamed Fahmy e Baher Mohamed deve essere concessa la libertà senza condizioni.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+3	contro	contro	ADP	E	_	4	case	_	_
+4	Mohamed	Mohamed	PROPN	SP	_	2	nmod	_	_
+5	Fahmy	Fahmy	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Peter	Peter	PROPN	SP	_	4	conj	_	_
+8	Greste	Gresto	PROPN	SP	_	7	flat:name	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Baher	Baher	PROPN	SP	_	4	conj	_	_
+11	Mohamed	Mohamed	PROPN	SP	_	10	flat:name	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	cop	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	prive	privo	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	fondamento	fondamento	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	politicizzate	politicizzata	ADJ	A	Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	26	punct	_	_
+21	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+22	avrebbero	avere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+23	mai	mai	ADV	B	_	26	advmod	_	_
+24	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux	_	_
+25	essere	essere	AUX	VA	VerbForm=Inf	26	aux:pass	_	_
+26	arrestati	arrestare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	conj	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	processati	processare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	conj	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	15	punct	_	_
+31	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	parataxis	_	_
+33	Philip	Philip	PROPN	SP	_	32	nsubj	_	_
+34	Luther	Luther	PROPN	SP	_	33	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	33	punct	_	_
+36	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	33	appos	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Medio	Medio	PROPN	SP	_	36	nmod	_	_
+40	Oriente	Oriente	PROPN	SP	_	39	flat:name	_	_
+41	e	e	CCONJ	CC	_	43	cc	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	Nord	Nord	PROPN	SP	_	36	conj	_	_
+44	Africa	Africa	PROPN	SP	_	43	flat:name	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	Amnesty	Amnesty	PROPN	SP	_	43	nmod	_	_
+47	International	International	PROPN	SP	_	46	flat:name	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	32	punct	_	_
+49	"	"	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	55	nsubj	_	_
+52	odierna	odierno	ADJ	A	Gender=Fem|Number=Sing	51	amod	_	_
+53	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	_	_
+54	immediatamente	immediatamente	ADV	B	_	55	advmod	_	_
+55	ribaltata	ribaltare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	55	punct	_	_
+57	a	a	ADP	E	_	58	case	_	_
+58	Mohamed	Mohamed	PROPN	SP	_	55	obl	_	_
+59	Fahmy	Fahmy	PROPN	SP	_	58	flat:name	_	_
+60	e	e	CCONJ	CC	_	61	cc	_	_
+61	Baher	Baher	PROPN	SP	_	58	conj	_	_
+62	Mohamed	Mohamed	PROPN	SP	_	61	flat:name	_	_
+63	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	aux	_	_
+64	essere	essere	AUX	VA	VerbForm=Inf	65	aux:pass	_	_
+65	concessa	concedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	55	conj	_	_
+66	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	libertà	libertà	NOUN	S	Gender=Fem	65	nsubj:pass	_	_
+68	senza	senza	ADP	E	_	69	case	_	_
+69	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	67	nmod	_	SpaceAfter=No
+70	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 25
+# text = Li consideriamo prigionieri di coscienza, condannati al carcere solo per aver esercitato il proprio diritto alla libertà di espressione".
+1	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	consideriamo	considerare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	prigionieri	prigioniero	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	condannati	condannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	carcere	carcere	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	solo	solo	ADV	B	_	14	advmod	_	_
+12	per	per	ADP	E	_	14	mark	_	_
+13	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	esercitato	esercitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	libertà	libertà	NOUN	S	Gender=Fem	14	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Condanna anche da Reporters sans Frontieres che ha parlato di "vergognosa sentenza politica".
+1	Condanna	condannare	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	Reporters	Reporters	PROPN	SP	_	1	nmod	_	_
+5	sans	sans	ADP	E	_	6	case	_	_
+6	Frontieres	Frontieres	PROPN	SP	_	4	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	vergognosa	vergognoso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	politica	politico	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = Secondo quanto riportato dal sito del quotidiano egiziano al Ahram Amal Clooney ha reso noto che avanzerà una richiesta di "amnistia presidenziale" per i tre.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+3	riportato	riportare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sito	sito	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	egiziano	egiziano	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Ahram	Ahram	PROPN	SP	_	9	nmod	_	_
+14	Amal	Amal	PROPN	SP	_	13	flat:name	_	_
+15	Clooney	Clooney	PROPN	SP	_	13	flat:name	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+18	noto	noto	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	_
+19	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+20	avanzerà	avanzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	acl:relcl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	amnistia	amnistia	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+26	presidenziale	presidenziale	NOUN	S	Gender=Masc|Number=Sing	25	compound	_	SpaceAfter=No
+27	"	"	PUNCT	FB	_	25	punct	_	_
+28	per	per	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	tre	tre	NUM	N	NumType=Card	20	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 28
+# text = Il legale si è detta "scioccata" per la sentenza di condanna che ha definito "estremamente grave".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	legale	legale	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	scioccata	scioccare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sentenza	sentenza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	condanna	condanna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	definito	definire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+18	estremamente	estremamente	ADV	B	_	19	advmod	_	_
+19	grave	grave	ADJ	A	Number=Sing	16	xcomp	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = Giornalisti condannati, Amal Clooney:
+1	Giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	condannati	condannato	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Amal	Amal	PROPN	SP	_	1	appos	_	_
+5	Clooney	Clooney	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 30
+# text = "Verdetto pericoloso per l'Egitto".
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Verdetto	verdetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Egitto	Egitto	PROPN	SP	_	3	obl	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

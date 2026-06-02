@@ -1,0 +1,632 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = È quanto rileva un’analisi condotta dall’Ufficio Studi della Cgia di Mestre.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	0	root	_	_
+3	rileva	rilevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	analisi	analisi	NOUN	S	Gender=Fem	3	obj	_	_
+6	condotta	condurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	Studi	Studi	PROPN	SP	_	9	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Cgia	Cgia	PROPN	SP	_	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Mestre	Mestre	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Per rendere omogeneo il confronto - rileva una nota - è stato preso come riferimento una famiglia italiana e una francese composte entrambe da marito, moglie e 2 figli a carico con redditi da lavoro dipendente.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	rendere	rendere	VERB	V	VerbForm=Inf	13	advcl	_	_
+3	omogeneo	omogeneo	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	confronto	confronto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	-	-	PUNCT	FB	_	7	punct	_	_
+7	rileva	rilevare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	nota	nota	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	-	-	PUNCT	FB	_	7	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+18	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	francese	francese	ADJ	A	Number=Sing	17	amod	_	_
+22	composte	composta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	advcl	_	_
+23	entrambe	entrambere	DET	T	Gender=Fem|Number=Plur|PronType=Tot	32	det	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	marito	marito	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	2	2	NUM	N	NumType=Card	30	nummod	_	_
+30	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	25	conj	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	carico	carico	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+33	con	con	ADP	E	_	34	case	_	_
+34	redditi	reddito	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+35	da	da	ADP	E	_	36	case	_	_
+36	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+37	dipendente	dipendente	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = La comparazione riguarda solo la tassazione dell’imposta personale, senza includere le addizionali Irpef.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comparazione	comparazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7-8	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	personale	personale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	senza	senza	ADP	E	_	13	mark	_	_
+13	includere	includere	VERB	V	VerbForm=Inf	3	advcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	addizionali	addizionale	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	Irpef	Irpef	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = In Francia meno tasse Con un reddito (imponibile Irpef) di 30.000 euro, in Francia il carico fiscale annuo (indipendentemente dal fatto se la famiglia è mono o bireddito) è di 348 euro.
+1	In	in	ADP	E	_	2	case	_	_
+2	Francia	Francia	PROPN	SP	_	4	nmod	_	_
+3	meno	meno	ADV	B	_	4	advmod	_	_
+4	tasse	tare	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	Con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+9	imponibile	imponibile	ADJ	A	Number=Sing	10	amod	_	_
+10	Irpef	Irpef	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	30.000	30.000	NUM	N	NumType=Card	14	nummod	_	_
+14	euro	euro	NOUN	S	Gender=Masc	7	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Francia	Francia	PROPN	SP	_	19	nmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	carico	carico	NOUN	S	Gender=Masc|Number=Sing	4	appos	_	_
+20	fiscale	fiscale	ADJ	A	Number=Sing	19	amod	_	_
+21	annuo	annuo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	indipendentemente	indipendentemente	ADV	B	_	19	advmod	_	_
+24-25	dal	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	se	se	SCONJ	CS	_	38	mark	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+31	mono	mire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+32	o	o	CCONJ	CC	_	33	cc	_	_
+33	bireddito	bireddire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	conj	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	31	punct	_	_
+35	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	348	348	NUM	N	NumType=Card	38	nummod	_	_
+38	euro	euro	NOUN	S	Gender=Masc	23	obl	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = In Italia, invece, se il nucleo è monoreddito il peso fiscale raggiunge i 5.010 euro (+4.662 rispetto alla francese), se bireddito raggiunge i 2.842 euro (+2.494).
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	invece	invece	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	se	se	SCONJ	CS	_	10	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	nucleo	nucleo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	monoreddito	monoreddire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	peso	peso	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	fiscale	fiscale	ADJ	A	Number=Sing	12	amod	_	_
+14	raggiunge	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	5.010	5.010	NUM	N	NumType=Card	17	nummod	_	_
+17	euro	euro	NOUN	S	Gender=Masc	14	obj	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	+4.662	+4.662	NUM	N	NumType=Card	14	nummod	_	_
+20	rispetto	rispetto	ADV	B	_	23	case	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	francese	francese	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+24	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	14	punct	_	_
+26	se	se	SCONJ	CS	_	28	mark	_	_
+27	bireddito	bireddire	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+28	raggiunge	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	2.842	2.842	NUM	N	NumType=Card	31	nummod	_	_
+31	euro	euro	NOUN	S	Gender=Masc	28	obj	_	_
+32	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	+2.494	+2.494	NUM	N	NumType=Card	14	nummod	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 6
+# text = Con un reddito di 55.000 euro, invece, la famiglia francese è sottoposta ad una tassazione di 2.988 euro.
+1	Con	con	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	55.000	55.000	NUM	N	NumType=Card	6	nummod	_	_
+6	euro	euro	NOUN	S	Gender=Masc	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	invece	invece	ADV	B	_	9	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+12	francese	francese	ADJ	A	Number=Sing	11	amod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	sottoposta	sottoporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	ad	a	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tassazione	tassazione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	2.988	2.988	NUM	N	NumType=Card	20	nummod	_	_
+20	euro	euro	NOUN	S	Gender=Masc	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 7
+# text = In Italia il nucleo mono reddito paga 15.989 euro (+13.000), quello bireddito versa all’Erario 10.530 (+7.542).
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	5	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nucleo	nucleo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	mono	mire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	paga	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	15.989	15.989	NUM	N	NumType=Card	9	nummod	_	_
+9	euro	euro	NOUN	S	Gender=Masc	7	obj	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	+13.000	+13.000	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	conj	_	_
+15	bireddito	bireddire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+16	versa	verso	ADV	B	_	15	advmod	_	_
+17-18	all’	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Erario	erario	PROPN	SP	_	15	obl	_	_
+20	10.530	10.530	NUM	N	NumType=Card	19	nummod	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	+7.542	+7.542	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Infine, con un reddito di 150.000 euro, i cugini transalpini pagano un’imposta di 25.324 euro:
+1	Infine	infine	ADV	B	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	150.000	150.000	NUM	N	NumType=Card	8	nummod	_	_
+8	euro	euro	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	cugini	cugine	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	transalpini	transalpino	ADJ	A	Number=Plur	11	amod	_	_
+13	pagano	paere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	imposta	imposta	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	25.324	25.324	NUM	N	NumType=Card	18	nummod	_	_
+18	euro	euro	NOUN	S	Gender=Masc	15	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 9
+# text = sulla famiglia italiana mono reddito grava, invece, un peso di 57.670 euro (+32.246) e su quella bireddito 50.331 euro (+25.000).
+1-2	sulla	_	_	_	_	_	_	_	_
+1	su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	mono	mire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	reddito	reddito	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	grava	gravo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	invece	invece	ADV	B	_	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	peso	peso	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	57.670	57.670	NUM	N	NumType=Card	15	nummod	_	_
+15	euro	euro	NOUN	S	Gender=Masc	12	nmod	_	_
+16	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	+32.246	+32.246	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	17	punct	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	bireddito	bireddito	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+23	50.331	50.331	NUM	N	NumType=Card	24	nummod	_	_
+24	euro	euro	NOUN	S	Gender=Masc	22	nmod	_	_
+25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	+25.000	+25.000	NUM	N	NumType=Card	22	nummod	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = "Imposte eccessive" "Nonostante gli sgravi fiscali dati in questi decenni dai vari Governi che si sono succeduti - commenta Giuseppe Bortolussi, segretario della Cgia di Mestre - il peso delle imposte sulle famiglie italiane è ancora eccessivo.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Imposte	imposta	NOUN	S	Gender=Fem|Number=Plur	45	nsubj	_	_
+3	eccessive	eccessivo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+6	Nonostante	nonostante	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	sgravi	sgrave	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	fiscali	fiscale	ADJ	A	Number=Plur	8	amod	_	_
+10	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14-15	dai	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	vari	vario	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	Governi	governo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+20	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	succeduti	succedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+22	-	-	PUNCT	FB	_	23	punct	_	_
+23	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	parataxis	_	_
+24	Giuseppe	Giuseppe	PROPN	SP	_	23	nsubj	_	_
+25	Bortolussi	Bortolussi	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	24	appos	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Cgia	Cgia	PROPN	SP	_	27	nmod	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Mestre	Mestre	PROPN	SP	_	30	nmod	_	_
+33	-	-	PUNCT	FB	_	23	punct	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	peso	peso	NOUN	S	Gender=Masc|Number=Sing	45	nsubj	_	_
+36-37	delle	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	imposte	imposta	NOUN	S	Gender=Fem|Number=Plur	35	nmod	_	_
+39-40	sulle	_	_	_	_	_	_	_	_
+39	su	su	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+42	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	41	amod	_	_
+43	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+44	ancora	ancora	ADV	B	_	45	advmod	_	_
+45	eccessivo	eccessivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	45	punct	_	_
+
+# sent_id = 11
+# text = Soprattutto per quelle monoreddito, che costituiscono quasi la metà dei nuclei familiari italiani.
+1	Soprattutto	soprattutto	ADV	B	_	4	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	monoreddito	monoreddito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	costituiscono	costituire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	quasi	quasi	ADV	B	_	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	metà	metà	NOUN	S	Gender=Fem	7	obj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	nuclei	nucleo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	familiari	familiare	ADJ	A	Number=Plur	13	amod	_	_
+15	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Una tipologia familiare, quest’ultima, concentrata prevalentemente al Sud e tra le più colpite dalla crisi economica in atto".
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tipologia	tipologia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	familiare	familiare	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	quest’	questo	DET	DD	Number=Sing|PronType=Dem	8	det	_	SpaceAfter=No
+6	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	concentrata	concentrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	prevalentemente	prevalentemente	ADV	B	_	8	advmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Sud	Sud	PROPN	SP	_	17	obl	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	tra	tra	ADP	E	_	17	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	colpite	colpire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	crisi	crisi	NOUN	S	Gender=Fem	17	obl:agent	_	_
+21	economica	economico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	atto	atto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = "In questa analisi - conclude Bortolussi - noi calcoliamo il peso fiscale.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	analisi	analisi	NOUN	S	Gender=Fem	10	obl	_	_
+5	-	-	PUNCT	FF	_	6	punct	_	_
+6	conclude	concludere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+7	Bortolussi	Bortolussi	PROPN	SP	_	6	nsubj	_	_
+8	-	-	PUNCT	FF	_	6	punct	_	_
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	calcoliamo	calcolare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	peso	peso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	fiscale	fiscale	ADJ	A	Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 14
+# text = Ma rispetto ai principali Paesi europei le famiglie italiane sono oggetto di ulteriori costi, dovuti all’inefficienza del nostro sistema pubblico, che gli altri non subiscono.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	rispetto	rispetto	ADV	B	_	6	case	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	principali	principale	ADJ	A	Number=Plur	6	amod	_	_
+6	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+7	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+10	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	ulteriori	ulteriore	ADJ	A	Number=Plur	15	amod	_	_
+15	costi	costo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	dovuti	dovere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+18-19	all’	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	inefficienza	inefficienza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	31	obj	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	31	nsubj	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	subiscono	subisrre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 15
+# text = Mi riferisco ai lunghissimi tempi di attesa per effettuare le visite specialistiche presso i nostri ospedali che costringono molte persone a rivolgersi alle strutture private.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	riferisco	riferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	lunghissimi	lungho	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	6	amod	_	_
+6	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	effettuare	effettuare	VERB	V	VerbForm=Inf	2	advcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	visite	visita	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	specialistiche	specialistico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	presso	presso	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	ospedali	ospedale	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	costringono	costringere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	persone	persona	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23-24	rivolgersi	_	_	_	_	_	_	_	_
+23	rivolger	rivolgere	VERB	V	VerbForm=Inf	19	xcomp	_	_
+24	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+25-26	alle	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+28	private	privato	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Oppure all’inadeguatezza del nostro sistema di trasporto pubblico che spesso obbliga molti italiani, ad esempio per recarsi al lavoro, ad usare l’automobile privata".
+1	Oppure	oppure	CCONJ	CC	_	28	cc	_	_
+2-3	all’	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	inadeguatezza	inadeguatezza	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	trasporto	trasporto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	spesso	spesso	ADV	B	_	14	advmod	_	_
+14	obbliga	obbligare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	ad	a	ADP	E	_	19	case	_	_
+19	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21-22	recarsi	_	_	_	_	_	_	_	_
+21	recar	recare	VERB	V	VerbForm=Inf	14	advcl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	4	punct	_	_
+27	ad	a	ADP	E	_	28	mark	_	_
+28	usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+29	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	automobile	automobile	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	privata	privato	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 17
+# text = Cgil: "Boom disoccupazione" Oltre 1,7 milioni solo di domande di disoccupazione:
+1	Cgil	Cgil	NOUN	S	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Boom	boom	PROPN	SP	_	1	nmod	_	_
+5	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	_
+7	Oltre	oltre	ADV	B	_	8	advmod	_	_
+8	1,7	1,7	NUM	N	NumType=Card	9	nummod	_	_
+9	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+10	solo	solo	ADV	B	_	12	advmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 18
+# text = a tanto ammonta, secondo le stime della Cgil, lo stato delle richieste di indennità a fine 2009.
+1	a	a	ADP	E	_	2	case	_	_
+2	tanto	tanto	PRON	PQ	Number=Sing|PronType=Int	3	obl	_	_
+3	ammonta	ammontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	secondo	secondo	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	stime	stima	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Cgil	Cgil	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	stato	stato	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	indennità	indennità	NOUN	S	Gender=Fem	16	nmod	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	fine	fine	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	2009	2009	NUM	N	NumType=Card	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Più in particolare, calcola la Cgil, le domande di disoccupazione nei primi undici mesi del 2009 sono state 1.765.922.
+1	Più	più	ADV	B	_	5	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	calcola	calcolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Cgil	Cgil	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	23	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	nei	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	17	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	17	amod	_	_
+16	undici	undici	NUM	N	NumType=Card	17	nummod	_	_
+17	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	2009	2009	NUM	N	NumType=Card	17	nmod	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	state	essere	AUX	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	cop	_	_
+23	1.765.922	1.765.922	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 20
+# text = Il calcolo dell’organizzazione sindacale si ottiene sommando le 114.000 richieste di assegno di disoccupazione arrivate all’Inps a novembre scorso, le 999.922 richieste dei primi 10 mesi del 2009 e le 652.000 domande di disoccupazione con requisiti ridotti.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	sindacale	sindacale	ADJ	A	Number=Sing	5	amod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	ottiene	ottenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	sommando	sommare	VERB	V	VerbForm=Ger	8	advcl	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	114.000	114.000	NUM	N	NumType=Card	12	nummod	_	_
+12	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	assegno	assegno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	arrivate	arrivare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+18-19	all’	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	Inps	Inps	PROPN	SP	_	17	obl	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+23	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	12	punct	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	999.922	999.922	NUM	N	NumType=Card	27	nummod	_	_
+27	richieste	richiesta	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	32	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+30	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	32	amod	_	_
+31	10	10	NUM	N	NumType=Card	32	nummod	_	_
+32	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	27	nmod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	2009	2009	NUM	N	NumType=Card	27	nmod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+38	652.000	652.000	NUM	N	NumType=Card	39	nummod	_	_
+39	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	27	conj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+42	con	con	ADP	E	_	43	case	_	_
+43	requisiti	requisito	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	_
+44	ridotti	ridotto	ADJ	A	Gender=Masc|Number=Plur	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

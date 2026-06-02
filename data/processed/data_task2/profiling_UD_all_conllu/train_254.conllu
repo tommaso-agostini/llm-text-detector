@@ -1,0 +1,389 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Luisone, piccolissima borgata meneghina, un tempo labirinto di stradine e di vite semplici, oggi testimone di un’evoluzione che, a volte, sembra troppo rapida.
+1	Luisone	Luisone	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	piccolissima	piccolo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	4	amod	_	_
+4	borgata	borgata	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	meneghina	meneghino	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+9	labirinto	labirinto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	stradine	stradine	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	vite	vite	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+15	semplici	semplice	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	1	punct	_	_
+17	oggi	oggi	ADV	B	_	18	advmod	_	_
+18	testimone	testimone	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	27	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	volte	volte	NOUN	S	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+28	troppo	troppo	ADV	B	_	29	advmod	_	_
+29	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	27	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ma in fondo, anche in mezzo al fermento dei nuovi arrivati e alla frenesia dell’urbanizzazione, alcune cose restano immutate:
+1	Ma	ma	CCONJ	CC	_	25	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fermento	fermento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+14	arrivati	arrivare	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	frenesia	frenesia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+19-20	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	urbanizzazione	urbanizzazione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	3	punct	_	_
+23	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
+24	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	25	nsubj	_	_
+25	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	immutate	immutare	ADJ	A	Gender=Fem|Number=Plur	25	xcomp	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	25	punct	_	_
+
+# sent_id = 3
+# text = il profumo dei cornetti caldi al mattino, il chiacchiericcio al bancone e il desiderio, forse inconscio, di ritrovarsi.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cornetti	cornetto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	caldi	caldo	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	chiacchiericcio	chiacchiericcio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bancone	bancone	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	forse	forse	ADV	B	_	21	advmod	_	_
+21	inconscio	inconscio	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24-25	ritrovarsi	_	_	_	_	_	_	_	SpaceAfter=No
+24	ritrovar	ritrovare	VERB	V	VerbForm=Inf	18	acl	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E il Bar Sport, in Via Gustavo Balzola, è il cuore pulsante di questa resilienza.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Bar	bar	PROPN	SP	_	13	nsubj	_	_
+4	Sport	sport	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Via	via	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	Gustavo	Gustavo	PROPN	SP	_	7	nmod	_	_
+9	Balzola	Balzola	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+14	pulsante	pulsante	ADJ	A	Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	resilienza	resilienza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Non è un bar come gli altri.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bar	bar	NOUN	S	Gender=Masc	0	root	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Non ha schermi giganti che bombardano l’attenzione con pubblicità e notizie di cronaca rosa.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	schermi	schermo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	giganti	giganti	ADJ	A	Number=Plur	3	amod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	bombardano	bombardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	pubblicità	pubblicità	NOUN	S	Gender=Fem	6	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	10	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cronaca	cronaca	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	rosa	rosa	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = L'illuminazione è calda, rimasta invariata da decenni, e l’arredamento, scegliendo la sobrietà, offre un’oasi di pace in un quartiere sempre più vivace.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	illuminazione	illuminazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	calda	caldo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+7	invariata	invariare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	7	obl:agent	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	arredamento	arredamento	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	scegliendo	scegliere	VERB	V	VerbForm=Ger	4	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sobrietà	sobrietà	NOUN	S	Gender=Fem	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	offre	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	oasi	oasi	NOUN	S	Gender=Fem	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	pace	pace	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+27	sempre	sempre	ADV	B	_	28	advmod	_	_
+28	più	più	ADV	B	_	29	advmod	_	_
+29	vivace	vivace	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = È un luogo dove, dall'altro lato del bancone, si raccontano storie.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	dove	dove	ADV	B	_	15	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6-7	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+6	da	da	ADP	E	_	9	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	altro	altro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	lato	lato	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bancone	bancone	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	9	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+16	storie	storia	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Storie di immigrati che hanno trovato una casa, di operai che tornano dal lavoro, di studenti che studiano a fatica, di anziani solitari che cercano un sorriso.
+1	Storie	storia	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	operai	operaio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	tornano	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	studiano	studiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	1	punct	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+27	solitari	solitario	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+29	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ricordo il signor Enzo, un tempo pilota di Formula 1, ora immerso nella sua passione per il calcio e gli intervistini locali.
+1	Ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	signor	signore	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Enzo	Enzo	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+8	pilota	piloto	NOUN	S	Gender=Masc|Number=Sing	7	compound	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Formula	Formula	PROPN	SP	_	8	nmod	_	_
+11	1	1	NUM	N	NumType=Card	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	ora	ora	ADV	B	_	14	advmod	_	_
+14	immerso	immergere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	passione	passione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	intervistini	intervistino	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+25	locali	locale	ADJ	A	Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Ogni pomeriggio, dopo aver accompagnato a scuola la nipote, si sedeva sempre allo stesso tavolo e ordinava un caffè e un giornale, commentando con la passione di un tempo le partite e i risultati.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dopo	dopo	SCONJ	CS	_	6	mark	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	accompagnato	accompagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	nipote	nipote	NOUN	S	Number=Sing	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	sedeva	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	sempre	sempre	ADV	B	_	13	advmod	_	_
+15-16	allo	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	ordinava	ordinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	conj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	caffè	caffè	NOUN	S	Gender=Masc	20	obj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	commentando	commentare	VERB	V	VerbForm=Ger	20	advcl	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	passione	passione	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	partite	partita	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+36	e	e	CCONJ	CC	_	38	cc	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 12
+# text = Enzo, tra l'altro, è stato uno dei primi ad accogliere i giovani arrivati dalla Siria, insegnando loro il valore di un caffè caldo e di una conversazione semplice.
+1	Enzo	Enzo	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+9	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	9	nmod	_	_
+13	ad	a	ADP	E	_	14	mark	_	_
+14	accogliere	accogliere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	giovani	giovane	NOUN	S	Number=Plur	14	obj	_	_
+17	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18-19	dalla	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Siria	Siria	PROPN	SP	_	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	14	punct	_	_
+22	insegnando	insegnare	VERB	V	VerbForm=Ger	14	advcl	_	_
+23	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	22	iobj	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	valore	valore	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	caffè	caffè	NOUN	S	Gender=Masc	25	nmod	_	_
+29	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	28	conj	_	_
+34	semplice	semplice	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = Poi c'è la signora Giulia, immigrata nigeriana, che ogni settimana prepara le sue classiche danzi le.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	signora	signore	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	Giulia	Giulia	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	immigrata	immigrare	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	nigeriana	nigeriano	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	che	che	SCONJ	CS	_	14	mark	_	_
+12	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+13	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	prepara	preparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+16	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+17	classiche	classica	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	danzi	danzi	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+19	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Un piccolo evento che unisce famiglie
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	evento	evento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	unisce	unire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpacesAfter=\n
+

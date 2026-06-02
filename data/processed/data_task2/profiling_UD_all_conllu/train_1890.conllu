@@ -1,0 +1,327 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Non c'è niente che vorresti sentire come madre", ha dichiarato Santarelli in una recente intervista.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	vorresti	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	sentire	sentire	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	madre	madre	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+15	Santarelli	Santarelli	PROPN	SP	_	14	nsubj	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	recente	recente	ADJ	A	Number=Sing	19	amod	_	_
+19	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = "Ma la vita è imprevedibile.
+1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	6	cc	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	imprevedibile	imprevedibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Noi come genitori vogliamo solo che i nostri figli siano felici e in salute, ma a volte le cose non vanno come vorremmo".
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	solo	solo	ADV	B	_	11	advmod	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	felici	felice	ADJ	A	Number=Plur	4	ccomp	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	salute	salute	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	22	punct	_	_
+16	ma	ma	CCONJ	CC	_	22	cc	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	volte	volta	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+23	come	come	ADP	E	_	24	case	_	_
+24	vorremmo	volere	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Il figlio di Elena,ايคนไฟที่หัวใจ, è stato recentemente diagnosticato con una malattia rara e grave.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Elena,ايคนไฟที่หัวใจ	Elena,ايคนไฟที่หัวใจ	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
+8	recentemente	recentemente	ADV	B	_	9	advmod	_	_
+9	diagnosticato	diagnosticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	rara	raro	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	grave	grave	ADJ	A	Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = La conduttrice ha deciso di condividere la sua difficoltà su Instagram, dove ha pubblicato una lunga!
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conduttrice	conduttore	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	condividere	condividere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	difficoltà	difficoltà	NOUN	S	Gender=Fem	6	obj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	Instagram	Instagram	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	dove	dove	ADV	B	_	15	advmod	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = di cui spiega la sua situazione e il suo dolore.
+1	di	di	ADP	E	_	2	case	_	_
+2	cui	cui	PRON	PR	PronType=Rel	3	obl	_	_
+3	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = "Abbiamo vissuto giorni difficili, pieni di paura e incertezza", ha scritto Santarelli.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	difficili	difficile	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	paura	paura	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	incertezza	incertezza	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+16	Santarelli	Santarelli	PROPN	SP	_	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = "Ma noi come famiglia siamo uniti e vicini a nostro figlio, e stiamo affrontando questa difficoltà insieme".
+1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	7	cc	_	_
+3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	uniti	unire	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	vicini	vicino	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	affrontando	affrontare	VERB	V	VerbForm=Ger	7	conj	_	_
+17	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	difficoltà	difficoltà	NOUN	S	Gender=Fem	16	obj	_	_
+19	insieme	insieme	ADV	B	_	16	advmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = La malattia di হবে:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	হবে	হবে	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = è una patologia del metabolismo che colpisce un bambino su 10.000.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	patologia	patologia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	metabolismo	metabolismo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	colpisce	colpire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	su	su	ADP	E	_	12	case	_	_
+12	10.000	10.000	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Causa una serie di problemi di salute, tra cui ritardo mentale e problemi neurologici.
+1	Causa	causare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serie	serie	NOUN	S	Gender=Fem	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	salute	salute	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	tra	tra	ADP	E	_	11	case	_	_
+10	cui	cui	DET	DR	PronType=Rel	11	det:poss	_	_
+11	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+12	mentale	mentale	ADJ	A	Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	neurologici	neurologico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Elena Santarelli ha dichiarato di aver forze per affrontare questa difficoltà e di essere grata per il sostegno e l'amore che ha ricevuto dai fan.
+1	Elena	Elena	PROPN	SP	_	4	nsubj	_	_
+2	Santarelli	Santarelli	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	aver	avere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	forze	forza	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	affrontare	affrontare	VERB	V	VerbForm=Inf	6	advcl	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	difficoltà	difficoltà	NOUN	S	Gender=Fem	9	obj	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	di	di	ADP	E	_	15	mark	_	_
+14	essere	essere	AUX	VA	VerbForm=Inf	15	aux:pass	_	_
+15	grata	grare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	amore	amore	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+25-26	dai	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	fan	fan	NOUN	S	_	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = "Siamo una famiglia forte e unita, e insieme ce la faremo", ha detto.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	forte	forte	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	unita	unito	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	insieme	insieme	ADV	B	_	13	advmod	_	_
+11	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+12	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	faremo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	4	conj	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Questa notizia è un promemoria dur4461 di quanto la vita possa essere difficile e inaspettata.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	promemoria	promemoria	NOUN	S	Number=Sing	0	root	_	_
+6	dur4461	dur4461	NUM	N	NumType=Card	5	nummod	_	_
+7	di	di	ADP	E	_	13	mark	_	_
+8	quanto	quanto	ADV	B	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	6	advcl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	inaspettata	inaspettato	ADJ	A	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Ma anche di come la solidarietà e l'amore possono aiutare a superare i momenti più difficili.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	anche	anche	ADV	B	_	6	advmod	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	come	come	SCONJ	CS	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	solidarietà	solidarietà	NOUN	S	Gender=Fem	11	nsubj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	superare	superare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	difficili	difficile	ADJ	A	Number=Plur	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 16
+# text = In questo momento difficile, desideriamo mandare tutto il nostro sostegno e l'energia positiva a Elena Santarelli e alla sua famiglia.
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	desideriamo	desiderare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mandare	mandare	VERB	V	VerbForm=Inf	6	advcl	_	_
+8	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	11	det:predet	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sostegno	sostegno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	energia	energia	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	positiva	positivo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Elena	Elena	PROPN	SP	_	7	obl	_	_
+18	Santarelli	Santarelli	PROPN	SP	_	17	flat:name	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20-21	alla	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,332 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "非Zio Pilurzi, un pensionato di 71 anni, è stato investito da un'agente di polizia durante una manifestazione a Roma sabato scorso.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	非Zio	非Zio	PROPN	SP	_	13	nsubj:pass	_	_
+3	Pilurzi	Pilurzi	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pensionato	pensionato	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	71	71	NUM	N	NumType=Card	9	nummod	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	investito	investire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	agente	agente	NOUN	S	Number=Sing	13	obl:agent	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	durante	durante	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Roma	Roma	PROPN	SP	_	21	nmod	_	_
+24	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Pilurzi afferma di non aver visto l'alt e di essere stato colpito senza pietà dall'agente.
+1	Pilurzi	Pilurzi	ADV	B	_	2	advmod	_	_
+2	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	aver	avere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	alt	alt	NOUN	S	Gender=Masc	6	obj	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	di	di	ADP	E	_	13	mark	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	13	aux	_	_
+12	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+14	senza	senza	ADP	E	_	15	case	_	_
+15	pietà	pietà	NOUN	S	Gender=Fem	13	obl	_	_
+16-17	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+16	da	da	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	agente	agente	NOUN	S	Gender=Masc|Number=Sing	13	obl:agent	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = L'anziano era presente alla manifestazione perché voleva esprimere la sua opinione sulla situazione politica attuale.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anziano	anziano	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	presente	presente	ADJ	A	Number=Sing	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	perché	perché	SCONJ	CS	_	10	mark	_	_
+9	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	esprimere	esprimere	VERB	V	VerbForm=Inf	4	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+17	politica	politico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	attuale	attuale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Non si aspettava certo di finire in ospedale a causa dell'aggressione subita.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	certo	certo	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	finire	finire	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	causa	causa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+11-12	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+11	di	di	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	aggressione	aggressione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	subita	subito	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = "Io non ho visto l'alt, stavo solo attraversando la strada per raggiungere la manifestazione.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	alt	alt	NOUN	S	Gender=Masc	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	stavo	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj	_	_
+10	solo	solo	ADV	B	_	11	advmod	_	_
+11	attraversando	attraversare	VERB	V	VerbForm=Ger	9	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	strada	strada	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	raggiungere	raggiungere	VERB	V	VerbForm=Inf	11	advcl	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Non ho mai avuto problemi con la polizia prima d'ora, ma questa volta ho subito un'aggressione ingiustificata", ha dichiarato Pilurzi.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mai	mai	ADV	B	_	4	advmod	_	_
+4	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9	prima	prima	ADV	B	_	8	advmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	ora	ora	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	volta	volta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+16	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	subito	subire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	aggressione	aggressione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	ingiustificata	ingiustificato	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	4	punct	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+25	Pilurzi	Pilurzi	PROPN	SP	_	24	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = L'agente di polizia che lo ha investito è stata sospesa dal servizio e sottoposta a indagine disciplinare.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	agente	agente	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	investito	investire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	sospesa	sospendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	sottoposta	sottoposta	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	indagine	indagine	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	disciplinare	disciplinare	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Ma per Pilurzi, è troppo poco e troppo tardi.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	Pilurzi	Pilurzi	PROPN	SP	_	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	troppo	troppo	ADV	B	_	7	advmod	_	_
+7	poco	poco	ADV	B	_	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	troppo	troppo	ADV	B	_	10	advmod	_	_
+10	tardi	tardi	ADV	B	_	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = "Io ho solo voluto esercitare il mio diritto di manifestare pacificamente la mia opinione.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	voluto	volere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6	esercitare	esercitare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	manifestare	manifestare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	pacificamente	pacificamente	ADV	B	_	11	advmod	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = E invece ho rischiato la vita.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	invece	invece	ADV	B	_	4	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rischiato	rischiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Questa è la freedom of speech in Italia?
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	freedom	freedom	X	SW	Foreign=Yes	0	root	_	_
+5	of	of	X	SW	Foreign=Yes	4	flat:foreign	_	_
+6	speech	speech	X	SW	Foreign=Yes	4	flat:foreign	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = ", ha commentato amareggiato l'anziano pensionato.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	commentato	commentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	amareggiato	amareggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	anziano	anziano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	pensionato	pensionato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = La vicenda ha scatenato una forte polemica politica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scatenato	scatenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	forte	forte	ADJ	A	Number=Sing	7	amod	_	_
+7	polemica	polemica	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	politica	politico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Il leader del Partito Democratico, Enrico Letta, ha condannato l'accaduto e ha Sheilaato lazarpenza di rapide indagini per fare chiarezza sull'accaduto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	leader	leader	NOUN	S	_	12	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Partito	partito	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	Enrico	Enrico	PROPN	SP	_	2	appos	_	_
+9	Letta	letta	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	condannato	condannare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	accaduto	accaduto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	Sheilaato	Sheilaato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+18	lazarpenza	lazarpenza	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	rapide	rapido	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+21	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	17	advcl	_	_
+24	chiarezza	chiarezza	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+25-26	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+25	su	su	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	accaduto	accaduto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 15
+# text = "Non c'è giustificazione per l'uso sproporzionato della forza da parte delle forze dell'ordine.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	giustificazione	giustificazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	uso	uso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	sproporzionato	sproporzionato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	forza	forza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+15-16	delle	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	forze	forza	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Siamo un paese democratico e pacifico, in cui i cittadini hanno il diritto di manifestare liberamente le loro
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	pacifico	pacifico	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	manifestare	manifestare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	liberamente	liberamente	ADV	B	_	16	advmod	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	loro	loro	DET	AP	Poss=Yes|PronType=Prs	16	obj	_	SpacesAfter=\n
+

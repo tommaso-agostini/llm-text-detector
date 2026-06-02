@@ -1,0 +1,415 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per evitare una tragedia.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	evitare	evitare	VERB	V	VerbForm=Inf	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = "L'impegno dell'UNICEF è ora interamente focalizzato ad ottenere un passaggio nelle aree con accesso ristretto, dove più di 40.000 bambini hanno urgente bisogno di aiuti salvavita.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	UNICEF	Unicef	PROPN	SP	_	3	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	ora	ora	ADV	B	_	10	advmod	_	_
+9	interamente	interamente	ADV	B	_	10	advmod	_	_
+10	focalizzato	focalizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	ad	a	ADP	E	_	12	mark	_	_
+12	ottenere	ottenere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	nelle	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	aree	area	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+18	con	con	ADP	E	_	19	case	_	_
+19	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	ristretto	ristretto	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	19	punct	_	_
+22	dove	dove	ADV	B	_	27	advmod	_	_
+23	più	più	ADV	B	_	26	advmod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	40.000	40.000	NUM	N	NumType=Card	26	nummod	_	_
+26	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+27	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+28	urgente	urgente	ADJ	A	Number=Sing	29	amod	_	_
+29	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+32	salvavita	salvavito	ADJ	A	Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Il nostro obiettivo è di distribuire aiuti di base e beni - acqua potabile sicura, dispositivi per lo smaltimento dei rifiuti, cure mediche e nutrizionali - alle persone più vulnerabili per evitare una tragedia".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	distribuire	distribuire	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	base	base	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	beni	bene	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	-	-	PUNCT	FF	_	13	punct	_	_
+13	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+14	potabile	potabile	ADJ	A	Number=Sing	13	amod	_	_
+15	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	dispositivi	dispositivo	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	smaltimento	smaltimento	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	cure	cura	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	_
+26	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	nutrizionali	nutrizionale	ADJ	A	Number=Plur	26	conj	_	_
+29	-	-	PUNCT	FB	_	13	punct	_	_
+30-31	alle	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+33	più	più	ADV	B	_	34	advmod	_	_
+34	vulnerabili	vulnerabile	ADJ	A	Number=Plur	32	amod	_	_
+35	per	per	ADP	E	_	36	mark	_	_
+36	evitare	evitare	VERB	V	VerbForm=Inf	6	advcl	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Insicurezza diffusa.
+1	Insicurezza	insicurezza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Le violenze nella provincia di Anbar, hanno costretto - dall'inizio dell'anno - più di 62.000 famiglie a fuggire dalle proprie case e hanno colpito altre migliaia di persone, a causa delle condizioni di sicurezza, delle infrastrutture e della situazione dei servizi di base a Fallujah, Ramadi e nelle zone vicine, che peggiora costantemente.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Anbar	Anbar	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	-	-	PUNCT	FB	_	10	punct	_	_
+12-13	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15-16	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+15	di	di	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	-	-	PUNCT	FB	_	14	punct	_	_
+19	più	più	ADV	B	_	22	advmod	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	62.000	62.000	NUM	N	NumType=Card	22	nummod	_	_
+22	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	fuggire	fuggire	VERB	V	VerbForm=Inf	10	xcomp	_	_
+25-26	dalle	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	28	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	case	casa	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	colpito	colpire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+32	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	33	det	_	_
+33	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	persone	persona	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	31	punct	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	causa	causa	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+39-40	delle	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	38	nmod	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	47	punct	_	_
+45-46	delle	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	41	conj	_	_
+48	e	e	CCONJ	CC	_	51	cc	_	_
+49-50	della	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	41	conj	_	_
+52-53	dei	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	base	base	NOUN	S	Gender=Fem|Number=Sing	54	nmod	_	_
+57	a	a	ADP	E	_	58	case	_	_
+58	Fallujah	Fallujah	PROPN	SP	_	56	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	FF	_	60	punct	_	_
+60	Ramadi	Ramadi	PROPN	SP	_	58	conj	_	_
+61	e	e	CCONJ	CC	_	64	cc	_	_
+62-63	nelle	_	_	_	_	_	_	_	_
+62	in	in	ADP	E	_	64	case	_	_
+63	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	64	det	_	_
+64	zone	zona	NOUN	S	Gender=Fem|Number=Plur	58	conj	_	_
+65	vicine	vicino	ADJ	A	Gender=Fem|Number=Plur	64	amod	_	SpaceAfter=No
+66	,	,	PUNCT	FF	_	64	punct	_	_
+67	che	che	PRON	PR	PronType=Rel	64	nsubj	_	_
+68	peggiora	peggiorare	ADV	B	_	69	advmod	_	_
+69	costantemente	costantemente	ADV	B	_	67	advmod	_	SpaceAfter=No
+70	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = I bambini e le loro famiglie sono vulnerabili e devono affrontare scarsità di cibo;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	loro	loro	DET	AP	Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	famiglie	famiglia	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	vulnerabili	vulnerabile	ADJ	A	Number=Plur	0	root	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	affrontare	affrontare	VERB	V	VerbForm=Inf	8	conj	_	_
+12	scarsità	scarsità	NOUN	S	Gender=Fem	11	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 7
+# text = limitato accesso all'acqua potabile; livelli sanitari pericolosi e la sospensione dei programmi d'istruzione, così come un limitato ricorso a cure mediche.
+1	limitato	limitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	accesso	accesso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	potabile	potabile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	8	punct	_	_
+8	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+9	sanitari	sanitario	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	pericolosi	pericoloso	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sospensione	sospensione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	d'	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	1	punct	_	_
+20	così	così	ADV	B	_	24	advmod	_	_
+21	come	come	ADP	E	_	24	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	limitato	limitato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	ricorso	ricorso	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	cure	cura	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+27	mediche	medico	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = 500 tonnellate di aiuti consegnati.
+1	500	500	NUM	N	NumType=Card	2	nummod	_	_
+2	tonnellate	tonnellata	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	consegnati	consegnare	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = L'UNICEF, insieme alle altre agenzie delle Nazioni Unite e ai partner locali, ha consegnato circa 500 tonnellate di aiuti fondamentali a beneficio di 90.000 donne e bambini;
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	UNICEF	Unicef	PROPN	SP	_	20	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	insieme	insieme	ADV	B	_	8	case	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	altre	altro	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	agenzie	agenzia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	Nazioni	Nazioni	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	Unite	Unite	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	partner	partner	NOUN	S	_	8	conj	_	_
+17	locali	locale	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	2	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	consegnato	consegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	circa	circa	ADV	B	_	20	advmod	_	_
+22	500	500	NUM	N	NumType=Card	23	nummod	_	_
+23	tonnellate	tonnellata	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+26	fondamentali	fondamentale	ADJ	A	Number=Plur	25	amod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	beneficio	beneficio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	90.000	90.000	NUM	N	NumType=Card	31	nummod	_	_
+31	donne	donna	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	31	conj	_	SpaceAfter=No
+34	;	;	PUNCT	FC	_	20	punct	_	_
+
+# sent_id = 10
+# text = gli aiuti comprendono : sapone; tavolette per potabilizzare l'acqua; coperte; kit igienici per bambini e altre scorte salvavita.
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	comprendono	comprendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	:	:	PUNCT	FC	_	3	punct	_	_
+5	sapone	sapone	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+7	tavolette	tavoletta	NOUN	S	Gender=Fem|Number=Plur	5	compound	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	potabilizzare	potabilizzare	VERB	V	VerbForm=Inf	5	acl	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	13	punct	_	_
+13	coperte	coperto	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+14	;	;	PUNCT	FC	_	15	punct	_	_
+15	kit	kit	NOUN	S	Gender=Masc	3	conj	_	_
+16	igienici	igienico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	scorte	scorta	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+22	salvavita	salvavito	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ulteriore assistenza umanitaria dell'UNICEF- destinata a raggiungere aree dove le persone sfollate si sono radunate (scuole, moschee, istituti) e le comunità che li ospitano - viene fornita attraverso:
+1	Ulteriore	ulteriore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	assistenza	assistenza	NOUN	S	Gender=Fem|Number=Sing	34	nsubj:pass	_	_
+3	umanitaria	umanitario	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	UNICEF	Unicef	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	raggiungere	raggiungere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	aree	area	VERB	V	VerbForm=Inf	10	advcl	_	_
+12	dove	dove	ADV	B	_	18	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+15	sfollate	sfollato	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	radunate	radunare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+19	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	18	nsubj:pass	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	moschee	moschea	NOUN	S	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	istituti	istituto	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	11	punct	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	comunità	comunità	NOUN	S	Gender=Fem	2	conj	_	_
+29	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+30	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	obj	_	_
+31	ospitano	ospitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	-	-	PUNCT	FF	_	2	punct	_	_
+33	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+34	fornita	fornire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+35	attraverso	attraverso	ADP	E	_	36	case	_	SpaceAfter=No
+36	:	:	PUNCT	FC	_	34	punct	_	_
+
+# sent_id = 12
+# text = camion che distribuiscono 96.000 litri di acqua potabile al giorno;
+1	camion	camion	NOUN	S	Gender=Masc	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	distribuiscono	distribuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	96.000	96.000	NUM	N	NumType=Card	5	nummod	_	_
+5	litri	litro	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	potabile	potabile	ADJ	A	Number=Sing	7	amod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 13
+# text = installazione di latrine;
+1	installazione	installazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	latrine	latrina	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 14
+# text = distribuzione di taniche d'acqua e tavolette per il trattamento e la purificazione dell'acqua.
+1	distribuzione	distribuzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	taniche	tanica	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	d'	di	ADP	E	_	5	case	_	SpaceAfter=No
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	tavolette	tavoletta	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	purificazione	purificazione	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Il piano d'intervento dell'UNICEF prevede la consegna di ulteriori 300 tonnellate di aiuti soltanto questa settimana.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	piano	piano	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	UNICEF	Unicef	PROPN	SP	_	4	nmod	_	_
+8	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	consegna	consegna	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	ulteriori	ulteriore	ADJ	A	Number=Plur	14	amod	_	_
+13	300	300	NUM	N	NumType=Card	14	nummod	_	_
+14	tonnellate	tonnellata	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	aiuti	aiuto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	soltanto	soltanto	ADV	B	_	19	advmod	_	_
+18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

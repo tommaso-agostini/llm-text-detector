@@ -1,0 +1,352 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ecco Embodrati, un piccolo paese della provincia italiana, dove le suore del convento di Santa Rosa hanno deciso di fare comunione con il diavolo anziché con Dio.
+1	Ecco	ecco	ADV	B	_	2	advmod	_	_
+2	Embodrati	Embodrati	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	dove	dove	ADV	B	_	22	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	suore	suora	NOUN	S	Gender=Fem|Number=Plur	22	nsubj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	convento	convento	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Santa	Santa	PROPN	SP	_	17	nmod	_	_
+20	Rosa	Rosa	PROPN	SP	_	19	flat:name	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	fare	fare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25	comunione	comunione	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	diavolo	diavolo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	anziché	anziché	ADV	B	_	31	advmod	_	_
+30	con	con	ADP	E	_	31	case	_	_
+31	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Le giovani novizie che decidevano di entrare in questo luogo sacro venivano sottoposte a vere e proprie torture medievali.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	giovani	giovane	ADJ	A	Number=Plur	3	amod	_	_
+3	novizie	novizia	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	decidevano	decidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	entrare	entrare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	sacro	sacro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	venivano	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
+13	sottoposte	sottoporre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	vere	vere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	torture	tortura	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	_
+19	medievali	medievale	ADJ	A	Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Frustate, patti di sangue e marchi a fuoco erano solo alcune delle pratiche utilizzate per umiliare e punire le povere ragazze.
+1	Frustate	Frustate	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	patti	patto	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	marchi	marchio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	solo	solo	ADV	B	_	12	advmod	_	_
+12	alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	0	root	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	utilizzate	utilizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	umiliare	umiliare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	punire	punire	VERB	V	VerbForm=Inf	18	conj	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	povere	povero	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+23	ragazze	ragazzo	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = I testimoni oculari raccontano di come le suore più anziane obbligassero le novizie a sottoporsi a queste pratiche disumane come forma di purificazione e di cambio di vita.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	testimoni	testimonio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	oculari	oculare	ADJ	A	Number=Plur	2	amod	_	_
+4	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	11	mark	_	_
+6	come	come	SCONJ	CS	_	5	fixed	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	suore	suora	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	anziane	anziano	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+11	obbligassero	obbligare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	novizie	novizia	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15-16	sottoporsi	_	_	_	_	_	_	_	_
+15	sottopor	sottoporre	VERB	V	VerbForm=Inf	11	xcomp	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	pratiche	pratica	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+20	disumane	disumano	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	come	come	ADP	E	_	22	case	_	_
+22	forma	forma	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	purificazione	purificazione	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	vita	vita	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ma non basta, le parti più sconvolgenti della storia sono ancora da scoprire.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	parti	parte	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	sconvolgenti	sconvolgente	ADJ	A	Number=Plur	6	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	storia	storia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	ancora	ancora	ADV	B	_	15	advmod	_	_
+14	da	da	ADP	E	_	15	mark	_	_
+15	scoprire	scoprire	VERB	V	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il convento di Santa Rosa sembra essere stato anche un luogo di commercio di opere d'arte rubate e trafugate dalle Table.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	convento	convento	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Santa	Santa	PROPN	SP	_	2	nmod	_	_
+5	Rosa	Rosa	PROPN	SP	_	4	flat:name	_	_
+6	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	essere	essere	AUX	VA	VerbForm=Inf	11	aux	_	_
+8	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	6	ccomp	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	commercio	commercio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	opere	opera	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	arte	arte	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	rubate	rubare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	trafugate	trafugare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+21-22	dalle	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	Table	Table	PROPN	SP	_	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Le suore, infatti, pare che avessero stretto un accordo con alcune bande criminali per trafficare opere d'arte di grande valore.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	suore	suora	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	infatti	infatti	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	stretto	strettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	bande	banda	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	criminali	criminale	ADJ	A	Number=Plur	14	amod	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	trafficare	trafficare	VERB	V	VerbForm=Inf	9	advcl	_	_
+18	opere	opera	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	arte	arte	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	grande	grande	ADJ	A	Number=Sing	23	amod	_	_
+23	valore	valore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Lainvoice inquirente ha scoperto che il convento era un veri e propri covo di criminali, dove non c'era spazio per la tenerezza e la carità cristiana.
+1	Lainvoice	Lainvoice	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	inquirente	inquirente	ADJ	A	Number=Sing	1	amod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	10	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	convento	convento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	veri	vero	ADJ	A	Gender=Masc|Number=Plur	4	ccomp	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	covo	covo	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	criminali	criminale	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	dove	dove	ADV	B	_	20	advmod	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	SpaceAfter=No
+20	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+21	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	tenerezza	tenerezza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	carità	carità	NOUN	S	Gender=Fem	24	conj	_	_
+28	cristiana	cristiano	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Le giovani novizie erano costrette a lavorare duramente per pagare la loro permanenza nel convento, che in realtà si trasformava in un vero e proprio campo di lavoro coatto.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	giovani	giovane	ADJ	A	Number=Plur	3	amod	_	_
+3	novizie	novizia	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	costrette	costringere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	lavorare	lavorare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	duramente	duro	ADV	B	_	7	advmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	pagare	pagare	VERB	V	VerbForm=Inf	7	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	loro	loro	DET	AP	Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	permanenza	permanenza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	convento	convento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	realtà	realtà	NOUN	S	Gender=Fem	22	obl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	trasformava	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+23	in	in	ADP	E	_	28	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+25	vero	vero	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	25	conj	_	_
+28	campo	campo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	coatto	coatto	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Le autorità hanno deciso di intervenire e di fare luce su questa storia.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	autorità	autorità	NOUN	S	Gender=Fem	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	intervenire	intervenire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	luce	luce	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Le suore sono state arrestate e il convento è stato chiuso.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	suore	suora	NOUN	S	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	arrestate	arrestare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	convento	convento	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	chiuso	chiudere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Le giovani novizie, finalmente liberate dalle grinfie delle suore, hanno potuto raccontare la loro storie e denunciare gli abusi subiti.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	giovani	giovane	ADJ	A	Number=Plur	3	amod	_	_
+3	novizie	novizia	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	finalmente	finalmente	ADV	B	_	6	advmod	_	_
+6	liberate	liberare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	grinfie	grinfia	NOUN	S	Gender=Fem|Number=Plur	6	obl:agent	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	suore	suora	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+16	raccontare	raccontare	VERB	V	VerbForm=Inf	0	root	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	storie	storia	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	denunciare	denunciare	VERB	V	VerbForm=Inf	16	conj	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	abusi	abuso	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+24	subiti	subito	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 13
+# text = Questa storia dovrebbe farci riflettere sulla crudeltà e sull'ingiustizia che può nascondere anche
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	farci	_	_	_	_	_	_	_	_
+4	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	_
+6	riflettere	riflettere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	crudeltà	crudeltà	NOUN	S	Gender=Fem	6	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+11	su	su	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	ingiustizia	ingiustizia	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	nascondere	nascondere	VERB	V	VerbForm=Inf	13	acl:relcl	_	_
+17	anche	anche	ADV	B	_	16	advmod	_	SpacesAfter=\n
+

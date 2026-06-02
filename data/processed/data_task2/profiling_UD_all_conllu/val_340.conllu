@@ -1,0 +1,1102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Piove forte.
+1	Piove	piove	ADV	B	_	2	advmod	_	_
+2	forte	forte	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = C'è un vento che spacca gli ombrelli.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vento	vento	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	spacca	spaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	ombrelli	ombrello	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E in questo giorno di bufera Matteo Ricci - che forse vuole diventare "il sindaco degli impossibili" - annuncia semplicemente che "a Pesaro questa estate non pioverà mai perché il sole è stato assicurato".
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	bufera	bufera	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	Matteo	Matteo	PROPN	SP	_	6	nmod	_	_
+8	Ricci	Ricci	PROPN	SP	_	7	flat:name	_	_
+9	-	-	PUNCT	FF	_	4	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+11	forse	forse	ADV	B	_	13	advmod	_	_
+12	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	diventare	diventare	VERB	V	VerbForm=Inf	0	root	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+17-18	degli	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	impossibili	impossibile	ADJ	A	Number=Plur	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	16	punct	_	_
+21	-	-	PUNCT	FB	_	16	punct	_	_
+22	annuncia	annunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+23	semplicemente	semplicemente	ADV	B	_	22	advmod	_	_
+24	che	che	SCONJ	CS	_	31	mark	_	_
+25	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+26	a	a	ADP	E	_	27	case	_	_
+27	Pesaro	Pesaro	PROPN	SP	_	31	obl	_	_
+28	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	estate	estate	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	pioverà	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	ccomp	_	_
+32	mai	mai	ADV	B	_	31	advmod	_	_
+33	perché	perché	SCONJ	CS	_	38	mark	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	sole	sole	NOUN	S	Gender=Masc|Number=Sing	38	nsubj:pass	_	_
+36	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	aux:pass	_	_
+38	assicurato	assicurato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = "Prima di venire nella mia città, non guardate nemmeno le previsioni del tempo.
+1	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+2	Prima	prima	ADV	B	_	4	mark	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	venire	venire	VERB	V	VerbForm=Inf	11	advcl	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	città	città	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	guardate	guardare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	nemmeno	nemmeno	ADV	BN	PronType=Neg	11	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Lo ripeto:
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	ripeto	ripetere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 6
+# text = il sole è "assicurato"".
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sole	sole	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	assicurato	assicurato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Non è la prima volta che il sindaco si dà da fare per mettere le cose a posto in cielo, in terra e in ogni luogo ma soprattutto in cielo.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	mettere	mettere	VERB	V	VerbForm=Inf	12	advcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	posto	posto	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	terra	terra	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	27	det	_	_
+27	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	_
+28	ma	ma	CCONJ	CC	_	31	cc	_	_
+29	soprattutto	soprattutto	ADV	B	_	31	advmod	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Lo scorso agosto, visto che pioveva un giorno sì e l'altro pure, ha firmato una delibera per allungare l'estate fino a metà ottobre, con obbligo di ombrelloni aperti e feste in spiaggia.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	pioveva	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	sì	sì	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	17	cc	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+14	pure	pure	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	firmato	firmare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	delibera	delibera	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	allungare	allungare	VERB	V	VerbForm=Inf	17	advcl	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	estate	estate	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+24	fino	fino	ADV	B	_	26	case	_	_
+25	a	a	ADP	E	_	24	fixed	_	_
+26	metà	metà	NOUN	S	Gender=Fem	21	obl	_	_
+27	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	5	punct	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	obbligo	obbligo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	ombrelloni	ombrellone	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+33	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	feste	festo	NOUN	S	Gender=Fem|Number=Plur	32	conj	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = "Il sole è assicurato - spiega Matteo Ricci - perché se a luglio e agosto, che sono i mesi più importanti della stagione, piove per tre giorni in fila, noi rimborsiamo il danno offrendo un weekend gratis nel prossimo settembre oppure a maggio e giugno del 2016".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sole	sole	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	assicurato	assicurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	-	-	PUNCT	FB	_	7	punct	_	_
+7	spiega	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	Matteo	Matteo	PROPN	SP	_	7	nsubj	_	_
+9	Ricci	Ricci	PROPN	SP	_	8	flat:name	_	_
+10	-	-	PUNCT	FF	_	7	punct	_	_
+11	perché	perché	ADV	B	_	21	advmod	_	_
+12	se	se	SCONJ	CS	_	21	mark	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	5	advcl	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	importanti	importante	ADJ	A	Number=Plur	21	amod	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	21	punct	_	_
+28	piove	piovere	SCONJ	CS	_	36	mark	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	tre	tre	NUM	N	NumType=Card	31	nummod	_	_
+31	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	36	obl	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	fila	fila	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	31	punct	_	_
+35	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	36	nsubj	_	_
+36	rimborsiamo	rimborsare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	danno	danno	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	_
+39	offrendo	offrire	VERB	V	VerbForm=Ger	36	advcl	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	weekend	weekend	NOUN	S	Gender=Masc	39	obj	_	_
+42	gratis	gratis	NOUN	S	Gender=Masc	41	compound	_	_
+43-44	nel	_	_	_	_	_	_	_	_
+43	in	in	ADP	E	_	46	case	_	_
+44	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+45	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	_
+46	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	_
+47	oppure	oppure	CCONJ	CC	_	49	cc	_	_
+48	a	a	ADP	E	_	49	case	_	_
+49	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	51	conj	_	_
+50	e	e	CCONJ	CC	_	51	cc	_	_
+51	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+52-53	del	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	2016	2016	NUM	N	NumType=Card	51	nummod	_	SpaceAfter=No
+55	"	"	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Ci sono tre partner, in quel "noi":
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	partner	partner	NOUN	S	_	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 11
+# text = l'amministrazione comunale, l'associazione degli albergatori e l'Unipol Assicurazioni.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	comunale	comunale	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7-8	degli	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	albergatori	albergatore	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	Unipol	Unipol	PROPN	SP	_	2	conj	_	_
+13	Assicurazioni	assicurazioni	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = "Abbiamo costruito un accordo del tutto nuovo.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nmod	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Assicurare il sole non è come firmare un polizza per l'automobile o garantirsi contro i danni della grandine in campagna.
+1	Assicurare	assicurare	VERB	V	VerbForm=Inf	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sole	sole	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	come	come	ADV	B	_	7	advmod	_	_
+7	firmare	firmare	VERB	V	VerbForm=Inf	1	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	polizza	polizza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	automobile	automobile	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14-15	garantirsi	_	_	_	_	_	_	_	_
+14	garantir	garantire	VERB	V	VerbForm=Inf	7	conj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	contro	contro	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	danni	danno	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	grandine	grandine	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Noi, come Comune, finanziamo parte dell'iniziativa con soldi incassati con la tassa di soggiorno.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	Comune	comune	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	finanziamo	finanziare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13	incassati	incassato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 15
+# text = Gli albergatori mettono a disposizione le camere e i ristoranti.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	albergatori	albergatore	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	camere	camera	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ristoranti	ristorante	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = L'Unipol è nostra alleata, pronta a fare il necessario per garantire tutta l'operazione.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	Unipol	Unipol	PROPN	SP	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	alleata	alleato	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	9	obj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	garantire	garantire	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = È comunque la prima volta che si fa un patto del genere con i vacanzieri, sicuramente in Italia".
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	comunque	comunque	ADV	B	_	5	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	patto	patto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	genere	genere	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	vacanzieri	vacanziere	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	sicuramente	sicuramente	ADV	B	_	20	advmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	Italia	Italia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 18
+# text = Come in tutte le polizze, bisogna leggere attentamente le clausole.
+1	Come	come	ADV	B	_	7	advmod	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	polizze	polizza	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	leggere	leggere	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	attentamente	attento	ADV	B	_	8	advmod	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	clausole	clausola	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = Intanto, per essere rimborsati con un weekend "tre notti, due giorni", debbono cadere "tre millimetri di pioggia per tre giorni consecutivi, nelle ore comprese fra le dieci del mattino e le sedici del pomeriggio, quando le spiagge sono più affollate".
+1	Intanto	intanto	ADV	B	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	5	mark	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	rimborsati	rimborsare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	weekend	weekend	NOUN	S	Gender=Masc	5	obl	_	_
+9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+10	tre	tre	NUM	N	NumType=Card	11	nummod	_	_
+11	notti	notte	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	due	due	NUM	N	NumType=Card	14	nummod	_	_
+14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	cadere	cadere	VERB	V	VerbForm=Inf	0	root	_	_
+19	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+20	tre	tre	NUM	N	NumType=Card	21	nummod	_	_
+21	millimetri	millimetro	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	tre	tre	NUM	N	NumType=Card	26	nummod	_	_
+26	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+27	consecutivi	consecutivo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	18	punct	_	_
+29-30	nelle	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	ore	ora	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+32	comprese	compreso	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+33	fra	fra	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	dieci	dieci	NUM	N	NumType=Card	32	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	e	e	CCONJ	CC	_	41	cc	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	sedici	sedice	NOUN	S	Gender=Fem|Number=Plur	18	conj	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	18	punct	_	_
+46	quando	quando	SCONJ	CS	_	51	mark	_	_
+47	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	spiagge	spiaggia	NOUN	S	Gender=Fem|Number=Plur	51	nsubj	_	_
+49	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+50	più	più	ADV	B	_	51	advmod	_	_
+51	affollate	affollare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	SpaceAfter=No
+52	"	"	PUNCT	FB	_	51	punct	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 20
+# text = "Se piove al mattino o alla sera si possono fare altre cose e la giornata non è rovinata".
+1	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	CS	_	3	mark	_	_
+3	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mattino	mattino	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:pass	_	_
+12	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+14	altre	altro	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	rovinata	rovinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 21
+# text = C'è attenzione per eventuali truffatori.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	eventuali	eventuale	ADJ	A	Number=Plur	6	amod	_	_
+6	truffatori	truffatore	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Ci può essere chi guarda le previsioni e se su Pesaro incombono tuoni e fulmini, si prenota ugualmente, tanto tutto verrà rimborsato con un altro soggiorno e così si dorme e si mangia gratis.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	cop	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+5	guarda	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	se	se	SCONJ	CS	_	12	mark	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	Pesaro	Pesaro	PROPN	SP	_	12	obl	_	_
+12	incombono	incombere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	tuoni	tuono	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	fulmini	fulmine	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	prenota	prenotare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+19	ugualmente	ugualmente	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	tanto	tanto	ADV	B	_	24	advmod	_	_
+22	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	nsubj:pass	_	_
+23	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	aux:pass	_	_
+24	rimborsato	rimborsare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+25	con	con	ADP	E	_	28	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	altro	altro	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+29	e	e	CCONJ	CC	_	32	cc	_	_
+30	così	così	ADV	B	_	32	advmod	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl:impers	_	_
+32	dorme	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	mangia	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
+36	gratis	gratis	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = "Non è possibile", racconta Fabrizio Oliva, presidente dell'Apa, associazione pesarese albergatori con cinquanta soci.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	Fabrizio	Fabrizio	PROPN	SP	_	7	nsubj	_	_
+9	Oliva	olivo	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Apa	Apa	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	8	appos	_	_
+17	pesarese	pesarese	ADJ	A	Number=Sing	18	amod	_	_
+18	albergatori	albergatore	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	cinquanta	cinquanta	NUM	N	NumType=Card	21	nummod	_	_
+21	soci	socio	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 24
+# text = "Bisogna infatti prenotare almeno una settimana prima, non per tre giorni ma almeno per una settimana.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	infatti	infatti	ADV	B	_	2	advmod	_	_
+4	prenotare	prenotare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	almeno	almeno	ADV	B	_	7	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	prima	prima	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	tre	tre	NUM	N	NumType=Card	13	nummod	_	_
+13	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+14	ma	ma	CCONJ	CC	_	18	cc	_	_
+15	almeno	almeno	ADV	B	_	18	advmod	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = A luglio e agosto fra l'altro non è facile, perché c'è chi ferma le camere anche un anno prima.
+1	A	a	ADP	E	_	2	case	_	_
+2	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+5	fra	fra	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	facile	facile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	perché	perché	SCONJ	CS	_	14	mark	_	_
+13	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	SpaceAfter=No
+14	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	nsubj	_	_
+16	ferma	fermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	camere	camera	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	anche	anche	ADV	B	_	21	advmod	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	anno	anno	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+22	prima	prima	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 26
+# text = Abbiamo il Rossini Opera Festival dal 5 al 20 agosto, la mostra Nuovo Cinema, il Docufestival di Luca Zingaretti...
+1	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Rossini	Rossini	PROPN	SP	_	1	obj	_	_
+4	Opera	Opera	PROPN	SP	_	3	flat:name	_	_
+5	Festival	Festival	PROPN	SP	_	3	flat:name	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	5	5	NUM	N	NumType=Card	1	obl	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	20	20	NUM	N	NumType=Card	1	obl	_	_
+12	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+16	Nuovo	Nuovo	PROPN	SP	_	15	nmod	_	_
+17	Cinema	cinema	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Docufestival	Docufestival	PROPN	SP	_	1	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Luca	Luca	PROPN	SP	_	20	nmod	_	_
+23	Zingaretti..	Zingaretti..	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = L'assicurazione non è fatta per i furbi, ma per chi ha capito che a Pesaro c'è un turismo speciale che con questa assicurazione non sarà rovinato nemmeno da qualche che giorno di pioggia".
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	assicurazione	assicurazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	furbi	furbi	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	conj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+15	che	che	SCONJ	CS	_	19	mark	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Pesaro	Pesaro	PROPN	SP	_	19	obl	_	_
+18	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	SpaceAfter=No
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+22	speciale	speciale	ADJ	A	Number=Sing	21	amod	_	_
+23	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	assicurazione	assicurazione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	aux	_	_
+29	rovinato	rovinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+30	nemmeno	nemmeno	ADV	BN	PronType=Neg	29	advmod	_	_
+31	da	da	ADP	E	_	34	case	_	_
+32	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+33	che	che	DET	DQ	PronType=Int	34	det	_	_
+34	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 28
+# text = La Romagna è a un tiro di schioppo, la concorrenza è forte.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Romagna	Romagna	PROPN	SP	_	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	schioppo	schioppo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	forte	forte	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = Il turismo a Rimini - raccontano in Comune - supera il 70% del Pil mentre a Pesaro è al 7%.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Rimini	Rimini	PROPN	SP	_	2	nmod	_	_
+5	-	-	PUNCT	FB	_	2	punct	_	_
+6	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Comune	comune	PROPN	SP	_	6	obl	_	_
+9	-	-	PUNCT	FF	_	10	punct	_	_
+10	supera	superare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	70	70	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	SYM	_	10	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Pil	Pil	PROPN	SP	_	13	nmod	_	_
+17	mentre	mentre	CCONJ	CC	_	20	cc	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Pesaro	Pesaro	PROPN	SP	_	20	obl	_	_
+20	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	7	7	NUM	N	NumType=Card	24	nummod	_	SpaceAfter=No
+24	%	%	SYM	SYM	_	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 30
+# text = La crisi del mobile ha indebolito l'industria, mare e spiaggia possono dare una mano per recuperare i salari perduti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	crisi	crisi	NOUN	S	Gender=Fem	7	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mobile	mobile	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	indebolito	indebolire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	industria	industria	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	mare	mare	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+14	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dare	dare	VERB	V	VerbForm=Inf	7	advcl	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mano	mano	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	recuperare	recuperare	VERB	V	VerbForm=Inf	15	advcl	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	salari	salare	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+22	perduti	perduto	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 31
+# text = "Con i nostri vicini - dice il sindaco Matteo Ricci - comunque non c'è guerra, anzi.
+1	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+2	Con	con	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	vicini	vicino	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+6	-	-	PUNCT	FF	_	7	punct	_	_
+7	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	Matteo	Matteo	PROPN	SP	_	9	nmod	_	_
+11	Ricci	Ricci	PROPN	SP	_	10	flat:name	_	_
+12	-	-	PUNCT	FF	_	7	punct	_	_
+13	comunque	comunque	ADV	B	_	7	advmod	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	SpaceAfter=No
+16	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	anzi	anzi	ADV	B	_	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 32
+# text = Il 3 luglio, per la prima volta, la Notte rosa romagnola arriverà anche nelle Marche, fino a Senigallia e noi pure faremo festa.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	3	3	NUM	N	NumType=Card	14	obl	_	_
+3	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Notte	notte	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	rosa	rosa	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	romagnola	romagnolo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+14	arriverà	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	anche	anche	ADV	B	_	18	advmod	_	_
+16-17	nelle	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	Marche	Marche	PROPN	SP	_	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	fino	fino	ADV	B	_	22	case	_	_
+21	a	a	ADP	E	_	20	fixed	_	_
+22	Senigallia	Senigallia	PROPN	SP	_	26	obl	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+25	pure	pure	ADV	B	_	26	advmod	_	_
+26	faremo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	14	conj	_	_
+27	festa	festa	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 33
+# text = Dobbiamo, e possiamo, crescere tutti".
+1	Dobbiamo	dovere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	6	punct	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	crescere	crescere	VERB	V	VerbForm=Inf	1	conj	_	_
+7	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 34
+# text = La pioggia era un incubo, quando gli hotel si chiamavano pensioni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	quando	quando	SCONJ	CS	_	11	mark	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	hotel	hotel	NOUN	S	Gender=Masc	11	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	chiamavano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+12	pensioni	pensione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 35
+# text = Bambini chiusi in camere strette, nessun spazio per i giochi.
+1	Bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	chiusi	chiuso	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	camere	camera	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+5	strette	stretto	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 36
+# text = "Adesso - dice Fabrizio Oliva - tutto è cambiato.
+1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+2	Adesso	adesso	ADV	B	_	10	advmod	_	_
+3	-	-	PUNCT	FF	_	4	punct	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+5	Fabrizio	Fabrizio	PROPN	SP	_	4	nsubj	_	_
+6	Oliva	olivo	PROPN	SP	_	5	flat:name	_	_
+7	-	-	PUNCT	FF	_	4	punct	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 37
+# text = Ogni giorno e ogni sera ci sono intrattenimenti.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	intrattenimenti	intrattenimento	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 38
+# text = Per i piccoli c'è anche la Mezza - notte, una notte bianca per bambini, il 12 e 13 giugno.
+1	Per	per	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	5	obl	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Mezza	Mezza	PROPN	SP	_	5	nsubj	_	_
+9	-	-	PUNCT	FF	_	8	punct	_	_
+10	notte	notte	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+14	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	12	12	NUM	N	NumType=Card	16	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	13	13	NUM	N	NumType=Card	19	conj	_	_
+22	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 39
+# text = Il lunedì ballo liscio, il martedì scuola di danza, i mercatini al mercoledì, jazz e musica classica il giovedì, il venerdì arriva "A squarciagola", con il viale principale riservato ai bimbi...
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lunedì	lunedì	NOUN	S	Gender=Masc	8	obl	_	_
+3	ballo	ballo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	liscio	liscio	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	martedì	martedì	NOUN	S	Gender=Masc	8	nsubj	_	_
+8	scuola	scuola	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	danza	danza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	mercatini	mercato	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mercoledì	mercoledì	NOUN	S	Gender=Masc	8	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	jazz	jazz	NOUN	S	Gender=Masc	16	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	musica	musica	NOUN	S	Gender=Fem|Number=Sing	18	conj	_	_
+21	classica	classico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giovedì	giovedì	NOUN	S	Gender=Masc	8	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	8	punct	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	venerdì	venerdì	NOUN	S	Gender=Masc	27	nsubj	_	_
+27	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+28	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	A	A	ADP	E	_	30	case	_	_
+30	squarciagola	squarciagola	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	8	punct	_	_
+33	con	con	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	viale	viale	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+36	principale	principale	ADJ	A	Number=Sing	35	amod	_	_
+37	riservato	riservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl	_	_
+38-39	ai	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	bimbi..	bimbi..	NOUN	S	_	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 40
+# text = Il nostro non è più un turismo solo lasagne, pesce fritto e spiaggia.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	più	più	ADV	B	_	7	advmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	turismo	turismo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	solo	solo	ADV	B	_	9	advmod	_	_
+9	lasagne	lasagno	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12	fritto	fritto	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	spiaggia	spiaggio	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 41
+# text = In trenta minuti sei a Urbino a guardare Raffaello o al castello di Gradara, quello di Paolo e Francesca".
+1	In	in	ADP	E	_	3	case	_	_
+2	trenta	trenta	NUM	N	NumType=Card	3	nummod	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	sei	sei	NUM	N	NumType=Card	3	nummod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Urbino	Urbino	PROPN	SP	_	3	nmod	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	guardare	guardare	VERB	V	VerbForm=Inf	17	acl	_	_
+9	Raffaello	Raffaello	PROPN	SP	_	8	obj	_	_
+10	o	o	CCONJ	CC	_	13	cc	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	castello	castello	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Gradara	Gradara	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Paolo	Paolo	PROPN	SP	_	17	nmod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	Francesca	Francesca	PROPN	SP	_	19	conj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 42
+# text = Ma il sole resta importante e come ogni bene va assicurato.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	sole	sole	ADJ	A	Number=Sing	4	amod	_	_
+4	resta	resta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	importante	importante	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	bene	bene	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	assicurato	assicurato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 43
+# text = "Lo sa - dice il sindaco - che dopo la delibera che allungava l'estate Pesaro è stata la città italiana più ricercata su Google trend?
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	-	-	PUNCT	FF	_	5	punct	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	-	-	PUNCT	FB	_	7	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	12	case	_	_
+10	dopo	dopo	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	delibera	delibera	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	allungava	allungare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	estate	estate	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	Pesaro	Pesaro	PROPN	SP	_	16	nmod	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	cop	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	città	città	NOUN	S	Gender=Fem	12	nsubj	_	_
+22	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	ricercata	ricercata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+25	su	su	ADP	E	_	26	case	_	_
+26	Google	Google	PROPN	SP	_	24	obl	_	_
+27	trend	trend	NOUN	S	Gender=Masc	26	nmod	_	SpaceAfter=No
+28	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 44
+# text = Ed eravamo terzi nel mondo?".
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	terzi	terzo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 45
+# text = Si spera in un replay, con il sole garantito da polizza.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:impers	_	_
+2	spera	sperare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	replay	replay	NOUN	S	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	sole	sole	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	garantito	garantire	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	polizza	polizza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 46
+# text = Magari con l'aiuto delle rose benedette di Santa Rita.
+1	Magari	magari	ADV	B	_	4	advmod	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5-6	delle	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	rose	rosa	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	benedette	benedetto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Santa	Santa	PROPN	SP	_	7	nmod	_	_
+11	Rita	Rita	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

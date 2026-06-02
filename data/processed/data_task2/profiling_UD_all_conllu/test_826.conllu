@@ -1,0 +1,432 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sembra ieri.
+1	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ieri	ieri	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Il solito weekend di divertimento.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	solito	solito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	weekend	weekend	NOUN	S	Gender=Masc	2	compound	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	divertimento	divertimento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Amici, viaggi in auto, il gusto di vivere.
+1	Amici	Amici	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	auto	auto	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	vivere	vivere	VERB	V	VerbForm=Inf	8	acl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ma ieri, purtroppo, si è trasformata in una giornata da dimenticare.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2	ieri	ieri	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	purtroppo	purtroppo	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trasformata	trasformare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13	dimenticare	dimenticare	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Perché sull'auto c'è con lui una persona in evidente stato di ebbrezza.
+1	Perché	perché	ADV	B	_	6	advmod	_	_
+2-3	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+2	su	su	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	auto	auto	NOUN	S	Gender=Fem	6	obl	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	evidente	evidente	ADJ	A	Number=Sing	13	amod	_	_
+13	stato	stato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	ebbrezza	ebbrezza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Mio figlio, racconta il padre al quotidiano.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	padre	padre	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	quotidiano	quotidiano	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Continua parlando del figlio surreale, di un ragazzo che nei momenti peggiori della sua vita si trasforma in una furia incontrollabile.
+1	Continua	continuare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	parlando	parlare	VERB	V	VerbForm=Ger	1	advcl	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	surreale	surreale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+15	peggiori	peggiore	ADJ	A	Degree=Cmp|Number=Plur	14	amod	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+21	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	furia	furia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	incontrollabile	incontrollabile	ADJ	A	Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = E quando accade, quando i battiti del cuore accelerano e la vista si offusca, il ragazzo comincia ad inveire.
+1	E	e	CCONJ	CC	_	20	cc	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	quando	quando	SCONJ	CS	_	16	mark	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	battiti	battito	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	accelerano	accelerare	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vista	vista	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	offusca	offure	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+20	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22	inveire	inveire	VERB	V	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 9
+# text = Litiga con mio figlio e comincia a prenderlo a calci come se fosse un sacco della spazzatura.
+1	Litiga	Litigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8-9	prenderlo	_	_	_	_	_	_	_	_
+8	prender	prendere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	calci	calce	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	come	come	ADV	B	_	16	advmod	_	_
+13	se	se	SCONJ	CS	_	16	mark	_	_
+14	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	8	advcl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	spazzatura	spazzatura	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Cerca di buttarlo fuori dalla macchina.
+1	Cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	buttarlo	_	_	_	_	_	_	_	_
+3	buttar	buttare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	fuori	fuori	ADV	B	_	8	case	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	5	fixed	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Poi, quando si rende conto che l'auto è ancora in grado di muoversi, comincia a inveire contro mio figlio.
+1	Poi	poi	ADV	B	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quando	quando	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+6	conto	conto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	che	che	SCONJ	CS	_	13	mark	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	auto	auto	NOUN	S	Gender=Fem	13	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	ancora	ancora	ADV	B	_	13	advmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	grado	grado	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	muoversi	_	_	_	_	_	_	_	SpaceAfter=No
+15	muover	muovere	VERB	V	VerbForm=Inf	13	acl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	,	,	PUNCT	FF	_	5	punct	_	_
+18	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	inveire	inveire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	contro	contro	ADP	E	_	23	case	_	_
+22	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 12
+# text = Più e più volte.
+1	Più	più	ADV	B	_	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	più	più	ADV	B	_	1	conj	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Le indagini.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Il giovane chiamato in causa non nega l'accaduto, ma ovviamente non riesce a ricordarsi esattamente cosa sia successo perché era completamente sotto l'effetto di alcool.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	7	nsubj	_	_
+3	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	causa	causa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	nega	negare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	accaduto	accaduto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	ovviamente	ovviamente	ADV	B	_	14	advmod	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	ricordarsi	_	_	_	_	_	_	_	_
+16	ricordar	ricordare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+18	esattamente	esattamente	ADV	B	_	21	advmod	_	_
+19	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	21	nsubj	_	_
+20	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	_
+22	perché	perché	SCONJ	CS	_	27	mark	_	_
+23	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+24	completamente	completamente	ADV	B	_	27	advmod	_	_
+25	sotto	sotto	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	effetto	effetto	NOUN	S	Gender=Masc|Number=Sing	21	advcl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	alcool	alcool	NOUN	S	Gender=Masc	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Così come non ricorda chi per primo ha chiamato i Carabinieri.
+1	Così	così	ADV	B	_	4	advmod	_	_
+2	come	come	ADP	E	_	4	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	9	obl	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Carabinieri	Carabinieri	PROPN	SP	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Una chiamata partita dall'auto, questo si sa ed è quanto basta per fermare il ragazzo.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	chiamata	chiamata	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	partita	partire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+4	da	da	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	auto	auto	NOUN	S	Gender=Fem	3	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	obj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ed	e	CCONJ	CC	_	13	cc	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	10	conj	_	_
+14	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	fermare	fermare	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 17
+# text = Ai Carabinieri ha poi ammesso di aver aggredito il figlio perché era ubriaco, aveva deciso perciò di ricorrere alla violenza per disciplinare suo figlio, chiaramente troppo senza controllo.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Carabinieri	Carabinieri	PROPN	SP	_	6	obl	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	poi	poi	ADV	B	_	6	advmod	_	_
+6	ammesso	ammettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	aggredito	aggredire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	perché	perché	SCONJ	CS	_	14	mark	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	ubriaco	ubriaco	ADJ	A	Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+18	perciò	perciò	SCONJ	CS	_	20	mark	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	ricorrere	ricorrere	VERB	V	VerbForm=Inf	17	advcl	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	disciplinare	disciplinare	VERB	V	VerbForm=Inf	20	advcl	_	_
+26	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	20	punct	_	_
+29	chiaramente	chiaramente	ADV	B	_	30	advmod	_	_
+30	troppo	troppo	ADV	B	_	32	advmod	_	_
+31	senza	senza	ADP	E	_	32	case	_	_
+32	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = L'intervista al padre che sottolinea come questi fenomeni si stiano verificando sempre più spesso, ricordando che l'alcol è uno dei più grandi nemici della sanità personale e della sicurezza stradale.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	padre	padre	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	fenomeni	fenomeno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+12	stiano	stare	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	verificando	verificare	VERB	V	VerbForm=Ger	0	root	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	spesso	spesso	ADV	B	_	13	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	ricordando	ricordare	VERB	V	VerbForm=Ger	13	advcl	_	_
+19	che	che	SCONJ	CS	_	23	mark	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	ccomp	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	28	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	grandi	grande	ADJ	A	Number=Plur	28	amod	_	_
+28	nemici	nemico	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	_
+29-30	della	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	sanità	sanità	NOUN	S	Gender=Fem	28	nmod	_	_
+32	personale	personale	ADJ	A	Number=Sing	31	amod	_	_
+33	e	e	CCONJ	CC	_	36	cc	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+37	stradale	stradale	ADJ	A	Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 19
+# text = La situazione è grave e richiede maggiore attenzione su questo versante, per il bene di tutti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	grave	grave	ADJ	A	Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	versante	versante	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bene	bene	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 20
+# text = L'auspicio del giornalista è che finalmente ci sia una presa di coscienza generale su questo problema, che è molto sentito, affinché i giovani italiani imparino a
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	auspicio	auspicio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giornalista	giornalista	NOUN	S	Number=Sing	2	nmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	finalmente	finalmente	ADV	B	_	12	advmod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
+10	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	presa	presa	NOUN	S	Gender=Fem|Number=Sing	6	ccomp	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	generale	generale	ADJ	A	Number=Sing	14	amod	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	problema	problema	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	6	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	23	nsubj:pass	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+22	molto	molto	ADV	B	_	23	advmod	_	_
+23	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	6	punct	_	_
+25	affinché	affinché	SCONJ	CS	_	29	mark	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	giovani	giovane	NOUN	S	Number=Plur	29	nsubj	_	_
+28	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	imparino	imparare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+30	a	a	ADP	E	_	29	case	_	SpacesAfter=\n
+

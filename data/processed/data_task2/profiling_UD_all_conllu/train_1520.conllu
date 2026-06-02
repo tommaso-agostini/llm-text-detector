@@ -1,0 +1,788 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Anche durante la festa alla stazione di Monaco, mentre il mondo ammirava i tedeschi che accoglievano i profughi con dolci e orsetti.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	durante	durante	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	festa	festa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Monaco	Monaco	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	mentre	mentre	SCONJ	CS	_	14	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	ammirava	ammirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	tedeschi	tedesco	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	accoglievano	accogliere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	dolci	dolce	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	orsetti	orsetto	NOUN	S	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = E oggi, con movimenti di destra come Pegida e Alternative für Deutschland, la soglia di inibizione di questi atti barbari è scesa drammaticamente".
+1	E	e	CCONJ	CC	_	24	cc	_	_
+2	oggi	oggi	ADV	B	_	24	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	movimenti	movimento	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	destra	destra	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	Pegida	Pegida	PROPN	SP	_	5	nmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Alternative	alternative	PROPN	SP	_	9	conj	_	_
+12	für	füre	ADP	E	_	13	case	_	_
+13	Deutschland	Deutschland	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	inibizione	inibizione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+21	atti	atto	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+22	barbari	barbario	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	scesa	scendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	drammaticamente	drammatico	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 3
+# text = Ingo Schulze ha 53 anni, è uno dei massimi scrittori tedeschi e incarna come pochi la coscienza della Germania e le sue metamorfosi.
+1	Ingo	Ingo	PROPN	SP	_	3	nsubj	_	_
+2	Schulze	Schulze	PROPN	SP	_	1	flat:name	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	53	53	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	conj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	massimi	massimo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+13	tedeschi	tedesco	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	incarna	incarno	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	come	come	ADP	E	_	19	case	_	_
+17	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	coscienza	coscienza	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Germania	Germania	PROPN	SP	_	19	nmod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	metamorfosi	metamorfosi	NOUN	S	Gender=Fem	19	conj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Nei suoi libri (l'ultimo uscito in Italia è Arance e angeli, edizione Feltrinelli), il romanziere di Dresda ha spesso raccontato gioie e tormenti della riunificazione tedesca.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	libri	libro	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+5	(	(	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ultimo	ultimo	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Italia	Italia	PROPN	SP	_	8	obl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	Arance	arance	PROPN	SP	_	4	appos	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	angeli	angelo	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+17	Feltrinelli	Feltrinelli	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	4	punct	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	romanziere	romanziere	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Dresda	Dresda	PROPN	SP	_	21	nmod	_	_
+24	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	spesso	spesso	ADV	B	_	26	advmod	_	_
+26	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	gioie	gioia	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	tormenti	tormente	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	riunificazione	riunificazione	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	tedesca	tedesco	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 5
+# text = Oggi, la Germania sembra di nuovo di fronte a un bivio.
+1	Oggi	oggi	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Germania	Germania	PROPN	SP	_	5	nsubj	_	_
+5	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	fronte	fronte	NOUN	S	Number=Sing	5	obl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bivio	bivio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = O "sull'orlo del precipizio", come ha titolato l'ultimo Spiegel.
+1	O	o	CCONJ	CC	_	5	cc	_	_
+2	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+3-4	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+3	su	su	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	orlo	orlo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	precipizio	precipizio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	come	come	SCONJ	CS	_	13	mark	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	titolato	titolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
+16	Spiegel	Spiegel	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Secondo il settimanale tedesco, quella maledetta notte di Capodanno "ha cambiato la Germania".
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	settimanale	settimanale	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	conj	_	_
+7	maledetta	maledetto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	notte	notte	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Capodanno	Capodanno	PROPN	SP	_	6	nmod	_	_
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Germania	Germania	PROPN	SP	_	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 8
+# text = Anche lei la pensa come lo Spiegel, signor Schulze?
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	come	come	ADP	E	_	7	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Spiegel	Spiegel	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	signor	signore	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+10	Schulze	Schulze	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = "Spero di no.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	no	no	ADV	BN	PronType=Neg	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Anche se i media, in questa brutta vicenda, passano da un estremo all'altro e questo non aiuta.
+1	Anche	anche	ADV	B	_	11	advmod	_	_
+2	se	se	SCONJ	CS	_	11	mark	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	media	media	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	vicenda	vicenda	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	estremo	estremo	ADJ	A	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obl	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 11
+# text = Mia madre dice sempre:
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 12
+# text = "Speriamo nel meglio.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	meglio	meglio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ma dobbiamo sempre essere pronti al peggio".
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	sempre	sempre	ADV	B	_	5	advmod	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	peggio	peggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = Abbiamo visto, negli ultimi tempi, come persino paesi Ue come Ungheria e Polonia possano improvvisamente "capitolare" verso l'abisso.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+7	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	persino	persino	ADV	B	_	11	advmod	_	_
+11	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+12	Ue	Ue	PROPN	SP	_	11	nmod	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	Ungheria	Ungheria	PROPN	SP	_	11	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	Polonia	Polonia	PROPN	SP	_	14	conj	_	_
+17	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	improvvisamente	improvvisamente	ADV	B	_	20	advmod	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	capitolare	capitolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22	verso	verso	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	abisso	abisso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 15
+# text = E questo può accadere anche in Germania, non c'è dubbio.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	accadere	accadere	VERB	V	VerbForm=Inf	0	root	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Germania	Germania	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	SpaceAfter=No
+11	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Ma non credo che il pericolo sia imminente ".
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	imminente	imminente	ADJ	A	Number=Sing	3	ccomp	_	_
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Le violenze di Capodanno hanno solcato cicatrici profonde nella società tedesca.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Capodanno	Capodanno	PROPN	SP	_	2	nmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	solcato	solcare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	cicatrici	cicatore	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8	profonde	profondo	ADV	B	_	11	advmod	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	società	società	NOUN	S	Gender=Fem	6	obl	_	_
+12	tedesca	tedesco	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 18
+# text = Come sta reagendo la Germania?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	reagendo	reagire	VERB	V	VerbForm=Ger	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Germania	Germania	PROPN	SP	_	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = C'è il rischio di radicalizzazione?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	radicalizzazione	radicalizzazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = "Certamente, nella percezione di alcuni, l'arrivo di richiedenti asilo o arabi rappresenta sempre più un pericolo.
+1	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+2	Certamente	certamente	ADV	B	_	17	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	percezione	percezione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	richiedenti	richiedento	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	asilo	asilo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+15	o	o	CCONJ	CC	_	16	cc	_	_
+16	arabi	arabo	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+17	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	sempre	sempre	ADV	B	_	19	advmod	_	_
+19	più	più	ADV	B	_	17	advmod	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 21
+# text = Il problema però è un altro, ed è politico".
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	però	però	ADV	B	_	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	politico	politico	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = Cioè?
+1	Cioè	cioè	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 23
+# text = "In Germania, con l'avvento della Grosse Koalition (la coalizione di governo tra Cdu, centrodestra, e Spd, centrosinistra, ndr) non c'è più una vera opposizione.
+1	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	3	case	_	_
+3	Germania	Germania	PROPN	SP	_	31	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	avvento	avvento	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Grosse	grosso	PROPN	SP	_	7	nmod	_	_
+11	Koalition	Koalition	PROPN	SP	_	10	flat:name	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	coalizione	coalizione	NOUN	S	Gender=Fem|Number=Sing	10	appos	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	tra	tra	ADP	E	_	18	case	_	_
+18	Cdu	Cdu	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	centrodestra	centrodestra	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	Spd	Spd	PROPN	SP	_	18	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	centrosinistra	centrosinistra	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	14	punct	_	_
+27	ndr	ndr	NOUN	S	_	14	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	14	punct	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	31	expl	_	SpaceAfter=No
+31	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	più	più	ADV	B	_	31	advmod	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	vera	vero	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	opposizione	opposizione	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 24
+# text = E questo lascia un vuoto.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vuoto	vuoto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Non capisco perché la sinistra oggi in Germania abbia argomenti così fragili e timidi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	capisco	capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	perché	perché	SCONJ	CS	_	9	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	oggi	oggi	ADV	B	_	8	advmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Germania	Germania	PROPN	SP	_	5	nmod	_	_
+9	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+10	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	fragili	fragile	ADJ	A	Number=Plur	10	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	timidi	timido	ADJ	A	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Abbiamo bisogno di vere alternative per salvaguardare il nostro Paese".
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	vere	vero	VERB	V	VerbForm=Inf	2	acl	_	_
+5	alternative	alternativa	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	salvaguardare	salvaguardare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 27
+# text = Il dominio politico di Merkel però non è mai stato così vulnerabile come oggi, non crede?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dominio	dominio	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	politico	politico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Merkel	Merkel	PROPN	SP	_	2	nmod	_	_
+6	però	però	ADV	B	_	12	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	mai	mai	ADV	B	_	12	advmod	_	_
+10	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	cop	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	vulnerabile	vulnerabile	ADJ	A	Number=Sing	0	root	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	oggi	oggi	ADV	B	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 28
+# text = "Ma nessuno può spodestarla.
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	5	cc	_	_
+3	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	spodestarla	_	_	_	_	_	_	_	SpaceAfter=No
+5	spodestar	spodestare	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 29
+# text = I socialdemocratici non hanno alcuna possibilità.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	socialdemocratici	socialdemocratico	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	possibilità	possibilità	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Ma anche il suo partito, nonostante le critiche, non la scaricherà mai".
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	partito	partito	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	nonostante	nonostante	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	critiche	critica	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	scaricherà	scaricare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	mai	mai	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 31
+# text = Però sulla questione migranti Merkel ha mostrato un insperato e forse insostituibile senso di responsabilità, non trova?
+1	Però	però	ADV	B	_	8	advmod	_	_
+2-3	sulla	_	_	_	_	_	_	_	_
+2	su	su	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	questione	questione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+5	migranti	migrante	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	Merkel	Merkel	PROPN	SP	_	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	mostrato	mostrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	insperato	insperato	ADJ	A	Gender=Masc|Number=Sing	8	obj	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	forse	forse	ADV	B	_	14	advmod	_	_
+13	insostituibile	insostituibile	ADJ	A	Number=Sing	14	amod	_	_
+14	senso	senso	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	responsabilità	responsabilità	NOUN	S	Gender=Fem	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+20	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 32
+# text = "E invece no, si è svegliata troppo tardi.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	E	e	CCONJ	CC	_	4	cc	_	_
+3	invece	invece	ADV	B	_	4	advmod	_	_
+4	no	no	ADV	BN	PronType=Neg	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	svegliata	svegliare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	troppo	troppo	ADV	B	_	10	advmod	_	_
+10	tardi	tardi	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 33
+# text = Avrebbe dovuto sostenere la missione italiana "Mare Nostrum", per esempio.
+1	Avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	sostenere	sostenere	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	missione	missione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Mare	Mare	PROPN	SP	_	5	nmod	_	_
+9	Nostrum	Nostrum	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 34
+# text = Non lo ha fatto.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 35
+# text = Ha ignorato il dramma dei profughi in Medio Oriente fino al settembre scorso.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ignorato	ignorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	dramma	dramma	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Medio	Medio	PROPN	SP	_	4	nmod	_	_
+10	Oriente	Oriente	PROPN	SP	_	9	flat:name	_	_
+11	fino	fino	ADV	B	_	14	case	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+15	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 36
+# text = Poi, all'improvviso ha cambiato approccio, sottostimando però la gravità dell'emergenza.
+1	Poi	poi	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	7	obl	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	approccio	approccio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	sottostimando	sottostimare	VERB	V	VerbForm=Ger	7	advcl	_	_
+11	però	però	ADV	B	_	10	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gravità	gravità	NOUN	S	Gender=Fem	10	obj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 37
+# text = Non ha ceduto ai falchi del suo partito, ma non si è posta la domanda fondamentale".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ceduto	cedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	ai	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	falchi	falco	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	partito	partito	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	ma	ma	CCONJ	CC	_	16	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:pass	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	posta	porre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+19	fondamentale	fondamentale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 38
+# text = Quale?
+1	Quale	quale	PRON	PQ	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 39
+# text = "Perché queste persone fuggono?
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	5	advmod	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	fuggono	fuggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 40
+# text = Anche l'Occidente ha le sue colpe, dalla caduta di Mossadeq in Iran nel 1953 alla guerra in Iraq.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Occidente	occidente	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	colpe	colpa	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9-10	dalla	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	caduta	caduta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Mossadeq	Mossadeq	PROPN	SP	_	11	nmod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Iran	Iran	PROPN	SP	_	13	nmod	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	1953	1953	NUM	N	NumType=Card	11	nmod	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Iraq	Iraq	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 41
+# text = E poi abbiamo lasciato per anni questi profughi nelle mani dei trafficanti di uomini.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	profughi	profugo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mani	mano	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	trafficanti	trafficante	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 42
+# text = Non abbiamo molto altro tempo:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 43
+# text = dobbiamo risolvere questi problemi alla radice.
+1	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	risolvere	risolvere	VERB	V	VerbForm=Inf	0	root	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	radice	radice	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 44
+# text = Senza perdere mai la nostra umanità, soprattutto con i migranti".
+1	Senza	senza	ADP	E	_	2	mark	_	_
+2	perdere	perdere	VERB	V	VerbForm=Inf	0	root	_	_
+3	mai	mai	ADV	B	_	2	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	umanità	umanità	NOUN	S	Gender=Fem	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	soprattutto	soprattutto	ADV	B	_	11	advmod	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	migranti	migrante	NOUN	S	Number=Plur	2	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,381 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Un farmaco nato come terapia contro l’ansia e il disturbo ossessivo compulsivo sta dimostrando grandi potenzialità nella cura delle fobie.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	terapia	terapia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	contro	contro	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	15	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	disturbo	disturbo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+12	ossessivo	ossessivo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	compulsivo	compulsivo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+14	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dimostrando	dimostrare	VERB	V	VerbForm=Ger	3	conj	_	_
+16	grandi	grande	ADJ	A	Number=Plur	17	amod	_	_
+17	potenzialità	potenzialità	NOUN	S	Gender=Fem	15	obj	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	cura	cura	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	delle	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	fobie	fobia	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Da Londra a Bangkok le sperimentazioni dei nuovi farmaci antipaura puntano a facilitare l’elaborazione di un ricordo traumatico, evitando così che il paziente ne resti intrappolato in uno stato permanente di terrore.
+1	Da	da	ADP	E	_	2	case	_	_
+2	Londra	Londra	PROPN	SP	_	12	obl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Bangkok	Bangkok	PROPN	SP	_	2	nmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	sperimentazioni	sperimentazione	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	antipaura	antipauro	ADV	B	_	12	advmod	_	_
+12	puntano	puntare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	facilitare	facilitare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	elaborazione	elaborazione	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ricordo	ricordo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	traumatico	traumatico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	14	punct	_	_
+22	evitando	evitare	VERB	V	VerbForm=Ger	14	advcl	_	_
+23	così	così	ADV	B	_	22	advmod	_	_
+24	che	che	SCONJ	CS	_	29	mark	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	paziente	paziente	NOUN	S	Number=Sing	29	nsubj	_	_
+27	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	29	iobj	_	_
+28	resti	re	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	intrappolato	intrappolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	ccomp	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	stato	stato	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+33	permanente	permanente	ADJ	A	Number=Sing	32	amod	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	terrore	terrore	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Il farmaco funziona liberando con brevi scariche elettriche le sinapsi coinvolte nell’ansia:
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	liberando	liberare	VERB	V	VerbForm=Ger	3	advcl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	brevi	breve	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+7	scariche	scarica	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	elettriche	elettrico	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	sinapsi	sinapso	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+11	coinvolte	coinvolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+12-13	nell’	_	_	_	_	_	_	_	SpaceAfter=No
+12	in	in	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = non risolve il problema alla radice ma permette al paziente di affrontarlo con maggior serenità, acquistando così di nuovo l’autonomia perduta.
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	risolve	risolvere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	problema	problema	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	radice	radice	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	paziente	paziente	NOUN	S	Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14-15	affrontarlo	_	_	_	_	_	_	_	_
+14	affrontar	affrontare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	18	amod	_	_
+18	serenità	serenità	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	acquistando	acquistare	VERB	V	VerbForm=Ger	14	advcl	_	_
+21	così	così	ADV	B	_	23	advmod	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	20	obl	_	_
+24	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	autonomia	autonomia	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+26	perduta	perduto	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Questi nuovi farmaci saranno presto utilizzati anche in Italia, ma dovranno fare i conti con il costo elevato del trattamento che ad oggi si aggira tra i 25 e i 30 mila euro.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+4	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+5	presto	presto	ADV	B	_	6	advmod	_	_
+6	utilizzati	utilizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	6	conj	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	conti	conto	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	costo	costo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	elevato	elevato	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+23	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+24	ad	a	ADP	E	_	25	case	_	_
+25	oggi	oggi	ADV	B	_	27	advmod	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+27	aggira	aggirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+28	tra	tra	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	25	25	NUM	N	NumType=Card	27	nummod	_	_
+31	e	e	CCONJ	CC	_	35	cc	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+33	30	30	NUM	N	NumType=Card	35	nummod	_	_
+34	mila	mila	NUM	N	NumType=Card	33	flat	_	_
+35	euro	euro	NOUN	S	Gender=Masc	30	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Una cifra non alla portata di tutti.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	portata	portata	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Neanche della sanità pubblica, che inizierà la distribuzione dei farmaci solo nel caso il numero di pazienti che opteranno per questa cura inizierà a crescere notevolmente, come sta già avvenendo nei Paesi di lingua anglosassone e in quelli orientali.
+1	Neanche	neanche	ADV	BN	PronType=Neg	4	advmod	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sanità	sanità	NOUN	S	Gender=Fem	0	root	_	_
+5	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	inizierà	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	distribuzione	distribuzione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	solo	solo	ADV	B	_	17	advmod	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	caso	caso	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	numero	numero	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	pazienti	paziente	NOUN	S	Number=Plur	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	opteranno	optare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	_
+24	per	per	ADP	E	_	26	case	_	_
+25	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	cura	cura	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	_
+27	inizierà	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	crescere	crescere	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	notevolmente	notevolmente	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	come	come	SCONJ	CS	_	35	mark	_	_
+33	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	già	già	ADV	B	_	35	advmod	_	_
+35	avvenendo	avvenire	VERB	V	VerbForm=Ger	29	advcl	_	_
+36-37	nei	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	Paesi	Paesi	PROPN	SP	_	35	obl	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+41	anglosassone	anglosassone	ADJ	A	Number=Sing	40	amod	_	_
+42	e	e	CCONJ	CC	_	44	cc	_	_
+43	in	in	ADP	E	_	44	case	_	_
+44	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	35	conj	_	_
+45	orientali	orientale	ADJ	A	Number=Plur	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Sebbene la paura sia un istinto naturale e utile a metterci in guardia dai pericoli, quando diventa patologica provoca danni psicologici e fisici incommensurabili.
+1	Sebbene	sebbene	SCONJ	CS	_	6	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	naturale	naturale	ADJ	A	Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	utile	utile	ADJ	A	Number=Sing	7	conj	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11-12	metterci	_	_	_	_	_	_	_	_
+11	metter	mettere	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	dai	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	pericoli	pericolo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	quando	quando	SCONJ	CS	_	20	mark	_	_
+20	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+21	patologica	patologico	ADJ	A	Gender=Fem|Number=Sing	20	xcomp	_	_
+22	provoca	provocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+23	danni	danno	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+24	psicologici	psicologico	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	fisici	fisico	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+27	incommensurabili	incommensurabile	ADJ	A	Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Ogni anno, negli Stati Uniti, si registrano almeno 36 milioni di casi di fobie e verifiche psichiatriche per almeno 200 diversi tipi di paura patologica.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Stati	Stati	PROPN	SP	_	10	obl	_	_
+7	Uniti	Uniti	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	registrano	registrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	almeno	almeno	ADV	B	_	12	advmod	_	_
+12	36	36	NUM	N	NumType=Card	13	nummod	_	_
+13	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	casi	caso	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	fobie	fobia	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	verifiche	verifica	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+20	psichiatriche	psichiatrico	ADV	B	_	25	advmod	_	_
+21	per	per	ADP	E	_	25	case	_	_
+22	almeno	almeno	ADV	B	_	23	advmod	_	_
+23	200	200	NUM	N	NumType=Card	25	nummod	_	_
+24	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	paura	paura	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	patologica	patologico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 10
+# text = Quando l'ansia blocca la vita quotidiana, superando ogni giorno la soglia dell'ansia, diventa di fatto una fobia.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	blocca	bloccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	quotidiana	quotidiano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	superando	superare	VERB	V	VerbForm=Ger	4	advcl	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	soglia	soglia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fobia	fobia	NOUN	S	Gender=Fem|Number=Sing	18	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 11
+# text = A quel punto i sintomi diventano invalidanti.
+1	A	a	ADP	E	_	3	case	_	_
+2	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	sintomi	sintomo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	invalidanti	invalidante	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 12
+# text = Chi ha paura di volare non riuscirà a prendere l'aereo per lavoro o per svago e questo isolamento si ripercuoterà sulla sua vita sociale.
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	7	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	volare	volare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riuscirà	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	prendere	prendere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	o	o	CCONJ	CC	_	16	cc	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	svago	svago	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	isolamento	isolamento	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl	_	_
+21	ripercuoterà	ripercuotare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	_	_
+22-23	sulla	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	vita	vita	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+26	sociale	sociale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = La dislessia e la disgrafia diventano invalidanti quando la paura di sbagliare crea un
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	dislessia	dislessia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	disgrafia	disgrafia	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	invalidanti	invalidante	ADV	B	_	6	advmod	_	_
+8	quando	quando	SCONJ	CS	_	14	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	paura	paura	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	sbagliare	sbagliare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	crea	creare	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	advcl	_	SpacesAfter=\n
+

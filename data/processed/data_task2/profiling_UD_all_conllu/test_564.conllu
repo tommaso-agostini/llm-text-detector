@@ -1,0 +1,363 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vuole candidare Marchionne?
+1	Vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	candidare	candidare	VERB	V	VerbForm=Inf	0	root	_	_
+3	Marchionne	Marchionne	PROPN	SP	_	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Montezemolo?
+1	Montezemolo	Montezemolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Gallitelli?
+1	Gallitelli	Gallitelli	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Non stiamo facendo la squadra di calcio del bar".
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bar	bar	NOUN	S	Gender=Masc	5	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Il segretario della Lega Matteo Salvini si sfoga con la stampa a Montecitorio.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Lega	Lega	PROPN	SP	_	2	nmod	_	_
+6	Matteo	Matteo	PROPN	SP	_	5	flat:name	_	_
+7	Salvini	Salvini	PROPN	SP	_	5	flat:name	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	sfoga	sfogare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Montecitorio	Montecitorio	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = E invita il leader di Forza Italia a lasciar perdere le "chiacchiere da Fantacalcio" e a parlare di contenuti:
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	invita	invitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	leader	leader	NOUN	S	_	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Forza	Forza	PROPN	SP	_	4	nmod	_	_
+7	Italia	Italia	PROPN	SP	_	6	flat:name	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	lasciar	lasciare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+10	perdere	perdere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	chiacchiere	chiacchiere	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	Fantacalcio	Fantacalcio	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	13	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	parlare	parlare	VERB	V	VerbForm=Inf	9	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = "Non mi importa di come distribuire i ministeri - ribadisce - voglio parlare di programmi, di come abolire la legge Fornero, visto che l'ha votata e visto che io la voglio cambiare.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	importa	imporgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	come	come	SCONJ	CS	_	5	fixed	_	_
+7	distribuire	distribuire	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	ministeri	ministero	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	-	-	PUNCT	FF	_	11	punct	_	_
+11	ribadisce	ribadire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+12	-	-	PUNCT	FF	_	11	punct	_	_
+13	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	parlare	parlare	VERB	V	VerbForm=Inf	4	conj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	di	di	ADP	E	_	20	mark	_	_
+19	come	come	SCONJ	CS	_	20	mark	_	_
+20	abolire	abolire	VERB	V	VerbForm=Inf	16	acl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	legge	legge	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	Fornero	Fornero	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+26	che	che	SCONJ	CS	_	29	mark	_	_
+27	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	votata	votare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	conj	_	_
+32	che	che	SCONJ	CS	_	36	mark	_	_
+33	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+34	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+35	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	cambiare	cambiare	VERB	V	VerbForm=Inf	31	ccomp	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Voglio sapere qual è l'impegno scritto, dal notaio, dal macellaio o dal panettiere di Forza Italia, per mandare in pensione gli italiani".
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	qual	quale	PRON	PQ	Number=Sing|PronType=Int	2	ccomp	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	scritto	scritto	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	notaio	notaio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	macellaio	macellaio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+16	o	o	CCONJ	CC	_	19	cc	_	_
+17-18	dal	_	_	_	_	_	_	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	panettiere	panettiere	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Forza	Forza	PROPN	SP	_	19	nmod	_	_
+22	Italia	Italia	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	mandare	mandare	VERB	V	VerbForm=Inf	2	advcl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Il leader del Carroccio attacca poi Matteo Renzi sul tema delle fake news :
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	leader	leader	NOUN	S	_	6	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Carroccio	Carroccio	PROPN	SP	_	2	nmod	_	_
+6	attacca	attaccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	poi	poi	ADV	B	_	6	advmod	_	_
+8	Matteo	Matteo	PROPN	SP	_	6	obj	_	_
+9	Renzi	Renzi	PROPN	SP	_	8	flat:name	_	_
+10-11	sul	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tema	tema	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13-14	delle	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	fake	fake	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+16	news	news	NOUN	S	Gender=Fem	15	compound	_	_
+17	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = "Per me siamo alla follia:
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Per	per	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+4	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	follia	follia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 11
+# text = che il segretario del partito al governo in Italia si preoccupi di curiosare su Facebook o Twitter è da ricovero.
+1	che	che	SCONJ	CS	_	22	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	segretario	segretario	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	partito	partito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Italia	Italia	PROPN	SP	_	9	nmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	preoccupi	preoccupio	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	curiosare	curiosare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	Facebook	Facebook	PROPN	SP	_	15	obl	_	_
+18	o	o	CCONJ	CC	_	19	cc	_	_
+19	Twitter	Twitter	PROPN	SP	_	15	conj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	ricovero	ricovero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 12
+# text = Le vere bufale le abbiamo al governo".
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	vere	vere	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	bufale	bufale	ADJ	A	Number=Sing	2	amod	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	5	obj	_	_
+5	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Una critica, quest'ultima, condivisa anche dal M5s che, sul blog di Beppe Grillo, sottolinea come quello dei cinquestelle sia "un network enorme che ha più di dieci milioni di like e raggiunge ogni giorno milioni di italiani nella massima trasparenza ed è composto da persone fisiche facilmente rintracciabili e pubbliche.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	critica	critico	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quest'	questo	DET	DD	Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+5	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	condivisa	condividere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+8	anche	anche	ADV	B	_	11	advmod	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	M5s	M5s	PROPN	SP	_	7	obl:agent	_	_
+12	che	che	PRON	PR	PronType=Rel	21	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	blog	blog	NOUN	S	_	21	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Beppe	Beppe	PROPN	SP	_	16	nmod	_	_
+19	Grillo	Grillo	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	16	punct	_	_
+21	sottolinea	sottolineare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+22	come	come	ADP	E	_	23	case	_	_
+23	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	obl	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	cinquestelle	cinquestella	NOUN	S	Number=Sing	23	nmod	_	_
+27	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	network	network	NOUN	S	Gender=Masc	0	root	_	_
+31	enorme	enorme	ADJ	A	Number=Sing	30	amod	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+34	più	più	ADV	B	_	37	advmod	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	dieci	dieci	NUM	N	NumType=Card	37	nummod	_	_
+37	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	33	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	like	like	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+40	e	e	CCONJ	CC	_	41	cc	_	_
+41	raggiunge	raggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
+42	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	43	det	_	_
+43	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+44	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	44	nmod	_	_
+47-48	nella	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	50	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+49	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	50	amod	_	_
+50	trasparenza	trasparenza	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+51	ed	e	CCONJ	CC	_	53	cc	_	_
+52	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux:pass	_	_
+53	composto	comporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	_
+54	da	da	ADP	E	_	55	case	_	_
+55	persone	persona	NOUN	S	Gender=Fem|Number=Plur	53	obl	_	_
+56	fisiche	fisico	ADJ	A	Gender=Fem|Number=Plur	55	amod	_	_
+57	facilmente	facilmente	ADV	B	_	58	advmod	_	_
+58	rintracciabili	rintracciabile	ADJ	A	Number=Plur	55	amod	_	_
+59	e	e	CCONJ	CC	_	60	cc	_	_
+60	pubbliche	pubblico	ADJ	A	Gender=Fem|Number=Plur	58	conj	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	30	punct	_	_
+
+# sent_id = 14
+# text = I giornali e i telegiornali, su input del Pd, parlano da giorni di due pagine Facebook, che non sono assolutamente riconducibili alla comunicazione ufficiale del Movimento 5 Stelle e gestite da uno talmente grillino che ha gestito anche dei siti della Lega per soldi".
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	telegiornali	telegiornale	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	input	input	NOUN	S	_	2	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Pd	pd	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	due	due	NUM	N	NumType=Card	18	nummod	_	_
+18	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	Facebook	Facebook	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	13	punct	_	_
+21	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	assolutamente	assolutamente	ADV	B	_	25	advmod	_	_
+25	riconducibili	riconducibile	ADJ	A	Number=Plur	13	conj	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29	ufficiale	ufficiale	ADJ	A	Number=Sing	28	amod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Movimento	Movimento	PROPN	SP	_	28	nmod	_	_
+33	5	5	NUM	N	NumType=Card	32	nummod	_	_
+34	Stelle	Stelle	PROPN	SP	_	32	flat:name	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	gestite	gestire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	_
+37	da	da	ADP	E	_	40	case	_	_
+38	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	talmente	talmente	ADJ	A	Number=Sing	40	amod	_	_
+40	grillino	grillino	NOUN	S	Gender=Masc|Number=Sing	36	obl:agent	_	_
+41	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	gestito	gestire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+44	anche	anche	ADV	B	_	47	advmod	_	_
+45-46	dei	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	siti	sito	NOUN	S	Gender=Masc|Number=Plur	43	obl	_	_
+48-49	della	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	Lega	lega	PROPN	SP	_	47	nmod	_	_
+51	per	per	ADP	E	_	52	case	_	_
+52	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	SpaceAfter=No
+53	"	"	PUNCT	FB	_	47	punct	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,732 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Repubblica ha potuto provarla in anteprima.
+1	Repubblica	repubblica	PROPN	SP	_	4	nsubj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4-5	provarla	_	_	_	_	_	_	_	_
+4	provar	provarre	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	anteprima	anteprima	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Seguiranno gli altri operatori:
+1	Seguiranno	Seguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	altri	altro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Tim partirà gradualmente tra settembre e dicembre;
+1	Tim	Tim	PROPN	SP	_	2	nsubj	_	_
+2	partirà	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	gradualmente	gradualmente	ADV	B	_	2	advmod	_	_
+4	tra	tra	ADP	E	_	5	case	_	_
+5	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	;	;	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 4
+# text = Wind e 3 Italia nel 2016.
+1	Wind	Wind	PROPN	SP	_	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	3	3	NUM	N	NumType=Card	4	nummod	_	_
+4	Italia	Italia	PROPN	SP	_	1	flat:name	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2016	2016	NUM	N	NumType=Card	1	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = E' una novità dirompente perché significa che le telefonate passano su reti finora utilizzate solo per internet.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	novità	novità	NOUN	S	Gender=Fem	4	nsubj	_	_
+4	dirompente	dirompente	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	perché	perché	SCONJ	CS	_	6	mark	_	_
+6	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	telefonate	telefonata	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+10	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	su	su	ADP	E	_	12	case	_	_
+12	reti	rete	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+13	finora	finora	ADV	B	_	14	advmod	_	_
+14	utilizzate	utilizzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
+15	solo	solo	ADV	B	_	17	advmod	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	internet	internet	NOUN	S	_	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Negli ultimi anni, con i cellulari è migliorato tutto (la velocità internet, le app), eccetto la loro funzione primaria, quella telefonica.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimi	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	cellulari	cellulare	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	migliorato	migliorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	xcomp	_	_
+12	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	velocità	velocità	NOUN	S	Gender=Fem	11	appos	_	_
+15	internet	internet	NOUN	S	_	14	compound	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	app	app	NOUN	S	_	14	conj	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	_
+21	eccetto	eccetto	ADP	E	_	24	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	loro	loro	DET	AP	Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	funzione	funzione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+25	primaria	primario	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	10	conj	_	_
+28	telefonica	telefonico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 7
+# text = Chiamiamo ancora come quando i cellulari avevano i tastini e le antennone.
+1	Chiamiamo	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	_
+3	come	come	SCONJ	CS	_	7	mark	_	_
+4	quando	quando	SCONJ	CS	_	7	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cellulari	cellulare	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	tastini	tasto	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	antennone	antennone	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Una chiamata 4G è, per prima cosa, migliore in tutti gli aspetti.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	chiamata	chiamata	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	4G	4g	PROPN	SP	_	2	nmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	aspetti	aspetto	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = La voce è più chiara e più fedele all'originale;
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	fedele	fedele	ADJ	A	Number=Sing	5	conj	_	_
+9-10	all'	_	_	_	_	_	_	_	SpaceAfter=No
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	originale	originale	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 10
+# text = il servizio riesce anche a filtrare i rumori di fondo.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	filtrare	filtrare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	rumori	rumore	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = La linea è più stabile, meno disturbata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	linea	linea	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	stabile	stabile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	meno	meno	ADV	B	_	8	advmod	_	_
+8	disturbata	disturbare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Seconda cosa, poiché la telefonata è su rete dati banda larga (con una qualità controllata e garantita dagli operatori), può arricchirsi di servizi aggiuntivi.
+1	Seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	poiché	poiché	SCONJ	CS	_	26	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	26	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	rete	rete	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	dati	dare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	banda	banda	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	larga	largo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+14	con	con	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	qualità	qualità	NOUN	S	Gender=Fem	11	nmod	_	_
+17	controllata	controllato	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	garantita	garantire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+20-21	dagli	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	19	obl:agent	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	9	punct	_	_
+25	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26-27	arricchirsi	_	_	_	_	_	_	_	_
+26	arricchir	arricchire	VERB	V	VerbForm=Inf	2	advcl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	_
+30	aggiuntivi	aggiuntivo	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ecco come: selezioniamo nella rubrica il contatto da chiamare e possiamo scrivere un messaggio con l'oggetto (come se fosse una mail), indicare se è urgente, aggiungere una foto e la nostra posizione rilevata dal gps.
+1	Ecco	ecco	ADV	B	_	4	advmod	_	_
+2	come	come	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+4	selezioniamo	selezionere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	rubrica	rubrica	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	chiamare	chiamare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	scrivere	scrivere	VERB	V	VerbForm=Inf	4	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+21	come	come	ADV	B	_	23	advmod	_	_
+22	se	se	SCONJ	CS	_	23	mark	_	_
+23	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	mail	mail	NOUN	S	_	23	nsubj	_	SpaceAfter=No
+26	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	indicare	indicare	VERB	V	VerbForm=Inf	4	conj	_	_
+29	se	se	SCONJ	CS	_	31	mark	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	urgente	urgente	ADJ	A	Number=Sing	28	advcl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	aggiungere	aggiungere	VERB	V	VerbForm=Inf	31	conj	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	foto	foto	NOUN	S	Gender=Fem	33	obj	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det:poss	_	_
+39	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
+40	rilevata	rilevare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	acl	_	_
+41-42	dal	_	_	_	_	_	_	_	_
+41	da	da	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	gps	gps	NOUN	S	Gender=Masc	40	obl:agent	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = L'altra persona vedrà apparire la telefonata in arrivo con l'oggetto di cui vogliamo parlare, la foto, la mappa gps (possiamo cliccarla, magari per raggiungere l'altra persona con il navigatore del cellulare).
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	vedrà	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	apparire	apparire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	PronType=Rel	16	obl	_	_
+15	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	parlare	parlare	VERB	V	VerbForm=Inf	12	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	foto	foto	NOUN	S	Gender=Fem	7	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	mappa	mappo	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+23	gps	gps	PROPN	SW	Foreign=Yes	22	nmod	_	_
+24	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26-27	cliccarla	_	_	_	_	_	_	_	SpaceAfter=No
+26	cliccar	cliccare	VERB	V	VerbForm=Inf	23	advcl	_	_
+27	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	,	,	PUNCT	FF	_	26	punct	_	_
+29	magari	magari	ADV	B	_	31	advmod	_	_
+30	per	per	ADP	E	_	31	mark	_	_
+31	raggiungere	raggiungere	VERB	V	VerbForm=Inf	26	advcl	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+33	altra	altro	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+34	persona	persona	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+35	con	con	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	navigatore	navigatore	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+38-39	del	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Anche durante la conversazione possiamo aggiungere questi elementi, ma anche passare a una videochiamata:
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	durante	durante	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	conversazione	conversazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aggiungere	aggiungere	VERB	V	VerbForm=Inf	0	root	_	_
+7	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	elementi	elemento	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	anche	anche	ADV	B	_	12	advmod	_	_
+12	passare	passare	VERB	V	VerbForm=Inf	6	conj	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	videochiamata	videochiamata	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 16
+# text = il tutto con un clic dalla stessa schermata.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	clic	clic	NOUN	S	_	2	nmod	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	schermata	schermata	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Finora abbiamo potuto fare queste cose solo con applicazioni esterne (come Whatsapp), al solito prima o dopo la telefonata (non durante).
+1	Finora	finora	ADV	B	_	4	advmod	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	solo	solo	ADV	B	_	9	advmod	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	applicazioni	applicazione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+10	esterne	esterno	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+12	come	come	ADP	E	_	13	case	_	_
+13	Whatsapp	Whatsapp	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	solito	solito	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+19	prima	prima	ADV	B	_	23	case	_	_
+20	o	o	CCONJ	CC	_	19	fixed	_	_
+21	dopo	dopo	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+24	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	durante	durante	ADP	E	_	4	advcl	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 18
+# text = Questi servizi aggiuntivi partiranno il 16 luglio, con un'app Vodafone (Call+) che si integra con la rubrica del cellulare.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	aggiuntivi	aggiuntivo	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	partiranno	partire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	16	16	NUM	N	NumType=Card	4	obl	_	_
+7	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	app	app	NOUN	S	Gender=Fem	4	obl	_	_
+12	Vodafone	Vodafone	PROPN	SP	_	11	nmod	_	_
+13	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Call+	Call+	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	integra	integro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	rubrica	rubrica	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Già da ieri è attiva la semplice chiamata di quarta generazione (gli utenti per ora noteranno solo la migliore qualità telefonica).
+1	Già	già	ADV	B	_	5	advmod	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	ieri	ieri	ADV	B	_	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	attiva	attivo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	8	amod	_	_
+8	chiamata	chiamata	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	quarta	quarto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
+11	generazione	generazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	(	(	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	utenti	utente	NOUN	S	Number=Plur	17	nsubj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	ora	ora	ADV	B	_	17	advmod	_	_
+17	noteranno	notere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+18	solo	solo	ADV	B	_	21	advmod	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	21	amod	_	_
+21	qualità	qualità	NOUN	S	Gender=Fem	17	obj	_	_
+22	telefonica	telefonico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = Per fare chiamate 4G, però, entrambi gli interlocutori devono essere coperti dalla nuova rete (Vodafone ce l'ha sull'88 per cento della popolazione) e avere un telefono compatibile (al momento, gli iPhone 6 e 6 Plus, i Samsung Galaxy S5 e S6, l'LG G4 e il Lumia 640).
+1	Per	per	ADP	E	_	2	mark	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	13	advcl	_	_
+3	chiamate	chiamata	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	4G	4g	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	però	però	ADV	B	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	interlocutori	interlocutore	NOUN	S	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+11	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	coperti	coprire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	rete	rete	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+18	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+19	Vodafone	Vodafone	PROPN	SP	_	22	nsubj	_	_
+20	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+21	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+22	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+23-24	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+23	su	su	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	88	88	NUM	N	NumType=Card	22	nummod	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	cento	cento	NUM	N	NumType=Card	25	nummod	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	FB	_	22	punct	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	avere	avere	VERB	V	VerbForm=Inf	13	conj	_	_
+34	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	_
+36	compatibile	compatibile	ADJ	A	Number=Sing	35	amod	_	_
+37	(	(	PUNCT	FB	_	40	punct	_	SpaceAfter=No
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	momento	momento	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	iPhone	iPhone	PROPN	SP	_	40	nmod	_	_
+44	6	6	NUM	N	NumType=Card	43	nummod	_	_
+45	e	e	CCONJ	CC	_	46	cc	_	_
+46	6	6	NUM	N	NumType=Card	44	conj	_	_
+47	Plus	Plus	PROPN	SP	_	43	flat:name	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	50	punct	_	_
+49	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	Samsung	Samsung	PROPN	SP	_	43	conj	_	_
+51	Galaxy	Galaxy	PROPN	SP	_	50	flat:name	_	_
+52	S5	S5	PROPN	SP	_	50	flat:name	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	S6	S6	PROPN	SP	_	50	conj	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	57	punct	_	_
+56	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
+57	LG	Lg	PROPN	SP	_	43	conj	_	_
+58	G4	G4	PROPN	SP	_	57	flat:name	_	_
+59	e	e	CCONJ	CC	_	61	cc	_	_
+60	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	Lumia	Lumia	PROPN	SP	_	43	conj	_	_
+62	640	640	NUM	N	NumType=Card	61	nummod	_	SpaceAfter=No
+63	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 21
+# text = Per ora, inoltre, funziona solo tra utenti Vodafone, ma questo limite cadrà non appena gli altri operatori adotteranno la tecnologia.
+1	Per	per	ADP	E	_	2	case	_	_
+2	ora	ora	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	inoltre	inoltre	ADV	B	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	solo	solo	ADV	B	_	6	advmod	_	_
+8	tra	tra	ADP	E	_	9	case	_	_
+9	utenti	utente	NOUN	S	Number=Plur	6	obl	_	_
+10	Vodafone	Vodafone	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	ma	ma	CCONJ	CC	_	15	cc	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	limite	limite	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	cadrà	cadare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	appena	appena	ADV	B	_	21	advmod	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	altri	altro	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+20	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+21	adotteranno	adottare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	ccomp	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = E' infatti uno standard internazionale (Vodafone a breve lancia anche negli altri Paesi europei).
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	infatti	infatti	ADV	B	_	4	advmod	_	_
+3	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	standard	standard	NOUN	S	Gender=Masc	0	root	_	_
+5	internazionale	internazionale	ADJ	A	Number=Sing	4	amod	_	_
+6	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	Vodafone	Vodafone	PROPN	SP	_	4	appos	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	breve	breve	ADJ	A	Number=Sing	10	amod	_	_
+10	lancia	lanciare	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	anche	anche	ADV	B	_	15	advmod	_	_
+12-13	negli	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	altri	altro	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+15	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+16	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 23
+# text = Non solo:
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 24
+# text = nei prossimi mesi continueranno ad arrivare servizi aggiuntivi, per esempio con la possibilità di ascoltare un album in streaming insieme a un'altra persona durante la telefonata.
+1-2	nei	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+5	continueranno	continuare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	ad	a	ADP	E	_	7	mark	_	_
+7	arrivare	arrivare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	aggiuntivi	aggiuntivo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	possibilità	possibilità	NOUN	S	Gender=Fem	7	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	ascoltare	ascoltare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	album	album	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	streaming	streaming	NOUN	S	Gender=Masc	19	nmod	_	_
+22	insieme	insieme	ADV	B	_	26	case	_	_
+23	a	a	ADP	E	_	22	fixed	_	_
+24	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+25	altra	altro	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+26	persona	persona	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+27	durante	durante	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 25
+# text = La mossa ha anche un certo valore strategico per gli operatori.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mossa	mossa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	certo	certo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	valore	valore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8	strategico	strategico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 26
+# text = Spostano la competizione sulla qualità e sui servizi aggiuntivi (togliendola, ormai sempre più, dai prezzi).
+1	Spostano	Spostare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	competizione	competizione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	sulla	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	qualità	qualità	NOUN	S	Gender=Fem	3	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	sui	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+11	aggiuntivi	aggiuntivo	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13-14	togliendola	_	_	_	_	_	_	_	SpaceAfter=No
+13	togliendo	togliere	VERB	V	VerbForm=Ger	1	advcl	_	_
+14	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	ormai	ormai	ADV	B	_	18	advmod	_	_
+17	sempre	sempre	ADV	B	_	18	advmod	_	_
+18	più	più	ADV	B	_	13	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20-21	dai	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = Significa anche tornare a giocare ruolo che da tempo avevano lasciato nelle mani di Facebook (proprietario di Whatsapp), Google, Microsoft (Skype).
+1	Significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	tornare	tornare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	giocare	giocare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12-13	nelle	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mani	mano	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Facebook	Facebook	PROPN	SP	_	14	nmod	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	proprietario	proprietario	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Whatsapp	Whatsapp	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	Google	Google	PROPN	SP	_	14	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	Microsoft	Microsoft	PROPN	SP	_	14	conj	_	_
+26	(	(	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	Skype	Skype	PROPN	SP	_	25	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = Quello di saper innovare il nostro modo di comunicare.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3	saper	sapere	VERB	V	VerbForm=Inf	1	acl	_	_
+4	innovare	innovare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	comunicare	comunicare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 29
+# text = E' colpa degli operatori- della loro incapacità di svecchiarsi e di fare accordi su servizi comunise telefoniamo ancora come negli anni novanta.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	loro	loro	DET	AP	Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	incapacità	incapacità	NOUN	S	Gender=Fem	5	nmod	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12-13	svecchiarsi	_	_	_	_	_	_	_	_
+12	svecchiar	svecchiare	VERB	V	VerbForm=Inf	10	acl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	fare	fare	VERB	V	VerbForm=Inf	12	conj	_	_
+17	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	su	su	ADP	E	_	19	case	_	_
+19	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+20	comunise	comuniso	ADJ	A	Number=Sing	19	amod	_	_
+21	telefoniamo	telefonere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	acl	_	_
+22	ancora	ancora	ADV	B	_	21	advmod	_	_
+23	come	come	ADV	B	_	26	advmod	_	_
+24-25	negli	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	anni	anno	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+27	novanta	novanta	NUM	N	NumType=Card	26	nummod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 30
+# text = Ma adesso, grazie alle nuove reti 4G, intendono rimediare.
+1	Ma	ma	CCONJ	CC	_	11	cc	_	_
+2	adesso	adesso	ADV	B	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	grazie	grazie	NOUN	S	_	8	case	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	reti	rete	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+9	4G	4g	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	intendono	intendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	rimediare	rimediare	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

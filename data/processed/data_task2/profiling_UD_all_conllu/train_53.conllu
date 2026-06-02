@@ -1,0 +1,944 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = E la «sorpresa» c'era d'avvero:
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+5	»	»	PUNCT	FB	_	4	punct	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	avvero	avvero	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = un bazooka abbandonato sotto un materasso in una delle strade che conducono agli uffici della Direzione distrettuale antimafia, a poche decine di metri dal palazzo.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bazooka	bazooka	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	abbandonato	abbandonato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	sotto	sotto	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	materasso	materasso	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	6	nmod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	strade	strada	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	conducono	condurre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14-15	agli	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	uffici	ufficio	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	distrettuale	distrettuale	ADJ	A	Number=Sing	19	amod	_	_
+21	antimafia	antimafia	ADJ	A	_	19	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
+25	decine	decina	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	metri	metro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+28-29	dal	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Un'escalation che, adesso, potrebbe portare l'Esercito a Reggio Calabria.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	escalation	escalation	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	adesso	adesso	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	portare	portare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Esercito	esercito	PROPN	SP	_	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Reggio	Reggio	PROPN	SP	_	8	obl	_	_
+13	Calabria	Calabria	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Il Comitato provinciale per l'ordine e la sicurezza pubblica, convocato per domattina, potrebbe prendere in considerazione, infatti, l'ipotesi di chiedere al Ministro della Difesa di inviare i militari per la vigilanza di obiettivi sensibili.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	provinciale	provinciale	ADJ	A	Number=Sing	2	amod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+10	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	convocato	convocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	domattina	domattina	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	infatti	infatti	ADV	B	_	17	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	ipotesi	ipotesi	NOUN	S	Gender=Fem	17	obj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	chiedere	chiedere	VERB	V	VerbForm=Inf	24	acl	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Ministro	ministro	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+30-31	della	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Difesa	difesa	PROPN	SP	_	29	nmod	_	_
+33	di	di	ADP	E	_	34	mark	_	_
+34	inviare	inviare	VERB	V	VerbForm=Inf	26	ccomp	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	militari	militare	NOUN	S	Number=Plur	34	obj	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	vigilanza	vigilanza	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	_
+42	sensibili	sensibile	ADJ	A	Number=Plur	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 5
+# text = La Russa, da parte sua, si è detto «disponibile all'invio dell'esercito per la protezione del tribunale di Reggio Calabria.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Russa	Russa	PROPN	SP	_	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	«	«	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	disponibile	disponibile	ADJ	A	Number=Sing	10	xcomp	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	invio	invio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	protezione	protezione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Reggio	Reggio	PROPN	SP	_	24	nmod	_	_
+27	Calabria	Calabria	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = Tuttavia è necessario un provvedimento del governo.
+1	Tuttavia	tuttavia	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	provvedimento	provvedimento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	governo	governo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Si possono utilizzare - ha aggiunto - i soldati di "strade sicure" e spostarli a quel tribunale.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	utilizzare	utilizzare	VERB	V	VerbForm=Inf	0	root	_	_
+4	-	-	PUNCT	FF	_	6	punct	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	strade	strada	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	sicure	sicuro	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	12	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16-17	spostarli	_	_	_	_	_	_	_	_
+16	spostar	spostarre	VERB	V	VerbForm=Inf	6	conj	_	_
+17	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	tribunale	tribunale	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Deve comunque intervenire il Comitato per la sicurezza presieduto da Roberto Maroni».
+1	Deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	comunque	comunque	ADV	B	_	3	advmod	_	_
+3	intervenire	intervenire	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Comitato	comitato	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	presieduto	presiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	Roberto	Roberto	PROPN	SP	_	9	obl:agent	_	_
+12	Maroni	Maroni	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = La micidiale arma non era in grado di sparare.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	micidiale	micidiale	ADJ	A	Number=Sing	3	amod	_	_
+3	arma	arma	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	grado	grado	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	sparare	sparare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Il lanciarazzi ritrovato, di fabbricazione slava, è monouso ed era già stato utilizzato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lanciarazzi	lanciarazzo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	ritrovato	ritrovato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	fabbricazione	fabbricazione	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	slava	slavo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	monouso	monouso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	ed	e	CCONJ	CC	_	15	cc	_	_
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+13	già	già	ADV	B	_	15	advmod	_	_
+14	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 11
+# text = Il messaggio, tuttavia, è chiaro ed inequivocabile.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	tuttavia	tuttavia	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	inequivocabile	inequivocabile	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = La 'ndrangheta, con i suoi sistemi intimidatori, manda a dire allo Stato che può colpire il procuratore di Reggio Calabria, Giuseppe Pignatone, come e quando vuole.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	'	minuti	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	ndrangheta	ndrangheto	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+9	intimidatori	intimidatore	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	manda	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	dire	dire	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14-15	allo	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	colpire	colpire	VERB	V	VerbForm=Inf	16	acl:relcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Reggio	Reggio	PROPN	SP	_	21	nmod	_	_
+24	Calabria	Calabria	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	Giuseppe	Giuseppe	PROPN	SP	_	21	appos	_	_
+27	Pignatone	Pignatone	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	19	punct	_	_
+29	come	come	SCONJ	CS	_	32	mark	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	quando	quando	SCONJ	CS	_	32	mark	_	_
+32	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Non a caso gli investigatori parlano apertamente di un «messaggio grave ed altamente significativo sul piano criminale».
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	investigatori	investigatore	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+6	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	apertamente	apertamente	ADV	B	_	6	advmod	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	«	«	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+12	grave	grave	ADJ	A	Number=Sing	11	amod	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	altamente	altamente	ADV	B	_	15	advmod	_	_
+15	significativo	significativo	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	_
+16-17	sul	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	piano	piano	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+19	criminale	criminale	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+20	»	»	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 14
+# text = Quando la polizia ha trovato il bazooka, Pignatone non era nel suo ufficio.
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bazooka	bazooka	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	Pignatone	Pignatone	PROPN	SP	_	7	appos	_	_
+10	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+11	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 15
+# text = Per impegni di lavoro, oggi era fuori città.
+1	Per	per	ADP	E	_	2	case	_	_
+2	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	oggi	oggi	ADV	B	_	9	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	fuori	fuori	ADV	B	_	9	advmod	_	_
+9	città	città	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = Secco il suo commento:
+1	Secco	secco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	commento	commento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 17
+# text = «questo fatto conferma la gravità della situazione di Reggio Calabria che abbiamo avuto modo di sottolineare diverse volte in questi mesi e che richiede l'attenzione di tutti gli organi responsabili».
+1	«	«	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	gravità	gravità	NOUN	S	Gender=Fem	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Reggio	Reggio	PROPN	SP	_	9	nmod	_	_
+12	Calabria	Calabria	PROPN	SP	_	11	flat:name	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	modo	modo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	sottolineare	sottolineare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	volte	volta	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
+23	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+26	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	32	det:predet	_	_
+31	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	organi	organo	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	_
+33	responsabili	responsabile	ADJ	A	Number=Plur	32	amod	_	SpaceAfter=No
+34	»	»	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Il magistrato, comunque, ha assicurato sull'impegno e sulla serenità con cui lui ed il suo ufficio proseguiranno nel loro difficile lavoro, ed ha ricevuto la solidarietà delle massime cariche istituzionali, del mondo della politica, di tutti gli schieramenti, e dell'Anm.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	magistrato	magistrato	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	comunque	comunque	ADV	B	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	assicurato	assicurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+8	su	su	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	serenità	serenità	NOUN	S	Gender=Fem	10	conj	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+17	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+18	ed	e	CCONJ	CC	_	21	cc	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
+22	proseguiranno	proseguire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	acl:relcl	_	_
+23-24	nel	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	27	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	det:poss	_	_
+26	difficile	difficile	ADJ	A	Number=Sing	27	amod	_	_
+27	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	ed	e	CCONJ	CC	_	31	cc	_	_
+30	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	solidarietà	solidarietà	NOUN	S	Gender=Fem	31	obj	_	_
+34-35	delle	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	massime	massimo	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	_
+37	cariche	carica	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+38	istituzionali	istituzionale	ADJ	A	Number=Plur	36	amod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	36	punct	_	_
+40-41	del	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+43-44	della	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	politica	politica	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	50	punct	_	_
+47	di	di	ADP	E	_	50	case	_	_
+48	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	50	det:predet	_	_
+49	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	schieramenti	schieramente	NOUN	S	Gender=Masc|Number=Plur	42	conj	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	55	punct	_	_
+52	e	e	CCONJ	CC	_	55	cc	_	_
+53-54	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+53	di	di	ADP	E	_	55	case	_	_
+54	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
+55	Anm	Anm	PROPN	SP	_	7	conj	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 19
+# text = Per lanciare l'ennesima minaccia, le cosche si sono servite di un telefono pubblico situato a poca distanza dal palazzo del Consiglio regionale.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	lanciare	lanciare	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	ennesima	ennesimo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	minaccia	minaccia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	cosche	cosca	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	servite	servire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	situato	situare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	regionale	regionale	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 20
+# text = La cabina è stata immediatamente isolata con un telo blu e i tecnici della scientifica hanno già cominciato a fare i rilievi alla ricerca di tracce utili a risalire all'autore della telefonata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cabina	cabina	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	immediatamente	immediatamente	ADV	B	_	6	advmod	_	_
+6	isolata	isolare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	telo	telo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	blu	blu	ADJ	A	_	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	tecnici	tecnico	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	scientifica	scientifica	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	già	già	ADV	B	_	19	advmod	_	_
+19	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	fare	fare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	rilievi	rilievo	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	tracce	traccia	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+29	utili	utile	ADJ	A	Number=Plur	28	amod	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	risalire	risalire	VERB	V	VerbForm=Inf	21	advcl	_	_
+32-33	all'	_	_	_	_	_	_	_	SpaceAfter=No
+32	a	a	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	autore	autore	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 21
+# text = Anche l'arma sarà attentamente analizzata.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	arma	arma	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+5	attentamente	attentamente	ADV	B	_	6	advmod	_	_
+6	analizzata	analizzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 22
+# text = La nuova intimidazione, tra l'altro, è giunta proprio nella giornata in cui polizia, carabinieri e guardia di finanza hanno eseguito oltre 200 perquisizioni in casa dei boss delle cosche non solo della città, ma di tutta la provincia, nell'ambito dell'inchiesta sulle intimidazioni ai pm.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	intimidazione	intimidazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	giunta	giungere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	proprio	proprio	ADV	B	_	14	advmod	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	cui	cui	PRON	PR	PronType=Rel	25	obl	_	_
+17	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	17	conj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	finanza	finanza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+24	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	eseguito	eseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+26	oltre	oltre	ADV	B	_	27	advmod	_	_
+27	200	200	NUM	N	NumType=Card	28	nummod	_	_
+28	perquisizioni	perquisizioni	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+29	in	in	ADP	E	_	30	case	_	_
+30	casa	casa	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31-32	dei	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	boss	boss	NOUN	S	Gender=Masc	30	nmod	_	_
+34-35	delle	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	cosche	cosca	NOUN	S	Gender=Fem|Number=Plur	33	nmod	_	_
+37	non	non	ADV	BN	PronType=Neg	38	advmod	_	_
+38	solo	solo	ADV	B	_	41	advmod	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	città	città	NOUN	S	Gender=Fem	10	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	47	punct	_	_
+43	ma	ma	CCONJ	CC	_	47	cc	_	_
+44	di	di	ADP	E	_	47	case	_	_
+45	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	47	det:predet	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	41	conj	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	41	punct	_	_
+49-50	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+49	in	in	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+52-53	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+52	di	di	ADP	E	_	54	case	_	_
+53	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	54	det	_	_
+54	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	51	nmod	_	_
+55-56	sulle	_	_	_	_	_	_	_	_
+55	su	su	ADP	E	_	57	case	_	_
+56	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+57	intimidazioni	intimidazione	NOUN	S	Gender=Fem|Number=Plur	54	nmod	_	_
+58-59	ai	_	_	_	_	_	_	_	_
+58	a	a	ADP	E	_	60	case	_	_
+59	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	60	det	_	_
+60	pm	pm	NOUN	S	Gender=Masc	54	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 23
+# text = Un'operazione che non avrebbe alcun legame con il ritrovamento del bazooka.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	avrebbe	avere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	legame	legame	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ritrovamento	ritrovamento	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bazooka	bazooka	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 24
+# text = Quello che resta è il clima di tensione in città che dal gennaio scorso è salito a dismisura con un crescendo di gesti eclatanti fino ad ora sconosciuto alla 'ndrangheta, che ha sempre preferito muoversi nell'ombra per non compromettere i propri affari miliardari in tutto il mondo.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	clima	clima	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tensione	tensione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	città	città	NOUN	S	Gender=Fem	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+15	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	salito	salire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	dismisura	dismisura	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	crescendo	crescendo	NOUN	S	Gender=Masc	17	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	gesti	gesto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+25	eclatanti	eclatante	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+26	fino	fino	ADV	B	_	28	case	_	_
+27	ad	a	ADP	E	_	26	fixed	_	_
+28	ora	ora	ADV	B	_	29	advmod	_	_
+29	sconosciuto	sconosciere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	33	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	'	'	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+33	ndrangheta	ndrangheta	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	6	punct	_	_
+35	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+36	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	sempre	sempre	ADV	B	_	38	advmod	_	_
+38	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+39-40	muoversi	_	_	_	_	_	_	_	_
+39	muover	muovere	VERB	V	VerbForm=Inf	38	xcomp	_	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+41-42	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+41	in	in	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+44	per	per	ADP	E	_	46	mark	_	_
+45	non	non	ADV	BN	PronType=Neg	46	advmod	_	_
+46	compromettere	compromettere	VERB	V	VerbForm=Inf	39	advcl	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+48	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	affari	affare	NOUN	S	Gender=Masc|Number=Plur	46	obj	_	_
+50	miliardari	miliardario	ADJ	A	Gender=Masc|Number=Plur	49	amod	_	_
+51	in	in	ADP	E	_	54	case	_	_
+52	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	54	det:predet	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 25
+# text = Dall'attentato alla Procura generale di Reggio, è stato un continuo di minacce e intimidazioni a magistrati, giornalisti, amministratori pubblici, con il procuratore generale Salvatore Di Landro preso di mira in più occasioni, l'ultima delle quali il 26 agosto, quando una bomba esplose davanti al portone del palazzo in cui abita.
+1-2	Dall'	_	_	_	_	_	_	_	SpaceAfter=No
+1	Da	da	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	attentato	attentato	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Procura	Procura	PROPN	SP	_	3	nmod	_	_
+7	generale	generale	ADJ	A	Number=Sing	6	amod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Reggio	Reggio	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	continuo	continuo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	intimidazioni	intimidazione	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	magistrati	magistrato	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	giornalisti	giornalista	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	amministratori	amministratore	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+25	pubblici	pubblico	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	14	punct	_	_
+27	con	con	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	procuratore	procuratore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+30	generale	generale	ADJ	A	Number=Sing	29	amod	_	_
+31	Salvatore	Salvatore	PROPN	SP	_	29	nmod	_	_
+32	Di	di	PROPN	SP	_	31	flat:name	_	_
+33	Landro	Landro	PROPN	SP	_	31	flat:name	_	_
+34	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	mira	mira	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	più	più	ADV	B	_	39	advmod	_	_
+39	occasioni	occasione	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	34	punct	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	ultima	ultima	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+43-44	delle	_	_	_	_	_	_	_	_
+43	di	di	ADP	E	_	45	case	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	quali	quale	PRON	PR	Number=Plur|PronType=Rel	42	nmod	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	26	26	NUM	N	NumType=Card	45	nummod	_	_
+48	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	47	flat	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	47	punct	_	_
+50	quando	quando	SCONJ	CS	_	53	mark	_	_
+51	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	bomba	bomba	NOUN	S	Gender=Fem|Number=Sing	53	nsubj	_	_
+53	esplose	esploso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	advcl	_	_
+54	davanti	davanti	ADV	B	_	57	case	_	_
+55-56	al	_	_	_	_	_	_	_	_
+55	a	a	ADP	E	_	54	fixed	_	_
+56	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	portone	portone	NOUN	S	Gender=Masc|Number=Sing	53	obl	_	_
+58-59	del	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	60	case	_	_
+59	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	57	nmod	_	_
+61	in	in	ADP	E	_	62	case	_	_
+62	cui	cui	PRON	PR	PronType=Rel	63	obl	_	_
+63	abita	abire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	acl:relcl	_	SpaceAfter=No
+64	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 26
+# text = Lo stesso Pignatone era finito nel mirino il 27 maggio scorso, quando gli fu recapitata una busta contenente una lettera di minacce ed un proiettile calibro 7.65.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	Pignatone	Pignatone	PROPN	SP	_	5	nsubj	_	_
+4	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mirino	mirino	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	27	27	NUM	N	NumType=Card	5	obl	_	_
+11	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	10	flat	_	_
+12	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	quando	quando	SCONJ	CS	_	17	mark	_	_
+15	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
+16	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	recapitata	recapitare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	busta	busta	NOUN	S	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+20	contenente	contenere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	19	acl	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	_
+25	ed	e	CCONJ	CC	_	28	cc	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	proiettile	proiettile	ADJ	A	Number=Sing	28	amod	_	_
+28	calibro	calibro	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+29	7.65	7.65	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 27
+# text = Gesti che hanno avvelenato il clima di una città che, forse per la prima volta, ha reagito in maniera plateale, scendendo in piazza in massa, il 27 settembre scorso, quando in 40 mila hanno sfilato per le strade di Reggio aderendo all'invito del Quotidiano della Calabria per dire «no 'ndrangheta».
+1	Gesti	gesto	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avvelenato	avvelenare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	clima	clima	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	6	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	19	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	forse	forse	ADV	B	_	16	advmod	_	_
+13	per	per	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	volta	volta	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	reagito	reagire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	plateale	plateale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	19	punct	_	_
+24	scendendo	scendere	VERB	V	VerbForm=Ger	19	advcl	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	massa	massa	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	1	punct	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	27	27	NUM	N	NumType=Card	1	appos	_	_
+32	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	31	flat	_	_
+33	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	1	punct	_	_
+35	quando	quando	SCONJ	CS	_	40	mark	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	40	40	NUM	N	NumType=Card	40	obl	_	_
+38	mila	mila	NUM	N	NumType=Card	37	flat	_	_
+39	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	sfilato	sfilare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+41	per	per	ADP	E	_	43	case	_	_
+42	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	strade	strada	NOUN	S	Gender=Fem|Number=Plur	40	obl	_	_
+44	di	di	ADP	E	_	45	case	_	_
+45	Reggio	Reggio	PROPN	SP	_	43	nmod	_	_
+46	aderendo	aderere	VERB	V	VerbForm=Ger	40	advcl	_	_
+47-48	all'	_	_	_	_	_	_	_	SpaceAfter=No
+47	a	a	ADP	E	_	49	case	_	_
+48	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	49	det	_	_
+49	invito	invito	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+50-51	del	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	Quotidiano	quotidiano	PROPN	SP	_	49	nmod	_	_
+53-54	della	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	Calabria	Calabria	PROPN	SP	_	52	nmod	_	_
+56	per	per	ADP	E	_	57	mark	_	_
+57	dire	dire	VERB	V	VerbForm=Inf	46	advcl	_	_
+58	«	«	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+59	no	no	ADV	BN	PronType=Neg	61	advmod	_	_
+60	'	'	PUNCT	FB	_	59	punct	_	SpaceAfter=No
+61	ndrangheta	ndrangheto	NOUN	S	Gender=Fem|Number=Sing	57	ccomp	_	SpaceAfter=No
+62	»	»	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+63	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 28
+# text = E anche stasera la città è tornata in piazza.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	stasera	stasera	ADV	B	_	7	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	città	città	NOUN	S	Gender=Fem	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tornata	tornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 29
+# text = Migliaia di fiaccole hanno illuminato la notte reggina.
+1	Migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	fiaccole	fiaccola	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	illuminato	illuminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	notte	notte	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	reggina	reggino	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 30
+# text = Un altro segnale che testimonia come, alla tracotanza della 'ndrangheta, la città sia sempre più decisa a rispondere con le armi di cui dispone:
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	segnale	segnale	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	testimonia	testimoniare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	come	come	ADP	E	_	10	case	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tracotanza	tracotanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	'	'	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	ndrangheta	ndrangheta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	città	città	NOUN	S	Gender=Fem	21	nsubj	_	_
+18	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	sempre	sempre	ADV	B	_	21	advmod	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	decisa	deciso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	rispondere	rispondere	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	armi	arma	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+29	dispone	disporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 31
+# text = la partecipazione e l'impegno civile.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+6	civile	civile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

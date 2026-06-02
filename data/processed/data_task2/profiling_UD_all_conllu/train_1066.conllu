@@ -1,0 +1,217 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = L'uomo, identificato come Matteo Accusa, è stato arrestato nei giorni scorsi dalla polizia municipale in un'operazione di controllo che ha coinvolto diversi risultati finanziari non dichiarati.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	identificato	identificato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	Matteo	Matteo	PROPN	SP	_	4	obl	_	_
+7	Accusa	accusa	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	arrestato	arrestare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	scorsi	scorso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+16-17	dalla	_	_	_	_	_	_	_	_
+16	da	da	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	11	obl:agent	_	_
+19	municipale	municipale	ADJ	A	Number=Sing	18	amod	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	coinvolto	coinvolgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+28	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30	finanziari	finanziario	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	_
+31	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+32	dichiarati	dichiarare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Secondo le indagini della procura, Accusa sarebbe stato indagato per aver chiesto e ricevuto vantaggi in cambio di una favorevole attuazione di un appalto per la manutenzione di un’area pubblica.
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	procura	procura	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	Accusa	accusa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+9	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	indagato	indagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	per	per	ADP	E	_	14	mark	_	_
+13	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+14	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+17	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	cambio	cambio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	favorevole	favorevole	ADJ	A	Number=Sing	23	amod	_	_
+23	attuazione	attuazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	appalto	appalto	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	manutenzione	manutenzione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	area	area	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+33	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = L’operazione, avvenuta nel 2023, avrebbe visto l’ennesimo tentativo di valorizzare un servizio pubblico con un prezzo discriminatorio e senza controllo indipendente.
+1	L’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	avvenuta	avvenire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2023	2023	NUM	N	NumType=Card	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	10	xcomp	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	valorizzare	valorizzare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	pubblico	pubblico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+22	discriminatorio	discriminatorio	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	senza	senza	ADP	E	_	25	case	_	_
+25	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+26	indipendente	indipendente	ADJ	A	Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Gli archivi presentati dalla procura mostrano una serie di comunicazioni scritte e elettroniche che, tra un decennio, hanno evidenziato un passaggio di denaro non regolarmente documentato tra un’azienda di costruzioni e il consigliere.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	archivi	archivio	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	presentati	presentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	procura	procura	NOUN	S	Gender=Fem|Number=Sing	3	obl:agent	_	_
+7	mostrano	mostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	serie	serie	NOUN	S	Gender=Fem	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	comunicazioni	comunicazione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+12	scritte	scritto	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	elettroniche	elettronico	ADJ	A	Gender=Fem|Number=Plur	12	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	22	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	decennio	decennio	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	evidenziato	evidenziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	passaggio	passaggio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	regolarmente	regolarmente	ADV	B	_	29	advmod	_	_
+29	documentato	documentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+30	tra	tra	ADP	E	_	32	case	_	_
+31	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	costruzioni	costruzione	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Il consigliere Accusa, già stato precedente in diversi organismi di controllo, si è difeso in aula dicendo di non essersi mai allineato a comportamenti illegittimi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	consigliere	consigliere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Accusa	accusa	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	già	già	ADV	B	_	7	advmod	_	_
+6	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	precedente	precedere	ADJ	A	Number=Sing	16	advcl	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	organismi	organismo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	difeso	rendedife	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	aula	aula	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	dicendo	dire	VERB	V	VerbForm=Ger	16	advcl	_	_
+20	di	di	ADP	E	_	25	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+22-23	essersi	_	_	_	_	_	_	_	_
+22	esser	essere	AUX	VA	VerbForm=Inf	25	aux	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+24	mai	mai	ADV	B	_	25	advmod	_	_
+25	allineato	allineare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	xcomp	_	_
+26	a	a	ADP	E	_	27	case	_	_
+27	comportamenti	comportamento	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+28	illegittimi	illegittimo	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = «Non ho mai avuto il minimo intento di ingannare il pubblico», ha dichiarato in un'intervista rilasciata in sede di processo.
+1	«	«	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	minimo	minimo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	intento	intento	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	ingannare	ingannare	VERB	V	VerbForm=Inf	7	acl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	»	»	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	rilasciata	rilasciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	sede	sede	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	processo	processo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = «Qu
+1	«	«	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Qu	Qu	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

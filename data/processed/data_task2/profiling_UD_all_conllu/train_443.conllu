@@ -1,0 +1,423 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Si aprono le iscrizioni a scuola.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	aprono	aprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	iscrizioni	iscrizione	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Quale indirizzo consiglierebbe ad un ragazzino delle medie?
+1	Quale	quale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	consiglierebbe	consigliere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ragazzino	ragazzino	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	medie	media	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = "In un mondo che cambia così rapidamente è la risposta più difficile.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	così	così	ADV	B	_	6	advmod	_	_
+8	rapidamente	rapidamente	ADV	B	_	6	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Io mi preoccuperei piuttosto di apprendere ad imparare.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	preoccuperei	preoccupare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	piuttosto	piuttosto	ADV	B	_	6	mark	_	_
+5	di	di	ADP	E	_	4	fixed	_	_
+6	apprendere	apprendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	ad	a	ADP	E	_	8	mark	_	_
+8	imparare	imparare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Lo aveva compreso già 21 anni fa il rettore di Harward, Derek Bok.
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	già	già	ADV	B	_	6	advmod	_	_
+5	21	21	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	fa	fa	ADV	B	_	6	advmod	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	rettore	rettore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Harward	Harward	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	Derek	Derek	PROPN	SP	_	9	nmod	_	_
+14	Bok	Bok	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Gli studenti italiani che he fanno l'Erasmus sono più richiesti in Europa semplicemente perché più colti degli altri".
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+3	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	he	a	ADV	B	_	6	advmod	_	_
+6	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Erasmus	Erasmus	PROPN	SP	_	6	obj	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	richiesti	richiesto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Europa	Europa	PROPN	SP	_	11	obl	_	_
+14	semplicemente	semplicemente	ADV	B	_	11	advmod	_	_
+15	perché	perché	SCONJ	CS	_	17	mark	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	colti	colto	ADJ	A	Gender=Masc|Number=Plur	11	advcl	_	_
+18-19	degli	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	17	obl	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = Che ruolo può svolgere il nostro sistema di istruzione per evitare l'incremento della disoccupazione derivante dall'automazione?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	svolgere	svolgere	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	evitare	evitare	VERB	V	VerbForm=Inf	4	advcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	incremento	incremento	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	derivante	derivare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	13	acl	_	_
+18-19	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+18	da	da	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	automazione	automazione	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = "Scuola e università giocheranno un ruolo fondamentale:
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Scuola	scuola	PROPN	SP	_	5	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	università	università	NOUN	S	Gender=Fem	2	conj	_	_
+5	giocheranno	giocare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	fondamentale	fondamentale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 9
+# text = le humanities vanno integrate con la cultura scientifica e le scuole o gli indirizzi che vanno su questa strada sono da preferire.
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	humanities	humanity	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	vanno	andare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	integrate	integrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+12	o	o	CCONJ	CC	_	14	cc	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	indirizzi	indirizzo	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	strada	strada	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	preferire	preferire	VERB	V	VerbForm=Inf	20	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Occorre aggiungere saperi, ampliare il tempo-scuola e avere bravi docenti".
+1	Occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aggiungere	aggiungere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	saperi	sapere	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	ampliare	ampliare	VERB	V	VerbForm=Inf	2	conj	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	-scuola	-scuolare	NUM	N	NumType=Card	7	nummod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	avere	avere	VERB	V	VerbForm=Inf	8	conj	_	_
+11	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	docenti	docente	NOUN	S	Number=Plur	10	obj	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Ma all'università sono le facoltà scientifiche a garantire più occupazione.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	università	università	NOUN	S	Gender=Fem	0	root	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	facoltà	facoltà	NOUN	S	Gender=Fem	4	nsubj	_	_
+8	scientifiche	scientifico	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	garantire	garantire	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Medici e ingegneri oltre il 94 per cento.
+1	Medici	medico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	ingegneri	ingegnere	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+4	oltre	oltre	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	94	94	NUM	N	NumType=Card	1	nummod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	cento	cento	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = "Capisco chi fa scelte di medio periodo.
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Capisco	Capisco	PROPN	SP	_	0	root	_	_
+3	chi	chi	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	scelte	scelta	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	medio	medio	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Ma non è un bene trascurare i laureati in facoltà umanistiche".
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bene	bene	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	trascurare	trascurare	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	laureati	laureato	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	facoltà	facoltà	NOUN	S	Gender=Fem	8	nmod	_	_
+11	umanistiche	umanistico	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Il rapporto McKinsey sostiene che l'automazione sostituirà l'uomo nel 49 per cento dei lavori.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	McKinsey	McKinsey	PROPN	SP	_	2	nmod	_	_
+4	sostiene	sostenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	automazione	automazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	sostituirà	sostituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	49	49	NUM	N	NumType=Card	8	obl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	cento	cento	NUM	N	NumType=Card	13	nummod	_	_
+16-17	dei	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = E sparirà il 5 per cento delle professioni.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	sparirà	sparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	5	5	NUM	N	NumType=Card	2	obj	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	cento	cento	NUM	N	NumType=Card	4	nummod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	professioni	professione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Che ne pensa?
+1	Che	che	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = "Che è venuto il momento di fermarsi a riflettere.
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	fermarsi	_	_	_	_	_	_	_	_
+8	fermar	fermare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	riflettere	riflettere	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Non occorre demonizzare la tecnologia.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	demonizzare	demonizzare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = E non è detto che l'automazione crei più disoccupazione:
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	automazione	automazione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	crei	creare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 21
+# text = paesi europei più avanti di noi tecnologicamente hanno meno disoccupazione.
+1	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+2	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	avanti	avanti	ADV	B	_	1	advmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nmod	_	_
+7	tecnologicamente	tecnologicamente	ADV	B	_	8	advmod	_	_
+8	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	meno	meno	ADV	B	_	10	advmod	_	_
+10	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 22
+# text = Ma non bisogna avere un atteggiamento fideistico nei suoi confronti.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	avere	avere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	atteggiamento	atteggiamento	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	fideistico	fideistico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = È un fenomeno che va governato perché la sensazione è che a comandare siano economia e tecnologia.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	va	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	governato	governare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	perché	perché	SCONJ	CS	_	10	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sensazione	sensazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	comandare	comandare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+14	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	economia	economia	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Siamo di fronte ad un bivio perché la tecnologia dà risposte ma occorre porsi continue domande e per fare questo occorre potenziare i saperi umanistici.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	fronte	fronte	NOUN	S	Number=Sing	0	root	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	bivio	bivio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	perché	perché	SCONJ	CS	_	10	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	risposte	risposta	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14-15	porsi	_	_	_	_	_	_	_	_
+14	por	porre	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	continue	continuo	ADJ	A	Gender=Fem|Number=Plur	17	amod	_	_
+17	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	fare	fare	VERB	V	VerbForm=Inf	14	conj	_	_
+21	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	20	obj	_	_
+22	occorre	occorre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+23	potenziare	potenziare	VERB	V	VerbForm=Inf	22	csubj	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	saperi	sapere	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	umanistici	umanistico	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = Metterei in cima a tutto la cultura, poi la politica e infine la tecnologia".
+1	Metterei	Mettere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	cima	cima	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	poi	poi	ADV	B	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	politica	politica	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	infine	infine	ADV	B	_	15	advmod	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tecnologia	tecnologia	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+

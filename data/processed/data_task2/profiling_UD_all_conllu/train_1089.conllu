@@ -1,0 +1,415 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Per prima cosa - si legge in rete - Emma Marrone si è messa completamente in gioco con la squadra bianca.
+1	Per	per	ADP	E	_	3	case	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	legge	leggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	rete	rete	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+9	-	-	PUNCT	FF	_	6	punct	_	_
+10	Emma	Emma	PROPN	SP	_	14	nsubj	_	_
+11	Marrone	Marrone	PROPN	SP	_	10	flat:name	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	completamente	completamente	ADV	B	_	14	advmod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	bianca	bianco	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = E la prima manche della gara, infatti, è stata vinta proprio dai suoi allievi, mentre la seconda dalla squadra seguita da Elisa.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	manche	manca	NOUN	S	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	infatti	infatti	ADV	B	_	13	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	vinta	vincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	proprio	proprio	ADV	B	_	13	advmod	_	_
+15-16	dai	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	allievi	allievo	NOUN	S	Gender=Masc|Number=Plur	13	obl:agent	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	13	punct	_	_
+20	mentre	mentre	SCONJ	CS	_	13	obl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+23-24	dalla	_	_	_	_	_	_	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+26	seguita	seguire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+27	da	da	ADP	E	_	28	case	_	_
+28	Elisa	Elisa	PROPN	SP	_	26	obl:agent	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 3
+# text = Ma prima di arrivare alle esibizioni, Amici si è aperto con un momento molto commovente.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	prima	prima	ADV	B	_	4	mark	_	_
+3	di	di	ADP	E	_	2	fixed	_	_
+4	arrivare	arrivare	VERB	V	VerbForm=Inf	12	advcl	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	esibizioni	esibizione	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	Amici	Amici	PROPN	SP	_	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	aperto	aprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	con	con	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	momento	momento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	commovente	commovente	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Maria De Filippi ha scritto e letto una lettera per Emma.
+1	Maria	Maria	PROPN	SP	_	5	nsubj	_	_
+2	De	De	PROPN	SP	_	1	flat:name	_	_
+3	Filippi	Filippi	PROPN	SP	_	1	flat:name	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	Emma	Emma	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = La conduttrice nel messaggio ha definito la cantante "una persona umile e di buon cuore, sempre pronta ad aiutare tutti" e in questo caso il talent show che l'ha lanciata.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conduttrice	conduttore	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	definito	definire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cantante	cantante	NOUN	S	Number=Sing	7	obj	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	persona	persona	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	_	_
+13	umile	umile	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	buon	buono	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	sempre	sempre	ADV	B	_	20	advmod	_	_
+20	pronta	pronto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+21	ad	a	ADP	E	_	22	mark	_	_
+22	aiutare	aiutare	VERB	V	VerbForm=Inf	20	advcl	_	_
+23	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	22	obj	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	30	punct	_	_
+25	e	e	CCONJ	CC	_	30	cc	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	caso	caso	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	talent	talent	X	SW	Foreign=Yes	22	conj	_	_
+31	show	show	X	SW	Foreign=Yes	30	flat:foreign	_	_
+32	che	che	PRON	PR	PronType=Rel	35	nsubj	_	_
+33	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	35	obj	_	SpaceAfter=No
+34	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	lanciata	lanciare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Poi si è entrati nel vivo della gara.
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vivo	vivo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gara	gara	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Raz Degan è il giudice speciale che affianca la giuria composta da Ermal Meta, Ambra Angiolini, Eleonora Abbagnato e Daniele Liotti.
+1	Raz	Raz	PROPN	SP	_	5	nsubj	_	_
+2	Degan	Degan	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	speciale	speciale	ADJ	A	Number=Sing	5	amod	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	affianca	affiancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	giuria	giuria	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	composta	comporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Ermal	Ermal	PROPN	SP	_	11	obl:agent	_	_
+14	Meta	meta	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	Ambra	Ambrare	PROPN	SP	_	13	conj	_	_
+17	Angiolini	Angiolini	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	Eleonora	Eleonore	PROPN	SP	_	13	conj	_	_
+20	Abbagnato	Abbagnato	PROPN	SP	_	19	flat:name	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	Daniele	Daniele	PROPN	SP	_	13	conj	_	_
+23	Liotti	Liotti	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Il vincitore dell'Isola dei Famosi - sempre secondo quanto dicono le talpe - avrebbe sostituito all'ultimo Stefano Accorsi.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	vincitore	vincitore	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Isola	isola	PROPN	SP	_	2	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Famosi	famoso	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	-	-	PUNCT	FB	_	12	punct	_	_
+10	sempre	sempre	ADV	B	_	12	advmod	_	_
+11	secondo	secondo	ADP	E	_	12	case	_	_
+12	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	18	obl	_	_
+13	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	talpe	talpe	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+16	-	-	PUNCT	FF	_	12	punct	_	_
+17	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	sostituito	sostituire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+19-20	all'	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	22	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+21	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	22	amod	_	_
+22	Stefano	Stefano	PROPN	SP	_	18	obl	_	_
+23	Accorsi	accorso	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 9
+# text = Gli ospiti della quinta puntata, invece, sono: i The Kolors, Fiorella Mannoia e Ozark Henry, interprete della hit I'm your sacrifice.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	ospiti	ospite	NOUN	S	Number=Plur	13	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	quinta	quinto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	puntata	puntata	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	invece	invece	ADV	B	_	13	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	10	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	The	The	PROPN	SP	_	0	root	_	_
+14	Kolors	Kolors	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	Fiorella	Fiorella	PROPN	SP	_	13	flat:name	_	_
+17	Mannoia	Mannoia	PROPN	SP	_	13	flat:name	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Ozark	Ozark	PROPN	SP	_	13	conj	_	_
+20	Henry	Henry	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	13	punct	_	_
+22	interprete	interprete	NOUN	S	Number=Sing	28	nsubj	_	_
+23-24	della	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	hit	hit	X	SW	Foreign=Yes	22	nmod	_	_
+26	I'm	I'm	X	SW	Foreign=Yes	25	flat:foreign	_	_
+27	your	your	X	SW	Foreign=Yes	25	flat:foreign	_	_
+28	sacrifice	sacrifice	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 10
+# text = Ad Amici tornano anche Luca e Paolo che con la loro comicità hanno fatto divertire tutto il pubblico.
+1	Ad	a	ADP	E	_	2	case	_	_
+2	Amici	Amici	PROPN	SP	_	3	obl	_	_
+3	tornano	tornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	Luca	Luca	PROPN	SP	_	3	nsubj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Paolo	Paolo	PROPN	SP	_	5	conj	_	_
+8	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+9	con	con	ADP	E	_	12	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	loro	loro	DET	AP	Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	comicità	comicità	NOUN	S	Gender=Fem	14	obl	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+15	divertire	divertire	VERB	V	VerbForm=Inf	14	xcomp	_	_
+16	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	18	det:predet	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ma veniamo alla sfida tra i bianchi e i blu.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	veniamo	venire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bianchi	bianco	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	blu	blu	NOUN	S	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Come dicevamo sopra, la prima manche è stata vinta dalla squadra di Emma mentre la seconda da quella di Elisa.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	dicevamo	dicere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	10	advcl	_	_
+3	sopra	sopra	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	manche	manca	NOUN	S	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	vinta	vincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Emma	Emma	PROPN	SP	_	13	nmod	_	_
+16	mentre	mentre	SCONJ	CS	_	10	obl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	seconda	seconda	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	18	obl	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	Elisa	Elisa	PROPN	SP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = Cosimo e Thomas sono così a rischio eliminazione.
+1	Cosimo	Cosimo	PROPN	SP	_	7	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Thomas	Thomas	PROPN	SP	_	1	conj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	così	così	ADV	B	_	7	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	eliminazione	eliminazione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 14
+# text = A questo punto Elisa chiede di parlare in privato con Emma e, di comune accordo, propongono di non eliminare nessuno, visto quanto accaduto negli ultimi giorni.
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	Elisa	Elisa	PROPN	SP	_	5	nsubj	_	_
+5	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	privato	privato	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	Emma	Emma	PROPN	SP	_	7	obl	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	comune	comune	ADJ	A	Number=Sing	16	amod	_	_
+16	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	propongono	proporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+19	di	di	ADP	E	_	21	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	eliminare	eliminare	VERB	V	VerbForm=Inf	18	ccomp	_	_
+22	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	18	punct	_	_
+24	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+25	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	24	obj	_	_
+26	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+27-28	negli	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	30	case	_	_
+28	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+29	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+30	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Maria De Filippi accetta la proposta anche se subito precisa che dalla prossima puntata tutto tornerà alla normalità.
+1	Maria	Maria	PROPN	SP	_	4	nsubj	_	_
+2	De	De	PROPN	SP	_	1	flat:name	_	_
+3	Filippi	Filippi	PROPN	SP	_	1	flat:name	_	_
+4	accetta	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	anche	anche	ADV	B	_	10	advmod	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	subito	subito	ADV	B	_	10	advmod	_	_
+10	precisa	preciso	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	che	che	SCONJ	CS	_	17	mark	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	puntata	puntata	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	_
+17	tornerà	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	ccomp	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	normalità	normalità	NOUN	S	Gender=Fem	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = La squadra dei bianchi e quella dei blu accedono quindi alla sesta puntata del serale con quattro allievi ciascuno.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	bianchi	bianco	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	conj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	blu	blu	NOUN	S	_	7	nmod	_	_
+11	accedono	accedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	quindi	quindi	ADV	B	_	11	advmod	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sesta	sesta	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	puntata	puntare	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	serale	serale	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	quattro	quattro	NUM	N	NumType=Card	22	nummod	_	_
+22	allievi	allievo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+

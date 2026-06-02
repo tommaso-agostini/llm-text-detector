@@ -1,0 +1,379 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Stanno articolando questa stupidaggine con una sola costante:
+1	Stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	articolando	articolare	VERB	V	VerbForm=Ger	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	stupidaggine	stupidaggine	NOUN	S	Gender=Fem	2	obj	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sola	solo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	costante	costante	ADJ	A	Number=Sing	2	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 2
+# text = sono io che abbandono loro, non loro che abbandonano me".
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	abbandono	abbandire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	abbandonano	abbandonare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Lo afferma il fondatore del M5s, Beppe Grillo, in un intervento sul Fatto
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fondatore	fondatore	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	M5s	M5s	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	Beppe	Beppe	PROPN	SP	_	4	appos	_	_
+10	Grillo	Grillo	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+
+# sent_id = 4
+# text = Quotidiano in cui assicura che non lascerà il Movimento, "sarebbe - dice - come per un jazzista darsi al liscio".
+1	Quotidiano	quotidiano	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	cui	cui	PRON	PR	PronType=Rel	4	obl	_	_
+4	assicura	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	lascerà	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Movimento	Movimento	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+12	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	-	-	PUNCT	FB	_	14	punct	_	_
+14	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	-	-	PUNCT	FB	_	14	punct	_	_
+16	come	come	ADP	E	_	19	case	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	jazzista	jazzista	NOUN	S	Number=Sing	14	obl	_	_
+20-21	darsi	_	_	_	_	_	_	_	_
+20	dar	dare	VERB	V	VerbForm=Inf	14	csubj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	liscio	liscio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 5
+# text = "Perché - si chiede Grillo - in mezzo a questo uragano di idiozie sparate a casaccio nessuno si sbaglia e dice il contrario?
+1	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+2	Perché	perché	ADV	B	_	20	advmod	_	_
+3	-	-	PUNCT	FB	_	5	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+6	Grillo	Grillo	PROPN	SP	_	5	nsubj	_	_
+7	-	-	PUNCT	FB	_	5	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	uragano	uragano	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	idiozie	idiozia	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	sparate	sparare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	casaccio	casaccio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	nsubj	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+20	sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+25	?	?	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 6
+# text = In realtà è un caos controllato:
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem	5	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caos	caos	NOUN	S	Gender=Masc	0	root	_	_
+6	controllato	controllato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = "Grillo lo ha fondato, ne è il garante in tutti i sensi, se è lui ad andarsene significa che il movimento sta tradendo se stesso".
+1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+2	Grillo	Grillo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fondato	fondare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	garante	garante	NOUN	S	Number=Sing	0	root	_	_
+11	in	in	ADP	E	_	14	case	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	14	det:predet	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	se	se	SCONJ	CS	_	18	mark	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	advcl	_	_
+19	ad	a	ADP	E	_	20	mark	_	_
+20-22	andarsene	_	_	_	_	_	_	_	_
+20	andar	andare	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	20	expl	_	_
+23	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+24	che	che	SCONJ	CS	_	28	mark	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	movimento	movimento	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	_
+27	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	tradendo	tradire	VERB	V	VerbForm=Ger	23	ccomp	_	_
+29	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	28	expl	_	_
+30	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	28	xcomp	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Sono quasi commosso da questo riconoscimento così inatteso".
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	commosso	commuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	riconoscimento	riconoscimento	NOUN	S	Gender=Masc|Number=Sing	3	obl:agent	_	_
+7	così	così	ADV	B	_	8	advmod	_	_
+8	inatteso	inatteso	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = "L'unico modo che ha trovato la vecchia politica per sopravvivere - osserva Grillo - è il caos:
+1	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	unico	unico	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	modo	modo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	politica	politica	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	10	acl	_	_
+13	-	-	PUNCT	FB	_	14	punct	_	_
+14	osserva	osservare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+15	Grillo	Grillo	PROPN	SP	_	14	nsubj	_	_
+16	-	-	PUNCT	FB	_	14	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	caos	caos	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+20	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 10
+# text = disseminare di incandidabili i media, trasformando la campagna elettorale in una nebbia di dicerie con l'obiettivo di confondere la gente, distrarla perché non veda la loro inconsistenza.
+1	disseminare	disseminare	VERB	V	VerbForm=Inf	0	root	_	_
+2	di	di	ADP	E	_	5	case	_	_
+3	incandidabili	incandidabile	ADJ	A	Number=Plur	5	amod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	media	media	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	trasformando	trasformare	VERB	V	VerbForm=Ger	1	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	elettorale	elettorale	ADJ	A	Number=Sing	9	amod	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	nebbia	nebbia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	dicerie	diceria	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	confondere	confondere	VERB	V	VerbForm=Inf	18	acl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	gente	gente	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24-25	distrarla	_	_	_	_	_	_	_	_
+24	distrar	distrarre	VERB	V	VerbForm=Inf	1	conj	_	_
+25	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	perché	perché	SCONJ	CS	_	28	mark	_	_
+27	non	non	ADV	BN	PronType=Neg	28	advmod	_	_
+28	veda	vedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	inconsistenza	inconsistenza	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Così mettono insieme l'ex badante della nipote di Mubarak (incandidabile!
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	insieme	insieme	ADV	B	_	2	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	ex	ex	ADJ	A	_	6	amod	_	_
+6	badante	badante	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	nipote	nipote	NOUN	S	Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Mubarak	Mubarak	PROPN	SP	_	9	nmod	_	_
+12	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	incandidabile	incandidabile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 12
+# text = Meno della nipote) con la "Lega non più Nord".
+1	Meno	meno	ADV	B	_	9	advmod	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	nipote	nipote	NOUN	S	Number=Sing	1	obl	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	1	punct	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	Lega	Lega	PROPN	SP	_	0	root	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	Nord	Nord	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 13
+# text = E Renzi?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	Renzi	Renzi	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = - prosegue - Aveva giurato di non fare più politica se avesse perso il "referendum sulla Costituzione".
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	prosegue	proseguire	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+3	-	-	PUNCT	FF	_	2	punct	_	_
+4	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	giurato	giurare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	di	di	ADP	E	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	politica	politico	ADJ	A	Gender=Fem|Number=Sing	8	xcomp	_	_
+11	se	se	SCONJ	CS	_	13	mark	_	_
+12	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	referendum	referendum	NOUN	S	Gender=Masc	13	obj	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 15
+# text = Nel frattempo compare un altro "soggetto politico" autoproclamatosi "Liberi ed Eguali".
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	frattempo	frattempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	compare	comparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	soggetto	soggetto	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	_
+9	politico	politico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	11	punct	_	_
+11-12	autoproclamatosi	_	_	_	_	_	_	_	_
+11	autoproclamato	autoproclamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+13	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+14	Liberi	liberi	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+15	ed	e	CCONJ	CC	_	16	cc	_	_
+16	Eguali	eguale	ADJ	A	Number=Plur	14	conj	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Insomma, non è una campagna elettorale, sono tutti fantasmi di se stessi, è uno psicodramma di controfigure destinato a distruggere la sovranità del nostro Paese".
+1	Insomma	insomma	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+7	elettorale	elettorale	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nmod	_	_
+11	fantasmi	fantasmi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	se	se	NOUN	S	Gender=Masc	11	nmod	_	_
+14	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	psicodramma	psicodramma	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	controfigure	controfigura	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	destinato	destinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+22	a	a	ADP	E	_	23	mark	_	_
+23	distruggere	distruggere	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	sovranità	sovranità	NOUN	S	Gender=Fem	23	obj	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	29	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 17
+# text = "Sarà l'Europa - aggiunge - a dire chi governerà l'Italia se non usciamo da questo bioparco monospecie".
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Europa	Europa	PROPN	SP	_	0	root	_	_
+5	-	-	PUNCT	FB	_	6	punct	_	_
+6	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	dire	dire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+10	chi	chi	PRON	PR	Number=Sing|PronType=Rel	9	obj	_	_
+11	governerà	governare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	Italia	Italia	PROPN	SP	_	11	obj	_	_
+14	se	se	SCONJ	CS	_	16	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	usciamo	uscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	bioparco	bioparco	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	monospecie	monospecie	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,333 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sole, temperature che potrebbero superare i 15 gradi, giorni quasi da cartolina:
+1	Sole	sole	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	temperature	temperatura	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	superare	superare	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	15	15	NUM	N	NumType=Card	9	nummod	_	_
+9	gradi	grado	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	quasi	quasi	ADV	B	_	14	advmod	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	cartolina	cartolina	NOUN	S	Gender=Fem	9	nmod	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = è quello che promettono le previsioni meteo.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	promettono	promettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	previsioni	previsione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	meteo	meteo	NOUN	S	Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Un’eccezione, certo, ma un’eccezione benvenuta, un raggio di luce in un anno costellato da eventi estremi e da un’ansia crescente per il futuro del pianeta.
+1	Un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	certo	certo	ADV	B	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+9	benvenuta	benvenuto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	raggio	raggio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	luce	luce	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	anno	anno	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+18	costellato	costellare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	da	da	ADP	E	_	20	case	_	_
+20	eventi	evente	NOUN	S	Gender=Masc|Number=Plur	18	obl:agent	_	_
+21	estremi	estremio	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	ansia	ansia	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+26	crescente	crescere	ADJ	A	Number=Sing	25	amod	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Eppure, mentre si accarezzano la faccia con la piacevolezza di un’improvvisa carezza solare, è impossibile ignorare la realtà che ci investe quotidianamente.
+1	Eppure	eppure	ADV	B	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	mentre	mentre	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+5	accarezzano	accarezzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	piacevolezza	piacevolezza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	improvvisa	improvviso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	carezza	carezza	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	solare	solare	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	_
+19	ignorare	ignorare	VERB	V	VerbForm=Inf	18	csubj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	realtà	realtà	NOUN	S	Gender=Fem	19	obj	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	obj	_	_
+24	investe	invedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	quotidianamente	quotidiano	ADV	B	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 5
+# text = Lo smog.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	smog	smog	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La foschia grigia che avvolge le nostre città, che soffoca i polmoni, che cancella i colori.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	foschia	foschia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	grigia	grigio	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	avvolge	avvolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	città	città	NOUN	S	Gender=Fem	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	soffoca	soffocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	polmoni	polmone	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	cancella	cancellare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	colori	colore	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = La pioggia di particolato, invisibile ma letale, che cade incessantemente sulla metropoli.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	particolato	particolato	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	invisibile	invisibile	ADJ	A	Number=Sing	4	amod	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	letale	letale	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	cade	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+12	incessantemente	incessantemente	ADV	B	_	11	advmod	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	metropoli	metropoli	NOUN	S	Gender=Fem	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un problema, lo smog, che resiste a ogni promessa di cambiamento, a ogni tentativo di marciare verso un’aria più pulita.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	smog	smog	NOUN	S	Gender=Masc	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	resiste	resistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cambiamento	cambiamento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	marciare	marciare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	verso	verso	ADP	E	_	22	case	_	_
+21	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	aria	aria	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+23	più	più	ADV	B	_	24	advmod	_	_
+24	pulita	pulito	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = La diagnosi è sempre la stessa:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	diagnosi	diagnosi	NOUN	S	Gender=Fem	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	stessa	stesso	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	6	punct	_	_
+
+# sent_id = 10
+# text = un mix tossico di emissioni industriali, traffico, riscaldamento domestico inefficiente e un’immobilismo politico che cronologicamente schiaccia ogni iniziativa concreta.
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mix	mix	NOUN	S	Number=Sing	0	root	_	_
+3	tossico	tossico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	emissioni	emissioni	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	industriali	industriale	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	riscaldamento	riscaldamento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+11	domestico	domestico	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	inefficiente	inefficiente	ADJ	A	Number=Sing	10	amod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	immobilismo	immobilismo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+16	politico	politico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+18	cronologicamente	cronologicamente	ADV	B	_	19	advmod	_	_
+19	schiaccia	schiacciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	21	det	_	_
+21	iniziativa	iniziativa	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	concreta	concreto	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = La Legge sulle emissioni, promessa di rinnovo dopo rinnovo, sembra destinata a rimanere un’ambiziosa, ma irrealizzabile, speranza.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Legge	legge	PROPN	SP	_	13	nsubj	_	_
+3-4	sulle	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	emissioni	emissione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	promessa	promessa	NOUN	S	Gender=Fem|Number=Sing	2	appos	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	rinnovo	rinnovo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	dopo	dopo	ADV	B	_	11	advmod	_	_
+11	rinnovo	rinnovo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	rimanere	rimanere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ambiziosa	ambizioso	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	irrealizzabile	irrealizzabile	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	21	punct	_	_
+23	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 12
+# text = Parliamo di obiettivi ambrosiani, di riduzione degli排放物, di “transizione ecologica” che si traduce spesso in incentivi per i combustibili fossili e progetti di costruzione che ignorano i principi della sostenibilità.
+1	Parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4	ambrosiani	ambrosiano	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	degli排放物	degli排放物	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	transizione	transizione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+13	ecologica	ecologico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	”	”	PUNCT	FB	_	12	punct	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	traduce	tradurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+18	spesso	spesso	ADV	B	_	17	advmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	incentivi	incentivo	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	combustibili	combustibile	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	fossili	fossile	ADJ	A	Number=Plur	23	amod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+29	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+30	ignorano	ignorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	principi	principio	NOUN	S	Gender=Masc|Number=Plur	30	obj	_	_
+33-34	della	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	sostenibilità	sostenibilità	NOUN	S	Gender=Fem	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = La buona notizia del meteo, un Natale potenzialmente mite, non deve distrarci da questa verità scomoda.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meteo	meteo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Natale	Natale	PROPN	SP	_	3	nmod	_	_
+10	potenzialmente	potenzialmente	ADV	B	_	9	advmod	_	_
+11	mite	mito	ADP	E	_	15	mark	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15-16	distrarci	_	_	_	_	_	_	_	_
+15	distrar	distrarre	VERB	V	VerbForm=Inf	9	acl	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	15	expl	_	_
+17	da	da	ADP	E	_	19	case	_	_
+18	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	verità	verità	NOUN	S	Gender=Fem	15	obl	_	_
+20	scomoda	scomodo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Non è una conseguenza naturale della crisi climatica, né un’involontaria cortesia del clima.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	naturale	naturale	ADJ	A	Number=Sing	4	amod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem	4	nmod	_	_
+9	climatica	climatico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	né	né	CCONJ	CC	_	14	cc	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+13	involontaria	involontario	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	cortesia	cortesia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	clima	clima	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 15
+# text = Lo smog è il
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	smog	smog	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	SpacesAfter=\n
+

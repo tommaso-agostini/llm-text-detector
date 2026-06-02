@@ -1,0 +1,283 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Milano, Bologna, Napoli, Firenze, Padova, Pisa, Bari, Lecce e Messina,
+1	Milano	Milano	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	Bologna	Bologna	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	Napoli	Napoli	PROPN	SP	_	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Firenze	Firenze	PROPN	SP	_	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	Padova	Padova	PROPN	SP	_	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Pisa	Pisa	PROPN	SP	_	1	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	Bari	Bari	PROPN	SP	_	1	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	Lecce	Lecce	PROPN	SP	_	1	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Messina	Messina	PROPN	SP	_	1	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = sono state le città interessate dalla proposta di sfruttamento della ricerca
+1	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	state	essere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	città	città	NOUN	S	Gender=Fem	2	nsubj	_	_
+5	interessate	interessato	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	sfruttamento	sfruttamento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Dimostrata la necessità di provvedere ad una riforma strutturale
+1	Dimostrata	Dimostrare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	necessità	necessità	NOUN	S	Gender=Fem	1	nsubj:pass	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	provvedere	provvedere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	strutturale	strutturale	ADJ	A	Number=Sing	8	amod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = che consenta ai nostri ricercatori di rimanere e di diventare punto di forza per il nostro Paese
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	consenta	consentire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	rimanere	rimanere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	diventare	diventare	VERB	V	VerbForm=Inf	8	conj	_	_
+12	punto	punto	NOUN	S	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	forza	forza	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	per	per	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = situato sull'ultima posizione per numero di ricercatori per abitanti sul totale
+1	situato	situare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2-3	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+2	su	su	ADP	E	_	5	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	numero	numero	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	abitanti	abitante	NOUN	S	Number=Plur	9	nmod	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	totale	totale	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = nei 28 Paesi dell'Unione Europea.
+1-2	nei	_	_	_	_	_	_	_	_
+1	in	in	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	28	28	NUM	N	NumType=Card	4	nummod	_	_
+4	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Unione	Unione	PROPN	SP	_	4	nmod	_	_
+8	Europea	Europea	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Non solo fuga di cervelli ma quotidianamente di giovani esperti dall'estero
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cervelli	cervello	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	ma	ma	CCONJ	CC	_	10	cc	_	_
+7	quotidianamente	quotidiano	ADV	B	_	10	advmod	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	giovani	giovane	ADJ	A	Number=Plur	10	amod	_	_
+10	esperti	esprire	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+11-12	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+11	da	da	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	estero	estero	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = tanti sono anche quelli che si laureano in Italia non passando più
+1	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	laureano	laureare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	7	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	passando	passare	VERB	V	VerbForm=Ger	7	advcl	_	_
+12	più	più	ADV	B	_	11	advmod	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = in questo paese dopo gli studi obbligati,ma invece scegliendo di continuare le proprie ricerche altrove.
+1	in	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	dopo	dopo	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	studi	studio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+7	obbligati,ma	obbligati,mo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	invece	invece	ADV	B	_	7	advmod	_	_
+9	scegliendo	scegliere	VERB	V	VerbForm=Ger	7	advcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	continuare	continuare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+15	altrove	altrove	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Le tu loro necessità non soddisfatye li costringe ad andare via facendo vana ogni possibilità di
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	necessità	necessità	NOUN	S	Gender=Fem	2	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	soddisfatye	soddisfatye	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	costringe	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	xcomp	_	_
+9	ad	a	ADP	E	_	10	mark	_	_
+10	andare	andare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	via	via	ADV	B	_	10	advmod	_	_
+12	facendo	fare	VERB	V	VerbForm=Ger	10	advcl	_	_
+13	vana	vano	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	possibilità	possibilità	NOUN	S	Gender=Fem	12	obj	_	_
+16	di	di	ADP	E	_	15	case	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 11
+# text = cambiare celermente la loro vita privata e lavorativa senza dimenticare che da inutili allo stato e privati di non esserequei esperti che avevano giusto di modo poco contribuiscono all'innovazione,in una parola impossibile imprenditori senza applicazione delle loro scoperte.Invitare un consistente miglioramento da parte delle istituzioni italiane nei precendenti 30 anni è facile ma difficile nell'odierna situazione
+1	cambiare	cambiare	VERB	V	VerbForm=Inf	0	root	_	_
+2	celermente	celermente	ADV	B	_	1	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	loro	loro	DET	AP	Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+6	privata	privato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	lavorativa	lavorativo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	senza	senza	ADP	E	_	10	mark	_	_
+10	dimenticare	dimenticare	VERB	V	VerbForm=Inf	1	advcl	_	_
+11	che	che	SCONJ	CS	_	29	mark	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	inutili	inutile	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+14-15	allo	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	stato	stato	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	privati	privato	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+19	di	di	ADP	E	_	29	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+21	esserequei	esserequello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
+22	esperti	esperto	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	_
+23	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+24	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	_
+25	giusto	giusto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	modo	modo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+28	poco	poco	ADV	B	_	29	advmod	_	_
+29	contribuiscono	contribuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+30-31	all'	_	_	_	_	_	_	_	SpaceAfter=No
+30	a	a	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	innovazione,in	innovazione,in	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	parola	parola	NOUN	S	Gender=Fem|Number=Sing	58	nsubj	_	_
+35	impossibile	impossibile	ADJ	A	Number=Sing	34	amod	_	_
+36	imprenditori	imprenditore	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+37	senza	senza	ADP	E	_	38	case	_	_
+38	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+39-40	delle	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	loro	loro	PRON	PE	Person=3|PronType=Prs	36	nmod	_	_
+42	scoperte.Invitare	scoperte.Invitare	VERB	V	VerbForm=Inf	36	acl	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	consistente	consistente	ADJ	A	Number=Sing	45	amod	_	_
+45	miglioramento	miglioramento	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+46	da	da	ADP	E	_	47	case	_	_
+47	parte	parte	NOUN	S	Gender=Fem|Number=Sing	45	nmod	_	_
+48-49	delle	_	_	_	_	_	_	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+50	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	47	nmod	_	_
+51	italiane	italiano	ADJ	A	Gender=Fem|Number=Plur	50	amod	_	_
+52-53	nei	_	_	_	_	_	_	_	_
+52	in	in	ADP	E	_	56	case	_	_
+53	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+54	precendenti	precendente	ADJ	A	Number=Plur	56	amod	_	_
+55	30	30	NUM	N	NumType=Card	56	nummod	_	_
+56	anni	anno	NOUN	S	Gender=Masc|Number=Plur	50	nmod	_	_
+57	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	cop	_	_
+58	facile	facile	ADJ	A	Number=Sing	29	ccomp	_	_
+59	ma	ma	CCONJ	CC	_	60	cc	_	_
+60	difficile	difficile	ADJ	A	Number=Sing	58	conj	_	_
+61-62	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+61	in	in	ADP	E	_	64	case	_	_
+62	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	64	det	_	_
+63	odierna	odierno	ADJ	A	Gender=Fem|Number=Sing	64	amod	_	_
+64	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	60	obl	_	SpacesAfter=\s\t\t\t\t\t\t\t\t\t\s\t\n\n\n\n
+
+# newpar
+# sent_id = 12
+# text = L'amore per il proprio paese necessita ed esce dalla nomenclatura di sfortuna entrando nell'ordin
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	amore	amore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	necessita	necessitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	esce	uscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	nomenclatura	nomenclatura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	sfortuna	sfortuna	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	entrando	entrare	VERB	V	VerbForm=Ger	9	advcl	_	_
+16-17	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	in	in	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	ordin	ordin	NOUN	S	Gender=Masc	15	obl	_	SpacesAfter=\n
+

@@ -1,0 +1,157 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sì, perché Mancini è accusato di aver commesso attentati a un giovane uomo, colpevole inoltre di lesioni.
+1	Sì	sì	INTJ	I	Polarity=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	perché	perché	SCONJ	CS	_	6	mark	_	_
+4	Mancini	Mancini	PROPN	SP	_	6	nsubj:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	accusato	accusare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	commesso	commettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+10	attentati	attentato	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	giovane	giovane	ADJ	A	Number=Sing	14	amod	_	_
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	colpevole	colpevole	ADJ	A	Number=Sing	14	amod	_	_
+17	inoltre	inoltre	ADV	B	_	19	advmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Le accuse avanzate dal giovane ripetono versioni violente e prevaricatorie.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+3	avanzate	avanzare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giovane	giovane	NOUN	S	Number=Sing	3	obl:agent	_	_
+7	ripetono	ripetere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	versioni	versione	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	violente	violento	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	prevaricatorie	prevaricatorio	ADJ	A	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = E se l'incidente si fosse verificato in occasioner di visita della squadra a Londra?
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	se	se	SCONJ	CS	_	7	mark	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	incidente	incidente	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+6	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	verificato	verificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	occasioner	occasioner	NOUN	S	Gender=Masc	7	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	visita	visita	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Londra	Londra	PROPN	SP	_	7	obl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Il giovane che assicura di essere stato vittima delle minacce di un ex playa fullName di prestigio ha denunciato l ex miliano, accusandolo di avergli inflituo 13 lesioni, compresi più graffi profondi e offre Ingram.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	giovane	giovane	NOUN	S	Number=Sing	20	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	assicura	assicurare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	di	di	ADP	E	_	8	mark	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	8	aux	_	_
+7	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+8	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	4	ccomp	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	minacce	minaccia	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	ex	ex	ADJ	A	_	15	amod	_	_
+15	playa	playa	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	fullName	fullName	ADJ	A	Number=Sing	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	prestigio	prestigio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	denunciato	denunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	l	l	X	X	_	20	obj	_	_
+22	ex	ex	ADJ	A	_	21	amod	_	_
+23	miliano	miliano	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25-26	accusandolo	_	_	_	_	_	_	_	_
+25	accusando	accusare	VERB	V	VerbForm=Ger	20	advcl	_	_
+26	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28-29	avergli	_	_	_	_	_	_	_	_
+28	aver	avere	VERB	V	VerbForm=Inf	25	xcomp	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+30	inflituo	inflituo	ADJ	A	Gender=Masc|Number=Sing	32	amod	_	_
+31	13	13	NUM	N	NumType=Card	32	nummod	_	_
+32	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	compresi	comprendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	conj	_	_
+35	più	più	ADV	B	_	36	advmod	_	_
+36	graffi	graffo	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+37	profondi	profondo	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	offre	offrire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+40	Ingram	Ingram	PROPN	SP	_	39	obj	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 5
+# text = \ Un collega recente di Mancini sulla Nazionale A effettivamente ha confermato le sue dinamiche risalenti a New Year.
+1	\	\	PUNCT	FF	_	3	punct	_	_
+2	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	collega	collega	NOUN	S	Number=Sing	13	nsubj	_	_
+4	recente	recente	ADJ	A	Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Mancini	Mancini	PROPN	SP	_	3	nmod	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Nazionale	Nazionale	NOUN	S	Number=Sing	3	nmod	_	_
+10	A	A	PROPN	SP	_	9	flat:name	_	_
+11	effettivamente	effettivamente	ADV	B	_	13	advmod	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	confermato	confermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	dinamiche	dinamiche	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+17	risalenti	risalento	ADJ	A	Number=Plur	16	amod	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	New	New	PROPN	SP	_	13	obl	_	_
+20	Year	Year	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 6
+# text = Per andare alle azzurre, Mancini dovrà conteatto l uffi cz Pubblico ministero per tornare in Italia.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	andare	andare	VERB	V	VerbForm=Inf	9	advcl	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	azzurre	azzurra	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	Mancini	Mancini	PROPN	SP	_	9	nsubj	_	_
+8	dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	conteatto	contearre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	l	l	X	X	_	9	obj	_	_
+11	uffi	uffo	NOUN	S	Gender=Masc|Number=Plur	10	compound	_	_
+12	cz	cz	NOUN	S	Gender=Masc	11	compound	_	_
+13	Pubblico	pubblico	PROPN	SP	_	12	nmod	_	_
+14	ministero	ministero	NOUN	S	Gender=Masc|Number=Sing	12	compound	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	tornare	tornare	VERB	V	VerbForm=Inf	9	advcl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Italia	Italia	PROPN	SP	_	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+

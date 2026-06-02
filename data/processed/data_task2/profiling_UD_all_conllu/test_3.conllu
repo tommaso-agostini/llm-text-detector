@@ -1,0 +1,343 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ",
+1	"	"	PUNCT	FB	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n\s
+
+# newpar
+# sent_id = 2
+# text = Come ha fatto sapere stamane il presidente solitas della Regione Autonoma della Sardegna, Cristian Solinas, attraverso i suoi canali social.
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	sapere	sapere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	stamane	stamano	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	compound	_	_
+8	solitas	solitas	NOUN	S	Gender=Masc	7	compound	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Regione	Regione	PROPN	SP	_	7	nmod	_	_
+12	Autonoma	autonoma	PROPN	SP	_	11	flat:name	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Sardegna	Sardegna	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	7	punct	_	_
+17	Cristian	Cristian	PROPN	SP	_	7	nmod	_	_
+18	Solinas	Solinas	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	7	punct	_	_
+20	attraverso	attraverso	ADP	E	_	23	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	canali	canale	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+24	social	social	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = "Siamo costretti a sfruttare i social network per documentare una tragedia che stiamo vivendo, una situazione insostenibile che purtroppo mischia il nostro bellissimo mare, con plastica e rifiuti di ogni tipo", ha aggiunto Solinas,共*Note* inviate foto e videozurando di inviare foto e video che possano documentare l'emergenza in corso.
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	sfruttare	sfruttare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	social	social	ADJ	A	Number=Sing	8	amod	_	_
+8	network	network	NOUN	S	Gender=Masc	5	obj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	documentare	documentare	VERB	V	VerbForm=Inf	5	advcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	vivendo	vivere	VERB	V	VerbForm=Ger	12	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	_
+19	insostenibile	insostenibile	ADJ	A	Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	purtroppo	purtroppo	ADV	B	_	22	advmod	_	_
+22	mischia	mischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+24	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+25	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	26	amod	_	_
+26	mare	mare	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	22	punct	_	_
+28	con	con	ADP	E	_	29	case	_	_
+29	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	34	det	_	_
+34	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	18	punct	_	_
+37	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
+39	Solinas,共*Note*	Solinas,共*Note*	PROPN	SP	_	38	obj	_	_
+40	inviate	inviare	ADJ	A	Gender=Fem|Number=Plur	41	amod	_	_
+41	foto	foto	NOUN	S	Gender=Fem	39	nmod	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	videozurando	videozurare	VERB	V	VerbForm=Ger	38	conj	_	_
+44	di	di	ADP	E	_	45	mark	_	_
+45	inviare	inviare	VERB	V	VerbForm=Inf	43	xcomp	_	_
+46	foto	foto	NOUN	S	Gender=Fem	45	obj	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	video	video	NOUN	S	Gender=Masc|Number=Sing	46	conj	_	_
+49	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+50	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	documentare	documentare	VERB	V	VerbForm=Inf	48	acl:relcl	_	_
+52	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
+53	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	_
+54	in	in	ADP	E	_	55	case	_	_
+55	corso	corso	NOUN	S	Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = La richiesta si inserisce in un contesto di emergenza ambientale e sanitaria che la Sardegna sta affrontando da giorni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	inserisce	inserire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	emergenza	emergenza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	ambientale	ambientale	ADJ	A	Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	sanitaria	sanitario	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	_
+13	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Sardegna	Sardegna	PROPN	SP	_	17	nsubj	_	_
+16	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	affrontando	affrontare	VERB	V	VerbForm=Ger	9	acl:relcl	_	_
+18	da	da	ADP	E	_	19	case	_	_
+19	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Sulle coste sarde, infatti, si è abbattuta una mareggiata eccezionale che ha portato a riva tonnellate di rifiuti, prevalentemente di plastica, provenienti da paesi stranieri.
+1-2	Sulle	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	coste	costo	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+4	sarde	sarda	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	infatti	infatti	ADV	B	_	10	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	abbattuta	abbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	mareggiata	mareggiata	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+13	eccezionale	eccezionale	ADJ	A	Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	riva	riva	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	tonnellate	tonnellato	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	16	punct	_	_
+23	prevalentemente	prevalentemente	ADV	B	_	25	advmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	16	punct	_	_
+27	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	16	acl	_	_
+28	da	da	ADP	E	_	29	case	_	_
+29	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	27	obl	_	_
+30	stranieri	straniero	ADJ	A	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 6
+# text = L'impatto visivo è drammatico:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	visivo	visivo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 7
+# text = spiagge un tempo incontaminate ora sommerse da una coltre di detriti, animali marini arenati in mezzo a bottiglie, sacchetti e centinaia di altri oggetto di plastica.
+1	spiagge	spiaggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	incontaminate	incontaminato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5	ora	ora	ADV	B	_	6	advmod	_	_
+6	sommerse	sommergere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	xcomp	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	coltre	coltro	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	detriti	detrito	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	animali	animale	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+14	marini	marino	ADJ	A	Number=Plur	11	amod	_	_
+15	arenati	arenare	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	bottiglie	bottiglia	NOUN	S	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	sacchetti	sacchetto	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+22	e	e	CCONJ	CC	_	23	cc	_	_
+23	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	19	conj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La situazione sta suscitando indignazione e commozione tra i cittadini e una parte consistente dei turisti che in queste settimane affollano le coste sarde.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	suscitando	suscitare	VERB	V	VerbForm=Ger	0	root	_	_
+5	indignazione	indignazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	commozione	commozione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+8	tra	tra	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+14	consistente	consistente	ADJ	A	Number=Sing	13	amod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+18	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	21	det	_	_
+21	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	22	obl	_	_
+22	affollano	affollare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	coste	costo	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+25	sarde	sarda	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Moltiայր hanno deciso di scolpire la tragedia con i loro smartphone, Lasciando immagini e video che testimoniano l'abbandono in cui versa il nostro mare.
+1	Moltiայր	Moltiայր	PROPN	SP	_	3	nsubj	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	scolpire	scolpire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tragedia	tragedia	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	smartphone	smartphone	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	5	punct	_	_
+13	Lasciando	lasciare	VERB	V	VerbForm=Ger	5	advcl	_	_
+14	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	video	video	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	testimoniano	testimoniare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	abbandono	abbandono	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cui	cui	PRON	PR	PronType=Rel	23	obl	_	_
+23	versa	verdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	mare	mare	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Una situazione, quella sarda, che fa il paio con altre emergenze ambientali che ticchettano in diverse parti del Mediterraneo, dall'Italia alla Grecia fino ahol Pasifica
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	conj	_	_
+5	sarda	sardare	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	paio	paio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	altre	altro	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	emergenze	emergenza	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	_
+14	ambientali	ambientale	ADJ	A	Number=Plur	13	amod	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	ticchettano	ticchettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+19	parti	parte	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Mediterraneo	Mediterraneo	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	2	punct	_	_
+24-25	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+24	da	da	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	Italia	Italia	PROPN	SP	_	2	nmod	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Grecia	Grecia	PROPN	SP	_	32	nmod	_	_
+30	fino	fino	ADP	E	_	32	case	_	_
+31	ahol	ahol	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Pasifica	Pasifico	PROPN	SP	_	0	root	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 11
+# text = La Regione, dal canto suo, ha attivato una task force per la bonifica delle spiagge, ma le quantità in gioco sono davvero ingenti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Regione	regione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	canto	canto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	attivato	attivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	task	task	NOUN	S	_	10	obj	_	_
+13	force	forcia	NOUN	S	_	12	compound	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	bonifica	bonifica	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	spiagge	spiaggia	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	28	punct	_	_
+21	ma	ma	CCONJ	CC	_	28	cc	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	quantità	quantità	NOUN	S	Gender=Fem	28	nsubj	_	_
+24	in	in	ADP	E	_	25	case	_	_
+25	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	davvero	davvero	ADV	B	_	28	advmod	_	_
+28	ingenti	ingente	ADJ	A	Number=Plur	10	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 12
+# text = "Stiamo facendo il possibile, ma abbiamo bisogno di una
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	possibile	possibile	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	ma	ma	CCONJ	CC	_	8	cc	_	_
+8	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpacesAfter=\n
+

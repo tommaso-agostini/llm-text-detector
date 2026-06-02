@@ -1,0 +1,376 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma perché così tanta ostilità verso l'ultima opera del regista premio Oscar Darren Aronofsky?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	perché	perché	SCONJ	CS	_	5	mark	_	_
+3	così	così	ADV	B	_	5	advmod	_	_
+4	tanta	tanto	DET	DQ	Gender=Fem|Number=Sing|PronType=Int	5	det	_	_
+5	ostilità	ostilità	NOUN	S	Gender=Fem	0	root	_	_
+6	verso	verso	ADP	E	_	9	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+8	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	opera	opera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	regista	regista	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	premio	premio	NOUN	S	Gender=Masc|Number=Sing	12	compound	_	_
+14	Oscar	Oscar	PROPN	SP	_	13	nmod	_	_
+15	Darren	Darren	PROPN	SP	_	14	flat:name	_	_
+16	Aronofsky	Aronofsky	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Il film racconta la storia di una giovane donna (interpretata da Jennifer Lawrence) che vive in una casa isolata con il marito (Javier Bardem), un poeta bloccato nella sua creatività.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	film	film	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	storia	storia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	giovane	giovane	ADJ	A	Number=Sing	9	amod	_	_
+9	donna	donna	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	interpretata	interpretare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Jennifer	Jennifer	PROPN	SP	_	11	obl:agent	_	_
+14	Lawrence	Lawrence	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	11	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	casa	casa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	isolata	isolato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22	con	con	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	marito	marito	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	Javier	Javier	PROPN	SP	_	24	appos	_	_
+27	Bardem	Bardem	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	)	)	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	24	punct	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+32	bloccato	bloccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+33-34	nella	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	36	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	creatività	creatività	NOUN	S	Gender=Fem	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = La loro tranquilla esistenza viene presto sconvolta dall'arrivo di uno sconosciuto (Ed Harris) e della moglie (Michelle Pfeiffer), che portano con sé una serie di eventi inquietanti e violenti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	esistenza	esistenza	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+5	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	presto	presto	ADV	B	_	7	advmod	_	_
+7	sconvolta	sconvolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nmod	_	_
+13	sconosciuto	sconosciuto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	amod	_	_
+14	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Ed	Ed	PROPN	SP	_	12	appos	_	_
+16	Harris	Harris	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	15	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	Michelle	Michelle	PROPN	SP	_	21	appos	_	_
+24	Pfeiffer	Pfeiffer	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	21	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	portano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+29	con	con	ADP	E	_	30	case	_	_
+30	sé	sé	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	28	obl	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	serie	serie	NOUN	S	Gender=Fem	28	obj	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+35	inquietanti	inquietante	ADJ	A	Number=Plur	34	amod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	violenti	violento	ADJ	A	Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Ma è proprio l'ambientazione e la поэtica linfa millenaria che pervadono ogni attimo del film a lasciare il pubblico italiano attonito e incredulo.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	proprio	proprio	ADV	B	_	5	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ambientazione	ambientazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	поэtica	поэtico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	linfa	linfa	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+10	millenaria	millenario	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	pervadono	pervadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+14	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	film	film	NOUN	S	Gender=Masc	14	nmod	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	lasciare	lasciare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	attonito	attonito	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	incredulo	incredulo	ADJ	A	Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Mother!
+1	Mother	Mother	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Questo film ambientato negli Stati Uniti, ha un forte messaggio che rimanda alla passività femminile, al consumerismo, alla religione, fino ad un웨런 rycaen che strilla in tedesco.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	film	film	NOUN	S	Gender=Masc	9	nsubj	_	_
+3	ambientato	ambientare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Stati	Stati	PROPN	SP	_	3	obl	_	_
+7	Uniti	Uniti	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	forte	forte	ADJ	A	Number=Sing	12	amod	_	_
+12	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	rimanda	rimandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15-16	alla	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	passività	passività	NOUN	S	Gender=Fem	14	obl	_	_
+18	femminile	femminile	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	22	punct	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	consumerismo	consumerismo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	26	punct	_	_
+24-25	alla	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	religione	religione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	9	punct	_	_
+28	fino	fino	ADV	B	_	30	case	_	_
+29	ad	a	ADP	E	_	28	fixed	_	_
+30	un웨런	un웨런	PROPN	SP	_	9	obl	_	_
+31	rycaen	rycaen	X	SW	Foreign=Yes	33	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	strilla	strillare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+34	in	in	ADP	E	_	35	case	_	_
+35	tedesco	tedesco	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Un Hopper ultra-virato, persino irriconoscibile.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hopper	Hopper	PROPN	SP	_	0	root	_	_
+3	ultra	ultra	ADJ	A	_	2	amod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	virato	virato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	persino	persino	ADV	B	_	8	advmod	_	_
+8	irriconoscibile	irriconoscibile	ADJ	A	Number=Sing	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Un pugno in un occhio di un perbenismo tantoそして testify accigliato che arriva a far rimpiangere persino il finale di "Titanic".
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	occhio	occhio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	perbenismo	perbenismo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	tantoそして	tantoそして	PROPN	SP	_	8	nmod	_	_
+10	testify	testify	NOUN	S	Gender=Masc	9	appos	_	_
+11	accigliato	accigliare	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	far	fare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	rimpiangere	rimpiangere	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	persino	persino	ADV	B	_	16	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	finale	finale	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	Titanic	Titanic	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = L'artista Darren Aronofsky è famoso per la sua abilità nel creare film che si discostano dalle aspettative del pubblico e spingono i confini della morale e dell'immaginazione.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	artista	artista	NOUN	S	Number=Sing	6	nsubj	_	_
+3	Darren	Darren	PROPN	SP	_	2	nmod	_	_
+4	Aronofsky	Aronofsky	PROPN	SP	_	3	flat:name	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	abilità	abilità	NOUN	S	Gender=Fem	6	obl	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	creare	creare	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+14	film	film	NOUN	S	Gender=Masc	10	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	discostano	discostare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18-19	dalle	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	aspettative	aspettativa	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	spingono	spingere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	confini	confine	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28-29	della	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	morale	morale	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32-33	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+32	di	di	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Tuttavia, "Mother!" sembra aver superato il limite della comprensione per il pubblico italiano, che ha reagito con fischi e proteste durante la proiezione del film al Festival del cinema di Venezia.
+1	Tuttavia	tuttavia	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	Mother	Mother	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	4	punct	_	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	limite	limite	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	reagito	reagire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+23	con	con	ADP	E	_	24	case	_	_
+24	fischi	fisco	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	24	conj	_	_
+27	durante	durante	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	proiezione	proiezione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	film	film	NOUN	S	Gender=Masc	29	nmod	_	_
+33-34	al	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Festival	Festival	PROPN	SP	_	32	nmod	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	cinema	Cinema	NOUN	S	Gender=Masc	35	nmod	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	Venezia	Venezia	PROPN	SP	_	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = C'è anche chi critica il film per la sua mancanza di empatia e la sua incapacità di far identificare il pubblico con i personaggi, soprattutto con la protagonista.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	chi	chi	PRON	PR	Number=Sing|PronType=Rel	2	nsubj	_	_
+5	critica	critico	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	film	film	NOUN	S	Gender=Masc	5	obj	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	empatia	empatia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	incapacità	incapacità	NOUN	S	Gender=Fem	11	conj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	far	fare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	identificare	identificare	VERB	V	VerbForm=Inf	19	ccomp	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	30	punct	_	_
+27	soprattutto	soprattutto	ADV	B	_	30	advmod	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	protagonista	protagonista	NOUN	S	Number=Sing	25	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Logan, per esempio, ci dice che "Mother!
+1	Logan	Logan	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	Mother	Mother	PROPN	SP	_	7	ccomp	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 13
+# text = è un incubated nightmare, un incubo prolungato e frustrante
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	incubated	incubated	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	nightmare	nightmare	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	prolungato	prolungato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	frustrante	frustrante	ADJ	A	Number=Sing	8	conj	_	SpacesAfter=\n
+

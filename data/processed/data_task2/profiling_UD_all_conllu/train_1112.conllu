@@ -1,0 +1,547 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nella partita di andata era finita in pareggio, 1-1.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	partita	partita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	andata	andata	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	pareggio	pareggio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	1	1	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	1	1	NUM	N	NumType=Card	11	compound	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = È la Lazio a passare in vantaggio all'8' della ripresa con Gonzalez .
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Lazio	Lazio	PROPN	SP	_	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	passare	passare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+8	all'8'	all'8o	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ripresa	ripresa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	Gonzalez	Gonzalez	PROPN	SP	_	5	obl	_	_
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Poi un finale incredibile con la rete di Vidal al 91' e il 2-1 di Floccari un minuto dopo.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	finale	finale	NOUN	S	Gender=Masc|Number=Sing	20	nsubj	_	_
+4	incredibile	incredibile	ADJ	A	Number=Sing	3	amod	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	rete	rete	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Vidal	Vidal	PROPN	SP	_	7	nmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	91'	91'	NUM	N	NumType=Card	7	nummod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	2	2	NUM	N	NumType=Card	3	conj	_	SpaceAfter=No
+16	-1	-1	NUM	N	NumType=Card	15	flat	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Floccari	Floccaro	PROPN	SP	_	15	nmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+21	dopo	dopo	ADV	B	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 4
+# text = Infine, il doppio errore di Giovinco e Marchisio.
+1	Infine	infine	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	doppio	doppio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	errore	errore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Giovinco	Giovinco	PROPN	SP	_	5	nmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Marchisio	Marchisio	PROPN	SP	_	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = "Una serata da brividi".
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	serata	serata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	brividi	brividio	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Così Sergio Floccari ha definito la vittoria, dedicando il suo gol vittoria a "tutti quelli che lavorano lontano dalle luci dei riflettori.
+1	Così	così	ADV	B	_	5	advmod	_	_
+2	Sergio	Sergio	PROPN	SP	_	5	nsubj	_	_
+3	Floccari	Floccaro	PROPN	SP	_	2	flat:name	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	definito	definire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vittoria	vittoria	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	dedicando	dedicare	VERB	V	VerbForm=Ger	5	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	gol	goal	NOUN	S	Gender=Masc	9	obj	_	_
+13	vittoria	vittorio	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	_
+17	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	13	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	lontano	lontano	ADV	B	_	19	advmod	_	_
+21-22	dalle	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	luci	luce	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+24-25	dei	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	riflettori	riflettore	NOUN	S	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Sono contento di aver dato il mio contributo decisivo a un risultato come questo".
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	decisivo	decisivo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ora l’avversario in finale sarà la Roma o l’Inter.
+1	Ora	ora	ADV	B	_	8	advmod	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	finale	finale	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Roma	Roma	PROPN	SP	_	0	root	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Inter	Inter	PROPN	SP	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = In avvio di gara, la Juve ha iniziato come aveva finito sabato scorso contro il Genoa:
+1	In	in	ADP	E	_	2	case	_	_
+2	avvio	avvio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	gara	gara	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Juve	Juve	PROPN	SP	_	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	come	come	SCONJ	CS	_	12	mark	_	_
+11	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+13	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+14	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	contro	contro	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Genoa	Genoa	PROPN	SP	_	12	obl	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 10
+# text = reclamando un rigore non dato.
+1	reclamando	reclamare	VERB	V	VerbForm=Ger	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rigore	rigore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = All’8’ il portiere laziale Marchetti ha atterrato Vucinic con un’uscita bassa.
+1-2	All’	_	_	_	_	_	_	_	SpaceAfter=No
+1	A	a	ADP	E	_	5	case	_	_
+2	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+3	8’	8o	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	portiere	portiera	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+6	laziale	laziale	ADJ	A	Number=Sing	5	amod	_	_
+7	Marchetti	Marchetti	PROPN	SP	_	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	atterrato	atterrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	Vucinic	Vucinic	PROPN	SP	_	9	obj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	bassa	basso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 12
+# text = Inutili le proteste nei confronti dell’arbitro Banti che non si è neppure consultato con il suo assistente.
+1	Inutili	inutile	ADJ	A	Number=Plur	3	amod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	proteste	protesta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	Banti	Bante	PROPN	SP	_	9	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	neppure	neppure	ADV	BN	PronType=Neg	16	advmod	_	_
+16	consultato	consultare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	assistente	assistente	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Per vedere invece il primo acuto della Lazio, e in assoluto il primo tiro della partita, ci sono voluti 26 minuti.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	vedere	vedere	VERB	V	VerbForm=Inf	23	advcl	_	_
+3	invece	invece	ADV	B	_	2	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+6	acuto	acuto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Lazio	Lazio	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	assoluto	assoluto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
+16	tiro	tiro	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	partita	partita	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	2	punct	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	voluti	volere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+24	26	26	NUM	N	NumType=Card	25	nummod	_	_
+25	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	23	punct	_	_
+
+# sent_id = 14
+# text = La conclusione di Hernanes da fuori area è però finita molto alta sopra la traversa della porta difesa da Storari.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Hernanes	Hernanes	PROPN	SP	_	2	nmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	fuori	fuori	ADV	B	_	4	advmod	_	_
+7	area	area	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	però	però	ADV	B	_	10	advmod	_	_
+10	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	molto	molto	ADV	B	_	12	advmod	_	_
+12	alta	alto	ADJ	A	Gender=Fem|Number=Sing	10	xcomp	_	_
+13	sopra	sopra	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	traversa	traverso	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	porta	porta	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	difesa	difesa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	Storari	Storari	PROPN	SP	_	19	obl:agent	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 15
+# text = Al 29’ è stata la volta della Lazio reclamare un rigore per un intervento di Isla su Klose.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	29’	29o	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Lazio	Lazio	PROPN	SP	_	7	nmod	_	_
+11	reclamare	reclamare	VERB	V	VerbForm=Inf	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rigore	rigore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Isla	Isla	PROPN	SP	_	16	nmod	_	_
+19	su	su	ADP	E	_	20	case	_	_
+20	Klose	Klose	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 16
+# text = Anche in questo caso il giudice di gara ha sorvolato.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	giudice	giudice	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	gara	gara	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sorvolato	sorvolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 17
+# text = Nei minuti di recupero prima Vucinic e poi Giovinco hanno avuto sui piedi l’occasione del vantaggio, ma Marchetti con una respinta a mani aperte sulla conclusione del montenegrino e poi con una parata sulla "ciabattata" della formica atomica ha detto di no.
+1-2	Nei	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	recupero	recuperare	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	prima	prima	ADV	B	_	7	advmod	_	_
+7	Vucinic	Vucinic	PROPN	SP	_	12	nsubj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	poi	poi	ADV	B	_	10	advmod	_	_
+10	Giovinco	Giovinco	PROPN	SP	_	7	conj	_	_
+11	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13-14	sui	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	ma	ma	CCONJ	CC	_	23	cc	_	_
+23	Marchetti	Marchetti	PROPN	SP	_	12	conj	_	_
+24	con	con	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	respinta	respinta	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	mani	mano	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	_
+29	aperte	aperto	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	_
+30-31	sulla	_	_	_	_	_	_	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	conclusione	conclusione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	montenegrino	montenegrino	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	e	e	CCONJ	CC	_	40	cc	_	_
+37	poi	poi	ADV	B	_	40	advmod	_	_
+38	con	con	ADP	E	_	40	case	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	parata	parata	NOUN	S	Gender=Fem|Number=Sing	51	nsubj	_	_
+41-42	sulla	_	_	_	_	_	_	_	_
+41	su	su	ADP	E	_	44	case	_	_
+42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	"	"	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	ciabattata	ciabattata	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+45	"	"	PUNCT	FB	_	44	punct	_	_
+46-47	della	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	formica	formica	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	_
+49	atomica	atomico	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	_
+50	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+52	di	di	ADP	E	_	53	case	_	_
+53	no	no	ADV	BN	PronType=Neg	51	advmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 18
+# text = Non ha invece sbagliato Gonzales all’8’ del secondo tempo.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	invece	invece	ADV	B	_	4	advmod	_	_
+4	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	Gonzales	Gonzales	PROPN	SP	_	4	obj	_	_
+6-7	all’	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	8’	8o	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Imbeccato da un bel lancio in profondità di Ledesma, "El Tata" ha sfruttato la disattenzione difensiva di Peluso e con un colpo di testa ha messo alle spalle dell’immobile Storari.
+1	Imbeccato	Imbeccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+2	da	da	ADP	E	_	5	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bel	bello	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	lancio	lancio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	profondità	profondità	NOUN	S	Gender=Fem	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Ledesma	Ledesma	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	El	El	PROPN	SP	_	16	nsubj	_	_
+13	Tata	Tata	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	12	punct	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	sfruttato	sfruttare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	disattenzione	disattenzione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	difensiva	difensivo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Peluso	Peluso	PROPN	SP	_	18	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	testa	testa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+30-31	alle	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+33-34	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+33	di	di	ADP	E	_	35	case	_	_
+34	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	immobile	immobile	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	Storari	Storari	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 20
+# text = La reazione bianconera è stata praticamente inesistente e solo con gli innesti in campo di Pirlo e Marchisio, la Juve è salita di quei 10-15 metri che hanno permesso per lo meno di stare con più insistenza nella metà campo laziale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reazione	reazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	bianconera	bianconero	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	praticamente	praticamente	ADV	B	_	7	advmod	_	_
+7	inesistente	inesistente	ADJ	A	Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	solo	solo	ADV	B	_	12	advmod	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	innesti	innesto	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	campo	campo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16-17	Pirlo	_	_	_	_	_	_	_	_
+16	Pir	Pir	PROPN	SP	_	12	nmod	_	_
+17	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Marchisio	Marchisio	PROPN	SP	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Juve	Juve	PROPN	SP	_	24	nsubj	_	_
+23	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	salita	salita	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+25	di	di	ADP	E	_	30	case	_	_
+26	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	30	det	_	_
+27	10	10	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+28	-	-	PUNCT	FF	_	27	punct	_	SpaceAfter=No
+29	15	15	NUM	N	NumType=Card	27	compound	_	_
+30	metri	metro	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+31	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+32	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	permesso	permettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	meno	meno	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37	di	di	ADP	E	_	38	mark	_	_
+38	stare	stare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+39	con	con	ADP	E	_	41	case	_	_
+40	più	più	ADV	B	_	41	advmod	_	_
+41	insistenza	insistenza	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+42-43	nella	_	_	_	_	_	_	_	_
+42	in	in	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	metà	metà	NOUN	S	Gender=Fem	45	obl	_	_
+45	campo	campo	NOUN	S	Gender=Masc|Number=Sing	38	obj	_	_
+46	laziale	laziale	ADJ	A	Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = In pieno recupero le emozioni più grandi:
+1	In	in	ADP	E	_	3	case	_	_
+2	pieno	pieno	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	recupero	recuperare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	emozioni	emozioni	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	grandi	grande	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 22
+# text = al 46’ un sinistro di Vidal sottoporta anticipa Radu e batte Marchetti ma due minuti più tardi è Floccari a regalare di testa la qualificazione su corner di Mauri.
+1-2	al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	5	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	46’	46o	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sinistro	sinistro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Vidal	Vidal	PROPN	SP	_	5	nmod	_	_
+8	sottoporta	sottoportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	anticipa	anticipare	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	Radu	Radu	PROPN	SP	_	8	obj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	batte	battere	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+13	Marchetti	Marchetti	PROPN	SP	_	12	nmod	_	_
+14	ma	ma	CCONJ	CC	_	20	cc	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	tardi	tardi	ADV	B	_	16	advmod	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	Floccari	Floccaro	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	regalare	regalare	VERB	V	VerbForm=Inf	20	advcl	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	testa	testa	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	qualificazione	qualificazione	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+27	su	su	ADP	E	_	28	case	_	_
+28	corner	corner	NOUN	S	Gender=Masc	26	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	Mauri	Mauri	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

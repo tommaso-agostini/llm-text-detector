@@ -1,0 +1,388 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Non sono così sicure come si pensa:
+1	Non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	così	così	ADV	B	_	7	advmod	_	_
+4	sicure	sicure	ADV	B	_	7	advmod	_	_
+5	come	come	ADV	B	_	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	7	punct	_	_
+
+# sent_id = 2
+# text = chiunque utilizzi i protocolli PGP , Pretty Good Privacy, e S/Mime, Secure Multipurpose Internet Mail Extension, per proteggere le proprie conversazioni digitali rischia grosso.
+1	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	2	nsubj	_	_
+2	utilizzi	utilizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	protocolli	protocollo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	PGP	PGP	PROPN	SP	_	4	nmod	_	_
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	Pretty	Pretty	PROPN	SP	_	4	nmod	_	_
+8	Good	Good	PROPN	SP	_	7	flat:name	_	_
+9	Privacy	privacy	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	S/Mime	S/Mimo	PROPN	SP	_	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	Secure	Secure	PROPN	SP	_	4	conj	_	_
+15	Multipurpose	Multipurposo	PROPN	SP	_	14	flat:name	_	_
+16	Internet	Internet	PROPN	SP	_	14	flat:name	_	_
+17	Mail	Mail	PROPN	SP	_	14	flat:name	_	_
+18	Extension	Extension	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	2	punct	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	proteggere	proteggere	VERB	V	VerbForm=Inf	26	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	conversazioni	conversazione	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+25	digitali	digitale	ADJ	A	Number=Plur	24	amod	_	_
+26	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	grosso	grosso	ADJ	A	Gender=Masc|Number=Sing	26	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	26	punct	_	_
+
+# sent_id = 3
+# text = Anche rispetto a quanto già inviato in passato.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	rispetto	rispetto	ADV	B	_	4	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	0	root	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	inviato	inviare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	passato	passato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Questi due protocolli sarebbero vulnerabili ad attacchi in grado di leggere i contenuti cifrati.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	protocolli	protocollo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	vulnerabili	vulnerabile	ADJ	A	Number=Plur	0	root	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	grado	grado	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	leggere	leggere	VERB	V	VerbForm=Inf	7	acl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	cifrati	cifrato	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Il ricercatore Sebastian Schinzel , docente alla tedesca Münster University of Applied Sciences, pubblicherà martedì mattina insieme ai suoi colleghi un documento in cui promette di illustrare nel dettaglio la vulnerabilità.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ricercatore	ricercatore	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	Sebastian	Sebastian	PROPN	SP	_	2	nmod	_	_
+4	Schinzel	Schinzel	PROPN	SP	_	3	flat:name	_	_
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	docente	docente	ADV	B	_	16	advmod	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tedesca	tedesco	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	Münster	Münster	PROPN	SP	_	16	nsubj	_	_
+11	University	University	PROPN	SP	_	10	flat:name	_	_
+12	of	of	ADP	E	_	13	case	_	_
+13	Applied	Applied	PROPN	SP	_	10	nmod	_	_
+14	Sciences	Sciences	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	pubblicherà	pubblicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+17	martedì	martedì	NOUN	S	Gender=Masc	16	obj	_	_
+18	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+19	insieme	insieme	ADV	B	_	23	case	_	_
+20-21	ai	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	documento	documento	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	cui	cui	PRON	PR	PronType=Rel	28	obl	_	_
+28	promette	promettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	illustrare	illustrare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+31-32	nel	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	dettaglio	dettaglio	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	vulnerabilità	vulnerabilità	NOUN	S	Gender=Fem	30	obj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 6
+# text = Secondo Schinzel l'uso di quei due protocolli potrebbe "rivelare il testo in chiaro delle mail cifrate, incluse mail cifrate che si sono inviate in passato".
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	Schinzel	Schinzel	PROPN	SP	_	11	obl	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	uso	uso	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	protocolli	protocollo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	rivelare	rivelare	VERB	V	VerbForm=Inf	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	testo	testo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	11	obl	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	mail	mail	NOUN	S	_	15	obl	_	_
+19	cifrate	cifrato	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	incluse	includere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+22	mail	mail	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	cifrate	cifrata	NOUN	S	Gender=Masc	21	obj	_	_
+24	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	inviate	inviare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	passato	passato	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+30	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 7
+# text = Inoltre, ha raccontato il professore su Twitter, "non esistono in questo momento delle soluzioni affidabili per la vulnerabilità.
+1	Inoltre	inoltre	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	parataxis	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	professore	professore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	su	su	ADP	E	_	8	case	_	_
+8	Twitter	Twitter	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	momento	momento	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	affidabili	affidabile	ADJ	A	Number=Plur	18	amod	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vulnerabilità	vulnerabilità	NOUN	S	Gender=Fem	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 8
+# text = Se usate PGP/GPG o S/Mime per comunicazioni molto sensibili, dovreste disabilitarli nel vostri client di email ora".
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	usate	usare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+3	PGP	PGP	PROPN	SP	_	2	obj	_	SpaceAfter=No
+4	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	GPG	GPg	PROPN	SP	_	3	flat:name	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	S/Mime	S/Mima	PROPN	SP	_	3	conj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	comunicazioni	comunicazione	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	sensibili	sensibile	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	dovreste	dovresta	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	14	obj	_	_
+14-15	disabilitarli	_	_	_	_	_	_	_	_
+14	disabilitar	disabilitare	VERB	V	VerbForm=Inf	0	root	_	_
+15	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	client	client	NOUN	S	Gender=Masc	14	obl	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	email	email	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	ora	ora	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 9
+# text = A rinforzare le rivelazioni dell'esperto c'è anche un approfondimento dell'organizzazione Electronic Frontier Foundation nel quale si conferma che "queste vulnerabilità pongono un rischio immediato per chi usa questi strumenti per la comunicazione email, inclusa la possibile esposizione di contenuti di messaggi passati".
+1	A	a	ADP	E	_	2	mark	_	_
+2	rinforzare	rinforzare	VERB	V	VerbForm=Inf	9	advcl	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	rivelazioni	rivelazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5-6	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	esperto	esperto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	SpaceAfter=No
+9	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	anche	anche	ADV	B	_	9	advmod	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	approfondimento	approfondimento	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	organizzazione	organizzazione	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	Electronic	electronic	ADJ	A	_	15	amod	_	_
+17	Frontier	Frontier	PROPN	SP	_	15	nmod	_	_
+18	Foundation	Foundation	PROPN	SP	_	17	flat:name	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	quale	quale	PRON	PR	Number=Sing|PronType=Rel	23	obl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl:impers	_	_
+23	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+24	che	che	SCONJ	CS	_	28	mark	_	_
+25	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+26	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	27	det	_	_
+27	vulnerabilità	vulnerabilità	NOUN	S	Gender=Fem	28	nsubj	_	_
+28	pongono	porre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	immediato	immediato	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	chi	chi	PRON	PR	Number=Sing|PronType=Rel	28	obl	_	_
+34	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+35	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	36	det	_	_
+36	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	34	obj	_	_
+37	per	per	ADP	E	_	39	case	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	comunicazione	comunicazione	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+40	email	emaile	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	39	punct	_	_
+42	inclusa	includere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	acl	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	possibile	possibile	ADJ	A	Number=Sing	45	amod	_	_
+45	esposizione	esposizione	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	contenuti	contenuto	NOUN	S	Gender=Masc|Number=Plur	45	nmod	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+50	passati	passato	ADJ	A	Gender=Masc|Number=Plur	49	amod	_	SpaceAfter=No
+51	"	"	PUNCT	FB	_	28	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 10
+# text = Il consiglio della Eff così come dei ricercatori è dunque di disabilitare immediatamente o disinstallare i sistemi di codifica dei client più diffusi, Outlook , Apple Mail e Thunderbird.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Eff	Eff	PROPN	SP	_	2	nmod	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	come	come	ADP	E	_	10	case	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	dunque	dunque	ADV	B	_	14	advmod	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	disabilitare	disabilitare	VERB	V	VerbForm=Inf	0	root	_	_
+15	immediatamente	immediato	ADV	B	_	14	advmod	_	_
+16	o	o	CCONJ	CC	_	17	cc	_	_
+17	disinstallare	disinstallare	VERB	V	VerbForm=Inf	14	conj	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	codifica	codifica	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	client	client	NOUN	S	Gender=Masc	19	nmod	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	diffusi	diffuso	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	Outlook	Outlook	PROPN	SP	_	24	conj	_	_
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	Apple	Apple	PROPN	SP	_	24	conj	_	_
+31	Mail	Mail	PROPN	SP	_	30	flat:name	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	Thunderbird	Thunderbird	PROPN	SP	_	19	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 11
+# text = Il riferimento è a plugin e add-on di codifica come Enigmail, GPGTools e Gpg4win)che integrano PGP nelle mail.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	plugin	plugino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	add-on	add-on	NOUN	S	Gender=Masc	5	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	codifica	codifica	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	come	come	ADP	E	_	11	case	_	_
+11	Enigmail	Enigmail	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	GPGTools	GPGTools	PROPN	SP	_	11	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Gpg4win	Gpg4win	PROPN	SP	_	11	conj	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	integrano	integrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+19	PGP	PGP	PROPN	SP	_	18	obj	_	_
+20-21	nelle	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	mail	mail	NOUN	S	_	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Finché le vulnerabilità descritte nel paper che sarà pubblicato domani non saranno meglio analizzate e comprese, il consiglio dei ricercatori è di usare altri canali cifrati come Signal.
+1	Finché	finché	ADV	B	_	15	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	vulnerabilità	vulnerabilità	NOUN	S	Gender=Fem	15	nsubj	_	_
+4	descritte	descrivere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	paper	paper	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj:pass	_	_
+9	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux:pass	_	_
+10	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	domani	domani	ADV	B	_	10	advmod	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+14	meglio	meglio	ADV	B	_	15	advmod	_	_
+15	analizzate	analizzare	ADJ	A	Gender=Fem|Number=Plur	24	advcl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	comprese	comprendere	ADJ	A	Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	ricercatori	ricercatore	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+24	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	usare	usare	VERB	V	VerbForm=Inf	24	ccomp	_	_
+27	altri	altro	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+28	canali	canale	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+29	cifrati	cifrato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+30	come	come	ADP	E	_	31	case	_	_
+31	Signal	Signal	PROPN	SP	_	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 13
+# text = Al momento, infatti, non esistono patch efficaci per risolvere la vulnerabilità.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	infatti	infatti	ADV	B	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	patch	patch	NOUN	S	_	8	nsubj	_	_
+10	efficaci	efficace	ADJ	A	Number=Plur	9	amod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	risolvere	risolvere	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vulnerabilità	vulnerabilità	NOUN	S	Gender=Fem	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+

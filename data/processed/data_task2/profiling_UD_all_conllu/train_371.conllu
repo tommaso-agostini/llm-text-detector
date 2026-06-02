@@ -1,0 +1,366 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Una frase forte, che non può lasciar indifferenti i cittadini di questo Paese.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	forte	forte	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	lasciar	lasciare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+9	indifferenti	indifferente	ADJ	A	Number=Plur	8	xcomp	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = E in effetti, la situazione dei cristiani in molte parti del mondo è allarmante.
+1	E	e	CCONJ	CC	_	17	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	parti	parte	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	allarmante	allarmante	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = Basti pensare alle persecuzioni in corso in Medio Oriente, dove molte comunità cristiane sono costrette a fuggire dalle loro case per sfuggire alla furia dei fondamentalisti;
+1	Basti	basto	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pensare	pensare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	persecuzioni	persecuzione	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	corso	corso	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Medio	Medio	PROPN	SP	_	7	nmod	_	_
+10	Oriente	Oriente	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	dove	dove	ADV	B	_	17	advmod	_	_
+13	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	comunità	comunità	NOUN	S	Gender=Fem	17	nsubj:pass	_	_
+15	cristiane	cristiano	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	costrette	costringere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	fuggire	fuggire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20-21	dalle	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	23	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	case	casa	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	sfuggire	sfuggire	VERB	V	VerbForm=Inf	19	advcl	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	furia	furia	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+29-30	dei	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	fondamentalisti	fondamentalista	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+32	;	;	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = o alle violenze che si verificano in Africa, dove cristiani e musulmani si fronteggiano in una spirale di violenza che sembra non avere fine.
+1	o	o	CCONJ	CC	_	4	cc	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	verificano	verificare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Africa	Africa	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	dove	dove	ADV	B	_	16	advmod	_	_
+12	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	musulmani	musulmano	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	fronteggiano	fronteggiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	spirale	spirale	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	23	nsubj	_	_
+23	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	avere	avere	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	fine	fine	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Di fronte a queste tragedie, il cardinale Bagnasco ha Pktato l'appello alla politica italiana di "fare rete", di unirsi in una lotta comune per la difesa dei cristiani persecutionati.
+1	Di	di	ADP	E	_	2	case	_	_
+2	fronte	fronte	NOUN	S	Number=Sing	11	obl	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	tragedie	tragedia	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cardinale	cardinale	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	Bagnasco	Bagnasco	PROPN	SP	_	8	nmod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	Pktato	Pktare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	appello	appello	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	politica	politica	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	di	di	ADP	E	_	20	mark	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	fare	fare	VERB	V	VerbForm=Inf	16	acl	_	_
+21	rete	rete	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25-26	unirsi	_	_	_	_	_	_	_	_
+25	unir	unire	VERB	V	VerbForm=Inf	20	xcomp	_	_
+26	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	25	expl	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	lotta	lotta	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+30	comune	comune	ADJ	A	Number=Sing	29	amod	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	difesa	difesa	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+34-35	dei	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+37	persecutionati	persecutionato	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Un invito che ci auguriamo trova presto una risposta positiva dalle istituzioni del nostro Paese.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	invito	invito	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	auguriamo	augurare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	presto	presto	ADV	B	_	6	advmod	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	positiva	positivo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11-12	dalle	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	istituzioni	istituzione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ma è giusto chiedersi:
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4-5	chiedersi	_	_	_	_	_	_	_	SpaceAfter=No
+4	chieder	chiedere	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = cosa può fare la politica italiana per difendere i cristiani persecutionati?
+1	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	politica	politica	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	difendere	difendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	persecutionati	persecutionato	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = In primo luogo, credo che sia necessario aumentare la pressione sulla comunità internazionale perché si adopri per porre fine a queste gravi persecuzioni.
+1	In	in	ADP	E	_	3	case	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	5	ccomp	_	_
+9	aumentare	aumentare	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pressione	pressione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	comunità	comunità	NOUN	S	Gender=Fem	11	nmod	_	_
+15	internazionale	internazionale	ADJ	A	Number=Sing	14	amod	_	_
+16	perché	perché	SCONJ	CS	_	18	mark	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl:impers	_	_
+18	adopri	adoprire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	porre	porre	VERB	V	VerbForm=Inf	18	advcl	_	_
+21	fine	fine	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+22	a	a	ADP	E	_	25	case	_	_
+23	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+24	gravi	grave	ADJ	A	Number=Plur	25	amod	_	_
+25	persecuzioni	persecuzione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = In secondo luogo, sarebbe importante che l'Italia, in collaborazione con gli altri Paesi europei, metta in campo iniziative concrete per accogliere e proteggere i cristiani costretti a fuggire dalle loro terre.
+1	In	in	ADP	E	_	3	case	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+7	che	che	SCONJ	CS	_	19	mark	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	Italia	Italia	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+13	con	con	ADP	E	_	16	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	altri	altro	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+17	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	metta	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	campo	campo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	iniziative	iniziativa	NOUN	S	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+23	concrete	concreto	ADJ	A	Gender=Fem|Number=Plur	22	amod	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	accogliere	accogliere	VERB	V	VerbForm=Inf	22	acl	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	proteggere	proteggere	VERB	V	VerbForm=Inf	25	conj	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	_
+30	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32	fuggire	fuggire	VERB	V	VerbForm=Inf	30	xcomp	_	_
+33-34	dalle	_	_	_	_	_	_	_	_
+33	da	da	ADP	E	_	36	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+35	loro	loro	DET	AP	Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	terre	terra	NOUN	S	Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 11
+# text = Non si tratta solo di una questione diophenyl attribution, ma di una questione di diritti umani.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	solo	solo	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	questione	questione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	diophenyl	diophenyl	ADJ	A	Number=Sing	7	amod	_	_
+9	attribution	attribution	ADP	E	_	14	case	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	ma	ma	CCONJ	CC	_	14	cc	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	questione	questione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	umani	umano	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = La persecuzione dei cristiani, infatti, è una violazione dei diritti fondamentali dell'umanità, e come tale deve essere combattuta con forza e decisione.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	persecuzione	persecuzione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	infatti	infatti	ADV	B	_	11	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	violazione	violazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	fondamentali	fondamentale	ADJ	A	Number=Plur	14	amod	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	umanità	umanità	NOUN	S	Gender=Fem	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	25	punct	_	_
+20	e	e	CCONJ	CC	_	25	cc	_	_
+21	come	come	SCONJ	CS	_	25	mark	_	_
+22	tale	tale	PRON	PD	Number=Sing|PronType=Dem	25	nsubj:pass	_	_
+23	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	essere	essere	AUX	VA	VerbForm=Inf	25	aux:pass	_	_
+25	combattuta	combattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+26	con	con	ADP	E	_	27	case	_	_
+27	forza	forza	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Speriamo quindi che l'appello di Bagnasco sia ascoltato e che la politica italiana si adopri per difendere i cristiani persecutionati, in Italia e nel mondo.
+1	Speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quindi	quindi	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	appello	appello	NOUN	S	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Bagnasco	Bagnasco	PROPN	SP	_	5	nmod	_	_
+8	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	ascoltato	ascoltare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+10	e	e	CCONJ	CC	_	16	cc	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	politica	politica	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+16	adopri	adoprire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	difendere	difendere	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	cristiani	cristiano	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+21	persecutionati	persecutionato	ADJ	A	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	Italia	Italia	PROPN	SP	_	20	nmod	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26-27	nel	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
