@@ -1,0 +1,51 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduzione}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Costruzione dei dataset}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Preprocessing linguistico}{2}{}\protected@file@percent }
+\newlabel{sec:preprocessing}{{3}{2}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Task 1: SVM lineari e n-grammi}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Rappresentazione del testo e \textit  {feature engineering}}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Selezione del modello tramite 5-fold cross-validation}{3}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Risultati della 5-fold cross-validation ordinati per Macro F1-score medio decrescente.}}{3}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:cv_results_svm}{{1}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Valutazione finale su validation e test set}{3}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Prestazioni sul test set (n-grammi di caratteri)}}{4}{}\protected@file@percent }
+\newlabel{tab:test_results}{{2}{4}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Matrice di confusione sul test set (n-grammi di caratteri)}}{4}{}\protected@file@percent }
+\newlabel{fig:confusion_matrix_test}{{1}{4}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Task 2: SVM lineari e informazioni linguistiche non lessicali}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Descrizione del task e delle feature utilizzate}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Prestazioni del modello LinearSVC ($C=1.0$) sui set di training, validation e test. La tabella riporta precision, recall e F1-score per classe, oltre ad accuracy e alle medie macro e pesata dell'F1-score.}}{4}{}\protected@file@percent }
+\newlabel{tab:svc_reports}{{2}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Analisi dei documenti di difficile classificazione}{5}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Esempi di documenti del test set con minima distanza dall’iperpiano decisionale (modello SVM con feature non lessicali)}}{5}{}\protected@file@percent }
+\newlabel{tab:doc_incerti}{{3}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Analisi delle feature più rilevanti}{5}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Top 20 feature per peso assoluto nella SVM lineare (ordinate per valore assoluto decrescente). Un peso negativo favorisce la classificazione nella classe umana, mentre un peso positivo favorisce la classificazione nella classe artificiale.}}{6}{}\protected@file@percent }
+\newlabel{tab:top_features}{{4}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Task 3: SVM lineari e word embeddings}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Strategie di aggregazione e risultati sul validation set}{6}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Confronto delle prestazioni per le diverse strategie di aggregazione (pooling) applicate ai word embedding sul validation set}}{6}{}\protected@file@percent }
+\newlabel{tab:pooling_results}{{5}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Valutazione finale sul test set}{7}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Prestazioni del modello LinearSVC sul test set (configurazione: vector\_sum\_B)}}{7}{}\protected@file@percent }
+\newlabel{tab:embeddings_test_report}{{6}{7}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Matrice di confusione sul test set (vector\_sum\_B)}}{7}{}\protected@file@percent }
+\newlabel{fig:embeddings_confusion}{{3}{7}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Task 4: Fine-tuning di un modello linguistico neurale}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Configurazione e pre-elaborazione}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Addestramento}{8}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Metriche di addestramento e validazione per epoca durante il fine-tuning di BERT.}}{8}{}\protected@file@percent }
+\newlabel{tab:bert_training}{{7}{8}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Risultati (BERT fine-tuned) sul test set.}}{8}{}\protected@file@percent }
+\newlabel{tab:bert_test}{{8}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Andamento della Training Loss e della Validation Loss durante le epoche di fine-tuning.}}{8}{}\protected@file@percent }
+\newlabel{fig:loss_curve_bert}{{4}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Valutazione sul test set}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Matrice di confusione sul test set (BERT)}}{9}{}\protected@file@percent }
+\newlabel{fig:conf_matrix_test}{{5}{9}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusioni}{9}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Prestazioni delle configurazioni migliori per ciascun task.}}{9}{}\protected@file@percent }
+\newlabel{tab:final_results}{{9}{9}{}{}{}}
+\gdef \@abspage@last{10}
