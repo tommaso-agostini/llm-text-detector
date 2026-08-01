@@ -1,7 +1,7 @@
 **llm-text-detector**  
 Computational Linguistics 2 Project  
    
-Obiettivo del progetto
+### Obiettivo del progetto
 Il progetto ha come finalità lo sviluppo di un sistema di classificazione testuale per affrontare il
 compito di machine-generated text detection, ovvero distinguere se un testo è stato scritto da
 un umano oppure generato automaticamente da un language model. Lo studente dovrà
