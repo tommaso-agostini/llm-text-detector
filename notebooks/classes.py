@@ -47,8 +47,8 @@ class Sentence:
         return len(self.tokens)
 
     def num_chars(self):
-        # caratteri delle parole + spazi tra parole
-        if not self.tokens: # controllo prima che la frase abbia token
+        # characters of the words + spaces between words
+        if not self.tokens: # check that the sentence actually has tokens
             return 0
         return sum(t.num_chars() for t in self.tokens) + (len(self.tokens) - 1)
 
@@ -59,10 +59,10 @@ class Sentence:
 class Document:
     
     def __init__(self, path, doc_id, split, label, sentences=None, features=None):
-        self.path = path            # percorso del file .conllu documento
-        self.doc_id =  doc_id       # id del documento
+        self.path = path            # path to the document's .conllu file
+        self.doc_id =  doc_id       # document id
         self.split = split          # train/test
-        self.label = label          # etichetta usata per la classificazione (topic)
+        self.label = label          # label used for classification (topic)
         if sentences is None:
             self.sentences = []
         else:
@@ -126,13 +126,13 @@ class Document:
             for line in f:
                 line = line.rstrip("\n")
 
-                # fine frase
+                # end of sentence
                 if line == "":
                     if sentence.num_tokens() > 0:
                         self.add_sentence(sentence)
                     continue
 
-                # commenti CoNLL-U
+                # CoNLL-U comments
                 if line.startswith("# text = "):
                     text = line[len("# text = "):]
                     sentence = Sentence(text=text)
@@ -143,7 +143,7 @@ class Document:
                 cols = line.split("\t")
              
                 tok_id = cols[0]
-                # salta multiword token (1-2) 
+                # skip multiword tokens (1-2) 
                 if "-" in tok_id:
                     continue
 
@@ -151,7 +151,7 @@ class Document:
                 token = Token(word=word, lemma=lemma, pos=pos)
                 sentence.add_token(token)
 
-        # ultima frase se il file non finisce con riga vuota
+        # last sentence in case the file doesn't end with a blank line
         if sentence.num_tokens() > 0:
             self.add_sentence(sentence)
 
